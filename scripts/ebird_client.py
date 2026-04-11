@@ -3,19 +3,25 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import logging
 import os
 import random
 import sys
+from datetime import datetime, timezone
+from pathlib import Path
 
 import requests
 
 logger = logging.getLogger(__name__)
 
 BASE_URL = "https://api.ebird.org/v2"
-REQUEST_TIMEOUT = 15
+REQUEST_TIMEOUT = 30
+TAXONOMY_TTL_DAYS = 30
 
+# Module-level cache; populated lazily from disk or the network.
 _taxonomy_cache: list[dict] | None = None
+_taxonomy_index: dict[str, dict] | None = None
 
 
 def get_api_key() -> str:
@@ -33,6 +39,7 @@ def _headers() -> dict[str, str]:
 def get_recent_observations(
     region: str, back: int = 14, locale: str = "es"
 ) -> list[dict]:
+    """Recent species-level observations for a region. Empty list on error."""
     url = f"{BASE_URL}/data/obs/{region}/recent"
     params = {
         "back": back,
@@ -43,28 +50,121 @@ def get_recent_observations(
         "locale": locale,
     }
     try:
-        resp = requests.get(url, headers=_headers(), params=params, timeout=REQUEST_TIMEOUT)
+        resp = requests.get(
+            url, headers=_headers(), params=params, timeout=REQUEST_TIMEOUT
+        )
         resp.raise_for_status()
         return resp.json()
-    except requests.exceptions.HTTPError as e:
+    except requests.HTTPError as e:
         logger.warning("HTTP %s from %s", e.response.status_code, url)
         return []
-    except (requests.exceptions.RequestException, ValueError) as e:
+    except (requests.RequestException, ValueError) as e:
         logger.warning("Error fetching %s: %s", url, e)
         return []
 
 
-def get_full_taxonomy(locale: str = "es") -> list[dict]:
-    global _taxonomy_cache
+def _taxonomy_cache_path(cache_dir: Path) -> Path:
+    return cache_dir / "taxonomy.json"
+
+
+def _load_taxonomy_from_disk(
+    cache_dir: Path, locale: str
+) -> list[dict] | None:
+    path = _taxonomy_cache_path(cache_dir)
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        logger.warning("Invalid taxonomy cache, ignoring")
+        return None
+
+    if data.get("locale") != locale:
+        logger.info("Taxonomy cache locale mismatch, will refetch")
+        return None
+
+    fetched_at = data.get("fetched_at")
+    if not fetched_at:
+        return None
+    try:
+        ts = datetime.fromisoformat(fetched_at)
+    except ValueError:
+        return None
+    age_days = (datetime.now(timezone.utc) - ts).days
+    if age_days > TAXONOMY_TTL_DAYS:
+        logger.info("Taxonomy cache expired (%d days old), will refetch", age_days)
+        return None
+
+    species = data.get("species") or []
+    if not isinstance(species, list) or not species:
+        return None
+    logger.info("Loaded taxonomy from cache (%d species, %d days old)", len(species), age_days)
+    return species
+
+
+def _save_taxonomy_to_disk(
+    species: list[dict], cache_dir: Path, locale: str
+) -> None:
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "fetched_at": datetime.now(timezone.utc).isoformat(),
+        "locale": locale,
+        "species": species,
+    }
+    _taxonomy_cache_path(cache_dir).write_text(
+        json.dumps(payload, ensure_ascii=False), encoding="utf-8"
+    )
+
+
+def get_full_taxonomy(
+    locale: str = "es", cache_dir: Path | None = None
+) -> list[dict]:
+    """Return the full eBird taxonomy, using a disk cache with monthly TTL."""
+    global _taxonomy_cache, _taxonomy_index
     if _taxonomy_cache is not None:
         return _taxonomy_cache
 
+    if cache_dir is not None:
+        disk = _load_taxonomy_from_disk(cache_dir, locale)
+        if disk is not None:
+            _taxonomy_cache = disk
+            _taxonomy_index = {sp["speciesCode"]: sp for sp in disk if sp.get("speciesCode")}
+            return _taxonomy_cache
+
+    logger.info("Fetching full taxonomy from eBird API (locale=%s)", locale)
     url = f"{BASE_URL}/ref/taxonomy/ebird"
     params = {"fmt": "json", "locale": locale, "cat": "species"}
-    resp = requests.get(url, headers=_headers(), params=params, timeout=60)
+    resp = requests.get(url, headers=_headers(), params=params, timeout=120)
     resp.raise_for_status()
-    _taxonomy_cache = resp.json()
+    species = resp.json()
+    _taxonomy_cache = species
+    _taxonomy_index = {
+        sp["speciesCode"]: sp for sp in species if sp.get("speciesCode")
+    }
+    if cache_dir is not None:
+        _save_taxonomy_to_disk(species, cache_dir, locale)
     return _taxonomy_cache
+
+
+def lookup_taxonomy(species_code: str) -> dict:
+    """Return order/family/etc. for a species code, if taxonomy was loaded."""
+    if _taxonomy_index is None:
+        return {}
+    sp = _taxonomy_index.get(species_code)
+    if not sp:
+        return {}
+    return {
+        k: sp[k]
+        for k in (
+            "order",
+            "familyComName",
+            "familySciName",
+            "familyCode",
+            "comName",
+            "sciName",
+        )
+        if sp.get(k)
+    }
 
 
 def _date_seed(date_str: str, salt: str = "") -> int:
@@ -72,7 +172,6 @@ def _date_seed(date_str: str, salt: str = "") -> int:
 
 
 def _pick_pool(pools: list[dict], date_str: str) -> dict:
-    """Deterministically select a pool based on the date."""
     seed = _date_seed(date_str)
     rng = random.Random(seed)
     weights = [p["weight"] for p in pools]
@@ -92,12 +191,11 @@ def _get_region_for_pool(pool: dict, date_str: str) -> str | None:
 
 def _select_from_observations(
     observations: list[dict],
-    history_codes: list[str],
+    history_codes: set[str],
     date_str: str,
     pool_id: str,
 ) -> dict | None:
-    """Select a species from observation data, biased toward rarer species."""
-    # Aggregate counts per species
+    """Aggregate observations by species and pick one with rarity bias."""
     species_map: dict[str, dict] = {}
     for obs in observations:
         code = obs.get("speciesCode")
@@ -116,7 +214,7 @@ def _select_from_observations(
         return None
 
     candidates = list(species_map.values())
-    # Rarity weighting: inverse of total count
+    # Inverse-howMany rarity bias: rarer species get higher weight.
     scores = [1.0 / c["total_count"] for c in candidates]
     seed = _date_seed(date_str, salt=pool_id)
     rng = random.Random(seed)
@@ -129,13 +227,13 @@ def _select_from_observations(
 
 
 def _select_from_taxonomy(
-    taxonomy: list[dict], history_codes: list[str], date_str: str
+    taxonomy: list[dict], history_codes: set[str], date_str: str
 ) -> dict | None:
-    """Select a random species from the full taxonomy."""
-    filtered = [sp for sp in taxonomy if sp.get("speciesCode") not in history_codes]
+    filtered = [
+        sp for sp in taxonomy if sp.get("speciesCode") and sp["speciesCode"] not in history_codes
+    ]
     if not filtered:
-        filtered = taxonomy  # extreme edge case: all 17k seen recently
-
+        filtered = taxonomy
     seed = _date_seed(date_str, salt="global")
     rng = random.Random(seed)
     sp = rng.choice(filtered)
@@ -146,61 +244,97 @@ def _select_from_taxonomy(
     }
 
 
+def _enrich_with_taxonomy(species: dict) -> dict:
+    """Augment a selection with order/family info from the taxonomy index."""
+    extra = lookup_taxonomy(species["speciesCode"])
+    # Don't overwrite comName/sciName already set; only fill missing.
+    for key, value in extra.items():
+        if not species.get(key):
+            species[key] = value
+    return species
+
+
+def _select_from_pool(
+    pool: dict,
+    history_codes: set[str],
+    date_str: str,
+    back: int,
+    locale: str,
+    cache_dir: Path | None,
+) -> dict | None:
+    pool_type = pool["type"]
+    if pool_type in ("regional", "europe_random"):
+        region = _get_region_for_pool(pool, date_str)
+        logger.info("Pool %s → region %s", pool["id"], region)
+        observations = get_recent_observations(region, back=back, locale=locale)
+        if not observations:
+            logger.warning("No observations returned for region %s", region)
+            return None
+        return _select_from_observations(observations, history_codes, date_str, pool["id"])
+
+    if pool_type == "global_taxonomy":
+        logger.info("Pool %s → global taxonomy", pool["id"])
+        try:
+            taxonomy = get_full_taxonomy(locale=locale, cache_dir=cache_dir)
+        except requests.RequestException:
+            logger.exception("Failed to fetch global taxonomy")
+            return None
+        return _select_from_taxonomy(taxonomy, history_codes, date_str)
+
+    logger.warning("Unknown pool type: %s", pool_type)
+    return None
+
+
 def select_species(
-    config: dict, history_codes: list[str], date_str: str
+    config: dict,
+    history_codes: list[str],
+    date_str: str,
+    cache_dir: Path | None = None,
 ) -> dict:
     """Select the bird of the day.
 
-    Picks a weighted pool, fetches candidates, deduplicates against history,
-    and selects with rarity bias. Falls back through other pools on failure.
+    Picks one weighted pool by date hash, queries it, and dedupes against
+    history. If that single attempt yields nothing (network error, empty
+    region, or every candidate already used), falls back **once** to the
+    global taxonomy pool — never an exhaustive cascade per plan §3.4.
     """
     pools = config["pools"]
     back = config.get("back_days", 14)
     locale = config.get("ebird_locale", "es")
+    history_set = set(history_codes)
 
-    # Deterministic pool selection
+    # Load taxonomy upfront so we can enrich the final pick regardless of pool.
+    try:
+        get_full_taxonomy(locale=locale, cache_dir=cache_dir)
+    except requests.RequestException:
+        logger.warning("Could not preload taxonomy; family/order may be missing")
+
     chosen_pool = _pick_pool(pools, date_str)
-    logger.info("Selected pool: %s", chosen_pool["id"])
+    logger.info("Selected pool: %s (weight=%s)", chosen_pool["id"], chosen_pool["weight"])
 
-    # Build ordered attempt list: chosen pool first, then the rest as fallbacks
-    attempt_order = [chosen_pool] + [p for p in pools if p["id"] != chosen_pool["id"]]
+    result = _select_from_pool(
+        chosen_pool, history_set, date_str, back, locale, cache_dir
+    )
+    if result:
+        return _enrich_with_taxonomy(result)
 
-    for pool in attempt_order:
-        pool_type = pool["type"]
+    # Single rescue attempt: global taxonomy.
+    logger.warning(
+        "Pool %s yielded no candidate; falling back to global taxonomy",
+        chosen_pool["id"],
+    )
+    rescue_pool = next(
+        (p for p in pools if p["type"] == "global_taxonomy"), None
+    )
+    if rescue_pool is None:
+        rescue_pool = {"id": "rescue", "type": "global_taxonomy"}
 
-        if pool_type in ("regional", "europe_random"):
-            region = _get_region_for_pool(pool, date_str)
-            logger.info("Fetching observations for region %s (pool: %s)", region, pool["id"])
-            observations = get_recent_observations(region, back=back, locale=locale)
-            if not observations:
-                logger.warning("No observations for %s, trying next pool", region)
-                continue
-            result = _select_from_observations(observations, history_codes, date_str, pool["id"])
-            if result:
-                logger.info("Selected %s from pool %s", result["comName"], pool["id"])
-                return result
-            logger.warning("All species in %s already in history, trying next pool", pool["id"])
+    result = _select_from_pool(
+        rescue_pool, history_set, date_str, back, locale, cache_dir
+    )
+    if result:
+        return _enrich_with_taxonomy(result)
 
-        elif pool_type == "global_taxonomy":
-            logger.info("Using global taxonomy pool")
-            try:
-                taxonomy = get_full_taxonomy(locale=locale)
-            except Exception:
-                logger.exception("Failed to fetch taxonomy")
-                continue
-            result = _select_from_taxonomy(taxonomy, history_codes, date_str)
-            if result:
-                logger.info("Selected %s from global taxonomy", result["comName"])
-                return result
-
-    # Last resort: any species from taxonomy (should never reach here)
-    logger.warning("All pools exhausted, falling back to unrestricted taxonomy pick")
-    taxonomy = get_full_taxonomy(locale=locale)
-    seed = _date_seed(date_str, salt="lastresort")
-    rng = random.Random(seed)
-    sp = rng.choice(taxonomy)
-    return {
-        "speciesCode": sp["speciesCode"],
-        "comName": sp.get("comName", sp["speciesCode"]),
-        "sciName": sp.get("sciName", ""),
-    }
+    raise RuntimeError(
+        "Could not select a species from any pool. Check EBIRD_API_KEY and network."
+    )

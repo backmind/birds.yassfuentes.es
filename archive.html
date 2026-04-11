@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Águila Imperial Ibérica — Ave del Día</title>
+  <title>Archivo — Ave del Día</title>
   <meta name="description" content="Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.">
   <meta name="theme-color" content="#F4EEE0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F1518" media="(prefers-color-scheme: dark)">
@@ -645,8 +645,8 @@ footer.site a { color: var(--ink-soft); }
       <h1><a href="index.html">Ave del Día</a></h1>
     </div>
     <nav aria-label="Principal">
-      <a href="index.html" aria-current="page">Hoy</a>
-      <a href="archive.html">Archivo</a>
+      <a href="index.html">Hoy</a>
+      <a href="archive.html" aria-current="page">Archivo</a>
       <a href="feed.xml">RSS</a>
       <button class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" onclick="(function(b){var h=document.documentElement;var c=h.dataset.theme;if(!c){c=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}var n=c==='dark'?'light':'dark';h.dataset.theme=n;try{localStorage.setItem('bird-theme',n);}catch(e){}})(this);">
   <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -656,26 +656,10 @@ footer.site a { color: var(--ink-soft); }
   </div>
 </header>
 <main id="main">
-<section class="plate hero" aria-labelledby="hero-title">
-  <div class="plate-head">
-    <span class="plate-number"><span class="glyph">№</span>&nbsp;3</span>
-    <span class="plate-date">2026 · 04 · 11</span>
-  </div>
-  <div class="plate-rule"><span class="ornament">❦</span></div>
-  <div class="plate-image"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/556403301/900" alt="Águila Imperial Ibérica" loading="eager" /></div><p class="plate-credit">© Ana  Mendes do Carmo / Macaulay Library</p>
-  <div class="plate-body">
-    <p class="specimen-tag">Accipitridae · Accipitriformes</p>
-    <h2 id="hero-title" class="plate-title">Águila Imperial Ibérica</h2>
-    <p class="plate-subtitle">Aquila adalberti</p>
-    <p class="plate-description">Águila muy escasa que se reproduce sólo en España y Portugal, con algunos inmaduros que se dispersan hacia el norte de África. Muy similar a su pariente más próximo el Imperial Eagle, pero es más oscura en general y los adultos tienen color blanco en hombros y en el borde de ataque del ala que puede verse desde abajo cuando vuela. Los jóvenes son rojizos y no tienen estrías en la parte superior o inferior de las alas ni en el pecho como ocurre en las Imperial Eagles que están fuertemente estriados. Principalmente se encuentra en zonas forestales, especialmente en aquellas que cuentan con altas densidades de conejos.</p><p class="plate-description">La Spanish Eagle, que originalmente poblaba el norte de África y la Península Ibérica, se redujo hasta casi extinguirse en la década de 1970, con apenas 50 parejas reproductoras registradas en 1974. Estas parejas restantes se retiraron a las montañas y reservas más remotas de España: Monte del Pardo (Madrid), Sierras de San Pedro y Monfragüe (Cáceres), Montes de Toledo (Toledo), y Sierra Morena y el Parque Nacional de Doñana (Andalucía). En Portugal y Marruecos fue extirpada (o casi) a finales del siglo XX.</p>
-    <div class="plate-foot">
-      <a href="https://ebird.org/species/spaeag1?siteLanguage=es">eBird</a>
-      <a href="https://es.wikipedia.org/wiki/Aquila_adalberti">Wikipedia</a>
-      <a href="https://birdsoftheworld.org/bow/species/spaeag1/cur/introduction">Birds of the World</a>
-      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=spaeag1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
-    </div>
-  </div>
-</section>
+<div class="archive-intro">
+<h1>Archivo</h1>
+<p>Todas las aves publicadas hasta la fecha.</p>
+</div>
 <aside class="subscribe" aria-label="Suscríbete al RSS">
   <div class="icon" aria-hidden="true">
     <svg viewBox="0 0 24 24" fill="currentColor">
@@ -688,33 +672,66 @@ footer.site a { color: var(--ink-soft); }
   </div>
   <a class="button" href="feed.xml">Suscribirse</a>
 </aside>
-<div class="section-divider"><span class="label">Aves recientes</span></div>
-<div class="grid">
-<article class="card">
-  <a href="archive.html#bird-vinlor1-2026-04-10">
-    <div class="card-thumb"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/205096511/900" alt="Lori Escamoso" loading="lazy" /></div>
-    <div class="card-meta">
-      <span><span class="glyph">№</span>&nbsp;2</span>
-      <span>2026 · 04 · 10</span>
+<article class="plate" id="bird-spaeag1-2026-04-11">
+  <div class="plate-head">
+    <span class="plate-number"><span class="glyph">№</span>&nbsp;3</span>
+    <span class="plate-date">2026 · 04 · 11</span>
+  </div>
+  <div class="plate-rule"><span class="ornament">❦</span></div>
+  <div class="plate-image"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/556403301/900" alt="Águila Imperial Ibérica" loading="lazy" /></div><p class="plate-credit">© Ana  Mendes do Carmo / Macaulay Library</p>
+  <div class="plate-body">
+    <p class="specimen-tag">Accipitridae · Accipitriformes</p>
+    <h2 class="plate-title">Águila Imperial Ibérica</h2>
+    <p class="plate-subtitle">Aquila adalberti</p>
+    <p class="plate-description">Águila muy escasa que se reproduce sólo en España y Portugal, con algunos inmaduros que se dispersan hacia el norte de África. Muy similar a su pariente más próximo el Imperial Eagle, pero es más oscura en general y los adultos tienen color blanco en hombros y en el borde de ataque del ala que puede verse desde abajo cuando vuela. Los jóvenes son rojizos y no tienen estrías en la parte superior o inferior de las alas ni en el pecho como ocurre en las Imperial Eagles que están fuertemente estriados. Principalmente se encuentra en zonas forestales, especialmente en aquellas que cuentan con altas densidades de conejos.</p><p class="plate-description">La Spanish Eagle, que originalmente poblaba el norte de África y la Península Ibérica, se redujo hasta casi extinguirse en la década de 1970, con apenas 50 parejas reproductoras registradas en 1974. Estas parejas restantes se retiraron a las montañas y reservas más remotas de España: Monte del Pardo (Madrid), Sierras de San Pedro y Monfragüe (Cáceres), Montes de Toledo (Toledo), y Sierra Morena y el Parque Nacional de Doñana (Andalucía). En Portugal y Marruecos fue extirpada (o casi) a finales del siglo XX.</p>
+    <div class="plate-foot">
+      <a href="https://ebird.org/species/spaeag1?siteLanguage=es">eBird</a>
+      <a href="https://es.wikipedia.org/wiki/Aquila_adalberti">Wikipedia</a>
+      <a href="https://birdsoftheworld.org/bow/species/spaeag1/cur/introduction">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=spaeag1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
     </div>
-    <h3 class="card-name">Lori Escamoso</h3>
-    <p class="card-sci">Trichoglossus squamatus</p>
-    <p class="card-tag">Psittaculidae</p>
-  </a>
+  </div>
 </article>
-<article class="card">
-  <a href="archive.html#bird-kimhon1-2026-04-09">
-    <div class="card-thumb"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162626701/900" alt="Mielero de Kimberley" loading="lazy" /></div>
-    <div class="card-meta">
-      <span><span class="glyph">№</span>&nbsp;1</span>
-      <span>2026 · 04 · 09</span>
+<article class="plate" id="bird-vinlor1-2026-04-10">
+  <div class="plate-head">
+    <span class="plate-number"><span class="glyph">№</span>&nbsp;2</span>
+    <span class="plate-date">2026 · 04 · 10</span>
+  </div>
+  <div class="plate-rule"><span class="ornament">❦</span></div>
+  <div class="plate-image"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/205096511/900" alt="Lori Escamoso" loading="lazy" /></div><p class="plate-credit">© Niels Poul Dreyer / Macaulay Library</p>
+  <div class="plate-body">
+    <p class="specimen-tag">Psittaculidae · Psittaciformes</p>
+    <h2 class="plate-title">Lori Escamoso</h2>
+    <p class="plate-subtitle">Trichoglossus squamatus</p>
+    <p class="plate-description empty">—</p>
+    <div class="plate-foot">
+      <a href="https://ebird.org/species/vinlor1?siteLanguage=es">eBird</a>
+      <a href="https://en.wikipedia.org/wiki/Violet-necked_lory">Wikipedia (en)</a>
+      <a href="https://birdsoftheworld.org/bow/species/vinlor1/cur/introduction">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=vinlor1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
     </div>
-    <h3 class="card-name">Mielero de Kimberley</h3>
-    <p class="card-sci">Meliphaga fordiana</p>
-    <p class="card-tag">Meliphagidae</p>
-  </a>
+  </div>
 </article>
-</div>
+<article class="plate" id="bird-kimhon1-2026-04-09">
+  <div class="plate-head">
+    <span class="plate-number"><span class="glyph">№</span>&nbsp;1</span>
+    <span class="plate-date">2026 · 04 · 09</span>
+  </div>
+  <div class="plate-rule"><span class="ornament">❦</span></div>
+  <div class="plate-image"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162626701/900" alt="Mielero de Kimberley" loading="lazy" /></div><p class="plate-credit">© Laurie Ross | Tracks Birding &amp; Photography Tours / Macaulay Library</p>
+  <div class="plate-body">
+    <p class="specimen-tag">Meliphagidae · Passeriformes</p>
+    <h2 class="plate-title">Mielero de Kimberley</h2>
+    <p class="plate-subtitle">Meliphaga fordiana</p>
+    <p class="plate-description">El mielero de Kimberley es una especie de ave paseriforme de la familia Meliphagidae endémica del norte de Australia. Anteriormente se consideraba una subespecie del mielero listado, pero en la actualidad se consideran especies separadas.</p>
+    <div class="plate-foot">
+      <a href="https://ebird.org/species/kimhon1?siteLanguage=es">eBird</a>
+      <a href="https://es.wikipedia.org/wiki/Microptilotis_fordianus">Wikipedia</a>
+      <a href="https://birdsoftheworld.org/bow/species/kimhon1/cur/introduction">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=kimhon1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+    </div>
+  </div>
+</article>
 </main>
 <footer class="site">
   <p>Datos de <a href="https://ebird.org">eBird</a> y

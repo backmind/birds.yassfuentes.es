@@ -1,4 +1,26 @@
+# Python
 .venv/
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+
+# Env / secrets
 .env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+.claude/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local plan / scratch
+plan-ave-del-dia-rss.md

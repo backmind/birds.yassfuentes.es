@@ -7,6 +7,7 @@ import logging
 import re
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -31,6 +32,11 @@ class FeedEntry:
     guid: str
 
 
+def _esc(value: str) -> str:
+    """HTML-escape user-supplied text (escapes &, <, >, ", ')."""
+    return html.escape(value or "", quote=True)
+
+
 def build_entry_html(
     species_code: str,
     common_name: str,
@@ -38,59 +44,79 @@ def build_entry_html(
     image_url: str | None,
     image_attribution: str,
     ml_search_url: str,
-    ebird_description: str,
+    description: str,
+    description_source: str,
     bow_intro: str,
     taxonomy: dict,
+    language: str = "es",
 ) -> str:
-    """Build rich HTML content for an RSS entry."""
+    """Build rich HTML content for an RSS entry. All user data is escaped."""
     parts: list[str] = []
+    code_e = _esc(species_code)
 
     # Header
-    parts.append(f'<h2>{common_name} — <em>{scientific_name}</em></h2>')
+    parts.append(f"<h2>{_esc(common_name)} — <em>{_esc(scientific_name)}</em></h2>")
 
     # Image or fallback link
     if image_url:
         parts.append(
-            f'<img src="{image_url}" '
-            f'alt="{common_name} © {image_attribution}" '
+            f'<img src="{_esc(image_url)}" '
+            f'alt="{_esc(common_name)} © {_esc(image_attribution)}" '
             f'style="max-width:100%; border-radius:8px;" />'
         )
-        parts.append(f'<p><em>© {image_attribution}</em></p>')
+        parts.append(f"<p><em>© {_esc(image_attribution)}</em></p>")
     else:
         parts.append(
-            f'<p><a href="{ml_search_url}">Ver fotos en Macaulay Library</a></p>'
+            f'<p><a href="{_esc(ml_search_url)}">Ver fotos en Macaulay Library</a></p>'
         )
 
-    # Taxonomy table
+    # Taxonomy table. eBird does NOT translate familyComName even with
+    # locale=es, so we only show the parenthesized common name when the
+    # configured language is English. See site_builder._render_taxonomy.
     order = taxonomy.get("order", "")
     family_sci = taxonomy.get("familySciName", "")
     family_com = taxonomy.get("familyComName", "")
-    family_display = f"{family_sci} ({family_com})" if family_com else family_sci
+    if family_sci and family_com and language == "en":
+        family_display = f"<em>{_esc(family_sci)}</em> ({_esc(family_com)})"
+    elif family_sci:
+        family_display = f"<em>{_esc(family_sci)}</em>"
+    elif family_com and language == "en":
+        family_display = _esc(family_com)
+    else:
+        family_display = ""
 
     if order or family_display:
         parts.append("<table>")
         if order:
-            parts.append(f"<tr><td><strong>Orden</strong></td><td>{order}</td></tr>")
+            parts.append(
+                f"<tr><td><strong>Orden</strong></td><td>{_esc(order)}</td></tr>"
+            )
         if family_display:
             parts.append(
                 f"<tr><td><strong>Familia</strong></td><td>{family_display}</td></tr>"
             )
         parts.append(
             f"<tr><td><strong>Nombre científico</strong></td>"
-            f"<td><em>{scientific_name}</em></td></tr>"
+            f"<td><em>{_esc(scientific_name)}</em></td></tr>"
         )
         parts.append("</table>")
 
-    # eBird description
-    if ebird_description:
-        parts.append(f"<p>{ebird_description}</p>")
+    # Description (eBird/Merlin in Spanish or Wikipedia ES; never English).
+    if description:
+        parts.append(f"<p>{_esc(description)}</p>")
+        if description_source == "wikipedia":
+            parts.append(
+                '<p><small>Fuente: <a href="https://es.wikipedia.org/wiki/'
+                f'{_esc(scientific_name.replace(" ", "_"))}">Wikipedia en español</a>'
+                "</small></p>"
+            )
 
     # Birds of the World intro
     if bow_intro:
-        parts.append(f"<p>{bow_intro}</p>")
+        parts.append(f"<p>{_esc(bow_intro)}</p>")
         parts.append(
             '<p><small>Fuente: <a href="https://birdsoftheworld.org/bow/species/'
-            f'{species_code}/cur/introduction">Birds of the World</a>'
+            f"{code_e}/cur/introduction\">Birds of the World</a>"
             " (Cornell Lab of Ornithology)</small></p>"
         )
 
@@ -98,16 +124,16 @@ def build_entry_html(
     parts.append("<h3>Más información</h3>")
     parts.append("<ul>")
     parts.append(
-        f'<li><a href="https://ebird.org/species/{species_code}">'
+        f'<li><a href="https://ebird.org/species/{code_e}">'
         "Ficha en eBird</a> — observaciones, mapas, fotos y sonidos</li>"
     )
     parts.append(
-        f'<li><a href="https://birdsoftheworld.org/bow/species/{species_code}'
+        f'<li><a href="https://birdsoftheworld.org/bow/species/{code_e}'
         '/cur/introduction">Birds of the World</a>'
         " — historia natural completa (Cornell Lab)</li>"
     )
     parts.append(
-        f'<li><a href="{ml_search_url}">Galería en Macaulay Library</a></li>'
+        f'<li><a href="{_esc(ml_search_url)}">Galería en Macaulay Library</a></li>'
     )
     parts.append("</ul>")
 
@@ -144,10 +170,13 @@ def build_feed(entries: list[FeedEntry], config: dict) -> str:
         atom_link.set("type", "application/rss+xml")
 
     # Copyright
+    author = config.get("author", "")
+    year = datetime.now(timezone.utc).year
+    author_line = f"Feed © {year} {author}, proyecto no comercial." if author else "Proyecto no comercial."
     ET.SubElement(channel, "copyright").text = (
         "Datos: eBird/Cornell Lab of Ornithology (ebird.org). "
         "Fotos: Macaulay Library, © sus respectivos autores. "
-        "Proyecto no comercial."
+        f"{author_line}"
     )
 
     # Items
