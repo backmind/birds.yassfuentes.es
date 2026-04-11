@@ -1,6 +1,6 @@
 [project]
 name = "bird-of-the-day"
-version = "0.1.0"
+version = "0.2.0"
 description = "Daily bird species RSS feed powered by eBird"
 requires-python = ">=3.12"
 dependencies = [
