@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Ave del Día</title>
     <link>https://backmind.github.io/Bird-of-the-day/</link>
@@ -7,5 +7,19 @@
     <language>es</language>
     <atom:link href="https://backmind.github.io/Bird-of-the-day/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Mielero de Kimberley (Meliphaga fordiana)</title>
+      <link>https://ebird.org/species/kimhon1</link>
+      <guid isPermaLink="false">bird-of-the-day-kimhon1-2026-04-11</guid>
+      <pubDate>Sat, 11 Apr 2026 23:51:42 +0000</pubDate>
+      <content:encoded><![CDATA[<h2>Mielero de Kimberley — <em>Meliphaga fordiana</em></h2>
+<img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162626701/900" alt="Mielero de Kimberley © Laurie Ross | Tracks Birding &amp; Photography Tours / Macaulay Library" style="max-width:100%; border-radius:8px;" />
+<p><em>© Laurie Ross | Tracks Birding &amp; Photography Tours / Macaulay Library</em></p>
+<p><small><em>Meliphagidae · Passeriformes</em></small></p>
+<p>El mielero de Kimberley es una especie de ave paseriforme de la familia Meliphagidae endémica del norte de Australia. Anteriormente se consideraba una subespecie del mielero listado, pero en la actualidad se consideran especies separadas.</p>
+<p><small>
+<a href="https://ebird.org/species/kimhon1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Microptilotis_fordianus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/kimhon1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=kimhon1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+</small></p>]]></content:encoded>
+    </item>
   </channel>
 </rss>
