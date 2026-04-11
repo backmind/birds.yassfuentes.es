@@ -1,4 +1,9 @@
-"""RSS 2.0 feed builder with content:encoded support."""
+"""RSS 2.0 feed builder with content:encoded support.
+
+Every user-facing string is sourced from the i18n catalog. The builder
+takes a ``Catalog`` instance and renders both the channel chrome and the
+per-item ``content:encoded`` HTML in the configured language.
+"""
 
 from __future__ import annotations
 
@@ -9,6 +14,10 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from scripts.i18n import Catalog
 
 logger = logging.getLogger(__name__)
 
@@ -48,9 +57,17 @@ def build_entry_html(
     description_source: str,
     bow_intro: str,
     taxonomy: dict,
-    language: str = "es",
+    catalog: "Catalog",
+    wikipedia_url: str = "",
+    wikipedia_language: str = "",
+    fallback_language: str = "",
 ) -> str:
-    """Build rich HTML content for an RSS entry. All user data is escaped."""
+    """Build rich HTML content for an RSS entry.
+
+    All user-supplied data is HTML-escaped. All chrome strings come from
+    the catalog. The link list mirrors the front's plate-foot order:
+    eBird → Wikipedia (if found) → Birds of the World → Macaulay Library.
+    """
     parts: list[str] = []
     code_e = _esc(species_code)
 
@@ -67,100 +84,76 @@ def build_entry_html(
         parts.append(f"<p><em>© {_esc(image_attribution)}</em></p>")
     else:
         parts.append(
-            f'<p><a href="{_esc(ml_search_url)}">Ver fotos en Macaulay Library</a></p>'
+            f'<p><a href="{_esc(ml_search_url)}">Macaulay Library</a></p>'
         )
 
-    # Taxonomy table. eBird does NOT translate familyComName even with
-    # locale=es, so we only show the parenthesized common name when the
-    # configured language is English. See site_builder._render_taxonomy.
-    order = taxonomy.get("order", "")
+    # Specimen tag (family · order in Latin, no labels — same as the
+    # front's plate body). The English familyComName from eBird is
+    # deliberately omitted because eBird doesn't translate it.
     family_sci = taxonomy.get("familySciName", "")
-    family_com = taxonomy.get("familyComName", "")
-    if family_sci and family_com and language == "en":
-        family_display = f"<em>{_esc(family_sci)}</em> ({_esc(family_com)})"
-    elif family_sci:
-        family_display = f"<em>{_esc(family_sci)}</em>"
-    elif family_com and language == "en":
-        family_display = _esc(family_com)
-    else:
-        family_display = ""
-
-    if order or family_display:
-        parts.append("<table>")
-        if order:
-            parts.append(
-                f"<tr><td><strong>Orden</strong></td><td>{_esc(order)}</td></tr>"
-            )
-        if family_display:
-            parts.append(
-                f"<tr><td><strong>Familia</strong></td><td>{family_display}</td></tr>"
-            )
+    order = taxonomy.get("order", "")
+    tag_parts = [_esc(p) for p in (family_sci, order) if p]
+    if tag_parts:
         parts.append(
-            f"<tr><td><strong>Nombre científico</strong></td>"
-            f"<td><em>{_esc(scientific_name)}</em></td></tr>"
+            f'<p><small><em>{" · ".join(tag_parts)}</em></small></p>'
         )
-        parts.append("</table>")
 
-    # Description (eBird/Merlin in Spanish or Wikipedia ES; never English).
+    # Description (and the foreign-fallback disclaimer if applicable)
     if description:
         parts.append(f"<p>{_esc(description)}</p>")
-        if description_source == "wikipedia":
-            parts.append(
-                '<p><small>Fuente: <a href="https://es.wikipedia.org/wiki/'
-                f'{_esc(scientific_name.replace(" ", "_"))}">Wikipedia en español</a>'
-                "</small></p>"
+        if description_source == "ebird-foreign":
+            lang_name = catalog.t(f"language_name.{fallback_language or 'en'}")
+            disclaimer = catalog.t(
+                "description.foreign_disclaimer", source_language=lang_name
             )
+            parts.append(f"<p><small><em>{_esc(disclaimer)}</em></small></p>")
 
-    # Birds of the World intro
+    # Birds of the World intro (when present)
     if bow_intro:
         parts.append(f"<p>{_esc(bow_intro)}</p>")
-        parts.append(
-            '<p><small>Fuente: <a href="https://birdsoftheworld.org/bow/species/'
-            f"{code_e}/cur/introduction\">Birds of the World</a>"
-            " (Cornell Lab of Ornithology)</small></p>"
+
+    # Link list — mirrors the front's plate-foot. eBird gets the
+    # ?siteLanguage param so it lands in the configured locale. Wikipedia
+    # is included when we have a URL; if it had to fall back to a non-
+    # target language, the label gets a "(en)" hint.
+    parts.append("<p><small>")
+    link_parts: list[str] = []
+    link_parts.append(
+        f'<a href="https://ebird.org/species/{code_e}?siteLanguage={catalog.language}">eBird</a>'
+    )
+    if wikipedia_url:
+        wiki_label = "Wikipedia"
+        if wikipedia_language and wikipedia_language != catalog.language:
+            wiki_label = f"Wikipedia ({wikipedia_language})"
+        link_parts.append(
+            f'<a href="{_esc(wikipedia_url)}">{wiki_label}</a>'
         )
-
-    # Links section
-    parts.append("<h3>Más información</h3>")
-    parts.append("<ul>")
-    parts.append(
-        f'<li><a href="https://ebird.org/species/{code_e}">'
-        "Ficha en eBird</a> — observaciones, mapas, fotos y sonidos</li>"
-    )
-    parts.append(
-        f'<li><a href="https://birdsoftheworld.org/bow/species/{code_e}'
+    link_parts.append(
+        f'<a href="https://birdsoftheworld.org/bow/species/{code_e}'
         '/cur/introduction">Birds of the World</a>'
-        " — historia natural completa (Cornell Lab)</li>"
     )
-    parts.append(
-        f'<li><a href="{_esc(ml_search_url)}">Galería en Macaulay Library</a></li>'
+    link_parts.append(
+        f'<a href="{_esc(ml_search_url)}">Macaulay Library</a>'
     )
-    parts.append("</ul>")
-
-    # Attribution footer
-    parts.append(
-        "<p><small>Datos de "
-        '<a href="https://ebird.org">eBird</a> y '
-        '<a href="https://www.birds.cornell.edu/">Cornell Lab of Ornithology</a>.'
-        "</small></p>"
-    )
+    parts.append(" · ".join(link_parts))
+    parts.append("</small></p>")
 
     return "\n".join(parts)
 
 
-def build_feed(entries: list[FeedEntry], config: dict) -> str:
-    """Build an RSS 2.0 XML feed string."""
+def build_feed(
+    entries: list[FeedEntry], config: dict, catalog: "Catalog"
+) -> str:
+    """Build an RSS 2.0 XML feed string. All chrome from the catalog."""
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
 
     # Channel metadata
-    ET.SubElement(channel, "title").text = config.get("feed_title", "Ave del Día")
+    ET.SubElement(channel, "title").text = catalog.t("feed.title")
     feed_link = config.get("feed_link", "")
     ET.SubElement(channel, "link").text = feed_link
-    ET.SubElement(channel, "description").text = config.get(
-        "feed_description", "Una especie de ave nueva cada día."
-    )
-    ET.SubElement(channel, "language").text = "es"
+    ET.SubElement(channel, "description").text = catalog.t("feed.description")
+    ET.SubElement(channel, "language").text = catalog.html_lang
 
     # Atom self-link
     if feed_link:
@@ -172,11 +165,14 @@ def build_feed(entries: list[FeedEntry], config: dict) -> str:
     # Copyright
     author = config.get("author", "")
     year = datetime.now(timezone.utc).year
-    author_line = f"Feed © {year} {author}, proyecto no comercial." if author else "Proyecto no comercial."
+    if author:
+        author_line = catalog.t(
+            "feed.copyright_author_template", year=year, author=author
+        )
+    else:
+        author_line = catalog.t("feed.copyright_no_author")
     ET.SubElement(channel, "copyright").text = (
-        "Datos: eBird/Cornell Lab of Ornithology (ebird.org). "
-        "Fotos: Macaulay Library, © sus respectivos autores. "
-        f"{author_line}"
+        catalog.t("feed.copyright_data_prefix") + author_line
     )
 
     # Items

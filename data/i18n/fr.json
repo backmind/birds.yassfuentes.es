@@ -1,0 +1,45 @@
+{
+  "site.title": "Oiseau du Jour",
+  "site.eyebrow": "Carnet de terrain · quotidien",
+  "site.tagline": "Une nouvelle espèce d'oiseau chaque jour. Avec un biais ibérique, mais sans frontières.",
+  "site.skip_to_content": "Aller au contenu",
+
+  "nav.principal_aria": "Principal",
+  "nav.home": "Aujourd'hui",
+  "nav.archive": "Archives",
+  "nav.rss": "RSS",
+  "theme_toggle.aria_label": "Changer de thème clair/sombre",
+
+  "subscribe.aria_label": "S'abonner au RSS",
+  "subscribe.title": "Recevez-le chaque matin dans votre lecteur RSS",
+  "subscribe.subtitle": "Une nouvelle espèce chaque jour.",
+  "subscribe.button": "S'abonner",
+
+  "section.recent": "Oiseaux récents",
+  "section.archive_title": "Archives",
+  "section.archive_subtitle": "Tous les oiseaux publiés à ce jour.",
+
+  "archive.empty": "Les archives sont vides.",
+  "index.empty": "Aucun oiseau publié pour le moment. Revenez demain.",
+
+  "footer.data_credit_html": "Données de <a href=\"https://ebird.org\">eBird</a> et <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
+  "footer.photos_credit_html": "Photos de <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © leurs auteurs respectifs.",
+  "footer.author_template": "Projet non commercial par {author} © {year}.",
+  "footer.no_author_template": "Projet non commercial.",
+  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Code sur GitHub</a>.",
+
+  "page.home_hero_title_template": "{name} — Oiseau du Jour",
+  "page.archive_title_template": "Archives — Oiseau du Jour",
+
+  "description.foreign_disclaimer": "Description en {source_language} (traduction française non disponible).",
+  "description.empty_marker": "—",
+  "language_name.es": "espagnol",
+  "language_name.en": "anglais",
+  "language_name.fr": "français",
+  "language_name.pt": "portugais",
+
+  "feed.title": "Oiseau du Jour",
+  "feed.description": "Une nouvelle espèce d'oiseau chaque jour.",
+  "feed.copyright_author_template": "Flux © {year} {author}, projet non commercial.",
+  "feed.copyright_no_author": "Projet non commercial."
+}

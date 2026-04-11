@@ -1,20 +1,23 @@
-"""Scrape species description from public Spanish-friendly sources.
+"""Scrape species description from public sources, language-aware.
 
-Source chain (first non-English match wins for the main description):
+Source chain (first match in the configured language wins):
 
-  1. eBird species page → ``og:description`` with ``?locale=es``.
-     Confirmed via inspection that this carries the Merlin identification
-     text, translated to Spanish for species that have a translation. The
-     page has no ``__NEXT_DATA__`` block; ``og:description`` is the source.
+  1. eBird species page → ``og:description`` with the catalog's eBird
+     locale. Carries the Merlin identification text, translated when
+     available. ``og:description`` is the source — the page has no
+     ``__NEXT_DATA__`` block.
+  2. Wikipedia REST summary in the catalog's subdomain. Follows taxonomic
+     redirects automatically (e.g. ``Meliphaga fordiana`` →
+     ``Microptilotis fordianus``).
+  3. Birds of the World introduction paragraph in the configured language.
 
-  2. Spanish Wikipedia REST summary API. The eBird translation is missing
-     for many non-Iberian species (e.g. Australian endemics), so we fall
-     back to ``es.wikipedia.org/api/rest_v1/page/summary/{sciName}`` which
-     follows taxonomic redirects automatically.
+A separate Wikipedia URL probe also runs in the configured language with
+an English fallback, so the rendered ``plate-foot`` always has a Wikipedia
+link even when the description came from eBird.
 
-  3. Birds of the World introduction paragraph. BoW serves Spanish via
-     ``Accept-Language: es`` for species that have an open-access intro,
-     and is used as enrichment regardless of the main description source.
+Language detection (rejecting eBird/BoW text in the wrong language) goes
+through ``i18n.matches_language``, which uses ``langid`` constrained to
+the languages with a catalog file.
 
 The page also requires cookies because of eBird's CAS gateway, so callers
 should pass a ``Session`` shared with ``image_fetcher``.
@@ -26,11 +29,16 @@ import json
 import logging
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 import requests
 from bs4 import BeautifulSoup
 
+from scripts import i18n
 from scripts.image_fetcher import new_session
+
+if TYPE_CHECKING:
+    from scripts.i18n import Catalog
 
 logger = logging.getLogger(__name__)
 
@@ -68,39 +76,18 @@ def _truncate_at_sentence_boundary(
     word_cut = cut.rsplit(" ", 1)[0].strip()
     return word_cut + "…"
 
-# Stopwords used to detect whether a snippet is Spanish or English. They
-# differ enough between languages that 5+ words of either side suffices.
-_ES_STOPWORDS = {
-    "de", "la", "el", "en", "con", "que", "una", "y", "es", "se", "del",
-    "los", "las", "como", "más", "está", "su", "por", "para", "este",
-    "esta", "son", "ave", "especie",
-}
-_EN_STOPWORDS = {
-    "the", "of", "and", "in", "to", "is", "with", "for", "on", "this",
-    "that", "at", "from", "by", "an", "are", "be", "found",
-}
-
-
 @dataclass
 class SpeciesContent:
-    description: str
-    description_source: str  # "ebird" | "wikipedia" | ""
+    description: str              # text in the target language, or ""
+    description_source: str       # "ebird" | "wikipedia" | ""
     bow_intro: str
     taxonomy: dict
     wikipedia_url: str = ""       # canonical URL of the Wikipedia article
     wikipedia_language: str = ""  # "es" | "en" | "" (the lang we resolved to)
-
-
-def _is_spanish(text: str) -> bool:
-    """Heuristic: more Spanish stopwords than English ones in the text."""
-    if not text:
-        return False
-    words = text.lower().split()
-    if not words:
-        return False
-    es = sum(1 for w in words if w.strip(".,;:¡!¿?()'\"") in _ES_STOPWORDS)
-    en = sum(1 for w in words if w.strip(".,;:!?()'\"") in _EN_STOPWORDS)
-    return es > en
+    fallback_text: str = ""       # rejected foreign-language text (e.g. EN
+                                  # Merlin) preserved for the foreign_fallback
+                                  # description policy
+    fallback_language: str = ""   # ISO code of the rejected text, or ""
 
 
 def _fetch_ebird_og_description(
@@ -165,16 +152,6 @@ def _fetch_wikipedia(
     return {"extract": extract, "url": canonical_url}
 
 
-def _fetch_wikipedia_es(scientific_name: str, session: requests.Session) -> str:
-    """Backwards-compat wrapper used by ``seed_mock.py``'s deep probe.
-
-    Returns just the extract string, mirroring the old API. New code should
-    call :func:`_fetch_wikipedia` directly to get both extract and URL.
-    """
-    data = _fetch_wikipedia(scientific_name, "es", session)
-    return data["extract"] if data else ""
-
-
 # Phrases that mark BoW promo/login banners (we want the real intro instead).
 _BOW_BANNER_PHRASES = (
     "subscriber",
@@ -188,8 +165,15 @@ _BOW_BANNER_PHRASES = (
 )
 
 
-def _fetch_bow_intro(species_code: str, session: requests.Session) -> str:
-    """Return the public Spanish introduction text from Birds of the World."""
+def _fetch_bow_intro(
+    species_code: str, session: requests.Session, target_language: str
+) -> str:
+    """Return the public introduction text from Birds of the World.
+
+    The result is filtered through ``i18n.matches_language``: if BoW
+    served the wrong language (e.g. English when we asked for Spanish via
+    Accept-Language but no translation exists), we drop it.
+    """
     url = f"https://birdsoftheworld.org/bow/species/{species_code}/cur/introduction"
     try:
         resp = session.get(url, timeout=REQUEST_TIMEOUT)
@@ -216,8 +200,7 @@ def _fetch_bow_intro(species_code: str, session: requests.Session) -> str:
             break
 
     intro = " ".join(collected)
-    # If BoW served us English (e.g. when no es translation exists), drop it.
-    if intro and not _is_spanish(intro):
+    if intro and not i18n.matches_language(intro, target_language):
         return ""
     return intro
 
@@ -225,44 +208,70 @@ def _fetch_bow_intro(species_code: str, session: requests.Session) -> str:
 def scrape_species_content(
     species_code: str,
     scientific_name: str = "",
-    locale: str = "es",
+    catalog: "Catalog | None" = None,
     session: requests.Session | None = None,
 ) -> SpeciesContent:
-    """Run the source chain and return the best Spanish content found.
+    """Run the source chain and return the best content in the target language.
 
     Also resolves the canonical Wikipedia URL — preferring the configured
-    locale, falling back to English. The URL is captured even when the
+    language, falling back to English. The URL is captured even when the
     description ends up coming from eBird, so the rendered ``plate-foot``
     can always link to Wikipedia.
+
+    The ``catalog`` argument carries both the language identity and the
+    eBird/Wikipedia mappings. If omitted, defaults to a Spanish catalog
+    so the function remains usable as a standalone helper.
     """
+    if catalog is None:
+        catalog = i18n.Catalog.load("es")
+    target_language = catalog.language
+    ebird_locale = catalog.ebird_locale
+    wiki_subdomain = catalog.wikipedia_subdomain
+
     sess = session or new_session()
 
     description = ""
     description_source = ""
 
-    ebird_text = _fetch_ebird_og_description(species_code, sess, locale=locale)
+    ebird_text = _fetch_ebird_og_description(
+        species_code, sess, locale=ebird_locale
+    )
 
-    # Probe Wikipedia in the configured locale once. We may use both the
+    # Probe Wikipedia in the configured language once. We may use both the
     # extract (if eBird gave us nothing) and the URL (always).
-    wiki_target = _fetch_wikipedia(scientific_name, locale, sess)
+    wiki_target = _fetch_wikipedia(scientific_name, wiki_subdomain, sess)
 
-    if ebird_text and _is_spanish(ebird_text):
+    # If eBird returned text but it doesn't match the target language, we
+    # capture it for later use by the foreign_fallback policy. The render
+    # layer decides whether to actually show it.
+    fallback_text = ""
+    fallback_language = ""
+
+    if ebird_text and i18n.matches_language(ebird_text, target_language):
         description = ebird_text
         description_source = "ebird"
-        logger.debug("eBird text is Spanish for %s", species_code)
+        logger.debug("eBird text matched %s for %s", target_language, species_code)
     else:
         if ebird_text:
             logger.info(
-                "eBird text not in target language for %s, trying Wikipedia", species_code
+                "eBird text not in target language %s for %s, trying Wikipedia",
+                target_language, species_code,
             )
+            # Capture the rejected text for the foreign_fallback policy.
+            # eBird Merlin in untranslated form is almost always English.
+            fallback_text = ebird_text
+            detected = i18n.detect_language(ebird_text)
+            fallback_language = detected[0] if detected else "en"
         if wiki_target and wiki_target["extract"]:
             description = wiki_target["extract"]
             description_source = "wikipedia"
-            logger.info("Using Wikipedia %s summary for %s", locale, species_code)
+            logger.info(
+                "Using Wikipedia %s summary for %s", wiki_subdomain, species_code
+            )
         else:
             logger.info(
                 "No %s source available for %s; description will be empty",
-                locale, species_code,
+                target_language, species_code,
             )
 
     # Resolve the Wikipedia URL: prefer target language, fall back to English.
@@ -270,21 +279,23 @@ def scrape_species_content(
     wikipedia_language = ""
     if wiki_target:
         wikipedia_url = wiki_target["url"]
-        wikipedia_language = locale
-    elif locale != "en":
+        wikipedia_language = wiki_subdomain
+    elif wiki_subdomain != "en":
         wiki_en = _fetch_wikipedia(scientific_name, "en", sess)
         if wiki_en:
             wikipedia_url = wiki_en["url"]
             wikipedia_language = "en"
             logger.info("Wikipedia URL fallback → en for %s", species_code)
 
-    bow_intro = _fetch_bow_intro(species_code, sess)
+    bow_intro = _fetch_bow_intro(species_code, sess, target_language)
 
-    # Apply the layout rail uniformly to every source.
+    # Apply the layout rail uniformly to every source (including the
+    # fallback text — it might end up rendered if foreign_fallback is on).
     raw_desc_len = len(description)
     description = _truncate_at_sentence_boundary(description)
     raw_bow_len = len(bow_intro)
     bow_intro = _truncate_at_sentence_boundary(bow_intro)
+    fallback_text = _truncate_at_sentence_boundary(fallback_text)
     if description and raw_desc_len != len(description):
         logger.info(
             "description: source=%s truncated %d → %d chars",
@@ -302,6 +313,8 @@ def scrape_species_content(
         taxonomy={},
         wikipedia_url=wikipedia_url,
         wikipedia_language=wikipedia_language,
+        fallback_text=fallback_text,
+        fallback_language=fallback_language,
     )
 
 
@@ -327,19 +340,21 @@ def load_cached_content(
         taxonomy=data.get("taxonomy", {}),
         wikipedia_url=data.get("wikipedia_url", ""),
         wikipedia_language=data.get("wikipedia_language", ""),
+        fallback_text=data.get("fallback_text", ""),
+        fallback_language=data.get("fallback_language", ""),
     )
 
 
 def save_cached_content(
     species_code: str, content: SpeciesContent, cache_dir: str = "cache"
 ) -> None:
-    """Cache the scrape result. Saves whenever ANY field has content so that
-    a species with no description but a Wikipedia URL still gets cached
-    (avoiding redundant probes on subsequent runs)."""
+    """Cache the scrape result. Saves whenever ANY content was found so the
+    next run doesn't re-probe."""
     if (
         not content.description
         and not content.bow_intro
         and not content.wikipedia_url
+        and not content.fallback_text
     ):
         return
     path = _content_cache_path(species_code, cache_dir)

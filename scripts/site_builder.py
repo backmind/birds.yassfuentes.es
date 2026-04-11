@@ -13,15 +13,28 @@ import logging
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from scripts.i18n import Catalog
 
 logger = logging.getLogger(__name__)
 
 INDEX_GRID_SIZE = 12
 
-# Hardcoded for now; the i18n refactor (step 5+) will replace this with the
-# active catalog's language. Used for forcing eBird's siteLanguage parameter
-# and for deciding whether to label the Wikipedia link with a language hint.
-_TARGET_LANGUAGE = "es"
+
+@dataclass(frozen=True)
+class RenderContext:
+    """Per-render context bundle so helper signatures stay compact.
+
+    Constructed once per page (in :func:`build_index` / :func:`build_archive`)
+    and threaded through every ``_render_*`` helper. Holds the i18n catalog
+    plus the small handful of page-level scalars the helpers need.
+    """
+
+    catalog: "Catalog"
+    feed_link: str
+    author: str
 
 
 @dataclass
@@ -41,6 +54,8 @@ class SiteEntry:
     number: int = 0  # 1-indexed publication number, populated by generate.py
     wikipedia_url: str = ""       # canonical Wikipedia article URL
     wikipedia_language: str = ""  # "es" | "en" | "" — what we resolved to
+    fallback_language: str = ""   # ISO of the foreign source (when
+                                  # description_source == "ebird-foreign")
 
     @property
     def anchor(self) -> str:
@@ -417,6 +432,14 @@ main {
   margin: 0 0 1rem;
   text-wrap: pretty;
 }
+.plate-description-note {
+  font-size: .82rem;
+  color: var(--ink-soft);
+  font-style: italic;
+  margin: -0.6rem 0 1rem;
+  padding-left: .9rem;
+  border-left: 2px solid var(--accent-warm);
+}
 .plate-description.empty {
   font-family: 'Fraunces', Georgia, serif;
   font-variation-settings: 'opsz' 14;
@@ -427,14 +450,6 @@ main {
   margin: 1rem 0;
   letter-spacing: .3em;
 }
-
-.source-note {
-  margin: .35rem 0 1rem;
-  font-size: .78rem;
-  color: var(--ink-soft);
-  font-style: italic;
-}
-.source-note a { color: var(--ink-soft); text-decoration-color: var(--rule-strong); }
 
 .plate-foot {
   margin-top: 2rem;
@@ -690,81 +705,74 @@ footer.site a { color: var(--ink-soft); }
 
 
 _THEME_TOGGLE_BUTTON = """
-<button class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" onclick="(function(b){var h=document.documentElement;var c=h.dataset.theme;if(!c){c=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}var n=c==='dark'?'light':'dark';h.dataset.theme=n;try{localStorage.setItem('bird-theme',n);}catch(e){}})(this);">
+<button class="theme-toggle" type="button" aria-label="{aria_label}" onclick="(function(b){{var h=document.documentElement;var c=h.dataset.theme;if(!c){{c=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}}var n=c==='dark'?'light':'dark';h.dataset.theme=n;try{{localStorage.setItem('bird-theme',n);}}catch(e){{}}}})(this);">
   <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
   <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
 </button>
 """.strip()
 
 
-def _render_header(active: str, feed_link: str) -> str:
+def _render_header(ctx: RenderContext, active: str) -> str:
+    t = ctx.catalog.t
     archive_class = ' aria-current="page"' if active == "archive" else ""
     home_class = ' aria-current="page"' if active == "home" else ""
+    toggle = _THEME_TOGGLE_BUTTON.format(aria_label=_esc(t("theme_toggle.aria_label")))
     return f"""
-<a class="skip-link" href="#main">Saltar al contenido</a>
+<a class="skip-link" href="#main">{_esc(t("site.skip_to_content"))}</a>
 <header class="site">
   <div class="inner">
     <div class="brand">
-      <span class="eyebrow">Diario de campo · cada día</span>
-      <h1><a href="index.html">Ave del Día</a></h1>
+      <span class="eyebrow">{_esc(t("site.eyebrow"))}</span>
+      <h1><a href="index.html">{_esc(t("site.title"))}</a></h1>
     </div>
-    <nav aria-label="Principal">
-      <a href="index.html"{home_class}>Hoy</a>
-      <a href="archive.html"{archive_class}>Archivo</a>
-      <a href="feed.xml">RSS</a>
-      {_THEME_TOGGLE_BUTTON}
+    <nav aria-label="{_esc(t("nav.principal_aria"))}">
+      <a href="index.html"{home_class}>{_esc(t("nav.home"))}</a>
+      <a href="archive.html"{archive_class}>{_esc(t("nav.archive"))}</a>
+      <a href="feed.xml">{_esc(t("nav.rss"))}</a>
+      {toggle}
     </nav>
   </div>
 </header>
 """.strip()
 
 
-def _render_subscribe(feed_url: str = "feed.xml") -> str:
+def _render_subscribe(ctx: RenderContext, feed_url: str = "feed.xml") -> str:
     """Refined RSS footnote — not a marketing banner."""
+    t = ctx.catalog.t
     return f"""
-<aside class="subscribe" aria-label="Suscríbete al RSS">
+<aside class="subscribe" aria-label="{_esc(t("subscribe.aria_label"))}">
   <div class="icon" aria-hidden="true">
     <svg viewBox="0 0 24 24" fill="currentColor">
       <path d="M6.18 17.82a2.18 2.18 0 1 1-4.36 0 2.18 2.18 0 0 1 4.36 0zM2 6.44v3.1c7.03 0 12.73 5.7 12.73 12.73h3.1C17.83 13.39 10.61 6.17 2 6.44zM2 .5v3.1c10.04 0 18.18 8.14 18.18 18.18h3.1C23.28 9.97 13.45.5 2 .5z"/>
     </svg>
   </div>
   <div class="text">
-    <p class="title">Recíbela cada mañana en tu lector RSS</p>
-    <p class="sub">Una especie nueva al día.</p>
+    <p class="title">{_esc(t("subscribe.title"))}</p>
+    <p class="sub">{_esc(t("subscribe.subtitle"))}</p>
   </div>
-  <a class="button" href="{_esc(feed_url)}">Suscribirse</a>
+  <a class="button" href="{_esc(feed_url)}">{_esc(t("subscribe.button"))}</a>
 </aside>
 """.strip()
 
 
-def _render_footer(author: str = "") -> str:
+def _render_footer(ctx: RenderContext) -> str:
+    t = ctx.catalog.t
     year = datetime.now(timezone.utc).year
-    author_line = (
-        f"Proyecto no comercial por {_esc(author)} © {year}. "
-        '<a href="https://github.com/backmind/Bird-of-the-day">Código en GitHub</a>.'
-        if author
-        else 'Proyecto no comercial. <a href="https://github.com/backmind/Bird-of-the-day">Código en GitHub</a>.'
-    )
+    if ctx.author:
+        # author_template carries punctuation; we still need to escape the
+        # author name itself before substitution. The template strings live
+        # in the catalog and may contain raw HTML for the embedded link.
+        author_line = t("footer.author_template", author=_esc(ctx.author), year=year)
+    else:
+        author_line = t("footer.no_author_template")
+    code_link = t("footer.code_link_html")
     return f"""
 <footer class="site">
-  <p>Datos de <a href="https://ebird.org">eBird</a> y
-    <a href="https://www.birds.cornell.edu/">Cornell Lab of Ornithology</a>.</p>
-  <p>Fotos de <a href="https://www.macaulaylibrary.org/">Macaulay Library</a>,
-    © de sus respectivos autores.</p>
-  <p>{author_line}</p>
+  <p>{t("footer.data_credit_html")}</p>
+  <p>{t("footer.photos_credit_html")}</p>
+  <p>{author_line} {code_link}</p>
 </footer>
 """.strip()
-
-
-def _description_credit(entry: SiteEntry) -> str:
-    """Inline note crediting the description source (Wikipedia only for now)."""
-    if entry.description_source == "wikipedia":
-        title = entry.scientific_name.replace(" ", "_")
-        return (
-            f'<p class="source-note">Fuente: '
-            f'<a href="https://es.wikipedia.org/wiki/{_esc(title)}">Wikipedia en español</a></p>'
-        )
-    return ""
 
 
 def _specimen_tag(taxonomy: dict) -> str:
@@ -786,13 +794,17 @@ def _specimen_tag(taxonomy: dict) -> str:
     return f'<p class="specimen-tag">{" · ".join(parts)}</p>'
 
 
-def _render_plate(entry: SiteEntry, *, hero: bool = False) -> str:
+def _render_plate(
+    entry: SiteEntry, ctx: RenderContext, *, hero: bool = False
+) -> str:
     """Render a bird as a numbered field-journal plate.
 
     Used both for the index hero and every archive entry. Hero variant gets
     the soaring-bird watermark via CSS (``.plate.hero::before``) and
     eager-loaded image; archive variant gets lazy loading and an anchor id.
     """
+    target_lang = ctx.catalog.language
+
     tag = "section" if hero else "article"
     classes = "plate hero" if hero else "plate"
     title_id = ' id="hero-title"' if hero else ""
@@ -817,13 +829,29 @@ def _render_plate(entry: SiteEntry, *, hero: bool = False) -> str:
 
     if entry.description:
         desc_html = f'<p class="plate-description">{_esc(entry.description)}</p>'
+        # When the description came from a foreign-language fallback, append
+        # a translated disclaimer so the reader knows. The source language
+        # name itself comes from a per-language lookup so it reads naturally
+        # ("Descripción en inglés" rather than "Descripción en en").
+        if entry.description_source == "ebird-foreign":
+            lang_name = ctx.catalog.t(
+                f"language_name.{entry.fallback_language or 'en'}"
+            )
+            disclaimer = ctx.catalog.t(
+                "description.foreign_disclaimer", source_language=lang_name
+            )
+            desc_html += (
+                f'<p class="plate-description-note"><em>{_esc(disclaimer)}</em></p>'
+            )
         if entry.bow_intro:
             desc_html += (
                 f'<p class="plate-description">{_esc(entry.bow_intro)}</p>'
             )
     else:
-        # Universal em-dash placeholder, no language string
-        desc_html = '<p class="plate-description empty">—</p>'
+        # Universal em-dash placeholder via the catalog (the catalog stores
+        # "—" but having it indirected lets a translator override).
+        marker = ctx.catalog.t("description.empty_marker")
+        desc_html = f'<p class="plate-description empty">{_esc(marker)}</p>'
 
     number_html = (
         f'<span class="plate-number"><span class="glyph">№</span>&nbsp;{entry.number}</span>'
@@ -835,17 +863,16 @@ def _render_plate(entry: SiteEntry, *, hero: bool = False) -> str:
     # eBird is forced to the configured language via siteLanguage so the
     # link always lands in the reader's locale (no language hint needed).
     # Wikipedia is added even when the description came from eBird; if it
-    # had to fall back to English (because the target-language article
-    # doesn't exist), the link gets a "(en)" hint inside its label.
+    # resolved to a non-target language, the label gets a "(<lang>)" hint.
     ebird_url = (
         f"https://ebird.org/species/{_esc(entry.species_code)}"
-        f"?siteLanguage={_TARGET_LANGUAGE}"
+        f"?siteLanguage={target_lang}"
     )
     foot_links = [f'<a href="{ebird_url}">eBird</a>']
 
     if entry.wikipedia_url:
         wiki_label = "Wikipedia"
-        if entry.wikipedia_language and entry.wikipedia_language != _TARGET_LANGUAGE:
+        if entry.wikipedia_language and entry.wikipedia_language != target_lang:
             wiki_label = f"Wikipedia ({entry.wikipedia_language})"
         foot_links.append(
             f'<a href="{_esc(entry.wikipedia_url)}">{wiki_label}</a>'
@@ -879,7 +906,11 @@ def _render_plate(entry: SiteEntry, *, hero: bool = False) -> str:
 """.strip()
 
 
-def _render_card(entry: SiteEntry) -> str:
+def _render_card(entry: SiteEntry, ctx: RenderContext) -> str:
+    """Render a grid card. The ``ctx`` parameter is unused for now (cards
+    only contain proper-noun and metadata text) but kept for symmetry with
+    other helpers and so the future addition of any UI string is local."""
+    del ctx  # explicitly unused for now
     if entry.image_url:
         thumb = (
             f'<div class="card-thumb">'
@@ -934,99 +965,104 @@ _THEME_BOOT_SCRIPT = (
 
 
 def _page(
-    title: str, body: str, feed_link: str, active: str, author: str = ""
+    title: str, body: str, ctx: RenderContext, active: str
 ) -> str:
+    t = ctx.catalog.t
     return f"""<!DOCTYPE html>
-<html lang="es">
+<html lang="{_esc(ctx.catalog.html_lang)}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{_esc(title)}</title>
-  <meta name="description" content="Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.">
+  <meta name="description" content="{_esc(t("site.tagline"))}">
   <meta name="theme-color" content="#F4EEE0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F1518" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/svg+xml" href="{_FAVICON_SVG}">
-  <link rel="alternate" type="application/rss+xml" title="Ave del Día" href="feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="{_esc(t("site.title"))}" href="feed.xml">
   {_THEME_BOOT_SCRIPT}
   <style>{_CSS}</style>
 </head>
 <body>
-{_render_header(active, feed_link)}
+{_render_header(ctx, active)}
 <main id="main">
 {body}
 </main>
-{_render_footer(author)}
+{_render_footer(ctx)}
 </body>
 </html>
 """
 
 
 def build_index(
-    entries: list[SiteEntry], feed_link: str, author: str = ""
+    entries: list[SiteEntry], ctx: RenderContext
 ) -> str:
+    t = ctx.catalog.t
     if not entries:
-        body = (
-            "<p>Aún no hay aves publicadas. Vuelve mañana.</p>\n"
-            + _render_subscribe()
-        )
-        return _page("Ave del Día", body, feed_link, active="home", author=author)
+        body = f'<p>{_esc(t("index.empty"))}</p>\n' + _render_subscribe(ctx)
+        return _page(t("site.title"), body, ctx, active="home")
 
     hero = entries[0]
     grid_entries = entries[1 : 1 + INDEX_GRID_SIZE]
     grid_html = ""
     if grid_entries:
-        cards = "\n".join(_render_card(e) for e in grid_entries)
+        cards = "\n".join(_render_card(e, ctx) for e in grid_entries)
         grid_html = f"""
-<div class="section-divider"><span class="label">Aves recientes</span></div>
+<div class="section-divider"><span class="label">{_esc(t("section.recent"))}</span></div>
 <div class="grid">
 {cards}
 </div>
 """.strip()
 
-    body = "\n".join([_render_plate(hero, hero=True), _render_subscribe(), grid_html])
-    return _page(
-        f"{hero.common_name} — Ave del Día",
-        body,
-        feed_link,
-        active="home",
-        author=author,
+    body = "\n".join(
+        [_render_plate(hero, ctx, hero=True), _render_subscribe(ctx), grid_html]
     )
+    page_title = t(
+        "page.home_hero_title_template", name=hero.common_name
+    )
+    return _page(page_title, body, ctx, active="home")
 
 
 def build_archive(
-    entries: list[SiteEntry], feed_link: str, author: str = ""
+    entries: list[SiteEntry], ctx: RenderContext
 ) -> str:
+    t = ctx.catalog.t
     if not entries:
-        body = "<p>El archivo está vacío.</p>\n" + _render_subscribe()
+        body = f'<p>{_esc(t("archive.empty"))}</p>\n' + _render_subscribe(ctx)
         return _page(
-            "Archivo — Ave del Día", body, feed_link, active="archive", author=author
+            t("page.archive_title_template"), body, ctx, active="archive"
         )
     body_parts = [
         '<div class="archive-intro">',
-        "<h1>Archivo</h1>",
-        "<p>Todas las aves publicadas hasta la fecha.</p>",
+        f'<h1>{_esc(t("section.archive_title"))}</h1>',
+        f'<p>{_esc(t("section.archive_subtitle"))}</p>',
         "</div>",
-        _render_subscribe(),
+        _render_subscribe(ctx),
     ]
-    body_parts.extend(_render_plate(e, hero=False) for e in entries)
+    body_parts.extend(_render_plate(e, ctx, hero=False) for e in entries)
     return _page(
-        "Archivo — Ave del Día",
+        t("page.archive_title_template"),
         "\n".join(body_parts),
-        feed_link,
+        ctx,
         active="archive",
-        author=author,
     )
 
 
 def write_site(
     entries: list[SiteEntry],
     output_dir: Path,
+    catalog: "Catalog",
     feed_link: str = "",
     author: str = "",
 ) -> None:
+    """Write index.html and archive.html to ``output_dir``.
+
+    The ``catalog`` is required: every user-facing string is sourced from
+    it. ``feed_link`` and ``author`` round out the per-page render context.
+    """
+    ctx = RenderContext(catalog=catalog, feed_link=feed_link, author=author)
     output_dir.mkdir(parents=True, exist_ok=True)
-    index_html = build_index(entries, feed_link, author=author)
-    archive_html = build_archive(entries, feed_link, author=author)
+    index_html = build_index(entries, ctx)
+    archive_html = build_archive(entries, ctx)
     (output_dir / "index.html").write_text(index_html, encoding="utf-8")
     (output_dir / "archive.html").write_text(archive_html, encoding="utf-8")
     logger.info("Site written: index.html, archive.html (%d entries)", len(entries))

@@ -1,0 +1,46 @@
+{
+  "site.title": "Ave del Día",
+  "site.eyebrow": "Diario de campo · cada día",
+  "site.tagline": "Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.",
+  "site.skip_to_content": "Saltar al contenido",
+
+  "nav.principal_aria": "Principal",
+  "nav.home": "Hoy",
+  "nav.archive": "Archivo",
+  "nav.rss": "RSS",
+  "theme_toggle.aria_label": "Cambiar tema claro/oscuro",
+
+  "subscribe.aria_label": "Suscríbete al RSS",
+  "subscribe.title": "Recíbela cada mañana en tu lector RSS",
+  "subscribe.subtitle": "Una especie nueva al día.",
+  "subscribe.button": "Suscribirse",
+
+  "section.recent": "Aves recientes",
+  "section.archive_title": "Archivo",
+  "section.archive_subtitle": "Todas las aves publicadas hasta la fecha.",
+
+  "archive.empty": "El archivo está vacío.",
+  "index.empty": "Aún no hay aves publicadas. Vuelve mañana.",
+
+  "footer.data_credit_html": "Datos de <a href=\"https://ebird.org\">eBird</a> y <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
+  "footer.photos_credit_html": "Fotos de <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © de sus respectivos autores.",
+  "footer.author_template": "Proyecto no comercial por {author} © {year}.",
+  "footer.no_author_template": "Proyecto no comercial.",
+  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Código en GitHub</a>.",
+
+  "page.home_hero_title_template": "{name} — Ave del Día",
+  "page.archive_title_template": "Archivo — Ave del Día",
+
+  "description.foreign_disclaimer": "Descripción en {source_language} (no disponible en español).",
+  "description.empty_marker": "—",
+  "language_name.es": "español",
+  "language_name.en": "inglés",
+  "language_name.fr": "francés",
+  "language_name.pt": "portugués",
+
+  "feed.title": "Ave del Día",
+  "feed.description": "Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.",
+  "feed.copyright_data_prefix": "Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. ",
+  "feed.copyright_author_template": "Feed © {year} {author}, proyecto no comercial.",
+  "feed.copyright_no_author": "Proyecto no comercial."
+}

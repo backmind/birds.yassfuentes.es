@@ -52,13 +52,22 @@ class ImageResult:
         )
 
 
-def new_session() -> requests.Session:
-    """Create a Session preloaded with headers we want everywhere."""
+DEFAULT_ACCEPT_LANGUAGE = "en-US,en;q=0.9"
+
+
+def new_session(accept_language: str = DEFAULT_ACCEPT_LANGUAGE) -> requests.Session:
+    """Create a Session preloaded with headers we want everywhere.
+
+    The ``Accept-Language`` header is parameterised so the caller can pass
+    the configured language's quality string (typically from
+    ``catalog.accept_language_header``). Default is English so the function
+    is usable as a standalone helper without an i18n catalog.
+    """
     s = requests.Session()
     s.headers.update(
         {
             "User-Agent": USER_AGENT,
-            "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+            "Accept-Language": accept_language,
         }
     )
     return s
@@ -127,17 +136,21 @@ _OG_ASSET_RE = re.compile(r"/asset/(\d+)")
 
 
 def _try_ebird_og_image(
-    species_code: str, session: requests.Session
+    species_code: str, session: requests.Session, locale: str = "en"
 ) -> ImageResult | None:
     """Strategy 2: og:image + og:image:alt from the eBird species page.
 
     Format observed:
       ``<meta property="og:image" content=".../api/v2/asset/{id}/{size}">``
       ``<meta property="og:image:alt" content="<Common Name> - <Photographer>">``
+
+    The ``locale`` parameter controls the eBird language: with ``locale=es``
+    the alt tag carries the Spanish common name, with ``locale=en`` the
+    English one. Either way the asset id is the same.
     """
     url = f"https://ebird.org/species/{species_code}"
     try:
-        resp = session.get(url, params={"locale": "es"}, timeout=REQUEST_TIMEOUT)
+        resp = session.get(url, params={"locale": locale}, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
     except requests.RequestException as e:
         logger.debug("eBird species page failed for %s: %s", species_code, e)
@@ -188,14 +201,24 @@ def _fallback(species_code: str) -> ImageResult:
 
 
 def fetch_image(
-    species_code: str, session: requests.Session | None = None
+    species_code: str,
+    session: requests.Session | None = None,
+    locale: str = "en",
 ) -> ImageResult:
-    """Fetch the best available image for a species, with fallback chain."""
+    """Fetch the best available image for a species, with fallback chain.
+
+    ``locale`` is forwarded to the eBird species-page strategy. The
+    Macaulay API strategy doesn't take a locale (asset metadata is
+    language-agnostic).
+    """
     sess = session or new_session()
-    for strategy in (_try_macaulay_api, _try_ebird_og_image):
-        result = strategy(species_code, sess)
-        if result is not None:
-            return result
+    # Macaulay API doesn't take a locale; only eBird og:image does.
+    result = _try_macaulay_api(species_code, sess)
+    if result is not None:
+        return result
+    result = _try_ebird_og_image(species_code, sess, locale=locale)
+    if result is not None:
+        return result
     return _fallback(species_code)
 
 

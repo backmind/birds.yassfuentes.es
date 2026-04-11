@@ -29,10 +29,11 @@ from scripts import (
     content_scraper,
     ebird_client,
     feed_builder,
+    i18n,
     image_fetcher,
     site_builder,
 )
-from scripts.generate import _build_site_entries, _load_dotenv
+from scripts.generate import _build_site_entries, _load_dotenv, load_config
 
 logging.basicConfig(
     level=logging.INFO,
@@ -78,7 +79,7 @@ def _classify_state(description: str) -> str:
 
 
 def _seed_one(
-    code: str, sci: str, com: str, session
+    code: str, sci: str, com: str, session, catalog
 ) -> dict | None:
     """Run scraper + image fetch for one species. Return summary dict."""
     logger.info("--- probing %s (%s) ---", code, com)
@@ -86,7 +87,9 @@ def _seed_one(
     # Image
     img = image_fetcher.load_cached_image(code, str(CACHE_DIR))
     if img is None:
-        img = image_fetcher.fetch_image(code, session=session)
+        img = image_fetcher.fetch_image(
+            code, session=session, locale=catalog.ebird_locale
+        )
         if img.url:
             image_fetcher.save_cached_image(code, img, str(CACHE_DIR))
 
@@ -94,7 +97,7 @@ def _seed_one(
     content = content_scraper.load_cached_content(code, str(CACHE_DIR))
     if content is None:
         content = content_scraper.scrape_species_content(
-            code, scientific_name=sci, locale="es", session=session
+            code, scientific_name=sci, catalog=catalog, session=session
         )
         content_scraper.save_cached_content(code, content, str(CACHE_DIR))
 
@@ -119,14 +122,18 @@ def _seed_one(
     }
 
 
-def _deep_probe_for_empty(session, taxonomy: list[dict], max_tries: int = 60):
+def _deep_probe_for_empty(session, taxonomy: list[dict], catalog, max_tries: int = 60):
     """Sample random species from the eBird taxonomy until one returns no
-    Spanish content from any source. Returns ``(code, sci, com)`` or ``None``.
+    target-language content from any source. Returns ``(code, sci, com)`` or ``None``.
 
-    Wikipedia ES has very broad bird coverage, so this can take many tries.
+    Wikipedia has very broad bird coverage, so this can take many tries.
     The probe is deterministic (seeded) so reruns produce the same candidate.
     """
     import random
+
+    target_lang = catalog.language
+    wiki_subdomain = catalog.wikipedia_subdomain
+    ebird_locale = catalog.ebird_locale
 
     rng = random.Random(20260411)
     pool = [
@@ -141,21 +148,23 @@ def _deep_probe_for_empty(session, taxonomy: list[dict], max_tries: int = 60):
         sci = sp["sciName"]
         com = sp.get("comName", code)
 
-        # Cheap test first: Wikipedia ES (single GET, no auth)
+        # Cheap test first: Wikipedia in target language (single GET, no auth)
         try:
-            wiki_text = content_scraper._fetch_wikipedia_es(sci, session)
+            wiki = content_scraper._fetch_wikipedia(sci, wiki_subdomain, session)
         except Exception:
-            wiki_text = ""
-        if wiki_text:
-            continue  # has Spanish wiki, not what we want
+            wiki = None
+        if wiki and wiki.get("extract"):
+            continue  # has wiki content in target lang, not what we want
 
         # Now check eBird (more expensive: cookie dance + scraping)
         try:
-            ebird_text = content_scraper._fetch_ebird_og_description(code, session, locale="es")
+            ebird_text = content_scraper._fetch_ebird_og_description(
+                code, session, locale=ebird_locale
+            )
         except Exception:
             ebird_text = ""
-        if ebird_text and content_scraper._is_spanish(ebird_text):
-            continue  # eBird returned Spanish, not what we want
+        if ebird_text and i18n.matches_language(ebird_text, target_lang):
+            continue  # eBird returned target-language text, not what we want
 
         logger.info("FOUND empty candidate: %s (%s) — %s", code, sci, com)
         return (code, sci, com)
@@ -170,21 +179,23 @@ def main() -> None:
         logger.error("EBIRD_API_KEY missing — set it in .env")
         sys.exit(1)
 
-    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    session = image_fetcher.new_session()
+    config = load_config()
+    catalog = i18n.Catalog.load(config["language"])
+    ebird_locale = config.get("ebird_locale") or catalog.ebird_locale
+    session = image_fetcher.new_session(
+        accept_language=catalog.accept_language_header
+    )
 
     # Preload taxonomy index for order/family enrichment.
     try:
-        ebird_client.get_full_taxonomy(
-            locale=config.get("ebird_locale", "es"), cache_dir=CACHE_DIR
-        )
+        ebird_client.get_full_taxonomy(locale=ebird_locale, cache_dir=CACHE_DIR)
     except Exception:
         logger.warning("Could not preload taxonomy", exc_info=True)
 
     # Probe candidates and bucket them.
     by_state: dict[str, list[dict]] = {"long": [], "short": [], "empty": []}
     for code, sci, com in CANDIDATES:
-        result = _seed_one(code, sci, com, session)
+        result = _seed_one(code, sci, com, session, catalog)
         if result:
             by_state[result["state"]].append(result)
         # Stop early if we have at least one of each state.
@@ -193,15 +204,17 @@ def main() -> None:
             break
 
     # If no empty was found in the hardcoded list, deep-probe random species
-    # from the taxonomy until we find one with no Spanish content.
+    # from the taxonomy until we find one with no target-language content.
     if not by_state["empty"]:
         taxonomy = ebird_client.get_full_taxonomy(
-            locale=config.get("ebird_locale", "es"), cache_dir=CACHE_DIR
+            locale=ebird_locale, cache_dir=CACHE_DIR
         )
-        empty_candidate = _deep_probe_for_empty(session, taxonomy, max_tries=80)
+        empty_candidate = _deep_probe_for_empty(
+            session, taxonomy, catalog, max_tries=80
+        )
         if empty_candidate:
             code, sci, com = empty_candidate
-            result = _seed_one(code, sci, com, session)
+            result = _seed_one(code, sci, com, session, catalog)
             if result:
                 by_state[result["state"]].append(result)
 
@@ -268,6 +281,10 @@ def main() -> None:
     feed_entries = []
     for date, p in reversed(list(zip(dates, sorted_picks))):
         taxonomy = ebird_client.lookup_taxonomy(p["code"]) or {}
+        # Read wikipedia fields from the cached content if present
+        cached = content_scraper.load_cached_content(p["code"], str(CACHE_DIR))
+        wiki_url = cached.wikipedia_url if cached else ""
+        wiki_lang = cached.wikipedia_language if cached else ""
         entry_html = feed_builder.build_entry_html(
             species_code=p["code"],
             common_name=p["com"],
@@ -279,6 +296,9 @@ def main() -> None:
             description_source=p["description_source"],
             bow_intro=p["bow_intro"],
             taxonomy=taxonomy,
+            catalog=catalog,
+            wikipedia_url=wiki_url,
+            wikipedia_language=wiki_lang,
         )
         pub = datetime.combine(date, datetime.min.time(), tzinfo=timezone.utc).replace(
             hour=7
@@ -297,14 +317,17 @@ def main() -> None:
             )
         )
 
-    feed_xml = feed_builder.build_feed(feed_entries, config)
+    feed_xml = feed_builder.build_feed(feed_entries, config, catalog)
     feed_builder.write_feed(feed_xml, str(FEED_PATH))
 
     # Build site
-    site_entries = _build_site_entries(history)
+    site_entries = _build_site_entries(
+        history, description_policy=config.get("description_policy", "foreign_fallback")
+    )
     site_builder.write_site(
         site_entries,
         BASE_DIR,
+        catalog=catalog,
         feed_link=config.get("feed_link", ""),
         author=config.get("author", ""),
     )
