@@ -24,9 +24,8 @@
 
   "footer.data_credit_html": "Datos de <a href=\"https://ebird.org\">eBird</a> y <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
   "footer.photos_credit_html": "Fotos de <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © de sus respectivos autores.",
-  "footer.author_template": "Proyecto no comercial por {author} © {year}.",
-  "footer.no_author_template": "Proyecto no comercial.",
-  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Código en GitHub</a>.",
+  "footer.author_template": "Proyecto no comercial por Yass Fuentes © {year}.",
+  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Clóname en GitHub</a>.",
 
   "page.home_hero_title_template": "{name} — Ave del Día",
   "page.archive_title_template": "Archivo — Ave del Día",
@@ -41,6 +40,5 @@
   "feed.title": "Ave del Día",
   "feed.description": "Cada día, una nueva especie de ave.",
   "feed.copyright_data_prefix": "Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. ",
-  "feed.copyright_author_template": "Feed © {year} {author}, proyecto no comercial.",
-  "feed.copyright_no_author": "Proyecto no comercial."
+  "feed.copyright_author_template": "Feed © {year} Yass Fuentes, proyecto no comercial."
 }

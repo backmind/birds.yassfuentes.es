@@ -34,7 +34,6 @@ class RenderContext:
 
     catalog: "Catalog"
     feed_link: str
-    author: str
 
 
 @dataclass
@@ -758,13 +757,9 @@ def _render_subscribe(ctx: RenderContext, feed_url: str = "feed.xml") -> str:
 def _render_footer(ctx: RenderContext) -> str:
     t = ctx.catalog.t
     year = datetime.now(timezone.utc).year
-    if ctx.author:
-        # author_template carries punctuation; we still need to escape the
-        # author name itself before substitution. The template strings live
-        # in the catalog and may contain raw HTML for the embedded link.
-        author_line = t("footer.author_template", author=_esc(ctx.author), year=year)
-    else:
-        author_line = t("footer.no_author_template")
+    # Author is hardcoded in the per-language template, which may contain
+    # raw HTML for the embedded link — passed through verbatim.
+    author_line = t("footer.author_template", year=year)
     code_link = t("footer.code_link_html")
     return f"""
 <footer class="site">
@@ -1052,14 +1047,13 @@ def write_site(
     output_dir: Path,
     catalog: "Catalog",
     feed_link: str = "",
-    author: str = "",
 ) -> None:
     """Write index.html and archive.html to ``output_dir``.
 
     The ``catalog`` is required: every user-facing string is sourced from
-    it. ``feed_link`` and ``author`` round out the per-page render context.
+    it. ``feed_link`` rounds out the per-page render context.
     """
-    ctx = RenderContext(catalog=catalog, feed_link=feed_link, author=author)
+    ctx = RenderContext(catalog=catalog, feed_link=feed_link)
     output_dir.mkdir(parents=True, exist_ok=True)
     index_html = build_index(entries, ctx)
     archive_html = build_archive(entries, ctx)

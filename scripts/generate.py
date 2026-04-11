@@ -108,7 +108,6 @@ _ENV_OVERRIDES: dict[str, tuple[str, type]] = {
     "BOTD_MAX_FEED_ENTRIES": ("max_feed_entries", int),
     "BOTD_BACK_DAYS": ("back_days", int),
     "BOTD_FEED_LINK": ("feed_link", str),
-    "BOTD_AUTHOR": ("author", str),
 }
 
 logging.basicConfig(
@@ -452,7 +451,6 @@ def main() -> None:
             STATE_DIR,
             catalog=catalog,
             feed_link=config.get("feed_link", ""),
-            author=config.get("author", ""),
         )
 
         logger.info("Done. Today's bird: %s (%s)", common_name, scientific_name)

@@ -12,10 +12,11 @@ microservice. Each day a new species is selected from a configurable
 weighted pool of regions, scraped from public Cornell Lab sources, and
 published to a GitHub Pages site plus an RSS endpoint.
 
-The default deployment leans Iberian (Madrid + Spain heavy, then Europe,
-then global) but every region weight is configurable. The default language
-is Spanish; English, French and Portuguese are bundled and contributors
-can add more by dropping a single JSON file.
+The default deployment ships Iberian-weighted: Madrid 35%, Spain 27%,
+one random European country 23%, global taxonomy 15%. All weights live
+in `data/config.json`. Spanish is the default language. English, French
+and Portuguese are bundled. Adding another language is one JSON file
+under `data/i18n/`.
 
 Zero AI-generated content, zero hosting cost (free tier of GitHub Actions
 and GitHub Pages), zero tracking, zero cookies.
@@ -124,8 +125,7 @@ Every behavior knob lives here. Annotated example:
   "max_feed_entries": 60,
   "back_days": 14,
 
-  "feed_link": "https://YOUR-USERNAME.github.io/Bird-of-the-day/",
-  "author": "Your Name"
+  "feed_link": "https://YOUR-USERNAME.github.io/Bird-of-the-day/"
 }
 ```
 
@@ -249,7 +249,6 @@ and overrides it if set:
 | `BOTD_MAX_FEED_ENTRIES` | `max_feed_entries` | `60` |
 | `BOTD_BACK_DAYS` | `back_days` | `14` |
 | `BOTD_FEED_LINK` | `feed_link` | `https://example.com/birds/` |
-| `BOTD_AUTHOR` | `author` | `Your Name` |
 
 `EBIRD_API_KEY` is required. The container does **not** read `.env`
 files (it doesn't need to — env vars work everywhere).
@@ -376,11 +375,40 @@ mount your own at `/etc/supercronic/crontab`.
    branch`, branch: `main`, folder: `/ (root)`. Save.
 4. Edit `data/config.json`:
    - Set `feed_link` to your `https://<user>.github.io/<repo>/` URL.
-   - Set `author` to your name.
    - Pick a `language` (or add one — see below).
    - Adjust `pools` if you want different regional weights.
-5. Either wait for the cron or trigger **Actions → Bird of the Day → Run
+5. Reset the inherited state (see "Forking from this deployment" below).
+6. Either wait for the cron or trigger **Actions → Bird of the Day → Run
    workflow** manually for the first publication.
+
+#### Forking from this deployment
+
+The state of `backmind/Bird-of-the-day` (`history.json`, `cache/`, the
+rendered `index.html`/`archive.html`/`feed.xml`) is committed to its
+`main` branch. That is how the GitHub Pages flow keeps state between
+cron runs without an external database — git is the database.
+
+The consequence: when you fork, you inherit the upstream's state. You
+should reset it to a clean slate before the first publication, or your
+first cron run will start from someone else's history.
+
+```bash
+rm -f feed.xml index.html archive.html history.json
+rm -f cache/*.json cache/*.image.json   # cache/.gitkeep stays
+echo '{"entries": []}' > history.json
+# edit data/config.json: language, pools, feed_link
+git add -A && git commit -m "reset for fresh deployment"
+git push
+```
+
+Optional: keep `cache/taxonomy.json` if you want to skip the first
+~5 MB taxonomy fetch on the next cron run. It is language-tagged
+internally and will be re-fetched automatically if your `language`
+differs from the cached one.
+
+The Docker deployment does not have this problem: the image ships with
+state excluded via `.dockerignore`, and the persistent volume starts
+empty on first run.
 
 ### Pool matrix examples
 

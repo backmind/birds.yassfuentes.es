@@ -162,15 +162,9 @@ def build_feed(
         atom_link.set("rel", "self")
         atom_link.set("type", "application/rss+xml")
 
-    # Copyright
-    author = config.get("author", "")
+    # Copyright. Author is hardcoded in the per-language template.
     year = datetime.now(timezone.utc).year
-    if author:
-        author_line = catalog.t(
-            "feed.copyright_author_template", year=year, author=author
-        )
-    else:
-        author_line = catalog.t("feed.copyright_no_author")
+    author_line = catalog.t("feed.copyright_author_template", year=year)
     ET.SubElement(channel, "copyright").text = (
         catalog.t("feed.copyright_data_prefix") + author_line
     )

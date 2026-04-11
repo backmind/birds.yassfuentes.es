@@ -24,7 +24,6 @@ services:
       # require mounting the file (see README → "Mounting a custom config").
       # BOTD_LANGUAGE: en
       # BOTD_DESCRIPTION_POLICY: foreign_fallback
-      # BOTD_AUTHOR: "Your Name"
       # BOTD_FEED_LINK: https://example.com/birds/
     volumes:
       - botd-data:/var/lib/botd

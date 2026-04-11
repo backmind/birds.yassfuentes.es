@@ -24,9 +24,8 @@
 
   "footer.data_credit_html": "Données de <a href=\"https://ebird.org\">eBird</a> et <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
   "footer.photos_credit_html": "Photos de <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © leurs auteurs respectifs.",
-  "footer.author_template": "Projet non commercial par {author} © {year}.",
-  "footer.no_author_template": "Projet non commercial.",
-  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Code sur GitHub</a>.",
+  "footer.author_template": "Projet non commercial par Yass Fuentes © {year}.",
+  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Clone-moi sur GitHub</a>.",
 
   "page.home_hero_title_template": "{name} — Oiseau du Jour",
   "page.archive_title_template": "Archives — Oiseau du Jour",
@@ -41,6 +40,5 @@
   "feed.title": "Oiseau du Jour",
   "feed.description": "Une nouvelle espèce d'oiseau chaque jour.",
   "feed.copyright_data_prefix": "Données : eBird/Cornell Lab of Ornithology (ebird.org). Photos : Macaulay Library, © leurs auteurs respectifs. ",
-  "feed.copyright_author_template": "Flux © {year} {author}, projet non commercial.",
-  "feed.copyright_no_author": "Projet non commercial."
+  "feed.copyright_author_template": "Flux © {year} Yass Fuentes, projet non commercial."
 }

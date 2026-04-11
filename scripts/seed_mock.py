@@ -335,7 +335,6 @@ def main() -> None:
         STATE_DIR,
         catalog=catalog,
         feed_link=config.get("feed_link", ""),
-        author=config.get("author", ""),
     )
 
     logger.info("DONE.")
