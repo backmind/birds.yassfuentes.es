@@ -1,7 +1,7 @@
 {
   "site.title": "Bird of the Day",
   "site.eyebrow": "Field journal · daily",
-  "site.tagline": "A new bird species every day. With an Iberian bias, but no borders.",
+  "site.tagline": "A new bird species every day.",
   "site.skip_to_content": "Skip to content",
 
   "nav.principal_aria": "Primary",
@@ -39,7 +39,7 @@
   "language_name.pt": "Portuguese",
 
   "feed.title": "Bird of the Day",
-  "feed.description": "A new bird species every day. With an Iberian bias, but no borders.",
+  "feed.description": "A new bird species every day.",
   "feed.copyright_data_prefix": "Data: eBird/Cornell Lab of Ornithology (ebird.org). Photos: Macaulay Library, © their respective authors. ",
   "feed.copyright_author_template": "Feed © {year} {author}, non-commercial project.",
   "feed.copyright_no_author": "Non-commercial project."

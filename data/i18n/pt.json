@@ -1,7 +1,7 @@
 {
   "site.title": "Ave do Dia",
   "site.eyebrow": "Caderno de campo · diário",
-  "site.tagline": "Uma nova espécie de ave todos os dias. Com viés ibérico, mas sem fronteiras.",
+  "site.tagline": "Uma nova espécie de ave todos os dias.",
   "site.skip_to_content": "Saltar para o conteúdo",
 
   "nav.principal_aria": "Principal",
@@ -40,6 +40,7 @@
 
   "feed.title": "Ave do Dia",
   "feed.description": "Uma nova espécie de ave todos os dias.",
+  "feed.copyright_data_prefix": "Dados: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © dos respetivos autores. ",
   "feed.copyright_author_template": "Feed © {year} {author}, projeto não comercial.",
   "feed.copyright_no_author": "Projeto não comercial."
 }

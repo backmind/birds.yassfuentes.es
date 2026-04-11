@@ -1,4 +1,4 @@
-name: Ave del Día
+name: Bird of the Day
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
       - name: Generate bird of the day
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
-        run: uv run python scripts/generate.py
+        run: uv run python -m scripts.generate
 
       - name: Commit and push changes
         run: |
@@ -34,5 +34,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feed.xml history.json index.html archive.html cache/
           git diff --staged --quiet && echo "No changes to commit" && exit 0
-          git commit -m "🐦 Ave del día: $(date -u +%Y-%m-%d)"
+          git commit -m "🐦 Bird of the day: $(date -u +%Y-%m-%d)"
+          git pull --rebase origin main
           git push

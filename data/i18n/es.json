@@ -1,7 +1,7 @@
 {
   "site.title": "Ave del Día",
   "site.eyebrow": "Diario de campo · cada día",
-  "site.tagline": "Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.",
+  "site.tagline": "Cada día, una nueva especie de ave.",
   "site.skip_to_content": "Saltar al contenido",
 
   "nav.principal_aria": "Principal",
@@ -39,7 +39,7 @@
   "language_name.pt": "portugués",
 
   "feed.title": "Ave del Día",
-  "feed.description": "Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.",
+  "feed.description": "Cada día, una nueva especie de ave.",
   "feed.copyright_data_prefix": "Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. ",
   "feed.copyright_author_template": "Feed © {year} {author}, proyecto no comercial.",
   "feed.copyright_no_author": "Proyecto no comercial."

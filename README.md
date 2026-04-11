@@ -7,7 +7,7 @@ published to a GitHub Pages site plus an RSS endpoint.
 
 The default deployment leans Iberian (Madrid + Spain heavy, then Europe,
 then global) but every region weight is configurable. The default language
-is Spanish; English, French and Portuguese are bundled and contributors
+is English; Spanish, French and Portuguese are bundled and contributors
 can add more by dropping a single JSON file.
 
 Zero AI-generated content, zero hosting cost (free tier of GitHub Actions
@@ -96,8 +96,8 @@ Every behavior knob lives here. Annotated example:
 
 ```json
 {
-  "language": "es",
-  "_language_help": "One of es | en | fr | pt (or any other catalog you add).",
+  "language": "en",
+  "_language_help": "One of en | es | fr | pt (or any other catalog you add).",
 
   "ebird_locale": null,
   "_ebird_locale_help": "Optional override for the eBird API locale (e.g. 'pt_BR'). If null, derived from `language`.",
@@ -131,13 +131,19 @@ Wikipedia) returns text in your configured language:
 
 | Policy | Behavior |
 |---|---|
-| `foreign_fallback` (default) | Show the original (typically English) text with a translated disclaimer (*"Description in English (no Spanish translation available)"*). |
+| `foreign_fallback` (default) | Show the original text with a disclaimer naming the source language (e.g. *"Description in English (no French translation available)"*). |
 | `strict` | Show an em-dash placeholder. Never display foreign text. |
 | `skip` | Re-roll species selection up to `max_skip_retries` times. On exhaustion, falls back to `strict`. |
 
 Even with `strict`, the footer always carries a Wikipedia link — falling
 back to English Wikipedia (and labeled `Wikipedia (en)`) if the target
 language has no article.
+
+The `site.tagline` and `feed.description` strings in `data/i18n/*.json`
+are intentionally generic ("A new bird species every day."): the regional
+flavor of the site is decided by `pools` in `data/config.json`, not baked
+into the copy. If you want a region-specific tagline, edit the catalog of
+the language you're shipping in.
 
 ## Running
 
@@ -168,11 +174,13 @@ uv run python -m scripts.generate
 `.github/workflows/ave-del-dia.yml` runs:
 
 - Automatically every day at **07:00 UTC** (09:00 CEST in Madrid).
-- Manually from the **Actions → Ave del Día → Run workflow** tab.
+- Manually from the **Actions → Bird of the Day → Run workflow** tab.
 
 The workflow `git add`s `feed.xml`, `history.json`, `index.html`,
 `archive.html` and `cache/`, then commits with a message of the form
-`🐦 Ave del día: 2026-04-11` and pushes to the default branch.
+`🐦 Bird of the day: 2026-04-11` and pushes to the default branch. The
+file path keeps the historical `ave-del-dia.yml` name so existing GitHub
+Actions history isn't lost.
 
 ## Self-hosting
 
@@ -364,7 +372,7 @@ mount your own at `/etc/supercronic/crontab`.
    - Set `author` to your name.
    - Pick a `language` (or add one — see below).
    - Adjust `pools` if you want different regional weights.
-5. Either wait for the cron or trigger **Actions → Ave del Día → Run
+5. Either wait for the cron or trigger **Actions → Bird of the Day → Run
    workflow** manually for the first publication.
 
 ### Pool matrix examples
@@ -428,7 +436,7 @@ the only constraint on which target languages are valid is that there's a
 ```
 Bird-of-the-day/
 ├── .github/workflows/
-│   ├── ave-del-dia.yml         # daily cron + commit (GitHub Pages path)
+│   ├── ave-del-dia.yml         # daily cron + commit (GitHub Pages path; legacy filename)
 │   └── docker-publish.yml      # build & push multi-arch image to ghcr.io
 ├── Dockerfile                  # multi-stage container build
 ├── .dockerignore

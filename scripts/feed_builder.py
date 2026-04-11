@@ -223,29 +223,55 @@ def _wrap_cdata(xml_string: str) -> str:
 
 
 def load_existing_feed(feed_path: str) -> list[FeedEntry]:
-    """Parse an existing feed.xml and return its entries."""
+    """Parse an existing feed.xml and return its entries.
+
+    The CDATA-wrapped ``<content:encoded>`` bodies are extracted via a
+    regex pre-pass keyed by guid, then merged back after ElementTree
+    parses the rest of the channel chrome. The naïve approach (strip
+    CDATA, parse with ET, read ``content_elem.text``) silently loses
+    every prior entry's rich HTML: ET treats the inner ``<h2>``/``<p>``/…
+    as element children rather than text, leaving ``.text`` as ``None``.
+    We round-trip the feed every day, so that bug would clear the body
+    of every entry except today's after the second publication.
+    """
     path = Path(feed_path)
     if not path.exists():
         return []
 
     try:
-        content = path.read_text(encoding="utf-8")
-        # Remove CDATA wrappers so ElementTree can parse
-        content = re.sub(r"<!\[CDATA\[", "", content)
-        content = re.sub(r"\]\]>", "", content)
+        raw = path.read_text(encoding="utf-8")
 
-        root = ET.fromstring(content)
-        entries = []
+        # Pre-pass: pull each item's CDATA body out, indexed by guid. The
+        # regex is intentionally simple because feed.xml is always our own
+        # output — never a third-party feed — so we control its shape.
+        item_re = re.compile(r"<item\b[^>]*>(.*?)</item>", re.DOTALL)
+        guid_re = re.compile(r"<guid\b[^>]*>(.*?)</guid>", re.DOTALL)
+        content_re = re.compile(
+            r"<content:encoded\b[^>]*>\s*<!\[CDATA\[(.*?)\]\]>\s*</content:encoded>",
+            re.DOTALL,
+        )
+        content_by_guid: dict[str, str] = {}
+        for item_match in item_re.finditer(raw):
+            inner = item_match.group(1)
+            g = guid_re.search(inner)
+            c = content_re.search(inner)
+            if g and c:
+                content_by_guid[g.group(1).strip()] = c.group(1)
+
+        # Strip the CDATA wrappers so ElementTree can parse the rest.
+        stripped = raw.replace("<![CDATA[", "").replace("]]>", "")
+        root = ET.fromstring(stripped)
+        entries: list[FeedEntry] = []
 
         for item in root.findall(".//item"):
             title_elem = item.find("title")
             link_elem = item.find("link")
             guid_elem = item.find("guid")
             pub_date_elem = item.find("pubDate")
-            content_elem = item.find(f"{{{CONTENT_NS}}}encoded")
 
             if guid_elem is None or guid_elem.text is None:
                 continue
+            guid_text = guid_elem.text.strip()
 
             # Extract species code from link
             species_code = ""
@@ -269,12 +295,12 @@ def load_existing_feed(feed_path: str) -> list[FeedEntry]:
                     species_code=species_code,
                     common_name=common_name,
                     scientific_name=scientific_name,
-                    description_html=content_elem.text if content_elem is not None and content_elem.text else "",
+                    description_html=content_by_guid.get(guid_text, ""),
                     image_url=None,
                     image_attribution="",
                     ml_search_url="",
                     pub_date=pub_date_elem.text if pub_date_elem is not None and pub_date_elem.text else "",
-                    guid=guid_elem.text,
+                    guid=guid_text,
                 )
             )
 
