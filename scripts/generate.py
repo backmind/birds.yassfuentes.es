@@ -27,11 +27,23 @@ from scripts import (
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CACHE_DIR = BASE_DIR / "cache"
-FEED_PATH = BASE_DIR / "feed.xml"
-HISTORY_PATH = BASE_DIR / "history.json"
+
+# Mutable state lives under STATE_DIR. When BOTD_STATE_DIR is unset (local
+# development, GitHub Actions) it equals BASE_DIR and behavior is identical
+# to the pre-Docker layout. When set (typically in the container, where it
+# points at the mounted volume) the cache and generated files are written
+# under that directory while CONFIG_PATH and ENV_PATH stay anchored to the
+# code in /app.
+STATE_DIR = Path(os.environ.get("BOTD_STATE_DIR", str(BASE_DIR)))
+
+# Code-anchored (read-only, baked in container image)
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
 ENV_PATH = BASE_DIR / ".env"
+
+# State-anchored (written at runtime, lives on the volume in Docker)
+CACHE_DIR = STATE_DIR / "cache"
+FEED_PATH = STATE_DIR / "feed.xml"
+HISTORY_PATH = STATE_DIR / "history.json"
 
 
 def _load_dotenv(path: Path) -> None:
@@ -51,6 +63,53 @@ def _load_dotenv(path: Path) -> None:
         value = value.strip().strip('"').strip("'")
         if key and key not in os.environ:
             os.environ[key] = value
+
+
+# Names that can be supplied via a *_FILE env var pointing at a file whose
+# contents are the actual secret. Standard Docker / Kubernetes secrets
+# convention (mirrors how postgres, mariadb, nginx and other "official"
+# images handle secrets).
+_SECRET_FILE_KEYS: tuple[str, ...] = ("EBIRD_API_KEY",)
+
+
+def _load_secret_files() -> None:
+    """Inject secrets from `*_FILE` env vars into the matching env var.
+
+    For each key in :data:`_SECRET_FILE_KEYS`, if ``{KEY}_FILE`` is set
+    and ``KEY`` itself is not, read the file at the path and use its
+    stripped contents as the value of ``KEY``. Existing env vars always
+    win, so a user can still override with ``-e KEY=...`` directly.
+    """
+    for key in _SECRET_FILE_KEYS:
+        file_var = f"{key}_FILE"
+        path = os.environ.get(file_var)
+        if path and key not in os.environ:
+            try:
+                os.environ[key] = Path(path).read_text(encoding="utf-8").strip()
+            except OSError as e:
+                logger.warning(
+                    "%s set but couldn't read %s: %s", file_var, path, e
+                )
+
+
+# Scalar config keys that may be overridden by environment variables. The
+# table maps an env var name to (config key, caster). Env vars override the
+# JSON file value when present, so users can ship the default
+# ``data/config.json`` baked in the container and tweak individual knobs
+# with ``-e BOTD_LANGUAGE=fr`` etc. Complex nested structures (like
+# ``pools``) are intentionally not env-var-able — mount a custom file
+# instead.
+_ENV_OVERRIDES: dict[str, tuple[str, type]] = {
+    "BOTD_LANGUAGE": ("language", str),
+    "BOTD_EBIRD_LOCALE": ("ebird_locale", str),
+    "BOTD_DESCRIPTION_POLICY": ("description_policy", str),
+    "BOTD_MAX_SKIP_RETRIES": ("max_skip_retries", int),
+    "BOTD_DEDUP_WINDOW": ("dedup_window", int),
+    "BOTD_MAX_FEED_ENTRIES": ("max_feed_entries", int),
+    "BOTD_BACK_DAYS": ("back_days", int),
+    "BOTD_FEED_LINK": ("feed_link", str),
+    "BOTD_AUTHOR": ("author", str),
+}
 
 logging.basicConfig(
     level=logging.INFO,
@@ -84,6 +143,23 @@ def load_config() -> dict:
             derived, legacy,
         )
         config["language"] = derived
+
+    # Apply BOTD_* env-var overrides for scalar config keys. This lets a
+    # container user tweak individual knobs without mounting a custom
+    # config.json. Complex nested structures (pools) are not overridable;
+    # mount a custom file instead.
+    for env_name, (key, caster) in _ENV_OVERRIDES.items():
+        raw_value = os.environ.get(env_name)
+        if raw_value is None or raw_value == "":
+            continue
+        try:
+            config[key] = caster(raw_value)
+            logger.info("config override from env: %s = %r", key, config[key])
+        except (ValueError, TypeError) as e:
+            logger.warning(
+                "ignoring %s=%r (cast to %s failed: %s)",
+                env_name, raw_value, caster.__name__, e,
+            )
 
     known = i18n.discover_languages()
     if known and config["language"] not in known:
@@ -186,6 +262,7 @@ def _build_site_entries(
 
 def main() -> None:
     _load_dotenv(ENV_PATH)
+    _load_secret_files()
     config = load_config()
     history = load_history()
     now = datetime.now(timezone.utc)
@@ -367,11 +444,12 @@ def main() -> None:
         )
         save_history(history)
 
-        # 7. Generate the static site
+        # 7. Generate the static site (output goes under STATE_DIR so the
+        # container's volume captures it; identical to BASE_DIR locally).
         site_entries = _build_site_entries(history, description_policy=description_policy)
         site_builder.write_site(
             site_entries,
-            BASE_DIR,
+            STATE_DIR,
             catalog=catalog,
             feed_link=config.get("feed_link", ""),
             author=config.get("author", ""),

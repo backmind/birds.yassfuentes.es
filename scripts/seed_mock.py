@@ -33,7 +33,19 @@ from scripts import (
     image_fetcher,
     site_builder,
 )
-from scripts.generate import _build_site_entries, _load_dotenv, load_config
+from scripts.generate import (
+    BASE_DIR,
+    CACHE_DIR,
+    CONFIG_PATH,
+    ENV_PATH,
+    FEED_PATH,
+    HISTORY_PATH,
+    STATE_DIR,
+    _build_site_entries,
+    _load_dotenv,
+    _load_secret_files,
+    load_config,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -41,13 +53,6 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 logger = logging.getLogger("seed_mock")
-
-BASE_DIR = Path(__file__).resolve().parent.parent
-CACHE_DIR = BASE_DIR / "cache"
-HISTORY_PATH = BASE_DIR / "history.json"
-FEED_PATH = BASE_DIR / "feed.xml"
-ENV_PATH = BASE_DIR / ".env"
-CONFIG_PATH = BASE_DIR / "data" / "config.json"
 
 # (species_code, sciName, comName) — sciName must match Wikipedia ES title or
 # a sci synonym that REST follows. comName is the Spanish display name.
@@ -175,6 +180,7 @@ def _deep_probe_for_empty(session, taxonomy: list[dict], catalog, max_tries: int
 
 def main() -> None:
     _load_dotenv(ENV_PATH)
+    _load_secret_files()
     if "EBIRD_API_KEY" not in __import__("os").environ:
         logger.error("EBIRD_API_KEY missing — set it in .env")
         sys.exit(1)
@@ -326,7 +332,7 @@ def main() -> None:
     )
     site_builder.write_site(
         site_entries,
-        BASE_DIR,
+        STATE_DIR,
         catalog=catalog,
         feed_link=config.get("feed_link", ""),
         author=config.get("author", ""),

@@ -176,6 +176,185 @@ The workflow `git add`s `feed.xml`, `history.json`, `index.html`,
 
 ## Self-hosting
 
+Two paths, pick whichever fits your taste. They are peer options, not
+replacements: pick GitHub Pages if you want a free hosted site with zero
+ops, or Docker if you run your own server.
+
+| Path | Best for | Cost | Ops |
+|---|---|---|---|
+| GitHub Actions + Pages | "I just want a free site." | Free | None |
+| Docker container | "I run my own server / VPS / Pi / fly.io." | A host with Docker | Standard container ops |
+
+### Self-hosting with Docker
+
+The image is published to `ghcr.io/backmind/bird-of-the-day` for
+`linux/amd64` and `linux/arm64`. It runs nginx on port 8080 and a
+built-in cron (supercronic) that regenerates the site daily at 07:00 UTC,
+matching the GitHub Actions cadence. Total image size: ~340 MB.
+
+#### Quick start
+
+```bash
+docker run -d --name bird-of-the-day \
+  -p 8080:8080 \
+  -e EBIRD_API_KEY=YOUR_KEY \
+  -v botd-data:/var/lib/botd \
+  --restart unless-stopped \
+  ghcr.io/backmind/bird-of-the-day:latest
+```
+
+Open <http://localhost:8080>. On a fresh container the first request may
+take 30–60 seconds while the generator runs synchronously to populate
+the volume.
+
+#### Docker Compose
+
+A ready-to-use `docker-compose.yml` lives at the repo root with sensible
+defaults (named volume, healthcheck, `cap_drop: ALL`,
+`no-new-privileges`). Set `EBIRD_API_KEY` in your shell or a sibling
+`.env` file and run:
+
+```bash
+docker compose up -d
+```
+
+#### Configuration via environment variables
+
+Scalar config knobs can be tweaked without rebuilding the image or
+mounting a custom config file. Each maps to a key in `data/config.json`
+and overrides it if set:
+
+| Env var | Maps to | Example |
+|---|---|---|
+| `BOTD_LANGUAGE` | `language` | `en`, `fr`, `pt` |
+| `BOTD_EBIRD_LOCALE` | `ebird_locale` | `pt_BR` |
+| `BOTD_DESCRIPTION_POLICY` | `description_policy` | `strict`, `foreign_fallback`, `skip` |
+| `BOTD_MAX_SKIP_RETRIES` | `max_skip_retries` | `50` |
+| `BOTD_DEDUP_WINDOW` | `dedup_window` | `50` |
+| `BOTD_MAX_FEED_ENTRIES` | `max_feed_entries` | `60` |
+| `BOTD_BACK_DAYS` | `back_days` | `14` |
+| `BOTD_FEED_LINK` | `feed_link` | `https://example.com/birds/` |
+| `BOTD_AUTHOR` | `author` | `Your Name` |
+
+`EBIRD_API_KEY` is required. The container does **not** read `.env`
+files (it doesn't need to — env vars work everywhere).
+
+#### Secrets via files (Docker / Kubernetes secrets)
+
+Standard Docker / k8s secrets convention: instead of passing the key as
+an env var, mount a file containing the key and point at it with
+`EBIRD_API_KEY_FILE`:
+
+```bash
+docker run ... \
+  --secret source=ebird_api_key,target=/run/secrets/ebird_api_key \
+  -e EBIRD_API_KEY_FILE=/run/secrets/ebird_api_key \
+  ghcr.io/backmind/bird-of-the-day
+```
+
+In Kubernetes, mount a Secret as a volume and set
+`EBIRD_API_KEY_FILE` to the mounted path. If both `EBIRD_API_KEY` and
+`EBIRD_API_KEY_FILE` are set, the env var wins.
+
+#### Mounting a custom `data/config.json`
+
+The `pools` matrix is a nested structure not exposed via env vars
+(stringifying it would be painful). To customise it without forking
+the repo and rebuilding:
+
+```bash
+# 1. Pull the default config out of a running container
+docker cp bird-of-the-day:/app/data/config.json ./my-config.json
+
+# 2. Edit my-config.json on the host
+
+# 3. Mount it back in:
+docker run -d ... \
+  -v ./my-config.json:/app/data/config.json:ro \
+  ghcr.io/backmind/bird-of-the-day
+```
+
+The mount is `:ro` (read-only) — the container only reads it.
+
+#### Volume contents
+
+The single volume at `/var/lib/botd` holds all mutable state:
+
+```
+/var/lib/botd/
+├── cache/         # per-species + taxonomy caches
+├── feed.xml       # the RSS feed
+├── index.html     # the front page
+├── archive.html   # the chronological archive
+└── history.json   # the full publication history
+```
+
+Back this up and you can rebuild the running container without losing a
+single day. The default schedule writes to it once per day at 07:00 UTC.
+
+#### Health checks
+
+The container's `HEALTHCHECK` verifies three things every 5 minutes:
+
+1. `feed.xml` exists on the volume.
+2. `feed.xml` was modified within the last 36 hours.
+3. nginx is actually serving `/feed.xml` on port 8080.
+
+If the daily cron silently stops working, the container goes
+`unhealthy` within 36 hours — that's the **intended** behavior, and
+your orchestrator (k8s / docker swarm / fly machines / etc.) will
+surface it. The 36 h window gives the daily 07:00 UTC run a 12 h grace
+period.
+
+There's also a cheap liveness probe at `/healthz` that just returns
+`200 ok` if nginx is up.
+
+#### Hardened deployment
+
+The container runs as a non-root user (`botd`, uid 1000) and needs no
+Linux capabilities. Recommended hardening for security-conscious
+deployments:
+
+```bash
+docker run -d \
+  --read-only \
+  --cap-drop=ALL \
+  --security-opt no-new-privileges \
+  --tmpfs /tmp \
+  --tmpfs /var/log/nginx \
+  --tmpfs /var/lib/nginx \
+  --tmpfs /run/nginx \
+  -p 8080:8080 \
+  -e EBIRD_API_KEY=$KEY \
+  -v botd-data:/var/lib/botd \
+  ghcr.io/backmind/bird-of-the-day
+```
+
+The `--read-only` root filesystem requires writable `tmpfs` for
+nginx's working directories. The container has been tested in this
+mode end-to-end.
+
+Resource hints: ~50–100 MB RAM at idle, ~150 MB during generation,
+bursty CPU. A floor of `mem_limit: 256m` and `cpus: 0.5` is
+comfortable.
+
+#### Building locally
+
+```bash
+docker build -t bird-of-the-day .
+# Multi-arch:
+docker buildx build --platform linux/amd64,linux/arm64 -t bird-of-the-day .
+```
+
+#### Cron schedule and timezone
+
+The container is UTC by default. The cron expression in
+`docker/crontab` is `0 7 * * *` (07:00 UTC, matching the GitHub
+Actions workflow). To change it, edit that file and rebuild — or
+mount your own at `/etc/supercronic/crontab`.
+
+### Self-hosting on GitHub Pages
+
 1. Fork the repo.
 2. **Settings → Secrets and variables → Actions** → add `EBIRD_API_KEY`.
 3. **Settings → Pages → Build and deployment** → source: `Deploy from a
@@ -248,7 +427,18 @@ the only constraint on which target languages are valid is that there's a
 
 ```
 Bird-of-the-day/
-├── .github/workflows/ave-del-dia.yml    # daily cron + commit
+├── .github/workflows/
+│   ├── ave-del-dia.yml         # daily cron + commit (GitHub Pages path)
+│   └── docker-publish.yml      # build & push multi-arch image to ghcr.io
+├── Dockerfile                  # multi-stage container build
+├── .dockerignore
+├── docker-compose.yml          # one-command self-host
+├── docker/
+│   ├── crontab                 # supercronic schedule (07:00 UTC)
+│   ├── entrypoint.sh           # cold-start + supercronic + exec nginx
+│   ├── healthcheck.sh          # smart freshness check (36h window)
+│   ├── nginx.conf              # non-root nginx, port 8080
+│   └── placeholder.html        # cold-start fallback page
 ├── scripts/
 │   ├── generate.py        # orchestrator (entry point)
 │   ├── ebird_client.py    # eBird API + species selection + taxonomy cache
