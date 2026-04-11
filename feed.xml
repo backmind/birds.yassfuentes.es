@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>Bird of the Day</title>
+    <title>Ave del Día</title>
     <link>https://backmind.github.io/Bird-of-the-day/</link>
-    <description>A new bird species every day. With an Iberian bias, but no borders.</description>
-    <language>en</language>
+    <description>Cada día, una nueva especie de ave.</description>
+    <language>es</language>
     <atom:link href="https://backmind.github.io/Bird-of-the-day/feed.xml" rel="self" type="application/rss+xml" />
-    <copyright>Data: eBird/Cornell Lab of Ornithology (ebird.org). Photos: Macaulay Library, © their respective authors. Feed © 2026 Yass Fuentes, non-commercial project.</copyright>
+    <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
   </channel>
 </rss>

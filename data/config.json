@@ -1,6 +1,6 @@
 {
-  "language": "en",
-  "_language_help": "One of the languages with a catalog at data/i18n/{lang}.json. Default: en.",
+  "language": "es",
+  "_language_help": "One of the languages with a catalog at data/i18n/{lang}.json. Default: es.",
 
   "ebird_locale": null,
   "_ebird_locale_help": "Optional override for the eBird API locale (e.g. 'pt_BR'). If null, derived from `language`.",

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bird of the Day</title>
-  <meta name="description" content="A new bird species every day. With an Iberian bias, but no borders.">
+  <title>Ave del Día</title>
+  <meta name="description" content="Cada día, una nueva especie de ave.">
   <meta name="theme-color" content="#F4EEE0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F1518" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23F4EEE0'/%3E%3Cpath d='M6 38 Q 20 12, 32 32 Q 44 12, 58 38' fill='none' stroke='%230E5F66' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
-  <link rel="alternate" type="application/rss+xml" title="Bird of the Day" href="feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Ave del Día" href="feed.xml">
   <script>(function(){try{var s=localStorage.getItem('bird-theme');if(s==='light'||s==='dark')document.documentElement.dataset.theme=s;}catch(e){}})();</script>
   <style>@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
 
@@ -637,18 +637,18 @@ footer.site a { color: var(--ink-soft); }
 }</style>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">Saltar al contenido</a>
 <header class="site">
   <div class="inner">
     <div class="brand">
-      <span class="eyebrow">Field journal · daily</span>
-      <h1><a href="index.html">Bird of the Day</a></h1>
+      <span class="eyebrow">Diario de campo · cada día</span>
+      <h1><a href="index.html">Ave del Día</a></h1>
     </div>
-    <nav aria-label="Primary">
-      <a href="index.html" aria-current="page">Today</a>
-      <a href="archive.html">Archive</a>
+    <nav aria-label="Principal">
+      <a href="index.html" aria-current="page">Hoy</a>
+      <a href="archive.html">Archivo</a>
       <a href="feed.xml">RSS</a>
-      <button class="theme-toggle" type="button" aria-label="Toggle light/dark theme" onclick="(function(b){var h=document.documentElement;var c=h.dataset.theme;if(!c){c=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}var n=c==='dark'?'light':'dark';h.dataset.theme=n;try{localStorage.setItem('bird-theme',n);}catch(e){}})(this);">
+      <button class="theme-toggle" type="button" aria-label="Cambiar tema claro/oscuro" onclick="(function(b){var h=document.documentElement;var c=h.dataset.theme;if(!c){c=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}var n=c==='dark'?'light':'dark';h.dataset.theme=n;try{localStorage.setItem('bird-theme',n);}catch(e){}})(this);">
   <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
   <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
 </button>
@@ -656,24 +656,24 @@ footer.site a { color: var(--ink-soft); }
   </div>
 </header>
 <main id="main">
-<p>No birds have been published yet. Come back tomorrow.</p>
-<aside class="subscribe" aria-label="Subscribe via RSS">
+<p>Aún no hay aves publicadas. Vuelve mañana.</p>
+<aside class="subscribe" aria-label="Suscríbete al RSS">
   <div class="icon" aria-hidden="true">
     <svg viewBox="0 0 24 24" fill="currentColor">
       <path d="M6.18 17.82a2.18 2.18 0 1 1-4.36 0 2.18 2.18 0 0 1 4.36 0zM2 6.44v3.1c7.03 0 12.73 5.7 12.73 12.73h3.1C17.83 13.39 10.61 6.17 2 6.44zM2 .5v3.1c10.04 0 18.18 8.14 18.18 18.18h3.1C23.28 9.97 13.45.5 2 .5z"/>
     </svg>
   </div>
   <div class="text">
-    <p class="title">Get it in your RSS reader every morning</p>
-    <p class="sub">A new species every day.</p>
+    <p class="title">Recíbela cada mañana en tu lector RSS</p>
+    <p class="sub">Una especie nueva al día.</p>
   </div>
-  <a class="button" href="feed.xml">Subscribe</a>
+  <a class="button" href="feed.xml">Suscribirse</a>
 </aside>
 </main>
 <footer class="site">
-  <p>Data from <a href="https://ebird.org">eBird</a> and <a href="https://www.birds.cornell.edu/">Cornell Lab of Ornithology</a>.</p>
-  <p>Photos from <a href="https://www.macaulaylibrary.org/">Macaulay Library</a>, © their respective authors.</p>
-  <p>Non-commercial project by Yass Fuentes © 2026. <a href="https://github.com/backmind/Bird-of-the-day">Code on GitHub</a>.</p>
+  <p>Datos de <a href="https://ebird.org">eBird</a> y <a href="https://www.birds.cornell.edu/">Cornell Lab of Ornithology</a>.</p>
+  <p>Fotos de <a href="https://www.macaulaylibrary.org/">Macaulay Library</a>, © de sus respectivos autores.</p>
+  <p>Proyecto no comercial por Yass Fuentes © 2026. <a href="https://github.com/backmind/Bird-of-the-day">Código en GitHub</a>.</p>
 </footer>
 </body>
 </html>

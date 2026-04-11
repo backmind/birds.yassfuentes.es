@@ -14,7 +14,7 @@ published to a GitHub Pages site plus an RSS endpoint.
 
 The default deployment leans Iberian (Madrid + Spain heavy, then Europe,
 then global) but every region weight is configurable. The default language
-is English; Spanish, French and Portuguese are bundled and contributors
+is Spanish; English, French and Portuguese are bundled and contributors
 can add more by dropping a single JSON file.
 
 Zero AI-generated content, zero hosting cost (free tier of GitHub Actions
@@ -103,8 +103,8 @@ Every behavior knob lives here. Annotated example:
 
 ```json
 {
-  "language": "en",
-  "_language_help": "One of en | es | fr | pt (or any other catalog you add).",
+  "language": "es",
+  "_language_help": "One of es | en | fr | pt (or any other catalog you add).",
 
   "ebird_locale": null,
   "_ebird_locale_help": "Optional override for the eBird API locale (e.g. 'pt_BR'). If null, derived from `language`.",
