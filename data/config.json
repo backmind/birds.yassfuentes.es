@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "id": "madrid",
+      "region": "ES-MD",
+      "weight": 0.35,
+      "type": "regional"
+    },
+    {
+      "id": "spain",
+      "region": "ES",
+      "weight": 0.27,
+      "type": "regional"
+    },
+    {
+      "id": "europe",
+      "weight": 0.23,
+      "type": "europe_random",
+      "countries": ["PT", "FR", "IT", "DE", "GB", "GR", "SE", "NO", "PL"]
+    },
+    {
+      "id": "global",
+      "weight": 0.15,
+      "type": "global_taxonomy"
+    }
+  ],
+  "max_history": 50,
+  "max_feed_entries": 60,
+  "ebird_locale": "es",
+  "back_days": 14,
+  "feed_title": "Ave del Día",
+  "feed_description": "Cada día, una especie de ave. Con sesgo ibérico, pero sin fronteras.",
+  "feed_link": "https://backmind.github.io/Bird-of-the-day/"
+}
