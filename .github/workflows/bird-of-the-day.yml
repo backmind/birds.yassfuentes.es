@@ -2,7 +2,7 @@ name: Bird of the Day
 
 on:
   schedule:
-    - cron: '0 7 * * *'  # 07:00 UTC = 09:00 CEST (Madrid)
+    - cron: '0 5 * * *'  # 05:00 UTC ≈ 06:00 Madrid
   workflow_dispatch:
 
 permissions:
