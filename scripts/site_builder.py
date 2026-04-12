@@ -536,7 +536,12 @@ main {
 }
 .card a { display: contents; color: inherit; text-decoration: none; }
 .card-thumb {
-  aspect-ratio: 4 / 5;
+  /* 3:2 landscape, matching the hero plate-image. Most Macaulay photos
+     are landscape DSLR shots so this fills cleanly. The few portrait
+     ones get cropped on top/bottom — accepted trade-off vs the previous
+     letterboxed 4:5 layout, which left visible bands above and below
+     every photo (unsightly especially in dark mode). */
+  aspect-ratio: 3 / 2;
   overflow: hidden;
   background: var(--paper-warm);
   position: relative;
@@ -546,11 +551,13 @@ main {
   display: block;
   width: 100%;
   height: 100%;
-  /* contain (not cover) so the bird is never cropped out of frame.
-     Cards are too small to afford losing the subject; the paper-warm
-     fill behind the image gives the letterbox a "matted print" feel
-     that aligns with the field-journal aesthetic. */
-  object-fit: contain;
+  object-fit: cover;
+  /* Bias the crop toward the top so that on portrait Macaulay shots
+     (rare but real — tall birds, stylistic choices) the bird's head
+     stays visible while feet/tail get cropped instead. Birds in
+     wildlife photos are almost always composed above the vertical
+     midline; this heuristic costs nothing on landscape sources. */
+  object-position: center 30%;
   filter: saturate(.95);
   transition: transform .9s cubic-bezier(.2,.6,.2,1), filter .4s ease;
 }
@@ -723,10 +730,9 @@ footer.site a { color: var(--ink-soft); }
 
 .atlas-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: baseline;
   margin-bottom: .9rem;
-  gap: 1rem;
 }
 .atlas-title {
   font-family: 'Fraunces', Georgia, serif;
@@ -737,47 +743,56 @@ footer.site a { color: var(--ink-soft); }
   letter-spacing: .22em;
   color: var(--accent-warm);
 }
-.atlas-source {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-style: italic;
-  font-size: .78rem;
-  color: var(--ink-faint);
-}
 
 .atlas-frame {
   position: relative;
-  /* mercator z=0 is a square 1024x1024 tile (the world minus polar caps);
-     plate carrée 2:1 would need stitching two halves, not worth it */
+  display: block;
+  /* mercator z=0 is a square tile (the world minus polar caps); plate
+     carrée 2:1 would need stitching two halves, not worth it */
   aspect-ratio: 1 / 1;
   background: var(--paper);
   border: 1px solid var(--rule);
   overflow: hidden;
   max-width: 480px;
   margin: 0 auto;
-}
-.atlas-frame a {
-  display: block;
-  width: 100%;
-  height: 100%;
   text-decoration: none;
-  border: 0;
 }
-.atlas-frame img {
-  display: block;
+.atlas-base,
+.atlas-data {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
-  /* harmonise GBIF's bright dots with the parchment palette */
+  /* harmonise both layers with the parchment palette */
   filter: sepia(.45) saturate(.7) contrast(.95);
   mix-blend-mode: multiply;
   transition: filter .6s ease;
 }
-.atlas:hover .atlas-frame img {
+.atlas-base { z-index: 0; }
+.atlas-data { z-index: 1; }
+.atlas-frame:hover .atlas-base,
+.atlas-frame:hover .atlas-data {
   filter: sepia(.3) saturate(.9) contrast(1.02);
+}
+.atlas-attribution {
+  position: absolute;
+  bottom: .25rem;
+  right: .35rem;
+  z-index: 3;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .56rem;
+  font-style: italic;
+  letter-spacing: .03em;
+  color: var(--ink-faint);
+  background: rgba(244, 238, 224, 0.72);
+  padding: .1rem .35rem;
+  pointer-events: none;
 }
 .atlas-equator,
 .atlas-meridian {
   position: absolute;
+  z-index: 2;
   pointer-events: none;
 }
 .atlas-equator {
@@ -807,9 +822,10 @@ footer.site a { color: var(--ink-soft); }
   color: var(--ink-faint);
 }
 
-/* dark mode: invert the map so dots stay legible on a dark background.
-   The double-trick (invert + hue-rotate) keeps the colored hexagons
-   roughly in their original hue while flipping the white base to dark. */
+/* dark mode: invert both map layers so the continents and dots stay
+   legible on a dark background. The invert + hue-rotate trick keeps
+   the colored hexagons roughly in their original hue while flipping
+   the white base to dark. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) .atlas {
     background: var(--paper-warm);
@@ -819,13 +835,18 @@ footer.site a { color: var(--ink-soft); }
     background: var(--paper);
     border-color: rgba(154, 164, 164, 0.18);
   }
-  :root:not([data-theme="light"]) .atlas-frame img {
+  :root:not([data-theme="light"]) .atlas-base,
+  :root:not([data-theme="light"]) .atlas-data {
     filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
     mix-blend-mode: screen;
   }
   :root:not([data-theme="light"]) .atlas-equator,
   :root:not([data-theme="light"]) .atlas-meridian {
     border-color: rgba(154, 164, 164, 0.25);
+  }
+  :root:not([data-theme="light"]) .atlas-attribution {
+    background: rgba(15, 21, 24, 0.65);
+    color: var(--ink-soft);
   }
   :root:not([data-theme="light"]) .atlas::before,
   :root:not([data-theme="light"]) .atlas::after {
@@ -840,13 +861,18 @@ footer.site a { color: var(--ink-soft); }
   background: var(--paper);
   border-color: rgba(154, 164, 164, 0.18);
 }
-:root[data-theme="dark"] .atlas-frame img {
+:root[data-theme="dark"] .atlas-base,
+:root[data-theme="dark"] .atlas-data {
   filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
   mix-blend-mode: screen;
 }
 :root[data-theme="dark"] .atlas-equator,
 :root[data-theme="dark"] .atlas-meridian {
   border-color: rgba(154, 164, 164, 0.25);
+}
+:root[data-theme="dark"] .atlas-attribution {
+  background: rgba(15, 21, 24, 0.65);
+  color: var(--ink-soft);
 }
 :root[data-theme="dark"] .atlas::before,
 :root[data-theme="dark"] .atlas::after {
@@ -1086,6 +1112,11 @@ def _render_plate(
 """.strip()
 
 
+_ATLAS_BASEMAP_URL = (
+    "https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png"
+)
+
+
 def _render_atlas(entry: SiteEntry, ctx: RenderContext) -> str:
     """Render the GBIF distribution map as an atlas-styled section.
 
@@ -1093,15 +1124,20 @@ def _render_atlas(entry: SiteEntry, ctx: RenderContext) -> str:
     set, so the renderer can drop the section silently for species
     without a GBIF match (recent splits, very obscure endemics).
 
-    The map links to the GBIF species page, not eBird, because GBIF is
-    the data source. The plate already has a separate eBird link in
-    plate-foot and on the photo wrapper.
+    The atlas frame composites two layers: a Carto basemaps tile (the
+    continents) and the GBIF density tile (the colored occurrence
+    hexagons) stacked on top. Both share the same mercator z=0/0/0
+    extent so they align pixel-perfectly. Without the basemap layer
+    the GBIF tile is just dots floating on transparency — confusing.
+
+    The frame itself is the link to the GBIF species page (single ``a``
+    instead of nested anchors). Attribution for both upstream sources
+    is overlaid in the bottom-right corner, the standard map convention.
     """
     if not entry.distribution_map_url:
         return ""
     t = ctx.catalog.t
     label = t("map.label")
-    source = t("map.source")
     alt = t("map.alt_template", scientific_name=entry.scientific_name)
     species_page = (
         f"https://www.gbif.org/species/{entry.gbif_taxon_key}"
@@ -1112,15 +1148,14 @@ def _render_atlas(entry: SiteEntry, ctx: RenderContext) -> str:
 <section class="atlas" aria-label="{_esc(label)}">
   <header class="atlas-header">
     <span class="atlas-title">{_esc(label)}</span>
-    <span class="atlas-source">{_esc(source)}</span>
   </header>
-  <div class="atlas-frame">
-    <a href="{_esc(species_page)}" aria-label="{_esc(entry.scientific_name)} — GBIF">
-      <img src="{_esc(entry.distribution_map_url)}" alt="{_esc(alt)}" loading="lazy" />
-    </a>
+  <a class="atlas-frame" href="{_esc(species_page)}" aria-label="{_esc(entry.scientific_name)} — GBIF">
+    <img class="atlas-base" src="{_ATLAS_BASEMAP_URL}" alt="" loading="lazy" />
+    <img class="atlas-data" src="{_esc(entry.distribution_map_url)}" alt="{_esc(alt)}" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
-  </div>
+    <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
+  </a>
   <footer class="atlas-scale" aria-hidden="true">
     <span>180°W</span>
     <span>0°</span>

@@ -38,7 +38,6 @@
   "language_name.pt": "portugais",
 
   "map.label": "Répartition mondiale",
-  "map.source": "GBIF · occurrences agrégées",
   "map.alt_template": "Répartition mondiale de {scientific_name} d'après GBIF",
 
   "feed.title": "Oiseau du Jour",

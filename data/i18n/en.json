@@ -38,7 +38,6 @@
   "language_name.pt": "Portuguese",
 
   "map.label": "World distribution",
-  "map.source": "GBIF · aggregated occurrences",
   "map.alt_template": "World distribution of {scientific_name} according to GBIF",
 
   "feed.title": "Bird of the Day",

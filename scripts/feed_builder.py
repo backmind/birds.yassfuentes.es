@@ -120,10 +120,12 @@ def build_entry_html(
 
     # GBIF distribution map. Inline-styled because RSS readers strip
     # external CSS — sepia filter, parchment frame, centered caption,
-    # and a link to the GBIF species page where the data lives.
+    # and a link to the GBIF species page where the data lives. The
+    # site composites a basemap layer under the GBIF dots; the RSS
+    # version is intentionally simpler (single image) since pulling off
+    # CSS-stacked layers in inline styles is fragile across readers.
     if distribution_map_url:
         map_label = catalog.t("map.label")
-        map_source = catalog.t("map.source")
         map_alt = catalog.t("map.alt_template", scientific_name=scientific_name)
         species_page = (
             f"https://www.gbif.org/species/{gbif_taxon_key}"
@@ -142,7 +144,7 @@ def build_entry_html(
             '<figcaption style="margin-top:.55rem;'
             'font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;'
             'letter-spacing:.14em;text-transform:uppercase">'
-            f'{_esc(map_label)} &middot; {_esc(map_source)}'
+            f'{_esc(map_label)}'
             '</figcaption>'
             '</figure>'
         )
@@ -287,8 +289,19 @@ def load_existing_feed(feed_path: str) -> list[FeedEntry]:
             if g and c:
                 content_by_guid[g.group(1).strip()] = c.group(1)
 
-        # Strip the CDATA wrappers so ElementTree can parse the rest.
-        stripped = raw.replace("<![CDATA[", "").replace("]]>", "")
+        # Empty out each CDATA block entirely before handing the
+        # remaining XML to ElementTree. We've already captured the
+        # content in ``content_by_guid``, so the parser doesn't need to
+        # see it again — and crucially, *can't*: ET only knows the five
+        # XML entities, so any HTML entity inside the CDATA (``&middot;``,
+        # ``&copy;``, ``&nbsp;``, …) would trip ``undefined entity`` if
+        # we naively stripped just the ``<![CDATA[`` markers.
+        stripped = re.sub(
+            r"<content:encoded\b[^>]*>\s*<!\[CDATA\[.*?\]\]>\s*</content:encoded>",
+            "<content:encoded></content:encoded>",
+            raw,
+            flags=re.DOTALL,
+        )
         root = ET.fromstring(stripped)
         entries: list[FeedEntry] = []
 

@@ -38,7 +38,6 @@
   "language_name.pt": "português",
 
   "map.label": "Distribuição mundial",
-  "map.source": "GBIF · ocorrências agregadas",
   "map.alt_template": "Distribuição mundial de {scientific_name} segundo o GBIF",
 
   "feed.title": "Ave do Dia",
