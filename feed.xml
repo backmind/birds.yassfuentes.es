@@ -2,10 +2,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Ave del Día</title>
-    <link>https://backmind.github.io/Bird-of-the-day/</link>
+    <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <atom:link href="https://backmind.github.io/Bird-of-the-day/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
     <item>
       <title>Piquero Nazca (Sula granti)</title>
