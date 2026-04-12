@@ -1,6 +1,6 @@
 # Bird of the Day
 
-[![Bird of the Day](https://github.com/backmind/Bird-of-the-day/actions/workflows/ave-del-dia.yml/badge.svg)](https://github.com/backmind/Bird-of-the-day/actions/workflows/ave-del-dia.yml)
+[![Bird of the Day](https://github.com/backmind/Bird-of-the-day/actions/workflows/bird-of-the-day.yml/badge.svg)](https://github.com/backmind/Bird-of-the-day/actions/workflows/bird-of-the-day.yml)
 [![Docker publish](https://github.com/backmind/Bird-of-the-day/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/backmind/Bird-of-the-day/actions/workflows/docker-publish.yml)
 [![Release](https://img.shields.io/github/v/release/backmind/Bird-of-the-day?display_name=tag&sort=semver)](https://github.com/backmind/Bird-of-the-day/releases/latest)
 [![Container](https://img.shields.io/badge/ghcr.io-bird--of--the--day-blue?logo=docker&logoColor=white)](https://github.com/backmind/Bird-of-the-day/pkgs/container/bird-of-the-day)
@@ -178,16 +178,14 @@ uv run python -m scripts.generate
 
 ### Via GitHub Actions
 
-`.github/workflows/ave-del-dia.yml` runs:
+`.github/workflows/bird-of-the-day.yml` runs:
 
 - Automatically every day at **07:00 UTC** (09:00 CEST in Madrid).
 - Manually from the **Actions → Bird of the Day → Run workflow** tab.
 
 The workflow `git add`s `feed.xml`, `history.json`, `index.html`,
 `archive.html` and `cache/`, then commits with a message of the form
-`🐦 Bird of the day: 2026-04-11` and pushes to the default branch. The
-file path keeps the historical `ave-del-dia.yml` name so existing GitHub
-Actions history isn't lost.
+`🐦 Bird of the day: 2026-04-11` and pushes to the default branch.
 
 ## Self-hosting
 
@@ -471,7 +469,7 @@ the only constraint on which target languages are valid is that there's a
 ```
 Bird-of-the-day/
 ├── .github/workflows/
-│   ├── ave-del-dia.yml         # daily cron + commit (GitHub Pages path; legacy filename)
+│   ├── bird-of-the-day.yml     # daily cron + commit (GitHub Pages path)
 │   └── docker-publish.yml      # build & push multi-arch image to ghcr.io
 ├── Dockerfile                  # multi-stage container build
 ├── .dockerignore

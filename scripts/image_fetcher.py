@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 REQUEST_TIMEOUT = 15
 USER_AGENT = (
-    "Mozilla/5.0 (compatible; ave-del-dia-rss/1.0; "
+    "Mozilla/5.0 (compatible; bird-of-the-day-rss/1.0; "
     "+https://github.com/backmind/Bird-of-the-day)"
 )
 CDN_BASE = "https://cdn.download.ams.birds.cornell.edu/api/v2/asset"

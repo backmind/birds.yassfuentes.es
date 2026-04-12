@@ -1,7 +1,7 @@
 # Bird of the Day — supercronic crontab.
 #
 # Daily generation at 07:00 UTC, matching the existing GitHub Actions
-# workflow (.github/workflows/ave-del-dia.yml). To change the schedule,
+# workflow (.github/workflows/bird-of-the-day.yml). To change the schedule,
 # edit this file and rebuild the image (or mount a custom one at
 # /etc/supercronic/crontab).
 #
