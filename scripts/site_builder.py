@@ -55,6 +55,8 @@ class SiteEntry:
     wikipedia_language: str = ""  # "es" | "en" | "" — what we resolved to
     fallback_language: str = ""   # ISO of the foreign source (when
                                   # description_source == "ebird-foreign")
+    gbif_taxon_key: int | None = None  # GBIF usageKey for the species
+    distribution_map_url: str = ""     # hot-linked GBIF density map PNG URL
 
     @property
     def anchor(self) -> str:
@@ -544,7 +546,11 @@ main {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* contain (not cover) so the bird is never cropped out of frame.
+     Cards are too small to afford losing the subject; the paper-warm
+     fill behind the image gives the letterbox a "matted print" feel
+     that aligns with the field-journal aesthetic. */
+  object-fit: contain;
   filter: saturate(.95);
   transition: transform .9s cubic-bezier(.2,.6,.2,1), filter .4s ease;
 }
@@ -686,6 +692,167 @@ footer.site {
 footer.site p { margin: .4rem 0; }
 footer.site a { color: var(--ink-soft); }
 
+/* ─── atlas spread (GBIF distribution map) ─────────────────────── */
+.atlas {
+  position: relative;
+  margin: 2.75rem 0 0;
+  padding: 1.4rem 1.35rem 1rem;
+  background: var(--paper-warm);
+  border: 1px solid var(--rule-strong);
+  box-shadow:
+    0 1px 0 rgba(255,255,255,0.4),
+    0 14px 32px -18px rgba(30,42,46,0.32),
+    0 2px 6px -2px rgba(30,42,46,0.08);
+}
+/* a pair of ornament glyphs nicked into the top border like a ribbon */
+.atlas::before,
+.atlas::after {
+  content: '❦';
+  position: absolute;
+  top: -.7rem;
+  font-family: 'Fraunces', serif;
+  font-variation-settings: 'opsz' 14;
+  font-size: .92rem;
+  color: var(--accent-warm);
+  background: var(--paper-warm);
+  padding: 0 .4rem;
+  line-height: 1;
+}
+.atlas::before { left: 1.2rem; }
+.atlas::after  { right: 1.2rem; }
+
+.atlas-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: .9rem;
+  gap: 1rem;
+}
+.atlas-title {
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'opsz' 9;
+  font-size: .7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .22em;
+  color: var(--accent-warm);
+}
+.atlas-source {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-style: italic;
+  font-size: .78rem;
+  color: var(--ink-faint);
+}
+
+.atlas-frame {
+  position: relative;
+  /* mercator z=0 is a square 1024x1024 tile (the world minus polar caps);
+     plate carrée 2:1 would need stitching two halves, not worth it */
+  aspect-ratio: 1 / 1;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  overflow: hidden;
+  max-width: 480px;
+  margin: 0 auto;
+}
+.atlas-frame a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  border: 0;
+}
+.atlas-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* harmonise GBIF's bright dots with the parchment palette */
+  filter: sepia(.45) saturate(.7) contrast(.95);
+  mix-blend-mode: multiply;
+  transition: filter .6s ease;
+}
+.atlas:hover .atlas-frame img {
+  filter: sepia(.3) saturate(.9) contrast(1.02);
+}
+.atlas-equator,
+.atlas-meridian {
+  position: absolute;
+  pointer-events: none;
+}
+.atlas-equator {
+  top: 50%;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed rgba(168, 155, 125, 0.45);
+}
+.atlas-meridian {
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  border-left: 1px dashed rgba(168, 155, 125, 0.45);
+}
+
+.atlas-scale {
+  display: flex;
+  justify-content: space-between;
+  margin: .55rem auto 0;
+  padding: 0 .25rem;
+  max-width: 480px;
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'opsz' 9;
+  font-feature-settings: 'lnum', 'tnum';
+  font-size: .58rem;
+  letter-spacing: .14em;
+  color: var(--ink-faint);
+}
+
+/* dark mode: invert the map so dots stay legible on a dark background.
+   The double-trick (invert + hue-rotate) keeps the colored hexagons
+   roughly in their original hue while flipping the white base to dark. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .atlas {
+    background: var(--paper-warm);
+    border-color: var(--rule);
+  }
+  :root:not([data-theme="light"]) .atlas-frame {
+    background: var(--paper);
+    border-color: rgba(154, 164, 164, 0.18);
+  }
+  :root:not([data-theme="light"]) .atlas-frame img {
+    filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
+    mix-blend-mode: screen;
+  }
+  :root:not([data-theme="light"]) .atlas-equator,
+  :root:not([data-theme="light"]) .atlas-meridian {
+    border-color: rgba(154, 164, 164, 0.25);
+  }
+  :root:not([data-theme="light"]) .atlas::before,
+  :root:not([data-theme="light"]) .atlas::after {
+    background: var(--paper-warm);
+  }
+}
+:root[data-theme="dark"] .atlas {
+  background: var(--paper-warm);
+  border-color: var(--rule);
+}
+:root[data-theme="dark"] .atlas-frame {
+  background: var(--paper);
+  border-color: rgba(154, 164, 164, 0.18);
+}
+:root[data-theme="dark"] .atlas-frame img {
+  filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
+  mix-blend-mode: screen;
+}
+:root[data-theme="dark"] .atlas-equator,
+:root[data-theme="dark"] .atlas-meridian {
+  border-color: rgba(154, 164, 164, 0.25);
+}
+:root[data-theme="dark"] .atlas::before,
+:root[data-theme="dark"] .atlas::after {
+  background: var(--paper-warm);
+}
+
 /* ─── responsive tightening ────────────────────────────────────── */
 @media (max-width: 720px) {
   main { padding: 2.25rem 1.25rem 3rem; }
@@ -699,6 +866,12 @@ footer.site a { color: var(--ink-soft); }
   .plate-title { font-size: clamp(1.8rem, 7vw, 2.6rem); }
   .grid { grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 2rem 1rem; }
   .card-name { font-size: 1.05rem; }
+  .atlas { padding: 1.1rem .95rem .75rem; }
+  .atlas::before { left: .8rem; }
+  .atlas::after  { right: .8rem; }
+  .atlas-title { font-size: .64rem; }
+  .atlas-source { font-size: .72rem; }
+  .atlas-scale { font-size: .52rem; }
 }
 """.strip()
 
@@ -889,6 +1062,8 @@ def _render_plate(
         f'<a href="{_esc(entry.ml_search_url)}">Macaulay Library</a>'
     )
 
+    atlas_block = _render_atlas(entry, ctx)
+
     return f"""
 <{tag} class="{classes}"{anchor_attr}{aria}>
   <div class="plate-head">
@@ -902,11 +1077,56 @@ def _render_plate(
     <h2{title_id} class="plate-title">{_esc(entry.common_name)}</h2>
     <p class="plate-subtitle">{_esc(entry.scientific_name)}</p>
     {desc_html}
+    {atlas_block}
     <div class="plate-foot">
       {chr(10).join("      " + link for link in foot_links).strip()}
     </div>
   </div>
 </{tag}>
+""".strip()
+
+
+def _render_atlas(entry: SiteEntry, ctx: RenderContext) -> str:
+    """Render the GBIF distribution map as an atlas-styled section.
+
+    Returns the empty string when ``entry.distribution_map_url`` is not
+    set, so the renderer can drop the section silently for species
+    without a GBIF match (recent splits, very obscure endemics).
+
+    The map links to the GBIF species page, not eBird, because GBIF is
+    the data source. The plate already has a separate eBird link in
+    plate-foot and on the photo wrapper.
+    """
+    if not entry.distribution_map_url:
+        return ""
+    t = ctx.catalog.t
+    label = t("map.label")
+    source = t("map.source")
+    alt = t("map.alt_template", scientific_name=entry.scientific_name)
+    species_page = (
+        f"https://www.gbif.org/species/{entry.gbif_taxon_key}"
+        if entry.gbif_taxon_key
+        else entry.distribution_map_url
+    )
+    return f"""
+<section class="atlas" aria-label="{_esc(label)}">
+  <header class="atlas-header">
+    <span class="atlas-title">{_esc(label)}</span>
+    <span class="atlas-source">{_esc(source)}</span>
+  </header>
+  <div class="atlas-frame">
+    <a href="{_esc(species_page)}" aria-label="{_esc(entry.scientific_name)} — GBIF">
+      <img src="{_esc(entry.distribution_map_url)}" alt="{_esc(alt)}" loading="lazy" />
+    </a>
+    <span class="atlas-equator" aria-hidden="true"></span>
+    <span class="atlas-meridian" aria-hidden="true"></span>
+  </div>
+  <footer class="atlas-scale" aria-hidden="true">
+    <span>180°W</span>
+    <span>0°</span>
+    <span>180°E</span>
+  </footer>
+</section>
 """.strip()
 
 

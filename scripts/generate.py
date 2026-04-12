@@ -254,6 +254,8 @@ def _build_site_entries(
                 wikipedia_url=content.wikipedia_url,
                 wikipedia_language=content.wikipedia_language,
                 fallback_language=content.fallback_language,
+                gbif_taxon_key=content.gbif_taxon_key,
+                distribution_map_url=content.distribution_map_url,
             )
         )
     return entries
@@ -407,6 +409,8 @@ def main() -> None:
             wikipedia_url=content.wikipedia_url,
             wikipedia_language=content.wikipedia_language,
             fallback_language=content.fallback_language,
+            distribution_map_url=content.distribution_map_url,
+            gbif_taxon_key=content.gbif_taxon_key,
         )
 
         # 5. Prepend to existing feed and trim

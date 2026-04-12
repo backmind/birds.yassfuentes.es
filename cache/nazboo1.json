@@ -6,5 +6,7 @@
   "wikipedia_url": "https://es.wikipedia.org/wiki/Sula_granti",
   "wikipedia_language": "es",
   "fallback_text": "",
-  "fallback_language": ""
+  "fallback_language": "",
+  "gbif_taxon_key": 2480971,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480971&bin=hex&hexPerTile=75&style=classic.poly"
 }

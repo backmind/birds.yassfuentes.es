@@ -6,5 +6,7 @@
   "wikipedia_url": "https://es.wikipedia.org/wiki/Microptilotis_fordianus",
   "wikipedia_language": "es",
   "fallback_text": "Medium-sized honeyeater found in sandstone escarpment and gorge country of the western Kimberley region. Upperparts uniformly gray-green, underparts pale with diffuse gray streaks on chest. Dark cheeks split by thin pale gape mark that extends upward under the blue eye. Calls include loud short whistled phrases.",
-  "fallback_language": "en"
+  "fallback_language": "en",
+  "gbif_taxon_key": 5789264,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5789264&bin=hex&hexPerTile=75&style=classic.poly"
 }

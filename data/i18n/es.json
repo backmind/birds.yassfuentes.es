@@ -37,6 +37,10 @@
   "language_name.fr": "francés",
   "language_name.pt": "portugués",
 
+  "map.label": "Distribución mundial",
+  "map.source": "GBIF · ocurrencias agregadas",
+  "map.alt_template": "Distribución mundial de {scientific_name} según GBIF",
+
   "feed.title": "Ave del Día",
   "feed.description": "Cada día, una nueva especie de ave.",
   "feed.copyright_data_prefix": "Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. ",

@@ -37,6 +37,10 @@
   "language_name.fr": "français",
   "language_name.pt": "portugais",
 
+  "map.label": "Répartition mondiale",
+  "map.source": "GBIF · occurrences agrégées",
+  "map.alt_template": "Répartition mondiale de {scientific_name} d'après GBIF",
+
   "feed.title": "Oiseau du Jour",
   "feed.description": "Une nouvelle espèce d'oiseau chaque jour.",
   "feed.copyright_data_prefix": "Données : eBird/Cornell Lab of Ornithology (ebird.org). Photos : Macaulay Library, © leurs auteurs respectifs. ",

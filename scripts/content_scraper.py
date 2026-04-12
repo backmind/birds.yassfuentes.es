@@ -34,7 +34,7 @@ from typing import TYPE_CHECKING
 import requests
 from bs4 import BeautifulSoup
 
-from scripts import i18n
+from scripts import distribution_map, i18n
 from scripts.image_fetcher import new_session
 
 if TYPE_CHECKING:
@@ -88,6 +88,10 @@ class SpeciesContent:
                                   # Merlin) preserved for the foreign_fallback
                                   # description policy
     fallback_language: str = ""   # ISO code of the rejected text, or ""
+    gbif_taxon_key: int | None = None  # GBIF usageKey for the species, or None
+                                       # when the match failed or wasn't attempted
+    distribution_map_url: str = ""     # hot-linkable GBIF density map PNG URL,
+                                       # or "" when no GBIF match was found
 
 
 def _fetch_ebird_og_description(
@@ -289,6 +293,14 @@ def scrape_species_content(
 
     bow_intro = _fetch_bow_intro(species_code, sess, target_language)
 
+    # GBIF distribution map. Best-effort: a failed lookup leaves the
+    # map fields empty and the renderer skips the atlas section.
+    gbif_taxon_key: int | None = None
+    distribution_map_url = ""
+    gbif_result = distribution_map.fetch_distribution(scientific_name, session=sess)
+    if gbif_result is not None:
+        gbif_taxon_key, distribution_map_url = gbif_result
+
     # Apply the layout rail uniformly to every source (including the
     # fallback text — it might end up rendered if foreign_fallback is on).
     raw_desc_len = len(description)
@@ -315,6 +327,8 @@ def scrape_species_content(
         wikipedia_language=wikipedia_language,
         fallback_text=fallback_text,
         fallback_language=fallback_language,
+        gbif_taxon_key=gbif_taxon_key,
+        distribution_map_url=distribution_map_url,
     )
 
 
@@ -342,6 +356,8 @@ def load_cached_content(
         wikipedia_language=data.get("wikipedia_language", ""),
         fallback_text=data.get("fallback_text", ""),
         fallback_language=data.get("fallback_language", ""),
+        gbif_taxon_key=data.get("gbif_taxon_key"),
+        distribution_map_url=data.get("distribution_map_url", ""),
     )
 
 
@@ -355,6 +371,7 @@ def save_cached_content(
         and not content.bow_intro
         and not content.wikipedia_url
         and not content.fallback_text
+        and not content.distribution_map_url
     ):
         return
     path = _content_cache_path(species_code, cache_dir)

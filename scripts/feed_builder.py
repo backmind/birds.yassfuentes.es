@@ -61,6 +61,8 @@ def build_entry_html(
     wikipedia_url: str = "",
     wikipedia_language: str = "",
     fallback_language: str = "",
+    distribution_map_url: str = "",
+    gbif_taxon_key: int | None = None,
 ) -> str:
     """Build rich HTML content for an RSS entry.
 
@@ -115,6 +117,35 @@ def build_entry_html(
     # Birds of the World intro (when present)
     if bow_intro:
         parts.append(f"<p>{_esc(bow_intro)}</p>")
+
+    # GBIF distribution map. Inline-styled because RSS readers strip
+    # external CSS — sepia filter, parchment frame, centered caption,
+    # and a link to the GBIF species page where the data lives.
+    if distribution_map_url:
+        map_label = catalog.t("map.label")
+        map_source = catalog.t("map.source")
+        map_alt = catalog.t("map.alt_template", scientific_name=scientific_name)
+        species_page = (
+            f"https://www.gbif.org/species/{gbif_taxon_key}"
+            if gbif_taxon_key
+            else _esc(distribution_map_url)
+        )
+        parts.append(
+            '<figure style="margin:1.5rem auto;padding:.85rem;'
+            'border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center">'
+            f'<a href="{_esc(species_page)}" style="text-decoration:none;border:0">'
+            f'<img src="{_esc(distribution_map_url)}" '
+            f'alt="{_esc(map_alt)}" '
+            'style="display:block;width:100%;height:auto;'
+            'filter:sepia(.45) saturate(.7) contrast(.95)" />'
+            '</a>'
+            '<figcaption style="margin-top:.55rem;'
+            'font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;'
+            'letter-spacing:.14em;text-transform:uppercase">'
+            f'{_esc(map_label)} &middot; {_esc(map_source)}'
+            '</figcaption>'
+            '</figure>'
+        )
 
     # Link list — mirrors the front's plate-foot. eBird gets the
     # ?siteLanguage param so it lands in the configured locale. Wikipedia

@@ -287,10 +287,12 @@ def main() -> None:
     feed_entries = []
     for date, p in reversed(list(zip(dates, sorted_picks))):
         taxonomy = ebird_client.lookup_taxonomy(p["code"]) or {}
-        # Read wikipedia fields from the cached content if present
+        # Read wikipedia + GBIF fields from the cached content if present
         cached = content_scraper.load_cached_content(p["code"], str(CACHE_DIR))
         wiki_url = cached.wikipedia_url if cached else ""
         wiki_lang = cached.wikipedia_language if cached else ""
+        gbif_key = cached.gbif_taxon_key if cached else None
+        map_url = cached.distribution_map_url if cached else ""
         entry_html = feed_builder.build_entry_html(
             species_code=p["code"],
             common_name=p["com"],
@@ -305,6 +307,8 @@ def main() -> None:
             catalog=catalog,
             wikipedia_url=wiki_url,
             wikipedia_language=wiki_lang,
+            distribution_map_url=map_url,
+            gbif_taxon_key=gbif_key,
         )
         pub = datetime.combine(date, datetime.min.time(), tzinfo=timezone.utc).replace(
             hour=7
