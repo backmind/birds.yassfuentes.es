@@ -205,18 +205,36 @@ def fetch_image(
     session: requests.Session | None = None,
     locale: str = "en",
 ) -> ImageResult:
-    """Fetch the best available image for a species, with fallback chain.
+    """Fetch the species image, prioritising eBird's curated hero.
+
+    Strategy order, with rationale:
+
+    1. **eBird species page og:image** — the photo eBird's editors have
+       chosen as the canonical hero for that species. This is what a
+       human visiting ``https://ebird.org/species/{code}`` sees, so it
+       is the photo readers expect to be served.
+    2. **Macaulay Library Search API** — the highest-rated photo from
+       the public catalog. Reached when eBird hasn't curated a hero
+       (rare; tends to happen with very recent splits or obscure
+       endemics). Reliable fallback because it returns *something*
+       whenever Macaulay has any photo at all.
+    3. **No image + link to ML Search** — last-resort fallback. The
+       reader can click through to find a photo manually.
+
+    Earlier revisions had the order reversed (rating-first), which
+    surfaced the highest-rated Macaulay photo regardless of eBird's
+    curation. That picked technically beautiful but unfamiliar shots
+    instead of the photo readers expected to see.
 
     ``locale`` is forwarded to the eBird species-page strategy. The
     Macaulay API strategy doesn't take a locale (asset metadata is
     language-agnostic).
     """
     sess = session or new_session()
-    # Macaulay API doesn't take a locale; only eBird og:image does.
-    result = _try_macaulay_api(species_code, sess)
+    result = _try_ebird_og_image(species_code, sess, locale=locale)
     if result is not None:
         return result
-    result = _try_ebird_og_image(species_code, sess, locale=locale)
+    result = _try_macaulay_api(species_code, sess)
     if result is not None:
         return result
     return _fallback(species_code)

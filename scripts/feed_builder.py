@@ -70,16 +70,20 @@ def build_entry_html(
     """
     parts: list[str] = []
     code_e = _esc(species_code)
+    ebird_url = f"https://ebird.org/species/{code_e}?siteLanguage={catalog.language}"
 
     # Header
     parts.append(f"<h2>{_esc(common_name)} — <em>{_esc(scientific_name)}</em></h2>")
 
-    # Image or fallback link
+    # Image (linked to the eBird species page in the configured locale) or
+    # fallback link to Macaulay Library when no image is available.
     if image_url:
         parts.append(
+            f'<a href="{ebird_url}">'
             f'<img src="{_esc(image_url)}" '
             f'alt="{_esc(common_name)} © {_esc(image_attribution)}" '
             f'style="max-width:100%; border-radius:8px;" />'
+            f'</a>'
         )
         parts.append(f"<p><em>© {_esc(image_attribution)}</em></p>")
     else:

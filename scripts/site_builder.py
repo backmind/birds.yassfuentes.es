@@ -807,11 +807,22 @@ def _render_plate(
     anchor_attr = "" if hero else f' id="{_esc(entry.anchor)}"'
     loading = "eager" if hero else "lazy"
 
+    # The species link reused below in plate-foot. Constructed once and
+    # threaded into the image wrapper too so that clicking the photo lands
+    # the reader on the eBird species page in their configured locale.
+    ebird_url = (
+        f"https://ebird.org/species/{_esc(entry.species_code)}"
+        f"?siteLanguage={target_lang}"
+    )
+
     if entry.image_url:
         image_block = (
             f'<div class="plate-image">'
+            f'<a href="{ebird_url}" '
+            f'aria-label="{_esc(entry.common_name)} — eBird">'
             f'<img src="{_esc(entry.image_url)}" '
             f'alt="{_esc(entry.common_name)}" loading="{loading}" />'
+            f'</a>'
             f'</div>'
             f'<p class="plate-credit">© {_esc(entry.attribution)}</p>'
         )
@@ -859,10 +870,8 @@ def _render_plate(
     # link always lands in the reader's locale (no language hint needed).
     # Wikipedia is added even when the description came from eBird; if it
     # resolved to a non-target language, the label gets a "(<lang>)" hint.
-    ebird_url = (
-        f"https://ebird.org/species/{_esc(entry.species_code)}"
-        f"?siteLanguage={target_lang}"
-    )
+    # ``ebird_url`` was already built above so the image wrapper and the
+    # foot link share the exact same target.
     foot_links = [f'<a href="{ebird_url}">eBird</a>']
 
     if entry.wikipedia_url:
