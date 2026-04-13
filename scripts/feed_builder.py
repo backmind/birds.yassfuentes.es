@@ -16,7 +16,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from scripts import name_linker
+from scripts import esc_html as _esc, name_linker
 
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
@@ -41,11 +41,6 @@ class FeedEntry:
     ml_search_url: str
     pub_date: str
     guid: str
-
-
-def _esc(value: str) -> str:
-    """HTML-escape user-supplied text (escapes &, <, >, ", ')."""
-    return html.escape(value or "", quote=True)
 
 
 def build_entry_html(
@@ -366,7 +361,7 @@ def load_existing_feed(feed_path: str) -> list[FeedEntry]:
             )
 
         return entries
-    except (ET.ParseError, Exception):
+    except Exception:
         logger.warning("Failed to parse existing feed at %s", feed_path, exc_info=True)
         return []
 

@@ -8,14 +8,13 @@ entry from history with full content and stable anchors.
 
 from __future__ import annotations
 
-import html
 import logging
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-from scripts import name_linker
+from scripts import esc_html as _esc, name_linker
 
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
@@ -76,10 +75,6 @@ class SiteEntry:
     def date_dotted(self) -> str:
         """ISO date as `YYYY · MM · DD` — language-neutral, used in plate-date."""
         return self.date.replace("-", " · ")
-
-
-def _esc(value: str) -> str:
-    return html.escape(value or "", quote=True)
 
 
 _CSS = """

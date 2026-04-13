@@ -25,7 +25,6 @@ GBIF docs: https://www.gbif.org/developer/maps
 from __future__ import annotations
 
 import logging
-from urllib.parse import quote_plus
 
 import requests
 

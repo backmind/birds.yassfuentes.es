@@ -73,19 +73,19 @@ def _taxonomy_cache_path(cache_dir: Path) -> Path:
 
 
 def _load_taxonomy_from_disk(
-    cache_dir: Path, locale: str
+    path: Path, locale: str
 ) -> list[dict] | None:
-    path = _taxonomy_cache_path(cache_dir)
+    """Load a taxonomy cache file, validating locale and TTL."""
     if not path.exists():
         return None
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        logger.warning("Invalid taxonomy cache, ignoring")
+        logger.warning("Invalid taxonomy cache at %s, ignoring", path)
         return None
 
     if data.get("locale") != locale:
-        logger.info("Taxonomy cache locale mismatch, will refetch")
+        logger.info("Taxonomy cache locale mismatch at %s, will refetch", path)
         return None
 
     fetched_at = data.get("fetched_at")
@@ -108,15 +108,16 @@ def _load_taxonomy_from_disk(
 
 
 def _save_taxonomy_to_disk(
-    species: list[dict], cache_dir: Path, locale: str
+    species: list[dict], path: Path, locale: str
 ) -> None:
-    cache_dir.mkdir(parents=True, exist_ok=True)
+    """Write a taxonomy cache file with locale and timestamp metadata."""
+    path.parent.mkdir(parents=True, exist_ok=True)
     payload = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "locale": locale,
         "species": species,
     }
-    _taxonomy_cache_path(cache_dir).write_text(
+    path.write_text(
         json.dumps(payload, ensure_ascii=False), encoding="utf-8"
     )
 
@@ -130,7 +131,8 @@ def get_full_taxonomy(
         return _taxonomy_cache
 
     if cache_dir is not None:
-        disk = _load_taxonomy_from_disk(cache_dir, locale)
+        path = _taxonomy_cache_path(cache_dir)
+        disk = _load_taxonomy_from_disk(path, locale)
         if disk is not None:
             _taxonomy_cache = disk
             _taxonomy_index = {sp["speciesCode"]: sp for sp in disk if sp.get("speciesCode")}
@@ -147,7 +149,7 @@ def get_full_taxonomy(
         sp["speciesCode"]: sp for sp in species if sp.get("speciesCode")
     }
     if cache_dir is not None:
-        _save_taxonomy_to_disk(species, cache_dir, locale)
+        _save_taxonomy_to_disk(species, _taxonomy_cache_path(cache_dir), locale)
     return _taxonomy_cache
 
 
@@ -166,32 +168,18 @@ def get_english_name_index(cache_dir: Path | None = None) -> dict[str, str]:
     if _en_name_index is not None:
         return _en_name_index
 
-    # Try disk cache
     if cache_dir is not None:
-        path = _en_taxonomy_cache_path(cache_dir)
-        if path.exists():
-            try:
-                data = json.loads(path.read_text(encoding="utf-8"))
-                if data.get("locale") == "en" and data.get("fetched_at"):
-                    ts = datetime.fromisoformat(data["fetched_at"])
-                    age_days = (datetime.now(timezone.utc) - ts).days
-                    if age_days <= TAXONOMY_TTL_DAYS:
-                        species = data.get("species") or []
-                        if species:
-                            logger.info(
-                                "Loaded English taxonomy from cache (%d species, %d days old)",
-                                len(species), age_days,
-                            )
-                            _en_name_index = {
-                                sp["comName"]: sp["speciesCode"]
-                                for sp in species
-                                if sp.get("comName") and sp.get("speciesCode")
-                            }
-                            return _en_name_index
-            except (json.JSONDecodeError, OSError, ValueError, KeyError):
-                logger.warning("Invalid English taxonomy cache, will refetch")
+        species = _load_taxonomy_from_disk(
+            _en_taxonomy_cache_path(cache_dir), locale="en"
+        )
+        if species is not None:
+            _en_name_index = {
+                sp["comName"]: sp["speciesCode"]
+                for sp in species
+                if sp.get("comName") and sp.get("speciesCode")
+            }
+            return _en_name_index
 
-    # Fetch from API
     logger.info("Fetching English taxonomy from eBird API")
     url = f"{BASE_URL}/ref/taxonomy/ebird"
     params = {"fmt": "json", "locale": "en", "cat": "species"}
@@ -205,14 +193,8 @@ def get_english_name_index(cache_dir: Path | None = None) -> dict[str, str]:
     }
 
     if cache_dir is not None:
-        cache_dir.mkdir(parents=True, exist_ok=True)
-        payload = {
-            "fetched_at": datetime.now(timezone.utc).isoformat(),
-            "locale": "en",
-            "species": species,
-        }
-        _en_taxonomy_cache_path(cache_dir).write_text(
-            json.dumps(payload, ensure_ascii=False), encoding="utf-8"
+        _save_taxonomy_to_disk(
+            species, _en_taxonomy_cache_path(cache_dir), locale="en"
         )
 
     logger.info("English name index: %d entries", len(_en_name_index))
@@ -238,6 +220,39 @@ def lookup_taxonomy(species_code: str) -> dict:
         )
         if sp.get(k)
     }
+
+
+def get_code_to_localized() -> dict[str, str]:
+    """Return speciesCode → localized comName from the loaded taxonomy.
+
+    Must be called after :func:`get_full_taxonomy` has populated the
+    module-level index. Returns an empty dict if the taxonomy hasn't
+    been loaded yet.
+    """
+    if not _taxonomy_index:
+        return {}
+    return {
+        code: sp["comName"]
+        for code, sp in _taxonomy_index.items()
+        if sp.get("comName")
+    }
+
+
+def get_sciname_index() -> dict[str, str]:
+    """Return lowercase sciName → canonical sciName from the loaded taxonomy.
+
+    Used by the name linker to italicise binomial names in descriptions.
+    Only includes binomial names (genus + epithet, i.e. names containing
+    a space).
+    """
+    if not _taxonomy_index:
+        return {}
+    result: dict[str, str] = {}
+    for sp in _taxonomy_index.values():
+        sci = sp.get("sciName", "")
+        if sci and " " in sci:
+            result[sci.lower()] = sci
+    return result
 
 
 def _date_seed(date_str: str, salt: str = "") -> int:

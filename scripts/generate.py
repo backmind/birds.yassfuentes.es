@@ -17,6 +17,8 @@ from datetime import datetime, timezone
 from email.utils import format_datetime
 from pathlib import Path
 
+import requests
+
 from scripts import (
     content_scraper,
     ebird_client,
@@ -183,6 +185,24 @@ def save_history(history: dict) -> None:
     )
 
 
+def _apply_description_policy(
+    content: content_scraper.SpeciesContent,
+    description_policy: str,
+) -> tuple[str, str]:
+    """Derive effective description and source after applying the policy.
+
+    Returns ``(description, description_source)``. The ``foreign_fallback``
+    policy substitutes the rejected foreign-language text when no
+    target-language description is available.
+    """
+    desc = content.description
+    source = content.description_source
+    if not desc and description_policy == "foreign_fallback" and content.fallback_text:
+        desc = content.fallback_text
+        source = "ebird-foreign"
+    return desc, source
+
+
 def _build_site_entries(
     history: dict, description_policy: str = "foreign_fallback"
 ) -> list[site_builder.SiteEntry]:
@@ -223,15 +243,9 @@ def _build_site_entries(
 
         # Apply description policy at render time so a config change is
         # picked up on the next site build without re-scraping.
-        effective_description = content.description
-        effective_source = content.description_source
-        if (
-            not effective_description
-            and description_policy == "foreign_fallback"
-            and content.fallback_text
-        ):
-            effective_description = content.fallback_text
-            effective_source = "ebird-foreign"
+        effective_description, effective_source = _apply_description_policy(
+            content, description_policy
+        )
 
         # Taxonomy may live in either the cache or the global taxonomy index
         taxonomy = content.taxonomy or ebird_client.lookup_taxonomy(code) or {}
@@ -261,6 +275,193 @@ def _build_site_entries(
     return entries
 
 
+def _build_indexes(
+    history: dict, feed_link: str
+) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
+    """Build cross-reference indexes for the name linker.
+
+    Returns ``(code_to_localized, published_anchors, published_anchors_abs)``.
+    ``published_anchors`` uses relative archive URLs; ``published_anchors_abs``
+    prepends the ``feed_link`` base so RSS readers can resolve them.
+    """
+    code_to_localized = ebird_client.get_code_to_localized()
+
+    published_anchors: dict[str, str] = {}
+    published_anchors_abs: dict[str, str] = {}
+    for h in history["entries"]:
+        hc, hd = h["speciesCode"], h["date"]
+        published_anchors[hc] = f"archive.html#bird-{hc}-{hd}"
+        published_anchors_abs[hc] = (
+            f"{feed_link.rstrip('/')}/archive.html#bird-{hc}-{hd}"
+            if feed_link else published_anchors[hc]
+        )
+
+    return code_to_localized, published_anchors, published_anchors_abs
+
+
+def _rebuild_feed(
+    history: dict,
+    config: dict,
+    catalog: i18n.Catalog,
+    description_policy: str,
+    english_name_index: dict,
+    code_to_localized: dict,
+    published_anchors_abs: dict,
+    now: datetime,
+) -> None:
+    """Full-rebuild the RSS feed from history.
+
+    Every entry gets fresh name-linker output so cross-links to newly
+    published species appear retroactively in older entries. pubDates are
+    preserved from the existing feed via a pre-pass lookup.
+    """
+    existing_pub_by_guid = {
+        e.guid: e.pub_date
+        for e in feed_builder.load_existing_feed(str(FEED_PATH))
+    }
+    max_entries = config.get("max_feed_entries", 0) or None
+
+    all_feed_entries: list[feed_builder.FeedEntry] = []
+    for raw in reversed(history["entries"]):
+        fc = raw["speciesCode"]
+        fi = image_fetcher.load_cached_image(fc, str(CACHE_DIR))
+        fco = content_scraper.load_cached_content(fc, str(CACHE_DIR))
+        if fco is None:
+            fco = content_scraper.SpeciesContent(
+                description="", description_source="",
+                bow_intro="", taxonomy={},
+            )
+        ft = ebird_client.lookup_taxonomy(fc) or fco.taxonomy or {}
+        fd, fs = _apply_description_policy(fco, description_policy)
+
+        fhtml = feed_builder.build_entry_html(
+            species_code=fc,
+            common_name=raw["comName"],
+            scientific_name=raw["sciName"],
+            image_url=fi.url if fi else None,
+            image_attribution=fi.attribution if fi else "",
+            ml_search_url=fi.search_url if fi else "",
+            description=fd,
+            description_source=fs,
+            bow_intro=fco.bow_intro,
+            taxonomy=ft,
+            catalog=catalog,
+            wikipedia_url=fco.wikipedia_url,
+            wikipedia_language=fco.wikipedia_language,
+            fallback_language=fco.fallback_language,
+            distribution_map_url=fco.distribution_map_url,
+            gbif_taxon_key=fco.gbif_taxon_key,
+            english_name_index=english_name_index,
+            code_to_localized=code_to_localized,
+            published_anchors=published_anchors_abs,
+        )
+        fguid = f"bird-of-the-day-{fc}-{raw['date']}"
+        fpub = existing_pub_by_guid.get(fguid, format_datetime(now))
+        all_feed_entries.append(
+            feed_builder.FeedEntry(
+                species_code=fc,
+                common_name=raw["comName"],
+                scientific_name=raw["sciName"],
+                description_html=fhtml,
+                image_url=fi.url if fi else None,
+                image_attribution=fi.attribution if fi else "",
+                ml_search_url=fi.search_url if fi else "",
+                pub_date=fpub,
+                guid=fguid,
+            )
+        )
+    all_feed_entries = all_feed_entries[:max_entries]
+    feed_xml = feed_builder.build_feed(all_feed_entries, config, catalog)
+    feed_builder.write_feed(feed_xml, str(FEED_PATH))
+
+
+def _select_and_fetch(
+    config: dict,
+    history_codes: list[str],
+    date_str: str,
+    catalog: i18n.Catalog,
+    ebird_locale: str,
+    description_policy: str,
+) -> tuple[dict, image_fetcher.ImageResult, content_scraper.SpeciesContent]:
+    """Run the species selection loop with image + content fetching.
+
+    For ``strict`` / ``foreign_fallback`` the first pick wins. For ``skip``
+    we re-roll up to ``max_skip_retries`` times until a species with text
+    in the configured language is found.
+
+    Returns ``(species_dict, image_result, content_result)``.
+    """
+    max_skip = int(config.get("max_skip_retries", 50))
+    session = image_fetcher.new_session(
+        accept_language=catalog.accept_language_header
+    )
+
+    tried_codes: list[str] = []
+    last_attempt: tuple | None = None
+
+    for attempt in range(max_skip + 1):
+        logger.info("Selecting bird of the day for %s", date_str)
+        species = ebird_client.select_species(
+            config, history_codes + tried_codes, date_str, cache_dir=CACHE_DIR,
+        )
+        species_code = species["speciesCode"]
+        logger.info(
+            "Selected: %s (%s) [%s]",
+            species["comName"], species["sciName"], species_code,
+        )
+
+        image = image_fetcher.load_cached_image(species_code, str(CACHE_DIR))
+        if image is None:
+            logger.info("Fetching image for %s", species_code)
+            image = image_fetcher.fetch_image(
+                species_code, session=session, locale=ebird_locale
+            )
+            image_fetcher.save_cached_image(species_code, image, str(CACHE_DIR))
+        else:
+            logger.info("Using cached image for %s", species_code)
+
+        content = content_scraper.load_cached_content(species_code, str(CACHE_DIR))
+        if content is None:
+            logger.info("Scraping content for %s", species_code)
+            content = content_scraper.scrape_species_content(
+                species_code,
+                scientific_name=species["sciName"],
+                catalog=catalog,
+                session=session,
+            )
+            content_scraper.save_cached_content(species_code, content, str(CACHE_DIR))
+        else:
+            logger.info("Using cached content for %s", species_code)
+
+        last_attempt = (species, image, content)
+
+        if description_policy != "skip":
+            break
+        if content.description:
+            break
+        logger.info(
+            "skip retry #%d: %s has no %s description, rerolling",
+            attempt + 1, species_code, catalog.language,
+        )
+        tried_codes.append(species_code)
+    else:
+        logger.warning(
+            "skip exhausted %d retries; publishing last attempt with empty description",
+            max_skip,
+        )
+
+    if last_attempt is None:
+        raise RuntimeError("Selection loop produced no attempt")
+
+    species, image, content = last_attempt
+    if image.url:
+        logger.info("Image: asset %s by %s", image.asset_id, image.photographer or "?")
+    else:
+        logger.info("No image available, will link to ML Search")
+
+    return species, image, content
+
+
 def main() -> None:
     _load_dotenv(ENV_PATH)
     _load_secret_files()
@@ -269,19 +470,11 @@ def main() -> None:
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%Y-%m-%d")
 
-    # Build the i18n catalog for the configured language. The catalog is
-    # constructed once and passed explicitly to every builder.
     catalog = i18n.Catalog.load(config["language"])
 
-    # Resolve the eBird locale: optional override in config wins over the
-    # catalog default. The legacy code path read config["ebird_locale"]
-    # directly, so we mutate it in-memory to keep ebird_client.select_species
-    # untouched until Step 7+.
     ebird_locale = config.get("ebird_locale") or catalog.ebird_locale
     config["ebird_locale"] = ebird_locale
 
-    # English name index for the species name linker: used to find
-    # English bird names in descriptions and replace with localized names.
     try:
         english_name_index = ebird_client.get_english_name_index(cache_dir=CACHE_DIR)
     except requests.RequestException:
@@ -294,117 +487,32 @@ def main() -> None:
         logger.info("Already generated for %s, skipping", date_str)
         return
 
-    dedup_window = config.get("dedup_window", config.get("max_history", 50))
-    history_codes = [e["speciesCode"] for e in history["entries"][-dedup_window:]]
-
     description_policy = config.get("description_policy", "foreign_fallback")
-    max_skip = int(config.get("max_skip_retries", 50))
 
     try:
-        # Shared HTTP session: cookies persist across image_fetcher and
-        # content_scraper, which both hit eBird's CAS-gated species page.
-        session = image_fetcher.new_session(
-            accept_language=catalog.accept_language_header
+        # 1. Select species, fetch image + content.
+        dedup_window = config.get("dedup_window", config.get("max_history", 50))
+        history_codes = [e["speciesCode"] for e in history["entries"][-dedup_window:]]
+
+        species, image, content = _select_and_fetch(
+            config, history_codes, date_str, catalog, ebird_locale,
+            description_policy,
         )
+        species_code = species["speciesCode"]
+        common_name = species["comName"]
+        scientific_name = species["sciName"]
 
-        # Selection loop. For strict / foreign_fallback the first pick wins.
-        # For skip we re-roll up to max_skip times until we find a species
-        # with text in the configured language; on exhaustion we publish the
-        # last attempt with strict-style rendering.
-        tried_codes: list[str] = []
-        last_attempt: tuple | None = None
-
-        for attempt in range(max_skip + 1):
-            logger.info("Selecting bird of the day for %s", date_str)
-            species = ebird_client.select_species(
-                config,
-                history_codes + tried_codes,
-                date_str,
-                cache_dir=CACHE_DIR,
-            )
-            species_code = species["speciesCode"]
-            common_name = species["comName"]
-            scientific_name = species["sciName"]
-            logger.info(
-                "Selected: %s (%s) [%s]",
-                common_name, scientific_name, species_code,
-            )
-
-            # Image — try cache first, then live lookup
-            image = image_fetcher.load_cached_image(species_code, str(CACHE_DIR))
-            if image is None:
-                logger.info("Fetching image for %s", species_code)
-                image = image_fetcher.fetch_image(
-                    species_code, session=session, locale=ebird_locale
-                )
-                image_fetcher.save_cached_image(species_code, image, str(CACHE_DIR))
-            else:
-                logger.info("Using cached image for %s", species_code)
-
-            # Content — cache first, then scrape
-            content = content_scraper.load_cached_content(species_code, str(CACHE_DIR))
-            if content is None:
-                logger.info("Scraping content for %s", species_code)
-                content = content_scraper.scrape_species_content(
-                    species_code,
-                    scientific_name=scientific_name,
-                    catalog=catalog,
-                    session=session,
-                )
-                content_scraper.save_cached_content(species_code, content, str(CACHE_DIR))
-            else:
-                logger.info("Using cached content for %s", species_code)
-
-            last_attempt = (species, species_code, common_name, scientific_name, image, content)
-
-            # Skip mode: only accept species with text in target language.
-            if description_policy != "skip":
-                break
-            if content.description:
-                break
-            logger.info(
-                "skip retry #%d: %s has no %s description, rerolling",
-                attempt + 1, species_code, catalog.language,
-            )
-            tried_codes.append(species_code)
-        else:
-            logger.warning(
-                "skip exhausted %d retries; publishing last attempt with empty description",
-                max_skip,
-            )
-
-        assert last_attempt is not None
-        species, species_code, common_name, scientific_name, image, content = last_attempt
-
-        if image.url:
-            logger.info("Image: asset %s by %s", image.asset_id, image.photographer or "?")
-        else:
-            logger.info("No image available, will link to ML Search")
-
-        # Apply description_policy to derive what actually gets rendered.
-        # `effective_description` is what the builders show; `effective_source`
-        # tells them whether to render the foreign-language disclaimer.
-        effective_description = content.description
-        effective_source = content.description_source
-        if not effective_description and description_policy == "foreign_fallback" and content.fallback_text:
-            effective_description = content.fallback_text
-            effective_source = "ebird-foreign"
+        # 2. Apply description policy.
+        effective_description, effective_source = _apply_description_policy(
+            content, description_policy
+        )
+        if effective_source == "ebird-foreign":
             logger.info(
                 "foreign_fallback: using rejected %s text for %s",
                 content.fallback_language, species_code,
             )
 
-        # Taxonomy: prefer the API-side index over the (usually empty) scraped one
-        taxonomy = ebird_client.lookup_taxonomy(species_code) or content.taxonomy or {
-            k: species[k]
-            for k in ("order", "familySciName", "familyComName", "sciName", "comName")
-            if species.get(k)
-        }
-
-        # 4. Update history (in memory + on disk). History is kept
-        # indefinitely so the archive page can show every bird ever
-        # published. We add today's entry FIRST so the full-rebuild
-        # pass below includes it.
+        # 3. Update history.
         history["entries"].append(
             {
                 "speciesCode": species_code,
@@ -418,97 +526,19 @@ def main() -> None:
         )
         save_history(history)
 
-        # 5. Build the cross-reference indexes for the name linker.
-        code_to_localized: dict[str, str] = {}
-        if ebird_client._taxonomy_index:
-            code_to_localized = {
-                code: sp["comName"]
-                for code, sp in ebird_client._taxonomy_index.items()
-                if sp.get("comName")
-            }
-
+        # 4. Build cross-reference indexes for the name linker.
         feed_link = config.get("feed_link", "")
-        published_anchors: dict[str, str] = {}
-        published_anchors_abs: dict[str, str] = {}
-        for h in history["entries"]:
-            hc, hd = h["speciesCode"], h["date"]
-            published_anchors[hc] = f"archive.html#bird-{hc}-{hd}"
-            published_anchors_abs[hc] = (
-                f"{feed_link.rstrip('/')}/archive.html#bird-{hc}-{hd}"
-                if feed_link else published_anchors[hc]
-            )
+        code_to_localized, published_anchors, published_anchors_abs = (
+            _build_indexes(history, feed_link)
+        )
 
-        # 6. Full-rebuild the feed from history. Every entry gets fresh
-        # name-linker output so cross-links to newly published species
-        # appear retroactively in older entries. pubDates are preserved
-        # from the existing feed via a pre-pass lookup.
-        existing_pub_by_guid = {
-            e.guid: e.pub_date
-            for e in feed_builder.load_existing_feed(str(FEED_PATH))
-        }
-        max_entries = config.get("max_feed_entries", 0) or None
+        # 5. Full-rebuild the RSS feed.
+        _rebuild_feed(
+            history, config, catalog, description_policy,
+            english_name_index, code_to_localized, published_anchors_abs, now,
+        )
 
-        all_feed_entries: list[feed_builder.FeedEntry] = []
-        for raw in reversed(history["entries"]):
-            fc = raw["speciesCode"]
-            fi = image_fetcher.load_cached_image(fc, str(CACHE_DIR))
-            fco = content_scraper.load_cached_content(fc, str(CACHE_DIR))
-            if fco is None:
-                fco = content_scraper.SpeciesContent(
-                    description="", description_source="",
-                    bow_intro="", taxonomy={},
-                )
-            ft = ebird_client.lookup_taxonomy(fc) or fco.taxonomy or {}
-            fd = fco.description
-            fs = fco.description_source
-            if not fd and description_policy == "foreign_fallback" and fco.fallback_text:
-                fd = fco.fallback_text
-                fs = "ebird-foreign"
-
-            fhtml = feed_builder.build_entry_html(
-                species_code=fc,
-                common_name=raw["comName"],
-                scientific_name=raw["sciName"],
-                image_url=fi.url if fi else None,
-                image_attribution=fi.attribution if fi else "",
-                ml_search_url=fi.search_url if fi else "",
-                description=fd,
-                description_source=fs,
-                bow_intro=fco.bow_intro,
-                taxonomy=ft,
-                catalog=catalog,
-                wikipedia_url=fco.wikipedia_url,
-                wikipedia_language=fco.wikipedia_language,
-                fallback_language=fco.fallback_language,
-                distribution_map_url=fco.distribution_map_url,
-                gbif_taxon_key=fco.gbif_taxon_key,
-                english_name_index=english_name_index,
-                code_to_localized=code_to_localized,
-                published_anchors=published_anchors_abs,
-            )
-            fguid = f"bird-of-the-day-{fc}-{raw['date']}"
-            fpub = existing_pub_by_guid.get(
-                fguid, format_datetime(now)
-            )
-            all_feed_entries.append(
-                feed_builder.FeedEntry(
-                    species_code=fc,
-                    common_name=raw["comName"],
-                    scientific_name=raw["sciName"],
-                    description_html=fhtml,
-                    image_url=fi.url if fi else None,
-                    image_attribution=fi.attribution if fi else "",
-                    ml_search_url=fi.search_url if fi else "",
-                    pub_date=fpub,
-                    guid=fguid,
-                )
-            )
-        all_feed_entries = all_feed_entries[:max_entries]
-        feed_xml = feed_builder.build_feed(all_feed_entries, config, catalog)
-        feed_builder.write_feed(feed_xml, str(FEED_PATH))
-
-        # 7. Generate the static site (output goes under STATE_DIR so the
-        # container's volume captures it; identical to BASE_DIR locally).
+        # 6. Generate the static site.
         site_entries = _build_site_entries(history, description_policy=description_policy)
         site_builder.write_site(
             site_entries,

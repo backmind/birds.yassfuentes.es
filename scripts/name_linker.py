@@ -147,13 +147,9 @@ def process_description(
 
     from scripts import ebird_client  # deferred to avoid circular import
 
-    if ebird_client._taxonomy_index:
-        sciname_canonical: dict[str, str] = {}  # lowercase → canonical
-        for sp in ebird_client._taxonomy_index.values():
-            sci = sp.get("sciName", "")
-            if sci and " " in sci:
-                sciname_canonical[sci.lower()] = sci
+    sciname_canonical = ebird_client.get_sciname_index()
 
+    if sciname_canonical:
         for lower_sci, canonical in sciname_canonical.items():
             words = lower_sci.split()
             if not all(w in text_lower for w in words):
