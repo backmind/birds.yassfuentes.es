@@ -24,7 +24,7 @@
 
   "footer.data_credit_html": "Données de <a href=\"https://ebird.org\">eBird</a> et <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
   "footer.photos_credit_html": "Photos de <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © leurs auteurs respectifs.",
-  "footer.author_template": "Projet non commercial par Yass Fuentes © {year}.",
+  "footer.author_template": "Projet non commercial par <a href=\"https://yassfuentes.es\">Yass Fuentes</a> © {year}.",
   "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Clone-moi sur GitHub</a>.",
 
   "page.home_hero_title_template": "{name} — Oiseau du Jour",

@@ -24,7 +24,7 @@
 
   "footer.data_credit_html": "Dados de <a href=\"https://ebird.org\">eBird</a> e <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
   "footer.photos_credit_html": "Fotos de <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © dos respetivos autores.",
-  "footer.author_template": "Projeto não comercial por Yass Fuentes © {year}.",
+  "footer.author_template": "Projeto não comercial por <a href=\"https://yassfuentes.es\">Yass Fuentes</a> © {year}.",
   "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Clona-me no GitHub</a>.",
 
   "page.home_hero_title_template": "{name} — Ave do Dia",
