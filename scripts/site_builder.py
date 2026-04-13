@@ -10,10 +10,12 @@ from __future__ import annotations
 
 import html
 import logging
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import TYPE_CHECKING
+
+from scripts import name_linker
 
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
@@ -35,6 +37,9 @@ class RenderContext:
 
     catalog: "Catalog"
     feed_link: str
+    english_name_index: dict = field(default_factory=dict)
+    code_to_localized: dict = field(default_factory=dict)
+    published_anchors: dict = field(default_factory=dict)
 
 
 @dataclass
@@ -1034,7 +1039,13 @@ def _render_plate(
         )
 
     if entry.description:
-        desc_html = f'<p class="plate-description">{_esc(entry.description)}</p>'
+        processed_desc = name_linker.process_description(
+            entry.description,
+            ctx.english_name_index,
+            ctx.code_to_localized,
+            ctx.published_anchors,
+        )
+        desc_html = f'<p class="plate-description">{processed_desc}</p>'
         # When the description came from a foreign-language fallback, append
         # a translated disclaimer so the reader knows. The source language
         # name itself comes from a per-language lookup so it reads naturally
@@ -1050,8 +1061,14 @@ def _render_plate(
                 f'<p class="plate-description-note"><em>{_esc(disclaimer)}</em></p>'
             )
         if entry.bow_intro:
+            processed_bow = name_linker.process_description(
+                entry.bow_intro,
+                ctx.english_name_index,
+                ctx.code_to_localized,
+                ctx.published_anchors,
+            )
             desc_html += (
-                f'<p class="plate-description">{_esc(entry.bow_intro)}</p>'
+                f'<p class="plate-description">{processed_bow}</p>'
             )
     else:
         # Universal em-dash placeholder via the catalog (the catalog stores
@@ -1315,13 +1332,24 @@ def write_site(
     output_dir: Path,
     catalog: "Catalog",
     feed_link: str = "",
+    english_name_index: dict | None = None,
+    code_to_localized: dict | None = None,
+    published_anchors: dict | None = None,
 ) -> None:
     """Write index.html and archive.html to ``output_dir``.
 
     The ``catalog`` is required: every user-facing string is sourced from
-    it. ``feed_link`` rounds out the per-page render context.
+    it. ``feed_link`` rounds out the per-page render context. The three
+    ``*_index`` / ``*_anchors`` dicts power the name linker (English
+    species name substitution + cross-linking to published entries).
     """
-    ctx = RenderContext(catalog=catalog, feed_link=feed_link)
+    ctx = RenderContext(
+        catalog=catalog,
+        feed_link=feed_link,
+        english_name_index=english_name_index or {},
+        code_to_localized=code_to_localized or {},
+        published_anchors=published_anchors or {},
+    )
     output_dir.mkdir(parents=True, exist_ok=True)
     index_html = build_index(entries, ctx)
     archive_html = build_archive(entries, ctx)

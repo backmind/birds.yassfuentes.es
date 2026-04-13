@@ -309,6 +309,9 @@ def main() -> None:
             wikipedia_language=wiki_lang,
             distribution_map_url=map_url,
             gbif_taxon_key=gbif_key,
+            english_name_index={},
+            code_to_localized={},
+            published_anchors={},
         )
         pub = datetime.combine(date, datetime.min.time(), tzinfo=timezone.utc).replace(
             hour=7

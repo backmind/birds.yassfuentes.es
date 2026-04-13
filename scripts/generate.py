@@ -280,6 +280,14 @@ def main() -> None:
     ebird_locale = config.get("ebird_locale") or catalog.ebird_locale
     config["ebird_locale"] = ebird_locale
 
+    # English name index for the species name linker: used to find
+    # English bird names in descriptions and replace with localized names.
+    try:
+        english_name_index = ebird_client.get_english_name_index(cache_dir=CACHE_DIR)
+    except requests.RequestException:
+        logger.warning("Could not load English taxonomy; name linker disabled")
+        english_name_index = {}
+
     # Idempotency: skip if today's entry is already in history.
     last = history["entries"][-1] if history["entries"] else None
     if last and last.get("date") == date_str:
@@ -393,47 +401,10 @@ def main() -> None:
             if species.get(k)
         }
 
-        # 4. Build the feed entry HTML
-        entry_html = feed_builder.build_entry_html(
-            species_code=species_code,
-            common_name=common_name,
-            scientific_name=scientific_name,
-            image_url=image.url,
-            image_attribution=image.attribution,
-            ml_search_url=image.search_url,
-            description=effective_description,
-            description_source=effective_source,
-            bow_intro=content.bow_intro,
-            taxonomy=taxonomy,
-            catalog=catalog,
-            wikipedia_url=content.wikipedia_url,
-            wikipedia_language=content.wikipedia_language,
-            fallback_language=content.fallback_language,
-            distribution_map_url=content.distribution_map_url,
-            gbif_taxon_key=content.gbif_taxon_key,
-        )
-
-        # 5. Prepend to existing feed and trim
-        pub_date = format_datetime(now)
-        new_entry = feed_builder.FeedEntry(
-            species_code=species_code,
-            common_name=common_name,
-            scientific_name=scientific_name,
-            description_html=entry_html,
-            image_url=image.url,
-            image_attribution=image.attribution,
-            ml_search_url=image.search_url,
-            pub_date=pub_date,
-            guid=f"bird-of-the-day-{species_code}-{date_str}",
-        )
-        existing = feed_builder.load_existing_feed(str(FEED_PATH))
-        max_entries = config.get("max_feed_entries", 0) or None  # 0 = unlimited
-        all_entries = ([new_entry] + existing)[:max_entries]
-        feed_xml = feed_builder.build_feed(all_entries, config, catalog)
-        feed_builder.write_feed(feed_xml, str(FEED_PATH))
-
-        # 6. Update history (in memory + on disk). History is kept indefinitely
-        # so the archive page can show every bird ever published.
+        # 4. Update history (in memory + on disk). History is kept
+        # indefinitely so the archive page can show every bird ever
+        # published. We add today's entry FIRST so the full-rebuild
+        # pass below includes it.
         history["entries"].append(
             {
                 "speciesCode": species_code,
@@ -447,6 +418,95 @@ def main() -> None:
         )
         save_history(history)
 
+        # 5. Build the cross-reference indexes for the name linker.
+        code_to_localized: dict[str, str] = {}
+        if ebird_client._taxonomy_index:
+            code_to_localized = {
+                code: sp["comName"]
+                for code, sp in ebird_client._taxonomy_index.items()
+                if sp.get("comName")
+            }
+
+        feed_link = config.get("feed_link", "")
+        published_anchors: dict[str, str] = {}
+        published_anchors_abs: dict[str, str] = {}
+        for h in history["entries"]:
+            hc, hd = h["speciesCode"], h["date"]
+            published_anchors[hc] = f"archive.html#bird-{hc}-{hd}"
+            published_anchors_abs[hc] = (
+                f"{feed_link.rstrip('/')}/archive.html#bird-{hc}-{hd}"
+                if feed_link else published_anchors[hc]
+            )
+
+        # 6. Full-rebuild the feed from history. Every entry gets fresh
+        # name-linker output so cross-links to newly published species
+        # appear retroactively in older entries. pubDates are preserved
+        # from the existing feed via a pre-pass lookup.
+        existing_pub_by_guid = {
+            e.guid: e.pub_date
+            for e in feed_builder.load_existing_feed(str(FEED_PATH))
+        }
+        max_entries = config.get("max_feed_entries", 0) or None
+
+        all_feed_entries: list[feed_builder.FeedEntry] = []
+        for raw in reversed(history["entries"]):
+            fc = raw["speciesCode"]
+            fi = image_fetcher.load_cached_image(fc, str(CACHE_DIR))
+            fco = content_scraper.load_cached_content(fc, str(CACHE_DIR))
+            if fco is None:
+                fco = content_scraper.SpeciesContent(
+                    description="", description_source="",
+                    bow_intro="", taxonomy={},
+                )
+            ft = ebird_client.lookup_taxonomy(fc) or fco.taxonomy or {}
+            fd = fco.description
+            fs = fco.description_source
+            if not fd and description_policy == "foreign_fallback" and fco.fallback_text:
+                fd = fco.fallback_text
+                fs = "ebird-foreign"
+
+            fhtml = feed_builder.build_entry_html(
+                species_code=fc,
+                common_name=raw["comName"],
+                scientific_name=raw["sciName"],
+                image_url=fi.url if fi else None,
+                image_attribution=fi.attribution if fi else "",
+                ml_search_url=fi.search_url if fi else "",
+                description=fd,
+                description_source=fs,
+                bow_intro=fco.bow_intro,
+                taxonomy=ft,
+                catalog=catalog,
+                wikipedia_url=fco.wikipedia_url,
+                wikipedia_language=fco.wikipedia_language,
+                fallback_language=fco.fallback_language,
+                distribution_map_url=fco.distribution_map_url,
+                gbif_taxon_key=fco.gbif_taxon_key,
+                english_name_index=english_name_index,
+                code_to_localized=code_to_localized,
+                published_anchors=published_anchors_abs,
+            )
+            fguid = f"bird-of-the-day-{fc}-{raw['date']}"
+            fpub = existing_pub_by_guid.get(
+                fguid, format_datetime(now)
+            )
+            all_feed_entries.append(
+                feed_builder.FeedEntry(
+                    species_code=fc,
+                    common_name=raw["comName"],
+                    scientific_name=raw["sciName"],
+                    description_html=fhtml,
+                    image_url=fi.url if fi else None,
+                    image_attribution=fi.attribution if fi else "",
+                    ml_search_url=fi.search_url if fi else "",
+                    pub_date=fpub,
+                    guid=fguid,
+                )
+            )
+        all_feed_entries = all_feed_entries[:max_entries]
+        feed_xml = feed_builder.build_feed(all_feed_entries, config, catalog)
+        feed_builder.write_feed(feed_xml, str(FEED_PATH))
+
         # 7. Generate the static site (output goes under STATE_DIR so the
         # container's volume captures it; identical to BASE_DIR locally).
         site_entries = _build_site_entries(history, description_policy=description_policy)
@@ -454,7 +514,10 @@ def main() -> None:
             site_entries,
             STATE_DIR,
             catalog=catalog,
-            feed_link=config.get("feed_link", ""),
+            feed_link=feed_link,
+            english_name_index=english_name_index,
+            code_to_localized=code_to_localized,
+            published_anchors=published_anchors,
         )
 
         logger.info("Done. Today's bird: %s (%s)", common_name, scientific_name)

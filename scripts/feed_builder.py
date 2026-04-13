@@ -16,6 +16,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import TYPE_CHECKING
 
+from scripts import name_linker
+
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
 
@@ -63,6 +65,9 @@ def build_entry_html(
     fallback_language: str = "",
     distribution_map_url: str = "",
     gbif_taxon_key: int | None = None,
+    english_name_index: dict | None = None,
+    code_to_localized: dict | None = None,
+    published_anchors: dict | None = None,
 ) -> str:
     """Build rich HTML content for an RSS entry.
 
@@ -104,9 +109,15 @@ def build_entry_html(
             f'<p><small><em>{" · ".join(tag_parts)}</em></small></p>'
         )
 
-    # Description (and the foreign-fallback disclaimer if applicable)
+    # Description (and the foreign-fallback disclaimer if applicable).
+    # Species names are substituted + cross-linked by the name linker.
+    _eni = english_name_index or {}
+    _c2l = code_to_localized or {}
+    _pa = published_anchors or {}
     if description:
-        parts.append(f"<p>{_esc(description)}</p>")
+        parts.append(
+            f"<p>{name_linker.process_description(description, _eni, _c2l, _pa)}</p>"
+        )
         if description_source == "ebird-foreign":
             lang_name = catalog.t(f"language_name.{fallback_language or 'en'}")
             disclaimer = catalog.t(
@@ -116,7 +127,9 @@ def build_entry_html(
 
     # Birds of the World intro (when present)
     if bow_intro:
-        parts.append(f"<p>{_esc(bow_intro)}</p>")
+        parts.append(
+            f"<p>{name_linker.process_description(bow_intro, _eni, _c2l, _pa)}</p>"
+        )
 
     # GBIF distribution map. Composites a Carto basemap under the GBIF
     # density tile, matching the site's atlas section. Both images are
