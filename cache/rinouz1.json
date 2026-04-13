@@ -1,0 +1,12 @@
+{
+  "description": "Es un ave poco común en Europa como migrante estival con invernada en el Norte África y región Mediterránea, donde puede ser común pero localmente. Se le encuentra en campo abierto, especialmente en laderas de páramos silvestres con riscos rocosos y cantos rodados; los migrantes aparecen en campos abiertos y tierras de cultivo. Algo tímido, suele volar a distancia sobre laderas o taludes cuando se le molesta. El adulto es negruzco en general con bordes de las alas de un pálido escarchado. El macho tiene un patente collar blanco en el pecho y la hembra tiene collar blanco sucio. El inmaduro, en otoño-invierno, tiene el cuello mucho más apagado.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Turdus_torquatus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 7865305,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7865305&bin=hex&hexPerTile=75&style=classic.poly"
+}

@@ -17,6 +17,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53479591/900",
       "photographer": "Jeff Tingle",
       "attribution": "Jeff Tingle / Macaulay Library"
+    },
+    {
+      "speciesCode": "rinouz1",
+      "comName": "Ring Ouzel",
+      "sciName": "Turdus torquatus",
+      "date": "2026-04-13",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
+      "photographer": "Rafael Merchante",
+      "attribution": "Rafael Merchante / Macaulay Library"
     }
   ]
 }

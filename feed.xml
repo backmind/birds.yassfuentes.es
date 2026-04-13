@@ -8,6 +8,21 @@
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
     <item>
+      <title>Ring Ouzel (Turdus torquatus)</title>
+      <link>https://ebird.org/species/rinouz1</link>
+      <guid isPermaLink="false">bird-of-the-day-rinouz1-2026-04-13</guid>
+      <pubDate>Mon, 13 Apr 2026 07:12:38 +0000</pubDate>
+      <content:encoded><![CDATA[<h2>Ring Ouzel — <em>Turdus torquatus</em></h2>
+<a href="https://ebird.org/species/rinouz1?siteLanguage=es"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900" alt="Ring Ouzel © Rafael Merchante / Macaulay Library" style="max-width:100%; border-radius:8px;" /></a>
+<p><em>© Rafael Merchante / Macaulay Library</em></p>
+<p><small><em>Turdidae · Passeriformes</em></small></p>
+<p>Es un ave poco común en Europa como migrante estival con invernada en el Norte África y región Mediterránea, donde puede ser común pero localmente. Se le encuentra en campo abierto, especialmente en laderas de páramos silvestres con riscos rocosos y cantos rodados; los migrantes aparecen en campos abiertos y tierras de cultivo. Algo tímido, suele volar a distancia sobre laderas o taludes cuando se le molesta. El adulto es negruzco en general con bordes de las alas de un pálido escarchado. El macho tiene un patente collar blanco en el pecho y la hembra tiene collar blanco sucio. El inmaduro, en otoño-invierno, tiene el cuello mucho más apagado.</p>
+<figure style="margin:1.5rem auto;padding:.85rem;border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center"><a href="https://www.gbif.org/species/7865305" style="text-decoration:none;border:0"><img src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7865305&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Turdus torquatus según GBIF" style="display:block;width:100%;height:auto;filter:sepia(.45) saturate(.7) contrast(.95)" /></a><figcaption style="margin-top:.55rem;font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;letter-spacing:.14em;text-transform:uppercase">Distribución mundial</figcaption></figure>
+<p><small>
+<a href="https://ebird.org/species/rinouz1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Turdus_torquatus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/rinouz1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=rinouz1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+</small></p>]]></content:encoded>
+    </item>
+    <item>
       <title>Piquero Nazca (Sula granti)</title>
       <link>https://ebird.org/species/nazboo1</link>
       <guid isPermaLink="false">bird-of-the-day-nazboo1-2026-04-12</guid>
