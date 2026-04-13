@@ -21,6 +21,7 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 INDEX_GRID_SIZE = 12
+ARCHIVE_MAX_ENTRIES = 90  # ~1 season; full pagination in a future release
 
 
 @dataclass(frozen=True)
@@ -1297,7 +1298,10 @@ def build_archive(
         "</div>",
         _render_subscribe(ctx),
     ]
-    body_parts.extend(_render_plate(e, ctx, hero=False) for e in entries)
+    body_parts.extend(
+        _render_plate(e, ctx, hero=False)
+        for e in entries[:ARCHIVE_MAX_ENTRIES]
+    )
     return _page(
         t("page.archive_title_template"),
         "\n".join(body_parts),

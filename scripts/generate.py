@@ -427,7 +427,7 @@ def main() -> None:
             guid=f"bird-of-the-day-{species_code}-{date_str}",
         )
         existing = feed_builder.load_existing_feed(str(FEED_PATH))
-        max_entries = config.get("max_feed_entries", 60)
+        max_entries = config.get("max_feed_entries", 0) or None  # 0 = unlimited
         all_entries = ([new_entry] + existing)[:max_entries]
         feed_xml = feed_builder.build_feed(all_entries, config, catalog)
         feed_builder.write_feed(feed_xml, str(FEED_PATH))
