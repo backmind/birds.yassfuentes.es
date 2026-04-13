@@ -245,11 +245,21 @@ def _select_from_taxonomy(
 
 
 def _enrich_with_taxonomy(species: dict) -> dict:
-    """Augment a selection with order/family info from the taxonomy index."""
+    """Augment a selection with order/family info from the taxonomy index.
+
+    ``comName`` and ``sciName`` are always overwritten from the
+    taxonomy index, which was fetched with the configured locale. The
+    observations endpoint does not reliably localise species names for
+    regions outside the locale's language area (e.g. ``locale=es`` +
+    region ``NO`` still returns English names), so the taxonomy is the
+    only reliable source of the localised common name.
+    """
     extra = lookup_taxonomy(species["speciesCode"])
-    # Don't overwrite comName/sciName already set; only fill missing.
     for key, value in extra.items():
-        if not species.get(key):
+        if key in ("comName", "sciName"):
+            # Always overwrite — taxonomy is the locale-authoritative source.
+            species[key] = value
+        elif not species.get(key):
             species[key] = value
     return species
 

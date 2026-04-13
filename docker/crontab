@@ -8,4 +8,4 @@
 # Format: standard crontab. supercronic logs each run to stdout, so the
 # Python script's logging falls through to `docker logs`.
 
-0 7 * * * /opt/venv/bin/python -m scripts.generate
+0 2 * * * /opt/venv/bin/python -m scripts.generate

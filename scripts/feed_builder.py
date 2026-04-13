@@ -118,12 +118,13 @@ def build_entry_html(
     if bow_intro:
         parts.append(f"<p>{_esc(bow_intro)}</p>")
 
-    # GBIF distribution map. Inline-styled because RSS readers strip
-    # external CSS — sepia filter, parchment frame, centered caption,
-    # and a link to the GBIF species page where the data lives. The
-    # site composites a basemap layer under the GBIF dots; the RSS
-    # version is intentionally simpler (single image) since pulling off
-    # CSS-stacked layers in inline styles is fragile across readers.
+    # GBIF distribution map. Composites a Carto basemap under the GBIF
+    # density tile, matching the site's atlas section. Both images are
+    # absolutely positioned inside a padding-bottom:100% container (the
+    # classic aspect-ratio trick that works without CSS aspect-ratio,
+    # which RSS readers don't support). Most desktop/web RSS readers
+    # (Feedly, Inoreader, NetNewsWire) render position:absolute inline
+    # styles correctly; mail-based readers may degrade to stacked images.
     if distribution_map_url:
         map_label = catalog.t("map.label")
         map_alt = catalog.t("map.alt_template", scientific_name=scientific_name)
@@ -132,13 +133,18 @@ def build_entry_html(
             if gbif_taxon_key
             else _esc(distribution_map_url)
         )
+        basemap = "https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png"
         parts.append(
             '<figure style="margin:1.5rem auto;padding:.85rem;'
             'border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center">'
-            f'<a href="{_esc(species_page)}" style="text-decoration:none;border:0">'
+            f'<a href="{_esc(species_page)}" style="display:block;text-decoration:none;border:0;'
+            'position:relative;width:100%;padding-bottom:100%;overflow:hidden">'
+            f'<img src="{_esc(basemap)}" alt="" '
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;'
+            'filter:sepia(.45) saturate(.7) contrast(.95)" />'
             f'<img src="{_esc(distribution_map_url)}" '
             f'alt="{_esc(map_alt)}" '
-            'style="display:block;width:100%;height:auto;'
+            'style="position:absolute;top:0;left:0;width:100%;height:100%;'
             'filter:sepia(.45) saturate(.7) contrast(.95)" />'
             '</a>'
             '<figcaption style="margin-top:.55rem;'
