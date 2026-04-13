@@ -1,19 +1,48 @@
-"""Species name substitution and cross-linking in description text.
+"""Species name substitution, cross-linking, and scientific-name italicisation.
 
-Scans a raw description for English bird species names (2+ words,
-word-boundary matched, longest-first) and replaces them with their
-localised equivalents. When the referenced species has been published,
-the name is wrapped in a hyperlink to its archive entry.
+Four-pass pipeline over raw description text:
+
+  1. **Word-boundary pass** — 2+ word English names, longest-first.
+     Establishes confirmed species with high confidence.
+  2. **Short-form pass** — individual words (≥ 4 chars) from confirmed
+     species, case-sensitive, word-boundary. Catches "de adultos de
+     Masked" after "Masked Booby" was already confirmed.
+  3. **Dirty-substring pass** — the full English name as a substring
+     (no word boundaries). Catches formatting artifacts like
+     "laMasked BoobySula" where scraping lost whitespace.
+  4. **Scientific-name pass** — binomial names from the eBird taxonomy,
+     case-insensitive, word-boundary. Wraps in ``<em>`` with canonical
+     capitalisation (genus upper, epithet lower).
+
+Passes 2-3 only run for species confirmed in pass 1. Pass 4 runs
+independently (any taxonomic binomial, whether or not the common name
+was found).
 
 Processing happens at render time (not cached) because the set of
-published species changes daily — a link to a "future" bird appears
-retroactively the day that bird is published and the site is rebuilt.
+published species changes daily.
 """
 
 from __future__ import annotations
 
 import html
 import re
+
+_MIN_SHORTFORM_LEN = 4  # words shorter than this are skipped in pass 2
+
+
+def _make_species_replacement(
+    code: str,
+    fallback: str,
+    code_to_localized: dict[str, str],
+    published_anchors: dict[str, str],
+) -> str:
+    """Build the HTML replacement for a species common-name match."""
+    localized = code_to_localized.get(code, fallback)
+    escaped = html.escape(localized)
+    if code in published_anchors:
+        anchor = html.escape(published_anchors[code], quote=True)
+        return f'<a href="{anchor}">{escaped}</a>'
+    return escaped
 
 
 def process_description(
@@ -22,34 +51,42 @@ def process_description(
     code_to_localized: dict[str, str],
     published_anchors: dict[str, str],
 ) -> str:
-    """Substitute English bird names and hyperlink published species.
+    """Substitute English bird names, hyperlink, and italicise binomials.
 
     Parameters
     ----------
     raw_text:
         The raw description string (not HTML-escaped).
     english_name_index:
-        English ``comName`` → ``speciesCode`` mapping.  Only names
-        with 2+ words are considered (single-word names like "Wren",
-        "Robin", "Martin" are too ambiguous).
+        English ``comName`` → ``speciesCode`` mapping.
     code_to_localized:
         ``speciesCode`` → localised ``comName`` mapping.
     published_anchors:
-        ``speciesCode`` → anchor URL for species that have been
-        published.  Relative for the site, absolute for the RSS feed.
+        ``speciesCode`` → anchor URL for published species.
 
     Returns
     -------
     str
-        HTML string.  Non-matched text is HTML-escaped; matched names
-        are replaced with escaped localised names, optionally wrapped
-        in ``<a href>`` tags.  The caller inserts the result as raw
-        HTML — do NOT escape further.
+        HTML string.  The caller inserts as raw HTML — do NOT escape.
     """
     if not raw_text or not english_name_index:
         return html.escape(raw_text or "")
 
-    # 2+ word names only, longest first.
+    text_lower = raw_text.lower()
+
+    # Each match: (start, end, replacement_html)
+    matches: list[tuple[int, int, str]] = []
+    occupied: set[int] = set()
+
+    def _try_add(start: int, end: int, replacement: str) -> bool:
+        if any(pos in occupied for pos in range(start, end)):
+            return False
+        matches.append((start, end, replacement))
+        occupied.update(range(start, end))
+        return True
+
+    # ── Pass 1: word-boundary, 2+ word names, longest first ──────
+
     candidates = [
         (name, code)
         for name, code in english_name_index.items()
@@ -57,39 +94,106 @@ def process_description(
     ]
     candidates.sort(key=lambda x: len(x[0]), reverse=True)
 
-    # Pre-filter: skip names whose words don't appear in the text.
-    text_lower = raw_text.lower()
-
-    matches: list[tuple[int, int, str]] = []  # (start, end, speciesCode)
-    occupied: set[int] = set()
+    confirmed_species: dict[str, str] = {}  # code → English name
 
     for name, code in candidates:
         if not all(w in text_lower for w in name.lower().split()):
             continue
         pattern = re.compile(r"\b" + re.escape(name) + r"\b", re.IGNORECASE)
         for m in pattern.finditer(raw_text):
-            start, end = m.start(), m.end()
-            if not any(pos in occupied for pos in range(start, end)):
-                matches.append((start, end, code))
-                occupied.update(range(start, end))
+            repl = _make_species_replacement(
+                code, m.group(), code_to_localized, published_anchors
+            )
+            if _try_add(m.start(), m.end(), repl):
+                confirmed_species[code] = name
+
+    # ── Pass 2: short-form abbreviations from confirmed species ──
+
+    for code, full_name in confirmed_species.items():
+        for word in full_name.split():
+            if len(word) < _MIN_SHORTFORM_LEN:
+                continue
+            # Case-sensitive: "Masked" (proper noun) not "masked".
+            pattern = re.compile(r"\b" + re.escape(word) + r"\b")
+            for m in pattern.finditer(raw_text):
+                repl = _make_species_replacement(
+                    code, m.group(), code_to_localized, published_anchors
+                )
+                _try_add(m.start(), m.end(), repl)
+
+    # ── Pass 3: dirty-substring cleanup for confirmed species ────
+
+    for code, full_name in confirmed_species.items():
+        name_lower = full_name.lower()
+        idx = 0
+        while True:
+            pos = text_lower.find(name_lower, idx)
+            if pos < 0:
+                break
+            end_pos = pos + len(full_name)
+            repl = _make_species_replacement(
+                code, raw_text[pos:end_pos], code_to_localized, published_anchors
+            )
+            _try_add(pos, end_pos, repl)
+            idx = pos + 1
+
+    # ── Pass 4: scientific name italicisation ─────────────────────
+    #
+    # Uses the taxonomy index already loaded in ebird_client (the
+    # configured-locale one). sciName is locale-independent (always
+    # Latin) so any loaded taxonomy works. Match case-insensitively,
+    # output with canonical capitalisation (genus upper, epithet lower)
+    # wrapped in <em>.
+
+    from scripts import ebird_client  # deferred to avoid circular import
+
+    if ebird_client._taxonomy_index:
+        sciname_canonical: dict[str, str] = {}  # lowercase → canonical
+        for sp in ebird_client._taxonomy_index.values():
+            sci = sp.get("sciName", "")
+            if sci and " " in sci:
+                sciname_canonical[sci.lower()] = sci
+
+        for lower_sci, canonical in sciname_canonical.items():
+            words = lower_sci.split()
+            if not all(w in text_lower for w in words):
+                continue
+            pattern = re.compile(
+                r"\b" + re.escape(canonical) + r"\b", re.IGNORECASE
+            )
+            for m in pattern.finditer(raw_text):
+                _try_add(
+                    m.start(),
+                    m.end(),
+                    f"<em>{html.escape(canonical)}</em>",
+                )
 
     if not matches:
         return html.escape(raw_text)
+
+    # ── Assembly ─────────────────────────────────────────────────
 
     matches.sort(key=lambda x: x[0])
 
     parts: list[str] = []
     prev_end = 0
-    for start, end, code in matches:
-        parts.append(html.escape(raw_text[prev_end:start]))
-        localized = code_to_localized.get(code, raw_text[start:end])
-        escaped_name = html.escape(localized)
-        if code in published_anchors:
-            anchor = html.escape(published_anchors[code], quote=True)
-            parts.append(f'<a href="{anchor}">{escaped_name}</a>')
-        else:
-            parts.append(escaped_name)
+    for start, end, replacement in matches:
+        gap = raw_text[prev_end:start]
+        parts.append(html.escape(gap))
+
+        # Spacing fix for dirty substrings (pass 3): insert a space
+        # if the gap ends flush against the match with no whitespace.
+        if parts and parts[-1] and parts[-1][-1].isalpha():
+            parts.append(" ")
+
+        parts.append(replacement)
+
+        # Spacing fix after: if next char is a word char, insert space.
+        if end < len(raw_text) and raw_text[end].isalpha():
+            parts.append(" ")
+
         prev_end = end
+
     parts.append(html.escape(raw_text[prev_end:]))
 
     return "".join(parts)

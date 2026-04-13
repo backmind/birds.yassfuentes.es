@@ -193,7 +193,7 @@ def _fetch_bow_intro(
         # carry CSS classes.
         if p.get("class"):
             continue
-        text = p.get_text(strip=True)
+        text = p.get_text(separator=" ", strip=True)
         if len(text) < 100:
             continue
         lowered = text.lower()
