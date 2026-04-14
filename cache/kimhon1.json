@@ -1,12 +1,13 @@
 {
-  "description": "El mielero de Kimberley es una especie de ave paseriforme de la familia Meliphagidae endémica del norte de Australia. Anteriormente se consideraba una subespecie del mielero listado, pero en la actualidad se consideran especies separadas.",
-  "description_source": "wikipedia",
+  "description": "Medium-sized honeyeater found in sandstone escarpment and gorge country of the western Kimberley region. Upperparts uniformly gray-green, underparts pale with diffuse gray streaks on chest. Dark cheeks split by thin pale gape mark that extends upward under the blue eye. Calls include loud short whistled phrases.",
+  "description_source": "ebird",
   "bow_intro": "",
   "taxonomy": {},
-  "wikipedia_url": "https://es.wikipedia.org/wiki/Microptilotis_fordianus",
-  "wikipedia_language": "es",
-  "fallback_text": "Medium-sized honeyeater found in sandstone escarpment and gorge country of the western Kimberley region. Upperparts uniformly gray-green, underparts pale with diffuse gray streaks on chest. Dark cheeks split by thin pale gape mark that extends upward under the blue eye. Calls include loud short whistled phrases.",
-  "fallback_language": "en",
+  "wikipedia_summary": "The Kimberley honeyeater is a bird in the honeyeater family, Meliphagidae. It was formerly lumped with the white-lined honeyeater but, based on a genetic analysis, it is now considered a separate species. Articles published in 2014 and 2015 provided evidence that the Kimberley and white-lined honeyeaters differ not only genetically, but also in song and foraging ecology. The specific epithet honours the Australian chemist and ornithologist Dr Julian Ralph Ford (1932-1987).",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kimberley_honeyeater",
+  "wikipedia_language": "en",
+  "fallback_text": "",
+  "fallback_language": "",
   "gbif_taxon_key": 5789264,
   "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5789264&bin=hex&hexPerTile=75&style=classic.poly"
 }
