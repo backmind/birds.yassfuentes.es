@@ -1,0 +1,11 @@
+{
+  "prose": "En los vastos paisajes del norte, donde el frío moldea la vida, emerge una figura elegante y severa: el alcaudón norteño. Este paseriforme, del tamaño de un tordo pero con el alma de un halcón, patrulla los bosques abiertos y las llanuras arbustivas desde Escandinavia hasta las tierras de Alaska. Con su plumaje de un gris pálido y una máscara negra que atraviesa sus ojos como la de un bandido, se posa en las ramas más altas o en los cables eléctricos para escudriñar el horizonte. Desde estas atalayas privilegiadas, su vista aguda detecta el menor movimiento entre la hierba, revelando una estrategia de caza que lo distingue de cualquier otro pájaro de su tamaño. Es un centinela incansable que transforma el paisaje invernal en su propio coto de caza personal.\n\nLo que hace verdaderamente asombroso al alcaudón es su apodo popular de \"verdugo\", una referencia a su peculiar método de almacenamiento. Al carecer de las poderosas garras de las rapaces, este ingenioso cazador utiliza las espinas de los arbustos o las vallas de espino para empalar a sus presas, que incluyen desde grandes insectos hasta pequeños roedores y aves. Esta despensa natural no solo le permite sujetar el alimento para desgarrarlo con su pico ganchudo, sino que también sirve como una reserva vital para los días de escasez. Su presencia es un indicador de la salud de los ecosistemas abiertos, actuando como un regulador natural de las poblaciones de micromamíferos. Observar su vuelo ondulante, donde destacan las manchas blancas de sus alas, es ser testigo de una de las adaptaciones más fascinantes y crudas de la evolución aviar.",
+  "identification": [
+    "Plumaje gris ceniza con una máscara negra muy marcada que cubre el ojo",
+    "Pico robusto y negro, con un gancho prominente en el extremo superior similar al de una rapaz",
+    "Manchas blancas conspicuas en las alas y en los bordes de la cola, visibles especialmente durante el vuelo",
+    "Postura erguida y vigilante en perchas elevadas y despejadas como copas de árboles o postes"
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-14T14:56:00Z"
+}

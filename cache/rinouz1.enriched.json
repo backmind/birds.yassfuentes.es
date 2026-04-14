@@ -1,0 +1,11 @@
+{
+  "prose": "En las altas cumbres y laderas escarpadas de Europa, donde el viento silba entre los riscos, habita un pariente montaraz de nuestro Mirlo Común: el Mirlo Capiblanco. A diferencia de su primo urbano, este zorzal prefiere la soledad de los páramos silvestres y las laderas salpicadas de rocas y brezo, lejos del bullicio humano. Es un ave de carácter esquivo y cauteloso, que ante la menor perturbación emprende un vuelo rápido y directo hacia la seguridad de los taludes. Su silueta oscura destaca contra el gris de la piedra, revelando un plumaje negruzco que parece haber sido tocado por la escarcha en los bordes de sus alas. Lo más distintivo, sin embargo, es esa media luna blanca que adorna su pecho, un rasgo que le otorga una elegancia austera y salvaje en el corazón de la montaña.\n\nEste viajero incansable no teme a las distancias, pues cada año emprende una migración que lo lleva desde las cordilleras del norte hasta los climas más amables del Mediterráneo y el norte de África. Mientras que el macho luce con orgullo su collar de un blanco puro, la hembra y los ejemplares jóvenes presentan tonos más discretos, con marcas más apagadas que les permiten camuflarse mejor entre la vegetación baja. En su dieta invernal, los frutos de los enebros y otros arbustos de montaña son fundamentales, convirtiendo a esta especie en una aliada vital para la dispersión de semillas en ecosistemas frágiles. Observarlo en libertad es un regalo para el naturalista, un recordatorio de que incluso en los parajes más inhóspitos, la vida encuentra una forma de expresarse con una belleza sobria y resistente. Su presencia en los campos de cultivo durante el paso migratorio es un breve interludio antes de regresar a la verticalidad de sus dominios rocosos.",
+  "identification": [
+    "Media luna blanca muy marcada en el pecho, más pura en machos y de tono sucio en hembras",
+    "Plumaje general negruzco con bordes de las plumas de las alas de un tono pálido o escarchado",
+    "Comportamiento esquivo, habitando laderas rocosas, páramos y zonas de alta montaña",
+    "Silueta similar a la del Mirlo Común, pero con un vuelo más directo y a menudo a mayor distancia"
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-14T14:55:50Z"
+}

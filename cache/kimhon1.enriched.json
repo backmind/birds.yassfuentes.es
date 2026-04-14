@@ -1,0 +1,12 @@
+{
+  "prose": "En los remotos y escarpados desfiladeros de arenisca del noroeste de Australia, habita un ave que personifica la adaptación a los terrenos más indómitos: el mielero de Kimberley. Esta especie, que durante mucho tiempo fue considerada una simple variante del Mielero Listado, ha reclamado su propia identidad en el vasto mosaico de la biodiversidad australiana. Se le encuentra habitualmente revoloteando entre la vegetación que bordea los profundos cañones, donde su plumaje gris verdoso le permite fundirse con las sombras de las rocas y el follaje. Su comportamiento es inquieto y vivaz, moviéndose con agilidad en busca de sustento en un entorno donde el agua y el néctar son tesoros preciosos. Es un verdadero especialista de los afloramientos rocosos, un rincón del mundo donde la vida ha aprendido a prosperar entre la piedra y el sol.\n\nLo que más cautiva al observador atento es la mirada de este mielero, coronada por unos ojos de un azul profundo que contrastan con sus mejillas oscuras. Una fina línea pálida recorre su rostro desde la comisura del pico, otorgándole una expresión distintiva mientras emite sus potentes y cortos silbidos que resuenan en el eco de las gargantas de piedra. Como su nombre indica, su dieta se basa principalmente en el néctar de las flores autóctonas, desempeñando un papel crucial como polinizador en este ecosistema tan específico. Sin embargo, no desprecia los pequeños insectos que captura con destreza, demostrando una versatilidad necesaria para sobrevivir en la aislada región de Kimberley. Su existencia es un testimonio de cómo el aislamiento geográfico puede esculpir formas de vida únicas y fascinantes en los confines del continente.",
+  "identification": [
+    "Ojos de un llamativo color azul que destacan sobre las mejillas oscuras",
+    "Plumaje superior de un tono gris verdoso uniforme",
+    "Fina marca pálida en la comisura del pico que se extiende bajo el ojo",
+    "Pecho pálido con un veteado grisáceo difuso",
+    "Canto potente compuesto por frases silbadas cortas"
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-14T14:55:32Z"
+}

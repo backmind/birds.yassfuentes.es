@@ -41,7 +41,7 @@
 
   "feed_link": "https://birds.yassfuentes.es/",
 
-  "content_mode": "programmatic",
+  "content_mode": "enriched",
   "_content_mode_help": "One of: programmatic (scrape-only, no LLM) | enriched (LLM generates cohesive text from scraped sources). Default: programmatic.",
   "llm": {
     "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
