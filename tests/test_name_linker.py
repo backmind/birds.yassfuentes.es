@@ -64,14 +64,13 @@ def test_localized_name_linked():
 
 
 def test_localized_name_ebird_fallback():
-    """Unpublished localized names fall back to eBird with hint."""
+    """Unpublished localized names fall back to eBird."""
     c2l = {"mircab": "Mirlo Capiblanco"}
     result = process_description(
         "El Mirlo Capiblanco habita en montañas.", {}, c2l, {}, "es"
     )
     assert "ebird.org/species/mircab?siteLanguage=es" in result
     assert "Mirlo Capiblanco" in result
-    assert "(eBird)" in result
 
 
 def test_no_double_link():

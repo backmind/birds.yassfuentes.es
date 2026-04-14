@@ -43,7 +43,7 @@ def _make_link(
     ebird_url = f"https://ebird.org/species/{html.escape(code)}{lang}"
     return (
         f'<a href="{ebird_url}" target="_blank" rel="noopener">'
-        f"{escaped}</a> (eBird)"
+        f"{escaped}</a>"
     )
 
 
