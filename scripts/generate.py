@@ -42,6 +42,7 @@ STATE_DIR = Path(os.environ.get("BOTD_STATE_DIR", str(BASE_DIR)))
 
 # Code-anchored (read-only, baked in container image)
 CONFIG_PATH = BASE_DIR / "data" / "config.json"
+CONFIG_EXAMPLE_PATH = BASE_DIR / "data" / "config.example.json"
 ENV_PATH = BASE_DIR / ".env"
 
 # State-anchored (written at runtime, lives on the volume in Docker)
@@ -135,7 +136,8 @@ def load_config() -> dict:
       to ``i18n.DEFAULT_FALLBACK`` (English) and warn.
     - Strip ``_*_help`` documentation keys so they don't pollute downstream.
     """
-    raw = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    path = CONFIG_PATH if CONFIG_PATH.exists() else CONFIG_EXAMPLE_PATH
+    raw = json.loads(path.read_text(encoding="utf-8"))
 
     # Drop documentation-only keys (start with underscore by convention)
     config = {k: v for k, v in raw.items() if not k.startswith("_")}
