@@ -434,13 +434,13 @@ main {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 1.65em;
-  height: 1.65em;
+  width: 1.35rem;
+  height: 1.35rem;
   margin-left: .4em;
   border-radius: 50%;
   font-family: 'Fraunces', Georgia, serif;
   font-variation-settings: 'opsz' 9;
-  font-size: .52em;
+  font-size: .6rem;
   font-weight: 700;
   font-style: normal;
   letter-spacing: .04em;
@@ -457,14 +457,15 @@ main {
   box-shadow: 0 2px 6px rgba(30, 42, 46, 0.25);
 }
 .iucn-badge::after {
-  content: attr(title);
+  content: attr(data-iucn);
   position: absolute;
   bottom: calc(100% + .45em);
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
+  max-width: 90vw;
   font-family: 'Source Serif 4', Georgia, serif;
-  font-size: 1.8em;
+  font-size: .82rem;
   font-weight: 400;
   font-style: italic;
   letter-spacing: .02em;
@@ -1008,6 +1009,15 @@ footer.site a { color: var(--ink-soft); }
   background: var(--paper-warm);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .iucn-badge {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+:root[data-theme="dark"] .iucn-badge {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
 /* ─── responsive tightening ────────────────────────────────────── */
 @media (max-width: 720px) {
   main { padding: 2.25rem 1.25rem 3rem; }
@@ -1262,12 +1272,14 @@ def _render_plate(
                 f' <a class="iucn-badge {iucn_cls}" '
                 f'href="{_esc(entry.iucn_birdlife_url)}" '
                 f'target="_blank" rel="noopener" '
-                f'title="{_esc(iucn_label)}">{_esc(entry.iucn_code)}</a>'
+                f'data-iucn="{_esc(iucn_label)}" '
+                f'aria-label="{_esc(iucn_label)}">{_esc(entry.iucn_code)}</a>'
             )
         else:
             iucn_html = (
                 f' <span class="iucn-badge {iucn_cls}" '
-                f'title="{_esc(iucn_label)}">{_esc(entry.iucn_code)}</span>'
+                f'data-iucn="{_esc(iucn_label)}" '
+                f'aria-label="{_esc(iucn_label)}">{_esc(entry.iucn_code)}</span>'
             )
 
     return f"""
