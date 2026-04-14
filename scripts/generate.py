@@ -294,6 +294,12 @@ def _build_indexes(
     ``published_anchors`` uses relative archive URLs; ``published_anchors_abs``
     prepends the ``feed_link`` base so RSS readers can resolve them.
     """
+    # Ensure the taxonomy is loaded (may not be if we're rebuilding
+    # without going through the full selection pipeline).
+    ebird_client.get_full_taxonomy(cache_dir=CACHE_DIR)
+    # Ensure the taxonomy is loaded (may not be if we're rebuilding
+    # without going through the full selection pipeline).
+    ebird_client.get_full_taxonomy(cache_dir=CACHE_DIR)
     code_to_localized = ebird_client.get_code_to_localized()
 
     published_anchors: dict[str, str] = {}
