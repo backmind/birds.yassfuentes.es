@@ -358,6 +358,75 @@ main {
   color: var(--ink-soft);
   margin: 0 0 1.75rem;
 }
+.iucn-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-left: .4em;
+  border-radius: 50%;
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'opsz' 9;
+  font-size: .6rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .04em;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: .15em;
+  position: relative;
+  transition: transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 1px 2px rgba(30, 42, 46, 0.15);
+}
+.iucn-badge:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 6px rgba(30, 42, 46, 0.25);
+}
+.iucn-badge::after {
+  content: attr(data-iucn);
+  position: absolute;
+  bottom: calc(100% + .45em);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  max-width: 90vw;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .82rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .02em;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: .25em .55em;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px rgba(30, 42, 46, 0.12);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s ease;
+}
+.iucn-badge:hover::after { opacity: 1; }
+.iucn-lc { background: #5a8a5e; }
+.iucn-nt { background: #8a7a3e; }
+.iucn-vu { background: #b5893a; }
+.iucn-en { background: #b35a3a; }
+.iucn-cr { background: #8b2e2e; }
+.iucn-ew { background: #4a3a5a; }
+.iucn-ex { background: #2e2e2e; }
+.iucn-dd { background: var(--ink-faint); }
+.iucn-ne { background: var(--rule-strong); }
+.iucn-badge-sm {
+  width: 1.1rem;
+  height: 1.1rem;
+  font-size: .5rem;
+  vertical-align: .1em;
+  margin-left: .3em;
+  cursor: inherit;
+}
+.iucn-badge-sm:hover { transform: none; box-shadow: 0 1px 2px rgba(30,42,46,.15); }
+.iucn-badge-sm::after { display: none; }
 
 .plate-description {
   font-size: 1.04rem;
@@ -878,6 +947,15 @@ footer.site a { color: var(--ink-soft); }
   background: var(--paper-warm);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .iucn-badge {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+:root[data-theme="dark"] .iucn-badge {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
 /* ─── responsive tightening ────────────────────────────────────── */
 @media (max-width: 720px) {
   main { padding: 2.25rem 1.25rem 3rem; }
@@ -929,7 +1007,7 @@ footer.site a { color: var(--ink-soft); }
   <div class="plate-body">
     <p class="specimen-tag">Laniidae · Passeriformes</p>
     <h2 id="hero-title" class="plate-title">Alcaudón Norteño</h2>
-    <p class="plate-subtitle">Lanius excubitor</p>
+    <p class="plate-subtitle">Lanius excubitor <a class="iucn-badge iucn-lc" href="https://datazone.birdlife.org/species/factsheet/103718932" target="_blank" rel="noopener" data-iucn="Preocupación Menor" aria-label="Preocupación Menor">LC</a></p>
     <p class="plate-description">El <a href="archive.html#bird-norshr1-2026-04-14">Alcaudón Norteño</a> (<em>Lanius excubitor</em>) es un ave de tamaño similar a un zorzal que destaca por su elegancia y su comportamiento implacable. Habita en espacios abiertos con vegetación dispersa, desde bosques despejados hasta turberas y prados arbustivos, donde la visibilidad es clave para su supervivencia. Su plumaje es de un gris pálido perlado en las partes superiores, que contrasta con un antifaz negro azabache y partes inferiores blancas. Es frecuente observarlo en perchas prominentes, como cables eléctricos o las copas de árboles bajos, desde donde escudriña el terreno con una paciencia infinita. Esta especie posee una naturaleza dual fascinante: aunque pertenece al orden de los paseriformes, su conducta es la de un depredador consumado, ocupando un nicho ecológico que suele estar reservado para las aves rapaces.</p><p class="plate-description">Lo que hace verdaderamente singular al <a href="archive.html#bird-norshr1-2026-04-14">Alcaudón Norteño</a> es su dieta carnívora, alimentándose de roedores y pequeñas aves, una especialización única entre los pájaros cantores. Su canto es una amalgama de trinos líquidos y frases que recuerdan a un gorgoteo, a menudo entrelazados en una melodía repetitiva. Se distribuye por el norte, centro y noreste de Europa, extendiéndose hacia Siberia, y algunas poblaciones se desplazan hacia el sur durante el invierno. Existe una subespecie, denominada homeyeri, que presenta un plumaje aún más pálido y mayor presencia de blanco en las alas y la cola. En el vasto mosaico de la naturaleza, este ave actúa como un regulador vital de las poblaciones de pequeños vertebrados, demostrando que la destreza de un cazador no depende del tamaño, sino de la especialización y la audacia.</p><p class="plate-id-label">Identificación en campo</p><ul class="plate-identification"><li>Plumaje gris pálido con un distintivo antifaz negro que atraviesa el ojo.</li><li>Manchas blancas prominentes en las alas, claramente visibles durante el vuelo.</li><li>Suele posarse de forma erguida en puntos elevados y despejados para localizar presas.</li><li>Vocalizaciones que incluyen trinos cortos y frases líquidas encadenadas.</li></ul>
     <section class="atlas" aria-label="Distribución mundial">
   <header class="atlas-header">
@@ -979,7 +1057,7 @@ footer.site a { color: var(--ink-soft); }
       <span>2026 · 04 · 13</span>
     </div>
     <h3 class="card-name">Mirlo Capiblanco</h3>
-    <p class="card-sci">Turdus torquatus</p>
+    <p class="card-sci">Turdus torquatus <span class="iucn-badge iucn-badge-sm iucn-lc">LC</span></p>
     <p class="card-tag">Turdidae</p>
   </a>
 </article>
@@ -991,7 +1069,7 @@ footer.site a { color: var(--ink-soft); }
       <span>2026 · 04 · 12</span>
     </div>
     <h3 class="card-name">Piquero Nazca</h3>
-    <p class="card-sci">Sula granti</p>
+    <p class="card-sci">Sula granti <span class="iucn-badge iucn-badge-sm iucn-lc">LC</span></p>
     <p class="card-tag">Sulidae</p>
   </a>
 </article>
@@ -1003,7 +1081,7 @@ footer.site a { color: var(--ink-soft); }
       <span>2026 · 04 · 11</span>
     </div>
     <h3 class="card-name">Mielero de Kimberley</h3>
-    <p class="card-sci">Meliphaga fordiana</p>
+    <p class="card-sci">Meliphaga fordiana <span class="iucn-badge iucn-badge-sm iucn-lc">LC</span></p>
     <p class="card-tag">Meliphagidae</p>
   </a>
 </article>

@@ -358,6 +358,75 @@ main {
   color: var(--ink-soft);
   margin: 0 0 1.75rem;
 }
+.iucn-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-left: .4em;
+  border-radius: 50%;
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'opsz' 9;
+  font-size: .6rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .04em;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: .15em;
+  position: relative;
+  transition: transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 1px 2px rgba(30, 42, 46, 0.15);
+}
+.iucn-badge:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 6px rgba(30, 42, 46, 0.25);
+}
+.iucn-badge::after {
+  content: attr(data-iucn);
+  position: absolute;
+  bottom: calc(100% + .45em);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  max-width: 90vw;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .82rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .02em;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: .25em .55em;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px rgba(30, 42, 46, 0.12);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s ease;
+}
+.iucn-badge:hover::after { opacity: 1; }
+.iucn-lc { background: #5a8a5e; }
+.iucn-nt { background: #8a7a3e; }
+.iucn-vu { background: #b5893a; }
+.iucn-en { background: #b35a3a; }
+.iucn-cr { background: #8b2e2e; }
+.iucn-ew { background: #4a3a5a; }
+.iucn-ex { background: #2e2e2e; }
+.iucn-dd { background: var(--ink-faint); }
+.iucn-ne { background: var(--rule-strong); }
+.iucn-badge-sm {
+  width: 1.1rem;
+  height: 1.1rem;
+  font-size: .5rem;
+  vertical-align: .1em;
+  margin-left: .3em;
+  cursor: inherit;
+}
+.iucn-badge-sm:hover { transform: none; box-shadow: 0 1px 2px rgba(30,42,46,.15); }
+.iucn-badge-sm::after { display: none; }
 
 .plate-description {
   font-size: 1.04rem;
@@ -878,6 +947,15 @@ footer.site a { color: var(--ink-soft); }
   background: var(--paper-warm);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .iucn-badge {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+:root[data-theme="dark"] .iucn-badge {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
 /* ─── responsive tightening ────────────────────────────────────── */
 @media (max-width: 720px) {
   main { padding: 2.25rem 1.25rem 3rem; }
@@ -945,7 +1023,7 @@ footer.site a { color: var(--ink-soft); }
   <div class="plate-body">
     <p class="specimen-tag">Laniidae · Passeriformes</p>
     <h2 class="plate-title">Alcaudón Norteño</h2>
-    <p class="plate-subtitle">Lanius excubitor</p>
+    <p class="plate-subtitle">Lanius excubitor <a class="iucn-badge iucn-lc" href="https://datazone.birdlife.org/species/factsheet/103718932" target="_blank" rel="noopener" data-iucn="Preocupación Menor" aria-label="Preocupación Menor">LC</a></p>
     <p class="plate-description">El <a href="archive.html#bird-norshr1-2026-04-14">Alcaudón Norteño</a> (<em>Lanius excubitor</em>) es un ave de tamaño similar a un zorzal que destaca por su elegancia y su comportamiento implacable. Habita en espacios abiertos con vegetación dispersa, desde bosques despejados hasta turberas y prados arbustivos, donde la visibilidad es clave para su supervivencia. Su plumaje es de un gris pálido perlado en las partes superiores, que contrasta con un antifaz negro azabache y partes inferiores blancas. Es frecuente observarlo en perchas prominentes, como cables eléctricos o las copas de árboles bajos, desde donde escudriña el terreno con una paciencia infinita. Esta especie posee una naturaleza dual fascinante: aunque pertenece al orden de los paseriformes, su conducta es la de un depredador consumado, ocupando un nicho ecológico que suele estar reservado para las aves rapaces.</p><p class="plate-description">Lo que hace verdaderamente singular al <a href="archive.html#bird-norshr1-2026-04-14">Alcaudón Norteño</a> es su dieta carnívora, alimentándose de roedores y pequeñas aves, una especialización única entre los pájaros cantores. Su canto es una amalgama de trinos líquidos y frases que recuerdan a un gorgoteo, a menudo entrelazados en una melodía repetitiva. Se distribuye por el norte, centro y noreste de Europa, extendiéndose hacia Siberia, y algunas poblaciones se desplazan hacia el sur durante el invierno. Existe una subespecie, denominada homeyeri, que presenta un plumaje aún más pálido y mayor presencia de blanco en las alas y la cola. En el vasto mosaico de la naturaleza, este ave actúa como un regulador vital de las poblaciones de pequeños vertebrados, demostrando que la destreza de un cazador no depende del tamaño, sino de la especialización y la audacia.</p><p class="plate-id-label">Identificación en campo</p><ul class="plate-identification"><li>Plumaje gris pálido con un distintivo antifaz negro que atraviesa el ojo.</li><li>Manchas blancas prominentes en las alas, claramente visibles durante el vuelo.</li><li>Suele posarse de forma erguida en puntos elevados y despejados para localizar presas.</li><li>Vocalizaciones que incluyen trinos cortos y frases líquidas encadenadas.</li></ul>
     <section class="atlas" aria-label="Distribución mundial">
   <header class="atlas-header">
@@ -983,7 +1061,7 @@ footer.site a { color: var(--ink-soft); }
   <div class="plate-body">
     <p class="specimen-tag">Turdidae · Passeriformes</p>
     <h2 class="plate-title">Mirlo Capiblanco</h2>
-    <p class="plate-subtitle">Turdus torquatus</p>
+    <p class="plate-subtitle">Turdus torquatus <a class="iucn-badge iucn-lc" href="https://datazone.birdlife.org/species/factsheet/22708768" target="_blank" rel="noopener" data-iucn="Preocupación Menor" aria-label="Preocupación Menor">LC</a></p>
     <p class="plate-description">En las cumbres más elevadas, donde el aire se vuelve fino y la vegetación se aferra a la roca, habita el <a href="archive.html#bird-rinouz1-2026-04-13">Mirlo Capiblanco</a> (<em>Turdus torquatus</em>). Este pariente montañés del <a href="https://ebird.org/species/eurbla?siteLanguage=es" target="_blank" rel="noopener">Mirlo Común</a> destaca por su elegancia austera: un plumaje oscuro, casi negro en los machos, adornado con una media luna de un blanco puro en el pecho que le otorga su nombre. A diferencia de sus parientes de zonas urbanas, el <a href="archive.html#bird-rinouz1-2026-04-13">Mirlo Capiblanco</a> es un ave esquiva y solitaria que prefiere la libertad de los canchales, los prados alpinos y los límites del bosque de coníferas. Su vuelo es rápido y directo, buscando refugio ante la menor perturbación, mientras que su canto, aunque sencillo y repetitivo, resuena con una claridad melancólica entre los desfiladeros, marcando el territorio en un entorno donde pocos se atreven a criar.</p><p class="plate-description">La vida de este zorzal está íntimamente ligada a los ciclos de la montaña y a la presencia de arbustos como el enebro. Durante el invierno, muchas poblaciones emprenden un viaje migratorio hacia el sur de Europa y el norte de África, buscando zonas montañosas donde los frutos de los enebros y sabinas son su principal sustento. En la época de cría, la hembra asume la mayor parte de la incubación de sus tres a seis huevos de color azul verdoso, ocultos en nidos construidos entre la maleza o en grietas rocosas. Tras apenas dos semanas, los polluelos abandonan el nido, aunque seguirán dependiendo de sus progenitores durante unos días más. Este ciclo vital no solo asegura la supervivencia de la especie, sino que también desempeña un papel ecológico fundamental en la dispersión de semillas, ayudando a que la vegetación de alta montaña colonice nuevos espacios en estos ecosistemas tan frágiles.</p><p class="plate-id-label">Identificación en campo</p><ul class="plate-identification"><li>Distintiva media luna blanca en el pecho, muy brillante en machos y más apagada en hembras.</li><li>Plumaje negruzco con bordes de las alas de un tono pálido o escarchado.</li><li>Pico de color amarillo apagado con la punta y el borde superior oscuros.</li><li>Llamadas de alerta consistentes en un &quot;taktaktak&quot; bajo o un zumbido áspero tipo &quot;zrrp&quot;.</li></ul>
     <section class="atlas" aria-label="Distribución mundial">
   <header class="atlas-header">
@@ -1021,7 +1099,7 @@ footer.site a { color: var(--ink-soft); }
   <div class="plate-body">
     <p class="specimen-tag">Sulidae · Suliformes</p>
     <h2 class="plate-title">Piquero Nazca</h2>
-    <p class="plate-subtitle">Sula granti</p>
+    <p class="plate-subtitle">Sula granti <a class="iucn-badge iucn-lc" href="https://datazone.birdlife.org/species/factsheet/22728990" target="_blank" rel="noopener" data-iucn="Preocupación Menor" aria-label="Preocupación Menor">LC</a></p>
     <p class="plate-description">En las vastas extensiones del océano Pacífico oriental, sobre las escarpadas formaciones rocosas de las islas Galápagos y el archipiélago de Malpelo, habita una criatura de una elegancia aerodinámica excepcional: el <a href="archive.html#bird-nazboo1-2026-04-12">Piquero Nazca</a> (<em>Sula granti</em>). Este ave marina de gran tamaño destaca por su silueta afilada, con alas largas y una cola puntiaguda que le permiten surcar los vientos oceánicos con maestría. Su plumaje, de un blanco resplandeciente, contrasta de forma dramática con el negro profundo de sus plumas de vuelo y su rostro, que parece oculto tras una máscara oscura. Es un cazador especializado que se lanza en picado desde las alturas para capturar peces en las aguas superficiales, demostrando una precisión asombrosa en cada inmersión. Aunque durante mucho tiempo se le consideró una subespecie del <a href="https://ebird.org/species/masboo?siteLanguage=es" target="_blank" rel="noopener">Piquero Enmascarado</a> (<em>Sula dactylatra</em>), hoy se reconoce como una especie única, adaptada a los ecosistemas insulares que se extienden desde las costas de México hasta el Perú.</p><p class="plate-description">Uno de los rasgos más distintivos para diferenciar al <a href="archive.html#bird-nazboo1-2026-04-12">Piquero Nazca</a> de sus parientes más cercanos es la coloración de su pico, que exhibe tonalidades que van desde el naranja intenso hasta un rojo rosáceo, a diferencia del amarillo característico del <a href="https://ebird.org/species/masboo?siteLanguage=es" target="_blank" rel="noopener">Piquero Enmascarado</a>. Esta distinción visual es fundamental, ya que ambas especies pueden compartir áreas de cría sin llegar a hibridarse, manteniendo su identidad genética intacta. En las colonias de anidación, situadas en terrenos rocosos y despejados, el comportamiento social es complejo y riguroso. Los juveniles presentan un aspecto muy distinto al de los adultos, con plumajes pardos que pueden llevar a confusión con el <a href="https://ebird.org/species/brnboo?siteLanguage=es" target="_blank" rel="noopener">Piquero Pardo</a> (<em>Sula leucogaster</em>). Como depredador de nivel superior, el <a href="archive.html#bird-nazboo1-2026-04-12">Piquero Nazca</a> desempeña un papel vital en el equilibrio de las poblaciones de peces pelágicos, actuando como un indicador de la salud y la productividad de las corrientes marinas que bañan las costas del Pacífico americano.</p><p class="plate-id-label">Identificación en campo</p><ul class="plate-identification"><li>Plumaje corporal de un blanco brillante con plumas de vuelo y cola negras.</li><li>Pico largo y puntiagudo de color naranja rosáceo o rojo, nunca amarillo.</li><li>Máscara facial oscura y piel desnuda en la base del pico.</li><li>Silueta aerodinámica con alas largas y cola en forma de cuña.</li></ul>
     <section class="atlas" aria-label="Distribución mundial">
   <header class="atlas-header">
@@ -1059,7 +1137,7 @@ footer.site a { color: var(--ink-soft); }
   <div class="plate-body">
     <p class="specimen-tag">Meliphagidae · Passeriformes</p>
     <h2 class="plate-title">Mielero de Kimberley</h2>
-    <p class="plate-subtitle">Meliphaga fordiana</p>
+    <p class="plate-subtitle">Meliphaga fordiana <a class="iucn-badge iucn-lc" href="https://datazone.birdlife.org/species/factsheet/22735687" target="_blank" rel="noopener" data-iucn="Preocupación Menor" aria-label="Preocupación Menor">LC</a></p>
     <p class="plate-description">En los remotos escarpes de arenisca y las profundas gargantas del noroeste de Australia, habita un especialista de la roca y el matorral: el <a href="archive.html#bird-kimhon1-2026-04-11">Mielero de Kimberley</a> (<em>Meliphaga fordiana</em>). Esta ave de tamaño mediano posee un plumaje discretamente elegante, con las partes superiores de un tono gris verdoso uniforme que le permite camuflarse entre la vegetación de los desfiladeros. Sin embargo, es al observarlo de cerca cuando revela su rasgo más cautivador: unos ojos de un azul intenso que destacan sobre sus mejillas oscuras. Se desplaza con una energía vibrante por su accidentado hogar, rompiendo el silencio del paisaje con silbidos cortos y potentes que anuncian su presencia entre las paredes de piedra rojiza.</p><p class="plate-description">La historia del <a href="archive.html#bird-kimhon1-2026-04-11">Mielero de Kimberley</a> es un testimonio de cómo la observación meticulosa redefine nuestro entendimiento de la naturaleza. Durante décadas, se le consideró una población del <a href="https://ebird.org/species/whlhon1?siteLanguage=es" target="_blank" rel="noopener">Mielero Listado</a>, pero investigaciones publicadas en 2014 y 2015 confirmaron que se trata de una especie plenamente independiente. No solo su genética lo distingue, sino también su ecología de forrajeo y la estructura de sus cantos, que han evolucionado de forma única en este rincón del mundo. Su nombre científico honra la memoria de Julian Ralph Ford, un eminente ornitólogo que exploró la biodiversidad australiana. En este ecosistema de arenisca, el ave cumple una función esencial, moviéndose entre las flores y los insectos, manteniendo el delicado equilibrio de un entorno tan antiguo como fascinante.</p><p class="plate-id-label">Identificación en campo</p><ul class="plate-identification"><li>Plumaje superior de color gris verdoso uniforme y pecho pálido con rayas grises difusas.</li><li>Ojos de un color azul distintivo que contrastan con las mejillas oscuras.</li><li>Una fina marca pálida en la comisura del pico que se extiende hacia atrás y hacia arriba, bajo el ojo.</li><li>Canto característico formado por frases silbadas cortas y de gran volumen.</li></ul>
     <section class="atlas" aria-label="Distribución mundial">
   <header class="atlas-header">

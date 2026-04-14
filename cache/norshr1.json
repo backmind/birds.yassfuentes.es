@@ -9,5 +9,7 @@
   "fallback_text": "",
   "fallback_language": "",
   "gbif_taxon_key": 9444556,
-  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9444556&bin=hex&hexPerTile=75&style=classic.poly"
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9444556&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103718932"
 }
