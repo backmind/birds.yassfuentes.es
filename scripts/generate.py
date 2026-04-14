@@ -25,6 +25,7 @@ from scripts import (
     feed_builder,
     i18n,
     image_fetcher,
+    llm_enricher,
     map_composer,
     site_builder,
 )
@@ -73,7 +74,7 @@ def _load_dotenv(path: Path) -> None:
 # contents are the actual secret. Standard Docker / Kubernetes secrets
 # convention (mirrors how postgres, mariadb, nginx and other "official"
 # images handle secrets).
-_SECRET_FILE_KEYS: tuple[str, ...] = ("EBIRD_API_KEY",)
+_SECRET_FILE_KEYS: tuple[str, ...] = ("EBIRD_API_KEY", "BOTD_LLM_API_KEY")
 
 
 def _load_secret_files() -> None:
@@ -112,6 +113,7 @@ _ENV_OVERRIDES: dict[str, tuple[str, type]] = {
     "BOTD_MAX_FEED_ENTRIES": ("max_feed_entries", int),
     "BOTD_BACK_DAYS": ("back_days", int),
     "BOTD_FEED_LINK": ("feed_link", str),
+    "BOTD_CONTENT_MODE": ("content_mode", str),
 }
 
 logging.basicConfig(
@@ -252,6 +254,8 @@ def _build_site_entries(
         # Taxonomy may live in either the cache or the global taxonomy index
         taxonomy = content.taxonomy or ebird_client.lookup_taxonomy(code) or {}
 
+        enriched = llm_enricher.load_cached_enrichment(code, cache_dir)
+
         entries.append(
             site_builder.SiteEntry(
                 species_code=code,
@@ -272,6 +276,8 @@ def _build_site_entries(
                 fallback_language=content.fallback_language,
                 gbif_taxon_key=content.gbif_taxon_key,
                 distribution_map_url=content.distribution_map_url,
+                enriched_prose=enriched.prose if enriched else "",
+                enriched_identification=enriched.identification if enriched else None,
             )
         )
     return entries
@@ -351,6 +357,8 @@ def _rebuild_feed(
                 f"{feed_link.rstrip('/')}/{composed_paths[fc]}"
             )
 
+        fen = llm_enricher.load_cached_enrichment(fc, str(CACHE_DIR))
+
         fhtml = feed_builder.build_entry_html(
             species_code=fc,
             common_name=raw["comName"],
@@ -369,6 +377,8 @@ def _rebuild_feed(
             distribution_map_url=fco.distribution_map_url,
             gbif_taxon_key=fco.gbif_taxon_key,
             composed_map_url=composed_map_url,
+            enriched_prose=fen.prose if fen else "",
+            enriched_identification=fen.identification if fen else None,
             english_name_index=english_name_index,
             code_to_localized=code_to_localized,
             published_anchors=published_anchors_abs,
@@ -520,7 +530,30 @@ def main() -> None:
         common_name = species["comName"]
         scientific_name = species["sciName"]
 
-        # 2. Apply description policy.
+        # 2. LLM enrichment (when content_mode is "enriched").
+        content_mode = config.get("content_mode", "programmatic")
+        if content_mode == "enriched":
+            enriched = llm_enricher.load_cached_enrichment(
+                species_code, str(CACHE_DIR)
+            )
+            if enriched is None:
+                enriched = llm_enricher.enrich_species(
+                    species_code, common_name, scientific_name,
+                    content, config, catalog,
+                )
+                if enriched:
+                    llm_enricher.save_cached_enrichment(
+                        species_code, enriched, str(CACHE_DIR)
+                    )
+            if enriched:
+                logger.info("Using enriched content for %s", species_code)
+            else:
+                logger.warning(
+                    "LLM enrichment failed for %s, falling back to programmatic",
+                    species_code,
+                )
+
+        # 3. Apply description policy.
         effective_description, effective_source = _apply_description_policy(
             content, description_policy
         )

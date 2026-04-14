@@ -61,6 +61,8 @@ def build_entry_html(
     distribution_map_url: str = "",
     gbif_taxon_key: int | None = None,
     composed_map_url: str = "",
+    enriched_prose: str = "",
+    enriched_identification: list[str] | None = None,
     english_name_index: dict | None = None,
     code_to_localized: dict | None = None,
     published_anchors: dict | None = None,
@@ -105,27 +107,33 @@ def build_entry_html(
             f'<p><small><em>{" · ".join(tag_parts)}</em></small></p>'
         )
 
-    # Description (and the foreign-fallback disclaimer if applicable).
-    # Species names are substituted + cross-linked by the name linker.
+    # Description: enriched (LLM) or programmatic (scraped).
     _eni = english_name_index or {}
     _c2l = code_to_localized or {}
     _pa = published_anchors or {}
-    if description:
-        parts.append(
-            f"<p>{name_linker.process_description(description, _eni, _c2l, _pa)}</p>"
-        )
-        if description_source == "ebird-foreign":
-            lang_name = catalog.t(f"language_name.{fallback_language or 'en'}")
-            disclaimer = catalog.t(
-                "description.foreign_disclaimer", source_language=lang_name
+    if enriched_prose:
+        for para in (p.strip() for p in enriched_prose.split("\n\n") if p.strip()):
+            parts.append(
+                f"<p>{name_linker.process_description(para, _eni, _c2l, _pa, catalog.language)}</p>"
             )
-            parts.append(f"<p><small><em>{_esc(disclaimer)}</em></small></p>")
-
-    # Birds of the World intro (when present)
-    if bow_intro:
-        parts.append(
-            f"<p>{name_linker.process_description(bow_intro, _eni, _c2l, _pa)}</p>"
-        )
+        if enriched_identification:
+            bullets = "".join(f"<li>{_esc(b)}</li>" for b in enriched_identification)
+            parts.append(f"<ul>{bullets}</ul>")
+    else:
+        if description:
+            parts.append(
+                f"<p>{name_linker.process_description(description, _eni, _c2l, _pa, catalog.language)}</p>"
+            )
+            if description_source == "ebird-foreign":
+                lang_name = catalog.t(f"language_name.{fallback_language or 'en'}")
+                disclaimer = catalog.t(
+                    "description.foreign_disclaimer", source_language=lang_name
+                )
+                parts.append(f"<p><small><em>{_esc(disclaimer)}</em></small></p>")
+        if bow_intro:
+            parts.append(
+                f"<p>{name_linker.process_description(bow_intro, _eni, _c2l, _pa, catalog.language)}</p>"
+            )
 
     # GBIF distribution map. When a pre-composed PNG is available (basemap
     # + density tile baked into one image with filters), use a single <img>
