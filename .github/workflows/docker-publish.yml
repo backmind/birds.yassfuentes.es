@@ -25,6 +25,7 @@ permissions:
 
 jobs:
   build:
+    if: github.repository == 'backmind/Bird-of-the-day'
     runs-on: ubuntu-latest
 
     steps:

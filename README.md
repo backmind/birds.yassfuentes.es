@@ -195,9 +195,10 @@ uv run python -m scripts.generate
 
 ### Via GitHub Actions
 
-`.github/workflows/bird-of-the-day.yml` runs:
+Copy `.github/bird-of-the-day.yml.example` to
+`.github/workflows/bird-of-the-day.yml` to enable the daily cron. It runs:
 
-- Automatically every day at **07:00 UTC** (09:00 CEST in Madrid).
+- Automatically every day at **07:00 UTC**.
 - Manually from the **Actions → Bird of the Day → Run workflow** tab.
 
 The workflow `git add`s `feed.xml`, `history.json`, `index.html`,
@@ -391,20 +392,23 @@ mount your own at `/etc/supercronic/crontab`.
    ```
    Set `feed_link` to your `https://<user>.github.io/<repo>/` URL,
    pick a `language`, and adjust `pools` for your regions.
-3. If you want a custom domain, copy `CNAME.example` to `CNAME` and
+3. Activate the daily workflow:
+   ```bash
+   cp .github/bird-of-the-day.yml.example .github/workflows/bird-of-the-day.yml
+   ```
+4. If you want a custom domain, copy `CNAME.example` to `CNAME` and
    write your domain in it. Configure your DNS to point to
    `<user>.github.io`.
-4. **Settings → Secrets and variables → Actions** → add `EBIRD_API_KEY`.
+5. **Settings → Secrets and variables → Actions** → add `EBIRD_API_KEY`.
    Optionally add `BOTD_LLM_API_KEY` if using enriched mode.
-5. **Settings → Pages → Build and deployment** → source: `Deploy from a
+6. **Settings → Pages → Build and deployment** → source: `Deploy from a
    branch`, branch: `main`, folder: `/ (root)`. Save.
-6. Either wait for the daily cron or trigger **Actions → Bird of the
+7. Either wait for the daily cron or trigger **Actions → Bird of the
    Day → Run workflow** manually for the first publication.
 
 ### Pool matrix examples
 
-The default leans Iberian. Some alternative presets you can paste into
-`data/config.json`:
+Some alternative presets you can paste into `data/config.json`:
 
 **Western US flavor:**
 
@@ -461,9 +465,10 @@ the only constraint on which target languages are valid is that there's a
 
 ```
 Bird-of-the-day/
-├── .github/workflows/
-│   ├── bird-of-the-day.yml     # daily cron + commit (GitHub Pages path)
-│   └── docker-publish.yml      # build & push multi-arch image to ghcr.io
+├── .github/
+│   ├── bird-of-the-day.yml.example  # copy to workflows/ to enable daily cron
+│   └── workflows/
+│       └── docker-publish.yml       # build & push multi-arch image to ghcr.io
 ├── Dockerfile                  # multi-stage container build
 ├── .dockerignore
 ├── docker-compose.yml          # one-command self-host
