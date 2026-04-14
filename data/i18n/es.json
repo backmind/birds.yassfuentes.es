@@ -20,6 +20,15 @@
   "section.archive_subtitle": "Todas las aves publicadas hasta la fecha.",
 
   "identification.label": "Identificación en campo",
+  "iucn.LC": "Preocupación Menor",
+  "iucn.NT": "Casi Amenazado",
+  "iucn.VU": "Vulnerable",
+  "iucn.EN": "En Peligro",
+  "iucn.CR": "En Peligro Crítico",
+  "iucn.EW": "Extinto en Estado Silvestre",
+  "iucn.EX": "Extinto",
+  "iucn.DD": "Datos Insuficientes",
+  "iucn.NE": "No Evaluado",
   "archive.empty": "El archivo está vacío.",
   "index.empty": "Aún no hay aves publicadas. Vuelve mañana.",
 

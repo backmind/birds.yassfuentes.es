@@ -108,6 +108,47 @@ def gbif_species_page_url(taxon_key: int) -> str:
     return GBIF_SPECIES_PAGE_TEMPLATE.format(key=taxon_key)
 
 
+BIRDLIFE_FACTSHEET_TEMPLATE = (
+    "https://datazone.birdlife.org/species/factsheet/{taxon_id}"
+)
+
+
+def fetch_iucn_category(
+    taxon_key: int, session: requests.Session | None = None
+) -> tuple[str, str, str] | None:
+    """Fetch the IUCN Red List category for a GBIF taxon key.
+
+    Returns ``(code, category, birdlife_url)`` on success, or ``None``
+    when the lookup fails or the species has no IUCN assessment.
+    ``code`` is the short code (e.g. ``"LC"``), ``category`` the full
+    English label (e.g. ``"LEAST_CONCERN"``).
+    """
+    sess = session or requests.Session()
+    url = f"https://api.gbif.org/v1/species/{taxon_key}/iucnRedListCategory"
+    try:
+        resp = sess.get(url, timeout=REQUEST_TIMEOUT)
+        if resp.status_code == 404:
+            return None
+        resp.raise_for_status()
+        data = resp.json()
+    except (requests.RequestException, ValueError):
+        logger.debug("IUCN lookup failed for taxon %d", taxon_key, exc_info=True)
+        return None
+
+    code = data.get("code", "")
+    category = data.get("category", "")
+    iucn_taxon_id = data.get("iucnTaxonID", "")
+    if not code:
+        return None
+
+    birdlife_url = ""
+    if iucn_taxon_id:
+        birdlife_url = BIRDLIFE_FACTSHEET_TEMPLATE.format(taxon_id=iucn_taxon_id)
+
+    logger.info("IUCN for taxon %d: %s (%s)", taxon_key, code, category)
+    return code, category, birdlife_url
+
+
 def fetch_distribution(
     scientific_name: str, session: requests.Session | None = None
 ) -> tuple[int, str] | None:

@@ -62,6 +62,8 @@ class SiteEntry:
                                   # description_source == "ebird-foreign")
     gbif_taxon_key: int | None = None  # GBIF usageKey for the species
     distribution_map_url: str = ""     # hot-linked GBIF density map PNG URL
+    iucn_code: str = ""                # IUCN Red List code (LC, VU, EN, etc.)
+    iucn_birdlife_url: str = ""        # BirdLife factsheet URL
     enriched_prose: str = ""           # LLM-generated prose (enriched mode)
     enriched_identification: list[str] | None = None  # LLM ID bullets
 
@@ -428,6 +430,65 @@ main {
   color: var(--ink-soft);
   margin: 0 0 1.75rem;
 }
+.iucn-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-left: .4em;
+  border-radius: 50%;
+  font-family: 'Fraunces', Georgia, serif;
+  font-variation-settings: 'opsz' 9;
+  font-size: .6rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: .04em;
+  line-height: 1;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: .15em;
+  position: relative;
+  transition: transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 1px 2px rgba(30, 42, 46, 0.15);
+}
+.iucn-badge:hover {
+  transform: scale(1.15);
+  box-shadow: 0 2px 6px rgba(30, 42, 46, 0.25);
+}
+.iucn-badge::after {
+  content: attr(data-iucn);
+  position: absolute;
+  bottom: calc(100% + .45em);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  max-width: 90vw;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .82rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .02em;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: .25em .55em;
+  border-radius: 3px;
+  box-shadow: 0 3px 8px rgba(30, 42, 46, 0.12);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s ease;
+}
+.iucn-badge:hover::after { opacity: 1; }
+.iucn-lc { background: #5a8a5e; }
+.iucn-nt { background: #8a7a3e; }
+.iucn-vu { background: #b5893a; }
+.iucn-en { background: #b35a3a; }
+.iucn-cr { background: #8b2e2e; }
+.iucn-ew { background: #4a3a5a; }
+.iucn-ex { background: #2e2e2e; }
+.iucn-dd { background: var(--ink-faint); }
+.iucn-ne { background: var(--rule-strong); }
 
 .plate-description {
   font-size: 1.04rem;
@@ -948,6 +1009,15 @@ footer.site a { color: var(--ink-soft); }
   background: var(--paper-warm);
 }
 
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .iucn-badge {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+  }
+}
+:root[data-theme="dark"] .iucn-badge {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
 /* ─── responsive tightening ────────────────────────────────────── */
 @media (max-width: 720px) {
   main { padding: 2.25rem 1.25rem 3rem; }
@@ -1192,6 +1262,26 @@ def _render_plate(
 
     atlas_block = _render_atlas(entry, ctx, hero=hero)
 
+    # IUCN badge (compact circle with code, tooltip with localized name).
+    iucn_html = ""
+    if entry.iucn_code:
+        iucn_label = ctx.catalog.t(f"iucn.{entry.iucn_code}")
+        iucn_cls = f"iucn-{entry.iucn_code.lower()}"
+        if entry.iucn_birdlife_url:
+            iucn_html = (
+                f' <a class="iucn-badge {iucn_cls}" '
+                f'href="{_esc(entry.iucn_birdlife_url)}" '
+                f'target="_blank" rel="noopener" '
+                f'data-iucn="{_esc(iucn_label)}" '
+                f'aria-label="{_esc(iucn_label)}">{_esc(entry.iucn_code)}</a>'
+            )
+        else:
+            iucn_html = (
+                f' <span class="iucn-badge {iucn_cls}" '
+                f'data-iucn="{_esc(iucn_label)}" '
+                f'aria-label="{_esc(iucn_label)}">{_esc(entry.iucn_code)}</span>'
+            )
+
     return f"""
 <{tag} class="{classes}"{anchor_attr}{aria}>
   <div class="plate-head">
@@ -1203,7 +1293,7 @@ def _render_plate(
   <div class="plate-body">
     {_specimen_tag(entry.taxonomy)}
     <h2{title_id} class="plate-title">{_esc(entry.common_name)}</h2>
-    <p class="plate-subtitle">{_esc(entry.scientific_name)}</p>
+    <p class="plate-subtitle">{_esc(entry.scientific_name)}{iucn_html}</p>
     {desc_html}
     {atlas_block}
     <div class="plate-foot">

@@ -278,6 +278,8 @@ def _build_site_entries(
                 fallback_language=content.fallback_language,
                 gbif_taxon_key=content.gbif_taxon_key,
                 distribution_map_url=content.distribution_map_url,
+                iucn_code=content.iucn_code,
+                iucn_birdlife_url=content.iucn_birdlife_url,
                 enriched_prose=enriched.prose if enriched else "",
                 enriched_identification=enriched.identification if enriched else None,
             )
@@ -382,6 +384,8 @@ def _rebuild_feed(
             distribution_map_url=fco.distribution_map_url,
             gbif_taxon_key=fco.gbif_taxon_key,
             composed_map_url=composed_map_url,
+            iucn_code=fco.iucn_code,
+            iucn_birdlife_url=fco.iucn_birdlife_url,
             enriched_prose=fen.prose if fen else "",
             enriched_identification=fen.identification if fen else None,
             english_name_index=english_name_index,

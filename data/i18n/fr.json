@@ -20,6 +20,15 @@
   "section.archive_subtitle": "Tous les oiseaux publiés à ce jour.",
 
   "identification.label": "Identification sur le terrain",
+  "iucn.LC": "Préoccupation mineure",
+  "iucn.NT": "Quasi menacé",
+  "iucn.VU": "Vulnérable",
+  "iucn.EN": "En danger",
+  "iucn.CR": "En danger critique",
+  "iucn.EW": "Éteint à l'état sauvage",
+  "iucn.EX": "Éteint",
+  "iucn.DD": "Données insuffisantes",
+  "iucn.NE": "Non évalué",
   "archive.empty": "Les archives sont vides.",
   "index.empty": "Aucun oiseau publié pour le moment. Revenez demain.",
 

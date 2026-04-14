@@ -20,6 +20,15 @@
   "section.archive_subtitle": "Every bird published so far.",
 
   "identification.label": "Field identification",
+  "iucn.LC": "Least Concern",
+  "iucn.NT": "Near Threatened",
+  "iucn.VU": "Vulnerable",
+  "iucn.EN": "Endangered",
+  "iucn.CR": "Critically Endangered",
+  "iucn.EW": "Extinct in the Wild",
+  "iucn.EX": "Extinct",
+  "iucn.DD": "Data Deficient",
+  "iucn.NE": "Not Evaluated",
   "archive.empty": "The archive is empty.",
   "index.empty": "No birds have been published yet. Come back tomorrow.",
 
