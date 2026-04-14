@@ -113,6 +113,7 @@ def _build_messages(
     scientific_name: str,
     content: SpeciesContent,
     locale: str,
+    name_pairs: dict[str, str] | None = None,
 ) -> list[dict]:
     """Build chat completions messages."""
     context = _build_context(content)
@@ -120,6 +121,15 @@ def _build_messages(
         f"Species: {common_name} ({scientific_name})\n\n"
         f"Reference data:\n{context}"
     )
+    # Provide localized species names so the LLM uses exact taxonomy names.
+    if name_pairs:
+        names_section = ", ".join(
+            sorted(set(name_pairs.values()))
+        )
+        user_msg += (
+            f"\n\nSpecies names in {locale}: {names_section}. "
+            f"Use these exact names when referring to these species."
+        )
     return [
         {"role": "system", "content": _SYSTEM_PROMPT.format(locale=locale)},
         {"role": "user", "content": user_msg},
@@ -198,13 +208,29 @@ def enrich_species(
     content: SpeciesContent,
     config: dict,
     catalog: Catalog,
+    english_name_index: dict[str, str] | None = None,
+    code_to_localized: dict[str, str] | None = None,
 ) -> EnrichedContent | None:
     """Generate enriched content for a species via LLM.
 
     Returns ``None`` when the LLM call fails or produces invalid output,
     signalling the caller to fall back to programmatic mode.
     """
-    messages = _build_messages(common_name, scientific_name, content, catalog.language)
+    # Extract English→locale name pairs from scraped context so the
+    # LLM uses the exact eBird taxonomy names in the target language.
+    name_pairs: dict[str, str] = {}
+    if english_name_index and code_to_localized:
+        from scripts.name_linker import extract_name_pairs
+        context_text = _build_context(content)
+        name_pairs = extract_name_pairs(
+            context_text, english_name_index, code_to_localized
+        )
+    # Always include the bird-of-the-day's own name.
+    name_pairs[scientific_name] = common_name
+
+    messages = _build_messages(
+        common_name, scientific_name, content, catalog.language, name_pairs
+    )
     result = _call_llm(messages, config)
     if result is None:
         return None
