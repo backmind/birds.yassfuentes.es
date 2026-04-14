@@ -25,6 +25,7 @@ from scripts import (
     feed_builder,
     i18n,
     image_fetcher,
+    map_composer,
     site_builder,
 )
 
@@ -44,6 +45,7 @@ ENV_PATH = BASE_DIR / ".env"
 
 # State-anchored (written at runtime, lives on the volume in Docker)
 CACHE_DIR = STATE_DIR / "cache"
+MAPS_DIR = STATE_DIR / "maps"
 FEED_PATH = STATE_DIR / "feed.xml"
 HISTORY_PATH = STATE_DIR / "history.json"
 
@@ -321,6 +323,14 @@ def _rebuild_feed(
     }
     max_entries = config.get("max_feed_entries", 0) or None
 
+    # Compose distribution maps for RSS (single image per species).
+    feed_link = config.get("feed_link", "")
+    composed_paths = map_composer.ensure_composed_maps(
+        list(reversed(history["entries"])),
+        str(CACHE_DIR),
+        MAPS_DIR,
+    )
+
     all_feed_entries: list[feed_builder.FeedEntry] = []
     for raw in reversed(history["entries"]):
         fc = raw["speciesCode"]
@@ -333,6 +343,13 @@ def _rebuild_feed(
             )
         ft = ebird_client.lookup_taxonomy(fc) or fco.taxonomy or {}
         fd, fs = _apply_description_policy(fco, description_policy)
+
+        # Build absolute URL for the pre-composed map (if available).
+        composed_map_url = ""
+        if fc in composed_paths and feed_link:
+            composed_map_url = (
+                f"{feed_link.rstrip('/')}/{composed_paths[fc]}"
+            )
 
         fhtml = feed_builder.build_entry_html(
             species_code=fc,
@@ -351,6 +368,7 @@ def _rebuild_feed(
             fallback_language=fco.fallback_language,
             distribution_map_url=fco.distribution_map_url,
             gbif_taxon_key=fco.gbif_taxon_key,
+            composed_map_url=composed_map_url,
             english_name_index=english_name_index,
             code_to_localized=code_to_localized,
             published_anchors=published_anchors_abs,

@@ -22,10 +22,10 @@
   "archive.empty": "The archive is empty.",
   "index.empty": "No birds have been published yet. Come back tomorrow.",
 
-  "footer.data_credit_html": "Data from <a href=\"https://ebird.org\">eBird</a> and <a href=\"https://www.birds.cornell.edu/\">Cornell Lab of Ornithology</a>.",
-  "footer.photos_credit_html": "Photos from <a href=\"https://www.macaulaylibrary.org/\">Macaulay Library</a>, © their respective authors.",
-  "footer.author_template": "Non-commercial project by <a href=\"https://yassfuentes.es\">Yass Fuentes</a> © {year}.",
-  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\">Clone me on GitHub</a>.",
+  "footer.data_credit_html": "Data from <a href=\"https://ebird.org\" target=\"_blank\" rel=\"noopener\">eBird</a> and <a href=\"https://www.birds.cornell.edu/\" target=\"_blank\" rel=\"noopener\">Cornell Lab of Ornithology</a>.",
+  "footer.photos_credit_html": "Photos from <a href=\"https://www.macaulaylibrary.org/\" target=\"_blank\" rel=\"noopener\">Macaulay Library</a>, © their respective authors.",
+  "footer.author_template": "Non-commercial project by <a href=\"https://yassfuentes.es\" target=\"_blank\" rel=\"noopener\">Yass Fuentes</a> © {year}.",
+  "footer.code_link_html": "<a href=\"https://github.com/backmind/Bird-of-the-day\" target=\"_blank\" rel=\"noopener\">Clone me on GitHub</a>.",
 
   "page.home_hero_title_template": "{name} — Bird of the Day",
   "page.archive_title_template": "Archive — Bird of the Day",

@@ -790,6 +790,33 @@ footer.site a { color: var(--ink-soft); }
   padding: .1rem .35rem;
   pointer-events: none;
 }
+.atlas-legend {
+  position: absolute;
+  bottom: .25rem;
+  left: .35rem;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  background: rgba(244, 238, 224, 0.72);
+  padding: .15rem .35rem;
+  border-radius: 3px;
+  pointer-events: none;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .56rem;
+  color: var(--ink-faint);
+}
+.atlas-legend-bar {
+  width: 3rem;
+  height: .4rem;
+  border-radius: 2px;
+  background: linear-gradient(to right, #ffff00, #ffc800, #ff8c00, #dc4600, #8b0000);
+  filter: sepia(.45) saturate(.7) contrast(.95);
+  transition: filter .6s ease;
+}
+.atlas-frame:hover .atlas-legend-bar {
+  filter: sepia(.3) saturate(.9) contrast(1.02);
+}
 .atlas-equator,
 .atlas-meridian {
   position: absolute;
@@ -845,9 +872,13 @@ footer.site a { color: var(--ink-soft); }
   :root:not([data-theme="light"]) .atlas-meridian {
     border-color: rgba(154, 164, 164, 0.25);
   }
-  :root:not([data-theme="light"]) .atlas-attribution {
+  :root:not([data-theme="light"]) .atlas-attribution,
+  :root:not([data-theme="light"]) .atlas-legend {
     background: rgba(15, 21, 24, 0.65);
     color: var(--ink-soft);
+  }
+  :root:not([data-theme="light"]) .atlas-legend-bar {
+    filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
   }
   :root:not([data-theme="light"]) .atlas::before,
   :root:not([data-theme="light"]) .atlas::after {
@@ -871,9 +902,13 @@ footer.site a { color: var(--ink-soft); }
 :root[data-theme="dark"] .atlas-meridian {
   border-color: rgba(154, 164, 164, 0.25);
 }
-:root[data-theme="dark"] .atlas-attribution {
+:root[data-theme="dark"] .atlas-attribution,
+:root[data-theme="dark"] .atlas-legend {
   background: rgba(15, 21, 24, 0.65);
   color: var(--ink-soft);
+}
+:root[data-theme="dark"] .atlas-legend-bar {
+  filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
 }
 :root[data-theme="dark"] .atlas::before,
 :root[data-theme="dark"] .atlas::after {
@@ -1006,6 +1041,9 @@ def _render_plate(
     aria = ' aria-labelledby="hero-title"' if hero else ""
     anchor_attr = "" if hero else f' id="{_esc(entry.anchor)}"'
     loading = "eager" if hero else "lazy"
+    # Hero (index) navigates in the same tab; archive entries open a new
+    # window so the reader doesn't lose their scroll position.
+    _ext = "" if hero else ' target="_blank" rel="noopener"'
 
     # The species link reused below in plate-foot. Constructed once and
     # threaded into the image wrapper too so that clicking the photo lands
@@ -1018,7 +1056,7 @@ def _render_plate(
     if entry.image_url:
         image_block = (
             f'<div class="plate-image">'
-            f'<a href="{ebird_url}" '
+            f'<a href="{ebird_url}"{_ext} '
             f'aria-label="{_esc(entry.common_name)} — eBird">'
             f'<img src="{_esc(entry.image_url)}" '
             f'alt="{_esc(entry.common_name)}" loading="{loading}" />'
@@ -1029,7 +1067,7 @@ def _render_plate(
     else:
         image_block = (
             f'<div class="plate-image"><div class="no-image">'
-            f'<a href="{_esc(entry.ml_search_url)}">Macaulay Library</a>'
+            f'<a href="{_esc(entry.ml_search_url)}"{_ext}>Macaulay Library</a>'
             f'</div></div>'
         )
 
@@ -1084,24 +1122,24 @@ def _render_plate(
     # resolved to a non-target language, the label gets a "(<lang>)" hint.
     # ``ebird_url`` was already built above so the image wrapper and the
     # foot link share the exact same target.
-    foot_links = [f'<a href="{ebird_url}">eBird</a>']
+    foot_links = [f'<a href="{ebird_url}"{_ext}>eBird</a>']
 
     if entry.wikipedia_url:
         wiki_label = "Wikipedia"
         if entry.wikipedia_language and entry.wikipedia_language != target_lang:
             wiki_label = f"Wikipedia ({entry.wikipedia_language})"
         foot_links.append(
-            f'<a href="{_esc(entry.wikipedia_url)}">{wiki_label}</a>'
+            f'<a href="{_esc(entry.wikipedia_url)}"{_ext}>{wiki_label}</a>'
         )
 
     foot_links.append(
-        f'<a href="https://birdsoftheworld.org/bow/species/{_esc(entry.species_code)}/cur/introduction">Birds of the World</a>'
+        f'<a href="https://birdsoftheworld.org/bow/species/{_esc(entry.species_code)}/cur/introduction"{_ext}>Birds of the World</a>'
     )
     foot_links.append(
-        f'<a href="{_esc(entry.ml_search_url)}">Macaulay Library</a>'
+        f'<a href="{_esc(entry.ml_search_url)}"{_ext}>Macaulay Library</a>'
     )
 
-    atlas_block = _render_atlas(entry, ctx)
+    atlas_block = _render_atlas(entry, ctx, hero=hero)
 
     return f"""
 <{tag} class="{classes}"{anchor_attr}{aria}>
@@ -1130,7 +1168,7 @@ _ATLAS_BASEMAP_URL = (
 )
 
 
-def _render_atlas(entry: SiteEntry, ctx: RenderContext) -> str:
+def _render_atlas(entry: SiteEntry, ctx: RenderContext, *, hero: bool = False) -> str:
     """Render the GBIF distribution map as an atlas-styled section.
 
     Returns the empty string when ``entry.distribution_map_url`` is not
@@ -1162,11 +1200,12 @@ def _render_atlas(entry: SiteEntry, ctx: RenderContext) -> str:
   <header class="atlas-header">
     <span class="atlas-title">{_esc(label)}</span>
   </header>
-  <a class="atlas-frame" href="{_esc(species_page)}" aria-label="{_esc(entry.scientific_name)} — GBIF">
+  <a class="atlas-frame" href="{_esc(species_page)}"{"" if hero else ' target="_blank" rel="noopener"'} aria-label="{_esc(entry.scientific_name)} — GBIF">
     <img class="atlas-base" src="{_ATLAS_BASEMAP_URL}" alt="" loading="lazy" />
     <img class="atlas-data" src="{_esc(entry.distribution_map_url)}" alt="{_esc(alt)}" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
+    <span class="atlas-legend" aria-hidden="true"><span>−</span><span class="atlas-legend-bar"></span><span>+</span></span>
     <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
   </a>
   <footer class="atlas-scale" aria-hidden="true">

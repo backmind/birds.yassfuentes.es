@@ -722,6 +722,33 @@ footer.site a { color: var(--ink-soft); }
   padding: .1rem .35rem;
   pointer-events: none;
 }
+.atlas-legend {
+  position: absolute;
+  bottom: .25rem;
+  left: .35rem;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  background: rgba(244, 238, 224, 0.72);
+  padding: .15rem .35rem;
+  border-radius: 3px;
+  pointer-events: none;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .56rem;
+  color: var(--ink-faint);
+}
+.atlas-legend-bar {
+  width: 3rem;
+  height: .4rem;
+  border-radius: 2px;
+  background: linear-gradient(to right, #ffff00, #ffc800, #ff8c00, #dc4600, #8b0000);
+  filter: sepia(.45) saturate(.7) contrast(.95);
+  transition: filter .6s ease;
+}
+.atlas-frame:hover .atlas-legend-bar {
+  filter: sepia(.3) saturate(.9) contrast(1.02);
+}
 .atlas-equator,
 .atlas-meridian {
   position: absolute;
@@ -777,9 +804,13 @@ footer.site a { color: var(--ink-soft); }
   :root:not([data-theme="light"]) .atlas-meridian {
     border-color: rgba(154, 164, 164, 0.25);
   }
-  :root:not([data-theme="light"]) .atlas-attribution {
+  :root:not([data-theme="light"]) .atlas-attribution,
+  :root:not([data-theme="light"]) .atlas-legend {
     background: rgba(15, 21, 24, 0.65);
     color: var(--ink-soft);
+  }
+  :root:not([data-theme="light"]) .atlas-legend-bar {
+    filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
   }
   :root:not([data-theme="light"]) .atlas::before,
   :root:not([data-theme="light"]) .atlas::after {
@@ -803,9 +834,13 @@ footer.site a { color: var(--ink-soft); }
 :root[data-theme="dark"] .atlas-meridian {
   border-color: rgba(154, 164, 164, 0.25);
 }
-:root[data-theme="dark"] .atlas-attribution {
+:root[data-theme="dark"] .atlas-attribution,
+:root[data-theme="dark"] .atlas-legend {
   background: rgba(15, 21, 24, 0.65);
   color: var(--ink-soft);
+}
+:root[data-theme="dark"] .atlas-legend-bar {
+  filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
 }
 :root[data-theme="dark"] .atlas::before,
 :root[data-theme="dark"] .atlas::after {
@@ -875,9 +910,9 @@ footer.site a { color: var(--ink-soft); }
     <span class="plate-date">2026 · 04 · 14</span>
   </div>
   <div class="plate-rule"><span class="ornament">❦</span></div>
-  <div class="plate-image"><a href="https://ebird.org/species/norshr1?siteLanguage=es" aria-label="Alcaudón Norteño — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900" alt="Alcaudón Norteño" loading="lazy" /></a></div><p class="plate-credit">© Christoph Moning / Macaulay Library</p>
+  <div class="plate-image"><a href="https://ebird.org/species/norshr1?siteLanguage=es" target="_blank" rel="noopener" aria-label="Alcaudón Norteño — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900" alt="Alcaudón Norteño" loading="lazy" /></a></div><p class="plate-credit">© Christoph Moning / Macaulay Library</p>
   <div class="plate-body">
-    <p class="specimen-tag">Laniidae · Passeriformes</p>
+    
     <h2 class="plate-title">Alcaudón Norteño</h2>
     <p class="plate-subtitle">Lanius excubitor</p>
     <p class="plate-description">Ave del tamaño de un tordo; mayormente gris pálido con máscara negra. Se reproduce en bosques abiertos y áreas arbustivas en el extremo norte de Canadá y Alaska; se mueve hacia el sur en invierno. Es encontrado en áreas abiertas con perchas prominentes, incluyendo líneas eléctricas y copas de árboles que les ofrecen ventajas perfectas para detectar a sus presas. Sus comportamientos carnívoros los hacen únicos entre los paseriformes. En vuelo, busca las manchas blancas en las alas. Se alimenta de roedores y pequeños pájaros.</p><p class="plate-description">Europa septentrional, central y nororiental (este de Escandinavia y centro de Francia), este hasta el noroeste de Siberia (parte baja del río Ob), sur hasta el sur de Rusia (zona de Kazán); sur de Escandinavia no reproductora, Gran Bretaña y oeste y sur de Francia, este hasta Asia Menor, Cáucaso y Transcaspia. Subespecie &lt;em&gt;homeyeri&lt;/em&gt; es más pálida que la nominal, con la rabadilla y las coberteras supracaudales blanquecinas, el superciliar blanco más evidente, blanco extenso en el ala y más blanco en la cola (incluso en la base del par central de plumas).</p>
@@ -885,11 +920,12 @@ footer.site a { color: var(--ink-soft); }
   <header class="atlas-header">
     <span class="atlas-title">Distribución mundial</span>
   </header>
-  <a class="atlas-frame" href="https://www.gbif.org/species/9444556" aria-label="Lanius excubitor — GBIF">
+  <a class="atlas-frame" href="https://www.gbif.org/species/9444556" target="_blank" rel="noopener" aria-label="Lanius excubitor — GBIF">
     <img class="atlas-base" src="https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png" alt="" loading="lazy" />
     <img class="atlas-data" src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9444556&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Lanius excubitor según GBIF" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
+    <span class="atlas-legend" aria-hidden="true"><span>−</span><span class="atlas-legend-bar"></span><span>+</span></span>
     <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
   </a>
   <footer class="atlas-scale" aria-hidden="true">
@@ -899,10 +935,10 @@ footer.site a { color: var(--ink-soft); }
   </footer>
 </section>
     <div class="plate-foot">
-      <a href="https://ebird.org/species/norshr1?siteLanguage=es">eBird</a>
-      <a href="https://es.wikipedia.org/wiki/Lanius_excubitor">Wikipedia</a>
-      <a href="https://birdsoftheworld.org/bow/species/norshr1/cur/introduction">Birds of the World</a>
-      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=norshr1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+      <a href="https://ebird.org/species/norshr1?siteLanguage=es" target="_blank" rel="noopener">eBird</a>
+      <a href="https://es.wikipedia.org/wiki/Lanius_excubitor" target="_blank" rel="noopener">Wikipedia</a>
+      <a href="https://birdsoftheworld.org/bow/species/norshr1/cur/introduction" target="_blank" rel="noopener">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=norshr1&amp;mediaType=photo&amp;sort=rating_rank_desc" target="_blank" rel="noopener">Macaulay Library</a>
     </div>
   </div>
 </article>
@@ -912,9 +948,9 @@ footer.site a { color: var(--ink-soft); }
     <span class="plate-date">2026 · 04 · 13</span>
   </div>
   <div class="plate-rule"><span class="ornament">❦</span></div>
-  <div class="plate-image"><a href="https://ebird.org/species/rinouz1?siteLanguage=es" aria-label="Mirlo Capiblanco — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900" alt="Mirlo Capiblanco" loading="lazy" /></a></div><p class="plate-credit">© Rafael Merchante / Macaulay Library</p>
+  <div class="plate-image"><a href="https://ebird.org/species/rinouz1?siteLanguage=es" target="_blank" rel="noopener" aria-label="Mirlo Capiblanco — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900" alt="Mirlo Capiblanco" loading="lazy" /></a></div><p class="plate-credit">© Rafael Merchante / Macaulay Library</p>
   <div class="plate-body">
-    <p class="specimen-tag">Turdidae · Passeriformes</p>
+    
     <h2 class="plate-title">Mirlo Capiblanco</h2>
     <p class="plate-subtitle">Turdus torquatus</p>
     <p class="plate-description">Es un ave poco común en Europa como migrante estival con invernada en el Norte África y región Mediterránea, donde puede ser común pero localmente. Se le encuentra en campo abierto, especialmente en laderas de páramos silvestres con riscos rocosos y cantos rodados; los migrantes aparecen en campos abiertos y tierras de cultivo. Algo tímido, suele volar a distancia sobre laderas o taludes cuando se le molesta. El adulto es negruzco en general con bordes de las alas de un pálido escarchado. El macho tiene un patente collar blanco en el pecho y la hembra tiene collar blanco sucio. El inmaduro, en otoño-invierno, tiene el cuello mucho más apagado.</p>
@@ -922,11 +958,12 @@ footer.site a { color: var(--ink-soft); }
   <header class="atlas-header">
     <span class="atlas-title">Distribución mundial</span>
   </header>
-  <a class="atlas-frame" href="https://www.gbif.org/species/7865305" aria-label="Turdus torquatus — GBIF">
+  <a class="atlas-frame" href="https://www.gbif.org/species/7865305" target="_blank" rel="noopener" aria-label="Turdus torquatus — GBIF">
     <img class="atlas-base" src="https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png" alt="" loading="lazy" />
     <img class="atlas-data" src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7865305&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Turdus torquatus según GBIF" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
+    <span class="atlas-legend" aria-hidden="true"><span>−</span><span class="atlas-legend-bar"></span><span>+</span></span>
     <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
   </a>
   <footer class="atlas-scale" aria-hidden="true">
@@ -936,10 +973,10 @@ footer.site a { color: var(--ink-soft); }
   </footer>
 </section>
     <div class="plate-foot">
-      <a href="https://ebird.org/species/rinouz1?siteLanguage=es">eBird</a>
-      <a href="https://es.wikipedia.org/wiki/Turdus_torquatus">Wikipedia</a>
-      <a href="https://birdsoftheworld.org/bow/species/rinouz1/cur/introduction">Birds of the World</a>
-      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=rinouz1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+      <a href="https://ebird.org/species/rinouz1?siteLanguage=es" target="_blank" rel="noopener">eBird</a>
+      <a href="https://es.wikipedia.org/wiki/Turdus_torquatus" target="_blank" rel="noopener">Wikipedia</a>
+      <a href="https://birdsoftheworld.org/bow/species/rinouz1/cur/introduction" target="_blank" rel="noopener">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=rinouz1&amp;mediaType=photo&amp;sort=rating_rank_desc" target="_blank" rel="noopener">Macaulay Library</a>
     </div>
   </div>
 </article>
@@ -949,21 +986,22 @@ footer.site a { color: var(--ink-soft); }
     <span class="plate-date">2026 · 04 · 12</span>
   </div>
   <div class="plate-rule"><span class="ornament">❦</span></div>
-  <div class="plate-image"><a href="https://ebird.org/species/nazboo1?siteLanguage=es" aria-label="Piquero Nazca — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53479591/900" alt="Piquero Nazca" loading="lazy" /></a></div><p class="plate-credit">© Jeff Tingle / Macaulay Library</p>
+  <div class="plate-image"><a href="https://ebird.org/species/nazboo1?siteLanguage=es" target="_blank" rel="noopener" aria-label="Piquero Nazca — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53479591/900" alt="Piquero Nazca" loading="lazy" /></a></div><p class="plate-credit">© Jeff Tingle / Macaulay Library</p>
   <div class="plate-body">
-    <p class="specimen-tag">Sulidae · Suliformes</p>
+    
     <h2 class="plate-title">Piquero Nazca</h2>
     <p class="plate-subtitle">Sula granti</p>
-    <p class="plate-description">Ave pelágica grande, muy parecida a Piquero Enmascarado. Largo y puntiagudo en todos los extremos: alas, cola y pico. Los adultos son mayormente blanco resplandeciente con las plumas de vuelo y la cara negras. Nota el pico anaranjado-rosáceo (no amarillo) para ayudarte a separarlo de adultos de Piquero Enmascarado. Los juveniles son en general más oscuros con la cabeza marrón que contrasta con el vientre blanco y las marcas marrones en las cobertoras inferiores del ala; muy similar a los juveniles de Piquero Enmascarado o inclusive al adulto de Piquero Pardo. Se encuentra en el Océano Pacífico desde México hasta Perú donde se alimenta de peces; se reproduce en islas rocosas, especialmente en las Galápagos.</p><p class="plate-description">La <a href="archive.html#bird-nazboo1-2026-04-12">Piquero Nazca</a> está estrechamente relacionada con la Piquero Enmascarado <em>Sula dactylatra</em> y, de hecho, antiguamente se consideraba sólo una subespecie de esta última. Sin embargo, estudios moleculares recientes la han establecido como especie separada, y las dos especies también se reproducen simpátricamente sin hibridación. La principal diferencia con el Piquero Enmascarado, además de su área de cría, está en el color del pico, teniendo el <a href="archive.html#bird-nazboo1-2026-04-12">Piquero Nazca</a> un pico rojo intenso o naranja y el Piquero Enmascarado un pico amarillo.</p>
+    <p class="plate-description">Ave pelágica grande, muy parecida a Masked Booby. Largo y puntiagudo en todos los extremos: alas, cola y pico. Los adultos son mayormente blanco resplandeciente con las plumas de vuelo y la cara negras. Nota el pico anaranjado-rosáceo (no amarillo) para ayudarte a separarlo de adultos de Masked. Los juveniles son en general más oscuros con la cabeza marrón que contrasta con el vientre blanco y las marcas marrones en las cobertoras inferiores del ala; muy similar a los juveniles de Masked o inclusive al adulto de Brown Booby. Se encuentra en el Océano Pacífico desde México hasta Perú donde se alimenta de peces; se reproduce en islas rocosas, especialmente en las Galápagos.</p><p class="plate-description">La <a href="archive.html#bird-nazboo1-2026-04-12">Nazca Booby</a> está estrechamente relacionada con la Masked Booby Sula dactylatra y, de hecho, antiguamente se consideraba sólo una subespecie de esta última. Sin embargo, estudios moleculares recientes la han establecido como especie separada, y las dos especies también se reproducen simpátricamente sin hibridación. La principal diferencia con el Masked Booby, además de su área de cría, está en el color del pico, teniendo el <a href="archive.html#bird-nazboo1-2026-04-12">Nazca Booby</a> un pico rojo intenso o naranja y el Masked Booby un pico amarillo.</p>
     <section class="atlas" aria-label="Distribución mundial">
   <header class="atlas-header">
     <span class="atlas-title">Distribución mundial</span>
   </header>
-  <a class="atlas-frame" href="https://www.gbif.org/species/2480971" aria-label="Sula granti — GBIF">
+  <a class="atlas-frame" href="https://www.gbif.org/species/2480971" target="_blank" rel="noopener" aria-label="Sula granti — GBIF">
     <img class="atlas-base" src="https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png" alt="" loading="lazy" />
     <img class="atlas-data" src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480971&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Sula granti según GBIF" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
+    <span class="atlas-legend" aria-hidden="true"><span>−</span><span class="atlas-legend-bar"></span><span>+</span></span>
     <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
   </a>
   <footer class="atlas-scale" aria-hidden="true">
@@ -973,10 +1011,10 @@ footer.site a { color: var(--ink-soft); }
   </footer>
 </section>
     <div class="plate-foot">
-      <a href="https://ebird.org/species/nazboo1?siteLanguage=es">eBird</a>
-      <a href="https://es.wikipedia.org/wiki/Sula_granti">Wikipedia</a>
-      <a href="https://birdsoftheworld.org/bow/species/nazboo1/cur/introduction">Birds of the World</a>
-      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=nazboo1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+      <a href="https://ebird.org/species/nazboo1?siteLanguage=es" target="_blank" rel="noopener">eBird</a>
+      <a href="https://es.wikipedia.org/wiki/Sula_granti" target="_blank" rel="noopener">Wikipedia</a>
+      <a href="https://birdsoftheworld.org/bow/species/nazboo1/cur/introduction" target="_blank" rel="noopener">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=nazboo1&amp;mediaType=photo&amp;sort=rating_rank_desc" target="_blank" rel="noopener">Macaulay Library</a>
     </div>
   </div>
 </article>
@@ -986,9 +1024,9 @@ footer.site a { color: var(--ink-soft); }
     <span class="plate-date">2026 · 04 · 11</span>
   </div>
   <div class="plate-rule"><span class="ornament">❦</span></div>
-  <div class="plate-image"><a href="https://ebird.org/species/kimhon1?siteLanguage=es" aria-label="Mielero de Kimberley — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/173556991/900" alt="Mielero de Kimberley" loading="lazy" /></a></div><p class="plate-credit">© Laurie Ross | Tracks Birding &amp; Photography Tours / Macaulay Library</p>
+  <div class="plate-image"><a href="https://ebird.org/species/kimhon1?siteLanguage=es" target="_blank" rel="noopener" aria-label="Mielero de Kimberley — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/173556991/900" alt="Mielero de Kimberley" loading="lazy" /></a></div><p class="plate-credit">© Laurie Ross | Tracks Birding &amp; Photography Tours / Macaulay Library</p>
   <div class="plate-body">
-    <p class="specimen-tag">Meliphagidae · Passeriformes</p>
+    
     <h2 class="plate-title">Mielero de Kimberley</h2>
     <p class="plate-subtitle">Meliphaga fordiana</p>
     <p class="plate-description">El mielero de Kimberley es una especie de ave paseriforme de la familia Meliphagidae endémica del norte de Australia. Anteriormente se consideraba una subespecie del mielero listado, pero en la actualidad se consideran especies separadas.</p>
@@ -996,11 +1034,12 @@ footer.site a { color: var(--ink-soft); }
   <header class="atlas-header">
     <span class="atlas-title">Distribución mundial</span>
   </header>
-  <a class="atlas-frame" href="https://www.gbif.org/species/5789264" aria-label="Meliphaga fordiana — GBIF">
+  <a class="atlas-frame" href="https://www.gbif.org/species/5789264" target="_blank" rel="noopener" aria-label="Meliphaga fordiana — GBIF">
     <img class="atlas-base" src="https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png" alt="" loading="lazy" />
     <img class="atlas-data" src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5789264&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Meliphaga fordiana según GBIF" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
+    <span class="atlas-legend" aria-hidden="true"><span>−</span><span class="atlas-legend-bar"></span><span>+</span></span>
     <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
   </a>
   <footer class="atlas-scale" aria-hidden="true">
@@ -1010,18 +1049,18 @@ footer.site a { color: var(--ink-soft); }
   </footer>
 </section>
     <div class="plate-foot">
-      <a href="https://ebird.org/species/kimhon1?siteLanguage=es">eBird</a>
-      <a href="https://es.wikipedia.org/wiki/Microptilotis_fordianus">Wikipedia</a>
-      <a href="https://birdsoftheworld.org/bow/species/kimhon1/cur/introduction">Birds of the World</a>
-      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=kimhon1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+      <a href="https://ebird.org/species/kimhon1?siteLanguage=es" target="_blank" rel="noopener">eBird</a>
+      <a href="https://es.wikipedia.org/wiki/Microptilotis_fordianus" target="_blank" rel="noopener">Wikipedia</a>
+      <a href="https://birdsoftheworld.org/bow/species/kimhon1/cur/introduction" target="_blank" rel="noopener">Birds of the World</a>
+      <a href="https://search.macaulaylibrary.org/catalog?taxonCode=kimhon1&amp;mediaType=photo&amp;sort=rating_rank_desc" target="_blank" rel="noopener">Macaulay Library</a>
     </div>
   </div>
 </article>
 </main>
 <footer class="site">
-  <p>Datos de <a href="https://ebird.org">eBird</a> y <a href="https://www.birds.cornell.edu/">Cornell Lab of Ornithology</a>.</p>
-  <p>Fotos de <a href="https://www.macaulaylibrary.org/">Macaulay Library</a>, © de sus respectivos autores.</p>
-  <p>Proyecto no comercial por <a href="https://yassfuentes.es">Yass Fuentes</a> © 2026. <a href="https://github.com/backmind/Bird-of-the-day">Clóname en GitHub</a>.</p>
+  <p>Datos de <a href="https://ebird.org" target="_blank" rel="noopener">eBird</a> y <a href="https://www.birds.cornell.edu/" target="_blank" rel="noopener">Cornell Lab of Ornithology</a>.</p>
+  <p>Fotos de <a href="https://www.macaulaylibrary.org/" target="_blank" rel="noopener">Macaulay Library</a>, © de sus respectivos autores.</p>
+  <p>Proyecto no comercial por <a href="https://yassfuentes.es" target="_blank" rel="noopener">Yass Fuentes</a> © 2026. <a href="https://github.com/backmind/Bird-of-the-day" target="_blank" rel="noopener">Clóname en GitHub</a>.</p>
 </footer>
 </body>
 </html>

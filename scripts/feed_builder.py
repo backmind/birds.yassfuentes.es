@@ -60,6 +60,7 @@ def build_entry_html(
     fallback_language: str = "",
     distribution_map_url: str = "",
     gbif_taxon_key: int | None = None,
+    composed_map_url: str = "",
     english_name_index: dict | None = None,
     code_to_localized: dict | None = None,
     published_anchors: dict | None = None,
@@ -126,42 +127,60 @@ def build_entry_html(
             f"<p>{name_linker.process_description(bow_intro, _eni, _c2l, _pa)}</p>"
         )
 
-    # GBIF distribution map. Composites a Carto basemap under the GBIF
-    # density tile, matching the site's atlas section. Both images are
-    # absolutely positioned inside a padding-bottom:100% container (the
-    # classic aspect-ratio trick that works without CSS aspect-ratio,
-    # which RSS readers don't support). Most desktop/web RSS readers
-    # (Feedly, Inoreader, NetNewsWire) render position:absolute inline
-    # styles correctly; mail-based readers may degrade to stacked images.
-    if distribution_map_url:
+    # GBIF distribution map. When a pre-composed PNG is available (basemap
+    # + density tile baked into one image with filters), use a single <img>
+    # for maximum RSS reader compatibility. Fall back to the two-layer CSS
+    # overlay when no composed image exists.
+    if composed_map_url or distribution_map_url:
         map_label = catalog.t("map.label")
         map_alt = catalog.t("map.alt_template", scientific_name=scientific_name)
         species_page = (
             f"https://www.gbif.org/species/{gbif_taxon_key}"
             if gbif_taxon_key
-            else _esc(distribution_map_url)
+            else _esc(distribution_map_url or composed_map_url)
         )
-        basemap = "https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png"
-        parts.append(
-            '<figure style="margin:1.5rem auto;padding:.85rem;'
-            'border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center">'
-            f'<a href="{_esc(species_page)}" style="display:block;text-decoration:none;border:0;'
-            'position:relative;width:100%;padding-bottom:100%;overflow:hidden">'
-            f'<img src="{_esc(basemap)}" alt="" '
-            'style="position:absolute;top:0;left:0;width:100%;height:100%;'
-            'filter:sepia(.45) saturate(.7) contrast(.95)" />'
-            f'<img src="{_esc(distribution_map_url)}" '
-            f'alt="{_esc(map_alt)}" '
-            'style="position:absolute;top:0;left:0;width:100%;height:100%;'
-            'filter:sepia(.45) saturate(.7) contrast(.95)" />'
-            '</a>'
-            '<figcaption style="margin-top:.55rem;'
-            'font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;'
-            'letter-spacing:.14em;text-transform:uppercase">'
-            f'{_esc(map_label)}'
-            '</figcaption>'
-            '</figure>'
-        )
+
+        if composed_map_url:
+            # Single pre-composed image — works in all RSS readers.
+            parts.append(
+                '<figure style="margin:1.5rem auto;padding:.85rem;'
+                'border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center">'
+                f'<a href="{_esc(species_page)}" style="display:block;text-decoration:none;border:0">'
+                f'<img src="{_esc(composed_map_url)}" '
+                f'alt="{_esc(map_alt)}" '
+                'style="max-width:100%;border-radius:4px" />'
+                '</a>'
+                '<figcaption style="margin-top:.55rem;'
+                'font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;'
+                'letter-spacing:.14em;text-transform:uppercase">'
+                f'{_esc(map_label)}'
+                '</figcaption>'
+                '</figure>'
+            )
+        else:
+            # Fallback: two-layer CSS overlay (works in browsers, not
+            # all RSS readers).
+            basemap = "https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png"
+            parts.append(
+                '<figure style="margin:1.5rem auto;padding:.85rem;'
+                'border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center">'
+                f'<a href="{_esc(species_page)}" style="display:block;text-decoration:none;border:0;'
+                'position:relative;width:100%;padding-bottom:100%;overflow:hidden">'
+                f'<img src="{_esc(basemap)}" alt="" '
+                'style="position:absolute;top:0;left:0;width:100%;height:100%;'
+                'filter:sepia(.45) saturate(.7) contrast(.95)" />'
+                f'<img src="{_esc(distribution_map_url)}" '
+                f'alt="{_esc(map_alt)}" '
+                'style="position:absolute;top:0;left:0;width:100%;height:100%;'
+                'filter:sepia(.45) saturate(.7) contrast(.95)" />'
+                '</a>'
+                '<figcaption style="margin-top:.55rem;'
+                'font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;'
+                'letter-spacing:.14em;text-transform:uppercase">'
+                f'{_esc(map_label)}'
+                '</figcaption>'
+                '</figure>'
+            )
 
     # Link list — mirrors the front's plate-foot. eBird gets the
     # ?siteLanguage param so it lands in the configured locale. Wikipedia

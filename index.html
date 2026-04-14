@@ -722,6 +722,33 @@ footer.site a { color: var(--ink-soft); }
   padding: .1rem .35rem;
   pointer-events: none;
 }
+.atlas-legend {
+  position: absolute;
+  bottom: .25rem;
+  left: .35rem;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+  background: rgba(244, 238, 224, 0.72);
+  padding: .15rem .35rem;
+  border-radius: 3px;
+  pointer-events: none;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: .56rem;
+  color: var(--ink-faint);
+}
+.atlas-legend-bar {
+  width: 3rem;
+  height: .4rem;
+  border-radius: 2px;
+  background: linear-gradient(to right, #ffff00, #ffc800, #ff8c00, #dc4600, #8b0000);
+  filter: sepia(.45) saturate(.7) contrast(.95);
+  transition: filter .6s ease;
+}
+.atlas-frame:hover .atlas-legend-bar {
+  filter: sepia(.3) saturate(.9) contrast(1.02);
+}
 .atlas-equator,
 .atlas-meridian {
   position: absolute;
@@ -777,9 +804,13 @@ footer.site a { color: var(--ink-soft); }
   :root:not([data-theme="light"]) .atlas-meridian {
     border-color: rgba(154, 164, 164, 0.25);
   }
-  :root:not([data-theme="light"]) .atlas-attribution {
+  :root:not([data-theme="light"]) .atlas-attribution,
+  :root:not([data-theme="light"]) .atlas-legend {
     background: rgba(15, 21, 24, 0.65);
     color: var(--ink-soft);
+  }
+  :root:not([data-theme="light"]) .atlas-legend-bar {
+    filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
   }
   :root:not([data-theme="light"]) .atlas::before,
   :root:not([data-theme="light"]) .atlas::after {
@@ -803,9 +834,13 @@ footer.site a { color: var(--ink-soft); }
 :root[data-theme="dark"] .atlas-meridian {
   border-color: rgba(154, 164, 164, 0.25);
 }
-:root[data-theme="dark"] .atlas-attribution {
+:root[data-theme="dark"] .atlas-attribution,
+:root[data-theme="dark"] .atlas-legend {
   background: rgba(15, 21, 24, 0.65);
   color: var(--ink-soft);
+}
+:root[data-theme="dark"] .atlas-legend-bar {
+  filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
 }
 :root[data-theme="dark"] .atlas::before,
 :root[data-theme="dark"] .atlas::after {
@@ -861,7 +896,7 @@ footer.site a { color: var(--ink-soft); }
   <div class="plate-rule"><span class="ornament">❦</span></div>
   <div class="plate-image"><a href="https://ebird.org/species/norshr1?siteLanguage=es" aria-label="Alcaudón Norteño — eBird"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900" alt="Alcaudón Norteño" loading="eager" /></a></div><p class="plate-credit">© Christoph Moning / Macaulay Library</p>
   <div class="plate-body">
-    <p class="specimen-tag">Laniidae · Passeriformes</p>
+    
     <h2 id="hero-title" class="plate-title">Alcaudón Norteño</h2>
     <p class="plate-subtitle">Lanius excubitor</p>
     <p class="plate-description">Ave del tamaño de un tordo; mayormente gris pálido con máscara negra. Se reproduce en bosques abiertos y áreas arbustivas en el extremo norte de Canadá y Alaska; se mueve hacia el sur en invierno. Es encontrado en áreas abiertas con perchas prominentes, incluyendo líneas eléctricas y copas de árboles que les ofrecen ventajas perfectas para detectar a sus presas. Sus comportamientos carnívoros los hacen únicos entre los paseriformes. En vuelo, busca las manchas blancas en las alas. Se alimenta de roedores y pequeños pájaros.</p><p class="plate-description">Europa septentrional, central y nororiental (este de Escandinavia y centro de Francia), este hasta el noroeste de Siberia (parte baja del río Ob), sur hasta el sur de Rusia (zona de Kazán); sur de Escandinavia no reproductora, Gran Bretaña y oeste y sur de Francia, este hasta Asia Menor, Cáucaso y Transcaspia. Subespecie &lt;em&gt;homeyeri&lt;/em&gt; es más pálida que la nominal, con la rabadilla y las coberteras supracaudales blanquecinas, el superciliar blanco más evidente, blanco extenso en el ala y más blanco en la cola (incluso en la base del par central de plumas).</p>
@@ -874,6 +909,7 @@ footer.site a { color: var(--ink-soft); }
     <img class="atlas-data" src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9444556&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Lanius excubitor según GBIF" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
+    <span class="atlas-legend" aria-hidden="true"><span>−</span><span class="atlas-legend-bar"></span><span>+</span></span>
     <span class="atlas-attribution">© OSM · CARTO · GBIF</span>
   </a>
   <footer class="atlas-scale" aria-hidden="true">
@@ -913,7 +949,7 @@ footer.site a { color: var(--ink-soft); }
     </div>
     <h3 class="card-name">Mirlo Capiblanco</h3>
     <p class="card-sci">Turdus torquatus</p>
-    <p class="card-tag">Turdidae</p>
+    
   </a>
 </article>
 <article class="card">
@@ -925,7 +961,7 @@ footer.site a { color: var(--ink-soft); }
     </div>
     <h3 class="card-name">Piquero Nazca</h3>
     <p class="card-sci">Sula granti</p>
-    <p class="card-tag">Sulidae</p>
+    
   </a>
 </article>
 <article class="card">
@@ -937,15 +973,15 @@ footer.site a { color: var(--ink-soft); }
     </div>
     <h3 class="card-name">Mielero de Kimberley</h3>
     <p class="card-sci">Meliphaga fordiana</p>
-    <p class="card-tag">Meliphagidae</p>
+    
   </a>
 </article>
 </div>
 </main>
 <footer class="site">
-  <p>Datos de <a href="https://ebird.org">eBird</a> y <a href="https://www.birds.cornell.edu/">Cornell Lab of Ornithology</a>.</p>
-  <p>Fotos de <a href="https://www.macaulaylibrary.org/">Macaulay Library</a>, © de sus respectivos autores.</p>
-  <p>Proyecto no comercial por <a href="https://yassfuentes.es">Yass Fuentes</a> © 2026. <a href="https://github.com/backmind/Bird-of-the-day">Clóname en GitHub</a>.</p>
+  <p>Datos de <a href="https://ebird.org" target="_blank" rel="noopener">eBird</a> y <a href="https://www.birds.cornell.edu/" target="_blank" rel="noopener">Cornell Lab of Ornithology</a>.</p>
+  <p>Fotos de <a href="https://www.macaulaylibrary.org/" target="_blank" rel="noopener">Macaulay Library</a>, © de sus respectivos autores.</p>
+  <p>Proyecto no comercial por <a href="https://yassfuentes.es" target="_blank" rel="noopener">Yass Fuentes</a> © 2026. <a href="https://github.com/backmind/Bird-of-the-day" target="_blank" rel="noopener">Clóname en GitHub</a>.</p>
 </footer>
 </body>
 </html>
