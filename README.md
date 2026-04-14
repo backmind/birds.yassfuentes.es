@@ -295,12 +295,10 @@ The `pools` matrix is a nested structure not exposed via env vars
 the repo and rebuilding:
 
 ```bash
-# 1. Pull the default config out of a running container
-docker cp bird-of-the-day:/app/data/config.json ./my-config.json
+# 1. Copy the example and edit it
+cp data/config.example.json my-config.json
 
-# 2. Edit my-config.json on the host
-
-# 3. Mount it back in:
+# 2. Mount it into the container:
 docker run -d ... \
   -v ./my-config.json:/app/data/config.json:ro \
   ghcr.io/backmind/bird-of-the-day
