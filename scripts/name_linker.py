@@ -93,11 +93,14 @@ def extract_name_pairs(
     Used by the LLM enricher to tell the model the correct localized
     species names present in the scraped context.
     """
+    # Reverse index to get canonical English name from code.
+    code_to_english = {c: n for n, c in english_name_index.items()}
     pairs: dict[str, str] = {}
-    for _start, _end, code, matched in _find_english_names(text, english_name_index):
+    for _start, _end, code, _matched in _find_english_names(text, english_name_index):
+        canonical = code_to_english.get(code)
         localized = code_to_localized.get(code)
-        if localized and localized != matched:
-            pairs[matched] = localized
+        if canonical and localized and canonical != localized:
+            pairs[canonical] = localized
     return pairs
 
 
