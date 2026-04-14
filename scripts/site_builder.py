@@ -62,6 +62,8 @@ class SiteEntry:
                                   # description_source == "ebird-foreign")
     gbif_taxon_key: int | None = None  # GBIF usageKey for the species
     distribution_map_url: str = ""     # hot-linked GBIF density map PNG URL
+    enriched_prose: str = ""           # LLM-generated prose (enriched mode)
+    enriched_identification: list[str] | None = None  # LLM ID bullets
 
     @property
     def anchor(self) -> str:
@@ -433,6 +435,16 @@ main {
   color: var(--ink);
   margin: 0 0 1rem;
   text-wrap: pretty;
+}
+.plate-identification {
+  font-size: .92rem;
+  line-height: 1.65;
+  color: var(--ink);
+  margin: -.4rem 0 1rem;
+  padding-left: 1.3rem;
+}
+.plate-identification li {
+  margin-bottom: .25rem;
 }
 .plate-description-note {
   font-size: .82rem;
@@ -1071,18 +1083,35 @@ def _render_plate(
             f'</div></div>'
         )
 
-    if entry.description:
+    _lang = ctx.catalog.language
+    if entry.enriched_prose:
+        # Enriched mode: LLM-generated prose + identification bullets.
+        # Split on double-newline so each paragraph gets its own <p>.
+        paragraphs = [p.strip() for p in entry.enriched_prose.split("\n\n") if p.strip()]
+        desc_html = ""
+        for para in paragraphs:
+            processed = name_linker.process_description(
+                para,
+                ctx.english_name_index,
+                ctx.code_to_localized,
+                ctx.published_anchors,
+                _lang,
+            )
+            desc_html += f'<p class="plate-description">{processed}</p>'
+        if entry.enriched_identification:
+            bullets = "".join(
+                f"<li>{_esc(b)}</li>" for b in entry.enriched_identification
+            )
+            desc_html += f'<ul class="plate-identification">{bullets}</ul>'
+    elif entry.description:
         processed_desc = name_linker.process_description(
             entry.description,
             ctx.english_name_index,
             ctx.code_to_localized,
             ctx.published_anchors,
+            _lang,
         )
         desc_html = f'<p class="plate-description">{processed_desc}</p>'
-        # When the description came from a foreign-language fallback, append
-        # a translated disclaimer so the reader knows. The source language
-        # name itself comes from a per-language lookup so it reads naturally
-        # ("Descripción en inglés" rather than "Descripción en en").
         if entry.description_source == "ebird-foreign":
             lang_name = ctx.catalog.t(
                 f"language_name.{entry.fallback_language or 'en'}"
@@ -1099,13 +1128,12 @@ def _render_plate(
                 ctx.english_name_index,
                 ctx.code_to_localized,
                 ctx.published_anchors,
+                _lang,
             )
             desc_html += (
                 f'<p class="plate-description">{processed_bow}</p>'
             )
     else:
-        # Universal em-dash placeholder via the catalog (the catalog stores
-        # "—" but having it indirected lets a translator override).
         marker = ctx.catalog.t("description.empty_marker")
         desc_html = f'<p class="plate-description empty">{_esc(marker)}</p>'
 

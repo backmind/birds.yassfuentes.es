@@ -39,5 +39,15 @@
   "_max_feed_entries_help": "Maximum entries in feed.xml. 0 = unlimited (full history). Set via BOTD_MAX_FEED_ENTRIES for Docker.",
   "back_days": 14,
 
-  "feed_link": "https://birds.yassfuentes.es/"
+  "feed_link": "https://birds.yassfuentes.es/",
+
+  "content_mode": "programmatic",
+  "_content_mode_help": "One of: programmatic (scrape-only, no LLM) | enriched (LLM generates cohesive text from scraped sources). Default: programmatic.",
+  "llm": {
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "model": "gemini-flash-latest",
+    "temperature": 0,
+    "max_retries": 2
+  },
+  "_llm_help": "OpenAI-compatible chat completions endpoint. API key via BOTD_LLM_API_KEY env var."
 }

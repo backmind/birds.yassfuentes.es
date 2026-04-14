@@ -26,6 +26,7 @@ jobs:
       - name: Generate bird of the day
         env:
           EBIRD_API_KEY: ${{ secrets.EBIRD_API_KEY }}
+          BOTD_LLM_API_KEY: ${{ secrets.BOTD_LLM_API_KEY }}
         run: uv run python -m scripts.generate
 
       - name: Commit and push changes

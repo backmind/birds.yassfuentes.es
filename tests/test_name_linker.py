@@ -19,6 +19,9 @@ def test_substitutes_english_name():
     )
     assert "Piquero Enmascarado" in result
     assert "Masked Booby" not in result
+    # Unpublished species link to eBird with "(eBird)" hint.
+    assert "ebird.org/species/masboo" in result
+    assert "(eBird)" in result
 
 
 def test_links_to_published_entry():
@@ -30,6 +33,8 @@ def test_links_to_published_entry():
     )
     assert '<a href="archive.html#bird-masboo-2026-04-13">' in result
     assert "Piquero Enmascarado" in result
+    # Published species should NOT have the "(eBird)" hint.
+    assert "(eBird)" not in result
 
 
 def test_no_match_returns_escaped():

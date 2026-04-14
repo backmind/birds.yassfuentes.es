@@ -35,14 +35,25 @@ def _make_species_replacement(
     fallback: str,
     code_to_localized: dict[str, str],
     published_anchors: dict[str, str],
+    ebird_locale: str = "",
 ) -> str:
-    """Build the HTML replacement for a species common-name match."""
+    """Build the HTML replacement for a species common-name match.
+
+    Links to the published archive entry when available, otherwise
+    falls back to the eBird species page.
+    """
     localized = code_to_localized.get(code, fallback)
     escaped = html.escape(localized)
     if code in published_anchors:
         anchor = html.escape(published_anchors[code], quote=True)
         return f'<a href="{anchor}">{escaped}</a>'
-    return escaped
+    # Fallback: link to eBird species page with "(eBird)" hint.
+    lang = f"?siteLanguage={html.escape(ebird_locale)}" if ebird_locale else ""
+    ebird_url = f"https://ebird.org/species/{html.escape(code)}{lang}"
+    return (
+        f'<a href="{ebird_url}" target="_blank" rel="noopener">'
+        f"{escaped}</a> (eBird)"
+    )
 
 
 def process_description(
@@ -50,6 +61,7 @@ def process_description(
     english_name_index: dict[str, str],
     code_to_localized: dict[str, str],
     published_anchors: dict[str, str],
+    ebird_locale: str = "",
 ) -> str:
     """Substitute English bird names, hyperlink, and italicise binomials.
 
@@ -102,7 +114,7 @@ def process_description(
         pattern = re.compile(r"\b" + re.escape(name) + r"\b", re.IGNORECASE)
         for m in pattern.finditer(raw_text):
             repl = _make_species_replacement(
-                code, m.group(), code_to_localized, published_anchors
+                code, m.group(), code_to_localized, published_anchors, ebird_locale
             )
             if _try_add(m.start(), m.end(), repl):
                 confirmed_species[code] = name
