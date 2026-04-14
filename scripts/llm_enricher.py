@@ -120,9 +120,13 @@ def _build_messages(
         "but only if you are certain they are accurate.",
         "- If information is scarce, write less. Never invent.",
         "- Do not cite sources or say things like 'according to Wikipedia'.",
-        "- When mentioning other bird species, use their full common "
-        "name on first mention.",
+        "- When mentioning a bird species for the first time, use its "
+        "full common name followed by the scientific name in parentheses, "
+        "e.g. 'Masked Booby (Sula dactylatra)'. Subsequent mentions use "
+        "only the common name.",
         f"- Write entirely in {language_name}.",
+        "- Do not assume the reader's location. Avoid possessives like "
+        "'our mountains' or 'our forests'. Describe habitats in third person.",
         "",
         "Reference data:",
         context,
