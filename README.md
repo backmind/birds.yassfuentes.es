@@ -1,6 +1,5 @@
 # Bird of the Day
 
-[![Bird of the Day](https://github.com/backmind/Bird-of-the-day/actions/workflows/bird-of-the-day.yml/badge.svg)](https://github.com/backmind/Bird-of-the-day/actions/workflows/bird-of-the-day.yml)
 [![Docker publish](https://github.com/backmind/Bird-of-the-day/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/backmind/Bird-of-the-day/actions/workflows/docker-publish.yml)
 [![Release](https://img.shields.io/github/v/release/backmind/Bird-of-the-day?display_name=tag&sort=semver)](https://github.com/backmind/Bird-of-the-day/releases/latest)
 [![Container](https://img.shields.io/badge/ghcr.io-bird--of--the--day-blue?logo=docker&logoColor=white)](https://github.com/backmind/Bird-of-the-day/pkgs/container/bird-of-the-day)
@@ -12,14 +11,15 @@ microservice. Each day a new species is selected from a configurable
 weighted pool of regions, scraped from public Cornell Lab sources, and
 published to a GitHub Pages site plus an RSS endpoint.
 
-The default deployment ships Iberian-weighted: Madrid 35%, Spain 27%,
-one random European country 23%, global taxonomy 15%. All weights live
-in `data/config.json`. Spanish is the default language. English, French
-and Portuguese are bundled. Adding another language is one JSON file
-under `data/i18n/`.
+The example configuration ships with US-weighted pools. Copy
+`data/config.example.json` to `data/config.json` and adjust the regions,
+language and weights to your taste. English, Spanish, French and
+Portuguese catalogs are included. Adding another language is one JSON
+file under `data/i18n/`.
 
-Zero AI-generated content, zero hosting cost (free tier of GitHub Actions
-and GitHub Pages), zero tracking, zero cookies.
+An optional LLM enrichment mode can generate warm, narrative prose and
+field-ID tips from the scraped sources (any OpenAI-compatible endpoint).
+The project runs fine without it. No tracking, no cookies.
 
 ## Endpoints
 
@@ -48,10 +48,13 @@ GitHub Actions (cron daily 07:00 UTC)
   │     (with fallback to og:image on the eBird species page)
   ├─ 4. Description chain in the configured language:
   │     eBird Merlin → Wikipedia → policy-driven fallback
+  ├─ 4b. (optional) LLM enrichment: sends scraped data to an
+  │     OpenAI-compatible endpoint, receives narrative prose + ID tips
   ├─ 5. Wikipedia URL captured (target language → English fallback)
   │     so the footer link is always present
-  ├─ 6. feed.xml + index.html + archive.html written
-  └─ 7. git commit + git push → GitHub Pages republishes
+  ├─ 6. GBIF distribution map composed (basemap + density overlay)
+  ├─ 7. feed.xml + index.html + archive.html written
+  └─ 8. git commit + git push → GitHub Pages republishes
 ```
 
 The selection is **deterministic by date**: two runs on the same day pick
@@ -62,7 +65,7 @@ duplicate work.
 ## Stack
 
 - Python 3.12+, managed with [`uv`](https://github.com/astral-sh/uv)
-- Three runtime dependencies: `requests`, `beautifulsoup4`, `langid`
+- Four runtime dependencies: `requests`, `beautifulsoup4`, `langid`, `Pillow`
 - No database. State lives in three files in the repo: `feed.xml`,
   `history.json`, `cache/`
 
@@ -72,10 +75,9 @@ duplicate work.
 git clone https://github.com/backmind/Bird-of-the-day.git
 cd Bird-of-the-day
 uv sync
+cp data/config.example.json data/config.json
+# edit data/config.json — set your language, pools, feed_link
 ```
-
-`uv sync` creates the venv at `.venv/` and installs the dependencies from
-`pyproject.toml`.
 
 ## Configuration
 
@@ -84,6 +86,7 @@ uv sync
 | Variable | Required | Where to get it |
 |---|---|---|
 | `EBIRD_API_KEY` | yes | Free at <https://ebird.org/api/keygen> |
+| `BOTD_LLM_API_KEY` | only for `enriched` mode | Your LLM provider (e.g. [Google AI Studio](https://aistudio.google.com/apikey)) |
 
 For local use copy `.env.example` to `.env` and fill the key:
 
@@ -99,6 +102,12 @@ In GitHub Actions the key is injected from `Settings → Secrets and
 variables → Actions → New repository secret` with the same name.
 
 ### `data/config.json`
+
+Copy the bundled example and edit it:
+
+```bash
+cp data/config.example.json data/config.json
+```
 
 Every behavior knob lives here. Annotated example:
 
@@ -125,7 +134,15 @@ Every behavior knob lives here. Annotated example:
   "max_feed_entries": 60,
   "back_days": 14,
 
-  "feed_link": "https://YOUR-USERNAME.github.io/Bird-of-the-day/"
+  "feed_link": "https://YOUR-USERNAME.github.io/Bird-of-the-day/",
+
+  "content_mode": "programmatic",
+  "llm": {
+    "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "model": "gemini-flash-latest",
+    "temperature": 0,
+    "max_retries": 2
+  }
 }
 ```
 
@@ -178,9 +195,10 @@ uv run python -m scripts.generate
 
 ### Via GitHub Actions
 
-`.github/workflows/bird-of-the-day.yml` runs:
+Copy `.github/bird-of-the-day.yml.example` to
+`.github/workflows/bird-of-the-day.yml` to enable the daily cron. It runs:
 
-- Automatically every day at **07:00 UTC** (09:00 CEST in Madrid).
+- Automatically every day at **07:00 UTC**.
 - Manually from the **Actions → Bird of the Day → Run workflow** tab.
 
 The workflow `git add`s `feed.xml`, `history.json`, `index.html`,
@@ -247,8 +265,10 @@ and overrides it if set:
 | `BOTD_MAX_FEED_ENTRIES` | `max_feed_entries` | `60` |
 | `BOTD_BACK_DAYS` | `back_days` | `14` |
 | `BOTD_FEED_LINK` | `feed_link` | `https://example.com/birds/` |
+| `BOTD_CONTENT_MODE` | `content_mode` | `programmatic`, `enriched` |
 
-`EBIRD_API_KEY` is required. The container does **not** read `.env`
+`EBIRD_API_KEY` is required. `BOTD_LLM_API_KEY` is needed only when
+`content_mode` is `enriched`. The container does **not** read `.env`
 files (it doesn't need to — env vars work everywhere).
 
 #### Secrets via files (Docker / Kubernetes secrets)
@@ -275,12 +295,10 @@ The `pools` matrix is a nested structure not exposed via env vars
 the repo and rebuilding:
 
 ```bash
-# 1. Pull the default config out of a running container
-docker cp bird-of-the-day:/app/data/config.json ./my-config.json
+# 1. Copy the example and edit it
+cp data/config.example.json my-config.json
 
-# 2. Edit my-config.json on the host
-
-# 3. Mount it back in:
+# 2. Mount it into the container:
 docker run -d ... \
   -v ./my-config.json:/app/data/config.json:ro \
   ghcr.io/backmind/bird-of-the-day
@@ -367,51 +385,30 @@ mount your own at `/etc/supercronic/crontab`.
 
 ### Self-hosting on GitHub Pages
 
-1. Fork the repo.
-2. **Settings → Secrets and variables → Actions** → add `EBIRD_API_KEY`.
-3. **Settings → Pages → Build and deployment** → source: `Deploy from a
+1. Click **Use this template** on the repo page (or clone manually).
+2. Copy and edit the config:
+   ```bash
+   cp data/config.example.json data/config.json
+   ```
+   Set `feed_link` to your `https://<user>.github.io/<repo>/` URL,
+   pick a `language`, and adjust `pools` for your regions.
+3. Activate the daily workflow:
+   ```bash
+   cp .github/bird-of-the-day.yml.example .github/workflows/bird-of-the-day.yml
+   ```
+4. If you want a custom domain, copy `CNAME.example` to `CNAME` and
+   write your domain in it. Configure your DNS to point to
+   `<user>.github.io`.
+5. **Settings → Secrets and variables → Actions** → add `EBIRD_API_KEY`.
+   Optionally add `BOTD_LLM_API_KEY` if using enriched mode.
+6. **Settings → Pages → Build and deployment** → source: `Deploy from a
    branch`, branch: `main`, folder: `/ (root)`. Save.
-4. Edit `data/config.json`:
-   - Set `feed_link` to your `https://<user>.github.io/<repo>/` URL.
-   - Pick a `language` (or add one — see below).
-   - Adjust `pools` if you want different regional weights.
-5. Reset the inherited state (see "Forking from this deployment" below).
-6. Either wait for the cron or trigger **Actions → Bird of the Day → Run
-   workflow** manually for the first publication.
-
-#### Forking from this deployment
-
-The state of `backmind/Bird-of-the-day` (`history.json`, `cache/`, the
-rendered `index.html`/`archive.html`/`feed.xml`) is committed to its
-`main` branch. That is how the GitHub Pages flow keeps state between
-cron runs without an external database — git is the database.
-
-The consequence: when you fork, you inherit the upstream's state. You
-should reset it to a clean slate before the first publication, or your
-first cron run will start from someone else's history.
-
-```bash
-rm -f feed.xml index.html archive.html history.json
-rm -f cache/*.json cache/*.image.json   # cache/.gitkeep stays
-echo '{"entries": []}' > history.json
-# edit data/config.json: language, pools, feed_link
-git add -A && git commit -m "reset for fresh deployment"
-git push
-```
-
-Optional: keep `cache/taxonomy.json` if you want to skip the first
-~5 MB taxonomy fetch on the next cron run. It is language-tagged
-internally and will be re-fetched automatically if your `language`
-differs from the cached one.
-
-The Docker deployment does not have this problem: the image ships with
-state excluded via `.dockerignore`, and the persistent volume starts
-empty on first run.
+7. Either wait for the daily cron or trigger **Actions → Bird of the
+   Day → Run workflow** manually for the first publication.
 
 ### Pool matrix examples
 
-The default leans Iberian. Some alternative presets you can paste into
-`data/config.json`:
+Some alternative presets you can paste into `data/config.json`:
 
 **Western US flavor:**
 
@@ -468,9 +465,10 @@ the only constraint on which target languages are valid is that there's a
 
 ```
 Bird-of-the-day/
-├── .github/workflows/
-│   ├── bird-of-the-day.yml     # daily cron + commit (GitHub Pages path)
-│   └── docker-publish.yml      # build & push multi-arch image to ghcr.io
+├── .github/
+│   ├── bird-of-the-day.yml.example  # copy to workflows/ to enable daily cron
+│   └── workflows/
+│       └── docker-publish.yml       # build & push multi-arch image to ghcr.io
 ├── Dockerfile                  # multi-stage container build
 ├── .dockerignore
 ├── docker-compose.yml          # one-command self-host
@@ -485,21 +483,22 @@ Bird-of-the-day/
 │   ├── ebird_client.py    # eBird API + species selection + taxonomy cache
 │   ├── image_fetcher.py   # Macaulay Library API + og:image fallback
 │   ├── content_scraper.py # eBird og:description + Wikipedia + BoW
+│   ├── llm_enricher.py   # optional LLM content enrichment
+│   ├── map_composer.py    # server-side map composition for RSS
+│   ├── name_linker.py     # species name cross-linking
 │   ├── feed_builder.py    # RSS 2.0 generation
 │   ├── site_builder.py    # index.html + archive.html generation
 │   ├── i18n.py            # Catalog loader + langid wrapper
 │   └── seed_mock.py       # developer-only: populate the site for visual review
 ├── data/
-│   ├── config.json        # behavior knobs
-│   └── i18n/{es,en,fr,pt}.json  # translation catalogs
-├── cache/                 # taxonomy + per-species content/image caches
-├── feed.xml               # generated: RSS 2.0
-├── index.html             # generated: hero + grid
-├── archive.html           # generated: every published bird
-├── history.json           # generated: full publication history
+│   ├── config.example.json     # copy to config.json and customize
+│   └── i18n/{es,en,fr,pt}.json # translation catalogs
+├── cache/                 # taxonomy + per-species caches (generated)
+├── maps/                  # composed distribution maps (generated)
+├── CNAME.example          # copy to CNAME for custom domain setup
+├── .env.example           # environment variable template
 ├── pyproject.toml         # dependencies and uv metadata
 ├── uv.lock                # lock file
-├── .env.example           # environment variable template
 ├── LICENSE                # MIT
 └── README.md
 ```
