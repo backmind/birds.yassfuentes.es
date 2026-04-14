@@ -94,6 +94,8 @@ class SpeciesContent:
                                        # when the match failed or wasn't attempted
     distribution_map_url: str = ""     # hot-linkable GBIF density map PNG URL,
                                        # or "" when no GBIF match was found
+    iucn_code: str = ""                # IUCN Red List code (LC, NT, VU, EN, CR, etc.)
+    iucn_birdlife_url: str = ""        # BirdLife factsheet URL for this species
 
 
 def _fetch_ebird_og_description(
@@ -310,6 +312,14 @@ def scrape_species_content(
     if gbif_result is not None:
         gbif_taxon_key, distribution_map_url = gbif_result
 
+    # IUCN Red List category (requires a successful GBIF taxon match).
+    iucn_code = ""
+    iucn_birdlife_url = ""
+    if gbif_taxon_key is not None:
+        iucn = distribution_map.fetch_iucn_category(gbif_taxon_key, session=sess)
+        if iucn is not None:
+            iucn_code, _, iucn_birdlife_url = iucn
+
     # Apply the layout rail uniformly to every source (including the
     # fallback text — it might end up rendered if foreign_fallback is on).
     raw_desc_len = len(description)
@@ -340,6 +350,8 @@ def scrape_species_content(
         fallback_language=fallback_language,
         gbif_taxon_key=gbif_taxon_key,
         distribution_map_url=distribution_map_url,
+        iucn_code=iucn_code,
+        iucn_birdlife_url=iucn_birdlife_url,
     )
 
 
@@ -368,6 +380,8 @@ def load_cached_content(
         fallback_language=data.get("fallback_language", ""),
         gbif_taxon_key=data.get("gbif_taxon_key"),
         distribution_map_url=data.get("distribution_map_url", ""),
+        iucn_code=data.get("iucn_code", ""),
+        iucn_birdlife_url=data.get("iucn_birdlife_url", ""),
     )
 
 

@@ -61,6 +61,8 @@ def build_entry_html(
     distribution_map_url: str = "",
     gbif_taxon_key: int | None = None,
     composed_map_url: str = "",
+    iucn_code: str = "",
+    iucn_birdlife_url: str = "",
     enriched_prose: str = "",
     enriched_identification: list[str] | None = None,
     english_name_index: dict | None = None,
@@ -77,11 +79,7 @@ def build_entry_html(
     code_e = _esc(species_code)
     ebird_url = f"https://ebird.org/species/{code_e}?siteLanguage={catalog.language}"
 
-    # Header
-    parts.append(f"<h2>{_esc(common_name)} — <em>{_esc(scientific_name)}</em></h2>")
-
-    # Image (linked to the eBird species page in the configured locale) or
-    # fallback link to Macaulay Library when no image is available.
+    # Image
     if image_url:
         parts.append(
             f'<a href="{ebird_url}">'
@@ -90,21 +88,36 @@ def build_entry_html(
             f'style="max-width:100%; border-radius:8px;" />'
             f'</a>'
         )
-        parts.append(f"<p><em>© {_esc(image_attribution)}</em></p>")
+        parts.append(
+            f'<p style="font-size:.78rem;font-style:italic;color:#5C6A6E">'
+            f'© {_esc(image_attribution)}</p>'
+        )
     else:
         parts.append(
             f'<p><a href="{_esc(ml_search_url)}">Macaulay Library</a></p>'
         )
 
-    # Specimen tag (family · order in Latin, no labels — same as the
-    # front's plate body). The English familyComName from eBird is
-    # deliberately omitted because eBird doesn't translate it.
+    # Name + scientific name
+    parts.append(
+        f"<h2>{_esc(common_name)} — <em>{_esc(scientific_name)}</em></h2>"
+    )
+
+    # Taxonomy + IUCN on one line
     family_sci = taxonomy.get("familySciName", "")
     order = taxonomy.get("order", "")
-    tag_parts = [_esc(p) for p in (family_sci, order) if p]
+    tag_parts = [f"<em>{_esc(p)}</em>" for p in (family_sci, order) if p]
+    if iucn_code:
+        iucn_label = catalog.t(f"iucn.{iucn_code}")
+        if iucn_birdlife_url:
+            tag_parts.append(
+                f'<a href="{_esc(iucn_birdlife_url)}" '
+                f'style="color:inherit">{_esc(iucn_label)}</a>'
+            )
+        else:
+            tag_parts.append(_esc(iucn_label))
     if tag_parts:
         parts.append(
-            f'<p><small><em>{" · ".join(tag_parts)}</em></small></p>'
+            f'<p><small>{" · ".join(tag_parts)}</small></p>'
         )
 
     # Description: enriched (LLM) or programmatic (scraped).
