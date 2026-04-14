@@ -28,14 +28,14 @@ class TestApplyFilters:
         img = _make_rgba(color=(128, 128, 128, 0))
         result = _apply_filters(img)
         # Fully transparent pixels stay transparent.
-        alphas = list(result.split()[-1].getdata())
+        alphas = list(result.split()[-1].get_flattened_data())
         assert all(a == 0 for a in alphas)
 
     def test_modifies_pixels(self):
         img = _make_rgba(color=(100, 150, 200, 255))
         result = _apply_filters(img)
         # Filters should change at least some pixel values.
-        assert list(img.getdata()) != list(result.getdata())
+        assert list(img.get_flattened_data()) != list(result.get_flattened_data())
 
 
 class TestComposeMap:
