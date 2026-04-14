@@ -26,6 +26,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
       "photographer": "Rafael Merchante",
       "attribution": "Rafael Merchante / Macaulay Library"
+    },
+    {
+      "speciesCode": "norshr1",
+      "comName": "Alcaudón Norteño",
+      "sciName": "Lanius excubitor",
+      "date": "2026-04-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }

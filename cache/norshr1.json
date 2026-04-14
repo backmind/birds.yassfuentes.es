@@ -1,0 +1,12 @@
+{
+  "description": "Ave del tamaño de un tordo; mayormente gris pálido con máscara negra. Se reproduce en bosques abiertos y áreas arbustivas en el extremo norte de Canadá y Alaska; se mueve hacia el sur en invierno. Es encontrado en áreas abiertas con perchas prominentes, incluyendo líneas eléctricas y copas de árboles que les ofrecen ventajas perfectas para detectar a sus presas. Sus comportamientos carnívoros los hacen únicos entre los paseriformes. En vuelo, busca las manchas blancas en las alas. Se alimenta de roedores y pequeños pájaros.",
+  "description_source": "ebird",
+  "bow_intro": "Europa septentrional, central y nororiental (este de Escandinavia y centro de Francia), este hasta el noroeste de Siberia (parte baja del río Ob), sur hasta el sur de Rusia (zona de Kazán); sur de Escandinavia no reproductora, Gran Bretaña y oeste y sur de Francia, este hasta Asia Menor, Cáucaso y Transcaspia. Subespecie <em>homeyeri</em> es más pálida que la nominal, con la rabadilla y las coberteras supracaudales blanquecinas, el superciliar blanco más evidente, blanco extenso en el ala y más blanco en la cola (incluso en la base del par central de plumas).",
+  "taxonomy": {},
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Lanius_excubitor",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9444556,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9444556&bin=hex&hexPerTile=75&style=classic.poly"
+}

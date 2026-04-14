@@ -8,6 +8,22 @@
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
     <item>
+      <title>Alcaudón Norteño (Lanius excubitor)</title>
+      <link>https://ebird.org/species/norshr1</link>
+      <guid isPermaLink="false">bird-of-the-day-norshr1-2026-04-14</guid>
+      <pubDate>Tue, 14 Apr 2026 04:46:36 +0000</pubDate>
+      <content:encoded><![CDATA[<h2>Alcaudón Norteño — <em>Lanius excubitor</em></h2>
+<a href="https://ebird.org/species/norshr1?siteLanguage=es"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900" alt="Alcaudón Norteño © Christoph Moning / Macaulay Library" style="max-width:100%; border-radius:8px;" /></a>
+<p><em>© Christoph Moning / Macaulay Library</em></p>
+<p><small><em>Laniidae · Passeriformes</em></small></p>
+<p>Ave del tamaño de un tordo; mayormente gris pálido con máscara negra. Se reproduce en bosques abiertos y áreas arbustivas en el extremo norte de Canadá y Alaska; se mueve hacia el sur en invierno. Es encontrado en áreas abiertas con perchas prominentes, incluyendo líneas eléctricas y copas de árboles que les ofrecen ventajas perfectas para detectar a sus presas. Sus comportamientos carnívoros los hacen únicos entre los paseriformes. En vuelo, busca las manchas blancas en las alas. Se alimenta de roedores y pequeños pájaros.</p>
+<p>Europa septentrional, central y nororiental (este de Escandinavia y centro de Francia), este hasta el noroeste de Siberia (parte baja del río Ob), sur hasta el sur de Rusia (zona de Kazán); sur de Escandinavia no reproductora, Gran Bretaña y oeste y sur de Francia, este hasta Asia Menor, Cáucaso y Transcaspia. Subespecie &lt;em&gt;homeyeri&lt;/em&gt; es más pálida que la nominal, con la rabadilla y las coberteras supracaudales blanquecinas, el superciliar blanco más evidente, blanco extenso en el ala y más blanco en la cola (incluso en la base del par central de plumas).</p>
+<figure style="margin:1.5rem auto;padding:.85rem;border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center"><a href="https://www.gbif.org/species/9444556" style="display:block;text-decoration:none;border:0;position:relative;width:100%;padding-bottom:100%;overflow:hidden"><img src="https://basemaps.cartocdn.com/light_nolabels/0/0/0@2x.png" alt="" style="position:absolute;top:0;left:0;width:100%;height:100%;filter:sepia(.45) saturate(.7) contrast(.95)" /><img src="https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9444556&amp;bin=hex&amp;hexPerTile=75&amp;style=classic.poly" alt="Distribución mundial de Lanius excubitor según GBIF" style="position:absolute;top:0;left:0;width:100%;height:100%;filter:sepia(.45) saturate(.7) contrast(.95)" /></a><figcaption style="margin-top:.55rem;font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;letter-spacing:.14em;text-transform:uppercase">Distribución mundial</figcaption></figure>
+<p><small>
+<a href="https://ebird.org/species/norshr1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Lanius_excubitor">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/norshr1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=norshr1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+</small></p>]]></content:encoded>
+    </item>
+    <item>
       <title>Mirlo Capiblanco (Turdus torquatus)</title>
       <link>https://ebird.org/species/rinouz1</link>
       <guid isPermaLink="false">bird-of-the-day-rinouz1-2026-04-13</guid>
