@@ -1,0 +1,15 @@
+{
+  "description": "La aratinga pechisulfúrea es una especie de ave psitaciforme de la familia Psittacidae, perteneciente al género Aratinga. Es nativa del noreste de la cuenca del Amazonas de Brasil y del escudo guayanés.",
+  "description_source": "wikipedia",
+  "bow_intro": "Considerada durante mucho tiempo como conespecífica de la hermosa Sun Parakeet ( Aratinga solstitialis ) del extremo norte de Brasil y el sur de Guyana, hasta hace poco ni siquiera se le había conferido el estatus de subespecífica a esta impresionante ave. Al igual que Aratinga solstitialis , esta especie recién reconocida es un ave de color naranja dorado con la cara y el vientre de color rojo anaranjado, mientras que las alas y la cola representan una mezcla de tonos amarillos, principalmente verdes, y algunos azules. Cuando los ornitólogos se dieron cuenta por fin de que esta especie representa un taxón separado del Periquito del Sol, se le dio el nombre de Aratinga pintoi , en honor del gran ornitólogo brasileño Olivério Mário de Oliveira Pinto (1896-1981) que fue el primer autor en señalar las diferencias entre las dos especies, pero investigaciones posteriores revelaron que este nombre es un sinónimo posterior del nombre Psittacus maculatus , ¡que data de 1776! Sulphur-breasted Parakeet se conoce sobre todo en Brasil, en las sabanas de la orilla norte del Amazonas, en el norte de Pará y en el extremo occidental de Amapá, donde se descubrió muy recientemente. Las aves del sur de Surinam, en la sabana de Sipaliwini, también pertenecen a esta población, y hay otros reportados de Sulphur-breasted Parakeet del suroeste de la Guayana Francesa, aunque se especula con que estos últimos pertenezcan a escapados del cautiverio. Los conocimientos sobre la biología y la historia natural de esta especie son aún muy escasos, en parte porque su área de distribución es relativamente remota y no la visitan con frecuencia los observadores de aves y los ornitólogos.",
+  "taxonomy": {},
+  "wikipedia_summary": "La aratinga pechisulfúrea es una especie de ave psitaciforme de la familia Psittacidae, perteneciente al género Aratinga. Es nativa del noreste de la cuenca del Amazonas de Brasil y del escudo guayanés.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aratinga_maculata",
+  "wikipedia_language": "es",
+  "fallback_text": "A medium-sized, colorful parakeet of eastern Amazonia, local but often fairly common. Plumage is generally yellowish, with greenish upperparts, wings, and tail. Notice the orangish coloration around the eye. Usually in small flocks, foraging in open or semi-open areas with short trees, and sometimes humid forest edges.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 6085537,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=6085537&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22735551"
+}

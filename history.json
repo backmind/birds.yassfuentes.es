@@ -35,6 +35,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "subpar1",
+      "comName": "Aratinga Pechisulfúrea",
+      "sciName": "Aratinga maculata",
+      "date": "2026-04-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181382561/900",
+      "photographer": "Alexander Lees",
+      "attribution": "Alexander Lees / Macaulay Library"
     }
   ]
 }
