@@ -44,6 +44,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181382561/900",
       "photographer": "Alexander Lees",
       "attribution": "Alexander Lees / Macaulay Library"
+    },
+    {
+      "speciesCode": "litbit1",
+      "comName": "Avetorillo Común",
+      "sciName": "Botaurus minutus",
+      "date": "2026-04-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
+      "photographer": "José Frade",
+      "attribution": "José Frade / Macaulay Library"
     }
   ]
 }

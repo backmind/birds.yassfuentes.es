@@ -1,0 +1,15 @@
+{
+  "description": "Poco y localmente común pero de hábitos reservados y por tanto pasa fácilmente por alto. Reproductor migratorio que pasa los inviernos en África. Prefiere las marismas y humedales de agua dulce con cañaverales, donde se posa elevado en las cañas y se alimenta normalmente a lo largo de los bordes. Lo más probable es que se vea en vuelo bajo, temprano o al final del día, sobre los cañaverales. Garza de muy pequeño tamaño, presenta un tono ocre amarillento general con píleo oscuro. Gran panel pálido en la parte superior del ala visible en vuelo; el macho tiene dorso oscuro y la hembra rayado.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Little_bittern",
+  "wikipedia_language": "en",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480909,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480909&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}
