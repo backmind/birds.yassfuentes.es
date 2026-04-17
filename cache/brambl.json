@@ -1,0 +1,15 @@
+{
+  "description": "Es bastante abundante en sus zonas de cría en Escandinavia y Rusia y realiza migraciones al sur del continente, a veces en gran número. Se reproduce principalmente en bosques de abedul e inverna en hábitats arbolados variados (especialmente con hayas), campos semiabiertos y tierras de cultivo con setos; a veces visita jardines. Su tamaño y forma es muy similar al Common Chaffinch, pero tiene cabeza de color negro a grisáceo salpicado, pecho naranja y pico mayoritariamente amarillento en invierno. El obispillo es llamativamente blanco principalmente en vuelo.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El pinzón real es una especie de ave paseriforme de la familia Fringillidae caracterizada por poseer vientre blanco, alas oscuras con una franja alar inferior blanquecina y superior naranja, cabeza parda y pico amarillo. Es menos común que el pinzón vulgar, pero puede vérsele reunido en bandadas conspicuas en Europa Central, sobre todo en invierno.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Fringilla_montifringilla",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2494441,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2494441&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22720041"
+}

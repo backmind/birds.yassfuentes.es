@@ -1,0 +1,12 @@
+{
+  "prose": "El Pinzón Real (Fringilla montifringilla) es un viajero incansable que personifica el pulso de las estaciones en el hemisferio norte. Durante los meses estivales, esta ave habita los densos bosques de abedules de Escandinavia y las vastas extensiones de Rusia, donde la luz del sol apenas se oculta. Sin embargo, con la llegada de los primeros fríos, emprende una migración hacia el sur del continente europeo, buscando refugio en hábitats arbolados más amables, campos de cultivo y setos. Es en el invierno cuando su comportamiento social se vuelve más evidente; a diferencia de otros parientes más solitarios, el Pinzón Real tiene la asombrosa capacidad de congregarse en bandadas inmensas, a veces compuestas por miles de individuos, que se desplazan al unísono como una marea viviente sobre los campos en busca de sustento.\n\nAunque a menudo se le confunde con su pariente cercano, el pinzón vulgar, el Pinzón Real posee rasgos distintivos que revelan su identidad ante el observador atento. Su pecho de un naranja cálido contrasta con el vientre blanco puro, y en invierno, su pico adquiere una tonalidad amarillenta muy característica. Una de las curiosidades más fascinantes de esta especie es su estrecha relación con los hayedos; en años de gran producción de semillas de haya, las poblaciones pueden concentrarse de forma masiva en áreas específicas, desempeñando un papel crucial en la dinámica del bosque. Al levantar el vuelo, el Pinzón Real revela su secreto mejor guardado: un obispillo de un blanco níveo que brilla intensamente, permitiendo identificarlo incluso a distancia mientras se pierde entre la espesura de las ramas o cruza los cielos invernales.",
+  "identification": [
+    "Pecho de color naranja intenso que contrasta con un vientre blanco puro.",
+    "Obispillo blanco muy llamativo, especialmente visible cuando el ave emprende el vuelo.",
+    "Pico de color mayoritariamente amarillento durante los meses de invierno.",
+    "Cabeza con una coloración que varía entre el negro y un grisáceo moteado.",
+    "Alas oscuras con una franja alar superior naranja y una inferior blanquecina."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-17T04:50:28Z"
+}

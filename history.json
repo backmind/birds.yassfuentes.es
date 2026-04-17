@@ -53,6 +53,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
       "photographer": "José Frade",
       "attribution": "José Frade / Macaulay Library"
+    },
+    {
+      "speciesCode": "brambl",
+      "comName": "Pinzón Real",
+      "sciName": "Fringilla montifringilla",
+      "date": "2026-04-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257644141/900",
+      "photographer": "David Irving",
+      "attribution": "David Irving / Macaulay Library"
     }
   ]
 }
