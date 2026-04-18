@@ -62,6 +62,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257644141/900",
       "photographer": "David Irving",
       "attribution": "David Irving / Macaulay Library"
+    },
+    {
+      "speciesCode": "eursta",
+      "comName": "Estornino Pinto",
+      "sciName": "Sturnus vulgaris",
+      "date": "2026-04-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303928891/900",
+      "photographer": "Matt Davis",
+      "attribution": "Matt Davis / Macaulay Library"
     }
   ]
 }
