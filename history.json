@@ -71,6 +71,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303928891/900",
       "photographer": "Matt Davis",
       "attribution": "Matt Davis / Macaulay Library"
+    },
+    {
+      "speciesCode": "misthr1",
+      "comName": "Zorzal Charlo",
+      "sciName": "Turdus viscivorus",
+      "date": "2026-04-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/618569590/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
     }
   ]
 }

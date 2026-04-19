@@ -1,0 +1,11 @@
+{
+  "prose": "El Zorzal Charlo (Turdus viscivorus) se alza como uno de los miembros más corpulentos y robustos de su familia en los paisajes de Europa y Asia. A diferencia de otros parientes más tímidos, este zorzal muestra una notable predilección por los espacios abiertos, aventurándose con frecuencia en pastizales y márgenes herbáceos lejos de la protección de la espesura. Su porte es erguido y vigilante, habitando tanto en bosques densos como en parques y páramos salpicados de árboles altos. Es un ave que, aunque puede ser poco común en ciertas regiones, se hace notar por su tamaño y su plumaje grisáceo en las partes superiores, que contrasta con un pecho blanquecino profusamente decorado con motas oscuras y redondeadas. En vuelo, revela una silueta pálida y poderosa, distinguiéndose de sus congéneres por las pequeñas puntas blancas que adornan las esquinas de su cola.\n\nEl epíteto específico de esta especie, \"viscivorus\", nos revela una de sus facetas ecológicas más fascinantes: su vínculo con el muérdago. El Zorzal Charlo actúa como un jardinero alado, consumiendo las bayas de esta planta y facilitando la dispersión de sus semillas, asegurando así el ciclo de vida de la planta en las copas de los árboles. Su voz es igualmente distintiva; mientras que su canto posee una melancolía melódica que recuerda a la del mirlo, su reclamo de alarma es un traqueteo seco y áspero, un sonido que corta el aire y advierte de su presencia. Los estudios moleculares han confirmado que su linaje está más estrechamente ligado al zorzal común que al mirlo, consolidando su lugar como una pieza clave en el equilibrio de los ecosistemas forestales y rurales donde desempeña su papel como incansable dispersor de vida.",
+  "identification": [
+    "Tamaño notablemente mayor que otros zorzales, con un plumaje gris-marrón en el dorso y motas redondeadas en el pecho.",
+    "Puntas blancas en las plumas exteriores de la cola, visibles especialmente al despegar o aterrizar.",
+    "Reclamo característico consistente en un traqueteo seco y persistente, muy diferente al de otros tordos.",
+    "En vuelo presenta un aspecto general más pálido y grisáceo que el zorzal común."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-19T04:52:47Z"
+}
