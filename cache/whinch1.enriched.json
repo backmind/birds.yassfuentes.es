@@ -1,0 +1,11 @@
+{
+  "prose": "Con la llegada de los días más largos, la Tarabilla Norteña (Saxicola rubetra) se convierte en una presencia vibrante en los paisajes abiertos de Eurasia. Este pequeño paseriforme muestra una predilección especial por los brezales, las praderas agrestes y los campos donde los helechos y los arbustos bajos ofrecen atalayas perfectas. Su comportamiento es metódico y fascinante de observar: se posa erguida sobre una valla o una rama prominente, escudriñando el entorno con atención. Desde allí, se lanza con precisión hacia el suelo para capturar insectos, realizando a menudo un breve salto antes de regresar a su percha original. Esta silueta compacta y vigilante es el alma de los terrenos baldíos y los pastizales no cultivados, donde su actividad incesante anima el paisaje durante la temporada de cría.\n\nLo que hace a esta especie verdaderamente asombrosa es su naturaleza migratoria. A pesar de su modesto tamaño, la Tarabilla Norteña emprende cada año un viaje épico hacia el África subsahariana para escapar del rigor del invierno septentrional. Es una viajera incansable que depende de la salud de los ecosistemas herbáceos, donde desempeña un papel crucial como controladora natural de poblaciones de insectos. A diferencia de otras aves que buscan la seguridad de las copas de los árboles, ella prefiere la cercanía del suelo para ocultar su nido entre los carrizos y la vegetación densa. Esta elección la hace especialmente sensible a los cambios en el uso de la tierra, convirtiéndola en un símbolo de la importancia de conservar los espacios abiertos y salvajes que conectan dos continentes a través de sus rutas de vuelo.",
+  "identification": [
+    "Llamativa ceja blanca (supercilio) muy marcada y mejillas oscuras en el macho.",
+    "Pecho de color anaranjado cálido que contrasta con el vientre más pálido.",
+    "Bases blancas distintivas a ambos lados de la cola, visibles especialmente durante el vuelo.",
+    "Hábito de posarse en lugares prominentes como postes, vallas o arbustos bajos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-20T05:14:27Z"
+}

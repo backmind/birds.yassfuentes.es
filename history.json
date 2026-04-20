@@ -80,6 +80,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/618569590/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "whinch1",
+      "comName": "Tarabilla Norteña",
+      "sciName": "Saxicola rubetra",
+      "date": "2026-04-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46413781/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
     }
   ]
 }

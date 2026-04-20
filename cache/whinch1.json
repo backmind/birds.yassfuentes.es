@@ -1,0 +1,15 @@
+{
+  "description": "Es un migrante estival presente en la mayor parte de Europa con invernada en África que puede ser común o escasear en alguna zonas. Se encuentra en campos abiertos, páramos y en praderas agrestes, a menudo con helechos. Se posa sobre arbustos y vallas, lanzándose al suelo para alimentarse, donde generalmente salta brevemente antes de volar de regreso a una percha. El macho se caracteriza por sus llamativas cejas blancas, mejillas oscuras y pecho de color anaranjado. La hembra es más apagada pero con un patrón de plumaje que recuerda al del macho, especialmente cejas pálidas y bien marcadas. En vuelo muestra distintivas bases blancas a ambos lados de la cola.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La tarabilla norteña es una especie de ave paseriforme de la familia Muscicapidae propia de Eurasia y África. Es una especie migratoria insectívora que se reproduce en pastizales o herbazales no cultivados de Europa y el Asia paleártica occidental, y pasa el invierno en África. Anida en los carrizos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Saxicola_rubetra",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2492521,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492521&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22710156"
+}
