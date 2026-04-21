@@ -89,6 +89,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46413781/900",
       "photographer": "Ian Davies",
       "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "ibechi2",
+      "comName": "Mosquitero Ibérico",
+      "sciName": "Phylloscopus ibericus",
+      "date": "2026-04-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256730921/900",
+      "photographer": "Manuel Segura Herrero",
+      "attribution": "Manuel Segura Herrero / Macaulay Library"
     }
   ]
 }
