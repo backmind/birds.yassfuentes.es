@@ -1,0 +1,11 @@
+{
+  "prose": "En los vastos horizontes de las praderas y los páramos, donde el viento peina incesantemente la hierba, habita un pequeño viajero de apariencia modesta pero de una resistencia admirable. El Bisbita Pratense (Anthus pratensis) es un ave que ha hecho de los espacios abiertos su hogar, desde las turberas del norte hasta los pastizales más agrestes. Su plumaje, un delicado mosaico de tonos pardos y estriados, le permite desvanecerse entre la vegetación, convirtiéndose en una sombra casi invisible para el ojo inexperto. Sin embargo, cuando se ve obligado a emprender el vuelo, revela su presencia con un aleteo ligeramente ondulante, mostrando por un breve instante los bordes blancos de su cola, como un destello de luz en medio de la sobriedad de su diseño. Es un maestro del camuflaje, cuya vida transcurre a ras de suelo, buscando alimento entre los tallos y las raíces.\n\nA pesar de su apariencia discreta, el Bisbita Pratense desempeña un papel fundamental en el equilibrio de los ecosistemas que habita, actuando como un incansable regulador de las poblaciones de insectos y pequeños invertebrados. Su distribución es asombrosamente amplia, extendiéndose desde las gélidas tierras de Groenlandia y Eurasia occidental hasta las costas del norte de África, lo que demuestra una capacidad de adaptación excepcional a climas muy diversos. Identificarlo en el campo supone un reto incluso para los observadores más experimentados, pues su fisonomía es muy similar a la de otros miembros de su familia. La clave reside a menudo en la combinación de su hábitat preferido y su voz característica, un reclamo fino y agudo que rompe el silencio de los campos abiertos. En la sencillez de su forma y en su persistencia ante los elementos, encontramos la esencia misma de la vida silvestre que prospera en la inmensidad de la llanura.",
+  "identification": [
+    "Plumaje pardo con marcadas estrías oscuras en el dorso y moteado denso en el pecho y los flancos.",
+    "Rectrices externas de la cola de color blanco, visibles principalmente durante el vuelo.",
+    "Vuelo característico con una trayectoria ligeramente ondulante al ser espantado.",
+    "Presencia predominante en hábitats abiertos como pastizales, páramos y praderas con vegetación baja."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-22T04:47:52Z"
+}

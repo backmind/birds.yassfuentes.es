@@ -98,6 +98,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256730921/900",
       "photographer": "Manuel Segura Herrero",
       "attribution": "Manuel Segura Herrero / Macaulay Library"
+    },
+    {
+      "speciesCode": "meapip1",
+      "comName": "Bisbita Pratense",
+      "sciName": "Anthus pratensis",
+      "date": "2026-04-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257684731/900",
+      "photographer": "Anne Carrington-Cotton",
+      "attribution": "Anne Carrington-Cotton / Macaulay Library"
     }
   ]
 }
