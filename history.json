@@ -107,6 +107,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257684731/900",
       "photographer": "Anne Carrington-Cotton",
       "attribution": "Anne Carrington-Cotton / Macaulay Library"
+    },
+    {
+      "speciesCode": "afbtit2",
+      "comName": "Herrerillo Canario",
+      "sciName": "Cyanistes teneriffae",
+      "date": "2026-04-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/214988571/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "prose": "En los archipiélagos atlánticos y a lo largo del norte de África, habita una criatura de una vivacidad asombrosa: el Herrerillo Canario (Cyanistes teneriffae). Este pequeño paseriforme, aunque emparentado con el herrerillo común europeo, posee una identidad cromática propia y profunda. Se le encuentra frecuentando tanto los frondosos bosques de laurisilva y pinares como los jardines más cercanos a la actividad humana. Su comportamiento es una exhibición de agilidad constante; se desplaza entre las ramas con movimientos nerviosos y precisos, a menudo colgándose boca abajo para inspeccionar el envés de las hojas en busca de pequeños insectos. Lo que hace a esta especie verdaderamente notable es su adaptación a los ecosistemas insulares, donde ha evolucionado en una serie de subespecies distintas, cada una ajustada a las particularidades de su entorno específico.\n\nLa paleta de colores del Herrerillo Canario es un testimonio de su singularidad, con un azul índigo en el píleo y el dorso mucho más oscuro e intenso que el de sus parientes continentales, careciendo por completo de los tonos verdosos habituales en otras especies de la familia Paridae. Un aspecto fascinante de su biología es la extraordinaria diversidad de su lenguaje. Los cantos y reclamos varían de forma drástica entre las diferentes islas, creando dialectos locales que los ornitólogos estudian con fascinación. Como incansable insectívoro, desempeña un papel ecológico vital en el control de poblaciones de invertebrados, manteniendo el equilibrio en los ecosistemas donde habita. Su presencia es un recordatorio de cómo el aislamiento geográfico puede esculpir la evolución, dando lugar a formas de vida que son, a la vez, familiares y profundamente únicas.",
+  "identification": [
+    "Píleo y partes superiores de un azul índigo intenso, notablemente más oscuro que en el herrerillo común.",
+    "Ausencia total de tonos verdes en el plumaje del dorso.",
+    "Brida o línea ocular más pálida y estrecha que en especies similares.",
+    "Gran variabilidad en el canto, con repertorios que cambian significativamente entre las distintas subespecies insulares.",
+    "Algunas poblaciones carecen de la franja blanca característica en las alas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-23T04:52:06Z"
+}
