@@ -116,6 +116,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/214988571/900",
       "photographer": "Daniel Pettersson",
       "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "bearee1",
+      "comName": "Bigotudo",
+      "sciName": "Panurus biarmicus",
+      "date": "2026-04-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
+      "photographer": "Josep del Hoyo",
+      "attribution": "Josep del Hoyo / Macaulay Library"
     }
   ]
 }

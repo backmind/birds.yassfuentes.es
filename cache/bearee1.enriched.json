@@ -1,0 +1,11 @@
+{
+  "prose": "En la quietud de los extensos cañaverales, donde el viento susurra entre los tallos de carrizo, habita una criatura de una elegancia singular: el Bigotudo (Panurus biarmicus). Esta pequeña ave paseriforme se desplaza con una agilidad asombrosa, trepando y saltando entre la densa vegetación palustre con una destreza acrobática. Aunque suele ser esquivo y prefiere la protección de la espesura, en ocasiones se aventura hacia los bordes de las manchas de vegetación o desciende al suelo fangoso para alimentarse. Su vuelo es inconfundible, manteniéndose a baja altura sobre los juncos con un aleteo rápido y zumbante que delata su presencia antes incluso de ser visto. Es un ave profundamente social que rara vez se encuentra sola, moviéndose a menudo en pequeños grupos que mantienen un contacto constante mientras exploran su intrincado mundo vertical.\n\nLo que hace al Bigotudo verdaderamente excepcional es su posición taxonómica; es el único representante de su propia familia, Panuridae, tras haber desconcertado a los científicos durante décadas por sus similitudes externas con los carboneros y los mitos. El macho es una joya visual, luciendo una cabeza de un suave gris azulado de la que parten dos largas y marcadas franjas negras a modo de bigotes, que contrastan con su plumaje canela y su larga cola. Una de sus adaptaciones más fascinantes es su capacidad para alterar su fisiología según la estación: durante los meses cálidos se nutre de insectos, pero al llegar el invierno, su sistema digestivo se adapta para procesar las duras semillas de los carrizos. Esta versatilidad le permite permanecer en los humedales durante todo el año, actuando como un eslabón vital en la red trófica de estos ecosistemas.",
+  "identification": [
+    "Plumaje brillante de color marrón canela con una cola notablemente larga y pico amarillento.",
+    "El macho presenta una cabeza gris azulada con dos prominentes 'bigotes' negros que descienden desde los ojos.",
+    "Vuelo bajo y directo sobre la vegetación con un batir de alas rápido y ruidoso.",
+    "Suele observarse en pequeños grupos sociales dentro de cañaverales y zonas de vegetación palustre densa."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-24T04:56:14Z"
+}
