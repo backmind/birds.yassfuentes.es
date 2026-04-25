@@ -125,6 +125,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
       "photographer": "Josep del Hoyo",
       "attribution": "Josep del Hoyo / Macaulay Library"
+    },
+    {
+      "speciesCode": "woosan",
+      "comName": "Andarríos Bastardo",
+      "sciName": "Tringa glareola",
+      "date": "2026-04-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253697141/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
     }
   ]
 }
