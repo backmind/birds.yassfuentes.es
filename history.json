@@ -134,6 +134,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253697141/900",
       "photographer": "Marco Valentini",
       "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "blakit1",
+      "comName": "Milano Negro",
+      "sciName": "Milvus migrans",
+      "date": "2026-04-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45127481/900",
+      "photographer": "PMDE ESTEVES",
+      "attribution": "PMDE ESTEVES / Macaulay Library"
     }
   ]
 }
