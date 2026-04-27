@@ -1,0 +1,15 @@
+{
+  "description": "Estival en Europa con invernada en la región mediterránea y África. Bastante común pero frecuentemente localizado en determinadas zonas. Principalmente costero, se distribuye en playas arenosas, marismas secas y en salinas, habitualmente cerca del agua, también localmente en aguas interiores. En migración se une a bandos de otras limícolas, como Common Ringed Plover, Sanderling y Dunlin. Bastante pálido en conjunto, con partes superiores de color arenoso, patas grisáceas y pico más bien fino. El plumaje nupcial presenta una máscara negra y trazos negros a ambos lados del pecho (sin formar una banda continua). Fuera de época de cría el plumaje negro es sustituido por plumaje marrón.",
+  "description_source": "ebird",
+  "bow_intro": "Se reproduce en el Paleártico occidental hasta el este de China, el sur de Japón y las islas Ryukyu; pasa el invierno en África, el sur de Asia, Filipinas, Indonesia y Borneo.",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Kentish_plover",
+  "wikipedia_language": "en",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9372299,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9372299&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}

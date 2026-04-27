@@ -1,0 +1,11 @@
+{
+  "prose": "En los bordes donde la arena se encuentra con el oleaje, habita una criatura de una elegancia sutil y una resistencia asombrosa. El Chorlitejo Patinegro (Anarhynchus alexandrinus) es un pequeño limícola que prefiere los espacios abiertos de las playas arenosas, las salinas y las marismas secas. Su presencia es un testimonio de la vida en entornos dinámicos y, a menudo, hostiles. Con un plumaje de tonos arenosos que se funde perfectamente con el sustrato, este ave se desplaza con una cadencia característica: breves carreras veloces seguidas de paradas repentinas para escudriñar el suelo en busca de alimento. Durante la época de cría, los machos exhiben marcas negras distintivas en la frente y a los lados del pecho, que no llegan a cerrarse en un collar completo, dándoles un aspecto distinguido mientras defienden sus territorios en el Paleártico.\n\nLa estrategia de supervivencia del Chorlitejo Patinegro es una lección de minimalismo. Sus nidos no son más que pequeñas depresiones en la arena, donde los huevos, moteados y discretos, confían plenamente en el mimetismo para escapar de los depredadores. Esta vulnerabilidad los convierte en centinelas ecológicos; su éxito reproductivo depende directamente de la tranquilidad y la integridad de los ecosistemas costeros. Al llegar el invierno, muchos emprenden viajes formidables hacia las costas de África o el sur de Asia, integrándose en bandos mixtos con otras especies como el Correlimos Común o el Chorlitejo Grande. En estos grupos, el Chorlitejo Patinegro destaca por su silueta pálida y su pico fino, recordándonos que, incluso en la inmensidad de las rutas migratorias globales, cada pequeña vida desempeña un papel crucial en el equilibrio de los humedales y las costas del mundo.",
+  "identification": [
+    "Plumaje dorsal de color arenoso pálido que proporciona un camuflaje excelente en suelos salinos y arenosos.",
+    "Manchas negras a ambos lados del pecho en época nupcial que no llegan a unirse en el centro.",
+    "Patas de color grisáceo oscuro y un pico negro, fino y corto.",
+    "Comportamiento de alimentación característico: carreras rápidas seguidas de paradas bruscas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-27T05:25:37Z"
+}

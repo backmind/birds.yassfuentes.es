@@ -143,6 +143,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45127481/900",
       "photographer": "PMDE ESTEVES",
       "attribution": "PMDE ESTEVES / Macaulay Library"
+    },
+    {
+      "speciesCode": "kenplo1",
+      "comName": "Chorlitejo Patinegro",
+      "sciName": "Anarhynchus alexandrinus",
+      "date": "2026-04-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/351106011/900",
+      "photographer": "Mário Estevens",
+      "attribution": "Mário Estevens / Macaulay Library"
     }
   ]
 }
