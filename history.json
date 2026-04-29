@@ -161,6 +161,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45223631/900",
       "photographer": "Patrick J. Blake",
       "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurgre1",
+      "comName": "Verderón Común",
+      "sciName": "Chloris chloris",
+      "date": "2026-04-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/621602853/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
     }
   ]
 }
