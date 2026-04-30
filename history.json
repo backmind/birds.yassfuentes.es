@@ -170,6 +170,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/621602853/900",
       "photographer": "Santiago Caballero Carrera",
       "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "coatit2",
+      "comName": "Carbonero Garrapinos",
+      "sciName": "Periparus ater",
+      "date": "2026-04-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
+      "photographer": "Adrien Mauss",
+      "attribution": "Adrien Mauss / Macaulay Library"
     }
   ]
 }
