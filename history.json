@@ -179,6 +179,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
       "photographer": "Adrien Mauss",
       "attribution": "Adrien Mauss / Macaulay Library"
+    },
+    {
+      "speciesCode": "whisto1",
+      "comName": "Cigüeña Blanca",
+      "sciName": "Ciconia ciconia",
+      "date": "2026-05-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254730691/900",
+      "photographer": "Kuzey Cem Kulaçoğlu",
+      "attribution": "Kuzey Cem Kulaçoğlu / Macaulay Library"
     }
   ]
 }
