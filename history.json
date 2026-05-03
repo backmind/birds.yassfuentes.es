@@ -197,6 +197,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168487271/900",
       "photographer": "Mouser Williams",
       "attribution": "Mouser Williams / Macaulay Library"
+    },
+    {
+      "speciesCode": "grnwoo3",
+      "comName": "Pito Ibérico",
+      "sciName": "Picus sharpei",
+      "date": "2026-05-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/171648691/900",
+      "photographer": "Jorge García Mora",
+      "attribution": "Jorge García Mora / Macaulay Library"
     }
   ]
 }
