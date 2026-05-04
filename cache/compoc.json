@@ -1,0 +1,15 @@
+{
+  "description": "Es bastante frecuente en todo tipo de humedales, desde marismas y lagos con carrizo a embalses abiertos. En invierno también es frecuente en el mar, especialmente cuando los humedales interiores se congelan. Normalmente se encuentra en bandos, a menudo asociados con bandos invernantes de Tufted Duck. Se alimenta principalmente buceando. El macho tiene cabeza rojizo oscuro, cuerpo gris pálido que contrasta con el pecho de color negro. El pico de color oscuro, presenta una ancha banda azulada. La hembra tiene un aspecto en general pardo grisáceo con marcas difusas en la cabeza. La frente forma un escalón con el pico y el pico de color gris presenta una banda pálida cerca de la punta. En vuelo tiene un aspecto grisáceo (sin banda alar blanca).",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El porrón europeo o porrón común es una especie de ave anseriforme de la familia Anatidae que vive en Eurasia y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aythya_ferina",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498255,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498255&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680358"
+}

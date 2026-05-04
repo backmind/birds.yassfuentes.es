@@ -206,6 +206,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/171648691/900",
       "photographer": "Jorge García Mora",
       "attribution": "Jorge García Mora / Macaulay Library"
+    },
+    {
+      "speciesCode": "compoc",
+      "comName": "Porrón Europeo",
+      "sciName": "Aythya ferina",
+      "date": "2026-05-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241987301/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
     }
   ]
 }

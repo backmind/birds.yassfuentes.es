@@ -1,0 +1,11 @@
+{
+  "prose": "Bajo la superficie de las aguas tranquilas, el Porrón Europeo (Aythya ferina) se desenvuelve con una elegancia sumergida que pocos alcanzan a ver. Este pato buceador es un habitante versátil de los humedales, encontrando su hogar tanto en marismas protegidas por carrizales como en la inmensidad de los embalses abiertos. Su comportamiento es marcadamente social; es habitual observarlos formando densos bandos que flotan con serenidad, a menudo compartiendo espacio con otras especies de anátidas. Cuando el rigor del invierno congela los lagos interiores, estas aves demuestran su resistencia desplazándose hacia las costas marinas, asegurando así su supervivencia en un entorno en constante cambio a lo largo de Eurasia y África.\n\nLa fisonomía del macho es un estudio de contrastes cromáticos: una cabeza de un rojo profundo que destaca sobre un pecho negro azabache, mientras el resto del cuerpo luce un gris pálido casi plateado. Esta especie desempeña una función ecológica vital al remover los sedimentos del fondo durante sus inmersiones en busca de alimento, facilitando el ciclo de nutrientes en el ecosistema acuático. A diferencia de otros patos, al emprender el vuelo no revelan franjas blancas en sus alas, manteniendo una sobriedad grisácea que los identifica incluso a la distancia. Su silueta, con esa frente que desciende en un ángulo característico hacia el pico, es el testimonio de una evolución perfectamente adaptada a la vida entre dos mundos: el aire y las profundidades del agua dulce.",
+  "identification": [
+    "Macho con cabeza rojiza oscura, pecho negro y cuerpo de un gris pálido contrastado.",
+    "Pico oscuro con una banda ancha de color azulado en el centro.",
+    "La hembra es de tonos pardo grisáceos con una frente que forma un escalón marcado hacia el pico.",
+    "En vuelo, las alas son uniformemente grisáceas, sin presentar bandas blancas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-04T05:36:25Z"
+}
