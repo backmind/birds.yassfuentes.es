@@ -1,0 +1,11 @@
+{
+  "prose": "La Culebrera Europea (Circaetus gallicus) es una rapaz de presencia imponente y silueta inconfundible que surca los cielos de espacios abiertos y laderas soleadas. Con una envergadura notable y alas excepcionalmente anchas, esta ave destaca por su cabeza voluminosa y una cola proporcionalmente corta que le otorga un aspecto algo desgarbado en vuelo. Sin embargo, su torpeza es solo aparente; es una maestra de las corrientes térmicas y posee la asombrosa capacidad de cernirse, permaneciendo casi estática en el aire mediante un aleteo vigoroso contra el viento. Desde esa posición privilegiada, escudriña el terreno con una visión prodigiosa, buscando cualquier movimiento entre la vegetación baja de matorrales y pastizales donde suele establecer sus dominios de caza.\n\nLo que hace verdaderamente singular a esta especie es su especialización dietética, pues se alimenta casi exclusivamente de serpientes y otros reptiles. Para enfrentarse a presas potencialmente peligrosas, la naturaleza la ha dotado de adaptaciones fascinantes: sus patas están cubiertas de escamas gruesas y carecen de plumas en la parte inferior, lo que le proporciona una armadura natural contra las posibles mordeduras. Su rostro, con grandes ojos amarillos orientados hacia el frente, recuerda inevitablemente al de un búho, una característica que le permite calcular con precisión milimétrica la distancia antes de lanzarse en un picado fulminante. Al controlar las poblaciones de ofidios, la culebrera europea desempeña un papel ecológico fundamental, manteniendo el equilibrio en los ecosistemas donde la presencia de estos reptiles es abundante.",
+  "identification": [
+    "Cabeza de gran tamaño con ojos amarillos frontales que le dan un aspecto similar al de un búho.",
+    "Partes inferiores del cuerpo y de las alas de coloración muy clara, contrastando con la cabeza oscura en adultos.",
+    "Patas desprovistas de plumas en los tarsos, adaptadas para la captura de reptiles.",
+    "Hábito frecuente de cernirse en el aire, permaneciendo estática mediante un aleteo constante contra el viento."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-05T05:16:45Z"
+}

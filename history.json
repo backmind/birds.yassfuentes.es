@@ -215,6 +215,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241987301/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "shteag1",
+      "comName": "Culebrera Europea",
+      "sciName": "Circaetus gallicus",
+      "date": "2026-05-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54251601/900",
+      "photographer": "Batmunkh Davaasuren",
+      "attribution": "Batmunkh Davaasuren / Macaulay Library"
     }
   ]
 }
