@@ -1,0 +1,11 @@
+{
+  "prose": "El Ostrero Euroasiático (Haematopus ostralegus) es una presencia inconfundible en los paisajes costeros de Eurasia y África. Con su plumaje de un contraste absoluto entre el negro azabache y el blanco puro, esta limícola de gran tamaño destaca sobre la arena de las playas y los bajíos fangosos. Su rasgo más distintivo es, sin duda, su pico largo y robusto de un color rojo anaranjado vibrante, que utiliza con una precisión asombrosa para sondear el sedimento. Es un ave ruidosa y sociable, capaz de congregarse en bandos de cientos de individuos durante los meses de invierno, transformando las orillas en un hervidero de actividad y reclamos penetrantes. Aunque prefiere los entornos salinos, no es raro encontrarlo en praderas cercanas a la costa o incluso en humedales del interior, donde su silueta robusta y sus patas rosáceas lo delatan desde la distancia.\n\nA pesar de su nombre común, el Ostrero Euroasiático rara vez se alimenta de ostras; su dieta se centra principalmente en mejillones y berberechos. Para acceder a su interior, ha desarrollado técnicas fascinantes: algunos individuos actúan como martilleadores, rompiendo la concha con golpes precisos, mientras que otros son cortadores, deslizando su pico entre las valvas para cortar el músculo aductor del molusco. Esta especialización convierte al Ostrero Euroasiático en un regulador ecológico fundamental de las poblaciones de bivalvos en las zonas intermareales. En vuelo, la especie revela una ancha franja blanca en las alas y un obispillo del mismo color que contrasta con la banda terminal negra de su cola, ofreciendo un espectáculo visual dinámico que subraya su papel como uno de los habitantes más carismáticos y vitales de los ecosistemas litorales.",
+  "identification": [
+    "Plumaje de gran contraste en blanco y negro con patas gruesas rosáceas.",
+    "Pico largo, recto y de un color rojo anaranjado muy intenso.",
+    "En vuelo presenta una ancha franja alar blanca y el obispillo blanco.",
+    "Comportamiento ruidoso con reclamos penetrantes y frecuentes."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-06T05:30:52Z"
+}

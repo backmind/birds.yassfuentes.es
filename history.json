@@ -224,6 +224,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54251601/900",
       "photographer": "Batmunkh Davaasuren",
       "attribution": "Batmunkh Davaasuren / Macaulay Library"
+    },
+    {
+      "speciesCode": "euroys1",
+      "comName": "Ostrero Euroasiático",
+      "sciName": "Haematopus ostralegus",
+      "date": "2026-05-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168484841/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }
