@@ -233,6 +233,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168484841/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurbul",
+      "comName": "Camachuelo Común",
+      "sciName": "Pyrrhula pyrrhula",
+      "date": "2026-05-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257629601/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
     }
   ]
 }

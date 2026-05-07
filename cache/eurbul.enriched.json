@@ -1,0 +1,11 @@
+{
+  "prose": "En los linderos de los bosques mixtos y en la quietud de los huertos de Europa y el Asia templada, habita un ave de una elegancia discreta: el Camachuelo Común (Pyrrhula pyrrhula). A pesar de su plumaje llamativo, es una criatura cautelosa que prefiere pasar inadvertida entre el follaje denso. El macho es un verdadero espectáculo de color, luciendo un pecho y mejillas de un rosa intenso que contrasta con su espalda azul grisácea y una capucha de un negro azabache. La hembra, aunque de tonos más apagados y pardos, comparte esa misma capucha distintiva y un pico negro, corto y robusto, diseñado con precisión para su dieta especializada. Se les suele observar en parejas o en pequeños grupos familiares, moviéndose con una calma casi solemne entre los setos y las parcelas boscosas, evitando las prisas de otras especies más gregarias.\n\nLo que hace verdaderamente singular al Camachuelo Común es su comportamiento alimentario y su voz. A diferencia de otros fringílidos, rara vez se aventura en los comederos artificiales, prefiriendo buscar con paciencia brotes tiernos y frutos silvestres directamente de las ramas. Su presencia suele delatarse no por la vista, sino por el oído; emite un silbido suave, melancólico y algo lastimero que resuena con una pureza cristalina en el aire. En vuelo, revela un rasgo de campo inconfundible: una mancha blanca pura en el obispillo que destaca vivamente contra el resto de su plumaje. Con una población europea que se estima entre los quince y veintiocho millones de ejemplares, este habitante de los linderos desempeña un papel sutil pero constante en la dinámica de los bosques, recordándonos que la belleza más profunda a menudo requiere de una observación atenta y silenciosa.",
+  "identification": [
+    "Capucha negra azabache y pico negro, corto y de aspecto rechoncho.",
+    "Pecho y mejillas de un color rosado o rojizo vibrante en los machos.",
+    "Mancha blanca muy patente en el obispillo, especialmente visible durante el vuelo.",
+    "Canto característico consistente en un silbido suave, pausado y de tono melancólico."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-07T05:33:25Z"
+}
