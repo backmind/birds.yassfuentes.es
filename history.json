@@ -242,6 +242,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257629601/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "firecr1",
+      "comName": "Reyezuelo Listado",
+      "sciName": "Regulus ignicapilla",
+      "date": "2026-05-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45281881/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
     }
   ]
 }
