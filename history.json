@@ -251,6 +251,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45281881/900",
       "photographer": "Patrick J. Blake",
       "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "combuz1",
+      "comName": "Busardo Ratonero",
+      "sciName": "Buteo buteo",
+      "date": "2026-05-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46432381/900",
+      "photographer": "Omar alshaheen",
+      "attribution": "Omar alshaheen / Macaulay Library"
     }
   ]
 }

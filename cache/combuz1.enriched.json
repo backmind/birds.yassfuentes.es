@@ -1,0 +1,11 @@
+{
+  "prose": "El Busardo Ratonero (Buteo buteo) es una de las rapaces más emblemáticas y adaptables de la región paleártica. Con una silueta compacta y robusta, es frecuente observarlo posado con paciencia en los postes de las cercas o en las ramas de los árboles que bordean los campos de cultivo. Su vuelo es una lección de aprovechamiento de las corrientes térmicas; remonta en amplios círculos, manteniendo sus alas anchas ligeramente elevadas en una sutil forma de \"V\". Aunque prefiere los mosaicos de paisajes que combinan zonas boscosas para anidar con terrenos abiertos para cazar, su versatilidad le permite prosperar desde los brezales y páramos hasta parques urbanos con arbolado de buen porte. Es un maestro de la observación, capaz de permanecer inmóvil durante largos periodos antes de lanzarse en un planeo preciso hacia su objetivo.\n\nLo que hace verdaderamente fascinante a esta especie es la asombrosa variabilidad de su plumaje, que oscila entre marrones muy oscuros y tonos casi blancos, un rasgo que a menudo desafía incluso a los observadores más experimentados. Como depredador oportunista, desempeña un papel ecológico fundamental en el equilibrio de los ecosistemas, adaptando su dieta según la estación y la abundancia local. Si bien los pequeños roedores y conejos constituyen la base de su sustento, no desprecia aves, reptiles e incluso grandes insectos o lombrices de tierra que busca forrajeando directamente en el suelo. Esta capacidad de adaptación, sumada a su carácter tanto residente como migratorio en distintas poblaciones, lo convierte en un superviviente nato que conecta los bosques caducifolios con las estepas y las zonas de invernada en África y el subcontinente indio.",
+  "identification": [
+    "Plumaje extremadamente variable, que suele presentar una banda pectoral más clara y un fino barreado oscuro en la cola.",
+    "Silueta robusta con alas anchas y relativamente cortas, y una cola que se ve redondeada al desplegarse.",
+    "Comportamiento de vuelo característico, remontando en círculos con las puntas de las alas ligeramente hacia arriba.",
+    "En los ejemplares adultos, la cola muestra un borde posterior oscuro notablemente más ancho."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-09T05:23:14Z"
+}
