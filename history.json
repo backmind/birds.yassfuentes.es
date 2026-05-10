@@ -260,6 +260,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46432381/900",
       "photographer": "Omar alshaheen",
       "attribution": "Omar alshaheen / Macaulay Library"
+    },
+    {
+      "speciesCode": "martit2",
+      "comName": "Carbonero Palustre",
+      "sciName": "Poecile palustris",
+      "date": "2026-05-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168811611/900",
+      "photographer": "Javier Robres",
+      "attribution": "Javier Robres / Macaulay Library"
     }
   ]
 }
