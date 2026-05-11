@@ -269,6 +269,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168811611/900",
       "photographer": "Javier Robres",
       "attribution": "Javier Robres / Macaulay Library"
+    },
+    {
+      "speciesCode": "ortbun1",
+      "comName": "Escribano Hortelano",
+      "sciName": "Emberiza hortulana",
+      "date": "2026-05-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169221351/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
     }
   ]
 }
