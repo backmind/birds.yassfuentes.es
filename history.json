@@ -278,6 +278,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169221351/900",
       "photographer": "Daniel Pettersson",
       "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurwoo",
+      "comName": "Chocha Perdiz",
+      "sciName": "Scolopax rusticola",
+      "date": "2026-05-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55023941/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
     }
   ]
 }

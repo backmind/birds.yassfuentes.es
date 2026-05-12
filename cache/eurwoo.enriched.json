@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra de los bosques caducifolios, donde el suelo se cubre de un denso manto de hojas secas, habita una de las aves más discretas y fascinantes: la Chocha Perdiz (Scolopax rusticola). Su plumaje, un intrincado mosaico de tonos pardos, rojizos y ocres, le otorga un camuflaje casi perfecto, permitiéndole fundirse con el entorno forestal durante el día. Es un ave de hábitos principalmente crepusculares y nocturnos; mientras la luz se desvanece, abandona el refugio de la arboleda para buscar alimento en zonas de pasto cercanas. Al ser sorprendida, levanta el vuelo con una rapidez asombrosa, generalmente en silencio y muy cerca del observador. Durante la primavera, los machos protagonizan un espectáculo singular al anochecer, realizando vuelos de cortejo conocidos como “roding” o “croule”, recortando su silueta contra el cielo crepuscular mientras emiten su canto característico.\n\nLa anatomía de la Chocha Perdiz está finamente adaptada a su estilo de vida especializado. Posee un pico largo y recto, una herramienta de precisión diseñada para sondear el suelo húmedo en busca de invertebrados. Sus ojos, situados lateralmente en una cabeza redondeada, le proporcionan un campo de visión excepcionalmente amplio, vital para detectar amenazas mientras se alimenta. Es una especie migradora parcial; las poblaciones del norte de Europa se desplazan hacia latitudes más templadas cuando el frío endurece el suelo, dificultando su sustento. Curiosamente, su silueta en vuelo, con alas anchas y redondeadas, recuerda a la de una rapaz nocturna, una similitud que acentúa su carácter misterioso. Como habitante de los ecosistemas forestales y de montaña, su presencia refleja la riqueza de los suelos y la tranquilidad de los bosques que habita.",
+  "identification": [
+    "Pico notablemente largo y recto, adaptado para el sondeo del suelo.",
+    "Plumaje críptico marrón y rojizo con gruesas barras transversales oscuras en la corona.",
+    "Alas anchas y redondeadas que en vuelo evocan la silueta de una rapaz nocturna.",
+    "Vuelo de cortejo crepuscular en primavera emitiendo un sonido rítmico característico."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-12T05:40:05Z"
+}
