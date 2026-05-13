@@ -1,0 +1,15 @@
+{
+  "description": "Es común o muy común en hábitats arbolados y matorrales, incluidos jardines, donde a veces visita comederos en invierno. Inverna en pequeño número en Europa occidental pero la mayoría migra al sur de la región mediterránea. Se trata de un warbler bastante característica y corpulenta. El macho es grisáceo uniforme en general con capirote negro que le da nombre mientras que la hembra y el juvenil tiene tonos uniformes, ligeramente más pardos en general y con capirote castaño oxidado. Su canto es un gorjeo bastante fuerte y variado, a menudo estridente.",
+  "description_source": "ebird",
+  "bow_intro": "El Eurasian Blackcap es una de las aves más abundantes de Europa, con una población estimada de 25-50 millones de parejas reproductoras. Sin embargo, debido a su preferencia por la vegetación densa y a que en general evita las zonas urbanas intensivas, no se encuentra entre las aves más familiares de Europa. La especie se reproduce en diversos hábitats forestales y de matorral, como bosques latifoliados y plantaciones, bosques de ribera, bosques de coníferas montanos, huertos y jardines. Durante la época no reproductora, frecuenta hábitats más abiertos, como maquis y garriga, olivares y sabana, y durante la migración puede encontrarse en cualquier hábitat con vegetación. La dieta de la especie consiste tanto en artrópodos como en frutos. Aunque busca principalmente insectos, arañas y otras criaturas pequeñas durante la temporada reproductiva, diversifica su dieta durante la migración y los periodos no reproductivos para incluir frutos blandos pequeños y grandes, ya sean autóctonos o proporcionados por el hombre. En el área de reproducción de Eurasian Blackcap se reconocen cinco subespecies, aunque la variación geográfica de su plumaje es muy leve y en gran medida clinal, y los límites de las subespecies están poco marcados. Las más notables son las subespecies presentes en las islas atlánticas: S. a. gularis , que se reproduce en las islas Azores y Cabo Verde, y S. a. heineken , que se reproduce en Madeira y las islas Canarias, así como en toda Iberia y el noroeste de África. En la población reproductora de las islas atlánticas aparece con mayor frecuencia un morfo oscuro único.",
+  "taxonomy": {},
+  "wikipedia_summary": "La curruca capirotada es una especie de ave paseriforme del género Sylvia dentro de la familia Sylviidae. Es un pájaro de pequeño tamaño de color sobrio y discreto, canto agradable, vuelo ágil, comportamiento activo e inquieto, que se alimenta de insectos y frutas. Habita principalmente en sotobosques y está ampliamente distribuido por Europa. Se trata de una curruca frecuente, y localmente abundante, que está muy repartida por toda España.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Sylvia_atricapilla",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2492956,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492956&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716901"
+}
