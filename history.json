@@ -305,6 +305,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46493931/900",
       "photographer": "Ian Davies",
       "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "rebcho1",
+      "comName": "Chova Piquirroja",
+      "sciName": "Pyrrhocorax pyrrhocorax",
+      "date": "2026-05-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54017551/900",
+      "photographer": "Ricardo Salgueiro",
+      "attribution": "Ricardo Salgueiro / Macaulay Library"
     }
   ]
 }
