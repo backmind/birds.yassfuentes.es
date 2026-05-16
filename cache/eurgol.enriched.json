@@ -1,0 +1,11 @@
+{
+  "prose": "El Jilguero Europeo (Carduelis carduelis) es una de las aves más carismáticas y coloridas que habitan en los paisajes abiertos del Paleártico occidental. Con una presencia que se extiende desde los bosques poco densos hasta los parques urbanos y tierras de cultivo, este pequeño fringílido destaca por su inconfundible máscara de color rojo intenso y sus llamativas franjas alares de un amarillo dorado que relucen durante el vuelo. Su comportamiento es marcadamente social; durante los meses de otoño e invierno, es habitual observar cómo se agrupan en bandos numerosos que recorren campos de maleza y setos en busca de alimento. Posee un pico cónico y rosáceo, una herramienta especializada y precisa diseñada para extraer con destreza las semillas de diversas plantas, mostrando una predilección casi absoluta por los cardos, de donde deriva precisamente su nombre científico.\n\nMás allá de su belleza visual, el Jilguero Europeo es célebre por la complejidad y alegría de su canto, una sucesión de trinos melodiosos que ha fascinado a los seres humanos desde la antigüedad. Esta capacidad vocal ha llevado a que la especie sea introducida con éxito en regiones tan distantes como Australia, Nueva Zelanda, Argentina y Uruguay, donde ha logrado establecer poblaciones asilvestradas. En el ecosistema, desempeña un papel fundamental como dispersor de semillas, aunque su supervivencia se ve amenazada en ciertas regiones por la captura ilegal para el comercio. Es fascinante observar la transición de los ejemplares juveniles, que carecen de la máscara roja adulta y presentan un plumaje pardo más discreto, una estrategia de camuflaje esencial durante sus primeros meses de vida antes de adquirir el esplendor cromático que define a esta especie tan emblemática de los campos abiertos.",
+  "identification": [
+    "Máscara facial de color rojo oscuro que contrasta con el blanco y negro de la cabeza en los adultos.",
+    "Franja alar de color amarillo intenso, muy visible tanto en reposo como durante el vuelo ondulado.",
+    "Pico cónico de color rosáceo pálido, adaptado para extraer semillas de plantas espinosas.",
+    "Canto alegre y fluido compuesto por una serie de gorjeos y trinos rápidos y musicales."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-16T05:28:46Z"
+}

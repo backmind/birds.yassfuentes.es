@@ -314,6 +314,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54017551/900",
       "photographer": "Ricardo Salgueiro",
       "attribution": "Ricardo Salgueiro / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurgol",
+      "comName": "Jilguero Europeo",
+      "sciName": "Carduelis carduelis",
+      "date": "2026-05-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256707351/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
     }
   ]
 }
