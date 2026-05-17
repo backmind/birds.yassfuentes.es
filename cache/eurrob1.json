@@ -1,0 +1,15 @@
+{
+  "description": "Es un ave común y localmente bastante común en hábitats arbolados, jardines, setos, en tierras de cultivo y brezales, generalmente cerca de cobertura vegetal. Salta rápidamente por el suelo, haciendo pausas para mirar a su alrededor. A menudo mueve las alas y sacude la cola. También se alimenta saltando al suelo desde perchas bajas, atrapando a su presa y volviendo a subir hasta un posadero sombreado. Su plumaje es distintivo, con cara y pecho anaranjados brillantes, fácilmente ocultos visto desde atrás. El juvenil en verano es muy diferente, con destacado moteado pálido en la espalda y el pecho.",
+  "description_source": "ebird",
+  "bow_intro": "El European Robin, al que a veces se sigue llamando \"petirrojo pechirrojo\" en Gran Bretaña debido a su cara y pecho de color naranja vivo, es un ave paseriforme pequeña, peleona y territorial. Especie familiar en gran parte de su área de distribución, el European Robin aparece con frecuencia en las tarjetas y adornos navideños, una tradición probablemente arraigada en los carteros de la época victoriana a los que se apodaba \"petirrojos\" por sus uniformes de color rojo vivo. Durante el resto del año, el European Robin es conocido por su carácter confiado e intrépido cuando acompaña a los jardineros, buscando insectos y lombrices en suelos removidos. A pesar del epíteto \"pechirrojo\", el European Robin tiene la cara y el pecho claramente anaranjados y es de color marrón oliva por encima, con una banda gris azulada pálida en el cuello y un vientre blanco limpio. Los sexos son similares en apariencia. Los juveniles, sin embargo, difieren notablemente; carecen del pecho anaranjado y presentan un plumaje muy moteado de marrón y beige. Su canto -una compleja mezcla de agudos gorjeos plateados y notas desvaídas y prolongadas- lo emiten principalmente los machos en primavera y verano, pero un \"canto otoñal\" más apagado y melódico lo emiten ambos sexos durante el resto del año, incluso en la oscuridad de mediados de invierno. Ambos sexos son muy territoriales y cantan fuera de la temporada reproductiva para disuadir a los intrusos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El petirrojo europeo es una especie de ave paseriforme de la familia Muscicapidae. Está distribuido por toda Europa, principalmente en la región meridional y occidental del continente, donde habita todo el año, y es migrante parcial en el norte de Europa y noroeste de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Erithacus_rubecula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2492462,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492462&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22709675"
+}

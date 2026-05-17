@@ -323,6 +323,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256707351/900",
       "photographer": "Santiago Caballero Carrera",
       "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurrob1",
+      "comName": "Petirrojo Europeo",
+      "sciName": "Erithacus rubecula",
+      "date": "2026-05-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44599871/900",
+      "photographer": "Ryan Schain",
+      "attribution": "Ryan Schain / Macaulay Library"
     }
   ]
 }
