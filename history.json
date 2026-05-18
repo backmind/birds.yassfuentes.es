@@ -332,6 +332,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44599871/900",
       "photographer": "Ryan Schain",
       "attribution": "Ryan Schain / Macaulay Library"
+    },
+    {
+      "speciesCode": "grefla3",
+      "comName": "Flamenco Común",
+      "sciName": "Phoenicopterus roseus",
+      "date": "2026-05-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54167691/900",
+      "photographer": "Melvin Jaison",
+      "attribution": "Melvin Jaison / Macaulay Library"
     }
   ]
 }
