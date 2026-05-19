@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común en diversos hábitats semiabiertos, pero es posible verlo desde ambiente arbolados a terrenos agrícolas así como zonas de matorrales con setos y bosquetes, localmente en zonas urbanas. Vuela alternando batidos suaves y lentos con planeos, girando con facilidad cuando lo precisa. Frecuente en carroñas junto a los córvidos. Tieene aspecto característico por ser una rapaz de tamaño relativamente grande, con cola rojizo-anaranjada bastante alargada y ahorquillada.",
+  "description_source": "ebird",
+  "bow_intro": "El Red Kite (Milvus milvus ), con su llamativo plumaje rufo y su audaz patrón alar ocupa una amplia variedad de hábitats abiertos en toda Europa, incluidos bosques abiertos, pastos, tierras de cultivo, matorrales y humedales. Está estrechamente emparentado con el similar Black Kite (Milvus migrans ) , con la que ocasionalmente se hibrida; la taxonomía entre estas dos especies es confusa y requiere más estudios. La especie es migratoria en la parte septentrional de su área de distribución, y muchas de ellas migran al sur de Francia y a la Península Ibérica. Se alimentan de diversas presas, como pequeños mamíferos, aves, peces, invertebrados y carroña, y en algunos lugares los vertederos de basura constituyen una importante fuente de alimento. Anidan en nidos de plataforma de palos en los árboles, donde las hembras incuban principalmente los huevos y crían y alimentan a los pichones, aunque el macho se encarga de la mayor parte de la caza. Aunque están muy extendidos por Europa, se han producido graves descensos de población, especialmente en el sur de su área de distribución, en España y Francia, pero también en Alemania y otras partes de su área de distribución. Sin embargo, en otras zonas de su área de distribución está aumentando, como en Suecia y el Reino Unido, donde un programa de reintroducción tuvo un enorme éxito. Sur de Suecia hacia el este hasta Ucrania y el suroeste de Rusia, y hacia el sur a través de Europa central hasta la cuenca mediterránea occidental y central; Gran Bretaña (Gales, Escocia e Inglaterra reintroducidas); tal vez el Cáucaso; antes las Islas Canarias.",
+  "taxonomy": {},
+  "wikipedia_summary": "El milano real es una especie de ave accipitriforme de la familia Accipitridae. Es similar en aspecto al milano negro, del que se distingue por su cabeza de color gris plateado y su silueta tan característica.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Milvus_milvus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5229168,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5229168&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22695072"
+}

@@ -341,6 +341,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54167691/900",
       "photographer": "Melvin Jaison",
       "attribution": "Melvin Jaison / Macaulay Library"
+    },
+    {
+      "speciesCode": "redkit1",
+      "comName": "Milano Real",
+      "sciName": "Milvus milvus",
+      "date": "2026-05-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254929681/900",
+      "photographer": "James Kennerley",
+      "attribution": "James Kennerley / Macaulay Library"
     }
   ]
 }
