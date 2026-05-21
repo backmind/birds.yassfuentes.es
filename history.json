@@ -359,6 +359,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168727561/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "rudshe",
+      "comName": "Tarro Canelo",
+      "sciName": "Tadorna ferruginea",
+      "date": "2026-05-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241980221/900",
+      "photographer": "Pablo Barrena",
+      "attribution": "Pablo Barrena / Macaulay Library"
     }
   ]
 }
