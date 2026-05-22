@@ -368,6 +368,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241980221/900",
       "photographer": "Pablo Barrena",
       "attribution": "Pablo Barrena / Macaulay Library"
+    },
+    {
+      "speciesCode": "commoo3",
+      "comName": "Gallineta Común",
+      "sciName": "Gallinula chloropus",
+      "date": "2026-05-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/620374233/900",
+      "photographer": "Alexis Lours",
+      "attribution": "Alexis Lours / Macaulay Library"
     }
   ]
 }
