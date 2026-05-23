@@ -377,6 +377,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/620374233/900",
       "photographer": "Alexis Lours",
       "attribution": "Alexis Lours / Macaulay Library"
+    },
+    {
+      "speciesCode": "whtdip1",
+      "comName": "Mirlo Acuático Europeo",
+      "sciName": "Cinclus cinclus",
+      "date": "2026-05-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300170991/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
     }
   ]
 }

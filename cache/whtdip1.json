@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común a lo largo de ríos y arroyos no contaminados, casi siempre cerca del agua corriente. Se encuentra principalmente en las estribaciones y tierras altas, rara vez en llanuras o llanuras costeras a menos que haya agua corriente cerca. Usualmente se encuentran individuos solitarios alimentándose discretamente entre rocas y charcos; nada fácilmente e incluso bucea bajo el agua. A menudo se balancea persistentemente cuando está de pie, y vuela potente y bajo sobre el agua, emitiendo un zumbido en su aleteo. No hay especies similares en Europa, pero hay que tener en cuenta la forma regordeta y el babero blanco brillante que diferencia a las aves británicas por el vientre de color marrón rojizo y negruzco en las aves continentales.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El mirlo acuático europeo es una especie de ave paseriforme de la familia Cinclidae, propia de ríos y arroyos de Eurasia y el noroeste de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cinclus_cinclus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2495093,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2495093&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22708156"
+}
