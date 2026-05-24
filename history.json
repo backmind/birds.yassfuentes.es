@@ -386,6 +386,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300170991/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "darwar1",
+      "comName": "Curruca Rabilarga",
+      "sciName": "Curruca undata",
+      "date": "2026-05-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900",
+      "photographer": "Ben Lucking",
+      "attribution": "Ben Lucking / Macaulay Library"
     }
   ]
 }
