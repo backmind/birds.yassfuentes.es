@@ -1,0 +1,11 @@
+{
+  "prose": "El Aguilucho Lagunero Occidental (Circus aeruginosus) es el soberano indiscutible de los cañaverales y marismas del Viejo Mundo. Con una silueta inconfundible, esta rapaz se desliza a escasos metros sobre la vegetación palustre, patrullando incansablemente en busca de presas. Su vuelo es una danza de asombrosa ligereza: planea con las alas alzadas en una pronunciada forma de 'V', balanceándose suavemente con las corrientes de aire que barren los humedales y, cada vez con mayor frecuencia, los extensos campos de cultivo de cereal. Es en estos ecosistemas abiertos donde despliega su maestría, aprovechando la cobertura de los carrizales para sorprender a pequeños mamíferos y aves acuáticas.\n\nLa vida de esta especie está marcada por el cambio de las estaciones y un marcado dimorfismo sexual. Mientras que las poblaciones del norte de Europa emprenden un viaje migratorio hacia el sur para evadir el rigor del invierno, los individuos muestran plumajes asombrosamente distintos según su edad y sexo. El plumaje más habitual es de un marrón chocolate profundo, coronado por tonos crema en la cabeza y los hombros. Sin embargo, el macho adulto es un espectáculo tricolor, con alas que combinan el gris, el negro y el marrón, contrastando con un vientre de un cálido tono herrumbroso. Como depredador, el aguilucho lagunero occidental cumple un papel ecológico vital, regulando las poblaciones de roedores y manteniendo el delicado equilibrio de los humedales que habita.",
+  "identification": [
+    "Vuelo bajo y planeado sobre la vegetación, manteniendo las alas levantadas en una clara forma de 'V'.",
+    "Plumaje general marrón oscuro en hembras y jóvenes, con la cabeza, el cuello y el borde anterior del ala de un tono crema variable.",
+    "Machos adultos con un vistoso patrón tricolor en la parte superior de las alas, cola grisácea y vientre marrón herrumbroso.",
+    "Presencia habitual en grandes extensiones de carrizales, marismas y, de forma creciente, en campos de cereal."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-25T06:37:08Z"
+}

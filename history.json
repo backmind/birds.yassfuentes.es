@@ -395,6 +395,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900",
       "photographer": "Ben Lucking",
       "attribution": "Ben Lucking / Macaulay Library"
+    },
+    {
+      "speciesCode": "wemhar1",
+      "comName": "Aguilucho Lagunero Occidental",
+      "sciName": "Circus aeruginosus",
+      "date": "2026-05-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
+      "photographer": "Jeffrey Wang",
+      "attribution": "Jeffrey Wang / Macaulay Library"
     }
   ]
 }
