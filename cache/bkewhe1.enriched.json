@@ -1,0 +1,11 @@
+{
+  "prose": "En los paisajes más áridos y expuestos del sur de Europa, el noroeste de África y Oriente Próximo, un pequeño y esbelto acróbata desafía la rigurosidad del terreno. Se trata de la Collalba Rubia Occidental (Oenanthe hispanica), un ave paseriforme de la familia Muscicapidae que convierte los pastizales baldíos, las laderas rocosas y las sabanas con árboles dispersos en su escenario de caza. Con un comportamiento inquieto y una elegancia innata, este migrador de larga distancia regresa cada primavera desde sus cuarteles de invernada en el Sahel africano. Lo que hace verdaderamente notable a la collalba rubia occidental es su asombrosa adaptación a entornos donde el sol y la piedra dominan el paisaje, utilizando montículos y rocas como atalayas desde las cuales vigila su territorio y acecha a los pequeños invertebrados que constituyen su dieta.\n\nLa variabilidad de su plumaje es uno de los aspectos más fascinantes para los observadores de la naturaleza. Los machos presentan un marcado contraste entre sus alas negras y un dorso de un cálido tono amarillento, pero lo más curioso es que algunos individuos exhiben una garganta completamente negra mientras que otros la tienen blanca, un dimorfismo que añade misterio a su observación. En vuelo, revela un intrincado patrón blanco y negro en la cola, una señal visual inconfundible. Su canto, una mezcla rápida de trinos descendentes y notas ásperas, rompe el silencio de los páramos pedregosos, mientras que su reclamo, un seco y ronco \"chercher\", advierte de su presencia. Como insectívoro, desempeña un papel ecológico crucial en el control de poblaciones de insectos en ecosistemas frágiles y semiáridos, actuando como un termómetro de la salud de estos hábitats abiertos.",
+  "identification": [
+    "Macho con alas negras en marcado contraste con el dorso y la corona de tonos amarillentos, y un antifaz negro que cruza el ojo.",
+    "Garganta del macho variable, pudiendo ser completamente negra o blanca según el individuo.",
+    "Cola con un intrincado y conspicuo patrón de color blanco y negro, muy visible durante el vuelo.",
+    "Canto compuesto por una mezcla rápida de trinos principalmente descendentes y notas ásperas, acompañado de un reclamo seco y ronco que suena como 'chercher'."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-26T06:08:41Z"
+}

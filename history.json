@@ -404,6 +404,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
       "photographer": "Jeffrey Wang",
       "attribution": "Jeffrey Wang / Macaulay Library"
+    },
+    {
+      "speciesCode": "bkewhe1",
+      "comName": "Collalba Rubia Occidental",
+      "sciName": "Oenanthe hispanica",
+      "date": "2026-05-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/348217891/900",
+      "photographer": "Iker Fernández Martínez",
+      "attribution": "Iker Fernández Martínez / Macaulay Library"
     }
   ]
 }
