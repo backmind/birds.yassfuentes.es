@@ -413,6 +413,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/348217891/900",
       "photographer": "Iker Fernández Martínez",
       "attribution": "Iker Fernández Martínez / Macaulay Library"
+    },
+    {
+      "speciesCode": "hoopoe",
+      "comName": "Abubilla Común",
+      "sciName": "Upupa epops",
+      "date": "2026-05-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255121291/900",
+      "photographer": "Rhys Marsh",
+      "attribution": "Rhys Marsh / Macaulay Library"
     }
   ]
 }
