@@ -1,0 +1,11 @@
+{
+  "prose": "El Herrerillo Común (Cyanistes caeruleus) es uno de los habitantes más vivaces y coloridos de los entornos arbolados de Europa y Oriente Medio. Este pequeño paseriforme, de un dinamismo incesante, frecuenta bosques caducifolios de robles y abedules, así como parques, huertos y jardines urbanos, donde se muestra sumamente activo y confiado. Con un plumaje que combina de forma inconfundible el azul cobalto de su capirote, el amarillo brillante de su pecho y una máscara blanca cruzada por una franja oscura, destaca por su agilidad. Es común observarlo colgado boca abajo de las ramas más finas mientras busca alimento, una destreza física que supera a la de otros parientes de su familia y que le permite explorar rincones inaccesibles para competidores más grandes.\n\nMás allá de su vistosa apariencia, el herrerillo común posee una notable capacidad de adaptación y aprendizaje. En el siglo pasado, se hizo célebre en algunas regiones por aprender a perforar los tapones de aluminio de las botellas de leche entregadas a domicilio para consumir la nata del interior, un comportamiento que se extendió rápidamente y que desapareció con el cambio en los sistemas de distribución comercial. Aunque es principalmente residente en las zonas templadas de su distribución, las poblaciones del norte realizan migraciones parciales que pueden superar los dos mil kilómetros. En los ecosistemas forestales, desempeña un papel ecológico crucial como controlador de insectos, complementando su dieta con semillas y frutos, y es un usuario habitual de cajas nido, lo que facilita su estudio y observación directa.",
+  "identification": [
+    "Capirote de un azul vivo y dorso verdoso, que contrastan fuertemente con el pecho y abdomen de color amarillo brillante.",
+    "Rostro blanco enmarcado por una línea ocular oscura y estrecha que cruza el ojo.",
+    "Tamaño pequeño y comportamiento sumamente activo, a menudo alimentándose suspendido boca abajo en las ramas delgadas.",
+    "Los juveniles presentan un plumaje más apagado, con tonos amarillentos pálidos en las mejillas en lugar del blanco puro de los adultos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-28T06:14:54Z"
+}
