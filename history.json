@@ -431,6 +431,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
       "photographer": "Ferit Başbuğ",
       "attribution": "Ferit Başbuğ / Macaulay Library"
+    },
+    {
+      "speciesCode": "eucdov",
+      "comName": "Tórtola Turca",
+      "sciName": "Streptopelia decaocto",
+      "date": "2026-05-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308119951/900",
+      "photographer": "Jim Merritt",
+      "attribution": "Jim Merritt / Macaulay Library"
     }
   ]
 }
