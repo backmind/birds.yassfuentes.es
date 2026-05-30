@@ -440,6 +440,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308119951/900",
       "photographer": "Jim Merritt",
       "attribution": "Jim Merritt / Macaulay Library"
+    },
+    {
+      "speciesCode": "shttre1",
+      "comName": "Agateador Europeo",
+      "sciName": "Certhia brachydactyla",
+      "date": "2026-05-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107768711/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Difícil de separar del Eurasian Treecreeper, aunque tiene pico un poco más largo, uña posterior más corta, flancos más marrones y escalones uniformes en la franja alar. En el campo se identifican mejor por la voz, un",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El agateador común o europeo(Certhia brachydactyla) es una especie de ave de la familia Certhiidae que vive principalmente en el sur de la Europa Occidental y alrededor del resto de la cuenca del Mediterráneo. Se caracteriza por tener las partes superiores parduzcas, que lo mimetizan con los troncos de los árboles, y las partes inferiores blanquecinas, con el pico largo, fino y curvado hacia abajo. Trepa con facilidad por los árboles ayudado de su cola rígida que le sirve de apoyo.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Certhia_brachydactyla",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 7806848,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7806848&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22711249"
+}
