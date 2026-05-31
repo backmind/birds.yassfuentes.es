@@ -1,0 +1,15 @@
+{
+  "description": "Búho pálido, blanco abajo y anaranjado con manchas grises arriba. Disco facial en forma de corazón blanco. Caza principalmente roedores en áreas abiertas por la noche. Duerme en edificios viejos y cajas de nidos durante el día. Ampliamente distribuido en todos los continentes, excepto en la Antártica. Por la noche, parece muy blanco en faros. Su llamado es apropiado para Halloween: un chillido escalofriante.",
+  "description_source": "ebird",
+  "bow_intro": "Strix alba Scopoli, 1769, Annus 1, Historico-Naturalis p. 21.-\"Ex Foro Juli\" [= Friuli, norte de Italia]. Se desconoce el paradero de cualquier material tipo asociado al nombre de Scopoli, pero algunos ejemplares de su colección personal sobreviven en el Museo di Storia Naturale all Università di Pavia ( 33 Steinheimer, F. D. (2005). The whereabouts of pre-nineteenth century bird specimens. Zoologische Mededelingen Leiden 79(3):45–67. Close ).",
+  "taxonomy": {},
+  "wikipedia_summary": "La lechuza común, también denominada lechuza de campanario, lechuza de campanario común, lechuza campanaria o lechuza blanca, es una especie de ave estrigiforme perteneciente a la familia Tytonidae. Es una de las aves más ampliamente distribuidas del mundo, pudiendo encontrarse en casi todo el planeta, con excepción de regiones polares o desérticas, Asia al norte de los Himalayas, la mayor parte de Indonesia y algunas islas del Pacífico. El área de distribución de esta rapaz incluye los cinco continentes, en los que podemos encontrar varias subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tyto_alba",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2497921,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2497921&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22688504"
+}
