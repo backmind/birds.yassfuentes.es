@@ -1,0 +1,15 @@
+{
+  "description": "Ampliamente distribuido y común en Eurasia, vagabundo raro para Norteamérica. Más a menudo, individuos solitarios son vistos en compañía de American Wigeon en lagos y pantanos. El macho tiene la cabeza rojiza con la frente beige, cuerpo griseo perla y pecho rosado. La hembra es muy difícil de distinguir de American Wigeon; generalmente marrón más encendido con poco contraste entre la cabeza, pecho y flancos. En vuelo, presta atención al lado inferior de las alas que es grisáceo, no blanco brillante como en American Wigeon, pero esto puede ser difícil de determinar, especialmente a la distancia.",
+  "description_source": "ebird",
+  "bow_intro": "El Eurasian Wigeon, un pato de color bayo y tamaño mediano, es una especie poco común, pero cada vez más errante en el nuevo mundo. Esta especie está catalogada en el neotrópico como un visitante invernal poco común, con sólo un puñado de avistamientos reportados desde el norte de México (Howell y Webb 1995). Cuando se encuentra en América, Eurasian Wigeon suele verse asociada con bandadas de American Wigeon u otros patos zambullidores en estanques de agua dulce o entornos marinos costeros. El americano y el Eurasian Wigeon se hibridan con regularidad y puede haber individuos híbridos en México y Baja California. Colocado a veces en el género Mareca , el Eurasian Wigeon forma una superespecie con el americano y el Chiloe Wigeon.",
+  "taxonomy": {},
+  "wikipedia_summary": "El silbón europeo, también - entre otros nombres - ánade silbón, pato silbón o pato europeo es una especie de ave anseriforme de la familia Anatidae. Es un pato migratorio que anida en las áreas septentrionales de Eurasia y pasa el invierno en el sur de Europa y Asia, el norte de África y Norteamérica. Es invernante en España.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Mareca_penelope",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 8000602,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8000602&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680157"
+}

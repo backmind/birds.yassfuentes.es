@@ -1,0 +1,11 @@
+{
+  "prose": "El Silbón Europeo (Mareca penelope) es un viajero incansable de los humedales del Viejo Mundo. Durante la primavera y el verano, este pato de tamaño mediano nidifica en las vastas y tranquilas regiones septentrionales de Eurasia. Sin embargo, con la llegada de los primeros fríos otoñales, emprende una asombrosa migración hacia el sur, distribuyéndose por el sur de Europa —siendo un invernante habitual en España—, el norte de África y Asia, e incluso alcanzando de forma ocasional las costas de Norteamérica. En sus cuarteles de invierno, es un ave sociable que frecuenta lagos, pantanos y estuarios costeros. Es fascinante observar cómo se alimenta en la superficie del agua o pastando en praderas húmedas, mostrando una agilidad y un comportamiento gregario que define la vida en estas masas de agua dulce y salobre.\n\nUna de las mayores singularidades del silbón europeo radica en sus travesías transcontinentales, que a veces lo llevan a mezclarse con bandadas de silbón americano en el Nuevo Mundo. En estos encuentros, no es raro que se produzcan casos de hibridación, un fenómeno que despierta un gran interés evolutivo. El macho destaca por su espectacular plumaje nupcial, coronado por una llamativa frente de tono beige que brilla como un faro sobre su cabeza rojiza. En el ecosistema, este pato desempeña un papel crucial como consumidor de vegetación acuática y terrestre, ayudando a modelar la estructura de las plantas en los humedales y sirviendo de eslabón vital en las redes tróficas de los ecosistemas acuáticos que visita a lo largo de su ruta migratoria.",
+  "identification": [
+    "Macho con cabeza rojiza coronada por una llamativa frente de color beige o crema.",
+    "Cuerpo de color gris perla con el pecho rosado en los machos adultos.",
+    "Hembra de color marrón cálido y uniforme, con escaso contraste entre la cabeza, el pecho y los flancos.",
+    "En vuelo, la parte inferior de las alas muestra un tono grisáceo característico."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-01T06:58:51Z"
+}
