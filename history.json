@@ -467,6 +467,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300137371/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "stbtre1",
+      "comName": "Trepamusgos Pechirrayado",
+      "sciName": "Thripadectes rufobrunneus",
+      "date": "2026-06-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/245219731/900",
+      "photographer": "Fernando Burgalin Sequeria",
+      "attribution": "Fernando Burgalin Sequeria / Macaulay Library"
     }
   ]
 }
