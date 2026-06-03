@@ -476,6 +476,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/245219731/900",
       "photographer": "Fernando Burgalin Sequeria",
       "attribution": "Fernando Burgalin Sequeria / Macaulay Library"
+    },
+    {
+      "speciesCode": "thelar1",
+      "comName": "Cogujada Montesina",
+      "sciName": "Galerida theklae",
+      "date": "2026-06-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168820931/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }
