@@ -494,6 +494,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622584055/900",
       "photographer": "Albin Jacob",
       "attribution": "Albin Jacob / Macaulay Library"
+    },
+    {
+      "speciesCode": "martea1",
+      "comName": "Cerceta Pardilla",
+      "sciName": "Marmaronetta angustirostris",
+      "date": "2026-06-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/77959511/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }
