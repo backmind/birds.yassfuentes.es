@@ -1,0 +1,15 @@
+{
+  "description": "Ave estival bastante común que migra a zonas más templadas desde sus cuarteles de invernada en la cuenca mediterránea y África. Aparece en distintos tipos de bosques abiertos, huertos y parques. Es muy activo durante la noche cuando se detecta por su reclamo repetitivo y monótono, un tono lastimero tiú de gran alcance. Su plumaje críptico es similar a la corteza de árbol lo hace difícil detectarlo cuando duerme durante el día oculto en huecos de árboles o ramas a la sombra. Se caracteriza por su pequeño tamaño, igual que sus plumas auriculares (levantadas cuando está alerta) y sus ojos de color dorado amarillento.",
+  "description_source": "ebird",
+  "bow_intro": "Eurasian Scops-Owl es un pequeño búho gris parduzco con pequeños penachos en las orejas que se reproduce de forma común y generalizada en gran parte del sur de Europa hacia el norte hasta Francia y Ucrania, hacia el este a través del sur de Rusia y hacia el sur hasta Pakistán, Irán, Turquía e Israel. Es una especie migratoria, y la mayoría de las aves abandonan las zonas de cría hacia el sur de los afrotrópicos al sur del Sáhara, hasta Camerún, el norte de la República Democrática del Congo y el norte de Kenia. Se alimenta principalmente de insectos grandes, pero también captura pequeños mamíferos, aves y reptiles. Las hembras ponen de 2 a 6 huevos en una cavidad, ocasionalmente utilizan nidos de otras especies y emplean con facilidad las cajas nido. Tanto el macho como la hembra alimentan a los pichones. La taxonomía de los Strigidae se ha complicado por las similitudes del plumaje y Eurasian Scops-Owl incluyó en su día al menos otros 11 taxones que ahora se consideran especies separadas ( 1 Clements, J. F., T. S. Schulenberg, M. J. Iliff, S. M. Billerman, T. A. Fredericks, B. L. Sullivan, and C. L. Wood (2019). The eBird/Clements Checklist of Birds of the World: v2019. Cornell Lab of Ornithology, Ithaca, NY, USA. Close ). Incluso recientemente, Cyprus Scops-Owl (Otus cyprius ) se separó de Eurasian Scops-Owl, en gran parte por diferencias en el canto y algunas diferencias en el plumaje ( 2 Flint, P., D. Whaley, G. M. Kirwan, M. Charalambides, M. Schweizer, and M. Wink (2015). Reprising the taxonomy of Cyprus Scops Owl Otus (scops) cyprius, a neglected island endemic. Zootaxa 4040(3):301–316. Close ). Eurasian Scops-Owl no se enfrenta a problemas inmediatos de conservación y se considera común en gran parte de su amplia distribución.",
+  "taxonomy": {},
+  "wikipedia_summary": "El autillo, autillo común o autillo europeo es una especie de ave estrigiforme de la familia Strigidae propia de Eurasia y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Otus_scops",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2497701,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2497701&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/155019854"
+}

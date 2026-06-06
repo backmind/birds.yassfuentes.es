@@ -503,6 +503,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/77959511/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "eursco1",
+      "comName": "Autillo Europeo",
+      "sciName": "Otus scops",
+      "date": "2026-06-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55028931/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
     }
   ]
 }

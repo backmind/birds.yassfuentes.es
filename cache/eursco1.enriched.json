@@ -1,0 +1,11 @@
+{
+  "prose": "Al caer la noche en los bosques abiertos, huertos y parques de Eurasia, un sonido sutil pero constante comienza a adueñarse del silencio. Es el canto del Autillo Europeo (Otus scops), un reclamo aflautado, monótono y melancólico —un rítmico \"tiú\"— que resuena con sorprendente alcance en la penumbra. Este pequeño búho, apenas del tamaño de un puño, es un maestro supremo del camuflaje. Durante el día, el autillo europeo descansa inmóvil en las ramas sombrías o en el interior de los huecos de los árboles. Su plumaje, de tonos grises y pardos, imita a la perfección la textura y el color de la corteza, haciéndolo prácticamente invisible para los depredadores y los observadores curiosos. Solo cuando se siente amenazado o alerta, yergue sus pequeñas plumas auriculares y abre sus intensos ojos de color dorado amarillento, revelando su verdadera naturaleza de rapaz nocturna.\n\nA pesar de su reducido tamaño, el autillo es un viajero incansable. Al aproximarse el invierno, emprende una asombrosa migración desde sus territorios de cría en el sur de Europa y Asia occidental hacia las regiones más cálidas de la cuenca mediterránea y el África subsahariana. En estos ecosistemas, desempeña un papel ecológico crucial como controlador de poblaciones de insectos grandes, que constituyen la base de su dieta, aunque también puede capturar pequeños mamíferos, reptiles y aves. Su reproducción es un esfuerzo compartido: la hembra deposita entre dos y seis huevos en cavidades naturales, nidos abandonados o cajas nido artificiales, y ambos progenitores se dedican con esmero a la alimentación de los polluelos. Esta asombrosa adaptabilidad y su discreto modo de vida aseguran que el misterioso susurro del autillo siga vivo en las noches estivales.",
+  "identification": [
+    "Tamaño notablemente pequeño, con ojos de un llamativo color dorado amarillento.",
+    "Plumaje críptico de tonos grises y pardos que imita con gran precisión la corteza de los árboles.",
+    "Pequeños penachos o plumas auriculares sobre la cabeza, que levanta cuando se encuentra en estado de alerta.",
+    "Canto nocturno característico: un silbido monótono, repetitivo y melancólico que suena como un 'tiú' de gran alcance."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-06T05:55:27Z"
+}
