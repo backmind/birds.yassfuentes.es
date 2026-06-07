@@ -512,6 +512,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55028931/900",
       "photographer": "Patrick J. Blake",
       "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "lecthr",
+      "comName": "Cuitlacoche Pálido",
+      "sciName": "Toxostoma lecontei",
+      "date": "2026-06-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303824071/900",
+      "photographer": "Andrew Spencer",
+      "attribution": "Andrew Spencer / Macaulay Library"
     }
   ]
 }
