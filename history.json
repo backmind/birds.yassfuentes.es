@@ -521,6 +521,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303824071/900",
       "photographer": "Andrew Spencer",
       "attribution": "Andrew Spencer / Macaulay Library"
+    },
+    {
+      "speciesCode": "callar1",
+      "comName": "Calandria Común",
+      "sciName": "Melanocorypha calandra",
+      "date": "2026-06-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54016831/900",
+      "photographer": "Asghar Mohammadi Nasrabadi",
+      "attribution": "Asghar Mohammadi Nasrabadi / Macaulay Library"
     }
   ]
 }

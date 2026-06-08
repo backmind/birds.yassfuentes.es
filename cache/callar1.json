@@ -1,0 +1,15 @@
+{
+  "description": "Lark grande con pico fuerte y grueso y una ceja pálida obvia. Los parches negros y gruesos en los lados del cuello pueden variar con la postura y entre ejemplares. En vuelo son distintivas las alas, oscuras por debajo pero con el borde posterior blanco que se prolonga a la parte superior de las mismas. Los aleteos en vuelo de canto son como a",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La calandria común es una especie de ave passeriforme de la familia de los aláudidos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Melanocorypha_calandra",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2490613,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2490613&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22717285"
+}
