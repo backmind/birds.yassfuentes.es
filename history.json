@@ -539,6 +539,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44950691/900",
       "photographer": "Ian Davies",
       "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "pieavo1",
+      "comName": "Avoceta Común",
+      "sciName": "Recurvirostra avosetta",
+      "date": "2026-06-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/373504371/900",
+      "photographer": "Volker Hesse",
+      "attribution": "Volker Hesse / Macaulay Library"
     }
   ]
 }
