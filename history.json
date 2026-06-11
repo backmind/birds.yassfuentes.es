@@ -548,6 +548,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/373504371/900",
       "photographer": "Volker Hesse",
       "attribution": "Volker Hesse / Macaulay Library"
+    },
+    {
+      "speciesCode": "grebit1",
+      "comName": "Avetoro Común",
+      "sciName": "Botaurus stellaris",
+      "date": "2026-06-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282511/900",
+      "photographer": "shahin olakara",
+      "attribution": "shahin olakara / Macaulay Library"
     }
   ]
 }
