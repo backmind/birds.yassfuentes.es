@@ -557,6 +557,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282511/900",
       "photographer": "shahin olakara",
       "attribution": "shahin olakara / Macaulay Library"
+    },
+    {
+      "speciesCode": "garwar1",
+      "comName": "Curruca Mosquitera",
+      "sciName": "Sylvia borin",
+      "date": "2026-06-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256752121/900",
+      "photographer": "Luis Rodrigues",
+      "attribution": "Luis Rodrigues / Macaulay Library"
     }
   ]
 }

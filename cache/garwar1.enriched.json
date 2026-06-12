@@ -1,0 +1,12 @@
+{
+  "prose": "La Curruca Mosquitera (Sylvia borin) es una pequeña ave paseriforme de la familia Sylviidae que personifica el arte de la discreción en el reino animal. Durante los meses cálidos, este incansable viajero se establece en una amplia variedad de hábitats arbolados y zonas de matorral denso a lo largo de Europa, para luego emprender una asombrosa migración invernal hacia África. A pesar de su abundancia, encontrarse con ella requiere de una mirada atenta y paciente; prefiere la penumbra protectora del follaje, donde se desplaza de manera sigilosa y pasa casi por completo inadvertida para el observador casual. Lo que le falta en colorido lo compensa con una presencia sutil que desafía a los observadores de aves más experimentados.\n\nLa verdadera magia de la curruca mosquitera reside en su voz y en su papel ecológico. Su canto es una melodía fluida, agradable y sumamente variada, que recuerda al de la Curruca Capirotada (Sylvia atricapilla), aunque se distingue por mantener un ritmo más constante, dulce y carente de los arrebatos sonoros de su pariente. En el ecosistema, desempeña un papel crucial como consumidora de insectos, aunque también se alimenta de frutos y bayas, ayudando de este modo a la dispersión de semillas antes de emprender su largo viaje transcontinental. Es un testimonio viviente de cómo la evolución no siempre premia el plumaje vistoso, sino la perfecta adaptación al entorno y la maestría de pasar desapercibido.",
+  "identification": [
+    "Plumaje general de un tono pardo claro y uniforme, notablemente desprovisto de marcas llamativas o contrastes fuertes.",
+    "Un anillo ocular ligeramente más pálido que destaca de manera sutil en su rostro.",
+    "Una mancha grisácea y difusa en los laterales del cuello, visible bajo una iluminación adecuada.",
+    "Pico relativamente corto y rechoncho en comparación con otros miembros de su familia.",
+    "Canto melodioso y continuo, de ritmo constante y menos enfático que el de la Curruca Capirotada."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-12T06:43:39Z"
+}

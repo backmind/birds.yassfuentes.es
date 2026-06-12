@@ -1,0 +1,15 @@
+{
+  "description": "Es un migrante estival bastante común en Europa con invernada en África. Se encuentra en una amplia variedad de hábitats arbolados, donde a menudo se muestra oculta y pasa inadvertida. Su canto es una melodía agradable y variada, muy parecida a la Blackcap, pero su ritmo tiende a ser más constante y menos enfático. En general, es de color parduzco bastante claro, sin ninguna característica llamativa propia ni rasgos de campo. Destaca su borde ocular algo más pálido, zona gris difuso en lateral del cuello y el pico relativamente rechoncho para una Warbler.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La curruca mosquitera es una especie de ave paseriforme de la familia Sylviidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Sylvia_borin",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2492942,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492942&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716906"
+}
