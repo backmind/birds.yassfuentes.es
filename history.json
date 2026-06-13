@@ -566,6 +566,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256752121/900",
       "photographer": "Luis Rodrigues",
       "attribution": "Luis Rodrigues / Macaulay Library"
+    },
+    {
+      "speciesCode": "grnjay",
+      "comName": "Chara Verde",
+      "sciName": "Cyanocorax yncas",
+      "date": "2026-06-13",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302348751/900",
+      "photographer": "Scott Martin",
+      "attribution": "Scott Martin / Macaulay Library"
     }
   ]
 }

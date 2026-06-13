@@ -1,0 +1,11 @@
+{
+  "prose": "Contemplar el vuelo de la Chara Verde (Cyanocorax yncas) es asistir a un estallido de color en la penumbra del bosque. Esta magnífica ave, de la familia de los córvidos, destaca por su plumaje verde lima en el cuerpo, que contrasta con los tonos azules y negros de su cabeza y el amarillo vivo de las plumas externas de su cola. Su distribución es sumamente curiosa, dividida en dos poblaciones aisladas: una desde el sur de Texas hasta Honduras, y otra en los bosques montanos de la cordillera de los Andes, desde Venezuela hasta Bolivia. Evitando las grandes áreas abiertas, prefiere la protección de los bosques densos con dosel continuo, aunque demuestra adaptabilidad al frecuentar plantaciones de cítricos y matorrales espinosos, siempre que cuente con la seguridad de la vegetación cercana.\n\nMás allá de su belleza, lo que realmente consagra a la Chara Verde como una criatura extraordinaria es su compleja organización social. Estas aves suelen desplazarse en ruidosas y activas bandadas familiares, donde cooperan estrechamente en la crianza y en la vigilancia contra depredadores. Su presencia es vital para el ecosistema; al alimentarse de frutos, semillas e insectos, actúan como eficaces dispersores de semillas y controladores de invertebrados. Su carácter curioso y audaz las lleva a explorar activamente el sotobosque, convirtiéndolas en un componente dinámico y esencial de la biodiversidad de los bosques americanos, donde su comportamiento social revela una notable inteligencia.",
+  "identification": [
+    "Cuerpo de un llamativo color verde lima con plumas externas de la cola de color amarillo brillante.",
+    "Cabeza con un patrón contrastante de color negro y azul intenso.",
+    "Tamaño ligeramente menor en comparación con otros miembros de la familia de los jays o urracas.",
+    "Suele observarse en bandadas familiares activas y ruidosas dentro del sotobosque o visitando comederos de frutas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-13T06:18:35Z"
+}
