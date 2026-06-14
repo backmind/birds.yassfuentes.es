@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común y con poblaciones en aumento en lagos, marismas y humedales en general, incluso en parques urbanos. Es el único “ganso” común como reproductor en la mayor parte de Europa, y a menudo menos asustadizo que otros gansos salvajes en la zona más norteña de su área de distribución. Bastante corpulento, de color grisáceo en la mayoría de su plumaje y con pico y patas rosados. En vuelo muestra el borde anterior del ala de color gris claro, infracobertoras alares pálidas y una ancha banda blanca terminal en la cola. Otras especies de gansos semejantes se diferencian de él por detalles del patrón y color del pico, cabeza y cuello y por tener partes inferiores del ala oscuras.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El ánsar común, ganso común u oca común, es una especie de ave anseriforme de la familia Anatidae autóctona de Eurasia y el norte de África. Esta especie es el ancestro silvestre de las ocas domésticas de Europa. Los gansos domésticos se han asilvestrado y extendido en otras partes del mundo, como en Australia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Anser_anser",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498036,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498036&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679889"
+}

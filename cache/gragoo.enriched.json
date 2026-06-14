@@ -1,0 +1,11 @@
+{
+  "prose": "El Ánsar Común (Anser anser) es una presencia imponente y familiar en los humedales, lagos y marismas de Eurasia y el norte de África. Con un temperamento notablemente adaptable, este ganso de gran porte ha colonizado con éxito incluso los parques urbanos, mostrando una confianza hacia el ser humano que contrasta con la timidez de otros congéneres norteños. Su silueta robusta y su andar pausado por las praderas ribereñas transmiten una serenidad ancestral. Al llegar la época de migración, el cielo se llena con la majestuosidad de sus formaciones en uve, un despliegue de coordinación y resistencia donde los miembros del grupo se turnan para liderar el vuelo, reduciendo la resistencia del viento para los que viajan detrás.\n\nMás allá de su imponente vuelo, el ánsar común posee una relevancia histórica y ecológica excepcional, siendo el ancestro directo de la mayoría de las ocas domésticas europeas. Su papel en los ecosistemas es vital; al pastar activamente en praderas y humedales, actúa como un jardinero natural que modela la estructura de la vegetación y dispersa semillas a lo largo de sus rutas. Además, destaca por sus estrechos lazos familiares, manteniendo parejas monógamas que a menudo duran toda la vida y comunicándose mediante un repertorio de graznidos ásperos y profundos que mantienen la cohesión del grupo tanto en tierra como en el aire.",
+  "identification": [
+    "Cuerpo robusto de plumaje mayoritariamente grisáceo, con el pico y las patas de un característico tono rosado.",
+    "En vuelo, muestra el borde anterior del ala de color gris claro y las plumas infracobertoras pálidas.",
+    "Cola rematada por una ancha banda terminal de color blanco.",
+    "Emite un graznido fuerte, ronco y trompeteante, muy reconocible cuando viaja en grupo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-14T06:42:53Z"
+}

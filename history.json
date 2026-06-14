@@ -575,6 +575,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302348751/900",
       "photographer": "Scott Martin",
       "attribution": "Scott Martin / Macaulay Library"
+    },
+    {
+      "speciesCode": "gragoo",
+      "comName": "Ánsar Común",
+      "sciName": "Anser anser",
+      "date": "2026-06-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162799271/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }
