@@ -1,0 +1,11 @@
+{
+  "prose": "Observar al Morito Común (Plegadis falcinellus) en su entorno natural es asistir a un despliegue de sutil belleza. Esta ave zancuda de tamaño mediano, la especie de ibis más ampliamente distribuida del planeta, frecuenta humedales costeros, pantanos salados y aguas someras de regiones tan diversas como el sur de Eurasia, África, Australasia, el Caribe y el continente americano. A primera vista, bajo un cielo cubierto, su silueta puede parecer simplemente oscura y sobria mientras camina pausadamente por el fango, sondeando el fondo con su largo y característico pico curvado hacia abajo. Sin embargo, cuando los rayos del sol inciden directamente sobre su plumaje, se revela un asombroso espectáculo de destellos metálicos, donde los tonos pardo rojizos se funden con iridiscencias verdes y bronceadas de una riqueza cromática excepcional.\n\nA pesar de su apariencia exótica, el Morito Común desempeña un papel ecológico fundamental como depredador en los ecosistemas acuáticos poco profundos, donde busca incansablemente su alimento en el lodo. Su fisonomía singular, que en algunas regiones le valió el apelativo histórico de \"zarapito negro\" debido a la curvatura de su pico, lo distingue de otras aves playeras. Durante la temporada de reproducción, los adultos muestran un borde blanco muy delgado y delicado que rodea la piel facial oscura, manteniendo siempre sus ojos de un tono oscuro profundo. Esta asombrosa capacidad de adaptación y su carácter cosmopolita convierten al Morito Común en un verdadero indicador de la salud de los humedales del mundo, recordándonos la fragilidad y la importancia de conservar estos hábitats acuáticos.",
+  "identification": [
+    "Pico largo y marcadamente curvado hacia abajo (decurvado).",
+    "Plumaje oscuro de color pardo rojizo con intensos reflejos iridiscentes de tono verde y bronce metálico bajo la luz directa.",
+    "Borde blanco muy delgado y sutil que rodea la piel facial oscura.",
+    "Ojos de color oscuro, un rasgo clave para diferenciarlo de especies afines."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-17T07:12:11Z"
+}

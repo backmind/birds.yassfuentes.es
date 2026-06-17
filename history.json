@@ -602,6 +602,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
       "photographer": "Josep del Hoyo",
       "attribution": "Josep del Hoyo / Macaulay Library"
+    },
+    {
+      "speciesCode": "gloibi",
+      "comName": "Morito Común",
+      "sciName": "Plegadis falcinellus",
+      "date": "2026-06-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308505311/900",
+      "photographer": "Jeremiah Trimble",
+      "attribution": "Jeremiah Trimble / Macaulay Library"
     }
   ]
 }
