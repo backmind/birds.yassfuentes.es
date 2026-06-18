@@ -611,6 +611,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308505311/900",
       "photographer": "Jeremiah Trimble",
       "attribution": "Jeremiah Trimble / Macaulay Library"
+    },
+    {
+      "speciesCode": "bkrwhe1",
+      "comName": "Anteojitos Anómalo",
+      "sciName": "Zosterops anomalus",
+      "date": "2026-06-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275407491/900",
+      "photographer": "Simon Colenutt",
+      "attribution": "Simon Colenutt / Macaulay Library"
     }
   ]
 }
