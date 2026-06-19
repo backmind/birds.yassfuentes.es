@@ -620,6 +620,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275407491/900",
       "photographer": "Simon Colenutt",
       "attribution": "Simon Colenutt / Macaulay Library"
+    },
+    {
+      "speciesCode": "thbflo1",
+      "comName": "Picaflores Picogrueso",
+      "sciName": "Pachyglossa agilis",
+      "date": "2026-06-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/156739411/900",
+      "photographer": "Natthaphat Chotjuckdikul",
+      "attribution": "Natthaphat Chotjuckdikul / Macaulay Library"
     }
   ]
 }
