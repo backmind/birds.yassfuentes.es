@@ -629,6 +629,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/156739411/900",
       "photographer": "Natthaphat Chotjuckdikul",
       "attribution": "Natthaphat Chotjuckdikul / Macaulay Library"
+    },
+    {
+      "speciesCode": "eutdov",
+      "comName": "Tórtola Europea",
+      "sciName": "Streptopelia turtur",
+      "date": "2026-06-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282241/900",
+      "photographer": "Vladan Vuckovic",
+      "attribution": "Vladan Vuckovic / Macaulay Library"
     }
   ]
 }
