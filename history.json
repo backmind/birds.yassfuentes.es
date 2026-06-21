@@ -638,6 +638,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282241/900",
       "photographer": "Vladan Vuckovic",
       "attribution": "Vladan Vuckovic / Macaulay Library"
+    },
+    {
+      "speciesCode": "tbgdov1",
+      "comName": "Paloma Perdiz de las Salomón",
+      "sciName": "Pampusana salamonis",
+      "date": "2026-06-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset//900",
+      "photographer": "",
+      "attribution": "Macaulay Library / Cornell Lab of Ornithology"
     }
   ]
 }

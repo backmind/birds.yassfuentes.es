@@ -1,0 +1,15 @@
+{
+  "description": "La paloma perdiz de Salomón, paloma perdiz de las Salomón o paloma-perdiz de Makira es una especie extinta de ave columbiforme de la familia Columbidae propia de las islas Salomón, en el Pacífico.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La paloma perdiz de Salomón, paloma perdiz de las Salomón o paloma-perdiz de Makira es una especie extinta de ave columbiforme de la familia Columbidae propia de las islas Salomón, en el Pacífico.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pampusana_salamonis",
+  "wikipedia_language": "es",
+  "fallback_text": "Extinct, last reported in 1927. Formerly Solomon Islands (Ramos and Makira).",
+  "fallback_language": "en",
+  "gbif_taxon_key": 10674967,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=10674967&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "EX",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22691056"
+}
