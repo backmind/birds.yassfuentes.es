@@ -647,6 +647,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset//900",
       "photographer": "",
       "attribution": "Macaulay Library / Cornell Lab of Ornithology"
+    },
+    {
+      "speciesCode": "blueth",
+      "comName": "Ruiseñor Pechiazul",
+      "sciName": "Luscinia svecica",
+      "date": "2026-06-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/261494631/900",
+      "photographer": "Bryan Calk",
+      "attribution": "Bryan Calk / Macaulay Library"
     }
   ]
 }
