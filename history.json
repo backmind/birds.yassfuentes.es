@@ -656,6 +656,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/261494631/900",
       "photographer": "Bryan Calk",
       "attribution": "Bryan Calk / Macaulay Library"
+    },
+    {
+      "speciesCode": "houspa",
+      "comName": "Gorrión Común",
+      "sciName": "Passer domesticus",
+      "date": "2026-06-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305880301/900",
+      "photographer": "Evan Lipton",
+      "attribution": "Evan Lipton / Macaulay Library"
     }
   ]
 }
