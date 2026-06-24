@@ -665,6 +665,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305880301/900",
       "photographer": "Evan Lipton",
       "attribution": "Evan Lipton / Macaulay Library"
+    },
+    {
+      "speciesCode": "leskes1",
+      "comName": "Cernícalo Primilla",
+      "sciName": "Falco naumanni",
+      "date": "2026-06-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027951/900",
+      "photographer": "Dorna Mojab",
+      "attribution": "Dorna Mojab / Macaulay Library"
     }
   ]
 }
