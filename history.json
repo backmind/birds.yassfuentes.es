@@ -674,6 +674,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027951/900",
       "photographer": "Dorna Mojab",
       "attribution": "Dorna Mojab / Macaulay Library"
+    },
+    {
+      "speciesCode": "pitsan1",
+      "comName": "Ganga Ibérica",
+      "sciName": "Pterocles alchata",
+      "date": "2026-06-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/172620811/900",
+      "photographer": "Shlomi Levi",
+      "attribution": "Shlomi Levi / Macaulay Library"
     }
   ]
 }
