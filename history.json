@@ -683,6 +683,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/172620811/900",
       "photographer": "Shlomi Levi",
       "attribution": "Shlomi Levi / Macaulay Library"
+    },
+    {
+      "speciesCode": "batgod",
+      "comName": "Aguja Colipinta",
+      "sciName": "Limosa lapponica",
+      "date": "2026-06-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46320861/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
     }
   ]
 }
