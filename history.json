@@ -692,6 +692,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46320861/900",
       "photographer": "Ian Davies",
       "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "euptit1",
+      "comName": "Pájaro Moscón Europeo",
+      "sciName": "Remiz pendulinus",
+      "date": "2026-06-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45223631/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
     }
   ]
 }
