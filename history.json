@@ -710,6 +710,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
       "photographer": "Adrien Mauss",
       "attribution": "Adrien Mauss / Macaulay Library"
+    },
+    {
+      "speciesCode": "rinouz1",
+      "comName": "Mirlo Capiblanco",
+      "sciName": "Turdus torquatus",
+      "date": "2026-06-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
+      "photographer": "Rafael Merchante",
+      "attribution": "Rafael Merchante / Macaulay Library"
     }
   ]
 }
