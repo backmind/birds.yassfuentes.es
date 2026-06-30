@@ -719,6 +719,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
       "photographer": "Rafael Merchante",
       "attribution": "Rafael Merchante / Macaulay Library"
+    },
+    {
+      "speciesCode": "reblei",
+      "comName": "Leiótrix Piquirrojo",
+      "sciName": "Leiothrix lutea",
+      "date": "2026-06-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/608766071/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
     }
   ]
 }

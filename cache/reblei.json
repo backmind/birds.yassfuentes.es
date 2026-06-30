@@ -1,0 +1,15 @@
+{
+  "description": "El leiótrix piquirrojo o ruiseñor japonés es una especie de ave paseriforme de la familia Leiothrichidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "Conocido en el comercio de pájaros de jaula como petirrojo de la colina japonés, petirrojo de Pekín o ruiseñor de Pekín, el Red-billed Leiothrix fue importado por primera vez a las islas hawaianas en 1911 ( Fisher and Baldwin 1947 Fisher, H. I. and P. H. Baldwin. (1947). Notes on the Red-billed Leiothrix in Hawai'i. Pacific Science 1:45-51. Close ), produciéndose liberaciones intencionadas en la naturaleza después de 1918 ( Caum 1933 Caum, E. L. (1933). The exotic birds of Hawaii. B. P. Bishop Mus. Occas. Pap. Vol. 10 (9). Close ). Originaria de las regiones himalayas de la India hasta el sur de China, esta especie es un balbuceo de tamaño mediano, de color verde y amarillo, con un llamativo pico rojo y una cola fuertemente dentada. La especie es extremadamente activa, pero los individuos son algo reservados y difíciles de ver mientras revolotean por el sotobosque, a menudo en pequeños grupos. El Red-billed Leiothrix se encuentra en una gran variedad de hábitats en las islas hawaianas, incluidos bosques autóctonos y exóticos desde el nivel del mar hasta cerca de las cumbres de las montañas que superan los 4.000 m de altitud. Los leiotrix utilizan una amplia variedad de plantas nativas e introducidas para buscar alimento y anidar, y se alimentan de fruta y de invertebrados espigados del follaje y la madera muerta. Forrajean y anidan sobre todo entre las ramas bajas de la vegetación densa, y rara vez utilizan las copas de los árboles. La especie es más gregaria y nómada fuera de la temporada reproductiva, cuando se han observado bandadas de hasta 100 aves. Canta de forma más persistente durante la temporada reproductiva, pero también durante todo el año, sobre todo cuando va a descansar. Ambos sexos emiten un reclamo áspero y repetitivo en respuesta a los intrusos humanos y otros animales.",
+  "taxonomy": {},
+  "wikipedia_summary": "El leiótrix piquirrojo o ruiseñor japonés es una especie de ave paseriforme de la familia Leiothrichidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Leiothrix_lutea",
+  "wikipedia_language": "es",
+  "fallback_text": "A plump, brightly colored babbler of dense forest understory. The yellow-orange breast and red bill are distinctive. The tail feathers have a peculiar outward curve near the tip. The song is a somewhat disjointed series of melodious phrases; calls include harsh scolding, chattering, and a repeated “peter-peter”. Native to Asia, from eastern China west to the Himalayas; introduced to Hawaii, Japan, Reunion Island, and parts of Europe.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5231398,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5231398&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716522"
+}
