@@ -728,6 +728,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/608766071/900",
       "photographer": "Marco Valentini",
       "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "afroys1",
+      "comName": "Ostrero Negro Africano",
+      "sciName": "Haematopus moquini",
+      "date": "2026-07-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215836881/900",
+      "photographer": "Paul Farrell",
+      "attribution": "Paul Farrell / Macaulay Library"
     }
   ]
 }
