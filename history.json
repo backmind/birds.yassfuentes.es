@@ -737,6 +737,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215836881/900",
       "photographer": "Paul Farrell",
       "attribution": "Paul Farrell / Macaulay Library"
+    },
+    {
+      "speciesCode": "stonec4",
+      "comName": "Tarabilla Europea",
+      "sciName": "Saxicola rubicola",
+      "date": "2026-07-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/387157581/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
     }
   ]
 }
