@@ -1,0 +1,15 @@
+{
+  "description": "Es abundante y puede ser muy abundante en áreas abiertas, desde páramos a pastizales y parches con vegetación en zonas urbanas. Al igual que otros fringílidos, a menudo forma bandos en otoño e invierno; no suele visitar los comederos de jardín. Por lo general tiene aspecto de pequeña ave y es bastante poco visible, a menos que se vea bien al macho, que tiene pecho rojizo, la cabeza gris y la espalda marrón rojiza lo que sí hace una combinación distintiva. La hembra se identifica mejor por el patrón facial: amplias medias lunas pálidas por encima y por debajo de los ojos y parche pálido en las mejillas. Destacan en ella también el pico pequeño gris, las alas blanquecinas y las rectrices externas blancas como el macho.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El pardillo común es una especie de ave paseriforme de la familia Fringillidae propia del Paleártico occidental.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Linaria_cannabina",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 8104397,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8104397&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22720441"
+}

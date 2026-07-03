@@ -746,6 +746,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/387157581/900",
       "photographer": "Daniel Pettersson",
       "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurlin1",
+      "comName": "Pardillo Común",
+      "sciName": "Linaria cannabina",
+      "date": "2026-07-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256711051/900",
+      "photographer": "Rui Pereira | Portugal Birding Tours",
+      "attribution": "Rui Pereira | Portugal Birding Tours / Macaulay Library"
     }
   ]
 }
