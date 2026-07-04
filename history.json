@@ -755,6 +755,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256711051/900",
       "photographer": "Rui Pereira | Portugal Birding Tours",
       "attribution": "Rui Pereira | Portugal Birding Tours / Macaulay Library"
+    },
+    {
+      "speciesCode": "masyel4",
+      "comName": "Mascarita Embridada",
+      "sciName": "Geothlypis auricularis",
+      "date": "2026-07-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/486441101/900",
+      "photographer": "Miguel Aguilar @birdnomad",
+      "attribution": "Miguel Aguilar @birdnomad / Macaulay Library"
     }
   ]
 }

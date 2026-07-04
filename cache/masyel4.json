@@ -1,0 +1,15 @@
+{
+  "description": "Como una mezcla entre Gray-crowned y Olive-crowned Yellowthroats, esta especie combina una máscara negra completa con una corona gris. Las partes inferiores son enteramente amarillas, la espalda es oliva. La hembra es similar a otros yellowthroats pero observa sus mejillas grisáceas y la ausencia de lores oscuros. Encontrado solo o en pares en pastizales húmedos y pantanos. Escucha por su dulce canto silbado. Tiende a permanecer bajo, pero los machos se perchan más alto cuando cantan.",
+  "description_source": "ebird",
+  "bow_intro": "El Black-lored Yellowthroat comparte muchas similitudes con otros rabijuncos del género Geothlypis . Tiene una gran predilección por los matorrales densos y las marañas a lo largo de los bordes de los bosques y las zonas ribereñas, donde le gusta pegarse a la cubierta densa y puede ser difícil de observar. A diferencia de Masked Yellowthroat ( Geothlypis aequinoctialis ) y Southern Yellowthroat ( Geothlypis velata ) , dos especies que recientemente se consideraban coespecíficas de esta especie, Black-lored Yellowthroat es más bien una especie de hábitats áridos. Como tal, aunque las zonas ribereñas y las marismas siguen siendo utilizadas, esta warbler de plumaje audaz puede ser común en hábitats como el bosque tropical caducifolio y los matorrales costeros secos. Su plumaje, aunque relativamente sencillo, es sin embargo llamativo y distintivo. Ambos sexos son generalmente oliváceos por encima con partes inferiores amarillo brillante, mientras que los machos se distinguen por una prominente máscara negra y una corona gris. El Black-lored Yellowthroat sólo se encuentra en el oeste de Ecuador y Perú y, siendo bastante común dentro de su área de distribución, ha recibido relativamente poca atención por parte de los investigadores. Este relato presenta la primera reseña publicada de su nido y su pichón, y aún queda mucho por estudiar de todos los aspectos de su biología reproductora y su historia natural básica.",
+  "taxonomy": {},
+  "wikipedia_summary": "La mascarita embridada o mascarita lorinegra, también denominada reinita de lores negros, antifacito lorinegro o arañero peruano, es una especie de ave paseriforme de la familia Parulidae perteneciente al numeroso género Geothlypis. Es nativa del oeste de América del Sur.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Geothlypis_auricularis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 6100790,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=6100790&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103795612"
+}
