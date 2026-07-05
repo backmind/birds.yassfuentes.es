@@ -1,0 +1,15 @@
+{
+  "description": "Es un ave poco común o escaso y localizado en distintos hábitats, desde bosques a gargantas rocosas, normalmente en ambientes poco humanizados. Está activo principalmente de noche, pero se le puede ver cazar durante el crepúsculo cuando se suele posar en lugares desde donde divisa parte de su territorio. Es posible encontrarlo descansando durante el día en oquedades u oculto en la copa de árboles. Es un búho muy grande y robusto con patentes plumas auriculares, ojos naranja oscuro y con la parte ventral beige pálido finamente estriada.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El búho real es una especie de ave estrigiforme de la familia Strigidae. También es conocido como búho real europeo, búho real euroasiático o gran duque. Es un ave rapaz de tamaño grande, distribuida por gran parte de Eurasia. Es uno de los búhos de mayor tamaño y de los más ampliamente distribuidos geográficamente, por lo que ocupa una gran multitud de hábitats. La gran mayoría de su población se distribuye por Europa continental, Rusia y Asia Central. Su nombre científico deriva de la onomatopeya de los sonidos que emite, y ya desde la Edad Media se le conocía como bubo en los bestiarios.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Bubo_bubo",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5959092,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5959092&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22688927"
+}

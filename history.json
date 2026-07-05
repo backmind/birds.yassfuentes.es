@@ -764,6 +764,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/486441101/900",
       "photographer": "Miguel Aguilar @birdnomad",
       "attribution": "Miguel Aguilar @birdnomad / Macaulay Library"
+    },
+    {
+      "speciesCode": "eueowl1",
+      "comName": "Búho Real",
+      "sciName": "Bubo bubo",
+      "date": "2026-07-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258097941/900",
+      "photographer": "birol hatinoğlu",
+      "attribution": "birol hatinoğlu / Macaulay Library"
     }
   ]
 }
