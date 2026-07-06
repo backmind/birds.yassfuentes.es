@@ -1,0 +1,15 @@
+{
+  "description": "Se observa en bosques abiertos, terrenos agrícolas con setos vivos y árboles dispersos. Más bien tímida y se detecta casi siempre en vuelo. Se alimenta fundamentalmente en el suelo, en parejas o pequeños grupos que se asocian fácilmente con Wood-Pigeons. De tamaño medio, coloración general grisácea con pecho rosado y franja alar no conspicua con el ala plegada. En vuelo se aprecia la coloración negra en la punta y en el ancho borde posterior de las alas que contrastan con el panel gris claro de la parte media del ala. La parte inferior del ala es gris con un ancho borde posterior (parte inferior del ala normalmente blanco en la Rock Pigeon y en las palomas domésticas.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La paloma zurita es una especie de ave columbiforme de la familia Columbidae propia de Europa, el oeste de Asia y Marruecos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Columba_oenas",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2495471,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2495471&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22690088"
+}

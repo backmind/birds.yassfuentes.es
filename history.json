@@ -773,6 +773,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258097941/900",
       "photographer": "birol hatinoğlu",
       "attribution": "birol hatinoğlu / Macaulay Library"
+    },
+    {
+      "speciesCode": "stodov1",
+      "comName": "Paloma Zurita",
+      "sciName": "Columba oenas",
+      "date": "2026-07-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242172531/900",
+      "photographer": "Paul Lewis",
+      "attribution": "Paul Lewis / Macaulay Library"
     }
   ]
 }
