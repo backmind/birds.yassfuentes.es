@@ -782,6 +782,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242172531/900",
       "photographer": "Paul Lewis",
       "attribution": "Paul Lewis / Macaulay Library"
+    },
+    {
+      "speciesCode": "lbbgul",
+      "comName": "Gaviota Sombría",
+      "sciName": "Larus fuscus",
+      "date": "2026-07-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299868811/900",
+      "photographer": "Terry Bohling",
+      "attribution": "Terry Bohling / Macaulay Library"
     }
   ]
 }

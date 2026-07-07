@@ -1,0 +1,12 @@
+{
+  "prose": "La Gaviota Sombría (Larus fuscus) es una de las viajeras más incansables y adaptables del hemisferio norte. Con una silueta esbelta y alas notablemente largas, esta especie de la familia Laridae desafía las distancias con un vuelo elegante y sostenido. Aunque se la puede encontrar en casi cualquier masa de agua, muestra una clara preferencia por las playas y las costas marinas. Es un ave profundamente social que suele integrarse en ruidosas bandadas mixtas junto a otras grandes gaviotas. Su presencia se extiende de manera cosmopolita: cría en regiones septentrionales como Escandinavia e Islandia, y emprende asombrosas migraciones otoñales hacia el sur, alcanzando las costas del norte de África para pasar el invierno, mientras que otras poblaciones cruzan el Atlántico para establecerse en las costas de Norteamérica, donde su número ha aumentado de forma espectacular en las últimas décadas.\n\nLo que hace verdaderamente fascinante a la gaviota sombría es su prolongado viaje hacia la madurez y su extraordinaria plasticidad ecológica. Un ejemplar joven tarda entre cuatro y cinco años en adquirir el definitivo y sobrio plumaje de adulto, un proceso de transición donde sus patrones de plumas cambian gradualmente. En su madurez, destaca por el contraste de su dorso gris oscuro y sus intensas patas amarillas. Como consumada oportunista, desempeña un papel ecológico crucial como limpiadora de las costas, aprovechando desde descartes pesqueros hasta pequeños invertebrados. Su capacidad para adaptarse a los cambios ambientales y colonizar nuevos territorios demuestra que, lejos de ser una simple ave costera, la gaviota sombría es una maestra de la supervivencia y la navegación global.",
+  "identification": [
+    "Adultos con el dorso de un tono gris oscuro y patas de un color amarillo brillante.",
+    "Silueta esbelta con alas notablemente largas que sobresalen del cuerpo en reposo.",
+    "En invierno, los adultos presentan un estriado denso y oscuro en la cabeza y el cuello.",
+    "Los jóvenes de primer y segundo año muestran una cabeza blanquecina que contrasta con manchas oscuras alrededor de los ojos.",
+    "Requiere de cuatro a cinco años de transiciones de plumaje para alcanzar el aspecto adulto."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-07T06:10:20Z"
+}
