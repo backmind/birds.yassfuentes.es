@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común en unas zonas y algo menos común en otras en zonas de bosques de coníferas y mixtos, zonas arboladas, plantaciones y jardines con coníferas. Es un migrador visible en setos y áreas sin coníferas. En otoño-invierno, a menudo viaja con grupos de tits y otras pequeñas aves de bosque en busca de comida. Discreto pero activo se encuentra a menudo en lo alto de la copa de los árboles. Es diminuto y más pequeño que los warblers, con característica combinación de borde negro, línea dorada en el píleo y ojo oscuro grande dando la impresión de cara “inocente”, además es característica su barra alar blanca con mancha negra en el ala.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El reyezuelo sencillo es el ave paseriforme más pequeña de Europa: mide 9 cm de longitud y 14 cm de envergadura, con un peso de entre 5 y 6 g. Suele verse en las ramas bajas de los árboles, en las que come; se le reconoce por su tono marrón verdoso, con una banda negra con centro amarillo en la coronilla.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Regulus_regulus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2484596,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2484596&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22734997"
+}

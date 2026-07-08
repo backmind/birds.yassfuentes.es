@@ -791,6 +791,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299868811/900",
       "photographer": "Terry Bohling",
       "attribution": "Terry Bohling / Macaulay Library"
+    },
+    {
+      "speciesCode": "goldcr1",
+      "comName": "Reyezuelo Sencillo",
+      "sciName": "Regulus regulus",
+      "date": "2026-07-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035631/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
     }
   ]
 }
