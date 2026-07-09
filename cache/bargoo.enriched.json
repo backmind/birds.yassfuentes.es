@@ -1,0 +1,11 @@
+{
+  "prose": "La Barnacla Cariblanca (Branta leucopsis) es un ganso de pequeño tamaño y elegante plumaje que personifica la asombrosa capacidad de recuperación de la naturaleza. Esta ave anseriforme, propia del norte de Europa y el este de Groenlandia, pasa los meses más fríos en tierras de cultivo, pastizales inundados y marismas costeras, donde se agrupa en bandos que pueden alcanzar miles de ejemplares. Con su característico plumaje que combina el negro, el blanco y un gris azulado plateado, destaca por su rostro blanco enmarcado en una capucha de un negro azabache. Durante el invierno, estas densas bandadas pastan activamente en campos agrícolas y praderas, mostrando un comportamiento gregario sumamente coordinado, aunque a veces se observen individuos solitarios o pequeños grupos familiares integrados en bandos de otras especies de gansos.\n\nLa historia de la barnacla cariblanca está repleta de mitos singulares y un asombroso éxito de conservación. Durante la Edad Media, ante la ausencia de nidos conocidos en Europa central, se creía firmemente que estos gansos nacían de los percebes que caían de los árboles al mar. Esta fantástica creencia generó intensos debates teológicos sobre si su carne podía consumirse durante la Cuaresma o si era considerada kosher. Más allá de la leyenda, la realidad de la especie es un testimonio de esperanza: en la década de 1950, la población mundial apenas alcanzaba los 20.000 individuos debido a la caza, la recolección de huevos y los ensayos nucleares en sus zonas de cría. Hoy, gracias a la creación de reservas y a la protección legal, sus poblaciones se han recuperado de forma espectacular, superando el millón de ejemplares en la ruta migratoria rusa, devolviendo la vida y el bullicio a las costas y llanuras europeas.",
+  "identification": [
+    "Ganso de pequeño tamaño con un plumaje tricolor en negro, blanco y gris azulado plateado.",
+    "Llamativa cara blanca que contrasta fuertemente con la cabeza, el cuello y el pecho de color negro azabache.",
+    "Dorso y alas con un patrón barrado de tonos grises y negros.",
+    "Comportamiento altamente gregario, formando bandos de cientos o miles de individuos en campos de cultivo y costas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-09T06:11:33Z"
+}

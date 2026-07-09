@@ -800,6 +800,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035631/900",
       "photographer": "Ian Davies",
       "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "bargoo",
+      "comName": "Barnacla Cariblanca",
+      "sciName": "Branta leucopsis",
+      "date": "2026-07-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/161008611/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }
