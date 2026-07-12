@@ -1,0 +1,15 @@
+{
+  "description": "Es un ave más o menos común pero que pasa desapercibido por estar habitualmente oculto en arbustos densos y setos cerca de agua, carrizales con arbustos y matorral. A menudo es escuchado pero raramente visto. Su canto es explosivo, a menudo intenso y entrecortado que atrae la atención. Normalmente canta escondido, luego se mueve a otro punto, se esconde y vuelve a catar. No canta de forma persistente desde un mismo posadero como un típico warbler. La apariencia es un tanto diferente a otras aves: bastante regordeta y de cola ancha; marrón rojizo por arriba y grisáceo pálido abajo, con ceja pálida y estrecha.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El cetia ruiseñor o ruiseñor bastardo es una especie de ave paseriforme de la familia Cettiidae propia de Europa, el suroeste de Asia y el norte de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cettia_cetti",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2493012,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493012&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22714445"
+}

@@ -827,6 +827,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254915731/900",
       "photographer": "Aseem Kothiala",
       "attribution": "Aseem Kothiala / Macaulay Library"
+    },
+    {
+      "speciesCode": "cetwar1",
+      "comName": "Cetia Ruiseñor",
+      "sciName": "Cettia cetti",
+      "date": "2026-07-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/615717250/900",
+      "photographer": "Ferit Başbuğ",
+      "attribution": "Ferit Başbuğ / Macaulay Library"
     }
   ]
 }

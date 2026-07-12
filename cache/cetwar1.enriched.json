@@ -1,0 +1,11 @@
+{
+  "prose": "En la espesura de las riberas, donde la vegetación se vuelve densa e impenetrable, habita un maestro del ocultamiento. El Cetia Ruiseñor (Cettia cetti), también conocido como ruiseñor bastardo, es un ave paseriforme que prefiere la seguridad de los carrizales, matorrales húmedos y setos cercanos al agua en Europa, el suroeste de Asia y el norte de África. Aunque es sumamente común en sus hábitats predilectos, su comportamiento esquivo lo convierte en un fantasma para el observador casual. En lugar de posarse a la vista, este pequeño habitante se desplaza con agilidad entre las ramas más bajas y tupidas, revelando su presencia no a través de la vista, sino mediante una de las firmas sonoras más sorprendentes del mundo natural: un canto explosivo, potente y repentino que rompe el silencio del humedal para luego desvanecerse tan rápido como empezó.\n\nA diferencia de otras currucas que cantan de forma persistente desde una misma rama expuesta, el cetia ruiseñor es un cantor nómada y sumamente cauteloso. Emite su potente melodía desde un escondite, se desplaza sigilosamente bajo la cobertura vegetal hacia un nuevo punto y solo entonces vuelve a cantar, desconcertando a quien intenta localizarlo. Esta estrategia minimiza el riesgo de depredación mientras defiende su territorio. En el ecosistema, desempeña un papel crucial como activo insectívoro, alimentándose de una gran variedad de pequeños insectos, larvas y arañas que busca incansablemente entre la hojarasca y las ramas bajas. Además, a diferencia del ruiseñor común, el cetia ruiseñor es una especie mayoritariamente sedentaria que permanece en sus territorios durante todo el año, desafiando los rigores del invierno bajo el amparo de la densa vegetación de ribera.",
+  "identification": [
+    "Canto sumamente explosivo, potente y repentino, emitido casi siempre desde la densa cobertura vegetal.",
+    "Silueta notablemente regordeta con una cola ancha que suele mantener redondeada.",
+    "Plumaje de tonos marrón rojizo en las partes superiores y grisáceo pálido en las zonas inferiores.",
+    "Presencia de una ceja o lista superciliar estrecha y de tono pálido sobre el ojo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-12T05:30:07Z"
+}
