@@ -1,0 +1,15 @@
+{
+  "description": "Se reproduce en algunas islas y costas del Mediterráneo e inverna en Madagascar. Es un elegante halcón con alas y cola sorprendentemente largas con infracobertoras alares oscuras. Tiene dos tipos de plumaje. Uno con forma oscura uniforme y otro de morfo claro con las mejillas blancas y el vientre castaño rayado de negro. Los juveniles recuerdan al Eurasian Hobby juvenil pero con el patrón inferior de las alas más contrastado. Su vuelo grácil y lento puede recordar a un jaeger (skua) y puede realizar cambios de velocidad semejantes. Está especializado en la caza de aves migratorias. Anida en acantilados costeros e islas.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El halcón de Eleonora es una especie de ave falconiforme de la familia Falconidae autóctona del Mediterráneo. Ave migratoria, cría en distintos enclaves de la costa magrebí, Cerdeña, Croacia y España, para después invernar en Madagascar. No se conocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Falco_eleonorae",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481037,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481037&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696442"
+}

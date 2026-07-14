@@ -845,6 +845,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
       "photographer": "José Frade",
       "attribution": "José Frade / Macaulay Library"
+    },
+    {
+      "speciesCode": "elefal1",
+      "comName": "Halcón de Eleonora",
+      "sciName": "Falco eleonorae",
+      "date": "2026-07-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027681/900",
+      "photographer": "Ricardo Rodríguez",
+      "attribution": "Ricardo Rodríguez / Macaulay Library"
     }
   ]
 }
