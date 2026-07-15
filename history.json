@@ -854,6 +854,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027681/900",
       "photographer": "Ricardo Rodríguez",
       "attribution": "Ricardo Rodríguez / Macaulay Library"
+    },
+    {
+      "speciesCode": "norgos1",
+      "comName": "Azor Euroasiático",
+      "sciName": "Astur gentilis",
+      "date": "2026-07-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609520163/900",
+      "photographer": "Daniel López-Velasco | Ornis Birding Expeditions",
+      "attribution": "Daniel López-Velasco | Ornis Birding Expeditions / Macaulay Library"
     }
   ]
 }
