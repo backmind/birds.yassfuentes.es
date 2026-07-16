@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común en campos abiertos, especialmente pastizales en terrenos escabrosos, páramos, tierras de cultivo, aeropuertos. Como la mayoría de los aláudidos, normalmente es poco visible en el suelo y mejor detectada por la voz. Posee un canto prolongado en vuelo, compuesto de gorjeos y trinos, a menudo tan alto que apenas se ve una mancha en el cielo, si es que está visible. Si está posada, destaca el plumaje rayado marrón, cresta tupida distintiva, y anillo ocular ancho, difuso y pálido. Más corpulenta que un bisbita pero y a diferencia de ésta no suele menear su parte trasera. En vuelo muestra lados blancos de la cola, así como un borde posterior blanco y estrecho en las alas.",
+  "description_source": "ebird",
+  "bow_intro": "En este fragmento de su poema \"A una alondra\", Shelley se inspiró en la estimulante vista y el sonido del vuelo aéreo de este ave: un veloz dardo hacia el cielo seguido de un descenso largo, constante y grácil del pájaro cantor. Este carácter campechano ha hecho de la célebre alondra común el miembro más conocido de la familia de las alondras. En Norteamérica existen dos especies de alondras, la Horned Lark (Eremophila alpestris ) y la Alondra Común. La alondra común es tanto una especie residente introducida como una especie migratoria y reproductora natural. Existen poblaciones introducidas en el sur de la isla de Vancouver (Columbia Británica), en la isla de San Juan (Washington) y en todas las islas principales de Hawai, excepto Kauai. Las poblaciones no introducidas del noreste de Asia se dan como migrantes poco frecuentes en el oeste de Alaska, donde recientemente se encontraron criando en las islas Pribilof, y como errantes ocasionales en California y Hawai.",
+  "taxonomy": {},
+  "wikipedia_summary": "La alondra común es un ave paseriforme de la familia Alaudidae, caracterizada por un tono marrón pardo general, salvo en el vientre, que es blanco; una banda blanquecina junto al borde externos de las alas; dos manchas negruzcas en la cola; y una cresta en la cabeza.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Alauda_arvensis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 8077224,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8077224&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/102998555"
+}
