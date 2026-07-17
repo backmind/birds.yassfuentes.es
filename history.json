@@ -872,6 +872,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/311380331/900",
       "photographer": "Peter Kennerley",
       "attribution": "Peter Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "sinmar1",
+      "comName": "Golondrina Sinaloense",
+      "sciName": "Progne sinaloae",
+      "date": "2026-07-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/615991632/900",
+      "photographer": "Rick Bowers",
+      "attribution": "Rick Bowers / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "prose": "En los escarpados paisajes de la Sierra Madre Occidental, donde los bosques de pino y encino coronan las alturas de hasta dos mil metros sobre el nivel del mar, habita un ave de vuelo majestuoso y misterioso: la Golondrina Sinaloense (Progne sinaloae). Esta golondrina de gran tamaño, también conocida como golondrina grande bicolor, es una visitante estival que llega a estas montañas mexicanas entre marzo y agosto. Con un vuelo ágil y enérgico, domina los cielos de laderas y acantilados, descendiendo ocasionalmente a pozas y lagos para beber agua en pleno vuelo. Se le suele observar en solitario o en pequeños grupos, a veces asociándose con otras especies de golondrinas, buscando cavidades en viejos pinos secos o acantilados para establecer sus nidos.\n\nA pesar de su imponente presencia, la golondrina sinaloense sigue siendo uno de los grandes enigmas de la ornitología neotropical. Aunque se sabe que se reproduce en el oeste de México y que transita por rutas que llegan hasta Guatemala, su destino exacto durante los meses de invierno sigue siendo un absoluto misterio, sospechándose que viaja hacia el interior de Sudamérica. Detalles tan fundamentales de su biología como el tamaño de su puesta, el periodo de incubación o el desarrollo de sus polluelos permanecen sin documentar. Como consumidora de insectos en pleno vuelo, desempeña un papel ecológico crucial en el control de poblaciones de insectos en los ecosistemas de montaña, recordándonos que, incluso hoy en día, la naturaleza aún guarda secretos esperando ser revelados.",
+  "identification": [
+    "Tamaño notablemente grande para un miembro de la familia de las golondrinas.",
+    "El macho es de color azul acero brillante o azul negro por arriba, con un vientre blanco muy contrastante.",
+    "La hembra posee un pecho oscuro que contrasta fuertemente con su vientre blanco claro.",
+    "El macho presenta finas estrías negras en las coberteras infracaudales."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-17T05:14:58Z"
+}
