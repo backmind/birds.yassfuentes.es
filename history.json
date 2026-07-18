@@ -881,6 +881,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/615991632/900",
       "photographer": "Rick Bowers",
       "attribution": "Rick Bowers / Macaulay Library"
+    },
+    {
+      "speciesCode": "citfin1",
+      "comName": "Verderón Serrano",
+      "sciName": "Carduelis citrinella",
+      "date": "2026-07-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46495721/900",
+      "photographer": "Wayne Gillatt",
+      "attribution": "Wayne Gillatt / Macaulay Library"
     }
   ]
 }
