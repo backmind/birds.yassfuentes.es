@@ -890,6 +890,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46495721/900",
       "photographer": "Wayne Gillatt",
       "attribution": "Wayne Gillatt / Macaulay Library"
+    },
+    {
+      "speciesCode": "comqua1",
+      "comName": "Codorniz Común",
+      "sciName": "Coturnix coturnix",
+      "date": "2026-07-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241998281/900",
+      "photographer": "Javier Robres",
+      "attribution": "Javier Robres / Macaulay Library"
     }
   ]
 }

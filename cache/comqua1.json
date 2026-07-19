@@ -1,0 +1,15 @@
+{
+  "description": "Es un visitante estival de altos pastizales y campos de cereal que inverna en África y de forma escasa en el sur de Europa. Raramente visible, normalmente se detectada por el energético canto del macho “pal-pa-la”, que puede ser emitido también de noche. Cuando es espantada, vuela con un fuertes batidos y cortos planeos. Tiene plumaje muy críptico marrón estriado con ceja pálida; el macho tiene una línea negra en la garganta. Muy parecida a la Japanese Quail, que es criada en cautividad para producción de huevos y que podría encontrarse algún ejemplar escapado. Probablemente ambas son imposibles de identificar con seguridad en el campo.",
+  "description_source": "ebird",
+  "bow_intro": "Tetrao Coturnix Linneo, 1758, Systema Naturae ed. 10, p. 161. Localidad tipo dada Europa, Asia y África ( 6 Linnaeus, C. (1758). Systema Naturae per Regna tria Naturae, secundum Classes, Ordines, Genera, Species cum Characteribus, Differentiis, Synonymis, Locis. Volume 1. 10th edition. Laurentius Salvius, Holmia [Stockholm], Sweden. Close ). Coturnix coturnix corsicana Tschusi zu Schmidhoffen, 1912, Ornithologisches Jahrbuch 23:218. Localidad tipo dada como \"Korsika\" [=Córcega] ( 7 Tschusi zu Schmidhoffen, V. (1912). Über palaearktische formen XVI. Ornithologisches Jahrbuch 23:216-220 Close ).",
+  "taxonomy": {},
+  "wikipedia_summary": "La codorniz común es una especie de ave galliforme de la familia Phasianidae ampliamente distribuida por Eurafrasia. Es un ave pequeña y rechoncha que no vuela largas distancias. Su plumaje en la zona dorsal es de color terroso con veteado ocráceo y negro mientras que en las partes inferiores es más claro. El color del dorso es especialmente críptico al contrastarlo sobre un suelo con restos de plantas secas. Los adultos muestran una clara diferenciación sexual a nivel de la garganta y del pecho. Los machos presentan en la garganta un diseño en forma de ancla de color oscuro del que carecen las hembras mientras que las plumas del pecho, en el caso de los machos son anaranjadas y en las hembras blanquecinas con manchas negras muy aparentes. Los machos emiten un canto formado por dos vocalizaciones distintas, una que onomatopéyicamente se podría describir como “mau – mau” y otra más estridente compuesta de tres sílabas “par – pa - lá”. Las hembras emiten una vocalización bisilábica “ri – tit”.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Coturnix_coturnix",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2474156,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474156&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22678944"
+}
