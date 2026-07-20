@@ -899,6 +899,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241998281/900",
       "photographer": "Javier Robres",
       "attribution": "Javier Robres / Macaulay Library"
+    },
+    {
+      "speciesCode": "cretit2",
+      "comName": "Herrerillo Capuchino",
+      "sciName": "Lophophanes cristatus",
+      "date": "2026-07-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258104311/900",
+      "photographer": "Javier Robres",
+      "attribution": "Javier Robres / Macaulay Library"
     }
   ]
 }
