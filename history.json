@@ -908,6 +908,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258104311/900",
       "photographer": "Javier Robres",
       "attribution": "Javier Robres / Macaulay Library"
+    },
+    {
+      "speciesCode": "grewhi1",
+      "comName": "Curruca Zarcera",
+      "sciName": "Curruca communis",
+      "date": "2026-07-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256746661/900",
+      "photographer": "Anonymous",
+      "attribution": "Anonymous / Macaulay Library"
     }
   ]
 }
