@@ -1,0 +1,15 @@
+{
+  "description": "Es común o puede escasear propio de zonas en variados hábitats abiertos con zonas rocosas, desde riscos y campos de rocas hasta edificios y canteras. Los migrantes a menudo se encuentran a lo largo de las costas rocosas. Se alimenta principalmente en el suelo o cerca de él, posándose bastante erguido; canta desde posaderos prominentes, como las esquinas de los edificios. Ambos sexos tienen cola naranja brillante, que se ve mejor cuando se abre o emprende el vuelo. El macho es pizarroso negruzco en general y la hembra de color grisáceo ahumado en general. En comparación, la hembra del Common Redstart es de tonos más cálidos y a su vez es un ave de bosques y hábitats de matorral.",
+  "description_source": "ebird",
+  "bow_intro": "Desde el noreste de Irán y Turkmenistán hasta el noroeste de Pakistán, hacia el norte hasta el sureste de Kazajstán, el noroeste de China y el centro-sur y este de Mongolia.",
+  "taxonomy": {},
+  "wikipedia_summary": "El colirrojo tizón es una especie de ave paseriforme de la familia Muscicapidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Phoenicurus_ochruros",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5739315,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5739315&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22710051"
+}

@@ -917,6 +917,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256746661/900",
       "photographer": "Anonymous",
       "attribution": "Anonymous / Macaulay Library"
+    },
+    {
+      "speciesCode": "blared1",
+      "comName": "Colirrojo Tizón",
+      "sciName": "Phoenicurus ochruros",
+      "date": "2026-07-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44587591/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
     }
   ]
 }
