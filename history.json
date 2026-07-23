@@ -926,6 +926,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44587591/900",
       "photographer": "Ian Davies",
       "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "grebus1",
+      "comName": "Avutarda Euroasiática",
+      "sciName": "Otis tarda",
+      "date": "2026-07-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242189201/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
     }
   ]
 }

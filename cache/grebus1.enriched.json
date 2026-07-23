@@ -1,0 +1,11 @@
+{
+  "prose": "En la vastedad serena de las llanuras abiertas y las estepas agrícolas, emerge la silueta inconfundible de la Avutarda Euroasiática (Otis tarda). Esta criatura de porte señorial y andadura pausada domina los horizontes desarbolados de Europa y Asia con una presencia verdaderamente imponente. Es una de las aves voladoras más pesadas del planeta, capaz de recorrer grandes distancias a pie con notable velocidad ante cualquier perturbación antes de decidirse a emprender un vuelo pesado y constante, cuyo batir de alas evoca la sobria elegancia de los gansos. Durante gran parte del año, y muy especialmente durante los meses invernales, demuestra una marcada naturaleza gregaria, agrupándose en bandadas que recorren los campos abiertos.\n\nLa vida social de la avutarda alcanza su cima con la llegada de la primavera, en un despliegue de celo que figura entre los espectáculos más fascinantes del mundo natural. En las áreas de exhibición conocidas como leks, los machos —significativamente más grandes que las hembras— ejecutan una transformación asombrosa llamada \"rueda\". Al orientar y girar las plumas de sus alas hacia adelante, revelan un plumaje deslumbrantemente blanco que llega a ocultar su propia cabeza. Fuera de esta época reproductiva, los sexos apenas se mezclan. Con una esperanza de vida en libertad estimada entre diez y quince años, esta especie única cumple un rol fundamental en la dinámica de los frágiles ecosistemas esteparios.",
+  "identification": [
+    "Gran porte y cuerpo robusto, con machos ostensiblemente mayores que las hembras.",
+    "Comportamiento eminentemente terrestre; ante amenazas prefiere alejarse corriendo a buena velocidad antes que volar.",
+    "Vuelo pesado y directo con aleteos profundos semejantes a los de un ganso.",
+    "Exhibición nupcial del macho en forma de esfera blanca deslumbrante al revertir el plumaje de sus alas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-23T05:26:36Z"
+}
