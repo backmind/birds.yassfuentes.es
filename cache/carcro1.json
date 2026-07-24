@@ -1,0 +1,15 @@
+{
+  "description": "Común en hábitats abiertos y semiabiertos, desde ciudades y tierras de cultivo a bosques abiertos y páramos. En el norte, este y noroeste de Europa por es reemplazada por la Hooded Crow. Se encuentran en parejas o en grupos pequeños, por lo general no en bandos grandes, excepto en dormideros. Entre los córvidos negros y grandes es el más frecuente, sin rasgos de campo obvios. Más pequeño que el Common Raven, que tiene la cola más larga, fuertemente graduada, el pico más pesado, la garganta desgreñada y voz más profunda. Los Raven tienen un vuelo más de planeo, mientras que las Carrion Crow suelen aletear.",
+  "description_source": "ebird",
+  "bow_intro": "El Carrion Crow, un habitante familiar de ciudades de toda Europa y Asia Oriental, se ganó su nombre -y su reputación más bien macabra- por su amplia dieta que incluye carroña y prácticamente cualquier otra cosa comestible. Al igual que otros córvidos, hace gala de una notable inteligencia mientras busca comida. Un ejemplo muy publicitado procede de Japón, donde los Corvidae urbanos dejan caer nueces en carreteras muy transitadas, esperan a que los coches las abran y recuperan la carne de nuez una vez que el semáforo se pone en rojo. Estas aves son auténticas generalistas: omnívoras, oportunistas y notablemente adaptables tanto a entornos urbanos como rurales. El Carrion Crow es un ave completamente negra de plumaje brillante y pico robusto. Está estrechamente emparentado con el Hooded Crow ( Corvus cornix ) , y ambos se hibridan allí donde sus áreas de distribución se encuentran, sobre todo en Europa central y oriental. Sin embargo, incluso en las zonas de contacto, la hibridación es relativamente infrecuente, probablemente porque el Carrion Crow muestra una marcada preferencia por aparearse con parejas totalmente negras en lugar de con el Hooded Crow, mayoritariamente gris. Sigue debatiéndose si esta preferencia se debe al apareamiento asortativo (elegir parejas de aspecto similar) o a la koinofilia (evitar fenotipos inusuales). Las Carrion Crow y Hooded Crow han sido agrupadas recientemente por AviList debido a la genética, el plumaje y el flujo genico que resulta en una débil diferenciación entre ambos.",
+  "taxonomy": {},
+  "wikipedia_summary": "La corneja negra es una especie de ave paseriforme de la familia Corvidae. Se la confunde a veces con el cuervo grande, aunque éste es de mayor tamaño y de poblaciones menos numerosas. La corneja negra posee una cabeza ancha y aplanada, un cuerpo negro brillante y un plumaje muy denso.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Corvus_corone",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9409796,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9409796&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22706016"
+}

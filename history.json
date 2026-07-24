@@ -935,6 +935,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242189201/900",
       "photographer": "Marco Valentini",
       "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "carcro1",
+      "comName": "Corneja Negra",
+      "sciName": "Corvus corone",
+      "date": "2026-07-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256186201/900",
+      "photographer": "Guillermo López Zamora",
+      "attribution": "Guillermo López Zamora / Macaulay Library"
     }
   ]
 }
