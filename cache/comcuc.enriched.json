@@ -1,0 +1,11 @@
+{
+  "prose": "Con el avance de la primavera, un sonido inconfundible resuena en los paisajes del hemisferio norte: la resonante voz del Cuco Común (Cuculus canorus). Esta ave estival realiza cada año un viaje migratorio desde sus áreas de invernada en el África subsahariana y el sudeste asiático para criar en Eurasia y el norte de África. Se adapta a una notable variedad de hábitats, incluyendo bosques, brezales, terrenos agrícolas delimitados por setos y humedales con vegetación arbustiva dispersa. Apostado con frecuencia en posaderos al descubierto, el macho emite su clásico reclamo de dos notas. En el aire, presenta un vuelo directo y habitualmente bajo que recuerda a la silueta de un gavilán o un halcón, destacando por sus alas estrechas, su larga cola y su vientre barrado.\n\nEl aspecto más célebre y asombroso en la biología del Cuco Común es su estrategia de reproducción mediante el parasitismo de puesta. La hembra deposita sus huevos en los nidos de pequeñas aves canoras, como el bisbita pratense o el carricero común, transfiriendo a estos hospedadores la incubación y crianza de sus descendientes. Al nacer, el pollo de cuco exige un suministro constante de alimento a sus padres adoptivos, llegando a desarrollarse hasta alcanzar un tamaño mucho mayor que el de las aves que lo alimentan. Esta refinada adaptación convierte a la especie en un testimonio fascinante del moldeado evolutivo y en un elemento singular de la dinámica de las comunidades aviares.",
+  "identification": [
+    "Inconfundible reclamo sonoro «cu-cu», emitido a frecuencia constante desde ramas o postes expuestos.",
+    "Silueta alargada en vuelo, con alas puntiagudas y cola larga que evoca a un pequeño rapaz.",
+    "Plumaje grisáceo o pardo con un característico patron de finas barras transversales en el vientre.",
+    "Vuelo directo, firme y de trayectoria baja sobre campos y matorrales."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-25T05:16:11Z"
+}

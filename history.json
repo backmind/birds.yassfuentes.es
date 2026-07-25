@@ -944,6 +944,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256186201/900",
       "photographer": "Guillermo López Zamora",
       "attribution": "Guillermo López Zamora / Macaulay Library"
+    },
+    {
+      "speciesCode": "comcuc",
+      "comName": "Cuco Común",
+      "sciName": "Cuculus canorus",
+      "date": "2026-07-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45125031/900",
+      "photographer": "Biju PB",
+      "attribution": "Biju PB / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Ave estival que migra desde sus cuarteles de invernada en África, bastante común. Aparece en bosques, brezales, terrenos agrícolas con setos, humedales con arbustos dispersos. Emite un “CU-cu” (como un reloj de cuco) a menudo desde un posadero al descubierto. Destacan las alas y cola largas, el vientre barrado y el pico más bien pequeño. Vuelo directo y a menudo bajo, que recuerda a un gavilán o halcón. Deposita sus huevos en nidos de otras aves que crían a los jóvenes cucos. Sus pollos son grandes y son criados por pequeñas aves canoras como el Meadow Pipit y el Reed Warbler se convertirán en cucos.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El cuco, cuco común, cuclillo europeo o cuco europeo es una especie de ave cuculiforme de la familia Cuculidae que cría en Eurasia y el norte de África, y migra al África subsahariana y el sudeste asiático.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cuculus_canorus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5231918,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5231918&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22683873"
+}
