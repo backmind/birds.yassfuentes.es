@@ -962,6 +962,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257629601/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "whiwag",
+      "comName": "Lavandera Blanca",
+      "sciName": "Motacilla alba",
+      "date": "2026-07-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/632267408/900",
+      "photographer": "Vincent Wang",
+      "attribution": "Vincent Wang / Macaulay Library"
     }
   ]
 }
