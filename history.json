@@ -971,6 +971,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/632267408/900",
       "photographer": "Vincent Wang",
       "attribution": "Vincent Wang / Macaulay Library"
+    },
+    {
+      "speciesCode": "blutit",
+      "comName": "Herrerillo Común",
+      "sciName": "Cyanistes caeruleus",
+      "date": "2026-07-28",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
+      "photographer": "Ferit Başbuğ",
+      "attribution": "Ferit Başbuğ / Macaulay Library"
     }
   ]
 }
