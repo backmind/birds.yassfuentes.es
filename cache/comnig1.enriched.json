@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra sombría de los matorrales y zonas arboladas con denso sotobosque, habita un virtuoso de la naturaleza que prefiere permanecer oculto a la vista. El Ruiseñor Común (Luscinia megarhynchos) es un visitante estival en gran parte de Europa que emprende largas migraciones hacia sus cuarteles de invernada en África. A pesar de su carácter típicamente huidizo y tímido, refugiado casi siempre entre la cubierta vegetal más espesa, este pequeño paseriforme se revela con una presencia sonora monumental. Desde posaderos bajos y bien escondidos, los machos despliegan un canto de una potencia y claridad asombrosas, resonando con especial fuerza durante la noche para delimitar su territorio y atraer a las hembras. Su capacidad para pasar inadvertido en la espesura es tal que incluso a pocos pasos de distancia resulta un gran desafío vislumbrar al cantor.\n\nEl prodigio vocal del ruiseñor común ha fascinado a la humanidad desde la antigüedad, inspirando a poetas como Virgilio o Keats como símbolo indiscutible del amor, la muerte y la inspiración. El nombre de la especie alude directamente a su virtuoso canto nocturno, una destreza que se apoya en un repertorio individual prodigioso que puede albergar entre 180 y 260 variaciones melódicas distintas. Mientras los machos ejecutan estas complejas composiciones, las hembras no cantan y emiten únicamente breves llamadas de contacto o alarma. Antiguamente clasificado dentro de la familia Turdidae y situado hoy entre los papamoscas de la familia Muscicapidae, este habitante de la espesura demuestra cómo la sobriedad en el plumaje puede esconder uno de los fenómenos acústicos más deslumbrantes del mundo natural.",
+  "identification": [
+    "Canto de extraordinaria potencia, riqueza y variedad, emitido con frecuencia de noche desde la vegetación densa.",
+    "Dorso pardo liso que contrasta con una cola de tono pardo oxidado o castaño rojizo.",
+    "Partes inferiores grisáceas pálidas con un suave tinte ocre difuminado.",
+    "Anillo ocular pálido en un rostro de patrón sencillo y apagado."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-29T05:23:14Z"
+}

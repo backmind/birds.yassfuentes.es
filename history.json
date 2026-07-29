@@ -980,6 +980,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
       "photographer": "Ferit Başbuğ",
       "attribution": "Ferit Başbuğ / Macaulay Library"
+    },
+    {
+      "speciesCode": "comnig1",
+      "comName": "Ruiseñor Común",
+      "sciName": "Luscinia megarhynchos",
+      "date": "2026-07-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730581/900",
+      "photographer": "Tânia Araújo",
+      "attribution": "Tânia Araújo / Macaulay Library"
     }
   ]
 }
