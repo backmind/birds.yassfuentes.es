@@ -989,6 +989,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730581/900",
       "photographer": "Tânia Araújo",
       "attribution": "Tânia Araújo / Macaulay Library"
+    },
+    {
+      "speciesCode": "wooshr1",
+      "comName": "Alcaudón Común",
+      "sciName": "Lanius senator",
+      "date": "2026-07-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54019381/900",
+      "photographer": "Markus Craig",
+      "attribution": "Markus Craig / Macaulay Library"
     }
   ]
 }

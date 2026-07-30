@@ -1,0 +1,11 @@
+{
+  "prose": "El Alcaudón Común (Lanius senator) es un pequeño pero audaz cazador de los ambientes cálidos y abiertos de la cuenca mediterránea, el Cáucaso y Oriente Próximo. Posado de manera erguida sobre las ramas más expuestas de árboles dispersos, arbustos o antiguas plantaciones, este ave vigila serenamente su entorno en busca de presas. Con su cabeza grande y robusta, destaca de inmediato por su plumaje contrastado: una vistosa corona de un vivo tono castaño rojizo que se extiende hacia la nuca, combinada con un antifaz negro sobre el rostro y un vientre claro. Desde sus atalayas privilegiadas, el Alcaudón Común se lanza con gran precisión hacia el suelo para capturar a la mayoría de sus presas.\n\nComo ave migratoria de largas distancias, abandona sus territorios de reproducción al final del verano para emprender un viaje hacia el sur del Sáhara, estableciendo sus cuarteles de invernada en la franja del Sahel y el África tropical. Durante la temporada de cría, se comporta como un nidificante solitario y monógamo, construyendo sus nidos principalmente en árboles. La hembra incuba una puesta de cuatro a ocho huevos, y los polluelos, tras abandonar el nido a los quince o dieciocho días, siguen siendo alimentados por sus padres hasta seis semanas después. En zonas como la región murciana, esta emblemática ave es conocida popularmente con el nombre de cacildrán.",
+  "identification": [
+    "Píleo y nuca de un llamativo color castaño rojizo o rufo en adultos.",
+    "Antifaz negro ancho y bien definido que cruza el rostro.",
+    "Manchas blancas prominentes en las alas (excepto en la subespecie de las islas del Mediterráneo occidental).",
+    "Juveniles de tono gris pálido con un patrón de aspecto escamoso."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-30T05:10:24Z"
+}
