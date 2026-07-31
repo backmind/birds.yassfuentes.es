@@ -998,6 +998,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54019381/900",
       "photographer": "Markus Craig",
       "attribution": "Markus Craig / Macaulay Library"
+    },
+    {
+      "speciesCode": "norlap",
+      "comName": "Avefría Europea",
+      "sciName": "Vanellus vanellus",
+      "date": "2026-07-31",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609204339/900",
+      "photographer": "Abhishek Das",
+      "attribution": "Abhishek Das / Macaulay Library"
     }
   ]
 }

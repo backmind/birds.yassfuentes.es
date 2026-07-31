@@ -1,0 +1,11 @@
+{
+  "prose": "Sobre la vastedad de los prados, terrenos agrícolas y humedales despejados, destaca la silueta inconfundible de la Avefría Europea (Vanellus vanellus). Este elegante limícola se distingue a primera vista por su largo y estilizado moño coronal y su andar pausado. A diferencia de la mayoría de las aves de su grupo, provistas de alas afiladas para un vuelo veloz, la avefría europea posee alas notablemente anchas y redondeadas que le confieren un batir profundo y parsimonioso. Sin embargo, durante la época de celo, los machos transforman esa aparente pesadez en espectaculares acrobacias aéreas, ejecutando picados marcados y giros audaces sobre el territorio de cría.\n\nEl nombre común de esta especie evoca su estrecha relación con los meses más gélidos del año, siendo muy fácil de contemplar entre octubre y marzo en diversas regiones del sur de Europa. A partir del final del verano y a lo largo del invierno, forma populosos bandos que pueden agrupar cientos e incluso miles de ejemplares en zonas abiertas. Aunque a cierta distancia su plumaje parece una sobria combinación de blanco y negro, una observación detallada bajo la luz adecuada revela brillantes irisaciones verdes en el dorso. Tristemente, las alteraciones en el uso del suelo y la pérdida de hábitat han provocado un decrecimiento de sus poblaciones en varias zonas de su distribución.",
+  "identification": [
+    "Moño largo, delgado y erguido sobre la cabeza.",
+    "Plumaje muy contrastado, de apariencia blanca y negra pero con irisaciones verdes en el dorso bajo buena luz.",
+    "Alas notablemente anchas y de bordes redondeados, muy distintas a las afiladas de otros limícolas.",
+    "Vuelo con aleteos profundos y exhibiciones nupciales compuestas por marcados picados."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-31T05:36:52Z"
+}
