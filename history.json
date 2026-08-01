@@ -1007,6 +1007,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609204339/900",
       "photographer": "Abhishek Das",
       "attribution": "Abhishek Das / Macaulay Library"
+    },
+    {
+      "speciesCode": "woowar",
+      "comName": "Mosquitero Silbador",
+      "sciName": "Phylloscopus sibilatrix",
+      "date": "2026-08-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256562731/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
     }
   ]
 }
