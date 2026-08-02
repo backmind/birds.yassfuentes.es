@@ -1,0 +1,15 @@
+{
+  "description": "Ave marina fornida, con forma de un balón de fútbol americano. Negro encima y blanco abajo con la cara nacarada y pico multicolor grueso. Patas y pies anaranjados. Las aves en plumaje no reproductivo y los juveniles muestran un rostro más oscuro y un pico más opaco. En la época de reproducción, rara vez se ve lejos de las colonias de reproducción en las islas rocosas y acantilados en el Atlántico Norte. Pasa el invierno en mar abierto, casi nunca se observa desde el continente. Distintivo si se ve bien; el único puffin en su rango.",
+  "description_source": "ebird",
+  "bow_intro": "Esta ficha de especie está dedicada en honor de Kathryn M. Kiplinger, miembro del Consejo de Administración del Cornell Lab of Ornithology. La Atlantic Puffin es una alca de tamaño mediano, robusta y corpulenta. Su elegante plumaje blanco y negro contrasta fuertemente con las grandes placas de su pico, de colores chillones, y sus patas y pies de color naranja brillante. Al igual que otros frailecillos, éste se reúne para criar en islas de alta mar y pone un solo huevo en una madriguera excavada en el suelo o dentro de una grieta rocosa. Algo torpe en tierra y en vuelo, es un ágil buceador mientras caza a sus presas -generalmente pequeños bancos de peces-. Capaz de vivir hasta los 30 años, el Atlantic Puffin no cría hasta que tiene entre 3 y 6 años. La asistencia a las colonias es muy variable; algunos días pueden estar presentes sólo unos pocos frailecillos, mientras que en otras ocasiones aparecen masas de ave por todas partes. Fuera de la temporada reproductiva, esta especie se dirige a alta mar y permanece mar adentro; en raras ocasiones, algunos incluso cruzan el Atlántico. Estos aspectos invernales y en alta mar de su historia de vida siguen siendo poco conocidos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El frailecillo atlántico, también conocido como frailecillo común o simplemente frailecillo, es una especie de ave caradriforme de la familia Alcidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Fratercula_arctica",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481353,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481353&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694927"
+}

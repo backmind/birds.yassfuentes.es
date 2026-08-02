@@ -1,0 +1,11 @@
+{
+  "prose": "En las escarpadas islas y acantilados rocosos del Atlántico Norte, el Frailecillo Atlántico (Fratercula arctica) destaca como una de las aves marinas más singulares del océano. De cuerpo corpulento y compacto, con una silueta redondeada que recuerda a un balón de fútbol, esta álcida luce un elegante contraste entre el negro de su dorso y el blanco de su vientre. Durante la temporada reproductiva, su rostro adopta un tono nacarado y se adorna con un grueso pico de placas multicolores y chillonas, perfectamente coordinado con el naranja brillante de sus patas. Aunque en tierra firme y al descolgarse en el aire puede mostrarse algo torpe, bajo la superficie del agua el frailecillo se transforma en un buceador extraordinariamente ágil, capaz de perseguir con maestría pequeños bancos de peces.\n\nLa historia vital de esta especie está llena de hábitos fascinantes y misterios aún por resolver. Para criar, se reúne en colonias isleñas donde deposita un único huevo en el interior de madrigueras excavadas en el suelo o resguardado en grietas rocosas. Son aves longevas que pueden alcanzar los 30 años de vida y que no comienzan a reproducirse hasta cumplir entre 3 y 6 años de edad. Al concluir la cría, el frailecillo atlántico renueva su aspecto: su rostro se oscurece, su pico pierde intensidad cromática y abandona la tierra firme para adentrarse en la soledad del mar abierto. Durante los meses invernales permanece en altamar, lejos de las costas continentales, en una etapa pelágica de su vida que todavía resulta poco conocida.",
+  "identification": [
+    "Cuerpo corpulento con forma de balón de fútbol, dorso negro, vientre blanco y rostro nacarado.",
+    "Pico grueso y de vistosos colores durante la reproducción, acompañado de patas naranja brillante.",
+    "Rostro más oscuro y pico más opaco en juveniles y adultos fuera de la época de cría.",
+    "Único frailecillo presente en su rango de distribución en el Atlántico Norte."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-02T05:28:52Z"
+}

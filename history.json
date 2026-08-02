@@ -1016,6 +1016,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256562731/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "atlpuf",
+      "comName": "Frailecillo Atlántico",
+      "sciName": "Fratercula arctica",
+      "date": "2026-08-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302851271/900",
+      "photographer": "Simon Boivin",
+      "attribution": "Simon Boivin / Macaulay Library"
     }
   ]
 }
