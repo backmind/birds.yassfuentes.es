@@ -1025,6 +1025,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302851271/900",
       "photographer": "Simon Boivin",
       "attribution": "Simon Boivin / Macaulay Library"
+    },
+    {
+      "speciesCode": "gochon2",
+      "comName": "Mielerito Collarejo",
+      "sciName": "Iridophanes pulcherrimus",
+      "date": "2026-08-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900",
+      "photographer": "Andres Vasquez Noboa",
+      "attribution": "Andres Vasquez Noboa / Macaulay Library"
     }
   ]
 }

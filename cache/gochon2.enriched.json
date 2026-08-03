@@ -1,0 +1,11 @@
+{
+  "prose": "En las laderas empinadas y brumosas de los Andes, desde el sur de Colombia hasta el sureste del Perú, habita una pequeña joya de los bosques nubosos: el Mielerito Collarejo (Iridophanes pulcherrimus). Esta especie de la familia Thraupidae transita los niveles medios y el dosel forestal en busca de frutas e insectos. A menudo se le observa en solitario o en parejas, integrándose con fluidez en bandadas mixtas dominadas por otras pequeñas tangaras. El macho ofrece un espectáculo deslumbrante entre el follaje gracias a sus partes superiores negras interrumpidas por un nítido medio collar dorado, que contrasta con sus alas surcadas de azul y sus partes inferiores de un tono azul pálido.\n\nMás allá de su vistosa apariencia, el Mielerito Collarejo custodia una singularidad evolutiva, al ser el único integrante de su género monotípico. Durante años, la semejanza de su plumaje indujo a los ornitólogos a clasificarlo junto a las tangaras tradicionales; sin embargo, las pruebas genéticas han demostrado que su pariente más cercano es el Mielerito Verde (Chlorophanes spiza), con el cual comparte un pico fino y ligeramente curvado hacia abajo. Dotado de una distintiva mandíbula inferior amarilla y vivos ojos rojos, este habitante montano completa su dieta recorriendo la vegetación andina y, en algunas regiones, llega incluso a dejarse ver en comederos artificiales.",
+  "identification": [
+    "Pico delgado y ligeramente decurvado, con la mandíbula inferior de color amarillo intenso.",
+    "Macho con plumaje negro en el dorso, medio collar dorado en la nuca y vientre azul pálido.",
+    "Hembra con rostro grisáceo, tenue tinte dorado en el cuello y matices verdes o azules en las alas.",
+    "Ojos de un característico color rojo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-03T05:43:18Z"
+}
