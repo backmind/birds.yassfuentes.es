@@ -1034,6 +1034,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900",
       "photographer": "Andres Vasquez Noboa",
       "attribution": "Andres Vasquez Noboa / Macaulay Library"
+    },
+    {
+      "speciesCode": "lirplo",
+      "comName": "Chorlitejo Chico",
+      "sciName": "Thinornis dubius",
+      "date": "2026-08-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/216990981/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }

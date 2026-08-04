@@ -1,0 +1,15 @@
+{
+  "description": "Estival en Europa con invernada en la región mediterránea y África. Es bastante común pero frecuentemente local y suele pasar desapercibido. Cría sobre sustratos pedregosos alrededor de lagos, graveras y a lo largo de los ríos. En migración aparece en una gran variedad de hábitats de humedales de aguas dulces y salobres, pero rara vez en zonas mareales abiertas. Destacan las patas de color rosáceo apagado. Plumaje muy parecido al del más robusto Ringed Plover, pero la ceja blanca es continua a lo largo de la frente done, de cerca, puede apreciarse un estrecho anillo ocular amarillo. En vuelo muestra una estrecha e indistinta banda alar blanca. El reclamo es un seco “piu” muy diferente del reclamo del Common Ringed Plover.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Little_ringed_plover",
+  "wikipedia_language": "en",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480339,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480339&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}
