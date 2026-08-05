@@ -1043,6 +1043,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/216990981/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "eargre",
+      "comName": "Zampullín Cuellinegro",
+      "sciName": "Podiceps nigricollis",
+      "date": "2026-08-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305508041/900",
+      "photographer": "Caroline Lambert",
+      "attribution": "Caroline Lambert / Macaulay Library"
     }
   ]
 }
