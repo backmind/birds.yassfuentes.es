@@ -1,0 +1,11 @@
+{
+  "prose": "En las vastas extensiones acuáticas del hemisferio norte, el Cuchara Común (Spatula clypeata) surca los humedales con una presencia inconfundible. Este pato de tamaño mediano destaca por una extraordinaria adaptación morfológica: un gran pico ensanchado en la punta en forma de espátula, concebido por la evolución para colar el agua con absoluta precisión. Durante la temporada reproductiva, el macho despliega un contraste deslumbrante con su cabeza verde oscuro, pecho blanco y flancos de un rico tono castaño, mientras que la hembra viste tonos café jaspeados. Su comportamiento de forrajeo es un espectáculo de cooperación e ingeniería natural; a menudo nada en grupos formando espirales continuas sobre el agua para remover el sedimento y filtrar pequeños crustáceos e invertebrados acuáticos.\n\nComo ave holártica de hábitos altamente migratorios, el Cuchara Común emprende travesías impresionantes desde sus zonas de cría en el norte de Eurasia y Norteamérica hacia sus refugios de invernada en el sur de Europa, Asia, el norte de África y el neotrópico. En estos ecosistemas, su constante labor de filtrado desempeña un papel clave en la regulación de organismos acuáticos de aguas someras. A pesar de contar con una de las especializaciones anatómicas más fascinantes entre las anátidas, sigue siendo un habitante discreto y sereno de los cañaverales, cuyo vuelo revela un reluciente parche azul claro en la parte superior de sus alas.",
+  "identification": [
+    "Pico notablemente grande, ancho y espatulado, visible a gran distancia y durante el vuelo.",
+    "Macho reproductivo con cabeza verde oscuro, pecho blanco puro y vientre y flancos de color castaño.",
+    "Hembra pardo-beige jaspeada con el mismo pico desproporcionadamente grande.",
+    "Cubiertas superiores de las alas de color azul claro, muy perceptibles cuando emprende el vuelo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-07T04:26:22Z"
+}

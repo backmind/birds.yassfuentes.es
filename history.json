@@ -1061,6 +1061,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
       "photographer": "Jeffrey Wang",
       "attribution": "Jeffrey Wang / Macaulay Library"
+    },
+    {
+      "speciesCode": "norsho",
+      "comName": "Cuchara Común",
+      "sciName": "Spatula clypeata",
+      "date": "2026-08-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300124811/900",
+      "photographer": "Dorian Anderson",
+      "attribution": "Dorian Anderson / Macaulay Library"
     }
   ]
 }
