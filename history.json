@@ -1070,6 +1070,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300124811/900",
       "photographer": "Dorian Anderson",
       "attribution": "Dorian Anderson / Macaulay Library"
+    },
+    {
+      "speciesCode": "perfal",
+      "comName": "Halcón Peregrino",
+      "sciName": "Falco peregrinus",
+      "date": "2026-08-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303618951/900",
+      "photographer": "Joshua Stacy",
+      "attribution": "Joshua Stacy / Macaulay Library"
     }
   ]
 }
