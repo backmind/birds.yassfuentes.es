@@ -1079,6 +1079,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303618951/900",
       "photographer": "Joshua Stacy",
       "attribution": "Joshua Stacy / Macaulay Library"
+    },
+    {
+      "speciesCode": "dunlin",
+      "comName": "Correlimos Común",
+      "sciName": "Calidris alpina",
+      "date": "2026-08-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301478601/900",
+      "photographer": "Dorian Anderson",
+      "attribution": "Dorian Anderson / Macaulay Library"
     }
   ]
 }
