@@ -1088,6 +1088,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301478601/900",
       "photographer": "Dorian Anderson",
       "attribution": "Dorian Anderson / Macaulay Library"
+    },
+    {
+      "speciesCode": "lammer1",
+      "comName": "Quebrantahuesos",
+      "sciName": "Gypaetus barbatus",
+      "date": "2026-08-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45942621/900",
+      "photographer": "Andrew Spencer",
+      "attribution": "Andrew Spencer / Macaulay Library"
     }
   ]
 }
