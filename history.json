@@ -1097,6 +1097,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45942621/900",
       "photographer": "Andrew Spencer",
       "attribution": "Andrew Spencer / Macaulay Library"
+    },
+    {
+      "speciesCode": "gobfru1",
+      "comName": "Frutero Pechidorado",
+      "sciName": "Pipreola aureopectus",
+      "date": "2026-08-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/322126041/900",
+      "photographer": "Yve Morrell",
+      "attribution": "Yve Morrell / Macaulay Library"
     }
   ]
 }
