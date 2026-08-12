@@ -1106,6 +1106,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/322126041/900",
       "photographer": "Yve Morrell",
       "attribution": "Yve Morrell / Macaulay Library"
+    },
+    {
+      "speciesCode": "yefgul",
+      "comName": "Gaviota de Cortés",
+      "sciName": "Larus livens",
+      "date": "2026-08-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308496801/900",
+      "photographer": "Tanner Martin",
+      "attribution": "Tanner Martin / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "description": "Gaviota grande, de espalda obscura y pico robusto, del Golfo de California. Algunas se dispersan al norte hasta el Mar de Salton en California.Prefiere las playas, hábitats intermareales rocosos o lodosos y muelles de pescadores. El adulto tiene la espalda gris pizarra obscuro como Western Gull, pero hay que notar las patas amarillo intenso. El plumaje del inmaduro se parece mucho al de Western Gull y de otras gaviotas grandes: café con patas rosas en el primer año, transformándose en espalda gris y patas amarillas hasta el segundo año.",
+  "description_source": "ebird",
+  "bow_intro": "Posiblemente la única especie de ave marina endémica del Golfo de California, la gaviota patiamarilla es grande y de cabeza blanca, con un manto gris pizarra oscuro y un pico bulboso que recuerda al Western Gull (Larus occidentalis ). De hecho, hasta hace poco la Yellow-footed Gull era tratada como una subespecie de la Western Gull, pero probablemente esté más estrechamente emparentada con la Kelp Gull (L. dominicanus ) del hemisferio sur. Aunque su área de reproducción se encuentra completamente dentro de México, el Yellow-footed Gull aparece regularmente en Estados Unidos como visitante postreproductor en el mar de Salton, en el sureste de California. La especie aparece por primera vez en este lugar a finales de mayo, y su número aumenta hasta alcanzar varios centenares en julio y agosto, para luego disminuir hasta el otoño.",
+  "taxonomy": {},
+  "wikipedia_summary": "La gaviota de Cortés o gaviota pata amarilla es una especie de ave charadriforme de la familia Laridae. Está estrechamente relacionada con la gaviota occidental y hasta la década de 1960 se pensaba que era una subespecie de esta.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Larus_livens",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481154,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481154&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694340"
+}
