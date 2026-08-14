@@ -1,0 +1,15 @@
+{
+  "description": "Es común en distintos tipos de humedales, desde ciénagas y lagos con abundante vegetación emergente a embalses abiertos; localmente marino durante el invierno, especialmente cuando los lagos se congelan. Se encuentra a menudo en bandos durante el invierno; se alimenta principalmente a medias profundidades, pero a menudo pasa la mayor parte del día dormitando. El diseño del macho es muy distintivo; en general negro con flancos blancos, cresta colgante. La hembra es marrón oscura con la cresta más corta y los flancos son más pálidos que en el macho. Los ojos son de color amarillo vivo y a menudo tiene una pequeña mancha blanca en la base del pico. En vuelo ambos sexos presentan banda alar blanca.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El porrón moñudo es una especie de ave anseriforme de la familia Anatidae que habita en Eurasia y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aythya_fuligula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498261,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498261&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680391"
+}

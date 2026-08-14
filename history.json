@@ -1124,6 +1124,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254929681/900",
       "photographer": "James Kennerley",
       "attribution": "James Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "tufduc",
+      "comName": "Porrón Moñudo",
+      "sciName": "Aythya fuligula",
+      "date": "2026-08-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301541481/900",
+      "photographer": "Honza Grünwald",
+      "attribution": "Honza Grünwald / Macaulay Library"
     }
   ]
 }
