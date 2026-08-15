@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra de los bosques de coníferas, donde el aroma a resina impregna el aire, habita un pequeño acróbata de energía inagotable. El Carbonero Garrapinos (Periparus ater) es el más menudo de su familia, pero su modesto tamaño no merma su audacia ni su agilidad. Se le encuentra con frecuencia en formaciones de pinos y abetos, aunque su presencia se extiende a bosques mixtos, parques y jardines donde los comederos humanos le ofrecen sustento. Su comportamiento es inquieto y vivaz; se desplaza velozmente entre la vegetación, a menudo integrándose en bandos mixtos durante los meses de otoño e invierno. Esta asociación con otras especies le permite una mayor eficiencia en la búsqueda de alimento y una vigilancia compartida ante los depredadores, demostrando una adaptabilidad social fascinante en el reino de las aves paseriformes.\n\nLo que realmente distingue a este habitante de Eurasia y el norte de África es una marca inconfundible: una mancha blanca nítida en la nuca que resalta sobre su capirote negro, funcionando como una verdadera señal de identidad en la espesura. A diferencia de otros parientes cercanos, el Carbonero Garrapinos posee dos franjas blancas en las alas que centellean mientras revolotea entre las ramas. Su papel ecológico es fundamental, pues actúa como un incansable controlador de insectos, aunque su dieta se vuelve más generalista cuando el frío aprieta. Es una especie mayoritariamente sedentaria que prefiere permanecer fiel a sus dominios boscosos durante todo el año. Incluso dentro de su linaje, la naturaleza muestra su diversidad a través de variaciones regionales, como las poblaciones de Irlanda que lucen mejillas de un suave amarillo pálido, recordándonos que la evolución siempre encuentra matices para adaptarse a cada rincón del paisaje.",
+  "identification": [
+    "Mancha blanca distintiva en la nuca, muy visible sobre el capirote negro.",
+    "Gran babero negro bajo el pico y dos franjas blancas bien marcadas en las alas.",
+    "Tamaño pequeño y silueta más estilizada que otros carboneros similares.",
+    "Mejillas blancas o crema, que en la subespecie hibernicus muestran tonos amarillentos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-30T05:32:15Z"
+}

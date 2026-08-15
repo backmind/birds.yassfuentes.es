@@ -1,0 +1,15 @@
+{
+  "description": "Estival migradora bastante común (escasa en Gran Bretaña) que pasa los inviernos en África. Frecuenta hábitats boscosos y semiabiertos, especialmente en tierras de cultivo y brezales con setos y árboles dispersos. Usualmente bastante tímida; se observa principalmente en vuelo pero a veces posada en cables. Se alimenta en el suelo, en ocasiones asociada con otras palomas. Es de plumaje atractivo, con un brillante patrón negro y oxidado en el dorso y cola redondeada con una destacada punta blanca. Es apreciablemente más pequeña y más estilizada que la mucho más común y en general más pálida Eurasian Collared-Dove.",
+  "description_source": "ebird",
+  "bow_intro": "El antaño familiar canto ronroneante, tur tur... tur tur-tur... , del European Turtle-Dove era característico de la campiña europea. Hoy en día, la especie es mucho menos común, especialmente en Europa occidental. El European Turtle-Dove es un miembro migratorio mediano-pequeño de la familia de los Columbidae familia. Aunque la especie es principalmente arborícola, favoreciendo los bosques abiertos, las arboledas, los setos y los matorrales, encuentra su alimento en el suelo, incluyendo semillas, frutos y ocasionalmente artrópodos. Como corresponde a un migrante de larga distancia, la European Turtle-Dove tiene alas largas y puntiagudas y una cola relativamente corta. Destaca el patrón distintivo de sus partes superiores, con flecos rufo que contrastan fuertemente con los centros oscuros de las plumas. El cuello presenta un llamativo patrón de barrado en blanco y negro.",
+  "taxonomy": {},
+  "wikipedia_summary": "La tórtola europea es una especie de ave columbiforme de la familia Columbidae que habita en Europa, norte de África y Asia Central.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Streptopelia_turtur",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2495708,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2495708&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22690419"
+}

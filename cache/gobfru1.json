@@ -1,0 +1,15 @@
+{
+  "description": "Pájaro mediano pero robusto con cuerpo verdiamarillo, cola corta, ojos anaranjados y pico pequeño del mismo color. El macho tiene los lores y la barbilla negros, la garganta y el pecho amarillos y el vientre amarillo con rayas verdes; la hembra carece de cara negra y tiene las partes inferiores verdes con rayas amarillas, ésta característica la diferencia de la hembra de Handsome Fruiteater (Pipreola formosa), la cual tiene más bien barras verdes en sus partes inferiores amarillas. A menudo forma parte de bandadas mixtas, también se posa silenciosamente en los niveles medios o altos del bosque. Es bastante común en hábitats boscosos, desde estribaciones hasta tierras altas. Es bastante vocal; pon atención a su canto muy agudo, el cual inicia descendiendo para luego ascender y detenerse repentinamente, así:",
+  "description_source": "ebird",
+  "bow_intro": "La Golden-breasted Fruiteater es endémica del norte de Venezuela y del norte de Colombia, donde la especie es tolerablemente común y fácil de identificar porque el macho carece de la cabeza negra común a varias especies simpátricas de Pipreola . Esta especie se da en las elevaciones bajas y medias del bosque húmedo premontano y montano, incluidos los linderos, así como en las plantaciones de café de sombra y en el bosque secundario más alto. En algunas partes del norte de Venezuela, la Golden-breasted Fruiteater parece encontrarse únicamente en niveles intermedios y más secos, entre las áreas de distribución de la Handsome Fruiteater (Pipreola formosa ), que se da más abajo, y la Green-and-black Fruiteater (Pipreola riefferii ). Observada normalmente en solitario o en parejas, la Golden-breasted Fruiteater se encuentra a menudo dentro de bandadas de especies mixtas, y la especie puede ser confiada, posándose normalmente casi inmóvil durante largos periodos, escudriñando su entorno antes de emprender un vuelo de aspecto torpe para arrancar una fruta cercana.",
+  "taxonomy": {},
+  "wikipedia_summary": "El frutero pechidorado, también denominado granicera pechidorada o granicera de pecho dorado, es una especie de ave paseriforme de la familia Cotingidae perteneciente al género Pipreola. Es nativo del norte y noroeste de América del Sur.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pipreola_aureopectus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2486386,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2486386&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22700791"
+}

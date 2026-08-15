@@ -1,0 +1,15 @@
+{
+  "description": "De cuerpo pequeño con un pico muy delgado. Tiene un copete y ojos rojos. Los adultos reproductivos tienen bigotes amarillos en las mejillas formando parches en forma de abanico. Espalda negra y la mayoría del cuerpo es café obscuro. En invierno tienen cuerpo gris con corona negra, negruzco deslavado sobre las mejillas bancas, y cuello gris borroso. Usualmente en cuerpos de agua de medianos a grandes.",
+  "description_source": "ebird",
+  "bow_intro": "Con mucho, el miembro más abundante de su familia en Norteamérica y, de hecho, en el mundo, la Eared Grebe cría ampliamente por el interior del oeste de Estados Unidos y Canadá, prefiriendo lagos y estanques alcalinos poco profundos, donde se alimenta principalmente de pequeños invertebrados. Altamente sociable, sus colonias pueden alcanzar los miles de individuos. Al igual que otros Podicipedidae, utiliza reclamos publicitarios distintivos para el reconocimiento del sexo y para iniciar elaboradas exhibiciones de cría. Ambos sexos trabajan juntos para construir plataformas empapadas y nidos de vegetación amontonados en un montículo flotante y sujetos a la vegetación acuática. La incubación comienza con el primer huevo, lo que da lugar a la eclosión asíncrona de los pichones. Los progenitores se turnan para llevar a las crías a la espalda mientras el progenitor libre les lleva comida hasta que las crías pueden nadar y buscar alimento por sí solas. Los padres dividen a los miembros supervivientes de la nidada después de unos 10 días y suelen cesar los cuidados parentales a los 20 días de la eclosión. A pesar de su similitud general con otros Podicipedidae, el Eared Grebe es muy distintivo y se cuenta entre los miembros más notables de la avifauna norteamericana. Durante la mayor parte del año, compite con el Wilson's Phalarope (Phalaropus tricolor ) como la especie más estrechamente asociada a los ambientes altamente salinos. Inmediatamente después de la temporada reproductiva, la mayor parte de la población, adultos y juveniles, se desplaza al lago Mono, en California, o al Gran Lago Salado, en Utah, para explotar las superabundantes cosechas de camarones de salmuera y moscas alcalinas que prosperan en esas aguas. El uso predecible de estos lagos hipersalinos permanentes de la Gran Cuenca contrasta con los frecuentes y a menudo impredecibles cambios de ubicación de las colonias de cría de Eared Grebe.",
+  "taxonomy": {},
+  "wikipedia_summary": "El zampullín cuellinegro es una especie de ave podicipediforme de la familia Podicipedidae propia de Eurasia. Norteamérica y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Podiceps_nigricollis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482065,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482065&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696610"
+}

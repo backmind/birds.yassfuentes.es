@@ -1,0 +1,15 @@
+{
+  "description": "Ave de pequeño tamaño que habita en los bordes boscosos de marismas, donde construye distintivos nidos en forma de bolsa colgante en los árboles a menudo sobre el agua. El pico es fino y puntiagudo, la espalda marrón rojizo y la máscara negra (estrecha en la hembra) lo hacen parecer un alcaudón en miniatura. El juvenil es de color marrón uniforme y sin máscara. Se detecta más fácilmente al escuchar su reclamo, un silbido muy agudo.",
+  "description_source": "ebird",
+  "bow_intro": "El Eurasian Penduline-Tit, un diminuto arquitecto enmascarado de los márgenes de los humedales, es un pequeño paseriforme famoso por sus extraordinarias habilidades para construir nidos. Distribuidos de forma dispersa por el Paleártico occidental desde Iberia hasta Kazajstán, sus elaborados nidos colgantes construidos con fibras vegetales, lana y sauce están tan bien aislados y finamente tejidos que en su día se reutilizaron como zapatillas para niños en Europa central. La especie destaca por su notable biología reproductora: un sistema de poliginandria secuencial y abandono de la nidada tan conflictivo que casi un tercio de todas las puestas son abandonadas por ambos progenitores. Ambos sexos son poliginándricos secuenciales, capaces de emparejarse con hasta seis parejas diferentes en una sola temporada reproductiva. Las nidadas de dos a siete huevos blancos se incuban durante aproximadamente 14 días, pero nunca por ambos progenitores a la vez. En su lugar, uno de los progenitores deserta durante la postura de los huevos, dejando toda la carga de la incubación y la crianza de los pichones a su pareja. En las poblaciones que se han estudiado, la hembra se encarga en solitario del cuidado en aproximadamente el 45% de los nidos y el macho en cerca del 17% ( 1 Czyż, B. (2011). Do female Penduline Tits Remiz pendulinus adjust parental decisions to their mates' behaviour? Ardea 99(1):27–32. Close ). Sorprendentemente, entre el 28 y el 40% de todas las nidadas son abandonadas por ambos progenitores y mueren, un resultado del intenso conflicto sexual en el que cada sexo intenta traspasar las obligaciones parentales al otro en busca de oportunidades adicionales de apareamiento ( 2 Pogány, A., I. Szentirmai, J. Komdeur, and T. Székely (2008). Sexual conflict and consistency of offspring desertion in Eurasian penduline tit. BMC Evolutionary Biology 8:242. Close ). Los pichones vuelan por primera vez después de aproximadamente 22 días.",
+  "taxonomy": {},
+  "wikipedia_summary": "El pájaro moscón europeo es una especie de ave paseriforme de la familia Remizidae que vive principalmente en Eurasia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Remiz_pendulinus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2487385,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2487385&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/155249960"
+}

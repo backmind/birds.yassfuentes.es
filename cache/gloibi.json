@@ -1,0 +1,15 @@
+{
+  "description": "Pico largo y curvado. Los adultos son mayormente oscuros con tonos verdes y rojizos iridiscentes. Borde blanco muy delgado rodeando la piel facial oscura. Ojos oscuros. Se encuentra principalmente en pantanos salados y humedales no muy profundos. Mejor distinguido de White-faced Ibis por la distribución y el patrón facial.",
+  "description_source": "ebird",
+  "bow_intro": "El Glossy Ibis es un ave zancuda de tamaño mediano y color oscuro con un pico largo y decurvado, aspecto responsable del nombre común de \"zarapito negro\" Con buena luz, el plumaje es de color bronce metálico con un llamativo tinte verde. Esta especie cosmopolita es la especie de ibis más ampliamente distribuida, con poblaciones en América Central y del Sur, las Antillas Mayores, el sur de Europa, África, Asia, India y Australia. En Norteamérica, está restringida a las regiones orientales, desde Nuevo Brunswick hasta Florida y Luisiana, y esporádicamente hacia el interior. En el oeste de Norteamérica, es sustituida por la extendida y estrechamente relacionada White-faced Ibis (Plegadis chihi ). El Glossy Ibis se parece al White-faced Ibis, pero durante la temporada reproductiva, este último tiene unas plumas blancas distintivas a lo largo de la piel facial.",
+  "taxonomy": {},
+  "wikipedia_summary": "El morito común es una especie de ave pelecaniforme de la familia Threskiornithidae propia del sur de Eurasia, África, Australasia, el Caribe y la costa atlántica norteamericana. Es un ibis de color pardo rojizo oscuro, que frecuenta humedales costeros.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Plegadis_falcinellus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480773,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480773&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697422"
+}

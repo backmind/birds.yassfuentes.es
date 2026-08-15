@@ -1,0 +1,11 @@
+{
+  "prose": "El Estornino Pinto (Sturnus vulgaris) es una de las aves más adaptables y exitosas del planeta. De silueta rechoncha, cola corta y alas triangulares, este paseriforme nativo de la región paleártica ha colonizado diversos rincones del mundo, prosperando especialmente en áreas transformadas por la actividad humana. Su comportamiento es profundamente gregario; es común observarlo en grandes bandadas que se mueven con una coordinación asombrosa. Aunque a la distancia puede parecer simplemente oscuro, una mirada cercana revela un plumaje extraordinario. Durante la época de reproducción, su cuerpo brilla con reflejos púrpuras y verdes iridiscentes, coronado por un pico de un amarillo intenso. Al llegar el invierno, su aspecto se transforma: el pico se torna oscuro y su plumaje se cubre de motas blancas contrastantes, dándole una apariencia estrellada que justifica su nombre.\n\nLa historia de su expansión es tan fascinante como controvertida. En Norteamérica, la población actual de cientos de millones de individuos desciende de apenas un centenar de aves liberadas en Central Park a finales del siglo XIX. Este éxito biológico ha tenido consecuencias ecológicas, pues el Estornino Pinto compite agresivamente por cavidades de anidación, desplazando en ocasiones a especies autóctonas. Sin embargo, su capacidad cognitiva es innegable. Posee un talento asombroso para la imitación, incorporando en su canto ruidoso y chirriante los sonidos de otras aves e incluso ruidos de su entorno. Esta destreza vocal no ha pasado desapercibida a lo largo de los siglos, ganándose menciones en la literatura clásica, desde las crónicas de Plinio el Viejo hasta las obras de William Shakespeare, consolidando su lugar no solo en los ecosistemas, sino también en la cultura humana.",
+  "identification": [
+    "Plumaje negro con iridiscencias púrpuras y verdes en verano, o densamente moteado de blanco en invierno.",
+    "Pico largo y puntiagudo, de color amarillo brillante durante la época de cría y negro en los meses fríos.",
+    "Silueta en vuelo característica con alas triangulares y una cola notablemente corta.",
+    "Canto complejo y ruidoso que incluye imitaciones precisas de otras especies y sonidos ambientales."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-18T04:34:08Z"
+}

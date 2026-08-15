@@ -1,0 +1,15 @@
+{
+  "description": "Tangara pequeña del bosque nuboso andino. El macho colorido tiene las partes superiores negras rotas por un medio collar dorado, las partes inferiores azul pálido y una raya azul en el ala. La hembra es menos colorida y puede parecer sin rasgos característicos cuando se ve con poca luz. Busca la cara grisácea, un toque del collar dorado, un tinte azul o verde en las alas y los ojos rojos. Forrajea en los niveles medio a superior del bosque y a menudo se une a bandadas de especies mixtas. Visita comederos en algunas áreas.",
+  "description_source": "ebird",
+  "bow_intro": "La Golden-collared Honeycreeper es una residente poco común de los bosques húmedos montanos de los Andes, desde el sur de Colombia hasta el sureste de Perú. Su comportamiento es similar al de muchas otras especies de pequeñas tangaras: solitarios o en parejas buscan fruta e insectos en el bosque medio y en el dosel, y suelen estar asociados a bandadas mixtas dominadas por otras especies de pequeñas tangaras. La clasificación de la Golden-collared Honeycreeper ha irritado durante mucho tiempo a los ornitólogos. Esta especie tiene un pico distintivo, delgado y ligeramente decurvado, con una mandíbula amarilla. El patrón del plumaje, sin embargo, con el plumaje del cuerpo amarillo verdoso y la capucha y la parte superior de la espalda negras, es en general similar al de la blhtan1 (Tangara cyanoptera ) ; y por esa razón el melero se clasificaba antiguamente como miembro de la Tangara . Las pruebas genéticas revelan, sin embargo, que el Golden-collared Honeycreeper no es un Tangara ; en cambio, su pariente más cercano es el Green Honeycreeper (Chlorophanes spiza ) , que tiene un plumaje muy diferente pero que es similar en comportamiento y en la estructura del pico.",
+  "taxonomy": {},
+  "wikipedia_summary": "El mielerito collarejo, también denominado mielero opalino, mielero collarejo, mielero de collar dorado o tangara de collar amarillo, es una especie de ave paseriforme de la familia Thraupidae, la única del género monotípico Iridophanes. Esta especie, que tiene un fuerte dimorfismo sexual, es nativa de regiones andinas del noroeste y oeste de América del Sur.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Iridophanes_pulcherrimus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2488677,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2488677&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22722961"
+}

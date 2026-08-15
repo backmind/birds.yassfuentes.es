@@ -1,0 +1,15 @@
+{
+  "description": "Ave reproductora en Europa que pasa el invierno en África. Se observa a menudo volando sobre herbazales o zonas agrícolas donde se alimenta y suele criar en construcciones humanas. Su silueta muy parecida a la del Eurasian Kestrel pero con la cola ligeramente más corta y las rectrices centrales levemente más largas. Alas más redondeadas y cortas que en el Eurasian Kestrel; las uñas son blancas en lugar de negras. Los machos no tienen moteado en el dorso ni en las cobertoras de las alas, en las que destaca una mancha azul-grisácea y son en gran medida pálidas por debajo. Las hembras tienen una bigotera poco marcada pero en todo caso muy similar al Eurasian Kestrel. Se cierne con frecuencia y captura insectos en el aire. Cría en colonias.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El cernícalo primilla es una especie de ave falconiforme de la familia Falconidae que se extendía por casi la totalidad de la península ibérica, sur de Francia, sur de Italia, los Balcanes y desde el mar Caspio y Anatolia por gran parte de Asia, también se encuentra en el norte de África desde Marruecos hasta Egipto. No se conocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Falco_naumanni",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9584698,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9584698&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696357"
+}

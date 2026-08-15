@@ -1,0 +1,11 @@
+{
+  "prose": "El Pardillo Común (Linaria cannabina) es un pequeño y vivaz miembro de la familia de los fringílidos que habita a lo largo del Paleártico occidental. Esta especie muestra una notable preferencia por los espacios abiertos, extendiéndose desde los páramos azotados por el viento y los pastizales hasta los parches de vegetación en entornos urbanos. Aunque a menudo pasa desapercibido debido a su discreto tamaño y comportamiento esquivo, su presencia se hace evidente cuando llega el otoño y el invierno. En esta época de escasez, los pardillos comunes se agrupan en dinámicos bandos para buscar alimento de manera colectiva, moviéndose con agilidad entre la vegetación baja, aunque muestran una marcada reticencia a visitar los comederos artificiales de los jardines.\n\nLa verdadera belleza de este paseriforme se revela en el plumaje nupcial del macho, que exhibe un pecho de un rojo encendido que contrasta de forma espectacular con su cabeza gris y su espalda parda. Las hembras, más discretas, confían en su sutil diseño facial para camuflarse, destacando unas medias lunas pálidas alrededor de los ojos. Como gran parte de los miembros de su familia, el pardillo común desempeña un papel ecológico fundamental como consumidor de semillas de plantas silvestres, contribuyendo a la dinámica de la flora en los terrenos abiertos. Su capacidad para prosperar en paisajes modificados por el ser humano, siempre que conserven lindes y vegetación natural, lo convierte en un testimonio de adaptación y resistencia en los campos templados.",
+  "identification": [
+    "Macho con un pecho rojizo muy distintivo, cabeza gris y espalda marrón rojiza.",
+    "Hembra identificable por medias lunas pálidas alrededor de los ojos y un parche claro en las mejillas.",
+    "Ambos sexos presentan un pico pequeño y gris, alas blanquecinas y rectrices externas de color blanco.",
+    "Suelen agruparse en bandos durante el otoño y el invierno en terrenos abiertos, evitando por lo general los comederos de jardín."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-03T05:55:04Z"
+}

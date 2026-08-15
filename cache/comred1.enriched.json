@@ -1,0 +1,11 @@
+{
+  "prose": "El Archibebe Común (Tringa totanus) es una presencia constante y vigilante en los humedales de Eurasia y África. Con una estructura robusta y un plumaje de tonos pardo-grisáceos que le permite camuflarse entre la vegetación palustre, destaca sobre todo por sus largas y brillantes patas de un color rojo intenso. Se le encuentra frecuentemente en zonas de fango con escasa profundidad, donde busca alimento con paciencia. Es un ave de temperamento cauteloso; ante la menor señal de peligro, detiene su marcha para balancear rítmicamente la cola, un gesto nervioso que precede a menudo a un vuelo rápido y decidido. En el aire, revela una característica franja blanca en el borde de sus alas y un obispillo del mismo color, marcas que actúan como señales visuales para otros miembros de su especie.\n\nEsta especie desempeña un papel fundamental como centinela de las marismas. Su voz, un silbido sonoro y aflautado, no solo advierte a sus congéneres, sino que sirve de alarma para toda la comunidad de aves que comparte el hábitat, alertando sobre la presencia de depredadores. Durante la época de cría, el Archibebe Común prefiere los humedales del norte, tanto costeros como de agua dulce, donde establece sus nidos en el suelo, protegidos por la vegetación. Su dieta, compuesta principalmente por pequeños invertebrados que extrae del limo, lo convierte en un eslabón clave en la transferencia de energía dentro de los ecosistemas acuáticos. Desde las costas europeas hasta las lejanas tierras de Australia y Nueva Guinea, este incansable viajero conecta diversos paisajes del mundo a través de sus rutas migratorias.",
+  "identification": [
+    "Patas largas de un color rojo anaranjado muy vivo y distintivo.",
+    "Silbido aflautado y potente que utiliza como señal de alarma.",
+    "Franja blanca ancha en el borde posterior de las alas, visible claramente en vuelo.",
+    "Hábito de balancear la cola de arriba abajo cuando se siente inquieto."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-02T05:12:51Z"
+}

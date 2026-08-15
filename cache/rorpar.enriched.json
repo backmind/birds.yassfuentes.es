@@ -1,0 +1,11 @@
+{
+  "prose": "La Cotorra de Kramer (Psittacula krameri) es un testimonio viviente de la adaptabilidad y el dinamismo de la naturaleza. Originaria de las sabanas de África y las selvas del sur de Asia, esta ave ha colonizado con asombroso éxito numerosos entornos urbanos y suburbanos de Europa y otras regiones del globo, establecida inicialmente a partir de escapes de ejemplares de cautiverio. En estos nuevos escenarios, encuentra su hogar en arboledas, parques públicos y jardines frondosos donde se alimenta principalmente en las copas de los árboles. Su comportamiento es una mezcla de discreción y algarabía: mientras descansa o se alimenta en silencio, su plumaje de un verde brillante y sedoso le proporciona un camuflaje tan perfecto que pasa fácilmente desapercibida. Sin embargo, esta quietud se rompe al emprender el vuelo, revelando una silueta esbelta dominada por una cola extraordinariamente larga y delgada.\n\nMás allá de su llamativa estética, donde destaca un pico de un rojo intenso y, en el caso de los machos adultos, un delicado collar negro y rosa que adorna su cuello, la cotorra de Kramer desempeña un papel ecológico complejo en las zonas donde ha sido introducida. Al ser considerada una especie exótica invasora, su presencia genera importantes debates de conservación. Son aves sumamente inteligentes y gregarias, capaces de coordinarse en ruidosos grupos para buscar alimento. No obstante, su notable éxito reproductivo plantea desafíos para la biodiversidad local, ya que compiten activamente por los huecos de los árboles para anidar, un recurso limitado que disputan con especies nativas como murciélagos y aves rapaces nocturnas.",
+  "identification": [
+    "Plumaje de un verde brillante y uniforme que ofrece un camuflaje excelente en la vegetación.",
+    "Cola notablemente larga y delgada, muy característica durante el vuelo directo y rápido.",
+    "Pico robusto y curvado de un color rojo brillante.",
+    "El macho adulto presenta un estrecho y distintivo collar de color negro y rosa alrededor del cuello."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-04T06:44:09Z"
+}

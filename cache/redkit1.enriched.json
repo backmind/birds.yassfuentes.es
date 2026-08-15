@@ -1,0 +1,11 @@
+{
+  "prose": "Sobre los cielos abiertos de Europa, pocos espectáculos son tan elegantes como el vuelo del Milano Real (Milvus milvus). Esta rapaz de gran tamaño domina una notable variedad de ambientes, desde bosques prósperos y terrenos agrícolas hasta matorrales y pastizales. Su silueta en el aire es inconfundible: alterna batidos de alas suaves y pausados con planeos majestuosos, maniobrando con una agilidad sorprendente gracias a su larga cola rojiza profundamente ahorquillada, que utiliza como un timón preciso. Con su cabeza de un delicado tono gris plateado y un llamativo plumaje rufo, esta ave encarna la soltura del planeador puro. En la parte septentrional de su área de distribución, realiza migraciones invernales hacia áreas más templadas del sur del continente.\n\nEl milano real desempeña un papel fundamental en la naturaleza como cazador versátil y limpiador de los campos. Su dieta incluye pequeños mamíferos, aves, peces e invertebrados, pero también aprovecha con frecuencia la carroña —a menudo junto a los córvidos— y los vertederos. Durante la cría, construye una plataforma de palos en los árboles; la hembra asume la mayor parte de la incubación y atención de los pichones, mientras que el macho se encarga de cazar. Aunque ha sufrido graves descensos en ciertas regiones del sur de Europa, exitosos programas de reintroducción en países como el Reino Unido ofrecen un rayo de esperanza para el futuro de esta magnífica especie.",
+  "identification": [
+    "Cola alargada y profundamente ahorquillada de tono rojizo-anaranjado.",
+    "Cabeza de color gris plateado que destaca frente al plumaje corporal rufo.",
+    "Silueta de rapaz grande con audaz patrón alar contrastante en vuelo.",
+    "Vuelo característico que combina batidos lentos con planeos y giros frecuentes."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-13T04:12:42Z"
+}

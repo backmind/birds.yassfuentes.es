@@ -1,0 +1,15 @@
+{
+  "description": "Es bastante común en diversos hábitats abiertos, desde páramos salvajes y humedales hasta aparcamientos pavimentados y césped. Generalmente se ven en solitario, en pareja o en pequeños bandos caminando y corriendo, batiendo la larga cola blanca hacia arriba y abajo. Es característica en todos los plumajes por su combinación de negro, blanco y gris. El plumaje nupcial tiene un capirote y babero negro. El color del manto varía regionalmente de negro a gris oscuro en el Reino Unido (",
+  "description_source": "ebird",
+  "bow_intro": "El White Wagtail es una especie ubicua que ocupa una gran variedad de hábitats abiertos (no boscosos) en toda Eurasia. La especie está representada por un complejo de nueve subespecies que presentan una marcada variación en el patrón del plumaje y la coloración (gris versus negro) a lo largo de su inmensa área de reproducción. Aunque el conocido complejo White Wagtail incluye algunas de las aves más estudiadas del Paleártico occidental (por ejemplo, Motacilla alba alba y M. a. yarrellii ), las dos formas paleárticas orientales que se dan regularmente en Norteamérica (Alaska) siguen siendo poco conocidas. La subespecie más oriental, M. a. ocularis , llega hasta el perímetro occidental de Alaska, en la región del estrecho de Bering, donde se reproduce anualmente en pequeñas cantidades, y M. a. lugens (antigua lavandera cascadeña) es una especie rara y ocasional que se reproduce en las islas Aleutianas occidentales. Tanto ocularis y lugens se dan como errantes en otros lugares de Norteamérica. Estas dos formas de la White Wagtail se dan cerca de los ríos y a lo largo de las costas marinas. M . a. ocularis también habita en zonas más interiores y está más asociada a los asentamientos humanos que M. a. lugens . Esta última se da sobre todo a uno o dos kilómetros de la costa marina y en islas oceánicas. Además del hábitat de cría, ambos difieren en la fenología de la nidificación, el canto y las exhibiciones de cortejo.",
+  "taxonomy": {},
+  "wikipedia_summary": "La lavandera blanca o aguzanieves, conocida popularmente como pajarita de las nieves, motacila, pitita, pipita o pezpita, es una pequeña especie de ave paseriforme de la familia Motacillidae. Se encuentra en casi todos los hábitats. Su avistamiento se asocia a la llegada del tiempo frío.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Motacilla_alba",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9687165,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9687165&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22718348"
+}

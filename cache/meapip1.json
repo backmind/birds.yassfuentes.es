@@ -1,0 +1,15 @@
+{
+  "description": "Es un ave bastante común en hábitats abiertos con pasto, desde páramos y turberas hasta praderas agrestes y pastizales. Es un pequeño pájaro marrón rayado muy poco llamativo. Cuando se levanta, tiene un vuelo ligeramente ondulante y muestra los lados blancos de la cola. Todos los bisbitas se parecen bastante y se identifican mejor a las especies por combinación de hábitat y voz: Meadow Pipit tiene un reclamo",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El bisbita pratense o bisbita común es una especie de ave paseriforme de la familia Motacillidae propia de Eurasia occidental, Groenlandia y el norte de África. Tiene las partes superiores parda veteadas y las inferiores blancas con moteado oscuro en el pecho y flancos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Anthus_pratensis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2490266,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2490266&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22718556"
+}

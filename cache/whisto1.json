@@ -1,0 +1,15 @@
+{
+  "description": "Migrante estival muy común, inverna en la península ibérica y África. Se reproduce en campos de cultivo abiertos, humedales y a menudo en edificios. Los nidos son voluminosos por el aporte de gran cantidad de ramas. Se caracteriza por el blanco general, con una gran mancha negra en las alas, pico rojo muy largo y patas rojizas. Vuela con el cuello y patas extendidas, aleteos fuertes y profundos intercalados con planeos. Migran en bandos durante el día, a menudo a mucha altura aprovechando corrientes térmicas.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La cigüeña blanca es una especie de ave Ciconiiforme de gran tamaño, perteneciente a la familia Ciconiidae. Su plumaje es mayoritariamente blanco con negro en las alas, y las patas y el pico de los adultos adquieren un color rojo. Mide un promedio de 100 y 115 cm desde la punta del pico hasta el final de la cola, y sus alas pueden llegar a tener una envergadura entre 155 y 215 cm. Las dos subespecies, que son ligeramente diferentes por su tamaño, se aparean en Europa, el noreste y sur de África y el suroeste de Asia. El 25 % de la población mundial está concentrada en Polonia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ciconia_ciconia",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481912,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481912&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697691"
+}

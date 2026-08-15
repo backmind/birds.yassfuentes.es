@@ -1,0 +1,15 @@
+{
+  "description": "Warbler pálido amarillento, muy similar al Common Chiffchaff. Ambos se diferencian mejor por su canto diferente, pero destaca en éste la barriga más amarilla, ceja más larga y brillante y alas más largas que el Common Chiffchaff. Normalmente es encontrado en bosques nativos durante la estación reproductora en Iberia y Marruecos, migrando al oeste de África en la estación no reproductora.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El mosquitero ibérico es una especie de ave paseriforme de la familia Phylloscopidae que habita en la península ibérica y África. Es un pájaro de pequeño tamaño, con las partes superiores de su cuerpo de tonos verdosos y las inferiores y la cara amarillentas. Su apariencia es muy similar al mosquitero común, pero de colores más vivos. Su alimentación es principalmente insectívora.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Phylloscopus_ibericus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 7341585,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7341585&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22729520"
+}

@@ -1,0 +1,12 @@
+{
+  "prose": "En el corazón de los bosques de hoja caduca, entre huertos y jardines, habita una pequeña criatura de movimientos ágiles y precisos: el Carbonero Palustre (Poecile palustris). Este párrido de tamaño mediano, que apenas alcanza los doce centímetros de longitud, destaca por su característica corona de un negro intenso y brillante que se extiende hasta la nuca, contrastando con un dorso de tonos pardos y un vientre blanquecino. Aunque su nombre sugiera una predilección por zonas encharcadas, es un visitante asiduo de entornos forestales diversos, donde se le puede observar saltando entre las ramas en busca de alimento o acudiendo con curiosidad a los comederos de aves. Su presencia aporta un dinamismo vital al ecosistema, moviéndose con una energía inagotable mientras explora cada rincón de la corteza y el follaje en busca de sustento.\n\nLo que hace verdaderamente fascinante al Carbonero Palustre es el desafío que plantea incluso a los observadores más experimentados. Es casi indistinguible a simple vista de su pariente cercano, el carbonero montano, compartiendo con él ese pequeño babero negruzco bajo el pico. Sin embargo, el secreto de su identidad reside en los detalles sutiles: el brillo de su capirote, la ausencia habitual de un panel pálido en las alas y, sobre todo, su voz. El canto y las llamadas son las herramientas definitivas para diferenciarlo con certeza en el campo. A pesar de su apariencia delicada, es un ave robusta y adaptable, cuyas diversas subespecies muestran variaciones cromáticas mínimas, desde tonos más grisáceos hasta marrones más cálidos, adaptándose con maestría a las particularidades de cada región donde establece su territorio.",
+  "identification": [
+    "Capirote de color negro intenso y con un brillo característico.",
+    "Pequeño babero negro bajo el pico, generalmente bien definido.",
+    "Ausencia de un panel alar pálido en las plumas secundarias cerradas.",
+    "Mejillas blancas que se vuelven ligeramente beige hacia la parte posterior.",
+    "Voz distintiva, siendo el método más fiable para diferenciarlo de especies similares."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-10T05:38:51Z"
+}

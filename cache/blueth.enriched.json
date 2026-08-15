@@ -1,0 +1,11 @@
+{
+  "prose": "En los densos matorrales de sauces de la tundra ártica y en los prados de arbustos enanos de Eurasia y el extremo noroccidental de Norteamérica, habita un pequeño y esquivo acróbata de la vegetación: el Ruiseñor Pechiazul (Luscinia svecica). Este pequeño miembro de la familia Muscicapidae destaca por su comportamiento sumamente reservado, moviéndose con sigilo entre la espesura de forma similar a un reyezuelo y pasando gran parte del tiempo caminando por el suelo en busca de insectos. Sin embargo, cuando el macho decide mostrarse en una percha expuesta o durante sus vuelos de cortejo, revela una de las libreas más espectaculares del mundo aviar. Su pecho luce un deslumbrante escudo azul eléctrico bordeado de tonos anaranjados que contrasta con el dorso grisáceo, una joya cromática oculta en la sobriedad del paisaje norteño.\n\nMás allá de su deslumbrante aspecto, el Ruiseñor Pechiazul es un prodigioso imitador sonoro. Su canto es un tapiz sumamente variable de trinos, silbidos y gorjeos en el que es capaz de intercalar con asombrosa precisión las voces de más de cincuenta especies de aves distintas, además de otros sonidos de su entorno. Cuando se aventura a terreno abierto, suele mantener la cola erguida y agitarla, abriéndola rápidamente en abanico para exhibir unas distintivas manchas de color rojizo en la base. Aunque es una especie ampliamente distribuida y bien estudiada en el Viejo Mundo, su presencia en las gélidas tierras de Alaska y el territorio del Yukón sigue siendo un fascinante misterio en expansión, donde sus discretos hábitos de nidificación han mantenido a los científicos tras su pista desde los primeros avistamientos documentados a mediados del siglo XIX.",
+  "identification": [
+    "Macho con un llamativo patrón de color azul eléctrico y anaranjado en la garganta y el pecho; las hembras presentan bandas mucho más tenues y garganta pálida.",
+    "Presencia de una marcada ceja blanca sobre el ojo y dorso de un tono grisáceo apagado.",
+    "Manchas de color rojizo o rufo en la base de la cola, visibles especialmente cuando la despliega en abanico o la mantiene erguida.",
+    "Canto sumamente variado y complejo que incorpora imitaciones detalladas de otras especies de aves, mezcladas con silbidos y trinos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-22T07:26:06Z"
+}

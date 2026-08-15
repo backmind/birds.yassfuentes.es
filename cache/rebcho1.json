@@ -1,0 +1,15 @@
+{
+  "description": "Es poco común en unas zonas y bastante común en las cercanías de acantilados costeros coronados por praderas de hierba. Localmente también en el interior en zonas montañosas del sur de Europa. Se le encuentra en parejas o grupos prospectando praderas herbáceas y campos adyacentes. Vuelo acrobático, con giros y picados bruscos. Es fácil de reconocer si se la observa en buenas condiciones, con pico y patas rojo brillantes. Los juveniles tienen el pico más corto y amarillo. Puede confundirse con la Alpine Chough. Con frecuencia comparte hábitat con la normalmente más común Eurasian Jackdaw. En vuelo destacan las anchas alas con “dedos” bien marcados de la Chough en comparación con la silueta plana de las alas de la Jackdaw.",
+  "description_source": "ebird",
+  "bow_intro": "Himalaya NO NE a través de Altai hasta Mongolia y Buriatia (S de Rusia) y, en el S, E hasta el SO del Tíbet, Cachemira y Ladakh.",
+  "taxonomy": {},
+  "wikipedia_summary": "La chova piquirroja o chova de pico rojo es una especie de ave paseriforme de la familia Corvidae. Las ocho subespecies viven en España, Irlanda y Gran Bretaña hasta Asia Central, la India y China.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pyrrhocorax_pyrrhocorax",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482552,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482552&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22705916"
+}

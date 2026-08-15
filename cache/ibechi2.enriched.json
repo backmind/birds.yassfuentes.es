@@ -1,0 +1,11 @@
+{
+  "prose": "En los densos bosques autóctonos de la península ibérica y el norte de África, una pequeña silueta se mueve con una agilidad asombrosa entre el follaje. Se trata del Mosquitero Ibérico (Phylloscopus ibericus), un ave paseriforme de dimensiones modestas pero de una vitalidad desbordante. Durante la estación reproductora, este incansable insectívoro se convierte en un habitante esencial de las copas de los árboles, donde busca activamente pequeños invertebrados para alimentarse. Su plumaje, dominado por tonos verdosos en el dorso y matices amarillentos en el rostro y las partes inferiores, le permite camuflarse con maestría entre las hojas bañadas por el sol. Lo que hace a esta especie verdaderamente notable es su capacidad para pasar desapercibida ante el ojo inexperto, revelando su presencia únicamente a través de su actividad frenética y su canto característico, que marca el ritmo de la vida en los ecosistemas forestales donde habita.\n\nLa historia natural del Mosquitero Ibérico es un testimonio de la sutileza de la evolución. Durante mucho tiempo, fue confundido con su pariente cercano, el mosquitero común, debido a su asombrosa similitud física. Sin embargo, el Mosquitero Ibérico posee rasgos distintivos que lo separan, como una ceja más larga y brillante y un vientre de un amarillo más intenso. Su ciclo de vida incluye una impresionante hazaña migratoria; al finalizar la época de cría, emprende un viaje hacia el oeste de África para pasar los meses de invierno en regiones subsaharianas. En su papel ecológico, actúa como un regulador natural de las poblaciones de insectos, manteniendo el equilibrio de los bosques que visita. Es, en esencia, un viajero incansable que conecta dos continentes, cuya supervivencia depende de la salud de los bosques nativos y de la integridad de las rutas migratorias que ha recorrido durante generaciones.",
+  "identification": [
+    "Vientre de un tono amarillo más marcado y brillante que el del mosquitero común.",
+    "Ceja o lista superciliar más larga, definida y clara sobre el ojo.",
+    "Alas proporcionalmente más largas en comparación con otras especies de su género.",
+    "Canto distintivo, que constituye la herramienta más fiable para su identificación en el campo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-21T04:50:00Z"
+}

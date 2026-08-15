@@ -1,0 +1,11 @@
+{
+  "prose": "En las vastas y frías extensiones de la tundra ártica y subártica, el Correlimos Común (Calidris alpina) inicia su ciclo vital. Esta pequeña ave playera, perteneciente a la familia Scolopacidae, es una verdadera especialista de las zonas húmedas y las costas. Durante la temporada de reproducción, se comporta de manera estrictamente territorial y monógama, anidando en la vegetación baja del extremo norte del planeta. Sin embargo, al llegar el otoño, este viajero incansable emprende migraciones de corta o larga distancia hacia estuarios, marismas y playas de la península ibérica, África, el sudeste asiático y las costas de Norteamérica. Es un espectáculo fascinante contemplar a estas aves moverse en la orilla, buscando alimento incansablemente sobre el limo.\n\nPocas especies muestran un contraste tan evidente en su apariencia según la época del año. Durante el estío boreal luce un llamativo vientre negro y un dorso rojizo, mientras que en invierno adopta tonos grises y sobrios que le permiten mimetizarse con el barro de los marjales. En sus áreas de invernada, el correlimos común cumple un rol ecológico clave en los ecosistemas intermareales, consumiendo pequeños invertebrados escondidos en el sustrato. Al desplazarse, suele formar densas bandadas de miles de individuos que vuelan al unísono, realizando giros coordinados e hipnotizantes en el aire para protegerse de los depredadores.",
+  "identification": [
+    "Ave playera pequeña con un pico negro perceptiblemente curvado hacia abajo.",
+    "Plumaje estival distintivo con una gran mancha negra en el vientre y tonos rufos en el dorso.",
+    "Plumaje invernal grisáceo y uniforme, con partes inferiores claras y sin mancha ventral.",
+    "Comportamiento muy gregario en invierno, formando densas bandadas en estuarios y lodazales."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-09T03:43:35Z"
+}

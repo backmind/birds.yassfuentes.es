@@ -1,0 +1,15 @@
+{
+  "description": "Un limícola de tamaño grande, común, conspicuo y frecuentemente ruidoso. Está presente en hábitats costeros variados, especialmente playas y bajíos, también en praderas cercanas y localmente en el interior. En invierno se puede agrupar puntualmente en bandos de cientos. Busca alimento entre el sedimento con el pico, que utiliza para abrir moluscos (principalmente mejillones y berberechos, pero no ostras). Llamativo e inconfundible por su con plumaje blanco y negro, pico largo de color rojo anaranjado vivo y patas gruesas rosáceas. En vuelo muestra una ancha franja alar blanca, obispillo y cola blancos con una ancha banda terminal negra en la cola.",
+  "description_source": "ebird",
+  "bow_intro": "Nota taxonómica: Dividido. Esta cuenta se publicó originalmente bajo una sola especie en HBW Alive, pero en Birds of the World abarca varias especies. Presentamos aquí ese contenido original, con el objetivo de desarrollar en el futuro una cuenta de especies más refinada para este taxón. Por favor, considere contribuir con su experiencia para actualizar esta cuenta.",
+  "taxonomy": {},
+  "wikipedia_summary": "El ostrero euroasiático es una especie de ave caradriforme de la familia Haematopodidae propia de Eurasia y África. Es la especie de ostrero más ampliamente distribuida.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Haematopus_ostralegus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 7788295,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7788295&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693613"
+}

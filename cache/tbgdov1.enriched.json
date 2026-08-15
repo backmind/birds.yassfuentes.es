@@ -1,0 +1,11 @@
+{
+  "prose": "En los densos y sombríos bosques lluviosos de las islas de Makira y Ramos, en el archipiélago de las Salomón, habitó una criatura sumamente esquiva y hoy perdida para siempre. La Paloma Perdiz de las Salomón (Pampusana salamonis) era un ave adaptada a la vida en el suelo forestal, donde buscaba su sustento entre la hojarasca húmeda. Como otros miembros de su género, prefería el amparo de la vegetación baja y los bosques costeros primarios, moviéndose con sigilo en busca de semillas, frutos caídos y pequeños invertebrados. Su existencia transcurría en un delicado equilibrio, estrechamente ligada a la penumbra protectora de la selva tropical, un entorno que definía su comportamiento reservado y su andar pausado por el suelo de estas islas del Pacífico.\n\nLa historia de esta especie está envuelta en el misterio, pues apenas llegó a ser documentada por la ciencia antes de desvanecerse. El último registro confirmado de la Paloma Perdiz de las Salomón data de 1927, y desde entonces, los esfuerzos por localizarla han sido infructuosos, lo que ha llevado a declararla oficialmente extinta. Su desaparición se atribuye principalmente a la introducción de depredadores exóticos, como ratas y gatos, y a la pérdida de su hábitat forestal. Al alimentarse en el suelo, desempeñaba un papel crucial en la dispersión de semillas de plantas nativas, contribuyendo a la regeneración de la selva. Hoy en día, su ausencia es un eco silencioso que nos recuerda la extrema fragilidad de las especies insulares frente a las perturbaciones externas.",
+  "identification": [
+    "Cabeza, garganta y pecho de un tono marrón chocolate profundo.",
+    "Manto y alas con reflejos de color verde bronceado o purpúreo.",
+    "Hábito estrictamente terrestre, buscando alimento en el suelo de la selva.",
+    "Pico de color oscuro y patas adaptadas para caminar entre la hojarasca."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-21T06:52:54Z"
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Gavilán que habita en el bosque, poco común y grande. El adulto es distintivo si se ven bien: mayormente gris, más pálido por debajo, corona y mejilla negras, ceja blanca y ojos rojos. Inmaduro muy similar a Cooper's Hawk, pero más grande y alas más anchas con una ceja blanca más prominente, más contrastantemente estriado por debajo y las plumas debajo de la cola típicamente rayadas. En áreas suburbanas Cooper's Hawk es siempre más probable. Goshawk típicamente requiere bosque maduro extenso. Es muy agresivo cerca del nido. Se alimenta de presas grandes como liebres y urogallos.",
+  "description_source": "ebird",
+  "bow_intro": "\" En la vida real, los azores se parecen a los gavilanes como los leopardos a los gatos domésticos. Más grandes, sí. Pero más voluminosos, más sanguinarios, más mortíferos, más aterradores y mucho, mucho más difíciles de ver \" - H. Macdonald en H is for Hawks ( 1 Macdonald. H. (2016). H is for Hawk. Grove Press, New York, NY, USA. Close ). En la persecución de su presa, el Eurasian Goshawk puede ser temerario, intrépido e implacable, dispuesto a perseguir largamente a su presa a través de densos bosques, adentrándose en matorrales aparentemente impenetrables y, rara vez, en el agua y en estructuras construidas por el hombre. Su ferocidad, fuerza y valor percibidos fueron venerados en tiempos pasados, y así se asentó sobre el puño de los shogunes japoneses y adornó el casco de Atilla el Huno (circa 406-453). En la Europa medieval, sólo a la nobleza se le permitía cazar con un azor, y un azor blanco aparece en los retratos del gurú sij Gobind Singh (1667-1708), lo que explica en parte que sea el ave estatal del Punjab, en la India.",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Eurasian_goshawk",
+  "wikipedia_language": "en",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 3242735,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=3242735&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "",
+  "iucn_birdlife_url": ""
+}

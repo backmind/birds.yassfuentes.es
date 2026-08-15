@@ -1,0 +1,11 @@
+{
+  "prose": "El Avetorillo Común (Botaurus minutus) es una de las garzas más pequeñas y discretas que habitan los humedales de agua dulce. Su vida transcurre en la penumbra de los densos cañaverales, donde se desplaza con una agilidad asombrosa, trepando por los tallos de las plantas acuáticas en lugar de vadear por el lodo como sus parientes de mayor tamaño. Es un ave de hábitos reservados, un maestro del ocultamiento que a menudo pasa desapercibido para el observador casual. Durante los meses cálidos, se establece en marismas y zonas de vegetación palustre, pero al llegar el invierno, emprende un largo viaje migratorio hacia el continente africano. Su presencia se revela con mayor frecuencia durante el amanecer o el crepúsculo, cuando realiza vuelos cortos y bajos sobre la superficie de las cañas, mostrando una silueta compacta y decidida.\n\nLo que hace verdaderamente fascinante a esta especie es su capacidad de mimetismo. Ante una posible amenaza, el Avetorillo Común estira su cuello y apunta con el pico hacia el cielo, permaneciendo inmóvil para confundirse con las cañas secas que lo rodean. El dimorfismo sexual es evidente en su plumaje: mientras que el macho luce un dorso oscuro y contrastado, la hembra presenta tonos más pardos y rayados que favorecen su camuflaje durante la incubación. Se alimenta principalmente de pequeños peces, anfibios e insectos acuáticos, acechando pacientemente desde los bordes de la vegetación. Como depredador especializado, desempeña un papel crucial en el equilibrio de los ecosistemas acuáticos, controlando las poblaciones de invertebrados y pequeños vertebrados en los rincones más densos del humedal.",
+  "identification": [
+    "Garza de tamaño muy pequeño con un tono general ocre amarillento y píleo oscuro.",
+    "Gran panel pálido en la parte superior del ala, claramente visible cuando el ave está en vuelo.",
+    "Marcado dimorfismo sexual: el macho tiene el dorso oscuro y liso, mientras que la hembra lo tiene rayado.",
+    "Hábito de posarse de forma elevada entre las cañas en lugar de permanecer en el suelo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-16T04:52:56Z"
+}

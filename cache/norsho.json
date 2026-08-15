@@ -1,0 +1,15 @@
+{
+  "description": "Pato de tamaño mediano; más pequeño que un Mallard. Pico grande en forma de cuchara visible a la distancia y en vuelo. Los machos reproductivos tienen cabeza verde obscuro, pecho blanco, flancos y vientre castaños. Las hembras son café-beige con el pico grande y distintivo. Azul blancuzco arriba del ala. Forrajea filtrando el agua al avanzar, a veces nada en grupos formando espirales.",
+  "description_source": "ebird",
+  "bow_intro": "El Northern Shoveler es un pato holártico común con un alto grado de especializaciones morfológicas y alimentarias. A diferencia de la mayoría de los patos zambullidores (género Anas ), tiene un pico ideal para colar pequeños crustáceos nadadores del agua. Estudios anteriores han demostrado que Northern Shoveler se alimenta principalmente manteniendo el pico en el agua mientras nada, colando pequeños invertebrados al chapotear continuamente. Aunque fácilmente reconocible, esta especie es menos conocida que otros patos zambullidores como el Mallard (Anas platyrhynchos ), el Northern Pintail (A. acuta ) o el Green-winged Teal (A. crecca ). Incluso entre los cazadores de aves acuáticas, ocupa un lugar poco destacado, quizá tanto por desconocimiento de esta especie como por experiencia. Aunque este pato ha sido bien estudiado en Norteamérica y el Paleártico occidental, se sabe menos sobre su biología y hábitos en Asia.",
+  "taxonomy": {},
+  "wikipedia_summary": "El cuchara común, también denominado pato cuchara, pato cucharo, pato cuchareta o pato cucharón norteño, es una especie de ave anseriforme de la familia Anatidae ampliamente extendida por el mundo, que cría en el norte de Eurasia y Norteamérica y migra al sur para pasar el invierno en el sur de Europa, Asia y Norteamérica, el norte de África y el extremo noroccidental de Sudamérica. También se han registrado avistamientos en Perú, donde su estado aun es desconocido. Anteriormente era conocido como Anas clypeata.[cita requerida]",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Spatula_clypeata",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 8332393,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8332393&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680247"
+}

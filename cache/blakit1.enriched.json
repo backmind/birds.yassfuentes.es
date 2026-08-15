@@ -1,0 +1,11 @@
+{
+  "prose": "El Milano Negro (Milvus migrans) es un viajero incansable y una de las rapaces más exitosas y abundantes del Viejo Mundo. Su presencia se extiende por vastas regiones de Europa, África, Asia y Oceanía, demostrando una adaptabilidad asombrosa a diversos entornos. A diferencia de otras aves de presa que rehúyen la actividad humana, este milano se siente cómodo en paisajes transformados, frecuentando vertederos, áreas urbanas y humedales, aunque suele evitar las zonas de bosque denso. En el aire, es un verdadero maestro del planeo; su vuelo es pausado y sostenido, utilizando su cola como un timón sensible que le permite cambiar de dirección con una agilidad pasmosa. Aunque es frecuente observarlo en solitario, posee una naturaleza social única, congregándose en grupos masivos durante las migraciones o en puntos donde el alimento es especialmente generoso.\n\nSu dieta es un reflejo de su ingenio y oportunismo, alimentándose de pequeños mamíferos, peces, insectos y carroña, e incluso llegando a sustraer comida en mercados humanos. Esta flexibilidad le otorga un papel ecológico fundamental como saneador de los ecosistemas. Durante los periodos migratorios, miles de individuos protagonizan travesías épicas, concentrándose en puntos clave como el Estrecho de Gibraltar para cruzar entre continentes. En la época de cría, suelen construir sus nidos en los árboles, donde la hembra asume la mayor parte de la incubación mientras el macho se encarga de la caza. Es una especie en expansión que, gracias a su capacidad para convivir con el ser humano, no enfrenta amenazas inmediatas, recordándonos que la supervivencia en la naturaleza a menudo premia a los que saben aprovechar cada oportunidad.",
+  "identification": [
+    "Plumaje general de tonos oscuros con una cola ligeramente ahorquillada que parece recta cuando está totalmente desplegada.",
+    "Cabeza y cuello proporcionalmente cortos, lo que le confiere una silueta distintiva en vuelo.",
+    "Los juveniles muestran una máscara oscura alrededor de los ojos y paneles pálidos en la parte superior de las alas.",
+    "Vuelo fluido y pausado, con una capacidad excepcional para maniobrar y cambiar de rumbo con suavidad."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-26T05:13:22Z"
+}

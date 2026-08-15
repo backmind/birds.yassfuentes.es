@@ -1,0 +1,15 @@
+{
+  "description": "Gaviota esbelta y de alas largas ligeramente más pequeña que Herring Gull. Común en Europa; la población de Norteamérica ha aumentado dramáticamente en las últimas décadas; ahora se observa regularmente en la costa atlántica, pero aún es rara en el interior y más al oeste. Los adultos muestran espalda gris oscura y patas amarillas; en invierno nota lo estriado bastante denso en la cabeza y el cuello. Requiere cuatro o cinco años para alcanzar el plumaje de adulto. Los inmaduros pueden ser difíciles de distinguir de otras gaviotas, especialmente Herring. En las aves en primer o segundo año, observa la cabeza blanquecina que contrasta con las manchas oscuras alrededor del ojo, alas largas, pico oscuro, rabadilla y base de cola blancuzcas y alas uniformemente oscuras en vuelo. Se puede encontrar alrededor de cualquier cuerpo de agua, pero prefiere las playas. A menudo en bandadas de otras gaviotas grandes.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La gaviota sombría es una especie de ave Charadriiforme de la familia Laridae. Es una de las gaviotas más comunes y más cosmopolitas del mundo. Ave migradora, se encuentra desde Groenlandia y Escandinavia hasta el Norte de África, donde hiberna. También se pueden ver hibernando en las costas norteamericanas a ejemplares procedentes de Islandia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Larus_fuscus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481174,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481174&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694373"
+}

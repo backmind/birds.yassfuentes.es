@@ -1,0 +1,15 @@
+{
+  "description": "Se reproduce en las turberas y marismas del norte de Europa, en bosques coníferos y mixtos abiertos, donde es ciertamente abundante. Durante la migración aparecen en una amplia variedad de hábitats acuáticos, especialmente con vegetación herbácea. Se alimenta en zonas fangosas o con poca agua introduciendo el pico en el fango. Se encuentran principalmente individuos solitarios o pequeños bandos, pero no en bandos mixtos. Balancea la cola cuando se alarma, pero no habitualmente como hace el Common Sandpiper. El plumaje general es parduzco con pecho blanco, variado punteado pálido y salpicado de manchas en el dorso. En vuelo muestra obispillo blanco y alas pardas por arriba. Patas verde-amarillentas.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El andarríos bastardo es una especie de ave caradriforme de la familia Scolopacidae. No se reconocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tringa_glareola",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481713,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481713&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693247"
+}

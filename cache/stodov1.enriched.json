@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra de los bosques abiertos, donde los linderos agrícolas se encuentran con viejos árboles dispersos y setos vivos, habita una criatura de discreta elegancia: la Paloma Zurita (Columba oenas). A diferencia de sus parientes más urbanos, esta especie destaca por un temperamento marcadamente esquivo, prefiriendo la seguridad de la distancia. Es común detectarla en un vuelo rápido y directo, o bien alimentándose pacíficamente en el suelo, donde busca semillas y brotes. A menudo se agrupa en parejas o en pequeños bandos que no dudan en asociarse con la paloma torcaz, compartiendo rastrojos en una armonía silenciosa. Lo que hace verdaderamente notable a esta ave es su capacidad para pasar desapercibida a pesar de su tamaño medio, fundiéndose con el entorno gracias a un plumaje que evoca la bruma matutina.\n\nLa paloma zurita alberga secretos fascinantes en sus hábitos de nidificación. Mientras que otras palomas construyen frágiles plataformas de ramas en las copas de los árboles, esta especie prefiere la penumbra de las cavidades. Depende estrechamente de los viejos huecos excavados por los pájaros carpinteros, especialmente el pito negro, o incluso de madrigueras de conejo abandonadas, lo que la convierte en un eslabón clave en la salud de los ecosistemas forestales maduros de Europa, el oeste de Asia y Marruecos. Su sutil canto, un arrullo rítmico y bisilábico, resuena en primavera como un eco ancestral. Al consumir y dispersar semillas, desempeña un papel ecológico vital en la regeneración de los campos y linderos, recordándonos la profunda interconexión entre la madera vieja y la vida que de ella depende.",
+  "identification": [
+    "Plumaje general de un tono grisáceo apagado, con un delicado matiz rosado en el pecho y sin franjas blancas conspicuas en las alas plegadas.",
+    "En vuelo, destaca el contraste entre el panel gris claro de la parte media del ala y el color negro de la punta y del ancho borde posterior.",
+    "La parte inferior del ala es de color gris con un borde posterior oscuro, a diferencia del tono blanquecino característico de la paloma bravía.",
+    "Comportamiento tímido y asustadizo, observándose frecuentemente en vuelo rápido o alimentándose en el suelo en parejas o pequeños grupos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-06T06:37:57Z"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "El Andarríos Bastardo (Tringa glareola) es un incansable viajero que encuentra su hogar estival en las vastas turberas y marismas del norte de Europa. En esos paisajes de bosques de coníferas y cielos abiertos, esta ave limícola se desenvuelve con una elegancia discreta, alimentándose en las zonas de fango o aguas someras donde introduce su pico con precisión en busca de sustento. A diferencia de otros parientes más gregarios, prefiere la compañía de unos pocos individuos o incluso la soledad, evitando generalmente integrarse en bandos mixtos con otras especies. Su presencia en los humedales es un testimonio de la conectividad de los ecosistemas, pues durante sus migraciones es capaz de colonizar una asombrosa variedad de hábitats acuáticos, siempre que la vegetación herbácea le brinde el refugio y la protección necesarios para descansar de sus largas jornadas de vuelo.\n\nLo que hace verdaderamente notable al Andarríos Bastardo es su sutil pero distintivo lenguaje corporal y su apariencia refinada. Aunque comparte con otros miembros de su familia el hábito de balancear la cola, suele reservar este movimiento para los momentos en que se siente alarmado, actuando como una señal visual de alerta. Su plumaje es un delicado mosaico de tonos parduzcos salpicado de motas pálidas en el dorso, lo que le permite mimetizarse con el entorno de las orillas, pero al emprender el vuelo revela un obispillo de un blanco inmaculado que destaca sobre el pardo de sus alas. Sus patas, de un tono verde amarillento, son herramientas perfectas para vadear el lodo. Al no reconocerse subespecies dentro de su taxonomía, esta ave mantiene una notable uniformidad mientras cumple su papel ecológico como depredador de pequeños invertebrados a lo largo de sus extensas rutas migratorias.",
+  "identification": [
+    "Plumaje dorsal parduzco con un marcado moteado pálido y pecho de color blanco",
+    "Patas largas y finas con una coloración característica verde-amarillenta",
+    "Obispillo blanco puro que resulta muy conspicuo cuando el ave inicia el vuelo",
+    "Balanceo de la cola como reacción de alarma, a diferencia de otras especies que lo hacen de forma constante"
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-25T04:37:49Z"
+}

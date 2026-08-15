@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra de los bosques maduros más densos y extensos habita un fantasma alado de destreza incomparable: el Azor Euroasiático (Astur gentilis). Esta formidable rapaz forestal es el verdadero soberano de la espesura, un cazador implacable que se desliza entre las ramas con una agilidad asombrosa para su envergadura. A diferencia de los gavilanes comunes, el Azor Euroasiático posee una complexión robusta y poderosa que le permite perseguir a sus presas —como liebres y urogallos— con una determinación feroz y temeraria. Capaz de adentrarse en matorrales aparentemente impenetrables e incluso de lanzarse al agua en el fragor de la persecución, este soberbio depredador defiende su territorio con una agresividad legendaria, especialmente en las inmediaciones de su nido, convirtiéndose en una presencia sumamente difícil de avistar en libertad.\n\nLa ferocidad y el valor del Azor Euroasiático han fascinado a la humanidad desde tiempos inmemoriales, elevándolo a un símbolo de estatus y poder. En la Europa medieval, su posesión para la cetrería estaba estrictamente reservada a la alta nobleza, mientras que en Asia, los shogunes japoneses lo portaban con orgullo sobre su puño y su silueta llegó a adornar el casco de Atila el Huno. Incluso un ejemplar blanco acompaña los retratos históricos del gurú sij Gobind Singh, motivo por el cual es el ave estatal del Punjab. En su ecosistema, este superdepredador cumple un rol ecológico crucial al regular las poblaciones de mamíferos y aves medianas, manteniendo el equilibrio de un hábitat forestal que requiere de su silenciosa pero implacable vigilancia para conservar su salud natural.",
+  "identification": [
+    "Adulto con plumaje dorsal grisáceo, partes inferiores pálidas y finamente barradas, corona y mejillas negras, y una ceja blanca muy marcada.",
+    "Ojos de un llamativo color rojo brillante en los individuos adultos.",
+    "Silueta robusta en vuelo, con alas anchas y redondeadas, siendo significativamente más grande y voluminoso que un gavilán.",
+    "Inmaduros con el pecho densamente estriado de forma contrastada y las plumas bajo la cola típicamente rayadas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-15T04:52:51Z"
+}

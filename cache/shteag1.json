@@ -1,0 +1,15 @@
+{
+  "description": "Rapaz grande de aspecto algo desgarbado con alas largas y muy anchas, cola más bien corta y cabeza de gran tamaño. Su vientre y parte inferior de las alas son de coloración clara que contrasta con la cabeza más oscura de la mayoría de los adultos, pero los jóvenes tienen la cabeza pálida. En todos los grupos de edad se suele observar un plumaje algo descuidado. En aves posadas presentan la cara de aspecto de búho y patas desprovistas de plumas. Caza en zonas abiertas y pasa mucho tiempo cerniéndose en vuelo aleteando contra el viento.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La culebrera europea o águila culebrera es una especie de ave accipitriforme de la familia Accipitridae. Es una rapaz especializada en la caza de serpientes y otros reptiles.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Circaetus_gallicus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480666,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480666&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22734216"
+}

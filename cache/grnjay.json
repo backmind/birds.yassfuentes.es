@@ -1,0 +1,15 @@
+{
+  "description": "Jay llamativo, con cuerpo verde lima, plumas externas de cola amarillas y cabeza negra y azul. Ligeramente más pequeño que otros jays. Usualmente se encuentra en bandadas en bosques abiertos con sotobosque. Visita los comederos de frutas y semillas.",
+  "description_source": "ebird",
+  "bow_intro": "La Green Jay es una especie conspicua y visualmente llamativa que ocupa dos áreas geográficas discontinuas en el hemisferio occidental. Su población septentrional, en expansión, se da desde el sur de Texas hasta Belice, Guatemala y Honduras, pasando por el este de México, y en una segunda franja más estrecha a lo largo de la vertiente del Pacífico mexicano. Su población sudamericana se extiende desde el noreste de Venezuela hacia el oeste y luego hacia el sur a lo largo de la cordillera de los Andes de Venezuela, Colombia, Ecuador, Perú y el noroeste de Bolivia. Prefiere los bosques densos con una cubierta de copas continua, el Green Jay evita las grandes zonas abiertas. Se da en una amplia gama de tipos de bosques, incluidos los matorrales espinosos y los matorrales del sur de Texas, las islas boscosas de la península de Yucatán y los bosques montanos de los Andes venezolanos. Aunque la deforestación y la intensificación de la agricultura han reducido los bosques en toda su área de distribución, el Green Jay ocupará arboledas de cítricos y plantaciones de pinos con cubierta forestal cercana.",
+  "taxonomy": {},
+  "wikipedia_summary": "La chara verde, también denominada urraca querrequerre, ken ken, urraca verde, urraca café y carriquí verdiamarillo, es una especie de ave paseriforme de la familia Corvidae que vive en América. Esta ave de colores vistosos se distingue de muchas otras por su compleja organización social.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cyanocorax_yncas",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482565,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482565&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22705738"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "En los abruptos acantilados costeros e islas del mar Mediterráneo, donde el viento esculpe la roca, habita un soberbio acróbata del aire: el Halcón de Eleonora (Falco eleonorae). Este elegante rapaz destaca por sus alas y cola sorprendentemente largas, que le otorgan una silueta esbelta y un vuelo grácil y pausado, capaz de recordar al de un págalo por sus repentinos y fluidos cambios de velocidad. A diferencia de otras rapaces, el halcón de Eleonora ha adaptado su ciclo vital de una manera asombrosa. No cría en la primavera, sino que retrasa su reproducción hasta el final del verano. Es entonces cuando las islas mediterráneas se convierten en el escenario de una de las estrategias de caza más especializadas del mundo natural, diseñada para aprovechar el paso de millones de aves migratorias que viajan hacia el sur.\n\nEsta sincronización perfecta permite a los progenitores alimentar a sus polluelos con un suministro constante de pequeños paseriformes exhaustos por el viaje transmediterráneo. Tras la época de cría, el halcón de Eleonora emprende un viaje extraordinario de miles de kilómetros para invernar en la lejana isla de Madagascar, demostrando una resistencia asombrosa. Presenta dos coloraciones o morfos muy distintos: uno oscuro y uniforme, y otro claro, con mejillas blancas y un vientre castaño finamente rayado de negro. Su nombre rinde homenaje a Leonor de Arborea, una gobernante sarda del siglo XIV que promulgó las primeras leyes de protección para estas magníficas aves, convirtiendo a este halcón en un símbolo pionero de la conservación de la biodiversidad.",
+  "identification": [
+    "Alas y cola notablemente largas y estilizadas, con un vuelo pausado y acrobático que permite cambios bruscos de velocidad.",
+    "Dos morfos de plumaje: uno completamente oscuro y otro claro con mejillas blancas y vientre castaño rayado de negro.",
+    "Infracobertoras alares oscuras que contrastan fuertemente con el resto de las plumas de vuelo en el morfo claro.",
+    "Los juveniles muestran un patrón inferior de las alas muy contrastado, lo que ayuda a distinguirlos del alcotán europeo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-14T04:52:40Z"
+}

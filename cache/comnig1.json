@@ -1,0 +1,15 @@
+{
+  "description": "Es un migrante estival presente en la mayor parte de Europa con invernada en África que puede ser común o escasear en alguna zonas. Es famoso por su canto sonoro y potente, a menudo de noche, cuando puede incluso mantener a la gente despierta. Se encuentra en hábitats arbolados y cubiertos de maleza, generalmente con sotobosque sombreado. Es bastante tímido y huidizo. El plumaje liso en general, marrón en el dorso con anillo ocular pálido y cola marrón oxidado y grisáceo pálido por la parte inferior con un ocre suave difuminado. Es sustituido en el norte y el este de Europa por el Thrush Nightingale de aspecto muy similar.",
+  "description_source": "ebird",
+  "bow_intro": "Aunque algo simple en comparación con muchos otros pájaros cantores, el ruiseñor ha sido reconocido por alguna forma de su nombre moderno desde hace más de 1.000 años. Del inglés antiguo nihtegala , derivado de las palabras para \"noche\" y \"cantar\", el ruiseñor debe su nombre a su virtuoso canto nocturno. Durante mucho tiempo ha ocupado un lugar privilegiado en el imaginario occidental: desde la comparación que Virgilio hace de Orfeo con un ruiseñor en las Geórgicas , hasta la famosa reflexión de Keats sobre la mortalidad en la Oda a un ruiseñor, la especie se ha utilizado como símbolo del amor, la muerte y la inspiración poética desde la antigüedad. A menudo se oye cantar al Common Nightingale desde perchas ocultas a baja altura en la densa maleza, sobre todo (aunque no exclusivamente) al anochecer. Los machos cantan tanto para atraer a las hembras como para defender sus territorios, y los repertorios individuales reportados incluyen entre 180 y 260 variaciones distintas de canto ( 1 Kunc, H., V. Amrhein, and M. Naguib (2005). Acoustic features of song categories and their possible implications for communication in the common nightingale ( Luscinia megarhynchos ). Behaviour 142:1083–1097. Close ). Las hembras no cantan pero emiten breves llamadas de contacto y alarma. El hábito de la especie de pegarse asiduamente a la cubierta profunda mientras canta contribuye a su reputación de ser a menudo oída pero raramente vista. Incluso los observadores experimentados pueden tener dificultades para localizar a un macho cantando a sólo unos pasos de distancia en la maleza.",
+  "taxonomy": {},
+  "wikipedia_summary": "El ruiseñor común es una especie de ave paseriforme anteriormente clasificado como un miembro de la familia Turdidae, pero ahora generalmente considerado parte de la familia Muscicapidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Luscinia_megarhynchos",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 7660710,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7660710&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22709696"
+}

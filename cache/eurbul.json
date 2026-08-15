@@ -1,0 +1,15 @@
+{
+  "description": "Es ave poco común pero que localmente sí puede ser más abundante, aunque es discreto y pasa fácilmente inadvertido. Prefiere bosques mixtos y linderos, parques, jardines, huertos así como tierras de labranza con setos y parcelas boscosas. Por lo general se encuentra en parejas o pequeños grupos. Se alimenta de brotes y frutas con calma y cautela pero no suele visitar comederos. El macho es muy colorido, con capucha negra, mejillas y pecho rosados, espalda azul grisácea, mientras que la hembra es de colores apagados, pero llama la atención la distintiva capucha negra, pico negro y rechoncho. Tienen un área blanca del obispillo patente principalmente en vuelo. Su canto es un silbido suave y lastimero que puede llamar la atención.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El camachuelo común es una especie de ave paseriforme de la familia de los fringílidos (Fringillidae). Es uno de los paseriformes más extendidos por Europa y el Asia de clima templado. Su coloración es inconfundible: mientras la hembra posee colores más apagados, el macho luce un plumaje rojizo en el pecho. No se encuentra amenazado y cuenta con poblaciones de entre quince y veintiocho millones de ejemplares en Europa.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pyrrhula_pyrrhula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2494543,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2494543&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22720671"
+}

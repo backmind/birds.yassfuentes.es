@@ -1,0 +1,11 @@
+{
+  "prose": "En el corazón del noreste de la cuenca amazónica y las vastas extensiones del escudo guayanés, habita una criatura de un resplandor casi solar. La Aratinga Pechisulfúrea (Aratinga maculata) es un psitácido de mediano tamaño que parece haber atrapado los matices del atardecer en su plumaje. Se desenvuelve con agilidad en las sabanas y áreas semiabiertas salpicadas de árboles bajos, así como en los márgenes de las selvas húmedas. Es un ave profundamente social; suele desplazarse en pequeños grupos que recorren el paisaje en busca de alimento, llenando el aire con su presencia vibrante. Su plumaje, predominantemente amarillo dorado con intensos matices anaranjados en el rostro y el vientre, contrasta de forma exquisita con los tonos verdes y azules de sus alas y cola, permitiéndole camuflarse entre la luz filtrada de las copas de los árboles mientras forrajea con una curiosidad incansable.\n\nLa historia científica de esta especie es tan fascinante como su apariencia. Durante siglos, se creyó erróneamente que formaba parte de la población de la Aratinga del Sol, y no fue hasta tiempos recientes que los ornitólogos reconocieron su identidad única. Este redescubrimiento taxonómico rinde homenaje al ornitólogo brasileño Olivério Pinto, quien fue el primero en notar sus rasgos distintivos, aunque investigaciones posteriores rescataron un nombre científico aún más antiguo que data de 1776. A pesar de su belleza, la Aratinga Pechisulfúrea sigue siendo un enigma para la ciencia; su hogar en regiones remotas de Pará y Amapá, en Brasil, y en las sabanas de Sipaliwini en Surinam, ha mantenido sus secretos biológicos a salvo de la observación frecuente. Como dispersora de semillas en estos ecosistemas de transición, desempeña un papel vital en la regeneración de su hábitat, recordándonos que incluso en la era de la información, la naturaleza aún guarda tesoros por comprender plenamente.",
+  "identification": [
+    "Plumaje mayoritariamente amarillo dorado con una mancha anaranjada distintiva alrededor de los ojos.",
+    "Alas y cola que presentan una mezcla de verde, amarillo y toques de azul.",
+    "Pecho y vientre con tonalidades naranja rojizas intensas.",
+    "Se observa generalmente en bandadas pequeñas en terrenos abiertos o bordes de bosque."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-04-15T04:47:06Z"
+}

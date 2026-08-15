@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra del sotobosque, donde la vegetación se vuelve densa e intrincada, habita una criatura de vivacidad extraordinaria: el Leiótrix Piquirrojo (*Leiothrix lutea*). Originario de las regiones del Himalaya y el sur de China, este pequeño paseriforme destaca por su silueta redondeada y un plumaje de un verde oliváceo que contrasta vivamente con su pecho de tonos amarillos y anaranjados. Sin embargo, es su pico, de un rojo coral brillante, el que corona su singular belleza. A pesar de sus llamativos colores, el leiótrix piquirrojo es un ave esquiva y reservada. Se desplaza con asombrosa agilidad entre las ramas bajas y la madera muerta, buscando incansablemente insectos y pequeños frutos. Rara vez asciende a las copas de los árboles, prefiriendo la seguridad y el cobijo que le brindan los arbustos más tupidos, donde su presencia se revela a menudo antes por su constante movimiento que por la vista directa.\n\nLa adaptabilidad de esta especie es asombrosa, lo que ha facilitado su introducción exitosa en archipiélagos como Hawái, donde prospera desde el nivel del mar hasta altitudes que superan los 4.000 metros, así como en Japón, la isla de Reunión y diversas zonas de Europa. Fuera de la época de reproducción, el leiótrix piquirrojo abandona su timidez para agruparse en ruidosas bandadas nómadas que pueden alcanzar el centenar de individuos. Su repertorio vocal es de una riqueza sorprendente: mientras que los machos deleitan con un canto melodioso y discontinuo, ambos sexos emiten ásperos chasquidos de alarma ante cualquier intruso. Al alimentarse tanto de invertebrados como de frutos, desempeña un papel ecológico crucial como dispersor de semillas y controlador de poblaciones de insectos, tejiendo con su incansable actividad la compleja red de la vida forestal.",
+  "identification": [
+    "Pico de un llamativo color rojo brillante y pecho de tonos amarillos y anaranjados intensos.",
+    "Cuerpo redondeado con plumaje predominantemente verde oliváceo en el dorso.",
+    "Cola fuertemente dentada cuyas plumas externas presentan una peculiar curvatura hacia el exterior en las puntas.",
+    "Canto melodioso compuesto por frases discontinuas, acompañado de reclamos ásperos y parloteos de alarma."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-30T06:13:52Z"
+}

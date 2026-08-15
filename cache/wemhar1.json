@@ -1,0 +1,15 @@
+{
+  "description": "Puede ser escaso pero a veces con concentraciones importantes en marismas y humedales con grandes extensiones de carrizal, cada vez más abundantes en cultivos de cereal. La mayoría de las poblaciones del norte de Europa migran hacia el sur durante la invernada. Sobre todo visto en vuelo, sobrevolando en vuelo bajo sobre los humedales, con las alas levantadas en forma de V. El plumaje más común es marrón oscuro por todas las partes excepto la parte superior de la cabeza, el cuello y una banda en el borde de ataque del ala de tonos crema muy variables. Mucho más vistosos, los machos adultos tienen una coloración tricolor en la parte superior de las alas, la cola grisácea, la cabeza y el pecho pálidos que contrastan con el vientre marrón herrumbroso.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El aguilucho lagunero occidental es una especie de ave accipitriforme de la familia Accipitridae que se distribuye por buena parte del Viejo Mundo. Como su nombre común indica suele encontrase en zonas de humedales.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Circus_aeruginosus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480482,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480482&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22695344"
+}

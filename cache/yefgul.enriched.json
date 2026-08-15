@@ -1,0 +1,11 @@
+{
+  "prose": "En las tranquilas aguas y recortadas costas del Golfo de California, habita una criatura singular: la Gaviota de Cortés (Larus livens). Posiblemente la única ave marina cuya área de reproducción se limita por completo a esta rica cuenca mexicana, es un habitante conspicuo de playas, muelles pesqueros y zonas intermareales rocosas o lodosas. Con su cuerpo robusto y su porte imponente, esta ave patrulla la línea de costa con una serenidad observadora, aprovechando los recursos de un ecosistema marino excepcionalmente fértil.\n\nDurante mucho tiempo, la Gaviota de Cortés fue considerada una subespecie de la Gaviota Occidental (Larus occidentalis), con la que comparte un manto gris pizarra oscuro y un pico grueso y bulboso. Sin embargo, su identidad propia quedó establecida, e investigaciones recientes sugieren una estrecha relación con la Gaviota Cocinera (Larus dominicanus) del hemisferio sur. Al concluir la temporada reproductiva, parte de su población realiza un desplazamiento posgenerativo hacia el norte, concentrándose desde finales de mayo en el Mar de Salton, en California, donde alcanza varios centenares de individuos en pleno verano antes de dispersarse en otoño.",
+  "identification": [
+    "Adulto con cabeza blanca, manto gris pizarra oscuro y pico amarillo robusto y bulboso",
+    "Patas de un brillante color amarillo intenso en especímenes adultos",
+    "Inmaduros de primer año con plumaje café y patas rosadas",
+    "Adquisición del manto gris y patas amarillas completada hacia el segundo año de vida"
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-12T04:08:49Z"
+}

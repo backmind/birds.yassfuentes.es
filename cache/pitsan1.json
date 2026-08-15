@@ -1,0 +1,15 @@
+{
+  "description": "Su vientre y partes inferiores blancas contrastan con una ancha banda pectoral color castaño de bordes negros. Las largas proyecciones caudales son muy visibles en vuelo. Las hembras tienen la garganta blanca; los machos en plumaje nupcial tienen la garganta negra. Se observa en llanuras secas abiertas y en lechos secos de ríos y lagunas. Realiza visitas diarias a bebederos normalmente por la mañana, a menudo en grandes bandos. Su vuelo es potente parecido al de una paloma. Puede realizar desplazamientos de nomadeo.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La ganga ibérica o ganga común es una especie de ave pterocliforme de la familia Pteroclidae propia del sur de Eurasia y el norte de África. Es un ave adaptada a terrenos semidesérticos y esteparios.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pterocles_alchata",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480204,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480204&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22692983"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "En los densos matorrales y zonas ribereñas del oeste de Ecuador y Perú, habita un pequeño y vivaz habitante de la vegetación baja: la Mascarita Embridada (Geothlypis auricularis). Este parúlido destaca por su notable adaptabilidad; a diferencia de otros miembros de su género que dependen estrictamente de humedales, esta especie se aventura con éxito en hábitats más áridos, como los bosques tropicales caducifolios y los matorrales costeros secos. Es un ave de hábitos discretos, que prefiere moverse en solitario o en parejas entre la densa maraña de las plantas bajas, donde busca alimento con paciencia. Sin embargo, la timidez del macho se desvanece temporalmente cuando llega el momento de cantar: entonces, asciende a perchas más elevadas para inundar el aire con un canto silbado, dulce y melodioso, revelando su presencia en la penumbra del sotobosque.\n\nA pesar de ser un ave relativamente común dentro de su restringido rango geográfico, la Mascarita Embridada sigue siendo un enigma para la ciencia. Durante mucho tiempo fue considerada una subespecie de otros rabijuncos sudamericanos, y solo recientemente se ha empezado a documentar en detalle su biología reproductiva, incluyendo las primeras descripciones de sus nidos y pichones. Como insectívoro incansable, desempeña un papel ecológico fundamental en el control de de poblaciones de invertebrados en estos ecosistemas de transición. Su existencia nos recuerda que, incluso entre las especies que consideramos comunes, la naturaleza aún guarda secretos fascinantes esperando ser descubiertos por aquellos que observan con suficiente paciencia y atención.",
+  "identification": [
+    "El macho presenta una máscara negra completa en el rostro combinada con una corona de color gris.",
+    "Ambos sexos tienen las partes inferiores de un amarillo brillante y el dorso de tono oliváceo.",
+    "La hembra carece de la máscara oscura y se distingue por sus mejillas grisáceas y la ausencia de lores oscuros.",
+    "Su canto es un silbido dulce y melodioso, emitido por el macho desde perchas elevadas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-04T05:47:40Z"
+}

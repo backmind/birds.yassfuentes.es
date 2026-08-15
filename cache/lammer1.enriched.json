@@ -1,0 +1,11 @@
+{
+  "prose": "En los cortados rocosos y las cumbres más elevadas, donde las corrientes de aire esculpen la piedra, habita uno de los pobladores más singulares de la alta y media montaña: el Quebrantahuesos (Gypaetus barbatus). Esta rapaz amenazada, perteneciente a la familia Accipitridae, domina los cielos con una silueta majestuosa que recuerda a la de un albatros, caracterizada por sus alas estrechas y una larga cola en forma de diamante. Planeando sin esfuerzo a lo largo de las crestas con las alas extendidas en plano o levemente arqueadas hacia abajo, esta especie establece sus grandes nidos en la seguridad de las cuevas o en los repisas inaccesibles de los acantilados. Su contemplación en vuelo, con el contraste entre el gris pizarra del dorso y el tono anaranjado rojizo de su pecho, representa una de las visiones más sobrecogedoras del mundo natural.\n\nLo que convierte al quebrantahuesos en una criatura verdaderamente excepcional es su dieta osteófaga, única entre las aves, pues se alimenta casi exclusivamente de huesos y tuétano. Cuando encuentra restos demasiado grandes para engullir enteros, se eleva a gran altura y los soltando sobre los roquedos para fracturarlos contra las piedras. Este comportamiento especializado no solo le otorga su evocado nombre común, sino que le permite cumplir un rol ecológico insustituible al limpiar los últimos restos de las carroñas que otros carroñeros no pueden aprovechar. Sorprendentemente, ese color anaranjado que adorna el pecho de los adultos no es pigmentación natural de las plumas, sino el resultado de un baño cosmetico deliberado en barro y fuentes ricas en óxidos de hierro.",
+  "identification": [
+    "Silueta en vuelo muy distintiva con alas largas y una cola prominente en forma de diamante",
+    "Adultos con el pecho y la cabeza de tono anaranjado rojizo, vientre oscuro por debajo y dorso gris pizarra",
+    "Jóvenes de coloración predominantemente grisácea con la cabeza y el cuello oscuros",
+    "Vuelo de planeo pegado a las cumbres, manteniendo las alas totalmente planas o curvadas hacia abajo"
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-10T03:57:06Z"
+}

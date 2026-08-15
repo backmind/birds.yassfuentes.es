@@ -1,0 +1,15 @@
+{
+  "description": "Se trata de un ave considerada exótica en España. Tiene aspecto llamativo dentro de los patos por su apariencia de ganso. Es ocasional y sus observaciones suelen proceder de aves escapadas de colecciones y parques. Su plumaje en general es de color canela que contrasta con el color crema claro de la cabeza y el cuello; el macho presenta un fino collar negro. Las grandes manchas blancas de la parte anterior del ala resultan muy llamativas en vuelo.",
+  "description_source": "ebird",
+  "bow_intro": "El Ruddy Shelduck es un pato grande con un plumaje general marrón anaranjado que se desvanece hacia un blanco cremoso en la cabeza y la rabadilla. Sus alas muestran un contraste distintivo entre las plumas de vuelo negras y las coberteras blancas. Su distribución se extiende por Asia, Oriente Próximo, Europa oriental, Etiopía y el noroeste de África, y recientemente ha ampliado su área de reproducción a Europa occidental y las Islas Canarias (España). Esta especie es muy adaptable y se da desde el nivel del mar hasta los 4.800 m de altitud en una gran variedad de paisajes, como tierras bajas costeras, desiertos, estepas, altiplanos y montañas. Ocupa ríos, arroyos, deltas, marismas, estanques y lagos, y utilizará humedales de agua dulce, salobre y salina. Se ha beneficiado además de su adaptabilidad a los humedales artificiales.",
+  "taxonomy": {},
+  "wikipedia_summary": "El tarro canelo es una especie de ave anseriforme de la familia Anatidae propia de Eurasia y el norte de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tadorna_ferruginea",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498015,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498015&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680003"
+}

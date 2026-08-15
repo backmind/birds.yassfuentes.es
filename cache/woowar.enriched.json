@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra de los grandes bosques caducifolios del centro y norte de Europa, entre la tupida arboleda de hayas y robles, habita un pequeño viajero de las alturas. El mosquitero silbador (Phylloscopus sibilatrix) es un paseriforme eminentemente forestal que pasa la mayor parte de su existencia velado en las copas de los árboles más frondosos. Aunque se trata del mosquitero de mayor tamaño registrado en la península ibérica, con alas sensiblemente más largas y un cuerpo más robusto que el de sus parientes cercanos, su comportamiento huidizo dificulta su observación directa. Sin embargo, su presencia no pasa inadvertida: su canto inconfundible rige el ambiente de la fronda mientras se desplaza ágilmente a gran altura a la caza de insectos.\n\nA pesar de desplegar su vida cotidiana en las bóvedas boscosas, este pájaro guarda una paradoja fascinante: para nidificar, abandona la protección del dosel arbóreo y construye su nido directamente en el suelo, entre la hojarasca y la vegetación. Como especialista insectívoro, el mosquitero silbador cumple un rol ecológico clave en el control de las poblaciones de invertebrados forestales. Además, se trata de una especie altamente migratoria que, tras la época reproductora, emprende una formidable travesía a través de Europa hasta alcanzar sus zonas de invernada en el continente africano.",
+  "identification": [
+    "Plumaje verde lima apagado por arriba y blanco suave por debajo.",
+    "Garganta y marcada ceja (supercilio) de color amarillo pálido.",
+    "Cuerpo más grande y alas ostensiblemente más largas que las de otros mosquiteros.",
+    "Canto inconfundible emitido casi siempre desde las copas de árboles frondosos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-01T05:28:57Z"
+}

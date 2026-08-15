@@ -1,0 +1,15 @@
+{
+  "description": "Es poco común pero localmente abundante en hábitats de matorral denso, especialmente en páramos con tojo. Es tímida y difícil de ver bien, aunque cuando canta en primavera puede posarse en lo alto de los arbustos. La cola es larga y a menudo la sostiene ligeramente levantada. El plumaje bastante oscuro en general, grisáceo en la parte superior y rojo vinoso apagado en la parte inferior; destaca el estrecho anillo ocular rojo y la patas amarillentas bastante brillantes. No hay especies similares en la mayor parte de su área de distribución.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Dartford_warbler",
+  "wikipedia_language": "en",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 10355796,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=10355796&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716984"
+}

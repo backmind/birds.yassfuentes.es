@@ -1,0 +1,11 @@
+{
+  "prose": "El Tarro Canelo (Tadorna ferruginea) es una de las anátidas más singulares y adaptables de Eurasia y el norte de África. Con un porte elegante que recuerda más al de un ganso que al de un pato común, esta especie destaca por su asombrosa plasticidad ecológica. Es capaz de prosperar desde el nivel del mar hasta altitudes que rozan los 4.800 metros en las cordilleras de Asia central. Sus hábitats son extraordinariamente diversos: desde estepas áridas y desiertos hasta lagos de alta montaña, ríos, deltas y marismas, tolerando aguas dulces, salobres e incluso hipersalinas. En las últimas décadas, ha demostrado una notable capacidad para colonizar humedales artificiales y ha expandido su área de reproducción hacia Europa occidental y las islas Canarias, mostrando un comportamiento audaz y una gran resiliencia frente a los cambios en el paisaje.\n\nEl aspecto del Tarro Canelo es verdaderamente inconfundible, dominado por un cálido plumaje de color canela o naranja cobrizo que contrasta de forma espectacular con su cabeza de tonos crema. En vuelo, revela un diseño alar asombroso, donde las coberteras de un blanco puro chocan visualmente con las plumas de vuelo de un negro profundo. Aunque en la península ibérica sus avistamientos suelen asociarse a ejemplares escapados de colecciones privadas y parques debido a su popularidad ornamental, la especie se comporta de manera silvestre y nómada en gran parte de su distribución natural. Su presencia en ecosistemas tan variados lo convierte en un conector ecológico vital entre diferentes masas de agua, aprovechando recursos que otras aves acuáticas menos adaptables no pueden explotar.",
+  "identification": [
+    "Plumaje general de color canela o marrón anaranjado, que se aclara hacia un tono crema claro en la cabeza.",
+    "El macho presenta un fino y distintivo collar negro alrededor del cuello.",
+    "En vuelo, destacan grandes manchas blancas en la parte anterior del ala que contrastan fuertemente con las plumas de vuelo negras.",
+    "Silueta grande y erguida, con una apariencia física que recuerda a la de un ganso."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-21T06:12:33Z"
+}

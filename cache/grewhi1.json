@@ -1,0 +1,15 @@
+{
+  "description": "Es un migrador estival común en Europa con invernada en África. Se encuentra en hábitats de matorral, desde brezales costeros y setos bajos hasta zarzas en terrenos baldíos. Es más bien discreta, como la mayoría de las warblers, pero cuando remonta el vuelo irregular a menudo llama la atención. Su plumaje espardusco en general con alas de un pardo-rojizo brillante, la cabeza gris tiene un anillo ocular blanco y la garganta blanca a menudo se muestra algo hinchada.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La curruca zarcera es una especie de ave paseriforme de la familia Sylviidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Sylvia_communis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 10507373,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=10507373&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716910"
+}

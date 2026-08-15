@@ -1,0 +1,11 @@
+{
+  "prose": "En los vastos horizontes de las llanuras cerealistas y las estepas arbustivas, donde la tierra se encuentra con el cielo sin apenas obstáculos, habita la Calandria Común (Melanocorypha calandra). Este aláudido de porte robusto destaca por su asombrosa capacidad para mimetizarse con los tonos pardos del suelo seco. Sin embargo, su verdadera magnificencia se revela cuando asciende al firmamento. Durante la época de cría, los machos se elevan en un vuelo nupcial pausado, casi flotante, batiendo sus anchas alas mientras inundan el paisaje con un canto torrencial y melodioso que puede prolongarse durante minutos. Es un espectáculo sonoro que define la primavera de los campos abiertos, transformando la aparente aridez del entorno en un escenario vibrante de vida.\n\nLa calandria común es una consumada imitadora, capaz de incorporar en su propio repertorio los trinos y reclamos de otras aves que comparten su entorno, desde cernícalos hasta jilgueros. Esta destreza vocal no solo fascina a quien la escucha, sino que desempeña un papel crucial en la delimitación de territorios y la selección de pareja. Al alimentarse principalmente de semillas e insectos que busca directamente en el suelo, esta especie contribuye activamente al control de invertebrados y a la dispersión de plantas en los ecosistemas esteparios. Su nido, una modesta depresión oculta entre la vegetación baja, refleja su total adaptación a la vida terrestre, donde la discreción es la mejor defensa contra los depredadores.",
+  "identification": [
+    "Pico notablemente fuerte y grueso, acompañado de una ceja pálida muy visible sobre el ojo.",
+    "Dos parches negros y gruesos a los lados del cuello, cuya visibilidad cambia según la postura.",
+    "Alas oscuras por debajo en vuelo, con un distintivo borde posterior blanco que resalta claramente.",
+    "Canto potente, variado y continuo, caracterizado por la imitación de los sonidos de otras aves."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-08T06:45:08Z"
+}

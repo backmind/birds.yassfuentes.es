@@ -1,0 +1,11 @@
+{
+  "prose": "En la vegetación densa y brumosa que viste los bosques húmedos premontanos y montanos del norte de Colombia y Venezuela, habita un ave de discreta elegancia: el Frutero Pechidorado (Pipreola aureopectus). Con su silueta robusta y porte sereno, este miembro de la familia Cotingidae suele pasar inadvertido entre los niveles medios y altos del dosel. El Frutero Pechidorado es una criatura confiada que permanece inmóvil durante largos períodos sobre las ramas, observando detenidamente su entorno antes de emprender un vuelo corto para arrancar frutos cercanos. Se le encuentra a menudo en solitario o en pareja, aunque con frecuencia se integra al movimiento de bandadas mixtas que recorren los linderos del bosque, bordes de vegetación y plantaciones de café de sombra.\n\nSu alimentación basada en frutos le confiere un rol ecológico fundamental como dispersor de semillas en estos ecosistemas tropicales. En algunas zonas de su área de distribución, esta especie ocupa una franja altitudinal intermedia y más seca, situándose entre los rangos de otros fruteros emparentados. Aunque su plumaje verdiamarillo le proporciona un mimetismo formidable entre la fronda, su presencia queda al descubierto gracias a su canto peculiar: una emisión sumamente aguda que inicia descendiendo, asciende con rapidez y se interrumpe de manera repentina en la penumbra del bosque.",
+  "identification": [
+    "Macho con garganta y pecho de un amarillo brillante, lores y barbilla negros, y vientre amarillo estriado de verde.",
+    "Hembra sin rostro negro, con las partes inferiores verdes estriadas de amarillo.",
+    "Ojos y pico pequeño de color anaranjado, cuerpo verdiamarillo robusto y cola corta.",
+    "Canto muy agudo que desciende, luego asciende y se detiene abruptamente."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-11T03:45:20Z"
+}

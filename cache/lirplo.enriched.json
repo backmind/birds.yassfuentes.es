@@ -1,0 +1,12 @@
+{
+  "prose": "A lo largo de los cauces fluviales, graveras e imponentes orillas de lagos interiores, habita una criatura pequeña pero de una elegancia singular: el Chorlitejo Chico (Charadrius dubius). Esta ave estival llega a gran parte del territorio europeo durante los meses cálidos para nidificar directamente sobre sustratos pedregosos y guijarrales. Su mimetismo es tal que suele pasar completamente desapercibido para quien no preste una mirada atenta. Con un andar rápido de paradas repentinas, explora las orillas de humedales de aguas dulces y salobres en busca de pequeños invertebrados. Durante sus travesías migratorias hacia la cuenca mediterránea y el continente africano, este limícola utiliza una gran variedad de ecosistemas acuáticos continentales, aunque evita de forma habitual las grandes zonas mareales abiertas.\n\nObservado a corta distancia, el Chorlitejo Chico revela detalles anatómicos fascinantes que lo distinguen de especies más robustas como el Chorlitejo Grande (Charadrius hiaticula). Destaca en su rostro un fino y vistoso anillo ocular de color amarillo vivo, así como una ceja blanca continua que cruza su frente. Sus extremidades exhiben un tono rosáceo apagado que se confunde con los cantos rodados donde deposita sus huevos sin estructura de nido compleja. Al emprender el vuelo, muestra una estrecha e indistinta banda alar blanca mientras emite su característico reclamo, un seco \"piu\" que resuena entre las gravas y cumple un papel indispensable en la banda sonora de los ríos.",
+  "identification": [
+    "Estrecho y característico anillo ocular amarillo vivo alrededor del ojo.",
+    "Ceja de color blanco continua a lo largo de la frente.",
+    "Patas finas de tonalidad rosácea apagada.",
+    "Banda alar blanca estrecha y poco definida visible en vuelo.",
+    "Reclamo vocal seco y monosilábico transcribible como un «piu»."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-04T05:15:55Z"
+}

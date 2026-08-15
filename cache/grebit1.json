@@ -1,0 +1,15 @@
+{
+  "description": "Garza parda y fuerte que se encuentra en cañaverales extensos. Normalmente muy esquivo y oculto. Se observa principalmente de forma individual en vuelo, especialmente a primera hora y por la tarde. Sigiloso y fácilmente desapercibido, el plumaje críptico se combina bien con las cañas. Presenta cabeza y cuello de color marrón rojizo, capirote negruzco y partes superiores rayadas. A menudo revela su presencia con un reclamo resonante. Comparado con el juvenil de Black-crowned Night-Heron, éste tiene la parte superior con manchas pálidas y a menudo se ve en los árboles (Bittern en el suelo o cerca de éste).",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El avetoro común es una especie de ave pelecaniforme de la familia Ardeidae propia de los humedales de Eurasia y África.\nEl avetoro común es una garza robusta con plumaje de tonos pardos claros con listados y veteados oscuros. Debe su nombre a su característica llamada similar al mugido de los toros.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Botaurus_stellaris",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480910,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480910&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697346"
+}

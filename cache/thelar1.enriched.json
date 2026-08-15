@@ -1,0 +1,12 @@
+{
+  "prose": "En los paisajes más áridos y expuestos de la península ibérica, el norte de África y el África oriental, una pequeña y discreta silueta desafía la dureza del entorno. Se trata de la Cogujada Montesina (Galerida theklae), un miembro de la familia de los alaudídos que ha hecho de los terrenos pedregosos, arenosos y de los matorrales dispersos su hogar definitivo. A diferencia de otros congéneres que prefieren el suelo raso, esta especie muestra una notable inclinación por posarse en lo alto de los arbustos, desde donde vigila su territorio con una mezcla de prudencia y altivez. Su capacidad para prosperar en condiciones de extrema aridez, donde la vegetación escasea y el sol castiga con fuerza, la convierte en un verdadero testimonio de adaptación y resistencia en los ecosistemas más severos.\n\nEl gran desafío para los observadores de la naturaleza radica en distinguirla de su pariente más cercana, la cogujada común. Aunque a simple vista parecen idénticas, la cogujada montesina revela su identidad a través de sutiles pero firmes detalles anatómicos, como un pico más corto y robusto con la mandíbula inferior curvada, y un obispillo de un vivo tono rojizo que contrasta vivamente al emprender el vuelo. Con una población global saludable que se estima entre los 2.900.000 y los 4.000.000 de ejemplares, esta ave no se encuentra amenazada. Su presencia es fundamental en la cadena trófica de las zonas áridas, actuando como consumidora de semillas e invertebrados, y manteniendo el equilibrio ecológico de unos parajes donde la vida, aunque parezca invisible, late con una fuerza asombrosa.",
+  "identification": [
+    "Pico corto y grueso, con la mandíbula inferior de forma convexa.",
+    "Cresta cefálica corta y con una característica forma de abanico.",
+    "Obispillo de color rojizo que presenta un marcado contraste.",
+    "Pecho con rayas oscuras, gruesas y muy contrastadas.",
+    "Tendencia frecuente a posarse sobre arbustos en lugar de permanecer solo en el suelo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-03T06:54:33Z"
+}

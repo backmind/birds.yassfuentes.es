@@ -1,0 +1,15 @@
+{
+  "description": "Se reproduce localmente en el sur de Europa, aunque a menudo pueden verse en el norte de Europa procedentes de escapes. (Otras especies de flamingo pueden ser observadas también procedentes de escapes). Muy grande con cuello largo en forma de perchero, pico grande y retorcido y patas rosadas muy largas. Por lo demás, plumaje blanquecino con tonos rosados y rosa intenso visible a menudo en las alas plegadas. Vuela con el cuello y las patas extendidos, pudiéndose ver entonces el contrastado diseño rosa intenso y negro de las alas.",
+  "description_source": "ebird",
+  "bow_intro": "Esta descripción de la especie está dedicada en honor de Leslie H. Brown, Alan R. Johnson y Adelheid Studer-Thiersch, cuyos estudios contribuyeron al conocimiento del flamenco común. Los flamencos llevan mucho tiempo atrayendo la atención de la gente. No sólo despiertan curiosidad y admiración por su aspecto y coloración, sino también por múltiples características de su historia de vida.",
+  "taxonomy": {},
+  "wikipedia_summary": "El flamenco común es una especie de ave phoenicopteriforme de la familia Phoenicopteridae que vive en los humedales de África, el sur de Europa y el sudoeste de Asia. Sus parientes más cercanos son el flamenco rojo y el flamenco chileno, que anteriormente se consideraba conespecífico del primero, pero en la actualidad se consideran especies separadas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Phoenicopterus_roseus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 4352332,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=4352332&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697360"
+}

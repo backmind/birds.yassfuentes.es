@@ -1,0 +1,12 @@
+{
+  "prose": "En los límites donde la vegetación arbórea comienza a ceder ante el rigor de las cumbres, habita un pequeño y vivaz acróbata de las alturas: el Verderón Serrano (Carduelis citrinella). Este singular fringílido es un verdadero especialista de los bosques montanos de coníferas, especialmente de pinos y abetos, en las cordilleras del centro y sur de Europa. Con una agilidad asombrosa, el verderón serrano se desplaza incansablemente tanto por las copas de los árboles como por el suelo alpino en busca de sustento. Lo que hace verdaderamente notable a esta especie es su asombrosa adaptación a las duras condiciones de la alta montaña, donde desafía los vientos y las bajas temperaturas con una vitalidad desbordante que llena de vida los silenciosos bosques subalpinos.\n\nA pesar de su aparente fragilidad, las poblaciones globales de este pequeño pájaro se estiman entre los 475.000 y los 600.000 ejemplares. Sin embargo, el delicado equilibrio de su entorno los sitúa en una posición de vulnerabilidad, amenazados principalmente por la alteración de sus hábitats montanos y, en ocasiones, por la captura ilegal. Como consumidor de semillas, desempeña un papel ecológico crucial en la dispersión y regeneración de las coníferas de alta montaña. Su presencia es un indicador de la salud de estos ecosistemas alpinos, recordándonos la interconexión entre la flora de las cumbres y las pequeñas criaturas que dependen de ella para sobrevivir en el límite mismo de la vida forestal.",
+  "identification": [
+    "Cuerpo de tonos amarillentos y verdosos, destacando en los machos un píleo y cuello de un limpio color gris.",
+    "Obispillo de un llamativo tono amarillo verdoso, muy prominente y visible en ambos sexos.",
+    "Dos franjas alares de color amarillo brillante que contrastan con el plumaje de las alas.",
+    "Pico largo y puntiagudo, idóneo para desgranar piñas, acompañado de una cola larga.",
+    "Hembras con un diseño similar al de los machos, pero distinguibles por presentar el dorso ligeramente estriado."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-18T04:49:49Z"
+}

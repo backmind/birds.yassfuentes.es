@@ -1,0 +1,11 @@
+{
+  "prose": "En los paisajes abiertos y semiabiertos que se extienden desde las vastas tierras de cultivo y bosques despejados hasta el corazón de las grandes ciudades de Europa y el este de Asia, resuena la constante presencia de la Corneja Negra (Corvus corone). Este córvido, de cuerpo denso, plumaje completamente negro y brillante, y una cabeza ancha y aplanada, es uno de los habitantes más adaptables de la avifauna paleártica. A diferencia de otras especies de su familia que forman enormes concentraciones, la corneja negra suele observarse en parejas o en pequeños grupos familiares, reservando las grandes agrupaciones únicamente para sus dormideros nocturnos. Frente al cuervo grande, notablemente mayor y de garganta desgreñada, la corneja negra destaca por un vuelo basado en aleteos continuos y un porte más compacto, consolidándose como el córvido totalmente negro más habitual en sus dominios.\n\nSu reputación de ave astuta y oportunista está respaldada por una inteligencia excepcional y una dieta omnívora que abarca desde semillas y pequeños animales hasta carroña, desempeñando así un valioso papel en el reciclaje de nutrientes de los ecosistemas. Su capacidad para resolver problemas urbanos ha quedado demostrada en diversas ciudades japonesas, donde los individuos dejan caer nueces sobre las calzadas para que los vehículos las fracturen al pasar, esperando pacientemente a que el semáforo detenga el tráfico para recoger el alimento. Asimismo, en aquellas regiones de contacto con la corneja gris donde ambas especies pueden hibridarse, la corneja negra muestra una fascinante preferencia por seleccionar parejas de su propio fenotipo totalmente negro, manteniendo su identidad evolutiva a través de un selectivo comportamiento de apareamiento.",
+  "identification": [
+    "Plumaje enteramente negro con destellos brillantes, pico robusto y cabeza ancha y aplanada.",
+    "Tamaño inferior al del cuervo grande, con una cola más corta y recta en el extremo.",
+    "Vuelo caracterizado por aleteos constantes y regulares, con escasos momentos de planeo.",
+    "Voz menos profunda que la del cuervo grande y ausencia de plumas desgreñadas en la garganta."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-24T05:21:42Z"
+}

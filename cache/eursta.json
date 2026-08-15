@@ -1,0 +1,15 @@
+{
+  "description": "Rechoncho y mayormente oscuro. Cola corta, alas triangulares, pico largo y puntiagudo. Una mirada cercana revela su hermoso plumaje. En época de reproducción, muestra púrpura y verde iridiscente en el cuerpo, y tiene el pico amarillo. En invierno, manchas blancas contrastantes cubren todo el cuerpo. Nativo de Europa; introducido a Norteamérica y otras regiones en todo el mundo, donde ahora es abundante. A menudo en grandes bandadas. Emite una variedad de vocalizaciones chirriantes e imita a otras especies. Visita los comederos, y a menudo es agresivo.",
+  "description_source": "ebird",
+  "bow_intro": "El éxito del European Starling en Norteamérica es nada menos que fenomenal. Aunque las estimaciones varían, se cree comúnmente que un total de unos 100 individuos fueron liberados en Central Park, en la ciudad de Nueva York, en 1890 y 1891. Toda la población norteamericana, que ahora supera los 200 millones y está distribuida por la mayor parte del continente, procede de estas pocas aves. Podría decirse que se trata de la introducción aviar de mayor éxito en este continente. Aunque la European Starling se asocia con mayor frecuencia a las zonas perturbadas creadas por el hombre, ha tenido un impacto significativo en nuestra avifauna autóctona. En particular, ofrece una intensa competencia por las cavidades de anidación y ha tenido un efecto perjudicial sobre muchas especies autóctonas que anidan en cavidades.",
+  "taxonomy": {},
+  "wikipedia_summary": "El estornino pinto, también conocido como estornino europeo o estornino común, es una especie de ave paseriforme de la familia Sturnidae nativa del Paleártico. Mide unos 20 cm de largo y tiene un plumaje de color negro iridiscente, con un brillo púrpura o verde, salpicado de blanco, sobre todo en el invierno. Las patas son rojizas, y el pico es negro en el invierno y amarillo en el verano. A diferencia de los adultos, las aves juveniles tienen un plumaje marrón. Es un ave ruidosa, sobre todo en perchas comunitarias y otras situaciones gregarias, y tiene un canto variado, pero poco musical. Tiene la capacidad de imitar los sonidos de su entorno e incluso aprenderlos. Su talento para la imitación vocal ha sido notado en obras literarias como el Mabinogion y las obras de Plinio el Viejo y William Shakespeare.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Sturnus_vulgaris",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9809229,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9809229&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22710886"
+}

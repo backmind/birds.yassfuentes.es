@@ -1,0 +1,15 @@
+{
+  "description": "Enorme e inconfundible ave señorial de las llanuras abiertas desarboladas y las estepas naturales que ocupa mucho también zonas de agricultura extensiva. Suele huir andando, a veces a buena velocidad antes que levantar el vuelo si se las molesta . El vuelo es pesado y recuerda al de los gansos. Muy gregaria, sobre todo en invierno. Los machos son considerablemente mayores que las hembras y los sexos no suelen mezclarse fuera de la época de celo. Realiza espectaculares “ruedas” en los leks (áreas de exhibición) cuando los machos orientan las plumas de las alas hacia la parte delantera del cuerpo, volviendolas blancas, llegando tapar la cabeza con el plumaje.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La avutarda común es una especie de ave otidiforme de la familia Otidae, el único miembro del género Otis, que da nombre a la familia. Se distribuye por Europa y a través de Asia hasta China, además del norte de África. La mayoría de las poblaciones europeas son sedentarias, pero la mayoría de las asiáticas migran al sur de Asia para pasar el invierno. Existen pocos datos sobre la duración media de vida en libertad, pero se estima en 10-15 años. Posee un gran porte y tiende a correr antes que a volar cuando es molestada. Es gregaria todo el año, pero sobre todo en invierno.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Otis_tarda",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2474921,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474921&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "EN",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22691900"
+}

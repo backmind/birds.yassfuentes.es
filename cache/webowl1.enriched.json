@@ -1,0 +1,11 @@
+{
+  "prose": "La Lechuza Común Occidental (Tyto alba) es una de las rapaces nocturnas más extraordinarias y ampliamente distribuidas del planeta, habitando en casi todos los continentes con excepción de la Antártida y las zonas desérticas o polares. Al caer la noche, esta criatura de vuelo silencioso emerge de sus refugios diurnos —a menudo campanarios, graneros o grietas en viejos edificios— para patrullar campos abiertos y praderas. Lo que hace verdaderamente notable a la lechuza común es su asombrosa adaptación para la caza en la penumbra. Su disco facial, con una silueta perfecta en forma de corazón, actúa como una antena parabólica natural, canalizando el más mínimo sonido de un roedor directamente hacia sus oídos asimétricos, lo que le permite localizar a sus presas en la más absoluta oscuridad sin necesidad de verlas.\n\nMás allá de su mística apariencia, que bajo la luz de los faros nocturnos se revela de un blanco fantasmal, esta rapaz desempeña un papel ecológico crucial como controladora natural de plagas, consumiendo miles de roedores al año. A diferencia de otros búhos, su repertorio vocal no consiste en un ulular melodioso, sino en un chillido áspero y penetrante que resuena en la noche como un eco del folclore más antiguo. Sus plumas, de una suavidad aterciopelada y bordes desflecados, amortiguan el viento de tal manera que su aproximación es completamente inaudible para sus presas. Es un testimonio viviente de la evolución, una aliada silenciosa de los campos agrícolas que sigue vigilando la penumbra con una precisión inigualable.",
+  "identification": [
+    "Disco facial blanco y muy marcado con una característica forma de corazón.",
+    "Plumaje pálido, de color blanco puro en las partes inferiores y un tono anaranjado con manchas grises en el dorso.",
+    "Vuelo extremadamente silencioso y de aspecto fantasmal, viéndose muy blanca cuando es iluminada por faros en la noche.",
+    "Vocalización consistente en un chillido áspero, agudo y penetrante, muy diferente al ulular de otros búhos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-31T06:20:48Z"
+}

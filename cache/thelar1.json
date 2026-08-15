@@ -1,0 +1,15 @@
+{
+  "description": "Muy parecida a Crested Lark, con la que a menudo coincide. La mejor manera de distinguirlas es por la forma del pico, que es más corto y grueso, con la mandíbula inferior convexa. La cresta es también más corta y más en forma de abanico; el obispillo tiene más contraste y tiene un color rojizo. Las rayas en el pecho son más gruesas y con más contraste que en Crested Lark. Se encuentra en áreas pedregosas y arenosas con arbustos dispersos en península ibérica, África del Norte y África Oriental. Tiende a posarse más en los arbustos que la Crested Lark.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La cogujada montesina es una especie de ave de la familia Alaudidae autóctona del norte de África y la península ibérica. Habita en espacios abiertos, como praderas y matorrales en zonas áridas. No está amenazada a nivel global y su población se estima entre 2.900.000 y 4.000.000 ejemplares.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Galerida_theklae",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9330514,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9330514&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22717387"
+}

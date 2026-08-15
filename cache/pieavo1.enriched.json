@@ -1,0 +1,11 @@
+{
+  "prose": "En los limos de los humedales costeros y las lagunas salobres de Eurasia y África, emerge una silueta de singular elegancia. La Avoceta Común (Recurvirostra avosetta) es un ave playera inconfundible, reconocible al instante por su plumaje de un contraste blanco y negro absoluto y sus largas patas de un tono gris azulado. Este caradriforme destaca por su comportamiento de alimentación sumamente especializado: vadea las aguas someras barriendo el fango de lado a lado con un movimiento rítmico y lateral de su pico. Este diseño evolutivo, fino y curvado hacia arriba, le permite capturar pequeños invertebrados acuáticos suspendidos en el agua o enterrados en el lodo, sin necesidad de verlos directamente, confiando en la extraordinaria sensibilidad táctil de su herramienta de caza.\n\nLa delicadeza de su aspecto contrasta con la firmeza de su carácter durante la época de reproducción. La avoceta común suele criar en pequeñas colonias donde los adultos se vuelven extremadamente ruidosos y territoriales, defendiendo con vehemencia sus nidos frente a cualquier intruso. Un detalle fascinante de su anatomía es que la curvatura del pico es más pronunciada en las hembras que en los machos, una sutil diferencia que ayuda a distinguir los sexos en el campo. Al terminar la temporada de cría, su comportamiento social se intensifica, llegando a agruparse en espectaculares bandos de centenares de individuos que se desplazan juntos por los estuarios, desempeñando un papel ecológico crucial como reguladores de las poblaciones de microinvertebrados en estos frágiles ecosistemas húmedos.",
+  "identification": [
+    "Pico largo, fino y notablemente curvado hacia arriba, con una curvatura más marcada en las hembras.",
+    "Plumaje de un contraste nítido en blanco y negro, con un patrón característico en el dorso y la cabeza.",
+    "Largas patas de un color gris azulado, adaptadas para vadear en aguas someras.",
+    "Método de alimentación singular, barriendo el agua o el fango de lado a lado con el pico."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-10T06:25:42Z"
+}

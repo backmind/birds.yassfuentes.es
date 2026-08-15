@@ -1,0 +1,11 @@
+{
+  "prose": "El Bisbita Arbóreo (Anthus trivialis) es un viajero incansable que conecta los bosques abiertos y brezales del centro y norte de Europa con las regiones de África donde pasa el invierno. A diferencia de otros miembros de su familia que prefieren espacios estrictamente abiertos, esta especie busca la verticalidad de los árboles dispersos y los bordes forestales. Su comportamiento más emblemático ocurre durante la exhibición nupcial: el macho asciende con un vuelo decidido para luego descender en una elegante parábola, con las alas y la cola desplegadas, emitiendo un canto vibrante que culmina de manera característica al posarse en la rama de un árbol o un arbusto. Es esta estrecha relación con los elementos leñosos, tanto para cantar como para vigilar su territorio, lo que define su carácter y le otorga su nombre.\n\nAunque su plumaje de tonos pardos y oliváceos pueda parecer modesto a simple vista, esconde adaptaciones fascinantes a su estilo de vida dual. Posee una uña posterior notablemente más corta y curvada que la de sus parientes más terrestres, una especialización que le permite asirse con firmeza a las ramas tras sus vuelos. En el suelo, se desplaza con agilidad buscando pequeños invertebrados, desempeñando un papel ecológico fundamental como controlador de insectos en los ecosistemas que habita. Su identificación requiere una observación minuciosa de la robustez de su pico y la intensidad de las estrías en su pecho, recordándonos que la biodiversidad a menudo se manifiesta en matices sutiles que solo se revelan ante una mirada paciente y curiosa.",
+  "identification": [
+    "Pecho con fuertes estrías marrón negruzco sobre un fondo beige pálido.",
+    "Uña del dedo posterior corta y curvada, adaptada para posarse en ramas.",
+    "Vuelo nupcial en forma de paracaídas que finaliza habitualmente en un árbol.",
+    "Pico proporcionalmente más pesado y robusto que el de otros bisbitas similares."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-14T05:49:45Z"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "En las batidas costas del sur de África, donde el océano Atlántico y el Índico se encuentran con la tierra, habita un ave de singular elegancia y fuerte carácter: el Ostrero Negro Africano (Haematopus moquini). Este robusto limícola es un habitante exclusivo de las costas de Namibia y Sudáfrica, donde frecuenta tanto las playas de arena como los acantilados rocosos azotados por el oleaje. Lo que hace verdaderamente notable al ostrero negro africano es su silueta inconfundible recortada contra la espuma del mar: un plumaje de un negro azabache brillante que contrasta de manera espectacular con sus patas de un tono rojo salmón y un pico largo, robusto y de un rojo encendido, diseñado con la precisión de un cincel. Es un especialista de la zona intermareal, moviéndose con agilidad entre las rocas húmedas mientras busca incansablemente su alimento.\n\nLa vida de este ostrero está íntimamente ligada al ritmo de las mareas. Con una destreza asombrosa, utiliza su fuerte pico para desprender lapas y abrir mejillones con una técnica depurada, desempeñando un papel ecológico crucial como depredador que regula las poblaciones de invertebrados en los ecosistemas costeros. A menudo, su presencia se anuncia mucho antes de ser visto, gracias a sus penetrantes y rítmicos gritos de alarma, un agudo \"pleek\" o \"peeka-peeka\" que resuena por encima del rugido de las olas. A diferencia del ostrero euroasiático, que presenta el vientre y la garganta blancos, el africano mantiene su oscuridad total, una adaptación que le permite mimetizarse entre las rocas oscuras de la costa donde nidifica directamente sobre el suelo.",
+  "identification": [
+    "Plumaje completamente negro brillante en los adultos, sin las partes blancas que caracterizan a otras especies de ostreros.",
+    "Pico largo, recto y de color rojo encendido, acompañado de ojos y anillos oculares rojizos.",
+    "Patas de un llamativo tono rojo salmón en los adultos; los juveniles muestran patas grisáceas y un pico más apagado de tono rosa parduzco.",
+    "Vocalizaciones de alarma agudas y rítmicas, que suenan como un penetrante 'pleek' o 'peeka-peeka'."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-01T06:34:51Z"
+}

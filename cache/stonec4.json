@@ -1,0 +1,15 @@
+{
+  "description": "Es un ave bastante común, de pequeño tamaño y propia de campos abiertos, especialmente páramos con tojo, páramos y pastizales con arbustos dispersos bajos. Se posa sobre arbustos y vallas, lanzándose al suelo para alimentarse, antes de volar de regreso a una percha. El macho inconfundible por su cabeza negruzca resaltada por un parche blanco grande en los lados del cuello y pecho naranja. La hembra e de color pardusco en general con ceja más pálida (solo detrás del ojo, a diferencia de la Whinchat); el pecho anaranjado apagado y muestra un dorso más pálido en vuelo, contrastando con una cola sólidamente negruzca.",
+  "description_source": "ebird",
+  "bow_intro": "Nota taxonómica: Dividido. Esta cuenta se publicó originalmente bajo una sola especie en HBW Alive, pero en Birds of the World abarca varias especies. Presentamos aquí ese contenido original, con el objetivo de desarrollar en el futuro una cuenta de especies más refinada para este taxón. Por favor, considere contribuir con su experiencia para actualizar esta cuenta.",
+  "taxonomy": {},
+  "wikipedia_summary": "La tarabilla común es una especie de ave paseriforme de la familia Muscicapidae propia de Europa y las regiones mediterráneas de África y Asia. Este ha sido un taxón controvertido que en el pasado se consideraba conespecífico de Saxicola torquatus.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Saxicola_rubicola",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 4408759,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=4408759&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}

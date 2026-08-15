@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra de los bosques de coníferas y masas forestales mixtas de Europa, un pequeño acróbata desafía la gravedad entre las ramas. Se trata del Herrerillo Capuchino (Lophophanes cristatus), un ave paseriforme de la familia Paridae que destaca de inmediato por su silueta inconfundible. Es el único pequeño pájaro de su grupo en el continente europeo que exhibe una cresta prominente y eréctil, un penacho de plumas ajedrezadas en blanco y negro que corona su cabeza como una pequeña tiara. Con un comportamiento sumamente activo, el herrerillo capuchino se desplaza con agilidad a media altura de los árboles, inspeccionando minuciosamente la corteza y las acículas de los pinos en busca de alimento, descendiendo ocasionalmente al suelo con saltos rápidos y precisos.\n\nDurante los meses de otoño e invierno, cuando el frío arrecia, este vivaz habitante del bosque adopta una estrategia de supervivencia fascinante: se une a bandos mixtos de otros herrerillos y carboneros, compartiendo la búsqueda de alimento y multiplicando los ojos vigilantes ante posibles depredadores. Su dieta es eminentemente insectívora durante la época de reproducción, actuando como un eficaz controlador de plagas de insectos, mientras que en invierno se adapta al consumo de piñones y otras semillas. Para establecer su hogar, el herrerillo capuchino depende estrechamente de la salud del bosque, excavando a menudo su propio nido en troncos de madera blanda o en descomposición, lo que lo convierte en un bioindicador clave de la madurez de los ecosistemas forestales.",
+  "identification": [
+    "Cresta prominente y eréctil de plumas ajedrezadas en blanco y negro, única entre los pequeños paseriformes de Europa.",
+    "Diseño facial muy característico, con mejillas pálidas delimitadas por una marcada línea negra en forma de herradura.",
+    "Hábito de alimentarse principalmente a media altura en coníferas, inspeccionando acículas y piñas, y ocasionalmente en el suelo.",
+    "Vocalización distintiva que incluye un trino vibrante y cantarín, un ronroneo rápido muy reconocible en el bosque."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-20T05:41:23Z"
+}

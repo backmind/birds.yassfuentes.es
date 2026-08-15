@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común pero local en cañaverales extensos. No es fácil de observar, pero a veces se alimenta en los bordes de las manchas de vegetación, a menudo muy bajo o en sobre el suelo fangoso adyacente. Su vuelo es normalmente bajo sobre juncos con aleteos zumbantes. A menudo va en pequeños grupos. Ninguna otra especie tiene un aspecto similar, dado el hábitat y el comportamiento. Destaca el plumaje brillante marrón canela, cola larga y pico amarillento; el macho tiene la cabeza gris azulada y amplios bigotes negros.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El bigotudo es una pequeña ave paseriforme singular, que pertenece a una familia propia, Panuridae. Anteriormente había sido ubicado en las familias Paridae, Aegithalidae y Paradoxornithidae por algunas similitudes con ellas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Panurus_biarmicus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2493367,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493367&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716776"
+}

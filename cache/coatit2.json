@@ -1,0 +1,15 @@
+{
+  "description": "De bastante común a común en bosques de coníferas y bosques mixtos, parques, jardines y es frecuente en los comederos de pájaros. A menudo se une a bandos mixtos en otoño e invierno, moviéndose rápidamente a través de la vegetación. Es característico la combinación de un gran babero negro con franjas alares blancas y una amplia marca blanca en la nuca; se puede confundir con Marsh Tit y Willow Tit, un poco más grandes y más robustos, que tienen parches blancos grandes en las mejillas, plumaje más apagado en general y diferentes vocalizaciones.",
+  "description_source": "ebird",
+  "bow_intro": "La subespecie hibernicus se parece a la britannicus , pero las partes superiores son de color oliva verdoso apagado (menos beige), las mejillas, las coberteras auriculares, la mancha de la nuca y las partes inferiores son de color amarillo pálido (más blanco cuando está desgastada) excepto los flancos y las coberteras inferiores de la cola, de color beige cálido a canela, la mancha del babero de la hembra es más pequeña. La subespecie britannicus es como la nominal, pero en plumaje fresco, las mejillas, las coberteras auriculares y el parche de la nuca son de color blanco cremoso, las partes superiores son de color oliva buff grisáceo y menos azulado, los bordes de las rémiges y las rectrices oliva (y la punta blanca sólo en la terciaria superior), las dorsal ligeramente menos extenso, flancos hasta la cloaca y coberteras infracaudales de color entre rufo pálido y canela (más pálido cuando está desgastado), variable, en Escocia las partes superiores son gris oliva y los flancos hasta las coberteras infracaudales, pardo (\" pinicolus \").",
+  "taxonomy": {},
+  "wikipedia_summary": "El carbonero garrapinos es una especie de ave paseriforme de la familia Paridae propia de Eurasia y el norte de África. Es bastante común y suele ser sedentario, la mayor parte de sus poblaciones no migran.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Periparus_ater",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2487871,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2487871&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22735965"
+}

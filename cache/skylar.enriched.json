@@ -1,0 +1,11 @@
+{
+  "prose": "En los vastos horizontes de los campos abiertos, pastizales y tierras de cultivo, habita un ave cuya presencia se anuncia antes con el oído que con la vista. La Alondra Común (Alauda arvensis) es una maestra del camuflaje en el suelo, donde su plumaje pardo y rayado la confunde perfectamente con la tierra seca. Sin embargo, su verdadero prodigio se revela cuando asciende al firmamento. Con un vuelo enérgico y vertical, se eleva a alturas asombrosas hasta convertirse en un punto casi invisible en el azul. Desde allí, derrama un canto ininterrumpido, un torrente de gorjeos y trinos que parece sostenerla en el aire, antes de iniciar un descenso pausado, constante y de una elegancia sublime que ha cautivado a observadores de la naturaleza durante generaciones.\n\nEsta humilde ave de campiña posee una historia de dispersión y magnetismo cultural sumamente singular. Su canto inspiró al célebre poeta Percy Bysshe Shelley en su oda \"A una alondra\", consolidándola como un símbolo de lirismo natural. Aunque es un habitante nativo de Eurasia, la acción humana propició su introducción en lugares tan distantes como la isla de Vancouver o el archipiélago de Hawái, donde se ha establecido con éxito. Asimismo, poblaciones silvestres del noreste de Asia viajan de forma natural como migrantes hasta el oeste de Alaska, demostrando una asombrosa capacidad de navegación. En sus ecosistemas, la alondra común desempeña un papel clave como consumidora de semillas e invertebrados, manteniendo el equilibrio biológico de los terrenos abiertos.",
+  "identification": [
+    "Canto prolongado y complejo emitido durante un vuelo nupcial a gran altura, donde el ave a menudo es casi invisible.",
+    "Plumaje dorsal de tonos marrones y pardo rayado, con el vientre blanco y una cresta tupida y eréctil muy distintiva en la cabeza.",
+    "En vuelo, destaca un borde posterior blanco y estrecho en las alas, así como los lados externos de la cola de color blanco.",
+    "Silueta más corpulenta que la de un bisbita y, a diferencia de este, no suele balancear la cola al caminar por el suelo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-16T05:12:16Z"
+}

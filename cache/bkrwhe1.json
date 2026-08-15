@@ -1,0 +1,15 @@
+{
+  "description": "El anteojitos anómalo es una especie de ave paseriforme en la familia Zosteropidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El anteojitos anómalo es una especie de ave paseriforme en la familia Zosteropidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Zosterops_anomalus",
+  "wikipedia_language": "es",
+  "fallback_text": "A small green-backed songbird with a broad black eye patch, a yellow throat and base to undertail, and a white belly. Pairs and small groups can be found in the understory and canopy of forest, forest edge, and scrubby areas in both lowlands and foothills. Restricted to South Sulawesi. Separated from Warbling and Lemon-bellied White-eyes by the lack of an eye patch and the absence of a white eye-ring. Sings a short, clipped twittering song: “chewerchiwitchiwitchiwitwiteroo.” Also gives trilling calls and single “chew” notes.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489348,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489348&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22714110"
+}

@@ -1,0 +1,12 @@
+{
+  "prose": "La Tórtola Europea (Streptopelia turtur) es una de las viajeras más sutiles y elegantes de la avifauna estival. Cada primavera, tras cruzar el desierto del Sáhara desde sus cuarteles de invernada en el África subsahariana, llega a los paisajes agrícolas, linderos boscosos, dehesas y brezales de Europa, el norte de África y Asia Central. De carácter marcadamente tímido y esquivo, suele buscar alimento en el suelo, donde camina con paso menudo recolectando semillas, pequeños frutos y, ocasionalmente, algunos artrópodos. Lo que hace verdaderamente notable a esta especie es su silueta estilizada y su plumaje de una belleza sobria pero deslumbrante: un intrincado mosaico de plumas con centros oscuros y bordes de un cálido tono canela o herrumbre en el dorso, que contrasta con su pecho rosado y un delicado collar de rayas blancas y negras en el lateral del cuello.\n\nAntaño, el característico y rítmico arrullo de la tórtola europea —un ronroneo vibrante y melancólico que evoca los días más cálidos del estío— era la banda sonora indiscutible de la campiña. Sin embargo, en las últimas décadas, este sonido se ha vuelto alarmantemente escaso, especialmente en Europa occidental, debido a la pérdida de hábitat y la intensificación agrícola. Como migradora de larga distancia, posee unas alas notablemente largas y puntiagudas que le permiten realizar travesías asombrosas, diferenciándose de otras palomas más sedentarias por su vuelo rápido y directo. Su papel ecológico como dispersora de semillas y como eslabón clave en las cadenas tróficas de los ecosistemas mediterráneos y templados subraya la urgencia de proteger a esta joya alada, cuyo declive amenaza con silenciar uno de los susurros más antiguos de la naturaleza.",
+  "identification": [
+    "Dorso con un llamativo patrón escamado de color negro y canela brillante.",
+    "Un distintivo parche de rayas blancas y negras a cada lado del cuello en los adultos.",
+    "Cola redondeada y oscura con una conspicua banda terminal de color blanco, muy visible en vuelo.",
+    "Canto característico consistente en un arrullo ronco, rítmico y repetitivo: \"tur tur... tur tur-tur...\".",
+    "Silueta más pequeña, estilizada y oscura que la de la común tórtola turca."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-20T06:23:03Z"
+}

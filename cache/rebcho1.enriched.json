@@ -1,0 +1,12 @@
+{
+  "prose": "Observar a la Chova Piquirroja (Pyrrhocorax pyrrhocorax) es asistir a un despliegue de maestría aeronáutica. Este córvido, de plumaje negro azabache con reflejos metálicos, habita en los límites del mundo: desde los vertiginosos acantilados costeros coronados por praderas hasta las cumbres más remotas del sur de Europa y las cordilleras del Himalaya. Su vuelo es su firma más distintiva; se lanza al vacío con una agilidad asombrosa, realizando giros y picados bruscos que desafían las corrientes térmicas. En tierra, la chova se desplaza en parejas o pequeños grupos, prospectando con paciencia las praderas herbáceas y los campos adyacentes en busca de sustento. Es una presencia constante en paisajes donde la roca se encuentra con el cielo, destacando por su elegancia y su capacidad para prosperar en entornos donde el viento es el dueño absoluto.\n\nLo que realmente cautiva al observador es el contraste cromático de su anatomía. El pico, largo y curvado, luce un rojo coral intenso que se replica en sus patas, una característica que la distingue de otros miembros de su familia. Sin embargo, la naturaleza guarda un secreto en los ejemplares más jóvenes, quienes portan un pico más corto y de un tono amarillento, lo que a menudo puede llevar a confusiones con otras especies de montaña. En el aire, su silueta es inconfundible; a diferencia de la silueta más plana de la grajilla, la chova despliega unas alas anchas con las plumas primarias bien separadas, semejando dedos que acarician el aire. Esta morfología no es casual, sino una adaptación evolutiva para maniobrar con precisión quirúrgica en los turbulentos vientos de montaña. Como especialista de las alturas, desempeña un papel vital en el equilibrio de estos ecosistemas, manteniendo la salud de los pastizales donde busca pequeños invertebrados.",
+  "identification": [
+    "Pico largo, fino y curvado de color rojo brillante en los adultos.",
+    "Patas de color rojo intenso que destacan sobre el plumaje negro.",
+    "Alas anchas con las plumas primarias muy separadas, formando \"dedos\" visibles en vuelo.",
+    "Comportamiento de vuelo altamente acrobático con giros y picados frecuentes.",
+    "Los ejemplares juveniles poseen un pico más corto y de color amarillento."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-15T05:56:29Z"
+}

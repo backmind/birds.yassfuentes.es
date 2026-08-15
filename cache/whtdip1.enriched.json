@@ -1,0 +1,11 @@
+{
+  "prose": "En el murmullo constante de los ríos de montaña y arroyos de corriente rápida de Eurasia y el noroeste de África, habita un ave verdaderamente singular: el Mirlo Acuático Europeo (Cinclus cinclus). Este pequeño paseriforme, de silueta compacta y rechoncha, desafía las leyes habituales de su orden al estar íntimamente ligado al agua corriente y limpia. Es un espectáculo fascinante observarlo posado sobre una roca húmeda, balanceando su cuerpo de manera rítmica y persistente antes de lanzarse sin dudarlo a las frías aguas. Con un vuelo potente, directo y a ras de la superficie, sus alas baten con un zumbido característico, trasladándose de un tramo a otro del río donde suele buscar alimento de forma solitaria y discreta.\n\nLo que hace extraordinario al mirlo acuático europeo es su asombrosa capacidad para bucear y caminar bajo el agua, desafiando la corriente para capturar larvas de insectos y pequeños invertebrados en el lecho del río. Para lograrlo, cuenta con adaptaciones formidables, como un plumaje extremadamente denso e impermeable y la capacidad de usar sus alas para \"volar\" literalmente sumergido. Debido a su estricta dependencia de cursos de agua cristalinos y bien oxigenados, este incansable buscador de las corrientes actúa como un bioindicador crucial: su presencia es el testimonio vivo de la salud y la pureza de un ecosistema fluvial, un guardián alado de las aguas más puras de las tierras altas.",
+  "identification": [
+    "Silueta compacta y rechoncha con un llamativo babero blanco brillante que contrasta fuertemente con el resto del plumaje oscuro.",
+    "Hábito característico de balancearse de arriba abajo de forma persistente cuando está posado sobre las rocas del río.",
+    "Vuelo rápido, directo y muy bajo sobre la superficie del agua, acompañado de un batir de alas ruidoso que produce un zumbido.",
+    "Diferenciación geográfica en el vientre: de tono marrón rojizo en las poblaciones de las islas británicas y negruzco en las del continente europeo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-23T05:40:40Z"
+}

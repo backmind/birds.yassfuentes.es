@@ -1,0 +1,11 @@
+{
+  "prose": "La Cigüeña Blanca (Ciconia ciconia) es una de las figuras más emblemáticas de los paisajes abiertos y humedales. Con su plumaje de un blanco inmaculado que contrasta con el negro profundo de sus plumas de vuelo, esta ave zancuda destaca por su elegancia y su imponente envergadura, que puede alcanzar los 215 centímetros. Es una migrante estival que recorre distancias asombrosas, desplazándose en grandes bandos durante el día para aprovechar las corrientes térmicas que le permiten planear a gran altura. En la época de cría, la Cigüeña Blanca muestra una notable adaptabilidad, construyendo nidos voluminosos y persistentes no solo en árboles, sino también en estructuras humanas como torres y tejados. Estos nidos, compuestos por una intrincada acumulación de ramas, se convierten con los años en estructuras masivas que marcan el horizonte de los campos de cultivo y las llanuras donde busca su alimento.\n\nMás allá de su estampa familiar, la Cigüeña Blanca desempeña un papel ecológico fundamental como depredadora en diversos ecosistemas. Su dieta es variada, lo que le permite prosperar tanto en zonas húmedas como en terrenos agrícolas. Un dato fascinante es la distribución de su población mundial; se estima que aproximadamente una cuarta parte de todos los ejemplares se concentran en Polonia, lo que subraya la importancia de ciertas regiones para su supervivencia. Aunque muchos individuos invernan en África, un número creciente elige permanecer en la península ibérica durante los meses más fríos. Al observar su vuelo, se distingue fácilmente por llevar el cuello y las patas completamente extendidos, una silueta inconfundible que ha inspirado mitos y leyendas a lo largo de los siglos. Su presencia es un recordatorio de los ciclos estacionales y de la interconexión entre los continentes que estas aves unen cada año con sus incansables aleteos.",
+  "identification": [
+    "Plumaje mayoritariamente blanco con las plumas de vuelo de las alas de color negro.",
+    "Pico muy largo y patas de un color rojo intenso en los ejemplares adultos.",
+    "Vuelo característico con el cuello y las patas totalmente extendidos.",
+    "Nidos de gran tamaño construidos con ramas en lugares elevados como edificios o árboles."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-01T05:43:18Z"
+}

@@ -1,0 +1,12 @@
+{
+  "prose": "En el corazón de los cañaverales más extensos y densos de Eurasia y África, habita un fantasma de los humedales: el Avetoro Común (Botaurus stellaris). Esta garza robusta es una de las aves más esquivas y difíciles de observar del mundo natural, debido a su asombroso comportamiento sigiloso y a un plumaje críptico de tonos pardos, rojizos y listados oscuros que se mimetiza a la perfección con la vegetación palustre. El avetoro común pasa la mayor parte de su vida a ras de suelo, oculto entre las cañas, donde se desplaza con una lentitud casi hipnótica. Solo los observadores más pacientes logran vislumbrar su silueta en un vuelo solitario, recortado contra el cielo durante las luces crepusculares del amanecer o del atardecer, antes de que vuelva a desvanecerse en su impenetrable fortaleza vegetal.\n\nLo que le falta en visibilidad, este formidable cazador lo compensa con una presencia sonora sobrecogedora. Durante la época de reproducción, el avetoro común revela su presencia mediante un canto extraordinario: un reclamo grave y resonante que recuerda al mugido de un toro y que puede escucharse a kilómetros de distancia. Este sonido, producido gracias a la adaptación de su esófago que actúa como caja de resonancia, es una herramienta vital para marcar territorio en la densidad del cañaveral. Como depredador paciente, su papel ecológico es crucial para mantener el equilibrio en las comunidades acuáticas, alimentándose de peces, anfibios e invertebrados. Su mera existencia es un indicador de la salud y la extensión de estos frágiles ecosistemas húmedos.",
+  "identification": [
+    "Plumaje críptico de tonos pardos claros con listados y veteados oscuros, ideal para camuflarse entre las cañas.",
+    "Cabeza y cuello de color marrón rojizo, coronados por un capirote negruzco muy distintivo.",
+    "Reclamo nupcial sumamente grave y resonante, similar al mugido de un toro, audible a gran distancia.",
+    "Silueta robusta en vuelo, observado casi siempre de forma individual a primera hora de la mañana o al atardecer.",
+    "Hábitos estrictamente terrestres en el cañaveral, a diferencia de otras garzas similares que frecuentan las copas de los árboles."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-06-11T06:51:06Z"
+}

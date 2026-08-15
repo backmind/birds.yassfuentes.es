@@ -35,6 +35,1113 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "subpar1",
+      "comName": "Aratinga Pechisulfúrea",
+      "sciName": "Aratinga maculata",
+      "date": "2026-04-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181382561/900",
+      "photographer": "Alexander Lees",
+      "attribution": "Alexander Lees / Macaulay Library"
+    },
+    {
+      "speciesCode": "litbit1",
+      "comName": "Avetorillo Común",
+      "sciName": "Botaurus minutus",
+      "date": "2026-04-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
+      "photographer": "José Frade",
+      "attribution": "José Frade / Macaulay Library"
+    },
+    {
+      "speciesCode": "brambl",
+      "comName": "Pinzón Real",
+      "sciName": "Fringilla montifringilla",
+      "date": "2026-04-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257644141/900",
+      "photographer": "David Irving",
+      "attribution": "David Irving / Macaulay Library"
+    },
+    {
+      "speciesCode": "eursta",
+      "comName": "Estornino Pinto",
+      "sciName": "Sturnus vulgaris",
+      "date": "2026-04-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303928891/900",
+      "photographer": "Matt Davis",
+      "attribution": "Matt Davis / Macaulay Library"
+    },
+    {
+      "speciesCode": "misthr1",
+      "comName": "Zorzal Charlo",
+      "sciName": "Turdus viscivorus",
+      "date": "2026-04-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/618569590/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "whinch1",
+      "comName": "Tarabilla Norteña",
+      "sciName": "Saxicola rubetra",
+      "date": "2026-04-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46413781/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "ibechi2",
+      "comName": "Mosquitero Ibérico",
+      "sciName": "Phylloscopus ibericus",
+      "date": "2026-04-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256730921/900",
+      "photographer": "Manuel Segura Herrero",
+      "attribution": "Manuel Segura Herrero / Macaulay Library"
+    },
+    {
+      "speciesCode": "meapip1",
+      "comName": "Bisbita Pratense",
+      "sciName": "Anthus pratensis",
+      "date": "2026-04-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257684731/900",
+      "photographer": "Anne Carrington-Cotton",
+      "attribution": "Anne Carrington-Cotton / Macaulay Library"
+    },
+    {
+      "speciesCode": "afbtit2",
+      "comName": "Herrerillo Canario",
+      "sciName": "Cyanistes teneriffae",
+      "date": "2026-04-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/214988571/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "bearee1",
+      "comName": "Bigotudo",
+      "sciName": "Panurus biarmicus",
+      "date": "2026-04-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
+      "photographer": "Josep del Hoyo",
+      "attribution": "Josep del Hoyo / Macaulay Library"
+    },
+    {
+      "speciesCode": "woosan",
+      "comName": "Andarríos Bastardo",
+      "sciName": "Tringa glareola",
+      "date": "2026-04-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253697141/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "blakit1",
+      "comName": "Milano Negro",
+      "sciName": "Milvus migrans",
+      "date": "2026-04-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45127481/900",
+      "photographer": "PMDE ESTEVES",
+      "attribution": "PMDE ESTEVES / Macaulay Library"
+    },
+    {
+      "speciesCode": "kenplo1",
+      "comName": "Chorlitejo Patinegro",
+      "sciName": "Anarhynchus alexandrinus",
+      "date": "2026-04-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/351106011/900",
+      "photographer": "Mário Estevens",
+      "attribution": "Mário Estevens / Macaulay Library"
+    },
+    {
+      "speciesCode": "euptit1",
+      "comName": "Pájaro Moscón Europeo",
+      "sciName": "Remiz pendulinus",
+      "date": "2026-04-28",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45223631/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurgre1",
+      "comName": "Verderón Común",
+      "sciName": "Chloris chloris",
+      "date": "2026-04-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/621602853/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "coatit2",
+      "comName": "Carbonero Garrapinos",
+      "sciName": "Periparus ater",
+      "date": "2026-04-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
+      "photographer": "Adrien Mauss",
+      "attribution": "Adrien Mauss / Macaulay Library"
+    },
+    {
+      "speciesCode": "whisto1",
+      "comName": "Cigüeña Blanca",
+      "sciName": "Ciconia ciconia",
+      "date": "2026-05-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254730691/900",
+      "photographer": "Kuzey Cem Kulaçoğlu",
+      "attribution": "Kuzey Cem Kulaçoğlu / Macaulay Library"
+    },
+    {
+      "speciesCode": "comred1",
+      "comName": "Archibebe Común",
+      "sciName": "Tringa totanus",
+      "date": "2026-05-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168487271/900",
+      "photographer": "Mouser Williams",
+      "attribution": "Mouser Williams / Macaulay Library"
+    },
+    {
+      "speciesCode": "grnwoo3",
+      "comName": "Pito Ibérico",
+      "sciName": "Picus sharpei",
+      "date": "2026-05-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/171648691/900",
+      "photographer": "Jorge García Mora",
+      "attribution": "Jorge García Mora / Macaulay Library"
+    },
+    {
+      "speciesCode": "compoc",
+      "comName": "Porrón Europeo",
+      "sciName": "Aythya ferina",
+      "date": "2026-05-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241987301/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "shteag1",
+      "comName": "Culebrera Europea",
+      "sciName": "Circaetus gallicus",
+      "date": "2026-05-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54251601/900",
+      "photographer": "Batmunkh Davaasuren",
+      "attribution": "Batmunkh Davaasuren / Macaulay Library"
+    },
+    {
+      "speciesCode": "euroys1",
+      "comName": "Ostrero Euroasiático",
+      "sciName": "Haematopus ostralegus",
+      "date": "2026-05-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168484841/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurbul",
+      "comName": "Camachuelo Común",
+      "sciName": "Pyrrhula pyrrhula",
+      "date": "2026-05-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257629601/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "firecr1",
+      "comName": "Reyezuelo Listado",
+      "sciName": "Regulus ignicapilla",
+      "date": "2026-05-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45281881/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "combuz1",
+      "comName": "Busardo Ratonero",
+      "sciName": "Buteo buteo",
+      "date": "2026-05-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46432381/900",
+      "photographer": "Omar alshaheen",
+      "attribution": "Omar alshaheen / Macaulay Library"
+    },
+    {
+      "speciesCode": "martit2",
+      "comName": "Carbonero Palustre",
+      "sciName": "Poecile palustris",
+      "date": "2026-05-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168811611/900",
+      "photographer": "Javier Robres",
+      "attribution": "Javier Robres / Macaulay Library"
+    },
+    {
+      "speciesCode": "ortbun1",
+      "comName": "Escribano Hortelano",
+      "sciName": "Emberiza hortulana",
+      "date": "2026-05-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169221351/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurwoo",
+      "comName": "Chocha Perdiz",
+      "sciName": "Scolopax rusticola",
+      "date": "2026-05-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55023941/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "blackc1",
+      "comName": "Curruca Capirotada",
+      "sciName": "Sylvia atricapilla",
+      "date": "2026-05-13",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "trepip",
+      "comName": "Bisbita Arbóreo",
+      "sciName": "Anthus trivialis",
+      "date": "2026-05-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46493931/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "rebcho1",
+      "comName": "Chova Piquirroja",
+      "sciName": "Pyrrhocorax pyrrhocorax",
+      "date": "2026-05-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54017551/900",
+      "photographer": "Ricardo Salgueiro",
+      "attribution": "Ricardo Salgueiro / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurgol",
+      "comName": "Jilguero Europeo",
+      "sciName": "Carduelis carduelis",
+      "date": "2026-05-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256707351/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurrob1",
+      "comName": "Petirrojo Europeo",
+      "sciName": "Erithacus rubecula",
+      "date": "2026-05-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44599871/900",
+      "photographer": "Ryan Schain",
+      "attribution": "Ryan Schain / Macaulay Library"
+    },
+    {
+      "speciesCode": "grefla3",
+      "comName": "Flamenco Común",
+      "sciName": "Phoenicopterus roseus",
+      "date": "2026-05-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54167691/900",
+      "photographer": "Melvin Jaison",
+      "attribution": "Melvin Jaison / Macaulay Library"
+    },
+    {
+      "speciesCode": "redkit1",
+      "comName": "Milano Real",
+      "sciName": "Milvus milvus",
+      "date": "2026-05-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254929681/900",
+      "photographer": "James Kennerley",
+      "attribution": "James Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "egyvul1",
+      "comName": "Alimoche Común",
+      "sciName": "Neophron percnopterus",
+      "date": "2026-05-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168727561/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "rudshe",
+      "comName": "Tarro Canelo",
+      "sciName": "Tadorna ferruginea",
+      "date": "2026-05-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241980221/900",
+      "photographer": "Pablo Barrena",
+      "attribution": "Pablo Barrena / Macaulay Library"
+    },
+    {
+      "speciesCode": "commoo3",
+      "comName": "Gallineta Común",
+      "sciName": "Gallinula chloropus",
+      "date": "2026-05-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/620374233/900",
+      "photographer": "Alexis Lours",
+      "attribution": "Alexis Lours / Macaulay Library"
+    },
+    {
+      "speciesCode": "whtdip1",
+      "comName": "Mirlo Acuático Europeo",
+      "sciName": "Cinclus cinclus",
+      "date": "2026-05-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300170991/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "darwar1",
+      "comName": "Curruca Rabilarga",
+      "sciName": "Curruca undata",
+      "date": "2026-05-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900",
+      "photographer": "Ben Lucking",
+      "attribution": "Ben Lucking / Macaulay Library"
+    },
+    {
+      "speciesCode": "wemhar1",
+      "comName": "Aguilucho Lagunero Occidental",
+      "sciName": "Circus aeruginosus",
+      "date": "2026-05-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
+      "photographer": "Jeffrey Wang",
+      "attribution": "Jeffrey Wang / Macaulay Library"
+    },
+    {
+      "speciesCode": "bkewhe1",
+      "comName": "Collalba Rubia Occidental",
+      "sciName": "Oenanthe hispanica",
+      "date": "2026-05-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/348217891/900",
+      "photographer": "Iker Fernández Martínez",
+      "attribution": "Iker Fernández Martínez / Macaulay Library"
+    },
+    {
+      "speciesCode": "hoopoe",
+      "comName": "Abubilla Común",
+      "sciName": "Upupa epops",
+      "date": "2026-05-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255121291/900",
+      "photographer": "Rhys Marsh",
+      "attribution": "Rhys Marsh / Macaulay Library"
+    },
+    {
+      "speciesCode": "blutit",
+      "comName": "Herrerillo Común",
+      "sciName": "Cyanistes caeruleus",
+      "date": "2026-05-28",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
+      "photographer": "Ferit Başbuğ",
+      "attribution": "Ferit Başbuğ / Macaulay Library"
+    },
+    {
+      "speciesCode": "eucdov",
+      "comName": "Tórtola Turca",
+      "sciName": "Streptopelia decaocto",
+      "date": "2026-05-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308119951/900",
+      "photographer": "Jim Merritt",
+      "attribution": "Jim Merritt / Macaulay Library"
+    },
+    {
+      "speciesCode": "shttre1",
+      "comName": "Agateador Europeo",
+      "sciName": "Certhia brachydactyla",
+      "date": "2026-05-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107768711/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "webowl1",
+      "comName": "Lechuza Común Occidental",
+      "sciName": "Tyto alba",
+      "date": "2026-05-31",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622231328/900",
+      "photographer": "Jon Lowes",
+      "attribution": "Jon Lowes / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurwig",
+      "comName": "Silbón Europeo",
+      "sciName": "Mareca penelope",
+      "date": "2026-06-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300137371/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "stbtre1",
+      "comName": "Trepamusgos Pechirrayado",
+      "sciName": "Thripadectes rufobrunneus",
+      "date": "2026-06-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/245219731/900",
+      "photographer": "Fernando Burgalin Sequeria",
+      "attribution": "Fernando Burgalin Sequeria / Macaulay Library"
+    },
+    {
+      "speciesCode": "thelar1",
+      "comName": "Cogujada Montesina",
+      "sciName": "Galerida theklae",
+      "date": "2026-06-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168820931/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "rorpar",
+      "comName": "Cotorra de Kramer",
+      "sciName": "Psittacula krameri",
+      "date": "2026-06-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622584055/900",
+      "photographer": "Albin Jacob",
+      "attribution": "Albin Jacob / Macaulay Library"
+    },
+    {
+      "speciesCode": "martea1",
+      "comName": "Cerceta Pardilla",
+      "sciName": "Marmaronetta angustirostris",
+      "date": "2026-06-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/77959511/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "eursco1",
+      "comName": "Autillo Europeo",
+      "sciName": "Otus scops",
+      "date": "2026-06-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55028931/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "lecthr",
+      "comName": "Cuitlacoche Pálido",
+      "sciName": "Toxostoma lecontei",
+      "date": "2026-06-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303824071/900",
+      "photographer": "Andrew Spencer",
+      "attribution": "Andrew Spencer / Macaulay Library"
+    },
+    {
+      "speciesCode": "callar1",
+      "comName": "Calandria Común",
+      "sciName": "Melanocorypha calandra",
+      "date": "2026-06-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54016831/900",
+      "photographer": "Asghar Mohammadi Nasrabadi",
+      "attribution": "Asghar Mohammadi Nasrabadi / Macaulay Library"
+    },
+    {
+      "speciesCode": "grywag",
+      "comName": "Lavandera Cascadeña",
+      "sciName": "Motacilla cinerea",
+      "date": "2026-06-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44950691/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "pieavo1",
+      "comName": "Avoceta Común",
+      "sciName": "Recurvirostra avosetta",
+      "date": "2026-06-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/373504371/900",
+      "photographer": "Volker Hesse",
+      "attribution": "Volker Hesse / Macaulay Library"
+    },
+    {
+      "speciesCode": "grebit1",
+      "comName": "Avetoro Común",
+      "sciName": "Botaurus stellaris",
+      "date": "2026-06-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282511/900",
+      "photographer": "shahin olakara",
+      "attribution": "shahin olakara / Macaulay Library"
+    },
+    {
+      "speciesCode": "garwar1",
+      "comName": "Curruca Mosquitera",
+      "sciName": "Sylvia borin",
+      "date": "2026-06-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256752121/900",
+      "photographer": "Luis Rodrigues",
+      "attribution": "Luis Rodrigues / Macaulay Library"
+    },
+    {
+      "speciesCode": "grnjay",
+      "comName": "Chara Verde",
+      "sciName": "Cyanocorax yncas",
+      "date": "2026-06-13",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302348751/900",
+      "photographer": "Scott Martin",
+      "attribution": "Scott Martin / Macaulay Library"
+    },
+    {
+      "speciesCode": "gragoo",
+      "comName": "Ánsar Común",
+      "sciName": "Anser anser",
+      "date": "2026-06-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162799271/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "litgre1",
+      "comName": "Zampullín Común",
+      "sciName": "Tachybaptus ruficollis",
+      "date": "2026-06-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242168551/900",
+      "photographer": "Zhong Ying Koay",
+      "attribution": "Zhong Ying Koay / Macaulay Library"
+    },
+    {
+      "speciesCode": "bearee1",
+      "comName": "Bigotudo",
+      "sciName": "Panurus biarmicus",
+      "date": "2026-06-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
+      "photographer": "Josep del Hoyo",
+      "attribution": "Josep del Hoyo / Macaulay Library"
+    },
+    {
+      "speciesCode": "gloibi",
+      "comName": "Morito Común",
+      "sciName": "Plegadis falcinellus",
+      "date": "2026-06-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308505311/900",
+      "photographer": "Jeremiah Trimble",
+      "attribution": "Jeremiah Trimble / Macaulay Library"
+    },
+    {
+      "speciesCode": "bkrwhe1",
+      "comName": "Anteojitos Anómalo",
+      "sciName": "Zosterops anomalus",
+      "date": "2026-06-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275407491/900",
+      "photographer": "Simon Colenutt",
+      "attribution": "Simon Colenutt / Macaulay Library"
+    },
+    {
+      "speciesCode": "thbflo1",
+      "comName": "Picaflores Picogrueso",
+      "sciName": "Pachyglossa agilis",
+      "date": "2026-06-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/156739411/900",
+      "photographer": "Natthaphat Chotjuckdikul",
+      "attribution": "Natthaphat Chotjuckdikul / Macaulay Library"
+    },
+    {
+      "speciesCode": "eutdov",
+      "comName": "Tórtola Europea",
+      "sciName": "Streptopelia turtur",
+      "date": "2026-06-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282241/900",
+      "photographer": "Vladan Vuckovic",
+      "attribution": "Vladan Vuckovic / Macaulay Library"
+    },
+    {
+      "speciesCode": "tbgdov1",
+      "comName": "Paloma Perdiz de las Salomón",
+      "sciName": "Pampusana salamonis",
+      "date": "2026-06-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset//900",
+      "photographer": "",
+      "attribution": "Macaulay Library / Cornell Lab of Ornithology"
+    },
+    {
+      "speciesCode": "blueth",
+      "comName": "Ruiseñor Pechiazul",
+      "sciName": "Luscinia svecica",
+      "date": "2026-06-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/261494631/900",
+      "photographer": "Bryan Calk",
+      "attribution": "Bryan Calk / Macaulay Library"
+    },
+    {
+      "speciesCode": "houspa",
+      "comName": "Gorrión Común",
+      "sciName": "Passer domesticus",
+      "date": "2026-06-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305880301/900",
+      "photographer": "Evan Lipton",
+      "attribution": "Evan Lipton / Macaulay Library"
+    },
+    {
+      "speciesCode": "leskes1",
+      "comName": "Cernícalo Primilla",
+      "sciName": "Falco naumanni",
+      "date": "2026-06-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027951/900",
+      "photographer": "Dorna Mojab",
+      "attribution": "Dorna Mojab / Macaulay Library"
+    },
+    {
+      "speciesCode": "pitsan1",
+      "comName": "Ganga Ibérica",
+      "sciName": "Pterocles alchata",
+      "date": "2026-06-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/172620811/900",
+      "photographer": "Shlomi Levi",
+      "attribution": "Shlomi Levi / Macaulay Library"
+    },
+    {
+      "speciesCode": "batgod",
+      "comName": "Aguja Colipinta",
+      "sciName": "Limosa lapponica",
+      "date": "2026-06-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46320861/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "euptit1",
+      "comName": "Pájaro Moscón Europeo",
+      "sciName": "Remiz pendulinus",
+      "date": "2026-06-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45223631/900",
+      "photographer": "Patrick J. Blake",
+      "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "coatit2",
+      "comName": "Carbonero Garrapinos",
+      "sciName": "Periparus ater",
+      "date": "2026-06-28",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
+      "photographer": "Adrien Mauss",
+      "attribution": "Adrien Mauss / Macaulay Library"
+    },
+    {
+      "speciesCode": "rinouz1",
+      "comName": "Mirlo Capiblanco",
+      "sciName": "Turdus torquatus",
+      "date": "2026-06-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
+      "photographer": "Rafael Merchante",
+      "attribution": "Rafael Merchante / Macaulay Library"
+    },
+    {
+      "speciesCode": "reblei",
+      "comName": "Leiótrix Piquirrojo",
+      "sciName": "Leiothrix lutea",
+      "date": "2026-06-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/608766071/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "afroys1",
+      "comName": "Ostrero Negro Africano",
+      "sciName": "Haematopus moquini",
+      "date": "2026-07-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215836881/900",
+      "photographer": "Paul Farrell",
+      "attribution": "Paul Farrell / Macaulay Library"
+    },
+    {
+      "speciesCode": "stonec4",
+      "comName": "Tarabilla Europea",
+      "sciName": "Saxicola rubicola",
+      "date": "2026-07-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/387157581/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurlin1",
+      "comName": "Pardillo Común",
+      "sciName": "Linaria cannabina",
+      "date": "2026-07-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256711051/900",
+      "photographer": "Rui Pereira | Portugal Birding Tours",
+      "attribution": "Rui Pereira | Portugal Birding Tours / Macaulay Library"
+    },
+    {
+      "speciesCode": "masyel4",
+      "comName": "Mascarita Embridada",
+      "sciName": "Geothlypis auricularis",
+      "date": "2026-07-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/486441101/900",
+      "photographer": "Miguel Aguilar @birdnomad",
+      "attribution": "Miguel Aguilar @birdnomad / Macaulay Library"
+    },
+    {
+      "speciesCode": "eueowl1",
+      "comName": "Búho Real",
+      "sciName": "Bubo bubo",
+      "date": "2026-07-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258097941/900",
+      "photographer": "birol hatinoğlu",
+      "attribution": "birol hatinoğlu / Macaulay Library"
+    },
+    {
+      "speciesCode": "stodov1",
+      "comName": "Paloma Zurita",
+      "sciName": "Columba oenas",
+      "date": "2026-07-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242172531/900",
+      "photographer": "Paul Lewis",
+      "attribution": "Paul Lewis / Macaulay Library"
+    },
+    {
+      "speciesCode": "lbbgul",
+      "comName": "Gaviota Sombría",
+      "sciName": "Larus fuscus",
+      "date": "2026-07-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299868811/900",
+      "photographer": "Terry Bohling",
+      "attribution": "Terry Bohling / Macaulay Library"
+    },
+    {
+      "speciesCode": "goldcr1",
+      "comName": "Reyezuelo Sencillo",
+      "sciName": "Regulus regulus",
+      "date": "2026-07-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035631/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "bargoo",
+      "comName": "Barnacla Cariblanca",
+      "sciName": "Branta leucopsis",
+      "date": "2026-07-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/161008611/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "monpar",
+      "comName": "Cotorra Argentina",
+      "sciName": "Myiopsitta monachus",
+      "date": "2026-07-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71547631/900",
+      "photographer": "Kacau Oliveira",
+      "attribution": "Kacau Oliveira / Macaulay Library"
+    },
+    {
+      "speciesCode": "cinvul1",
+      "comName": "Buitre Negro",
+      "sciName": "Aegypius monachus",
+      "date": "2026-07-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254915731/900",
+      "photographer": "Aseem Kothiala",
+      "attribution": "Aseem Kothiala / Macaulay Library"
+    },
+    {
+      "speciesCode": "cetwar1",
+      "comName": "Cetia Ruiseñor",
+      "sciName": "Cettia cetti",
+      "date": "2026-07-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/615717250/900",
+      "photographer": "Ferit Başbuğ",
+      "attribution": "Ferit Başbuğ / Macaulay Library"
+    },
+    {
+      "speciesCode": "litbit1",
+      "comName": "Avetorillo Común",
+      "sciName": "Botaurus minutus",
+      "date": "2026-07-13",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
+      "photographer": "José Frade",
+      "attribution": "José Frade / Macaulay Library"
+    },
+    {
+      "speciesCode": "elefal1",
+      "comName": "Halcón de Eleonora",
+      "sciName": "Falco eleonorae",
+      "date": "2026-07-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027681/900",
+      "photographer": "Ricardo Rodríguez",
+      "attribution": "Ricardo Rodríguez / Macaulay Library"
+    },
+    {
+      "speciesCode": "norgos1",
+      "comName": "Azor Euroasiático",
+      "sciName": "Astur gentilis",
+      "date": "2026-07-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609520163/900",
+      "photographer": "Daniel López-Velasco | Ornis Birding Expeditions",
+      "attribution": "Daniel López-Velasco | Ornis Birding Expeditions / Macaulay Library"
+    },
+    {
+      "speciesCode": "skylar",
+      "comName": "Alondra Común",
+      "sciName": "Alauda arvensis",
+      "date": "2026-07-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/311380331/900",
+      "photographer": "Peter Kennerley",
+      "attribution": "Peter Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "sinmar1",
+      "comName": "Golondrina Sinaloense",
+      "sciName": "Progne sinaloae",
+      "date": "2026-07-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/615991632/900",
+      "photographer": "Rick Bowers",
+      "attribution": "Rick Bowers / Macaulay Library"
+    },
+    {
+      "speciesCode": "citfin1",
+      "comName": "Verderón Serrano",
+      "sciName": "Carduelis citrinella",
+      "date": "2026-07-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46495721/900",
+      "photographer": "Wayne Gillatt",
+      "attribution": "Wayne Gillatt / Macaulay Library"
+    },
+    {
+      "speciesCode": "comqua1",
+      "comName": "Codorniz Común",
+      "sciName": "Coturnix coturnix",
+      "date": "2026-07-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241998281/900",
+      "photographer": "Javier Robres",
+      "attribution": "Javier Robres / Macaulay Library"
+    },
+    {
+      "speciesCode": "cretit2",
+      "comName": "Herrerillo Capuchino",
+      "sciName": "Lophophanes cristatus",
+      "date": "2026-07-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258104311/900",
+      "photographer": "Javier Robres",
+      "attribution": "Javier Robres / Macaulay Library"
+    },
+    {
+      "speciesCode": "grewhi1",
+      "comName": "Curruca Zarcera",
+      "sciName": "Curruca communis",
+      "date": "2026-07-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256746661/900",
+      "photographer": "Anonymous",
+      "attribution": "Anonymous / Macaulay Library"
+    },
+    {
+      "speciesCode": "blared1",
+      "comName": "Colirrojo Tizón",
+      "sciName": "Phoenicurus ochruros",
+      "date": "2026-07-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44587591/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
+    },
+    {
+      "speciesCode": "grebus1",
+      "comName": "Avutarda Euroasiática",
+      "sciName": "Otis tarda",
+      "date": "2026-07-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242189201/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "carcro1",
+      "comName": "Corneja Negra",
+      "sciName": "Corvus corone",
+      "date": "2026-07-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256186201/900",
+      "photographer": "Guillermo López Zamora",
+      "attribution": "Guillermo López Zamora / Macaulay Library"
+    },
+    {
+      "speciesCode": "comcuc",
+      "comName": "Cuco Común",
+      "sciName": "Cuculus canorus",
+      "date": "2026-07-25",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45125031/900",
+      "photographer": "Biju PB",
+      "attribution": "Biju PB / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurbul",
+      "comName": "Camachuelo Común",
+      "sciName": "Pyrrhula pyrrhula",
+      "date": "2026-07-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257629601/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "whiwag",
+      "comName": "Lavandera Blanca",
+      "sciName": "Motacilla alba",
+      "date": "2026-07-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/632267408/900",
+      "photographer": "Vincent Wang",
+      "attribution": "Vincent Wang / Macaulay Library"
+    },
+    {
+      "speciesCode": "blutit",
+      "comName": "Herrerillo Común",
+      "sciName": "Cyanistes caeruleus",
+      "date": "2026-07-28",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
+      "photographer": "Ferit Başbuğ",
+      "attribution": "Ferit Başbuğ / Macaulay Library"
+    },
+    {
+      "speciesCode": "comnig1",
+      "comName": "Ruiseñor Común",
+      "sciName": "Luscinia megarhynchos",
+      "date": "2026-07-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730581/900",
+      "photographer": "Tânia Araújo",
+      "attribution": "Tânia Araújo / Macaulay Library"
+    },
+    {
+      "speciesCode": "wooshr1",
+      "comName": "Alcaudón Común",
+      "sciName": "Lanius senator",
+      "date": "2026-07-30",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54019381/900",
+      "photographer": "Markus Craig",
+      "attribution": "Markus Craig / Macaulay Library"
+    },
+    {
+      "speciesCode": "norlap",
+      "comName": "Avefría Europea",
+      "sciName": "Vanellus vanellus",
+      "date": "2026-07-31",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609204339/900",
+      "photographer": "Abhishek Das",
+      "attribution": "Abhishek Das / Macaulay Library"
+    },
+    {
+      "speciesCode": "woowar",
+      "comName": "Mosquitero Silbador",
+      "sciName": "Phylloscopus sibilatrix",
+      "date": "2026-08-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256562731/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "atlpuf",
+      "comName": "Frailecillo Atlántico",
+      "sciName": "Fratercula arctica",
+      "date": "2026-08-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302851271/900",
+      "photographer": "Simon Boivin",
+      "attribution": "Simon Boivin / Macaulay Library"
+    },
+    {
+      "speciesCode": "gochon2",
+      "comName": "Mielerito Collarejo",
+      "sciName": "Iridophanes pulcherrimus",
+      "date": "2026-08-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900",
+      "photographer": "Andres Vasquez Noboa",
+      "attribution": "Andres Vasquez Noboa / Macaulay Library"
+    },
+    {
+      "speciesCode": "lirplo",
+      "comName": "Chorlitejo Chico",
+      "sciName": "Thinornis dubius",
+      "date": "2026-08-04",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/216990981/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "eargre",
+      "comName": "Zampullín Cuellinegro",
+      "sciName": "Podiceps nigricollis",
+      "date": "2026-08-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305508041/900",
+      "photographer": "Caroline Lambert",
+      "attribution": "Caroline Lambert / Macaulay Library"
+    },
+    {
+      "speciesCode": "wemhar1",
+      "comName": "Aguilucho Lagunero Occidental",
+      "sciName": "Circus aeruginosus",
+      "date": "2026-08-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
+      "photographer": "Jeffrey Wang",
+      "attribution": "Jeffrey Wang / Macaulay Library"
+    },
+    {
+      "speciesCode": "norsho",
+      "comName": "Cuchara Común",
+      "sciName": "Spatula clypeata",
+      "date": "2026-08-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300124811/900",
+      "photographer": "Dorian Anderson",
+      "attribution": "Dorian Anderson / Macaulay Library"
+    },
+    {
+      "speciesCode": "perfal",
+      "comName": "Halcón Peregrino",
+      "sciName": "Falco peregrinus",
+      "date": "2026-08-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303618951/900",
+      "photographer": "Joshua Stacy",
+      "attribution": "Joshua Stacy / Macaulay Library"
+    },
+    {
+      "speciesCode": "dunlin",
+      "comName": "Correlimos Común",
+      "sciName": "Calidris alpina",
+      "date": "2026-08-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301478601/900",
+      "photographer": "Dorian Anderson",
+      "attribution": "Dorian Anderson / Macaulay Library"
+    },
+    {
+      "speciesCode": "lammer1",
+      "comName": "Quebrantahuesos",
+      "sciName": "Gypaetus barbatus",
+      "date": "2026-08-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45942621/900",
+      "photographer": "Andrew Spencer",
+      "attribution": "Andrew Spencer / Macaulay Library"
+    },
+    {
+      "speciesCode": "gobfru1",
+      "comName": "Frutero Pechidorado",
+      "sciName": "Pipreola aureopectus",
+      "date": "2026-08-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/322126041/900",
+      "photographer": "Yve Morrell",
+      "attribution": "Yve Morrell / Macaulay Library"
+    },
+    {
+      "speciesCode": "yefgul",
+      "comName": "Gaviota de Cortés",
+      "sciName": "Larus livens",
+      "date": "2026-08-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308496801/900",
+      "photographer": "Tanner Martin",
+      "attribution": "Tanner Martin / Macaulay Library"
+    },
+    {
+      "speciesCode": "redkit1",
+      "comName": "Milano Real",
+      "sciName": "Milvus milvus",
+      "date": "2026-08-13",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254929681/900",
+      "photographer": "James Kennerley",
+      "attribution": "James Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "tufduc",
+      "comName": "Porrón Moñudo",
+      "sciName": "Aythya fuligula",
+      "date": "2026-08-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301541481/900",
+      "photographer": "Honza Grünwald",
+      "attribution": "Honza Grünwald / Macaulay Library"
+    },
+    {
+      "speciesCode": "torfly1",
+      "comName": "Petroica Torrentera",
+      "sciName": "Monachella muelleriana",
+      "date": "2026-08-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622964945/900",
+      "photographer": "Dubi Shapiro",
+      "attribution": "Dubi Shapiro / Macaulay Library"
     }
   ]
 }

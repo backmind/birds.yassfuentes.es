@@ -1,0 +1,15 @@
+{
+  "description": "Es una pequeña ave buceadora, bastante común aunque a menudo poco visible propia de humedales con carrizo y otra vegetación en sus bordes. A menudo permanece fuera de la vista, más raramente en aguas abiertas (principalmente en invierno). Tiene aspecto bastante compacto con cabeza redondeada y zona posterior de plumaje ahuecado. Se observa normalmente en parejas o pequeños bandos laxos, a menudo durmiendo durante el día. El plumaje reproductor parece en general oscuro; en buenas condiciones de luz destaca la cabeza y lados del cuello de color rojizo con una mancha amarilla en la base del pico. En plumaje no reproductor es en general de color pardusco sucio con capirote oscuro.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El zampullín común o zampullín chico es una especie de ave podicipediforme de la familia Podicipedidae que se extiende por Eurasia, África y el norte de Australasia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tachybaptus_ruficollis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482048,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482048&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696545"
+}

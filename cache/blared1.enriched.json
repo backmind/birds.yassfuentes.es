@@ -1,0 +1,11 @@
+{
+  "prose": "En los paisajes donde la roca desnuda o las estructuras humanas dominan el horizonte, habita un pequeño paseriforme de elegancia sobria y movimientos inquietos: el colirrojo tizón (Phoenicurus ochruros). Perteneciente a la familia Muscicapidae, esta especie ha sabido adaptar su preferencia ancestral por los riscos, canteras y pedregales a las zonas urbanas e industriales, encontrando en las cornisas y tejados un excelente sustituto de sus acantilados nativos. Con una postura marcadamente erguida y vigilante, pasa gran parte del tiempo posado en salientes o cantando desde esquinas elevadas para escudriñar el terreno. Es al emprender el vuelo o al desplegar su plumaje cuando revela su rasgo más deslumbrante: una cola de un naranja vivo y radiante que justifica su nombre y contrasta de forma espectacular con el resto de su cuerpo.\n\nEl dimorfismo sexual resulta evidente al observar a la pareja: el macho exhibe una tonalidad pizarrosa o negruzca, mientras que la hembra viste un atuendo gris ahumado más discreto. A diferencia de la hembra del colirrojo real, de tonos más cálidos y vinculada a bosques o matorrales, el colirrojo tizón permanece fiel a los espacios abiertos y rocosos. Su amplio rango geográfico se extiende a lo largo del Paleártico, alcanzando por el este regiones como Irán, Turkmenistán, Kazajstán, China y Mongolia, con individuos migratorios que frecuentan los litorales rocosos. Como activo depredador de pequeños invertebrados a ras de suelo, esta ave cumple una valiosa función en el control de insectos, aportando dinamismo y color allí donde la piedra parece inerte.",
+  "identification": [
+    "Cola de color naranja brillante en ambos sexos, muy conspicua durante el vuelo o al abrirse.",
+    "Macho con plumaje general de tono negro pizarroso; hembra de tono gris ahumado.",
+    "Postura erguida característica al posarse sobre el suelo o pequeñas atalayas.",
+    "Costumbre de cantar desde posaderos prominentes como esquinas de edificios, rocas o canteras."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-22T05:20:47Z"
+}

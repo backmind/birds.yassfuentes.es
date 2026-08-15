@@ -1,0 +1,15 @@
+{
+  "description": "Golondrina muy grande, migratoria de verano muy local en las montañas del noroeste de México. Prefiere bosques abiertos de pino encino, usualmente con ramas muertas de pino muy grandes y cerca de acantilados, donde usa cavidades para anidar. Usa grandes territorios de tierras altas y laderas, yendo a beber en pozas y lagos. Usualmente se ven individuos solos o en grupos pequeños que pueden asociarse con otras golondrinas. El macho es azul negro por arriba con vientre blanco contrastante. La hembra es similar a muchas otras golondrinas, pero su vientre blanco claro contrasta mucho más contra su pecho obscuro.",
+  "description_source": "ebird",
+  "bow_intro": "La Sinaloa Martin es una golondrina grande pero poco conocida. El macho es de color azul acero brillante con el vientre blanco y estrías negras en las coberteras infracaudales. En la temporada reproductiva se encuentra en bosques de pino-encino y regiones montañosas semiabiertas de hasta 2000 m en la Sierra Madre Occidental del oeste de México, desde el noreste de Sonora hacia el sur hasta Jalisco y Michoacán.se sabe poco sobre su reproducción, el tamaño de la nidada, la incubación o el volantón, pero se le ve en pequeños grupos en sus zonas de cría de marzo a agosto y anida en cavidades, probablemente en árboles. Se desconoce su área de invernada, pero lo más probable es que se encuentre en el interior de Sudamérica.",
+  "taxonomy": {},
+  "wikipedia_summary": "La golondrina sinaloense o golondrina grande bicolor es una especie de ave paseriforme de la familia Hirundinidae (golondrinas) que se distribuye desde el norte de México hasta Guatemala y accidentalmente en Belice.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Progne_sinaloae",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2489132,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489132&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22712107"
+}

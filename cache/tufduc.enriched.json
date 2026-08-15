@@ -1,0 +1,11 @@
+{
+  "prose": "En las aguas mansas de Eurasia y África, el Porrón Moñudo (Aythya fuligula) se desliza como una de las anátidas buceadoras más representativas y reconocibles. Su silueta es habitual en una amplia diversidad de humedales, desde lagos y ciénagas provistos de abundante vegetación emergente hasta grandes embalses abiertos. Dotado de una notable pericia hidrodinámica, el porrón moñudo se sumerge a medias profundidades para conseguir su sustento, impulsándose con presteza bajo el agua. No obstante, tras sus incursiones alimentarias, suele pasar gran parte de las horas diurnas dormitando en superficie, dejándose mecer por el suave vaivén de las corrientes.\n\nCon la llegada del invierno, esta especie muestra un marcado gregarismo y tiende a agruparse en nutridos bandos. Cuando las temperaturas extremas congelan los cuerpos de agua dulce del interior, no duda en desplazarse hacia bahías o franjas costeras marinas para capear la temporada fría. El macho destaca con un contraste nítido entre su cuerpo negro, los flancos de un blanco limpio y un peculiar moño colgante en la nuca. Ambos sexos comparten una mirada inconfundible gracias a sus intensos ojos de color amarillo vivo y lucen una franja alar blanca que resplandece de manera diáfana al levantar el vuelo.",
+  "identification": [
+    "Macho con plumaje negro contrastado con flancos blancos puros y un largo moño colgante en la nuca.",
+    "Hembra de tonos marrón oscuro con cresta más corta, flancos pálidos y a menudo una mancha clara en la base del pico.",
+    "Ojos de un llamativo color amarillo brillante en ambos sexos.",
+    "Ancha banda alar blanca claramente visible en vuelo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-14T04:10:13Z"
+}

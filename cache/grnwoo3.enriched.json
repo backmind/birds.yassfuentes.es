@@ -1,0 +1,11 @@
+{
+  "prose": "El Pito Ibérico (Picus sharpei) es un carpintero de singular belleza, endémico de la península ibérica y las estribaciones de los Pirineos. A diferencia de otros miembros de su familia que pasan la mayor parte del tiempo golpeando troncos en la espesura, esta ave muestra una marcada preferencia por los espacios abiertos, desde dehesas y bordes de bosques hasta parques urbanos y jardines. Su silueta es inconfundible cuando cruza el cielo con un vuelo marcadamente ondulante, revelando un obispillo de un amarillo intenso que contrasta con el verde oliva de su dorso. Es un maestro de la adaptación que ha encontrado en los paisajes donde se alternan arboledas y claros un refugio ideal, siempre que cuenten con ejemplares maduros donde excavar su nido y suelos despejados donde buscar su sustento diario.\n\nLo más fascinante de su comportamiento ocurre a ras de suelo. Con un andar algo torpe y arrastrado, el Pito Ibérico patrulla praderas y claros en busca de hormigueros, su principal fuente de alimento. Utiliza su robusto pico para sondear la tierra y su lengua larga y pegajosa para capturar a sus presas con una precisión asombrosa. Aunque es capaz de tamborilear sobre la madera, lo hace con menos frecuencia que otros piciformes; prefiere comunicarse mediante una llamada sonora y potente, una suerte de relincho o risotada que recuerda al grito de algunas rapaces y que delata su presencia mucho antes de ser visto. Al excavar sus nidos en troncos de madera blanda, desempeña un papel ecológico vital, pues estas cavidades serán utilizadas posteriormente por otras especies que no poseen su capacidad arquitectónica.",
+  "identification": [
+    "Plumaje verde oliva en el dorso con una llamativa corona roja que se extiende hasta la nuca.",
+    "Bigotera ancha bajo el ojo, de color rojo en los machos y negra en las hembras.",
+    "Obispillo de color amarillo brillante, muy visible durante su característico vuelo ondulante.",
+    "Canto potente y descendente, similar a una carcajada, que emite con frecuencia desde los árboles."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-03T05:32:04Z"
+}

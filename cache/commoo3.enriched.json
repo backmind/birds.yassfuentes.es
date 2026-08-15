@@ -1,0 +1,11 @@
+{
+  "prose": "La Gallineta Común (*Gallinula chloropus*) es una de las habitantes más emblemáticas y extendidas de los humedales de agua dulce y salobre de Eurasia y África. Este rálido de tamaño mediano coloniza con éxito desde apacibles lagunas naturales hasta estanques urbanos, siempre que cuenten con una densa vegetación de ribera donde guarecerse. Al observarla en el agua, destaca de inmediato su estilo de natación, caracterizado por un avance espasmódico y rítmico de la cabeza, mientras mantiene la cola erguida. A diferencia de las fochas, con las que a menudo comparte hábitat, la gallineta común es notablemente más esquiva y prefiere no alejarse demasiado de la protección de las cañas y juncos, donde también oculta con esmero su nido.\n\nBajo su apariencia tímida se esconde un ave sumamente adaptable y omnívora. Su dieta es asombrosamente variada: consume desde plantas acuáticas hasta pequeños peces, renacuajos, moluscos e incluso huevos de otras aves, desempeñando un papel clave en el equilibrio de los ecosistemas acuáticos. Aunque en gran parte de su distribución es un residente permanente, las poblaciones del norte de Eurasia emprenden migraciones hacia el sur cuando el frío invernal congela las masas de agua de las que dependen. Su anatomía revela detalles fascinantes, como el llamativo escudo frontal rojo y amarillo de los adultos, que contrasta con el plumaje oscuro, y unas largas patas de tonos verdosos que le permiten caminar con destreza sobre la vegetación flotante sin hundirse.",
+  "identification": [
+    "Pico rojo brillante con la punta amarilla en los adultos, y de tonos más apagados en los ejemplares inmaduros.",
+    "Llamativas manchas blancas ovales debajo de la cola y una línea blanca distintiva a lo largo de los flancos.",
+    "Forma de nadar característica, con un cabeceo espasmódico y la cola frecuentemente levantada.",
+    "Patas largas de color verdoso, ideales para caminar sobre la vegetación de las orillas."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-22T06:09:17Z"
+}

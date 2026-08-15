@@ -1,0 +1,15 @@
+{
+  "description": "Bastante común, aunque local, en humedales costeros y lagunas salobres, más escasa en el interior. Llamativa y prácticamente inconfundible, de formas esbeltas, plumaje blanco y negro, largas patas gris azuladas y un pico largo, fino y curvado hacia arriba. La curva está más marcada en las hembras. Frecuentemente cría en pequeñas colonias, los individuos nidificantes son muy ruidosos. Fuera de época de cría los bandos pueden llegar a ser localmente de centenares de aves. Se alimenta mientras vadea las aguas someras, moviendo su pico de lado a lado.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La avoceta común es una especie de ave caradriforme de la familia Recurvirostridae propia de Eurasia y África. Es un ave zancuda de plumaje blanco y negro que se caracteriza por tener el pico curvado hacia arriba.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Recurvirostra_avosetta",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480259,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480259&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693712"
+}

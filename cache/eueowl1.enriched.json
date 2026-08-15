@@ -1,0 +1,12 @@
+{
+  "prose": "En la penumbra del crepúsculo, cuando el día cede su dominio a la noche, emerge una de las siluetas más imponentes de la fauna euroasiática: el Búho Real (Bubo bubo). Este coloso alado, también conocido históricamente como gran duque, es uno de los búhos más grandes y robustos del planeta. Su presencia se extiende de manera localizada por una gran diversidad de hábitats, desde densos bosques hasta escarpadas gargantas rocosas, prefiriendo siempre entornos con escasa actividad humana. Durante las horas de sol, suele descansar camuflado en oquedades de acantilados o al abrigo de las copas de los árboles. Sin embargo, al caer la tarde, se sitúa en posaderos estratégicos para vigilar su territorio con una paciencia infinita, convirtiéndose en el soberano indiscutible de la penumbra gracias a su vuelo extraordinariamente silencioso y su aguda visión.\n\nEl nombre científico de este formidable depredador es un homenaje directo a su propia voz; la palabra latina \"bubo\" evoca el profundo y resonante canto territorial que los machos emiten durante las noches, un sonido que puede escucharse a kilómetros de distancia y que ya desde la Edad Media le otorgó su identidad en los bestiarios. Como superdepredador, el búho real desempeña un papel ecológico crucial en la regulación de las poblaciones de mamíferos y otras aves en sus ecosistemas. Su imponente mirada, dominada por unos ojos de un naranja magnético y coronada por unas plumas auriculares que asemejan orejas, no es solo una maravilla de la evolución, sino el reflejo de un cazador sumamente eficaz que mantiene el equilibrio natural.",
+  "identification": [
+    "Tamaño excepcionalmente grande y robusto, con una silueta imponente.",
+    "Ojos muy grandes de un color naranja oscuro y penetrante.",
+    "Patentes plumas auriculares sobre la cabeza que asemejan orejas.",
+    "Plumaje ventral de tono beige pálido con un fino y denso estriado oscuro.",
+    "Canto territorial grave y potente, un ululato bisilábico que resuena en la noche."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-05T06:06:10Z"
+}

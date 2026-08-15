@@ -1,0 +1,15 @@
+{
+  "description": "Pequeña ave playera, ligeramente más grande que los",
+  "description_source": "ebird",
+  "bow_intro": "El Dunlin es uno de los más cosmopolitas y mejor estudiados de todos los pequeños Scolopacidae. Es una especie familiar durante todo el año, ya sea en su llamativo plumaje de cría de vientre negro y dorso rufo (de ahí su nombre anterior, correlimos dorsirrojo) o durante el invierno, cuando es gris y anodino pero aparece en bandadas de miles o decenas de miles. Hasta diez subespecies de Dunlin se reproducen en el Holártico, tres de ellas en Norteamérica, donde esta especie monógama y territorial se reproduce en la tundra costera subártica y ártica desde el suroeste de Alaska hacia el norte y el este hasta la bahía de James, en Canadá. Durante el invierno se encuentra sobre todo en grandes estuarios a lo largo de las costas del Pacífico y el Atlántico de Estados Unidos y el norte de México; algunas aves de Alaska pasan el invierno en la costa este de Asia.",
+  "taxonomy": {},
+  "wikipedia_summary": "El correlimos común, playero común, playero pechinegro, playero ventrinegro o zarapico gris es una especie de ave Charadriiforme de la familia Scolopacidae común en las zonas húmedas de Europa. Cría en las regiones del Ártico. Las aves que crían en el norte de Europa y Asia son migradores de larga distancia, invernando en las costas de la península ibérica, África, Sudeste asiático y Oriente Medio. Las aves que anidan en Alaska y el ártico canadiense realizan migraciones cortas a las costas del Pacífico y Atlántico de Norteamérica, aunque las aves que crían en el norte de Alaska invernan en Asia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Calidris_alpina",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481759,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481759&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693427"
+}

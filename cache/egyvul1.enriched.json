@@ -1,0 +1,12 @@
+{
+  "prose": "El Alimoche Común (Neophron percnopterus), también conocido en diversas regiones como guirre o abanto, es un buitre de mediano tamaño que destaca por su silueta singular y su plumaje predominantemente pálido. Esta magnífica ave habita en zonas abiertas y semiabiertas, distribuyéndose desde el sur de la región paleártica hasta la India, así como en gran parte del continente africano. Con una mirada seria y penetrante, su rostro de piel amarilla y desnuda contrasta vivamente con el tono claro de su cuerpo. El alimoche común encuentra su refugio en escarpados cortados rocosos y acantilados donde establece sus nidos, aunque en ocasiones puede optar por la copa de algún árbol. En vuelo, ofrece un espectáculo majestuoso: sus largas alas muestran un marcado contraste entre las plumas de vuelo negras y las cobertoras blancas, una estampa que puede recordar a la de una cigüeña, pero que se distingue de inmediato por su característica cola en forma de cuña.\n\nMás allá de su imponente planeo, esta especie es célebre en el reino animal por su asombrosa inteligencia y su papel ecológico crucial. Como ave carroñera, cumple una función sanitaria indispensable al limpiar los ecosistemas de restos orgánicos, frecuentando también vertederos en busca de sustento. Sin embargo, lo que verdaderamente fascina a los naturalistas es su capacidad para utilizar herramientas, un comportamiento sumamente raro en el mundo aviar: es capaz de seleccionar piedras con el peso adecuado y lanzarlas repetidamente contra los duros huevos de avestruz hasta romperlos y acceder a su nutritivo interior. Lamentablemente, a pesar de su ingenio y adaptabilidad, las poblaciones de este singular buitre se encuentran en un preocupante declive en la mayor parte de su área de distribución, lo que convierte cada avistamiento en un valioso recordatorio de la fragilidad de la biodiversidad.",
+  "identification": [
+    "Plumaje de los adultos mayoritariamente pálido, con las plumas de vuelo de las alas de color negro.",
+    "Rostro desprovisto de plumas, de un llamativo color amarillo en los adultos y grisáceo en los jóvenes.",
+    "Cola distintiva en forma de cuña, claramente visible durante el vuelo.",
+    "Pico estrecho y alargado, con la punta de color negro.",
+    "Los ejemplares jóvenes presentan un plumaje completamente parduzco, muy diferente al de los adultos."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-20T06:09:36Z"
+}

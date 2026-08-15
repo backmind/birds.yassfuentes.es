@@ -1,0 +1,11 @@
+{
+  "prose": "La Tórtola Turca (Streptopelia decaocto) es una de las colonizadoras más asombrosas del mundo aviar. Con su silueta esbelta y su característico canto trisilábico, un rítmico \"hoo-HOOOO-hoo\", este colúmbido ha transformado los paisajes sonoros de gran parte del hemisferio norte. Evitando los bosques densos y continuos, muestra una clara preferencia por los entornos suburbanos, parques y zonas agrícolas, donde encuentra abundancia de semillas, granos y cables donde posarse para otear su territorio. Su plumaje, de un delicado tono beige calcáreo con sutiles matices rosados en el pecho, se mimetiza perfectamente con los tonos de la tierra, mientras que su comportamiento confiado y adaptable la ha convertido en una vecina habitual de los asentamientos humanos.\n\nLa verdadera proeza de la tórtola turca radica en su espectacular y misteriosa expansión geográfica. Originaria de la India y de regiones de China, permaneció confinada al este de los Balcanes durante siglos. Sin embargo, en la década de 1930 inició una vertiginosa conquista hacia el noroeste de Europa, colonizando millones de kilómetros cuadrados en pocas décadas. Un fenómeno similar ocurrió en Norteamérica tras la fuga accidental de unos cincuenta ejemplares en las Bahamas durante los años setenta. Los científicos sugieren que una mutación genética pudo haber impulsado este repentino impulso viajero, caracterizado por una dispersión a saltos donde las poblaciones se establecen a cientos de kilómetros antes de rellenar los huecos intermedios. Aunque comparte hábitat con otras especies locales de palomas y tórtolas, su presencia parece coexistir en equilibrio, demostrando una asombrosa capacidad de adaptación sin alterar drásticamente las comunidades receptoras.",
+  "identification": [
+    "Un collar negro distintivo ribeteado de blanco que rodea los laterales y la parte posterior del cuello.",
+    "Plumaje de un tono beige grisáceo uniforme, con matices rosados en la cabeza y el pecho, y una cola de forma cuadrada.",
+    "Canto característico y repetitivo de tres sílabas que suena como un 'hoo-HOOOO-hoo'.",
+    "Ojos con el iris de color rojo oscuro, rodeados por un fino anillo periocular de color blanco."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-05-29T06:16:44Z"
+}

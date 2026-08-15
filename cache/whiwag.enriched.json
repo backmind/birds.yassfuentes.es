@@ -1,0 +1,11 @@
+{
+  "prose": "Observar a la lavandera blanca (Motacilla alba) es presenciar un dinamismo incesante y lleno de gracia. Esta pequeña ave paseriforme, perteneciente a la familia Motacillidae, habita una inmensa variedad de entornos abiertos a lo largo de Eurasia y el extremo occidental de Norteamérica, desde páramos salvajes y humedales hasta céspedes y aparcamientos pavimentados. Ya sea en solitario, en parejas o en pequeños bandos, camina y corre sobre el terreno alternando carrerillas con el inconfundible y rítmico bateo vertical de su larga cola de bordes blancos. Su estampa resulta destacable en cualquier época del año gracias a un nítido contraste de tonos negros, blancos y grises, luciendo en plumaje nupcial un capirote y babero de un negro intenso.\n\nConocida popularmente con nombres como aguzanieves o pajarita de las nieves, la tradición asocia el avistamiento de esta ave con la llegada del tiempo frío. Tras su presencia cotidiana se oculta una gran diversidad geográfica: la especie engloba un complejo de nueve subespecies con acusadas variaciones en el color del manto, que varía del gris al negro según la región. Aunque sus poblaciones occidentales figuran entre las aves más estudiadas del Paleártico, algunas formas orientales se extienden hacia Alaska y las islas Aleutianas, donde nidifican cerca de ríos, costas e infraestructuras humanas.",
+  "identification": [
+    "Patrón distintivo en blanco, negro y gris en todos los plumajes, con capirote y babero negros en época de cría.",
+    "Movimiento característico de la larga cola de bordes blancos, que batea rítmicamente hacia arriba y hacia abajo al desplazarse.",
+    "Desplazamiento ágil a pie mediante carrerillas en hábitats abiertos y zonas despejadas.",
+    "Variación regional en la coloración del dorso, que oscila entre el gris oscuro y el negro intenso."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-27T05:52:05Z"
+}

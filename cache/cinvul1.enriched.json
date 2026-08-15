@@ -1,0 +1,11 @@
+{
+  "prose": "El Buitre Negro (*Aegypius monachus*) es un gigante alado que domina los cielos con una envergadura media de dos metros y medio, llegando en ocasiones a rozar los tres metros. Esta colosal ave, la única de su género, habita en una vasta franja que abarca desde el sur de Europa y el norte de África hasta las estepas y desiertos de Asia central y oriental. En estos paisajes, que incluyen densos bosques mediterráneos y áridas cordilleras montañosas, el Buitre Negro patrulla el territorio en solitario. Pasa entre siete y once horas al día suspendido en las corrientes térmicas, planeando con sus alas completamente planas y sus extremos digitados ligeramente caídos, dibujando una silueta inconfundible de bordes aserrados contra el firmamento.\n\nSu papel ecológico como limpiador de los ecosistemas es fundamental, alimentándose de carroña de vertebrados, aunque ocasionalmente puede capturar pequeñas presas vivas o arrebatar el botín a otros depredadores. En el festín de la carroña, el Buitre Negro hace valer su imponente tamaño y su poderoso pico, imponiendo una estricta dominancia sobre otros buitres mediante un comportamiento agonístico. Mientras que las parejas reproductoras suelen ser sedentarias, los jóvenes emprenden largas migraciones otoñales hacia el sur. Estos ejemplares inmaduros se distinguen por un plumaje completamente negruzco, a diferencia de los adultos, que lucen tonos marrón oscuro y una cabeza más pálida que delata su madurez.",
+  "identification": [
+    "Silueta de vuelo enorme con alas muy anchas, cola corta en forma de cuña y extremos de las alas prominentemente digitados.",
+    "Plumaje general marrón oscuro en adultos (con cabeza más pálida) y completamente negruzco en los jóvenes.",
+    "Planeo característico con las alas planas, mostrando un borde posterior en forma de sierra.",
+    "Pico y cabeza notablemente grandes y robustos, sostenidos por un cuello relativamente corto."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-07-11T05:14:47Z"
+}

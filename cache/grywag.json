@@ -1,0 +1,15 @@
+{
+  "description": "Es bastante común en cursos de agua con rocas cercanas o hábitats rocosos en general, desde arroyos de montaña a vertederos en zonas verdes suburbanas. Camina silenciosamente a lo largo de las costas o en áreas abiertas cercanas, batiendo su cola larga con rectrices externas blancas arriba y abajo. Todos los plumajes tienen la cabeza y la espalda grises, con ceja blanquecina, vientre y cobertoras infracaudales de color amarillo brillante. El macho en plumaje nupcial tiene la garganta negra y partes inferiores en su mayoría amarillas. La hembra en época reproductora a menudo tiene la garganta oscura y partes inferiores amarillas más pálidas.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La lavandera cascadeña es un ave del orden Passeriformes, y de la familia Motacillidae, entre la cual es la especie más esbelta, y con la característica cola más larga.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Motacilla_cinerea",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2490310,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2490310&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22718392"
+}
