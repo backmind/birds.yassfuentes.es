@@ -1,0 +1,11 @@
+{
+  "prose": "En las corrientes impetuosas y arroyos pedregosos que descienden desde las estribaciones hasta las montañas de Nueva Guinea y Nueva Bretaña, habita un paseriforme singular: la petroica torrentera (Monachella muelleriana). En este entorno de aguas bravas flanqueado por árboles, el ave encuentra su atalaya ideal. Se posa con firmeza sobre rocas pulidas por la corriente o en ramas suspendidas sobre el cauce, vigilando la superficie del agua con atención minuciosa. Desde estas perchas estratégicas, la petroica torrentera emprende rápidos y precisos vuelos para capturar en el aire a los insectos que revolotean sobre el torrente, demostrando una notable destreza adaptada a la dinámica del río.\n\nComo única representante de su género, esta pequeña ave constituye un testimonio fascinante de adaptación ecológica a los cursos fluviales de montaña. Su voz, compuesta por un canto aflautado y de tono agudo o llamadas ásperas y rasposas, logra imponerse con claridad sobre el rumor constante del agua. Al alimentarse activamente de la entomofauna asociada a las corrientes rápidas, cumple un papel esencial en el equilibrio biológico de estos ecosistemas ribereños insulares, donde comparte hogar con otras especies fluviales pero destacando siempre por su silueta compacta y su limpio contraste de tonos blancos, grises y negros.",
+  "identification": [
+    "Partes inferiores, rostro y frente de color blanco puro, en contraste con la nuca, alas y cola negras.",
+    "Dorso de tono grisáceo con el obispillo o rabadilla notablemente más pálida.",
+    "Tamaño relativamente pequeño y hábito característico de posarse en rocas o ramas sobre arroyos pedregosos de corriente rápida.",
+    "Canto agudo y aflautado, o reclamos ásperos y raspantes audibles sobre el sonido del agua."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-15T02:52:35Z"
+}

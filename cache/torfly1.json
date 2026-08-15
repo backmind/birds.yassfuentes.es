@@ -1,0 +1,15 @@
+{
+  "description": "La petroica torrentera es una especie de ave paseriforme de la familia Petroicidae, y única representante del género Monachella. Es endémica de Nueva Guinea y Nueva Bretaña.",
+  "description_source": "wikipedia",
+  "bow_intro": "Nota taxonómica: Terrón. Esta cuenta es una combinación de múltiples cuentas de especies publicadas originalmente en HBW Alive. Ese contenido se ha combinado y etiquetado aquí a nivel de subespecie. En el futuro crearemos una cuenta más unificada para este taxón parental. Por favor, considere contribuir con su experiencia para actualizar esta cuenta.",
+  "taxonomy": {},
+  "wikipedia_summary": "La petroica torrentera es una especie de ave paseriforme de la familia Petroicidae, y única representante del género Monachella. Es endémica de Nueva Guinea y Nueva Bretaña.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Monachella_muelleriana",
+  "wikipedia_language": "es",
+  "fallback_text": "A fairly small bird of treelined, rocky streams from the foothills to the mountains. White underparts, face and forehead, black wings, tail and back of the head, and gray back with paler rump. Sits on rocks or branches over a stream from where it makes sallies for insects. Found in the same habitat as Torrent-lark, but Torrent Flycatcher is smaller, and lacks the black back and face. Voice, a high-pitched, piping song or harsh rasping call.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5230805,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5230805&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103735468"
+}
