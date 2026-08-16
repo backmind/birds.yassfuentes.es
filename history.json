@@ -1142,6 +1142,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622964945/900",
       "photographer": "Dubi Shapiro",
       "attribution": "Dubi Shapiro / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurspa1",
+      "comName": "Gavilán Común",
+      "sciName": "Accipiter nisus",
+      "date": "2026-08-16",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254927951/900",
+      "photographer": "Magnus Andersson",
+      "attribution": "Magnus Andersson / Macaulay Library"
     }
   ]
 }

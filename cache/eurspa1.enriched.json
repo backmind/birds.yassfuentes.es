@@ -1,0 +1,11 @@
+{
+  "prose": "Entre la espesura de los bosques, las campiñas arboladas e incluso en los parques y jardines urbanos, el Gavilán Común (Accipiter nisus) se erige como un consumado maestro de la emboscada. Esta rapaz de tamaño pequeño a mediano posee una silueta perfectamente adaptada para la caza entre la vegetación: alas anchas y redondeadas combinadas con una cola notablemente larga, un diseño aerodinámico que le otorga una maniobrabilidad excepcional a gran velocidad. Dotado de unos penetrantes ojos amarillos dorados y largas garras, suele aguardar inmóvil y oculto a la sombra antes de lanzarse en un vuelo rasante y fulgurante, sorprendiendo a pequeñas aves desprevenidas en pleno vuelo o entre las ramas.\n\nEn el gavilán común, el dimorfismo sexual alcanza uno de los grados más acentuados del mundo de las rapaces. La hembra no solo luce un plumaje dorsal pardo grisáceo frente al tono azul pizarra del macho, sino que es alrededor de un 25 % más grande y puede casi duplicar su masa corporal. Esta disparidad determina una fascinante partición del nicho ecológico: mientras el macho captura pájaros de menor porte como páridos, fringílidos y gorriones, la robusta hembra se orienta hacia presas de mayor envergadura, como zorzales y estorninos, siendo capaz de abatir aves que superan los 500 gramos. Con su destreza implacable, cumple una función reguladora esencial sobre las poblaciones de paseriformes a lo largo de Eurasia.",
+  "identification": [
+    "Rapaz compacta de alas anchas y redondeadas con cola larga y delgada; vuelo ágil y bajo intercalando aleteos rápidos y planeos cortos.",
+    "Ojos penetrantes de color amarillo dorado y patas amarillas largas y finas.",
+    "Macho con dorso gris azulado pizarra y pecho finamente barrado con tonos anaranjados o rojizos.",
+    "Hembra notablemente más grande que el macho, con dorso pardo grisáceo, lista superciliar blanquecina y partes inferiores con barreado grisáceo."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-16T03:00:29Z"
+}
