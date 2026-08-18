@@ -1160,6 +1160,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46432381/900",
       "photographer": "Omar alshaheen",
       "attribution": "Omar alshaheen / Macaulay Library"
+    },
+    {
+      "speciesCode": "comred1",
+      "comName": "Archibebe Común",
+      "sciName": "Tringa totanus",
+      "date": "2026-08-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168487271/900",
+      "photographer": "Mouser Williams",
+      "attribution": "Mouser Williams / Macaulay Library"
     }
   ]
 }
