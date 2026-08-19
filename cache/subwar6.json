@@ -1,0 +1,15 @@
+{
+  "description": "",
+  "description_source": "",
+  "bow_intro": "Nota del editor: Debido a las recientes revisiones taxonómicas, esta cuenta de especies aún se está editando y puede contener contenido de una versión anterior de la cuenta, y también puede incluir contenido de una o más especies. Las futuras revisiones de esta cuenta abordarán estas discrepancias.",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Western_subalpine_warbler",
+  "wikipedia_language": "en",
+  "fallback_text": "A small, slim warbler with a long tail. Breeding males are distinctive, with gray upperparts contrasting with a puffy rufous throat and breast, and a bold white moustache mark. Female and non-breeding males resemble a washed-out version of the breeding male, with much less rufous below. Typically found in scrubby, dense bushy habitats, but also in more open woodland and savanna. Sings from the tops of bushes, giving a rattling and loud sequence of notes. The call is a dry",
+  "fallback_language": "en",
+  "gbif_taxon_key": 10700636,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=10700636&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}

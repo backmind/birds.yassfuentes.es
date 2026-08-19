@@ -1169,6 +1169,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168487271/900",
       "photographer": "Mouser Williams",
       "attribution": "Mouser Williams / Macaulay Library"
+    },
+    {
+      "speciesCode": "subwar6",
+      "comName": "Curruca Carrasqueña Occidental",
+      "sciName": "Curruca iberiae",
+      "date": "2026-08-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/362122751/900",
+      "photographer": "Rui Jorge",
+      "attribution": "Rui Jorge / Macaulay Library"
     }
   ]
 }
