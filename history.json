@@ -1178,6 +1178,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/362122751/900",
       "photographer": "Rui Jorge",
       "attribution": "Rui Jorge / Macaulay Library"
+    },
+    {
+      "speciesCode": "goleag",
+      "comName": "Águila Real",
+      "sciName": "Aquila chrysaetos",
+      "date": "2026-08-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305364081/900",
+      "photographer": "Bryan Calk",
+      "attribution": "Bryan Calk / Macaulay Library"
     }
   ]
 }
