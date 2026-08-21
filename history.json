@@ -1187,6 +1187,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305364081/900",
       "photographer": "Bryan Calk",
       "attribution": "Bryan Calk / Macaulay Library"
+    },
+    {
+      "speciesCode": "rorpar",
+      "comName": "Cotorra de Kramer",
+      "sciName": "Psittacula krameri",
+      "date": "2026-08-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622584055/900",
+      "photographer": "Albin Jacob",
+      "attribution": "Albin Jacob / Macaulay Library"
     }
   ]
 }
