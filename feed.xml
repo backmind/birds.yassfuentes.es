@@ -8,6 +8,21 @@
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
     <item>
+      <title>Picogordo Común (Coccothraustes coccothraustes)</title>
+      <link>https://ebird.org/species/hawfin</link>
+      <guid isPermaLink="false">bird-of-the-day-hawfin-2026-08-22</guid>
+      <pubDate>Sat, 22 Aug 2026 02:54:03 +0000</pubDate>
+      <content:encoded><![CDATA[<a href="https://ebird.org/species/hawfin?siteLanguage=es"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257636241/900" alt="Picogordo Común © Ivan Sjögren / Macaulay Library" style="max-width:100%; border-radius:8px;" /></a>
+<p style="font-size:.78rem;font-style:italic;color:#5C6A6E">© Ivan Sjögren / Macaulay Library</p>
+<h2>Picogordo Común — <em>Coccothraustes coccothraustes</em></h2>
+<p><small><em>Fringillidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22720681" style="color:inherit">Preocupación Menor</a></small></p>
+<p>Es un ave poco común que puntualmente puede tener ciertas abundancias. Es tímido y pasa fácilmente inadvertido. Prefiere bosques maduros mixtos y de hoja caduca, especialmente de haya, roble y carpe, donde tiende a alimentarse y posarse en silencio en lo alto de las copas. También se alimenta en el suelo, principalmente en otoño e invierno, formando bandos, pero por lo general no se mezcla con otras especies. Es característico su pico enorme (gris acerado en verano, rosado en invierno) y parte posterior del cuello grisáceo azulado, a modo de chal sobre su anaranjada cabeza. Tiene ancha orla caudal y franja alar blancas, patentes principalmente en vuelo.</p>
+<figure style="margin:1.5rem auto;padding:.85rem;border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center"><a href="https://www.gbif.org/species/2494329" style="display:block;text-decoration:none;border:0"><img src="https://birds.yassfuentes.es/maps/hawfin.png" alt="Distribución mundial de Coccothraustes coccothraustes según GBIF" style="max-width:100%;border-radius:4px" /></a><figcaption style="margin-top:.55rem;font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;letter-spacing:.14em;text-transform:uppercase">Distribución mundial</figcaption></figure>
+<p><small>
+<a href="https://ebird.org/species/hawfin?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Coccothraustes_coccothraustes">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/hawfin/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=hawfin&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+</small></p>]]></content:encoded>
+    </item>
+    <item>
       <title>Cotorra de Kramer (Psittacula krameri)</title>
       <link>https://ebird.org/species/rorpar</link>
       <guid isPermaLink="false">bird-of-the-day-rorpar-2026-08-21</guid>

@@ -1,0 +1,15 @@
+{
+  "description": "Es un ave poco común que puntualmente puede tener ciertas abundancias. Es tímido y pasa fácilmente inadvertido. Prefiere bosques maduros mixtos y de hoja caduca, especialmente de haya, roble y carpe, donde tiende a alimentarse y posarse en silencio en lo alto de las copas. También se alimenta en el suelo, principalmente en otoño e invierno, formando bandos, pero por lo general no se mezcla con otras especies. Es característico su pico enorme (gris acerado en verano, rosado en invierno) y parte posterior del cuello grisáceo azulado, a modo de chal sobre su anaranjada cabeza. Tiene ancha orla caudal y franja alar blancas, patentes principalmente en vuelo.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El picogordo común es una especie de ave paseriforme de la familia Fringillidae propia del paleártico. En la actualidad es la única especie del género Coccothraustes. Sigiloso y difícil de observar, es uno de los fringílidos más robustos y compactos. De color pardo anaranjado, posee un característico «antifaz» negro, y alas de colorido oscuro, donde sobresale una franja blanca y un color azulón en las puntas. Vive en bosques caducifolios, donde se alimenta principalmente de las semillas duras que abre con su potente pico. Carlos Linneo, en 1758, fue el primero en describir esta especie para la ciencia. La especie posee seis subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Coccothraustes_coccothraustes",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2494329,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2494329&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22720681"
+}

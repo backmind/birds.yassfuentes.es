@@ -1196,6 +1196,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622584055/900",
       "photographer": "Albin Jacob",
       "attribution": "Albin Jacob / Macaulay Library"
+    },
+    {
+      "speciesCode": "hawfin",
+      "comName": "Picogordo Común",
+      "sciName": "Coccothraustes coccothraustes",
+      "date": "2026-08-22",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257636241/900",
+      "photographer": "Ivan Sjögren",
+      "attribution": "Ivan Sjögren / Macaulay Library"
     }
   ]
 }
