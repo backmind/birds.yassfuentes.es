@@ -1205,6 +1205,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257636241/900",
       "photographer": "Ivan Sjögren",
       "attribution": "Ivan Sjögren / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurjay1",
+      "comName": "Arrendajo Euroasiático",
+      "sciName": "Garrulus glandarius",
+      "date": "2026-08-23",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252252921/900",
+      "photographer": "John Higgins",
+      "attribution": "John Higgins / Macaulay Library"
     }
   ]
 }

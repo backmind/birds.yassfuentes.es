@@ -1,0 +1,11 @@
+{
+  "prose": "El arrendajo euroasiático (Garrulus glandarius) es uno de los centinelas más fascinantes de los bosques y arboledas del Paleártico, con una marcada predilección por los robledales, aunque también frecuenta parques y jardines con arbolado maduro. A pesar de su porte relativamente grande y su llamativo plumaje de tonos pardo rosáceos, se trata de un ave a menudo tímida y esquiva, difícil de observar con calma entre la espesura. Sin embargo, su presencia rara vez pasa desapercibida gracias a sus estridentes y ásperas llamadas de alarma, que resuenan por el dosel forestal. En vuelo, visible con frecuencia al cruzar carreteras o claros, revela un nítido contraste entre su obispillo blanco brillante y sus alas oscuras marcadas por un vivo destello azul.\n\nDotado de una notable inteligencia, como es propio de los córvidos, el arrendajo euroasiático desempeña un papel ecológico crucial como sembrador del bosque. Durante el otoño recolecta y entierra con minuciosidad miles de bellotas para almacenar reservas invernales; al olvidar o dejar sin consumir muchas de ellas, propicia de forma directa la regeneración de los robledales en el continente euroasiático. En épocas pasadas, sus vistosas plumas alares fueron codiciadas para la sombrerería y la confección de señuelos para la pesca con mosca de salmones y truchas, lo que causó declives poblacionales a principios del siglo XX. Hoy, libre en gran medida de esa persecución, el arrendajo continúa ampliando su presencia e integrándose con éxito en entornos modificados por el ser humano.",
+  "identification": [
+    "Plumaje corporal pardo rosáceo con un conspicuo obispillo blanco muy visible durante el vuelo.",
+    "Mancha alar azul brillante finamente barrada de negro y blanco en las coberteras del hombro.",
+    "Bigotera negra ancha y bien definida a ambos lados de un pico robusto y oscuro.",
+    "Reclamo áspero, estridente y rasgado que emite con frecuencia como voz de alarma en la espesura."
+  ],
+  "model": "gemini-flash-latest",
+  "timestamp": "2026-08-23T03:03:11Z"
+}
