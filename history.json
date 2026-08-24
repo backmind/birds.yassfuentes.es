@@ -1214,6 +1214,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252252921/900",
       "photographer": "John Higgins",
       "attribution": "John Higgins / Macaulay Library"
+    },
+    {
+      "speciesCode": "trepip",
+      "comName": "Bisbita Arbóreo",
+      "sciName": "Anthus trivialis",
+      "date": "2026-08-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46493931/900",
+      "photographer": "Ian Davies",
+      "attribution": "Ian Davies / Macaulay Library"
     }
   ]
 }
