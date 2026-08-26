@@ -1,0 +1,15 @@
+{
+  "description": "Común en hábitats abiertos y semiabiertos, desde ciudades y parques arbolados a zonas agrícolas y acantilados costeros. Frecuenta los edificios de piedra y las chimeneas. Anida en cavidades. Característico y pequeño Crow, social, con contrastado dorso gris plateado y curiosos ojos blanquecinos. En los juveniles el dorso y los ojos son más apagados. Camina de forma confiada y puede ser fácil de ver donde no es perseguida, fácilmente asociada a Crows y Rooks. Los bandos pueden sumar centenares en época no reproductora.",
+  "description_source": "ebird",
+  "bow_intro": "Europa occidental y meridional desde las Islas Británicas, al este hasta Italia, al sur hasta Marruecos y el noroeste de Argelia. Europa oriental y sudoriental hasta Turquía, Chipre y el norte de Israel, al este de Asia hasta el centro-sur de Siberia, el oeste de Mongolia, el oeste de China (norte y oeste de Xinjiang) y Cachemira. Inverna en el norte de Oriente Próximo y al este hasta el noroeste de la India.",
+  "taxonomy": {},
+  "wikipedia_summary": "La grajilla occidental es una especie de ave paseriforme de la familia Corvidae. Se distribuye por Europa, el occidente de Asia y África del Norte, y por lo general, es una especie sedentaria, aunque las poblaciones del norte y el oriente suelen migrar hacia el sur en el invierno. Existen cuatro subespecies reconocidas que se diferencian principalmente por la coloración del plumaje de la cabeza y la nuca. Linneo fue el primero en describir la especie, asignándola el nombre de Corvus monedula. El análisis de ADN sugiere que su pariente más cercano es la grajilla oriental, con la que constituye una ramificación temprana del género Corvus, considerada en la actualidad un género separado, Coloeus.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Coloeus_monedula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 6100954,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=6100954&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}

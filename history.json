@@ -1232,6 +1232,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55028931/900",
       "photographer": "Patrick J. Blake",
       "attribution": "Patrick J. Blake / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurjac",
+      "comName": "Grajilla Occidental",
+      "sciName": "Coloeus monedula",
+      "date": "2026-08-26",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035361/900",
+      "photographer": "Ryan Schain",
+      "attribution": "Ryan Schain / Macaulay Library"
     }
   ]
 }

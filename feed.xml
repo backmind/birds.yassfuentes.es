@@ -8,6 +8,22 @@
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
     <item>
+      <title>Grajilla Occidental (Coloeus monedula)</title>
+      <link>https://ebird.org/species/eurjac</link>
+      <guid isPermaLink="false">bird-of-the-day-eurjac-2026-08-26</guid>
+      <pubDate>Wed, 26 Aug 2026 03:05:01 +0000</pubDate>
+      <content:encoded><![CDATA[<a href="https://ebird.org/species/eurjac?siteLanguage=es"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035361/900" alt="Grajilla Occidental © Ryan Schain / Macaulay Library" style="max-width:100%; border-radius:8px;" /></a>
+<p style="font-size:.78rem;font-style:italic;color:#5C6A6E">© Ryan Schain / Macaulay Library</p>
+<h2>Grajilla Occidental — <em>Coloeus monedula</em></h2>
+<p><small><em>Corvidae</em> · <em>Passeriformes</em> // No Evaluado</small></p>
+<p>Común en hábitats abiertos y semiabiertos, desde ciudades y parques arbolados a zonas agrícolas y acantilados costeros. Frecuenta los edificios de piedra y las chimeneas. Anida en cavidades. Característico y pequeño Crow, social, con contrastado dorso gris plateado y curiosos ojos blanquecinos. En los juveniles el dorso y los ojos son más apagados. Camina de forma confiada y puede ser fácil de ver donde no es perseguida, fácilmente asociada a Crows y Rooks. Los bandos pueden sumar centenares en época no reproductora.</p>
+<p>Europa occidental y meridional desde las Islas Británicas, al este hasta Italia, al sur hasta Marruecos y el noroeste de Argelia. Europa oriental y sudoriental hasta Turquía, Chipre y el norte de Israel, al este de Asia hasta el centro-sur de Siberia, el oeste de Mongolia, el oeste de China (norte y oeste de Xinjiang) y Cachemira. Inverna en el norte de Oriente Próximo y al este hasta el noroeste de la India.</p>
+<figure style="margin:1.5rem auto;padding:.85rem;border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center"><a href="https://www.gbif.org/species/6100954" style="display:block;text-decoration:none;border:0"><img src="https://birds.yassfuentes.es/maps/eurjac.png" alt="Distribución mundial de Coloeus monedula según GBIF" style="max-width:100%;border-radius:4px" /></a><figcaption style="margin-top:.55rem;font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;letter-spacing:.14em;text-transform:uppercase">Distribución mundial</figcaption></figure>
+<p><small>
+<a href="https://ebird.org/species/eurjac?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Coloeus_monedula">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eurjac/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eurjac&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+</small></p>]]></content:encoded>
+    </item>
+    <item>
       <title>Autillo Europeo (Otus scops)</title>
       <link>https://ebird.org/species/eursco1</link>
       <guid isPermaLink="false">bird-of-the-day-eursco1-2026-08-25</guid>
