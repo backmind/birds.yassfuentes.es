@@ -1241,6 +1241,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035361/900",
       "photographer": "Ryan Schain",
       "attribution": "Ryan Schain / Macaulay Library"
+    },
+    {
+      "speciesCode": "garrob1",
+      "comName": "Petroica Granate",
+      "sciName": "Eugerygone rubra",
+      "date": "2026-08-27",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275299061/900",
+      "photographer": "Jacques Erard",
+      "attribution": "Jacques Erard / Macaulay Library"
     }
   ]
 }

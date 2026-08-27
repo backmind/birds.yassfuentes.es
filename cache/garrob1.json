@@ -1,0 +1,15 @@
+{
+  "description": "La petroica granate es una especie de ave paseriforme de la familia Petroicidae endémica de las montañas de Nueva Guinea. Es la única especie del género Eugerygone.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La petroica granate es una especie de ave paseriforme de la familia Petroicidae endémica de las montañas de Nueva Guinea. Es la única especie del género Eugerygone.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Eugerygone_rubra",
+  "wikipedia_language": "es",
+  "fallback_text": "A small bird of montane forest. Gray underparts and face, paler to whitish on the throat and belly, black wing with white flash and black tail with white outer tail feathers and tips to the undertail. Note the white eye-ring which is broader at the back. Male has a dark, reddish back and the female olive green. Distinctive horizontal posture and twitching wings and tail. No other similar-sized bird in this habitat have a white patch in the wing. Song, a repeated, high-pitch, tinkling “twiddle-dee”.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489312,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489312&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22704792"
+}
