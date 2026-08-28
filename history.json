@@ -1250,6 +1250,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275299061/900",
       "photographer": "Jacques Erard",
       "attribution": "Jacques Erard / Macaulay Library"
+    },
+    {
+      "speciesCode": "caichi1",
+      "comName": "Mosquitero Canario",
+      "sciName": "Phylloscopus canariensis",
+      "date": "2026-08-28",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/611393322/900",
+      "photographer": "Andrés  Rojas Sánchez",
+      "attribution": "Andrés  Rojas Sánchez / Macaulay Library"
     }
   ]
 }
