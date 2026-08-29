@@ -35,6 +35,8 @@
     }
   ],
   "dedup_window": 50,
+  "rarity_bias": 0,
+  "_rarity_bias_help": "Strength of the bias towards rarer species in the daily draw. 0 = uniform (no bias), 0.5 = the template default, 1 = strong inverse-count bias, negative = favours the most abundant species. This instance draws uniformly on purpose: the count the bias reads is how many individuals were in a species' most recent reported sighting, which is noise about which checklist arrived last rather than a measure of how common the bird is. Set via BOTD_RARITY_BIAS.",
   "max_feed_entries": 30,
   "_max_feed_entries_help": "Entries in feed.xml. 0 = unlimited. With a cap, a second feed-full.xml carries the whole history. Set via BOTD_MAX_FEED_ENTRIES for Docker.",
   "feed_rebuild_all": false,
