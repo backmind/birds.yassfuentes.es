@@ -1,0 +1,12 @@
+{
+  "prose": "En los campos abiertos, zonas agrícolas y ciudades de América del Sur, la Cotorra Argentina (Myiopsitta monachus) destaca por su notable adaptabilidad y su vibrante colorido. Con un plumaje verde lima brillante en el dorso, la cara y el pecho de un tono grisáceo claro, y pinceladas azules en las puntas de las alas, esta inteligente ave llama de inmediato la atención. A diferencia de la inmensa mayoría de los psitácidos, que dependen de cavidades en los árboles para criar, la Cotorra Argentina teje voluminosas estructuras de palos sobre la vegetación o en altas construcciones humanas, como torres de telecomunicaciones y postes eléctricos. Su voz áspera y chirriante resuena constantemente en las colonias donde sus habitantes construyen y mantienen estos complejos nidos comunitarios durante todo el año.\n\nEsta singular capacidad arquitectónica, compartida únicamente con la Cotorra Boliviana (Myiopsitta luchsi), ha sido clave en su asombroso éxito biológico. Debido a su gran popularidad en el comercio internacional de mascotas, la especie ha establecido poblaciones naturalizadas en numerosas metrópolis de Norteamérica, Europa y otras regiones del mundo. El mantenimiento continuo de sus densos nidos de ramas no solo le otorga una flexibilidad excepcional frente a la pérdida de bosques nativos, sino que también proporciona un refugio térmico permanente que le permite sobrevivir en latitudes con inviernos considerablemente más fríos que los de su tierra originaria.",
+  "identification": [
+    "Plumaje verde lima en el dorso con el rostro y el pecho de color grisáceo claro.",
+    "Puntas de las alas con vistosas plumas de color azul.",
+    "Pico de tono rosado anaranjado y patas grisáceas.",
+    "Enormes nidos comunitarios hechos de palos en árboles o estructuras elevadas.",
+    "Vocalizaciones característicamente ásperas y chirriantes."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:24:39Z"
+}

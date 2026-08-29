@@ -1,0 +1,12 @@
+{
+  "prose": "Sobre los vastos herbazales y campos agrícolas que se extienden desde la península ibérica hasta el centro de Asia, pequeñas rapaces cortan el viento con admirable ligereza. Se trata del Cernícalo Primilla (Falco naumanni), un viajero incansable que nidifica en el sur de Europa, el norte de África y Asia durante la primavera para luego emprender una larga migración invernal hacia el África subsahariana. A diferencia de otros halcones de hábitos más solitarios, esta especie destaca por su acusada naturaleza gregaria. En lugar de cumbres inaccesibles, busca la cercanía de las estructuras humanas, estableciendo nutridas colonias de cría en los mechinales de viejos edificios, iglesias y cortijos ruralmente integrados en el paisaje.\n\nA simple vista, su estampa recuerda de inmediato a la del Cernícalo Vulgar, pero una mirada pausada revela detalles anatómicos singulares. Una de sus señas de identidad más deslumbrantes se encuentra en sus extremidades: a diferencia de la mayoría de sus congéneres, el Cernícalo Primilla luce uñas de un impoluto tono blanco. Los machos adultos carecen del moteado oscuro en el dorso castaño y lucen una vistosa mancha azul grisácea en el plano superior de las alas. Experto en el arte del cernido, permanece suspendido en el aire con batidos sutiles antes de lanzarse con precisión a capturar grandes insectos, cumpliendo así un rol ecológico indispensable como regulador natural en los ecosistemas abiertos.",
+  "identification": [
+    "Uñas de color blanco pálido, rasgo distintivo frente a las uñas negras del Cernícalo Vulgar.",
+    "Macho adulto con dorso y cobertoras alares de color ladrillo sin moteado oscuro, complementado con un parche azul grisáceo en el ala.",
+    "Alas ligeramente más cortas y redondeadas que en el Cernícalo Vulgar, con las plumas centrales de la cola sutilmente más largas.",
+    "Hábito colonial marcado tanto para cazar como para criar en huecos de edificaciones humanas.",
+    "Vuelo ágil con frecuentes paradas en suspenso (cernido) para capturar insectos en el aire o sobre el terreno."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:27:17Z"
+}

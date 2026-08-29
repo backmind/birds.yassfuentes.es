@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra protectora de los bosques caducifolios maduros del Paleártico, habita una criatura tan discreta como fascinante. El Picogordo Común (Coccothraustes coccothraustes) es uno de los miembros más robustos y compactos de la familia de los fringílidos. Tímido y extraordinariamente sigiloso, pasa gran parte del tiempo en lo alto de las copas de hayas, robles y carpes, posado en silencio para evitar llamar la atención. Sin embargo, al llegar el otoño y el invierno, esta ave desciende al suelo en bandos de su misma especie para alimentarse, revelando su presencia con una compostura sobria y distante frente a otras aves.\n\nLo que verdaderamente impresiona de esta especie es su prodigiosa adaptación anatómica. El Picogordo Común posee una cabeza voluminosa adornada con una nuca grisácea y un fino antifaz negro, pero es su monumental pico el que capta todas las miradas. Capaz de ejercer una presión sorprendente para fracturar las semillas más duras y los huesos de los frutos silvestres, este pico cambia de aspecto con las estaciones: exhibe un tono gris acerado en la época reproductora y se vuelve rosáceo durante el invierno. Con su franja alar blanca patente en vuelo y sus puntas alares teñidas de un característico tono azulado, este especialista del bosque encarna la perfecta unión entre fuerza y elegancia.",
+  "identification": [
+    "Pico monumental y extremadamente fuerte, gris acerado en verano y rosado en invierno.",
+    "Cabeza anaranjada con antifaz negro alrededor del pico y chal gris azulado en la nuca.",
+    "Alas oscuras con una ancha franja alar blanca y plumas con reflejos azulados.",
+    "Silueta muy compacta, de aspecto robusto y cola corta con orla terminal blanca."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:20:34Z"
+}

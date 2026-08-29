@@ -1,0 +1,11 @@
+{
+  "prose": "En los humedales someros del Paleártico, donde el agua y la vegetación emergente se entrelazan, habita la Cerceta Pardilla (Marmaronetta angustirostris). Este pequeño anátido destaca por su delicado plumaje de tonos grisáceos y pardo-crema, moteado de manchas pálidas que le otorgan un aspecto jaspeado único y discreto. A diferencia de otros patos, carece de un espejuelo vistoso en las alas, exhibiendo en su lugar un patrón pálido en vuelo con zonas inferiores del ala blanquecinas y las puntas oscuras. Es una criatura de costumbres apacibles y habitualmente silenciosa, que busca refugio y sustento en aguas dulces o salobres de escasa profundidad, siempre asociada a una vegetación acuática bien estructurada.\n\nAdaptada magistralmente a la naturaleza cambiante de los humedales semipermanentes y temporales, la Cerceta Pardilla es una especie parcialmente migratoria con un marcado carácter nómada. Sus poblaciones, repartidas de forma muy fragmentada desde el suroeste y centro de Asia hasta el noroeste de África y la Península Ibérica, se desplazan oportunistamente siguiendo la disponibilidad de agua. Aunque sus viajes hacia el sur ocurren entre agosto y noviembre, con un retorno primaveral entre enero y mayo, algunos ejemplares permanecen en sus zonas de cría durante el invierno si las condiciones lo permiten. El macho se distingue sutilmente de la hembra por lucir una pequeña cresta en la cabeza, rematando el perfil de un pato perfectamente integrado en la fragilidad de los ecosistemas acuáticos.",
+  "identification": [
+    "Plumaje pálido gris pardo cubierto de manchas claras, con un antifaz oscuro sobre el ojo y pico negro.",
+    "Ausencia de espejuelo en las alas; en vuelo muestra la parte inferior del ala blanquecina, secundarias claras y puntas oscuras.",
+    "Tamaño pequeño con cuello y alas largos; el macho posee una ligera cresta posterior en la cabeza.",
+    "Comportamiento habitualmente silencioso, ligado a humedales someros con vegetación emergente."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:32:17Z"
+}

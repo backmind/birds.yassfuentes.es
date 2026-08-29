@@ -8,8 +8,9 @@
   "wikipedia_language": "es",
   "fallback_text": "",
   "fallback_language": "",
-  "gbif_taxon_key": null,
-  "distribution_map_url": "",
-  "iucn_code": "",
-  "iucn_birdlife_url": ""
+  "gbif_taxon_key": 5845582,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5845582&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22720330"
 }

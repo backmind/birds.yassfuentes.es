@@ -1,0 +1,12 @@
+{
+  "prose": "En las frondosas selvas montanas de Nueva Guinea habita una criatura pequeña pero fascinante: la Petroica Granate (Eugerygone rubra). Este inquieto ave paseriforme, único representante del género Eugerygone, se desplaza entre la vegetación adoptando una postura marcadamente horizontal. Su comportamiento, caracterizado por continuos y nerviosos movimientos de alas y cola, llama de inmediato la atención de quien observa la vida en el sotobosque y el dosel. En este ambiente de montaña, la especie destaca por su agilidad mientras busca pequeñas presas entre las ramas.\n\nEsta especie presenta un dimorfismo sexual evidente en su plumaje: los machos lucen un dorso de un tono granate oscuro que le da nombre, mientras que las hembras exhiben una espalda de un discreto verde oliva ideal para el camuflaje. El canto de la Petroica Granate es un reclamo agudo y cristalino, un tintineo repetido que rompe la quietud del bosque montano. Como ave insectívora endémica de la isla, cumple una función ecológica esencial en la regulación de poblaciones de invertebrados en estos ecosistemas únicos.",
+  "identification": [
+    "Macho con dorso de color granate oscuro y hembra con dorso verde oliva",
+    "Parche blanco en las alas negras, rasgo único entre aves de su tamaño en este hábitat",
+    "Anillo ocular blanco más ancho en la parte posterior del ojo",
+    "Postura horizontal característica con espasmódicos sacudiones de alas y cola",
+    "Canto agudo y cristalino que suena como un tintineo repetido"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:18:29Z"
+}

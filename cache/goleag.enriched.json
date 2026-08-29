@@ -1,0 +1,11 @@
+{
+  "prose": "El águila real (Aquila chrysaetos) es una de las aves de presa más majestuosas y ampliamente distribuidas del planeta. Presente en gran parte del hemisferio norte, desde el norte de África y Eurasia hasta las vastas tierras de Norteamérica, esta formidable rapaz habita espacios abiertos y remotos que van desde estepas y pastizales hasta escarpadas zonas montañosas. Con su impresionante habilidad para aprovechar las corrientes térmicas ascendentes provocadas por el relieve, planea con gran elegancia sosteniendo sus alas en una sutil forma de V. Desde las alturas, su agudísima visión explora el paisaje en busca de mamíferos, que constituyen el núcleo de su dieta.\n\nSímbolo de fuerza y reverencia en numerosas culturas humanas a lo largo de los siglos, el águila real desempeña un papel ecológico fundamental como gran depredador. Aunque muchas poblaciones son residentes todo el año, los individuos que nidifican en las latitudes más septentrionales de Alaska y Canadá emprenden largas migraciones de miles de kilómetros hacia el sur. Los ejemplares jóvenes destacan por exhibir llamativos parches blancos en la parte inferior de las alas y en la base de la cola. Lamentablemente, el desarrollo humano, la electrocución en infraestructuras eléctricas y la alteración de su hábitat han reducido sus poblaciones en regiones como Europa Central, recordándonos la vulnerabilidad de incluso las criaturas más imponentes del mundo natural.",
+  "identification": [
+    "Plumaje corporal predominantemente marrón oscuro, sin manchas blancas en el vientre.",
+    "Inmaduros con parches blancos distintivos en la parte inferior de las alas y la base de la cola blanca.",
+    "Alas sostenidas en una ligera forma de V inclinada hacia arriba durante el planeo.",
+    "Cabeza proporcionalmente más pequeña en comparación con la del Pigargo Americano (Haliaeetus leucocephalus)."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:21:31Z"
+}

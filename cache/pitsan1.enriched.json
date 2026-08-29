@@ -1,0 +1,11 @@
+{
+  "prose": "En las vastas y áridas llanuras del sur de Eurasia y el norte de África, la vida se ha adaptado a condiciones extremas de sequedad y sol radiante. En este entorno árido habita la Ganga Ibérica (Pterocles alchata), un ave perfectamente moldeada por la evolución para prosperar en terrenos semidesérticos, esteparios y lechos secos de ríos o lagunas. Con un vuelo potente y directo que recuerda al de una paloma, esta especie realiza desplazamientos de carácter nómada según la disponibilidad de recursos. Su comportamiento más característico ocurre durante las primeras horas de la mañana, cuando se desplaza a menudo en grandes bandos hacia bebederos para saciar la sed, ofreciendo un espectáculo de gran coordinación social.\n\nLo que resulta admirable en la Ganga Ibérica es su detallado diseño cromático y sus marcadas adaptaciones estéticas. En pleno vuelo, sus largas proyecciones caudales se dibujan de forma inconfundible en el cielo. Su plumaje combina un vientre blanco impoluto que contrasta notablemente con una ancha franja pectoral de tono castaño, enmarcada por bordes negros. Además, muestra un dimorfismo evidente en la garganta: mientras las hembras la conservan blanca, los machos en plumaje nupcial exhiben una garganta de un negro profundo. Como ave adaptada a las estepas secas, desempeña un papel clave en la dinámica de estos frágiles ecosistemas abiertos.",
+  "identification": [
+    "Vientre y partes inferiores de color blanco puro, en fuerte contraste con una ancha banda pectoral castaña de bordes negros.",
+    "Largas proyecciones en la cola, claramente visibles mientras vuela.",
+    "Dimorfismo en la garganta: negra en los machos en plumaje nupcial y blanca en las hembras.",
+    "Vuelo rápido, directo y potente, con una silueta similar a la de una paloma."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:25:41Z"
+}

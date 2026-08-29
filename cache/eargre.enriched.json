@@ -1,0 +1,11 @@
+{
+  "prose": "El Zampullín Cuellinegro (Podiceps nigricollis) es la especie más abundante de su familia en el planeta, presente en Eurasia, África y Norteamérica. En las regiones interiores del continente americano, nidifica en estanques y lagos someros de agua alcalina, donde establece colonias muy sociables que pueden alcanzar miles de individuos. Con una anatomía perfectamente adaptada a la vida acuática y un pico excepcionalmente delgado, se alimenta sobre todo de pequeños invertebrados. Durante el periodo reproductivo, las parejas ejecutan elaboradas exhibiciones nupciales acompañadas de llamadas distintivas. Juntos construyen plataformas flotantes de vegetación amontonada e imbricada en las plantas acuáticas. La incubación comienza con la puesta del primer huevo, lo que provoca una eclosión asíncrona; tras nacer, los padres se turnan para llevar a las crías sobre el lomo mientras el otro busca alimento.\n\nAl finalizar la cría, gran parte de la población realiza un viaje fascinante hacia grandes lagos hipersalinos, como el Gran Lago Salado o el lago Mono. En estos ambientes salinos extremos, donde comparte hábitat especializado con el Falaropo Tricolor (Phalaropus tricolor), aprovecha las colosales cosechas de camarones de salmuera y moscas alcalinas para nutrirse y mudar sus plumas. Durante la primavera, los adultos exhiben un hermoso plumaje con abanicos dorados en las mejillas y ojos de un rojo vivo deslumbrante. En invierno, sin embargo, se transforman en criaturas discretas de lomo oscuro, cuello grisáceo y mejillas blanquecinas, fusionándose en perfecta armonía con la lámina de agua.",
+  "identification": [
+    "Pico muy delgado y llamativos ojos de color rojo vivo",
+    "Plumaje reproductor con cuerpo oscuro, cuello negro y plumas amarillas en abanico sobre las mejillas",
+    "Plumaje invernal sobrio con corona negra, cuello gris y manchas blanquecinas en las mejillas",
+    "Cuerpo pequeño agrupado con frecuencia en grandes colonias sobre cuerpos de agua de medianos a grandes"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:23:31Z"
+}

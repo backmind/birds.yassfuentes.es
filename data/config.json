@@ -41,13 +41,14 @@
 
   "feed_link": "https://birds.yassfuentes.es/",
 
-  "content_mode": "enriched",
-  "_content_mode_help": "One of: programmatic (scrape-only, no LLM) | enriched (LLM generates cohesive text from scraped sources). Default: programmatic.",
+  "backfill_limit": 3,
+  "_backfill_limit_help": "Max healing actions (missed enrichments, failed GBIF lookups) retried per run. 0 disables self-healing.",
+
   "llm": {
     "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
-    "model": "gemini-flash-latest",
-    "temperature": 0,
-    "max_retries": 2
+    "models": ["gemini-3.7-flash", "gemini-3.6-flash"],
+    "temperature": 0.6,
+    "judge": false
   },
-  "_llm_help": "OpenAI-compatible chat completions endpoint. API key via BOTD_LLM_API_KEY env var."
+  "_llm_help": "OpenAI-compatible chat completions endpoint. 'models' are tried in order until one succeeds; pin concrete model names, not -latest aliases. API key via BOTD_LLM_API_KEY env var. 'judge' enables an optional second-pass fact-check."
 }

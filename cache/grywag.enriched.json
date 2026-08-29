@@ -1,0 +1,11 @@
+{
+  "prose": "En el murmullo constante de los cursos de agua, entre rocas húmedas y orillas abiertas, habita la Lavandera Cascadeña (Motacilla cinerea). Pertenece a la familia Motacillidae y al orden Passeriformes, siendo la especie más esbelta de su grupo y la posesora de la cola más larga. Con un caminar silencioso y pausado, explora diversos entornos acuáticos y rocosos, desde impetuosos arroyos de montaña hasta vertederos en zonas verdes suburbanas. En todos sus plumajes destaca el contraste entre su cabeza y espalda de color gris ceniza, una ceja blanquecina y el vientre deslumbrante con cobertoras infracaudales de un vivo amarillo.\n\nEl aspecto de la lavandera cascadeña varía sutilmente con la llegada de la primavera. Durante la época reproductora, el macho luce una característica garganta negra sobre sus partes inferiores predominantemente amarillas, mientras que la hembra presenta con frecuencia una garganta oscura y un amarillo algo más pálido. Al desplazarse o buscar alimento, batea rítmicamente su prominente cola hacia arriba y hacia abajo, revelando unas rectrices externas blancas visibles tanto por la cara superior como por la inferior. Su incesante actividad en los márgenes fluviales la convierte en un valioso indicador ecológico de la salud de los cursos de agua.",
+  "identification": [
+    "Cabeza y espalda grises con ceja blanquecina y vientre de color amarillo brillante.",
+    "Cola notablemente larga que batea de forma continua, con rectrices externas blancas.",
+    "Macho reproductor con garganta negra; hembra en época reproductora con garganta oscura y amarillo más tenue.",
+    "La especie más esbelta y con la cola más larga de la familia Motacillidae."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:31:18Z"
+}

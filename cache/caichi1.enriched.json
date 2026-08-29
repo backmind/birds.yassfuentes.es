@@ -1,0 +1,11 @@
+{
+  "prose": "El Mosquitero Canario (Phylloscopus canariensis) es una pequeña y vivaz ave paseriforme que habita de manera exclusiva en las Islas Canarias. Incansable explorador de la vegetación, este diminuto habitante insular coloniza con éxito una notable variedad de ambientes, desde los bosques y plantaciones hasta zonas arbustivas y jardines. De tonos verde-parduscos en el dorso y partes inferiores pálidas, resalta en su rostro una ceja larga y bien definida. Sus alas, notablemente más cortas que las del Mosquitero Común (Phylloscopus collybita), otorgan a su silueta una apariencia característica en la que la cola parece apreciablemente más larga mientras se mueve con agilidad entre el follaje.\n\nConocido también en las islas bajo el nombre vernáculo de hornero, fue considerado durante mucho tiempo como una subespecie del Mosquitero Común antes de que los análisis taxonómicos confirmaran su categoría de especie plena. Aunque su voz guarda semejanzas con la de su pariente continental, el canto del Mosquitero Canario se distingue por un ritmo mucho más explosivo, enérgico e irregular. Equipado con patas de coloración pálida y un pico ligeramente curvado muy adaptado a la captura de pequeños invertebrados, este endemismo cumple una función ecológica primordial como activo controlador de insectos en los diversos ecosistemas del archipiélago.",
+  "identification": [
+    "Dorso verde-pardusco, zonas inferiores pálidas y una ceja larga muy prominente.",
+    "Alas comparativamente cortas que hacen que la cola parezca más alargada.",
+    "Patas de tonos bastante pálidos y pico sutilmente curvado.",
+    "Canto similar al del Mosquitero Común, pero notablemente más explosivo e irregular."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T10:31:34Z"
+}

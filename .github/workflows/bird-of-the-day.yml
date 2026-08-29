@@ -3,6 +3,7 @@ name: Bird of the Day
 on:
   schedule:
     - cron: '0 2 * * *'  # 02:00 UTC ≈ 04:00 CEST (Madrid)
+    - cron: '0 6 * * *'  # second tick: backfill retries same-day LLM/GBIF failures
   workflow_dispatch:
 
 permissions:
@@ -33,7 +34,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml history.json index.html archive.html cache/ maps/
+          git add feed.xml history.json index.html archive.html cache/ maps/ assets/
           git diff --staged --quiet && echo "No changes to commit" && exit 0
           git commit -m "🐦 Bird of the day: $(date -u +%Y-%m-%d)"
           git pull --rebase origin main

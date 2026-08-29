@@ -1,0 +1,12 @@
+{
+  "prose": "En la penumbra del sotobosque y los estratos medios de los bosques montanos de América Central, desde Costa Rica hasta el oeste de Panamá, habita una criatura discreta pero fascinante: el Trepamusgos Pechirrayado (Thripadectes rufobrunneus). Entre los 900 y los 2500 metros de altitud, donde la humedad favorece un denso crecimiento vegetal, este miembro de la familia Furnariidae se desplaza con paciencia y cautela. Se le puede observar en solitario, en parejas o integrado en bandadas de especies mixtas, explorando minuciosamente las ramas musgosas y adentrándose en intrincadas marañas de vegetación en busca de alimento. Su plumaje en tonos marrones cálidos le brinda un mimetismo excepcional en el sotobosque.\n\nA pesar de la sobriedad general de su plumaje, el Trepamusgos Pechirrayado guarda detalles anatómicos de gran utilidad para el observador atento. Destaca una garganta anaranjada relativamente brillante que contrasta de manera sutil con las finas estrías oscuras que adornan la parte superior del pecho. A diferencia de otros trepadores emparentados, presenta una cabeza de aspecto sencillo, carente de ceja o lista superciliar. En el ecosistema del bosque montano siempreverde, su labor de inspección constante en ramas y restos vegetales contribuye a la dinámica alimentaria del sotobosque, revelando su presencia mediante un canto característico formado por una serie de notas ásperas y apareadas.",
+  "identification": [
+    "Garganta de tono anaranjado relativamente brillante.",
+    "Estrías oscuras limitadas a la garganta y la parte superior del pecho.",
+    "Pico fuerte y completamente oscuro.",
+    "Cabeza uniforme y sencilla, sin ceja ni lista superciliar.",
+    "Canto formado por una serie de notas ásperas emitidas en parejas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:33:18Z"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "En las copas de los árboles y bordes forestales del sur y sudeste de Asia, se desplaza una criatura diminuta y discreta. El Picaflores Picogrueso (*Pachyglossa agilis*) presenta un plumaje de tonos pardo grisáceos poco llamativos que le permite mimetizarse perfectamente con la fronda. Aunque su nombre sugiere un pico robusto, este rasgo no es desmedidamente evidente en el campo; en su lugar, destaca por su actividad incesante en una gran variedad de tipos de bosque y gradientes altitudinales. A menudo, la presencia del Picaflores Picogrueso se delata antes por el oído que por la vista, gracias a su característico reclamo enérgico y levemente húmedo, un agudo \"tsip!\" que retumba en el dosel.\n\nLa importancia ecológica de esta especie trasciende su modesta apariencia. Al igual que otros representantes de su grupo, el Picaflores Picogrueso mantiene una relación estrecha con diversas plantas parásitas, especialmente los muérdagos. Al consumirlos, el ave actúa como un vital dispersor de semillas, depositándolas sobre nuevas ramas donde las plantas pueden germinar. Esta interacción mutualista asegura la regeneración de la flora epífita en la canopia. Así, este pequeño habitante del dosel se convierte en un arquitecto silencioso pero indispensable para la salud y la biodiversidad de su entorno forestal.",
+  "identification": [
+    "Plumaje pardo grisáceo apagado en el dorso con partes inferiores claras fuertemente veteadas.",
+    "Garganta con franjas oscuras y zona anal de tono pálido distintivo.",
+    "Pico ligeramente más firme que en otras especies afines, aunque no marcadamente grueso a simple vista.",
+    "Vocalización frecuente consistente en un reclamo seco y con matiz húmedo que suena como un \"tsip!\"."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:29:13Z"
+}

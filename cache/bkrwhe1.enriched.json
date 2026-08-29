@@ -1,0 +1,11 @@
+{
+  "prose": "En los frondosos matorrales y doseles boscosos del sur de la isla de Célebes, habita una pequeña criatura de movimientos inquietos. El Anteojitos Anómalo (Zosterops anomalus) es un ave paseriforme de dorso verdoso que recorre tanto el sotobosque como las copas de los árboles en tierras bajas y colinas. Organizados en parejas o en reducidos grupos sociales, estos diminutos pájaros exploran incansablemente los bordes del bosque y las zonas arbustivas en busca de alimento. Lo que resulta verdaderamente fascinante de esta especie es su propia apariencia: a diferencia de la mayoría de los miembros de su familia, caracterizados por un nítido anillo ocular blanco, el Anteojitos Anómalo rompe este patrón al exhibir una amplia mancha negra alrededor de sus ojos, lo que le otorga una mirada singular e inconfundible.\n\nLa vida acústica de este habitante insular es igualmente llamativa. Entre la densidad del follaje, su presencia suele delatarse a través de breves notas que suenan como un seco \"chew\" o mediante trinos vibrantes. Su canto completo es un gorjeo veloz y entrecortado, una melodía rítmica que resuena entre las ramas. Como explorador de las franjas forestales, su actividad constante entre el dosel y el sotobosque contribuye a la dinámica de los bosques tropicales indonesios. Su condición de endemismo estricto del sur de Célebes convierte a esta ave en un testimonio vivo de la extraordinaria biodiversidad de la región.",
+  "identification": [
+    "Mancha ocular negra y ancha, con ausencia total del anillo ocular blanco típico de su familia.",
+    "Dorso verde, garganta y cobertoras subcaudales amarillas, con el vientre blanco.",
+    "Canto rítmico, veloz y entrecortado, junto a trinos y llamadas individuales secas.",
+    "Presencia restringida al sur de Célebes, donde ocupa desde tierras bajas hasta colinas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:30:17Z"
+}

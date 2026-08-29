@@ -8,8 +8,9 @@
   "wikipedia_language": "en",
   "fallback_text": "",
   "fallback_language": "",
-  "gbif_taxon_key": 2480339,
-  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480339&bin=hex&hexPerTile=75&style=classic.poly",
-  "iucn_code": "NE",
-  "iucn_birdlife_url": ""
+  "gbif_taxon_key": null,
+  "distribution_map_url": "",
+  "iucn_code": "",
+  "iucn_birdlife_url": "",
+  "gbif_match": "none"
 }

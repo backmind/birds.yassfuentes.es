@@ -1,0 +1,11 @@
+{
+  "prose": "El Gorrión Común (Passer domesticus) es una de las aves más conocidas y adaptables del planeta. Esta pequeña especie paseriforme ha prosperado como comensal del ser humano, estableciéndose con gran éxito en entornos urbanos, vecindarios y áreas agrícolas, al tiempo que evita las masas forestales densas. Resulta cautivador observar cómo sus ruidosas bandadas se congregan en arbustos tupidos, desplazándose y vocalizando sin descanso entre la vegetación. Originario de Eurasia y el Norte de África, este pequeño pájaro ha sido introducido por la acción humana en zonas templadas de casi todos los continentes, con la única excepción de la Antártida.\n\nA pesar de ser considerado en ocasiones como una plaga agrícola o una especie molesta, el Gorrión Común ha demostrado ser un sujeto de inmenso valor para la ciencia. Su convivencia con el ser humano y su enorme plasticidad lo han convertido en un organismo modelo fundamental para investigar problemas biológicos generales, desde los mecanismos evolutivos hasta la regulación del metabolismo. En la dinámica social del grupo, el tamaño del babero negro del macho resulta clave, pues predice su dominancia frente a otros individuos. Aunque en Norteamérica es una especie introducida y no está estrechamente emparentada con las aves locales que reciben el mismo nombre común, su presencia global representa un notable testimonio de adaptabilidad.",
+  "identification": [
+    "Macho con un elegante babero negro en el pecho, nuca de color rufo brillante y alas en tonos marrones y caqui.",
+    "Hembra de plumaje marrón uniforme con partes inferiores gris pálido y una clara ceja sobre el ojo.",
+    "Comportamiento gregario, agrupándose en bandadas que se mueven y vocalizan activamente en arbustos densos.",
+    "Presencia fuertemente vinculada a zonas urbanas y construcciones humanas, evitando bosques densos."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:28:16Z"
+}

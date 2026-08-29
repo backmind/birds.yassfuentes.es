@@ -1,0 +1,11 @@
+{
+  "prose": "La Grajilla Occidental (Coloeus monedula) es un córvido pequeño y de carácter marcadamente social que habita una gran variedad de entornos abiertos y semiabiertos, desde acantilados costeros y zonas agrícolas hasta parques urbanos y edificios de piedra. Su apariencia destaca por el fino contraste entre su cuerpo oscuro y una nuca de tono gris plateado, coronada por unos llamativos y expresivos ojos de color blanco pálido. Con un andar firme y confiado sobre el suelo, esta ave aprovecha todo tipo de cavidades en rocas, árboles o viejas chimeneas para nidificar. Fuera de la época de cría, su naturaleza gregaria se hace patente al congregarse en bandos que pueden sumar centenares de individuos, a menudo compartiendo espacio y vuelo con otros miembros de la familia de los córvidos.\n\nDescrita inicialmente por Carlos Linneo, los análisis genéticos han revelado que la Grajilla Occidental pertenece a una ramificación temprana de su familia, emplazándola en el género Coloeus. Se reconocen cuatro subespecies que varían ligeramente en la coloración del plumaje a lo largo de una extensa distribución que abarca Europa, el norte de África y Asia occidental. Aunque se trata de un ave eminentemente sedentaria en gran parte de su área, las poblaciones del norte y el este del continente eurasiático emprenden notables migraciones invernales hacia el sur, alcanzando el Oriente Próximo y el noroeste de la India. Su notable capacidad de adaptación le permite prosperar en paisajes moldeados por la actividad humana.",
+  "identification": [
+    "Córvido de pequeño tamaño con cuerpo oscuro y nuca gris plateada claramente contrastada.",
+    "Ojos adultos muy característicos de color blanco o gris pálido (más apagados en juveniles).",
+    "Desplazamiento terrestre erguido, con un caminar ágil y confiado.",
+    "Comportamiento altamente gregario, a menudo asociada a otros córvidos y nidificando en cavidades o estructuras humanas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:19:31Z"
+}

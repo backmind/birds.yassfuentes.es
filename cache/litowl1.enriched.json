@@ -1,0 +1,12 @@
+{
+  "prose": "Posado con porte erguido sobre un poste de madera o un viejo muro de piedra, el Mochuelo Europeo (Athene noctua) escudriña el entorno con una intensidad inconfundible. Esta pequeña rapaz nocturna está ampliamente extendida por el sur de Europa y el norte de África, donde encuentra su hábitat predilecto en paisajes abiertos, mosaicos agrícolas, olivares, huertos y bosques aclarados. Aunque despliega la mayor parte de su actividad entre el atardecer y el amanecer, es una de las pocas estrigiformes que se deja ver con frecuencia durante las horas de luz, descansando o acechando a sus presas antes de desplazarse con un vuelo bajo y marcadamente ondulado.\n\nPara criar y buscar refugio, el Mochuelo Europeo aprovecha oquedades en árboles añosos, grietas en roquedos, canteras e incluso huecos en construcciones rurales. En estos entornos desempeña una función ecológica clave, manteniendo el equilibrio natural al alimentarse de pequeños roedores, insectos y otros invertebrados. Su plumaje pardo, salpicado de motas blancas, le confiere un camuflaje extraordinario frente a la corteza y las rocas, mientras que su penetrante mirada de iris amarillos y cejas blanquecinas le otorga una expresión de perpetua y cautivadora alerta.",
+  "identification": [
+    "Tamaño pequeño y silueta compacta con cabeza ancha y redondeada.",
+    "Plumaje dorsal de tonos pardos profusamente moteado de blanco.",
+    "Grandes ojos de color amarillo brillante coronados por marcadas cejas blancas.",
+    "Vuelo bajo, rápido y notablemente ondulado.",
+    "Frecuente postura erguida y visible sobre postes, vallas, rocas y árboles dispersos durante el día y el crepúsculo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T10:30:50Z"
+}

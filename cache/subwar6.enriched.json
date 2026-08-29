@@ -1,0 +1,11 @@
+{
+  "prose": "En las laderas cubiertas de matorral denso y en los aclarados del bosque mediterráneo, la Curruca Carrasqueña Occidental (Curruca iberiae) destaca como un pequeño prodigio de dinamismo y color. Esta ave estilizada y de cola relativamente larga se desplaza con incansable agilidad entre la vegetación tupida en busca de pequeños invertebrados. Durante la temporada de cría, los machos ofrecen un espectáculo fascinante al encaramarse a las ramas más altas de los arbustos para proclamar su territorio, desplegando un canto rápido, potente y carrasqueante que resuena en el ambiente. El contraste entre su dorso gris plomizo, su pecho de tonos rojizos intensos y una limpia bigotera blanca convierte al macho reproductor en una visión inconfundible.\n\nMás allá de su llamativo aspecto, la Curruca Carrasqueña Occidental desempeña un papel ecológico fundamental como controladora de poblaciones de insectos y arañas en los ecosistemas mediterráneos. Cada año, este ave de escaso peso protagoniza una asombrosa travesía migratoria, cruzando el mar Mediterráneo y el desierto del Sáhara para pasar el invierno en las sabanas del Sahel africano. Su reciente reconocimiento como especie independiente de otras currucas carrasqueñas, avalado por estudios genéticos y morfológicos, pone de manifiesto la riqueza y complejidad taxonómica que aún alberga la avifauna del paleártico occidental.",
+  "identification": [
+    "Macho reproductor con dorso gris plomizo, pecho castaño rojizo y una marcada bigotera blanca.",
+    "Hembras y ejemplares no reproductores con plumaje más apagado y menor presencia de tonos rojizos.",
+    "Silueta pequeña y estilizada provista de una cola relativamente larga.",
+    "Canto potente, veloz y carrasqueante emitido frecuentemente desde la cima de matorrales elevados."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-29T11:22:31Z"
+}

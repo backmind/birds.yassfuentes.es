@@ -10,6 +10,7 @@
   "fallback_language": "en",
   "gbif_taxon_key": null,
   "distribution_map_url": "",
+  "gbif_match": "none",
   "iucn_code": "",
   "iucn_birdlife_url": ""
 }
