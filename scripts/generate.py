@@ -21,6 +21,7 @@ from pathlib import Path
 import requests
 
 from scripts import (
+    archive_builder,
     backfill,
     content_scraper,
     ebird_client,
@@ -31,6 +32,7 @@ from scripts import (
     map_composer,
     run_report,
     site_builder,
+    urls,
 )
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -303,8 +305,10 @@ def _build_indexes(
     """Build cross-reference indexes for the name linker.
 
     Returns ``(code_to_localized, published_anchors, published_anchors_abs)``.
-    ``published_anchors`` uses relative archive URLs; ``published_anchors_abs``
-    prepends the ``feed_link`` base so RSS readers can resolve them.
+    ``published_anchors`` maps each species to its canonical page (never a
+    dated archive anchor, so the link never rots as new plates are
+    published); ``published_anchors_abs`` prepends the ``feed_link`` base
+    so RSS readers can resolve them.
 
     ``ebird_locale`` must be the resolved locale for the run. This function
     can be the first taxonomy load of a run, and ``get_full_taxonomy``
@@ -319,12 +323,9 @@ def _build_indexes(
     published_anchors: dict[str, str] = {}
     published_anchors_abs: dict[str, str] = {}
     for h in history["entries"]:
-        hc, hd = h["speciesCode"], h["date"]
-        published_anchors[hc] = f"archive.html#bird-{hc}-{hd}"
-        published_anchors_abs[hc] = (
-            f"{feed_link.rstrip('/')}/archive.html#bird-{hc}-{hd}"
-            if feed_link else published_anchors[hc]
-        )
+        hc = h["speciesCode"]
+        published_anchors[hc] = urls.species_url(hc)
+        published_anchors_abs[hc] = urls.absolute(feed_link, urls.species_url(hc))
 
     return code_to_localized, published_anchors, published_anchors_abs
 
@@ -361,9 +362,12 @@ def _rebuild_feed(
         str(CACHE_DIR),
         MAPS_DIR,
     )
-    basemap_url = (
-        f"{feed_link.rstrip('/')}/assets/basemap.png" if feed_link else ""
-    )
+    # The feed needs an absolute URL, so it cannot reuse the site's
+    # root-relative path directly; it still goes through urls for both
+    # halves, or a move of the asset would 404 every item's map layer.
+    # An unconfigured feed_link means no absolute URL can be formed at
+    # all, and the feed renders the density layer on its own.
+    basemap_url = urls.absolute(feed_link, urls.BASEMAP) if feed_link else ""
 
     all_feed_entries: list[feed_builder.FeedEntry] = []
     for raw in reversed(history["entries"]):
@@ -414,7 +418,7 @@ def _rebuild_feed(
             code_to_localized=code_to_localized,
             published_anchors=published_anchors_abs,
         )
-        fguid = f"bird-of-the-day-{fc}-{raw['date']}"
+        fguid = urls.feed_guid(fc, raw["date"])
         fpub = existing_pub_by_guid.get(fguid, format_datetime(now))
         all_feed_entries.append(
             feed_builder.FeedEntry(
@@ -562,11 +566,18 @@ def main() -> None:
     ebird_locale = config.get("ebird_locale") or catalog.ebird_locale
     config["ebird_locale"] = ebird_locale
 
+    # The English taxonomy is the name linker's first pass. Losing it
+    # degrades every page it renders, so the outcome is carried in a flag
+    # instead of only in the log: the already-published rebuild below
+    # refuses to republish on it, and the run report has to say why.
+    linker_ok = True
     try:
         english_name_index = ebird_client.get_english_name_index(cache_dir=CACHE_DIR)
     except requests.RequestException:
         logger.warning("Could not load English taxonomy; name linker disabled")
+        report.warn("taxonomy unavailable: the name linker is disabled this run")
         english_name_index = {}
+        linker_ok = False
 
     description_policy = config.get("description_policy", "foreign_fallback")
     feed_link = config.get("feed_link", "")
@@ -578,6 +589,7 @@ def main() -> None:
         # Guarded on its own: building the indexes may need to fetch the
         # taxonomy, and an outage there must not turn an otherwise no-op
         # run on an already-published day into a failure.
+        maintenance_ok = True
         try:
             code_to_localized, published_anchors, published_anchors_abs = (
                 _build_indexes(history, feed_link, ebird_locale)
@@ -597,6 +609,7 @@ def main() -> None:
                 exc_info=True,
             )
             report.warn("maintenance skipped: taxonomy or network unavailable")
+            maintenance_ok = False
             code_to_localized = {}
             published_anchors = {}
             published_anchors_abs = {}
@@ -624,10 +637,26 @@ def main() -> None:
                     published_anchors_abs, now,
                 )
                 _report_missing_maps(history, composed_paths, report)
+            else:
+                logger.info("Already generated for %s, skipping", date_str)
+
+            # Rendering the whole page set is cheap and the writer is
+            # content-addressed, so this runs on every tick regardless of
+            # whether backfill healed anything: a run that died part way
+            # through the page set on a previous tick must not leave a
+            # mixed set on disk until the next new-day publish. But only
+            # when maintenance actually succeeded: on a failed taxonomy
+            # fetch the cross-link indexes above are empty dicts, and
+            # writing with those would rewrite every page with the name
+            # linker disabled, content-addressed straight over the good
+            # version already on disk. The same argument covers
+            # english_name_index, the linker's other input: an outage
+            # there is just as silent and just as wide.
+            if maintenance_ok and linker_ok:
                 site_entries = _build_site_entries(
                     history, description_policy=description_policy
                 )
-                site_builder.write_site(
+                site_result = archive_builder.write_site(
                     site_entries,
                     STATE_DIR,
                     catalog=catalog,
@@ -636,8 +665,20 @@ def main() -> None:
                     code_to_localized=code_to_localized,
                     published_anchors=published_anchors,
                 )
+                report.info(
+                    f"site: {site_result['written']} of {site_result['pages']} pages "
+                    f"written, {site_result['unchanged']} unchanged"
+                )
+            elif not maintenance_ok:
+                report.warn(
+                    "site rebuild skipped: maintenance failed, "
+                    "not republishing with an empty cross-link catalog"
+                )
             else:
-                logger.info("Already generated for %s, skipping", date_str)
+                report.warn(
+                    "site rebuild skipped: taxonomy unavailable, "
+                    "not republishing with the name linker disabled"
+                )
             report.info(
                 f"already published for {date_str}"
                 + (", outputs rebuilt after healing" if healed else "")
@@ -727,7 +768,7 @@ def main() -> None:
 
         # 6. Generate the static site.
         site_entries = _build_site_entries(history, description_policy=description_policy)
-        site_builder.write_site(
+        site_result = archive_builder.write_site(
             site_entries,
             STATE_DIR,
             catalog=catalog,
@@ -735,6 +776,10 @@ def main() -> None:
             english_name_index=english_name_index,
             code_to_localized=code_to_localized,
             published_anchors=published_anchors,
+        )
+        report.info(
+            f"site: {site_result['written']} of {site_result['pages']} pages "
+            f"written, {site_result['unchanged']} unchanged"
         )
 
         logger.info("Done. Today's bird: %s (%s)", common_name, scientific_name)

@@ -24,3 +24,7 @@ Thumbs.db
 
 # Local plan / scratch
 plan-bird-of-the-day-rss.md
+
+# Agent scratch (worktrees and plan ledgers, never published)
+.worktrees/
+.superpowers/

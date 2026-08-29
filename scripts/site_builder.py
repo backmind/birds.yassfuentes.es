@@ -1,21 +1,24 @@
-"""Generate the static site (index.html + archive.html) from cached birds.
+"""Site chrome, the plate/card renderers, and the home page.
 
-The site is two pages of plain HTML with embedded CSS — no JavaScript, no
-build step. The most recent bird is the hero on ``index.html``; up to 12
-previous birds appear as a grid below it. ``archive.html`` lists every
-entry from history with full content and stable anchors.
+No JavaScript, no build step. This module owns the page shell (header,
+footer, theme toggle), the ``SiteEntry`` dataclass, the plate and card
+renderers shared by every page, and ``build_index``: the most recent
+bird is the hero on ``index.html``, with up to ``INDEX_GRID_SIZE``
+previous birds in a grid below it.
+
+Every other page (the archive front, one bucket per month, one
+canonical page per species) is built in :mod:`scripts.archive_builder`,
+which imports this module for its chrome and renderers.
 """
 
 from __future__ import annotations
 
 import logging
-import shutil
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from datetime import datetime, timezone
-from pathlib import Path
 from typing import TYPE_CHECKING
 
-from scripts import esc_html as _esc, name_linker
+from scripts import esc_html as _esc, name_linker, urls
 
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
@@ -23,16 +26,19 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 INDEX_GRID_SIZE = 12
-ARCHIVE_MAX_ENTRIES = 90  # ~1 season; full pagination in a future release
 
 
 @dataclass(frozen=True)
 class RenderContext:
     """Per-render context bundle so helper signatures stay compact.
 
-    Constructed once per page (in :func:`build_index` / :func:`build_archive`)
-    and threaded through every ``_render_*`` helper. Holds the i18n catalog
-    plus the small handful of page-level scalars the helpers need.
+    Constructed once per page (in :func:`build_index` and the
+    :mod:`scripts.archive_builder` page builders) and threaded through
+    every ``_render_*`` helper. Holds the i18n catalog plus the small
+    handful of page-level scalars the helpers need.
+
+    ``feed_link`` is carried for absolute-URL generation (canonical links,
+    Open Graph tags) and is deliberately not read by any renderer yet.
     """
 
     catalog: "Catalog"
@@ -40,6 +46,28 @@ class RenderContext:
     english_name_index: dict = field(default_factory=dict)
     code_to_localized: dict = field(default_factory=dict)
     published_anchors: dict = field(default_factory=dict)
+    path_prefix: str = ""
+
+    def u(self, path: str) -> str:
+        """Resolve a root-relative site path from this page's location."""
+        return f"{self.path_prefix}{path}"
+
+
+def for_subdirectory(ctx: RenderContext, prefix: str) -> RenderContext:
+    """Context for a page that lives below the site root.
+
+    The name-linker catalog holds root-relative targets, so it is
+    rewritten with the same prefix: seen from ``birds/x.html``, the link
+    to another species page is ``../birds/y.html``. Absolute targets (the
+    feed passes those through the same catalog) are left untouched.
+    """
+    prefixed = {
+        code: target
+        if target.startswith(("http://", "https://", "/"))
+        else f"{prefix}{target}"
+        for code, target in ctx.published_anchors.items()
+    }
+    return replace(ctx, path_prefix=prefix, published_anchors=prefixed)
 
 
 @dataclass
@@ -70,986 +98,22 @@ class SiteEntry:
 
     @property
     def anchor(self) -> str:
-        return f"bird-{self.species_code}-{self.date}"
+        return urls.entry_anchor(self.species_code, self.date)
 
     @property
     def archive_url(self) -> str:
-        return f"archive.html#{self.anchor}"
+        """Permalink of THIS publication: its month bucket plus anchor."""
+        return urls.bucket_url(self.species_code, self.date)
+
+    @property
+    def species_url(self) -> str:
+        """Canonical page for the species, independent of any date."""
+        return urls.species_url(self.species_code)
 
     @property
     def date_dotted(self) -> str:
         """ISO date as `YYYY · MM · DD` — language-neutral, used in plate-date."""
         return self.date.replace("-", " · ")
-
-
-_CSS = """
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT@9..144,400;9..144,500;9..144,600;9..144,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap');
-
-/* ─── palette ──────────────────────────────────────────────────────
-   Field Journal at Dawn — warm parchment + deep teal sky + brushed bronze
-   Light mode reads as opening a leather-bound observation log on a desk.
-   Dark mode reads as the same log lit by a single lantern at night.       */
-:root {
-  --paper: #F4EEE0;
-  --paper-warm: #ECE2CC;
-  --paper-deep: #E1D4B6;
-  --ink: #1E2A2E;
-  --ink-soft: #5C6A6E;
-  --ink-faint: #8A8A7C;
-  --accent: #0E5F66;
-  --accent-warm: #B36B2F;
-  --rule: #C8BEA4;
-  --rule-strong: #A89B7D;
-  --shadow: 0 1px 0 rgba(255,255,255,0.5), 0 10px 28px -12px rgba(30, 42, 46, 0.22), 0 2px 6px -2px rgba(30, 42, 46, 0.08);
-  --max: 920px;
-  --max-wide: 1080px;
-}
-
-/* Dark mode: applied automatically when the OS prefers dark, UNLESS the
-   user has manually toggled to light. Manual override (data-theme="dark")
-   wins regardless of the OS setting. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #0F1518;
-    --paper-warm: #161E22;
-    --paper-deep: #1B252A;
-    --ink: #E9E2D0;
-    --ink-soft: #9AA4A4;
-    --ink-faint: #5C6A6E;
-    --accent: #5BB1B6;
-    --accent-warm: #D9893A;
-    --rule: #2A3338;
-    --rule-strong: #3E4A50;
-    --shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 14px 36px -12px rgba(0,0,0,0.7), 0 2px 8px -2px rgba(0,0,0,0.5);
-  }
-}
-:root[data-theme="dark"] {
-  --paper: #0F1518;
-  --paper-warm: #161E22;
-  --paper-deep: #1B252A;
-  --ink: #E9E2D0;
-  --ink-soft: #9AA4A4;
-  --ink-faint: #5C6A6E;
-  --accent: #5BB1B6;
-  --accent-warm: #D9893A;
-  --rule: #2A3338;
-  --rule-strong: #3E4A50;
-  --shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 14px 36px -12px rgba(0,0,0,0.7), 0 2px 8px -2px rgba(0,0,0,0.5);
-}
-
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
-
-body {
-  margin: 0;
-  background: var(--paper);
-  color: var(--ink);
-  font-family: 'Source Serif 4', 'Source Serif Pro', Georgia, serif;
-  font-feature-settings: 'kern', 'liga', 'onum';
-  font-variant-numeric: oldstyle-nums proportional-nums;
-  font-optical-sizing: auto;
-  font-size: 18px;
-  line-height: 1.65;
-  /* faint paper grain + a halo at the top of the page */
-  background-image:
-    radial-gradient(ellipse 1100px 520px at 50% -8%, rgba(179,107,47,0.05), transparent 60%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
-  background-attachment: fixed, fixed;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) body {
-    background-image:
-      radial-gradient(ellipse 1100px 520px at 50% -8%, rgba(91,177,182,0.07), transparent 60%),
-      url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
-  }
-}
-:root[data-theme="dark"] body {
-  background-image:
-    radial-gradient(ellipse 1100px 520px at 50% -8%, rgba(91,177,182,0.07), transparent 60%),
-    url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)'/%3E%3C/svg%3E");
-}
-
-/* ─── links ────────────────────────────────────────────────────── */
-a {
-  color: var(--ink);
-  text-decoration: underline;
-  text-decoration-color: var(--rule-strong);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  transition: text-decoration-color .25s ease, color .25s ease;
-}
-a:hover { text-decoration-color: var(--accent-warm); color: var(--accent); }
-a:focus-visible, button:focus-visible {
-  outline: 2px solid var(--accent-warm);
-  outline-offset: 3px;
-  border-radius: 1px;
-}
-
-.skip-link {
-  position: absolute; left: -1000px; top: 0;
-  background: var(--ink); color: var(--paper);
-  padding: .55rem 1.1rem;
-  z-index: 100;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .76rem;
-  text-transform: uppercase;
-  letter-spacing: .14em;
-}
-.skip-link:focus { left: 1rem; top: 1rem; }
-
-/* ─── masthead ─────────────────────────────────────────────────── */
-header.site {
-  border-bottom: 1px solid var(--rule);
-  background: linear-gradient(to bottom, transparent, var(--paper-warm));
-}
-header.site .inner {
-  max-width: var(--max-wide);
-  margin: 0 auto;
-  padding: 1.6rem 2rem 1.25rem;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: end;
-  gap: 1rem;
-}
-header.site .brand { display: flex; flex-direction: column; gap: .15rem; }
-header.site .eyebrow {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .68rem;
-  text-transform: uppercase;
-  letter-spacing: .22em;
-  color: var(--ink-soft);
-}
-header.site h1 {
-  margin: 0;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'SOFT' 100, 'opsz' 48;
-  font-weight: 600;
-  font-size: 1.75rem;
-  line-height: 1;
-  letter-spacing: -0.012em;
-}
-header.site h1 a { color: var(--ink); text-decoration: none; }
-header.site nav {
-  display: flex;
-  gap: 1.75rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .72rem;
-  text-transform: uppercase;
-  letter-spacing: .18em;
-  align-items: end;
-}
-header.site nav a {
-  color: var(--ink-soft);
-  text-decoration: none;
-  padding-bottom: .12rem;
-  border-bottom: 1px solid transparent;
-  transition: color .25s ease, border-color .25s ease;
-}
-header.site nav a:hover,
-header.site nav a[aria-current="page"] {
-  color: var(--ink);
-  border-bottom-color: var(--accent-warm);
-}
-
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  margin-left: .25rem;
-  padding: 0;
-  background: transparent;
-  border: 1px solid var(--rule);
-  border-radius: 50%;
-  color: var(--ink-soft);
-  cursor: pointer;
-  transition: color .25s ease, border-color .25s ease, transform .35s ease;
-}
-.theme-toggle:hover {
-  color: var(--accent-warm);
-  border-color: var(--accent-warm);
-  transform: rotate(-12deg);
-}
-.theme-toggle svg { width: 16px; height: 16px; }
-/* Show moon by default (light mode showing "switch to dark"), sun in dark mode */
-.theme-toggle .icon-sun { display: none; }
-.theme-toggle .icon-moon { display: block; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: block; }
-  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: none; }
-}
-:root[data-theme="dark"] .theme-toggle .icon-sun { display: block; }
-:root[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
-
-/* ─── main column ──────────────────────────────────────────────── */
-main {
-  max-width: var(--max);
-  margin: 0 auto;
-  padding: 3rem 2rem 4rem;
-}
-
-/* ─── plate (used by hero AND archive entries) ─────────────────── */
-.plate {
-  position: relative;
-  margin-bottom: 4.5rem;
-}
-.plate + .plate { margin-top: 4.5rem; }
-
-.plate-head {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  align-items: baseline;
-  gap: 1rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-feature-settings: 'lnum', 'tnum';
-}
-.plate-number {
-  font-variation-settings: 'opsz' 14;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--ink-soft);
-}
-.plate-number .glyph {
-  font-style: italic;
-  font-weight: 400;
-  color: var(--accent-warm);
-  margin-right: .12rem;
-}
-.plate-date {
-  font-variation-settings: 'opsz' 9;
-  font-size: .72rem;
-  text-transform: uppercase;
-  letter-spacing: .16em;
-  color: var(--ink-soft);
-}
-
-.plate-rule {
-  display: flex;
-  align-items: center;
-  gap: .8rem;
-  margin: .85rem 0 1.5rem;
-  color: var(--ink-faint);
-}
-.plate-rule::before {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--rule-strong) 60%);
-}
-.plate-rule::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(to left, transparent, var(--rule-strong) 60%);
-}
-.plate-rule .ornament {
-  font-family: 'Fraunces', serif;
-  font-variation-settings: 'opsz' 14;
-  font-size: 1.05rem;
-  color: var(--accent-warm);
-  line-height: 1;
-}
-
-.plate-image {
-  position: relative;
-  overflow: hidden;
-  background: var(--paper-warm);
-  aspect-ratio: 3 / 2;
-  box-shadow: inset 0 0 0 1px var(--rule), var(--shadow);
-}
-.plate-image img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 1.4s cubic-bezier(.2,.6,.2,1), filter .6s ease;
-}
-.plate:hover .plate-image img { transform: scale(1.02); }
-.plate-image .no-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  color: var(--ink-soft);
-  font-style: italic;
-  font-size: .9rem;
-  text-align: center;
-  padding: 2rem;
-  background: repeating-linear-gradient(135deg, transparent 0 9px, rgba(30,42,46,0.04) 9px 10px);
-}
-.plate-credit {
-  margin: .75rem 0 0;
-  font-size: .78rem;
-  font-style: italic;
-  color: var(--ink-soft);
-  text-align: right;
-}
-
-.plate-body { margin-top: 2.4rem; }
-
-.specimen-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: .55rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .68rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: var(--accent-warm);
-  margin: 0 0 .9rem;
-}
-.specimen-tag::before {
-  content: '';
-  width: 1.6rem;
-  height: 1px;
-  background: var(--accent-warm);
-}
-
-.plate-title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'SOFT' 30, 'opsz' 96;
-  font-weight: 600;
-  font-size: clamp(2.1rem, 4.6vw, 3.4rem);
-  line-height: 1.02;
-  letter-spacing: -0.018em;
-  margin: 0 0 .35rem;
-  color: var(--ink);
-  text-wrap: balance;
-}
-.plate-subtitle {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.15rem;
-  color: var(--ink-soft);
-  margin: 0 0 1.75rem;
-}
-.iucn-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1.35rem;
-  height: 1.35rem;
-  margin-left: .4em;
-  border-radius: 50%;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .6rem;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: .04em;
-  line-height: 1;
-  color: #fff;
-  text-decoration: none;
-  vertical-align: .15em;
-  position: relative;
-  transition: transform .2s ease, box-shadow .2s ease;
-  box-shadow: 0 1px 2px rgba(30, 42, 46, 0.15);
-}
-.iucn-badge:hover {
-  transform: scale(1.15);
-  box-shadow: 0 2px 6px rgba(30, 42, 46, 0.25);
-}
-.iucn-badge::after {
-  content: attr(data-iucn);
-  position: absolute;
-  bottom: calc(100% + .45em);
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-  max-width: 90vw;
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: .82rem;
-  font-weight: 400;
-  font-style: italic;
-  letter-spacing: .02em;
-  color: var(--ink);
-  background: var(--paper);
-  border: 1px solid var(--rule);
-  padding: .25em .55em;
-  border-radius: 3px;
-  box-shadow: 0 3px 8px rgba(30, 42, 46, 0.12);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity .15s ease;
-}
-.iucn-badge:hover::after { opacity: 1; }
-.iucn-lc { background: #5a8a5e; }
-.iucn-nt { background: #8a7a3e; }
-.iucn-vu { background: #b5893a; }
-.iucn-en { background: #b35a3a; }
-.iucn-cr { background: #8b2e2e; }
-.iucn-ew { background: #4a3a5a; }
-.iucn-ex { background: #2e2e2e; }
-.iucn-dd { background: var(--ink-faint); }
-.iucn-ne { background: var(--rule-strong); }
-.iucn-badge-sm {
-  width: 1.1rem;
-  height: 1.1rem;
-  font-size: .5rem;
-  vertical-align: .1em;
-  margin-left: .3em;
-  cursor: inherit;
-}
-.iucn-badge-sm:hover { transform: none; box-shadow: 0 1px 2px rgba(30,42,46,.15); }
-.iucn-badge-sm::after { display: none; }
-
-.plate-description {
-  font-size: 1.04rem;
-  line-height: 1.72;
-  color: var(--ink);
-  margin: 0 0 1rem;
-  text-align: justify;
-  text-wrap: pretty;
-  hyphens: auto;
-}
-.plate-id-label {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .82rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .18em;
-  color: var(--accent-warm);
-  margin: 1.5rem 0 .6rem;
-}
-.plate-identification {
-  font-size: .92rem;
-  line-height: 1.65;
-  color: var(--ink);
-  margin: .4rem 0 1rem;
-  padding-left: 0;
-  list-style: none;
-}
-.plate-identification li {
-  margin-bottom: .45rem;
-  padding-left: 1.2rem;
-  position: relative;
-}
-.plate-identification li::before {
-  content: '\u2014';
-  position: absolute;
-  left: 0;
-  color: var(--accent-warm);
-}
-.plate-description-note {
-  font-size: .82rem;
-  color: var(--ink-soft);
-  font-style: italic;
-  margin: -0.6rem 0 1rem;
-  padding-left: .9rem;
-  border-left: 2px solid var(--accent-warm);
-}
-.plate-description.empty {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 14;
-  font-size: 1.5rem;
-  font-weight: 400;
-  color: var(--ink-faint);
-  text-align: center;
-  margin: 1rem 0;
-  letter-spacing: .3em;
-}
-
-.plate-foot {
-  margin-top: 2rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid var(--rule);
-  display: flex;
-  flex-wrap: wrap;
-  gap: .25rem 1.6rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .7rem;
-  text-transform: uppercase;
-  letter-spacing: .16em;
-}
-.plate-foot a {
-  color: var(--ink-soft);
-  text-decoration: none;
-  padding-bottom: .15rem;
-  border-bottom: 1px solid var(--rule);
-  transition: color .25s ease, border-color .25s ease;
-}
-.plate-foot a:hover {
-  color: var(--accent);
-  border-bottom-color: var(--accent-warm);
-}
-
-/* ─── hero-only ornament: V-soaring bird watermark ─────────────── */
-.plate.hero { isolation: isolate; }
-.plate.hero::before {
-  content: "";
-  position: absolute;
-  top: -1.5rem;
-  right: -.25rem;
-  width: 96px;
-  height: 56px;
-  pointer-events: none;
-  opacity: .14;
-  z-index: -1;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpath d='M8 38 Q 30 8, 50 32 Q 70 8, 92 38' fill='none' stroke='%231E2A2E' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .plate.hero::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpath d='M8 38 Q 30 8, 50 32 Q 70 8, 92 38' fill='none' stroke='%23E9E2D0' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E");
-    opacity: .18;
-  }
-}
-:root[data-theme="dark"] .plate.hero::before {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 60'%3E%3Cpath d='M8 38 Q 30 8, 50 32 Q 70 8, 92 38' fill='none' stroke='%23E9E2D0' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E");
-  opacity: .18;
-}
-
-/* ─── section divider ──────────────────────────────────────────── */
-.section-divider {
-  display: flex;
-  align-items: baseline;
-  gap: 1.25rem;
-  margin: 4rem 0 2rem;
-}
-.section-divider .label {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  color: var(--ink-soft);
-  white-space: nowrap;
-}
-.section-divider::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: linear-gradient(to right, var(--rule-strong), transparent);
-}
-
-/* ─── recent-birds grid (specimen tags) ────────────────────────── */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
-  gap: 2.5rem 1.75rem;
-}
-.card a { display: contents; color: inherit; text-decoration: none; }
-.card-thumb {
-  /* 3:2 landscape, matching the hero plate-image. Most Macaulay photos
-     are landscape DSLR shots so this fills cleanly. The few portrait
-     ones get cropped on top/bottom — accepted trade-off vs the previous
-     letterboxed 4:5 layout, which left visible bands above and below
-     every photo (unsightly especially in dark mode). */
-  aspect-ratio: 3 / 2;
-  overflow: hidden;
-  background: var(--paper-warm);
-  position: relative;
-  box-shadow: inset 0 0 0 1px var(--rule), 0 1px 0 rgba(255,255,255,0.4), 0 10px 24px -16px rgba(30,42,46,0.35);
-}
-.card-thumb img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* Bias the crop toward the top so that on portrait Macaulay shots
-     (rare but real — tall birds, stylistic choices) the bird's head
-     stays visible while feet/tail get cropped instead. Birds in
-     wildlife photos are almost always composed above the vertical
-     midline; this heuristic costs nothing on landscape sources. */
-  object-position: center 30%;
-  filter: saturate(.95);
-  transition: transform .9s cubic-bezier(.2,.6,.2,1), filter .4s ease;
-}
-.card a:hover .card-thumb img { transform: scale(1.05); filter: saturate(1.05); }
-.card-thumb .empty {
-  width: 100%;
-  height: 100%;
-  background: repeating-linear-gradient(135deg, transparent 0 8px, rgba(30,42,46,0.04) 8px 9px);
-}
-.card-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-top: .85rem;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-feature-settings: 'lnum', 'tnum';
-  font-size: .68rem;
-  text-transform: uppercase;
-  letter-spacing: .14em;
-  color: var(--ink-faint);
-}
-.card-meta .glyph { font-style: italic; color: var(--accent-warm); margin-right: .12rem; }
-.card-name {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'SOFT' 50, 'opsz' 32;
-  font-weight: 600;
-  font-size: 1.18rem;
-  line-height: 1.2;
-  margin: .35rem 0 .15rem;
-  color: var(--ink);
-  text-wrap: balance;
-}
-.card-sci {
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-style: italic;
-  font-size: .9rem;
-  color: var(--ink-soft);
-  margin: 0;
-}
-.card-tag {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .62rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .18em;
-  color: var(--accent-warm);
-  margin: .55rem 0 0;
-}
-.card a:hover .card-name { color: var(--accent); }
-
-/* ─── subscribe (refined footnote, not a banner) ───────────────── */
-.subscribe {
-  margin: 4rem 0;
-  padding: 1.5rem 1.75rem;
-  border: 1px solid var(--rule);
-  background: linear-gradient(180deg, var(--paper-warm), var(--paper));
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 1.25rem;
-  position: relative;
-}
-.subscribe::before {
-  content: '';
-  position: absolute;
-  top: -1px; left: -1px; bottom: -1px;
-  width: 4px;
-  background: linear-gradient(to bottom, var(--accent-warm), var(--accent));
-}
-.subscribe .icon {
-  width: 36px; height: 36px;
-  display: grid; place-items: center;
-  color: var(--accent);
-}
-.subscribe .icon svg { width: 22px; height: 22px; }
-.subscribe .text p { margin: 0; }
-.subscribe .text .title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'SOFT' 30, 'opsz' 24;
-  font-weight: 600;
-  font-size: 1.08rem;
-  color: var(--ink);
-}
-.subscribe .text .sub {
-  font-size: .86rem;
-  color: var(--ink-soft);
-  margin-top: .15rem;
-  font-style: italic;
-}
-.subscribe .button {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .72rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .16em;
-  color: var(--paper);
-  background: var(--ink);
-  padding: .75rem 1.2rem;
-  text-decoration: none;
-  white-space: nowrap;
-  transition: background .25s ease;
-}
-.subscribe .button:hover { background: var(--accent); }
-@media (max-width: 600px) {
-  .subscribe { grid-template-columns: auto 1fr; gap: 1rem; }
-  .subscribe .button { grid-column: 1 / -1; text-align: center; padding: .9rem; }
-}
-
-/* ─── archive intro ────────────────────────────────────────────── */
-.archive-intro {
-  margin: 1rem 0 4rem;
-  text-align: center;
-}
-.archive-intro h1 {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'SOFT' 60, 'opsz' 96;
-  font-weight: 600;
-  font-size: clamp(2.5rem, 5vw, 3.8rem);
-  margin: 0 0 .5rem;
-  letter-spacing: -.02em;
-  line-height: 1;
-}
-.archive-intro p { font-style: italic; color: var(--ink-soft); margin: 0; }
-
-/* ─── footer ───────────────────────────────────────────────────── */
-footer.site {
-  margin-top: 5rem;
-  padding: 2.5rem 2rem 3.5rem;
-  border-top: 1px solid var(--rule);
-  background: var(--paper-warm);
-  text-align: center;
-  font-size: .85rem;
-  color: var(--ink-soft);
-  font-style: italic;
-}
-footer.site p { margin: .4rem 0; }
-footer.site a { color: var(--ink-soft); }
-
-/* ─── atlas spread (GBIF distribution map) ─────────────────────── */
-.atlas {
-  position: relative;
-  margin: 2.75rem 0 0;
-  padding: 1.4rem 1.35rem 1rem;
-  background: var(--paper-warm);
-  border: 1px solid var(--rule-strong);
-  box-shadow:
-    0 1px 0 rgba(255,255,255,0.4),
-    0 14px 32px -18px rgba(30,42,46,0.32),
-    0 2px 6px -2px rgba(30,42,46,0.08);
-}
-/* a pair of ornament glyphs nicked into the top border like a ribbon */
-.atlas::before,
-.atlas::after {
-  content: '❦';
-  position: absolute;
-  top: -.7rem;
-  font-family: 'Fraunces', serif;
-  font-variation-settings: 'opsz' 14;
-  font-size: .92rem;
-  color: var(--accent-warm);
-  background: var(--paper-warm);
-  padding: 0 .4rem;
-  line-height: 1;
-}
-.atlas::before { left: 1.2rem; }
-.atlas::after  { right: 1.2rem; }
-
-.atlas-header {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  margin-bottom: .9rem;
-}
-.atlas-title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-size: .7rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .22em;
-  color: var(--accent-warm);
-}
-
-.atlas-frame {
-  position: relative;
-  display: block;
-  /* mercator z=0 is a square tile (the world minus polar caps); plate
-     carrée 2:1 would need stitching two halves, not worth it */
-  aspect-ratio: 1 / 1;
-  background: var(--paper);
-  border: 1px solid var(--rule);
-  overflow: hidden;
-  max-width: 480px;
-  margin: 0 auto;
-  text-decoration: none;
-}
-.atlas-base,
-.atlas-data {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  /* harmonise both layers with the parchment palette */
-  filter: sepia(.45) saturate(.7) contrast(.95);
-  mix-blend-mode: multiply;
-  transition: filter .6s ease;
-}
-.atlas-base { z-index: 0; }
-.atlas-data { z-index: 1; }
-.atlas-frame:hover .atlas-base,
-.atlas-frame:hover .atlas-data {
-  filter: sepia(.3) saturate(.9) contrast(1.02);
-}
-.atlas-attribution {
-  position: absolute;
-  bottom: .25rem;
-  right: .35rem;
-  z-index: 3;
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: .56rem;
-  font-style: italic;
-  letter-spacing: .03em;
-  color: var(--ink-faint);
-  background: rgba(244, 238, 224, 0.72);
-  padding: .1rem .35rem;
-  pointer-events: none;
-}
-.atlas-legend {
-  position: absolute;
-  bottom: .25rem;
-  left: .35rem;
-  z-index: 3;
-  display: flex;
-  align-items: center;
-  gap: .2rem;
-  background: rgba(244, 238, 224, 0.72);
-  padding: .15rem .35rem;
-  border-radius: 3px;
-  pointer-events: none;
-  font-family: 'Source Serif 4', Georgia, serif;
-  font-size: .56rem;
-  color: var(--ink-faint);
-}
-.atlas-legend-bar {
-  width: 3rem;
-  height: .4rem;
-  border-radius: 2px;
-  background: linear-gradient(to right, #ffff00, #ffc800, #ff8c00, #dc4600, #8b0000);
-  filter: sepia(.45) saturate(.7) contrast(.95);
-  transition: filter .6s ease;
-}
-.atlas-frame:hover .atlas-legend-bar {
-  filter: sepia(.3) saturate(.9) contrast(1.02);
-}
-.atlas-equator,
-.atlas-meridian {
-  position: absolute;
-  z-index: 2;
-  pointer-events: none;
-}
-.atlas-equator {
-  top: 50%;
-  left: 0;
-  right: 0;
-  border-top: 1px dashed rgba(168, 155, 125, 0.45);
-}
-.atlas-meridian {
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  border-left: 1px dashed rgba(168, 155, 125, 0.45);
-}
-
-.atlas-scale {
-  display: flex;
-  justify-content: space-between;
-  margin: .55rem auto 0;
-  padding: 0 .25rem;
-  max-width: 480px;
-  font-family: 'Fraunces', Georgia, serif;
-  font-variation-settings: 'opsz' 9;
-  font-feature-settings: 'lnum', 'tnum';
-  font-size: .58rem;
-  letter-spacing: .14em;
-  color: var(--ink-faint);
-}
-
-/* dark mode: invert both map layers so the continents and dots stay
-   legible on a dark background. The invert + hue-rotate trick keeps
-   the colored hexagons roughly in their original hue while flipping
-   the white base to dark. */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .atlas {
-    background: var(--paper-warm);
-    border-color: var(--rule);
-  }
-  :root:not([data-theme="light"]) .atlas-frame {
-    background: var(--paper);
-    border-color: rgba(154, 164, 164, 0.18);
-  }
-  :root:not([data-theme="light"]) .atlas-base,
-  :root:not([data-theme="light"]) .atlas-data {
-    filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
-    mix-blend-mode: screen;
-  }
-  :root:not([data-theme="light"]) .atlas-equator,
-  :root:not([data-theme="light"]) .atlas-meridian {
-    border-color: rgba(154, 164, 164, 0.25);
-  }
-  :root:not([data-theme="light"]) .atlas-attribution,
-  :root:not([data-theme="light"]) .atlas-legend {
-    background: rgba(15, 21, 24, 0.65);
-    color: var(--ink-soft);
-  }
-  :root:not([data-theme="light"]) .atlas-legend-bar {
-    filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
-  }
-  :root:not([data-theme="light"]) .atlas::before,
-  :root:not([data-theme="light"]) .atlas::after {
-    background: var(--paper-warm);
-  }
-}
-:root[data-theme="dark"] .atlas {
-  background: var(--paper-warm);
-  border-color: var(--rule);
-}
-:root[data-theme="dark"] .atlas-frame {
-  background: var(--paper);
-  border-color: rgba(154, 164, 164, 0.18);
-}
-:root[data-theme="dark"] .atlas-base,
-:root[data-theme="dark"] .atlas-data {
-  filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
-  mix-blend-mode: screen;
-}
-:root[data-theme="dark"] .atlas-equator,
-:root[data-theme="dark"] .atlas-meridian {
-  border-color: rgba(154, 164, 164, 0.25);
-}
-:root[data-theme="dark"] .atlas-attribution,
-:root[data-theme="dark"] .atlas-legend {
-  background: rgba(15, 21, 24, 0.65);
-  color: var(--ink-soft);
-}
-:root[data-theme="dark"] .atlas-legend-bar {
-  filter: invert(1) hue-rotate(180deg) sepia(.25) saturate(.7) brightness(.95) contrast(.9);
-}
-:root[data-theme="dark"] .atlas::before,
-:root[data-theme="dark"] .atlas::after {
-  background: var(--paper-warm);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .iucn-badge {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-  }
-}
-:root[data-theme="dark"] .iucn-badge {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
-}
-
-/* ─── responsive tightening ────────────────────────────────────── */
-@media (max-width: 720px) {
-  main { padding: 2.25rem 1.25rem 3rem; }
-  header.site .inner { padding: 1.25rem 1.25rem 1rem; grid-template-columns: 1fr; gap: .75rem; }
-  header.site nav { gap: 1.25rem; }
-  .plate-head { grid-template-columns: 1fr; gap: .25rem; }
-  .plate.hero::before { width: 72px; height: 42px; top: -1rem; right: -.25rem; }
-}
-@media (max-width: 480px) {
-  body { font-size: 17px; }
-  .plate-title { font-size: clamp(1.8rem, 7vw, 2.6rem); }
-  .grid { grid-template-columns: repeat(auto-fill, minmax(155px, 1fr)); gap: 2rem 1rem; }
-  .card-name { font-size: 1.05rem; }
-  .atlas { padding: 1.1rem .95rem .75rem; }
-  .atlas::before { left: .8rem; }
-  .atlas::after  { right: .8rem; }
-  .atlas-title { font-size: .64rem; }
-  .atlas-source { font-size: .72rem; }
-  .atlas-scale { font-size: .52rem; }
-}
-""".strip()
 
 
 _THEME_TOGGLE_BUTTON = """
@@ -1071,12 +135,12 @@ def _render_header(ctx: RenderContext, active: str) -> str:
   <div class="inner">
     <div class="brand">
       <span class="eyebrow">{_esc(t("site.eyebrow"))}</span>
-      <h1><a href="index.html">{_esc(t("site.title"))}</a></h1>
+      <h1><a href="{_esc(ctx.u(urls.INDEX_PAGE))}">{_esc(t("site.title"))}</a></h1>
     </div>
     <nav aria-label="{_esc(t("nav.principal_aria"))}">
-      <a href="index.html"{home_class}>{_esc(t("nav.home"))}</a>
-      <a href="archive.html"{archive_class}>{_esc(t("nav.archive"))}</a>
-      <a href="feed.xml">{_esc(t("nav.rss"))}</a>
+      <a href="{_esc(ctx.u(urls.INDEX_PAGE))}"{home_class}>{_esc(t("nav.home"))}</a>
+      <a href="{_esc(ctx.u(urls.ARCHIVE_FRONT))}"{archive_class}>{_esc(t("nav.archive"))}</a>
+      <a href="{_esc(ctx.u(urls.FEED_FILE))}">{_esc(t("nav.rss"))}</a>
       {toggle}
     </nav>
   </div>
@@ -1084,9 +148,10 @@ def _render_header(ctx: RenderContext, active: str) -> str:
 """.strip()
 
 
-def _render_subscribe(ctx: RenderContext, feed_url: str = "feed.xml") -> str:
+def render_subscribe(ctx: RenderContext) -> str:
     """Refined RSS footnote — not a marketing banner."""
     t = ctx.catalog.t
+    target = ctx.u(urls.FEED_FILE)
     return f"""
 <aside class="subscribe" aria-label="{_esc(t("subscribe.aria_label"))}">
   <div class="icon" aria-hidden="true">
@@ -1098,7 +163,7 @@ def _render_subscribe(ctx: RenderContext, feed_url: str = "feed.xml") -> str:
     <p class="title">{_esc(t("subscribe.title"))}</p>
     <p class="sub">{_esc(t("subscribe.subtitle"))}</p>
   </div>
-  <a class="button" href="{_esc(feed_url)}">{_esc(t("subscribe.button"))}</a>
+  <a class="button" href="{_esc(target)}">{_esc(t("subscribe.button"))}</a>
 </aside>
 """.strip()
 
@@ -1138,7 +203,7 @@ def _specimen_tag(taxonomy: dict) -> str:
     return f'<p class="specimen-tag">{" · ".join(parts)}</p>'
 
 
-def _render_plate(
+def render_plate(
     entry: SiteEntry, ctx: RenderContext, *, hero: bool = False
 ) -> str:
     """Render a bird as a numbered field-journal plate.
@@ -1315,9 +380,6 @@ def _render_plate(
 """.strip()
 
 
-from scripts.map_composer import BASEMAP_PATH as _BASEMAP_ASSET
-
-
 def _render_atlas(entry: SiteEntry, ctx: RenderContext, *, hero: bool = False) -> str:
     """Render the GBIF distribution map as an atlas-styled section.
 
@@ -1351,7 +413,7 @@ def _render_atlas(entry: SiteEntry, ctx: RenderContext, *, hero: bool = False) -
     <span class="atlas-title">{_esc(label)}</span>
   </header>
   <a class="atlas-frame" href="{_esc(species_page)}"{"" if hero else ' target="_blank" rel="noopener"'} aria-label="{_esc(entry.scientific_name)} — GBIF">
-    <img class="atlas-base" src="assets/basemap.png" alt="" loading="lazy" />
+    <img class="atlas-base" src="{_esc(ctx.u(urls.BASEMAP))}" alt="" loading="lazy" />
     <img class="atlas-data" src="{_esc(entry.distribution_map_url)}" alt="{_esc(alt)}" loading="lazy" />
     <span class="atlas-equator" aria-hidden="true"></span>
     <span class="atlas-meridian" aria-hidden="true"></span>
@@ -1367,11 +429,8 @@ def _render_atlas(entry: SiteEntry, ctx: RenderContext, *, hero: bool = False) -
 """.strip()
 
 
-def _render_card(entry: SiteEntry, ctx: RenderContext) -> str:
-    """Render a grid card. The ``ctx`` parameter is unused for now (cards
-    only contain proper-noun and metadata text) but kept for symmetry with
-    other helpers and so the future addition of any UI string is local."""
-    del ctx  # explicitly unused for now
+def render_card(entry: SiteEntry, ctx: RenderContext) -> str:
+    """Render a grid card linking to the entry's canonical species page."""
     if entry.image_url:
         thumb = (
             f'<div class="card-thumb">'
@@ -1402,7 +461,7 @@ def _render_card(entry: SiteEntry, ctx: RenderContext) -> str:
 
     return f"""
 <article class="card">
-  <a href="{_esc(entry.archive_url)}">
+  <a href="{_esc(ctx.u(entry.species_url))}">
     {thumb}
     <div class="card-meta">
       {number_html}
@@ -1433,10 +492,20 @@ _THEME_BOOT_SCRIPT = (
 )
 
 
-def _page(
-    title: str, body: str, ctx: RenderContext, active: str
+def render_page(
+    title: str, body: str, ctx: RenderContext, active: str, head_extra: str = ""
 ) -> str:
+    """Render a full page.
+
+    ``head_extra`` is raw markup appended to ``<head>``, for the rare
+    thing that has to run before first paint rather than in document
+    order; it is emitted right after the theme-boot script, which is
+    there for the same reason. Empty by default, and it contributes no
+    whitespace when empty so a page without it keeps its exact bytes.
+    """
     t = ctx.catalog.t
+    stylesheet_href = _esc(ctx.u(urls.STYLESHEET))
+    head_block = f"\n  {head_extra}" if head_extra else ""
     return f"""<!DOCTYPE html>
 <html lang="{_esc(ctx.catalog.html_lang)}">
 <head>
@@ -1447,9 +516,9 @@ def _page(
   <meta name="theme-color" content="#F4EEE0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F1518" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/svg+xml" href="{_FAVICON_SVG}">
-  <link rel="alternate" type="application/rss+xml" title="{_esc(t("site.title"))}" href="feed.xml">
-  {_THEME_BOOT_SCRIPT}
-  <style>{_CSS}</style>
+  <link rel="alternate" type="application/rss+xml" title="{_esc(t("site.title"))}" href="{_esc(ctx.u(urls.FEED_FILE))}">
+  {_THEME_BOOT_SCRIPT}{head_block}
+  <link rel="stylesheet" href="{stylesheet_href}">
 </head>
 <body>
 {_render_header(ctx, active)}
@@ -1467,14 +536,14 @@ def build_index(
 ) -> str:
     t = ctx.catalog.t
     if not entries:
-        body = f'<p>{_esc(t("index.empty"))}</p>\n' + _render_subscribe(ctx)
-        return _page(t("site.title"), body, ctx, active="home")
+        body = f'<p>{_esc(t("index.empty"))}</p>\n' + render_subscribe(ctx)
+        return render_page(t("site.title"), body, ctx, active="home")
 
     hero = entries[0]
     grid_entries = entries[1 : 1 + INDEX_GRID_SIZE]
     grid_html = ""
     if grid_entries:
-        cards = "\n".join(_render_card(e, ctx) for e in grid_entries)
+        cards = "\n".join(render_card(e, ctx) for e in grid_entries)
         grid_html = f"""
 <div class="section-divider"><span class="label">{_esc(t("section.recent"))}</span></div>
 <div class="grid">
@@ -1483,76 +552,9 @@ def build_index(
 """.strip()
 
     body = "\n".join(
-        [_render_plate(hero, ctx, hero=True), _render_subscribe(ctx), grid_html]
+        [render_plate(hero, ctx, hero=True), render_subscribe(ctx), grid_html]
     )
     page_title = t(
         "page.home_hero_title_template", name=hero.common_name
     )
-    return _page(page_title, body, ctx, active="home")
-
-
-def build_archive(
-    entries: list[SiteEntry], ctx: RenderContext
-) -> str:
-    t = ctx.catalog.t
-    if not entries:
-        body = f'<p>{_esc(t("archive.empty"))}</p>\n' + _render_subscribe(ctx)
-        return _page(
-            t("page.archive_title_template"), body, ctx, active="archive"
-        )
-    body_parts = [
-        '<div class="archive-intro">',
-        f'<h1>{_esc(t("section.archive_title"))}</h1>',
-        f'<p>{_esc(t("section.archive_subtitle"))}</p>',
-        "</div>",
-        _render_subscribe(ctx),
-    ]
-    body_parts.extend(
-        _render_plate(e, ctx, hero=False)
-        for e in entries[:ARCHIVE_MAX_ENTRIES]
-    )
-    return _page(
-        t("page.archive_title_template"),
-        "\n".join(body_parts),
-        ctx,
-        active="archive",
-    )
-
-
-def write_site(
-    entries: list[SiteEntry],
-    output_dir: Path,
-    catalog: "Catalog",
-    feed_link: str = "",
-    english_name_index: dict | None = None,
-    code_to_localized: dict | None = None,
-    published_anchors: dict | None = None,
-) -> None:
-    """Write index.html and archive.html to ``output_dir``.
-
-    The ``catalog`` is required: every user-facing string is sourced from
-    it. ``feed_link`` rounds out the per-page render context. The three
-    ``*_index`` / ``*_anchors`` dicts power the name linker (English
-    species name substitution + cross-linking to published entries).
-    """
-    ctx = RenderContext(
-        catalog=catalog,
-        feed_link=feed_link,
-        english_name_index=english_name_index or {},
-        code_to_localized=code_to_localized or {},
-        published_anchors=published_anchors or {},
-    )
-    output_dir.mkdir(parents=True, exist_ok=True)
-    # Publish the static basemap next to the pages so the atlas sections
-    # never depend on a third-party tile server.
-    assets_dir = output_dir / "assets"
-    assets_dir.mkdir(parents=True, exist_ok=True)
-    try:
-        shutil.copyfile(_BASEMAP_ASSET, assets_dir / "basemap.png")
-    except OSError:
-        logger.warning("Could not publish basemap asset from %s", _BASEMAP_ASSET)
-    index_html = build_index(entries, ctx)
-    archive_html = build_archive(entries, ctx)
-    (output_dir / "index.html").write_text(index_html, encoding="utf-8")
-    (output_dir / "archive.html").write_text(archive_html, encoding="utf-8")
-    logger.info("Site written: index.html, archive.html (%d entries)", len(entries))
+    return render_page(page_title, body, ctx, active="home")
