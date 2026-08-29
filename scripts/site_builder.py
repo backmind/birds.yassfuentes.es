@@ -39,6 +39,11 @@ class RenderContext:
 
     ``feed_link`` is carried for absolute-URL generation (canonical links,
     Open Graph tags) and is deliberately not read by any renderer yet.
+
+    ``full_feed`` says whether ``feed-full.xml`` is actually published.
+    It only is when a cap applies (see :func:`feed_builder.write_feeds`),
+    so the pages have to be told: advertising a file that was never
+    written hands every reader a 404.
     """
 
     catalog: "Catalog"
@@ -47,6 +52,7 @@ class RenderContext:
     code_to_localized: dict = field(default_factory=dict)
     published_anchors: dict = field(default_factory=dict)
     path_prefix: str = ""
+    full_feed: bool = False
 
     def u(self, path: str) -> str:
         """Resolve a root-relative site path from this page's location."""
@@ -149,9 +155,22 @@ def _render_header(ctx: RenderContext, active: str) -> str:
 
 
 def render_subscribe(ctx: RenderContext) -> str:
-    """Refined RSS footnote — not a marketing banner."""
+    """Refined RSS footnote — not a marketing banner.
+
+    The secondary link to the full history is offered only when that file
+    is actually published. With ``full_feed`` off the subtitle keeps the
+    exact markup it had before the full feed existed, so turning the
+    feature off does not churn every page for an invisible reason.
+    """
     t = ctx.catalog.t
     target = ctx.u(urls.FEED_FILE)
+    sub = _esc(t("subscribe.subtitle"))
+    if ctx.full_feed:
+        full_target = ctx.u(urls.FEED_FULL_FILE)
+        sub = (
+            f'{sub} · <a href="{_esc(full_target)}">'
+            f'{_esc(t("subscribe.full_feed"))}</a>'
+        )
     return f"""
 <aside class="subscribe" aria-label="{_esc(t("subscribe.aria_label"))}">
   <div class="icon" aria-hidden="true">
@@ -161,7 +180,7 @@ def render_subscribe(ctx: RenderContext) -> str:
   </div>
   <div class="text">
     <p class="title">{_esc(t("subscribe.title"))}</p>
-    <p class="sub">{_esc(t("subscribe.subtitle"))}</p>
+    <p class="sub">{sub}</p>
   </div>
   <a class="button" href="{_esc(target)}">{_esc(t("subscribe.button"))}</a>
 </aside>
@@ -251,11 +270,17 @@ def render_plate(
         )
 
     _lang = ctx.catalog.language
+    # Enriched mode: LLM-generated prose and identification bullets. They
+    # are asked for separately and can arrive separately, so each is
+    # rendered on its own condition; nesting the bullets inside the prose
+    # dropped both them and their heading whenever an enrichment came
+    # back with one and not the other, and published the scraped
+    # paragraph in their place. feed_builder.build_entry_html renders the
+    # same two fields with the same three branches.
+    desc_html = ""
     if entry.enriched_prose:
-        # Enriched mode: LLM-generated prose + identification bullets.
         # Split on double-newline so each paragraph gets its own <p>.
         paragraphs = [p.strip() for p in entry.enriched_prose.split("\n\n") if p.strip()]
-        desc_html = ""
         for para in paragraphs:
             processed = name_linker.process_description(
                 para,
@@ -265,46 +290,47 @@ def render_plate(
                 _lang,
             )
             desc_html += f'<p class="plate-description">{processed}</p>'
-        if entry.enriched_identification:
-            id_label = ctx.catalog.t("identification.label")
-            bullets = "".join(
-                f"<li>{_esc(b)}</li>" for b in entry.enriched_identification
-            )
-            desc_html += f'<p class="plate-id-label">{_esc(id_label)}</p>'
-            desc_html += f'<ul class="plate-identification">{bullets}</ul>'
-    elif entry.description:
-        processed_desc = name_linker.process_description(
-            entry.description,
-            ctx.english_name_index,
-            ctx.code_to_localized,
-            ctx.published_anchors,
-            _lang,
+    if entry.enriched_identification:
+        id_label = ctx.catalog.t("identification.label")
+        bullets = "".join(
+            f"<li>{_esc(b)}</li>" for b in entry.enriched_identification
         )
-        desc_html = f'<p class="plate-description">{processed_desc}</p>'
-        if entry.description_source == "ebird-foreign":
-            lang_name = ctx.catalog.t(
-                f"language_name.{entry.fallback_language or 'en'}"
-            )
-            disclaimer = ctx.catalog.t(
-                "description.foreign_disclaimer", source_language=lang_name
-            )
-            desc_html += (
-                f'<p class="plate-description-note"><em>{_esc(disclaimer)}</em></p>'
-            )
-        if entry.bow_intro:
-            processed_bow = name_linker.process_description(
-                entry.bow_intro,
+        desc_html += f'<p class="plate-id-label">{_esc(id_label)}</p>'
+        desc_html += f'<ul class="plate-identification">{bullets}</ul>'
+    if not entry.enriched_prose and not entry.enriched_identification:
+        if entry.description:
+            processed_desc = name_linker.process_description(
+                entry.description,
                 ctx.english_name_index,
                 ctx.code_to_localized,
                 ctx.published_anchors,
                 _lang,
             )
-            desc_html += (
-                f'<p class="plate-description">{processed_bow}</p>'
-            )
-    else:
-        marker = ctx.catalog.t("description.empty_marker")
-        desc_html = f'<p class="plate-description empty">{_esc(marker)}</p>'
+            desc_html = f'<p class="plate-description">{processed_desc}</p>'
+            if entry.description_source == "ebird-foreign":
+                lang_name = ctx.catalog.t(
+                    f"language_name.{entry.fallback_language or 'en'}"
+                )
+                disclaimer = ctx.catalog.t(
+                    "description.foreign_disclaimer", source_language=lang_name
+                )
+                desc_html += (
+                    f'<p class="plate-description-note"><em>{_esc(disclaimer)}</em></p>'
+                )
+            if entry.bow_intro:
+                processed_bow = name_linker.process_description(
+                    entry.bow_intro,
+                    ctx.english_name_index,
+                    ctx.code_to_localized,
+                    ctx.published_anchors,
+                    _lang,
+                )
+                desc_html += (
+                    f'<p class="plate-description">{processed_bow}</p>'
+                )
+        else:
+            marker = ctx.catalog.t("description.empty_marker")
+            desc_html = f'<p class="plate-description empty">{_esc(marker)}</p>'
 
     number_html = (
         f'<span class="plate-number"><span class="glyph">№</span>&nbsp;{entry.number}</span>'
@@ -502,10 +528,21 @@ def render_page(
     order; it is emitted right after the theme-boot script, which is
     there for the same reason. Empty by default, and it contributes no
     whitespace when empty so a page without it keeps its exact bytes.
+
+    The second ``rel="alternate"`` is emitted only when the full-history
+    feed is actually published, for the reason given on
+    :attr:`RenderContext.full_feed`.
     """
     t = ctx.catalog.t
     stylesheet_href = _esc(ctx.u(urls.STYLESHEET))
     head_block = f"\n  {head_extra}" if head_extra else ""
+    full_feed_link = ""
+    if ctx.full_feed:
+        full_feed_link = (
+            '\n  <link rel="alternate" type="application/rss+xml" title="'
+            f'{_esc(t("feed.full_title_template", title=t("site.title")))}" '
+            f'href="{_esc(ctx.u(urls.FEED_FULL_FILE))}">'
+        )
     return f"""<!DOCTYPE html>
 <html lang="{_esc(ctx.catalog.html_lang)}">
 <head>
@@ -516,7 +553,7 @@ def render_page(
   <meta name="theme-color" content="#F4EEE0" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#0F1518" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/svg+xml" href="{_FAVICON_SVG}">
-  <link rel="alternate" type="application/rss+xml" title="{_esc(t("site.title"))}" href="{_esc(ctx.u(urls.FEED_FILE))}">
+  <link rel="alternate" type="application/rss+xml" title="{_esc(t("site.title"))}" href="{_esc(ctx.u(urls.FEED_FILE))}">{full_feed_link}
   {_THEME_BOOT_SCRIPT}{head_block}
   <link rel="stylesheet" href="{stylesheet_href}">
 </head>
