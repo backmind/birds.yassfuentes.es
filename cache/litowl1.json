@@ -1,0 +1,15 @@
+{
+  "description": "Pequeño búho típico de ambientes abiertos como zonas agrícolas con setos y árboles dispersos, huertos, bosques aclarados y canteras, puede ser escaso o bastante común. Nidifica en oquedades de árboles y rocas. A veces está activo durante el día, posado silenciosamente en rocas o postes, pero principalmente es activo desde el atardecer hasta el amanecer. Es fácil de identificar, con la parte superior moteada de blanco. Su mirada fija de ojos amarillos y cejas blancas, junto con su postura frecuentemente erguida, le da a menudo un aspecto de estar alerta. Tiene vuelo bajo y ondulado.",
+  "description_source": "ebird",
+  "bow_intro": "Esta relación de especies está dedicada en honor de Inge Reichenbach, miembro del Consejo de Administración del Cornell Lab of Ornithology.",
+  "taxonomy": {},
+  "wikipedia_summary": "El mochuelo europeo o mochuelo común es un ave estrigiforme de la familia Strigidae. Está muy difundida por toda la mitad sur de Europa y el norte de África, puesto que es típica de ecosistemas mediterráneos con abundancia de olivos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Athene_noctua",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2497266,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2497266&bin=hex&hexPerTile=75&style=classic.poly",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22689328"
+}

@@ -1259,6 +1259,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/611393322/900",
       "photographer": "Andrés  Rojas Sánchez",
       "attribution": "Andrés  Rojas Sánchez / Macaulay Library"
+    },
+    {
+      "speciesCode": "litowl1",
+      "comName": "Mochuelo Europeo",
+      "sciName": "Athene noctua",
+      "date": "2026-08-29",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900",
+      "photographer": "Sinan Yılmaz",
+      "attribution": "Sinan Yılmaz / Macaulay Library"
     }
   ]
 }

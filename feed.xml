@@ -8,6 +8,22 @@
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
     <item>
+      <title>Mochuelo Europeo (Athene noctua)</title>
+      <link>https://ebird.org/species/litowl1</link>
+      <guid isPermaLink="false">bird-of-the-day-litowl1-2026-08-29</guid>
+      <pubDate>Sat, 29 Aug 2026 08:41:45 +0000</pubDate>
+      <content:encoded><![CDATA[<a href="https://ebird.org/species/litowl1?siteLanguage=es"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900" alt="Mochuelo Europeo © Sinan Yılmaz / Macaulay Library" style="max-width:100%; border-radius:8px;" /></a>
+<p style="font-size:.78rem;font-style:italic;color:#5C6A6E">© Sinan Yılmaz / Macaulay Library</p>
+<h2>Mochuelo Europeo — <em>Athene noctua</em></h2>
+<p><small><em>Strigidae</em> · <em>Strigiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22689328" style="color:inherit">Preocupación Menor</a></small></p>
+<p>Pequeño búho típico de ambientes abiertos como zonas agrícolas con setos y árboles dispersos, huertos, bosques aclarados y canteras, puede ser escaso o bastante común. Nidifica en oquedades de árboles y rocas. A veces está activo durante el día, posado silenciosamente en rocas o postes, pero principalmente es activo desde el atardecer hasta el amanecer. Es fácil de identificar, con la parte superior moteada de blanco. Su mirada fija de ojos amarillos y cejas blancas, junto con su postura frecuentemente erguida, le da a menudo un aspecto de estar alerta. Tiene vuelo bajo y ondulado.</p>
+<p>Esta relación de especies está dedicada en honor de Inge Reichenbach, miembro del Consejo de Administración del Cornell Lab of Ornithology.</p>
+<figure style="margin:1.5rem auto;padding:.85rem;border:1px solid #C8BEA4;background:#ECE2CC;max-width:480px;text-align:center"><a href="https://www.gbif.org/species/2497266" style="display:block;text-decoration:none;border:0"><img src="https://birds.yassfuentes.es/maps/litowl1.png" alt="Distribución mundial de Athene noctua según GBIF" style="max-width:100%;border-radius:4px" /></a><figcaption style="margin-top:.55rem;font-family:Georgia,serif;font-size:.72rem;color:#5C6A6E;letter-spacing:.14em;text-transform:uppercase">Distribución mundial</figcaption></figure>
+<p><small>
+<a href="https://ebird.org/species/litowl1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Athene_noctua">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/litowl1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=litowl1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a>
+</small></p>]]></content:encoded>
+    </item>
+    <item>
       <title>Mosquitero Canario (Phylloscopus canariensis)</title>
       <link>https://ebird.org/species/caichi1</link>
       <guid isPermaLink="false">bird-of-the-day-caichi1-2026-08-28</guid>
