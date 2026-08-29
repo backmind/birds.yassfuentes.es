@@ -39,19 +39,20 @@ GBIF_MAP_TEMPLATE = (
 )
 GBIF_SPECIES_PAGE_TEMPLATE = "https://www.gbif.org/species/{key}"
 
+# Match states persisted in the content cache. MATCH_NONE is an
+# authoritative "GBIF does not know this name" (never retried);
+# MATCH_ERROR is a transient failure (retried by the backfill step).
+MATCH_OK = "matched"
+MATCH_NONE = "none"
+MATCH_ERROR = "error"
 
-def gbif_taxon_match(
+
+def gbif_taxon_match_ex(
     scientific_name: str, session: requests.Session | None = None
-) -> int | None:
-    """Look up a GBIF ``usageKey`` for a scientific name.
-
-    Returns the integer ``usageKey`` on a successful EXACT or FUZZY
-    match (status ``ACCEPTED`` or ``SYNONYM``), or ``None`` when the
-    species is not found, the API errors out, or the match confidence
-    is too low to trust.
-    """
+) -> tuple[int | None, str]:
+    """Like :func:`gbif_taxon_match` but reports HOW the match failed."""
     if not scientific_name:
-        return None
+        return None, MATCH_NONE
 
     sess = session or requests.Session()
     try:
@@ -62,34 +63,63 @@ def gbif_taxon_match(
         )
         resp.raise_for_status()
         data = resp.json()
-    except (requests.RequestException, ValueError):
+
+        match_type = data.get("matchType", "")
+        confidence = int(data.get("confidence", 0))
+        # Reject NONE matches and very low-confidence guesses; accept
+        # EXACT, FUZZY, and HIGHERRANK as long as confidence is reasonable
+        # and the match rank is checked below (HIGHERRANK can land above
+        # species, e.g. on the genus, which is rejected separately).
+        if match_type == "NONE" or confidence < 80:
+            logger.info(
+                "GBIF match for %r rejected: matchType=%s confidence=%d",
+                scientific_name, match_type, confidence,
+            )
+            return None, MATCH_NONE
+
+        rank = data.get("rank", "")
+        if rank and rank != "SPECIES":
+            logger.info(
+                "GBIF match for %r rejected: rank=%s (a genus-level match "
+                "would map the whole genus)", scientific_name, rank,
+            )
+            return None, MATCH_NONE
+
+        # Prefer ``usageKey`` (which follows synonym redirects) over
+        # ``speciesKey``. Both should usually agree for accepted names.
+        key = data.get("usageKey") or data.get("speciesKey")
+    except (requests.RequestException, ValueError, TypeError, AttributeError):
+        # A non-dict JSON body (list, scalar) or an unparseable field
+        # reaches here too: treat it as transient, same as a network
+        # error, rather than letting it escape as an unhandled exception.
         logger.debug(
-            "GBIF taxon match failed for %s", scientific_name, exc_info=True
+            "GBIF taxon match errored for %s", scientific_name, exc_info=True
         )
-        return None
+        return None, MATCH_ERROR
 
-    match_type = data.get("matchType", "")
-    confidence = int(data.get("confidence", 0))
-    # Reject NONE matches and very low-confidence guesses; accept
-    # EXACT, FUZZY, and HIGHERRANK as long as confidence is reasonable.
-    if match_type == "NONE" or confidence < 80:
-        logger.info(
-            "GBIF match for %r rejected: matchType=%s confidence=%d",
-            scientific_name, match_type, confidence,
-        )
-        return None
-
-    # Prefer ``usageKey`` (which follows synonym redirects) over
-    # ``speciesKey``. Both should usually agree for accepted names.
-    key = data.get("usageKey") or data.get("speciesKey")
     if not isinstance(key, int) or key <= 0:
-        return None
+        return None, MATCH_NONE
 
     logger.info(
-        "GBIF taxon match: %r → usageKey=%d (matchType=%s, confidence=%d)",
+        "GBIF taxon match: %r -> usageKey=%d (matchType=%s, confidence=%d)",
         scientific_name, key, match_type, confidence,
     )
-    return key
+    return key, MATCH_OK
+
+
+def gbif_taxon_match(
+    scientific_name: str, session: requests.Session | None = None
+) -> int | None:
+    """Look up a GBIF ``usageKey`` for a scientific name.
+
+    Returns the integer ``usageKey`` on a successful EXACT or FUZZY
+    match (status ``ACCEPTED`` or ``SYNONYM``), or ``None`` when the
+    species is not found, the API errors out, or the match confidence
+    is too low to trust.
+
+    Back-compat wrapper over :func:`gbif_taxon_match_ex`.
+    """
+    return gbif_taxon_match_ex(scientific_name, session=session)[0]
 
 
 def gbif_map_url(taxon_key: int) -> str:
@@ -138,8 +168,9 @@ def fetch_iucn_category(
     code = data.get("code", "")
     category = data.get("category", "")
     # GBIF sometimes returns versioned IDs like "22735687_1"; BirdLife
-    # only accepts the base ID without the suffix.
-    iucn_taxon_id = data.get("iucnTaxonID", "").split("_")[0]
+    # only accepts the base ID without the suffix. The field is not always
+    # a string (unversioned IDs come back as ints), hence the str() coercion.
+    iucn_taxon_id = str(data.get("iucnTaxonID", "") or "").split("_")[0]
     if not code:
         return None
 
@@ -164,3 +195,13 @@ def fetch_distribution(
     if key is None:
         return None
     return key, gbif_map_url(key)
+
+
+def fetch_distribution_ex(
+    scientific_name: str, session: requests.Session | None = None
+) -> tuple[int | None, str, str]:
+    """Return ``(taxon_key, map_url, match_state)``."""
+    key, state = gbif_taxon_match_ex(scientific_name, session=session)
+    if key is None:
+        return None, "", state
+    return key, gbif_map_url(key), state

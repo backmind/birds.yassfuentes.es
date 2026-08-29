@@ -38,17 +38,17 @@
   "max_feed_entries": 0,
   "_max_feed_entries_help": "Maximum entries in feed.xml. 0 = unlimited (full history). Set via BOTD_MAX_FEED_ENTRIES for Docker.",
   "back_days": 14,
+  "backfill_limit": 3,
+  "_backfill_limit_help": "Max healing actions (missed enrichments, failed GBIF lookups) retried per run. 0 disables self-healing.",
 
   "feed_link": "",
   "_feed_link_help": "Base URL of your deployed site (e.g. 'https://birds.example.com/'). Used for absolute URLs in the RSS feed.",
 
-  "content_mode": "programmatic",
-  "_content_mode_help": "One of: programmatic (scrape-only, no LLM) | enriched (LLM generates cohesive text from scraped sources). Default: programmatic.",
   "llm": {
     "endpoint": "https://generativelanguage.googleapis.com/v1beta/openai",
-    "model": "gemini-flash-latest",
-    "temperature": 0,
-    "max_retries": 2
+    "models": ["gemini-2.5-flash"],
+    "temperature": 0.6,
+    "judge": false
   },
-  "_llm_help": "OpenAI-compatible chat completions endpoint. API key via BOTD_LLM_API_KEY env var."
+  "_llm_help": "OpenAI-compatible chat completions endpoint. 'models' are tried in order until one succeeds; pin concrete model names, not -latest aliases. API key via BOTD_LLM_API_KEY env var. 'judge' enables an optional second-pass fact-check."
 }

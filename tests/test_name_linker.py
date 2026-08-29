@@ -100,3 +100,110 @@ def test_extract_name_pairs():
 def test_extract_name_pairs_empty():
     pairs = extract_name_pairs("No birds here.", {}, {})
     assert pairs == {}
+
+
+def test_shortform_links_head_word_verbatim():
+    """The head word of a confirmed species links verbatim when repeated."""
+    eni = {"Atlantic Puffin": "atlpuf"}
+    c2l = {"atlpuf": "Frailecillo Atlantico"}
+    result = process_description(
+        "El Atlantic Puffin anida aqui. Frailecillo vuela lejos.",
+        eni, c2l, {}
+    )
+    assert result.count("ebird.org/species/atlpuf") == 2
+    assert ">Frailecillo</a>" in result
+    assert "Frailecillo Atlantico</a>" not in result.split(">Frailecillo</a>")[1]
+
+
+def test_shortform_ignores_non_head_words():
+    """A non-head word of the confirmed name is not linked elsewhere."""
+    eni = {"Salomon Pigeon": "salpig"}
+    c2l = {"salpig": "Paloma Perdiz de las Salomon"}
+    result = process_description(
+        "The Salomon Pigeon lives there. "
+        "En el archipielago de las Salomon hay muchas aves.",
+        eni, c2l, {}
+    )
+    assert "archipielago de las Salomon hay" in result
+    assert result.count("Paloma Perdiz de las Salomon") == 1
+
+
+def test_shortform_is_case_sensitive():
+    """A lowercase occurrence of the head word is not linked."""
+    eni = {"Atlantic Puffin": "atlpuf"}
+    c2l = {"atlpuf": "Frailecillo Atlantico"}
+    result = process_description(
+        "El Atlantic Puffin anida aqui. Un frailecillo de juguete cayo.",
+        eni, c2l, {}
+    )
+    assert result.count("ebird.org/species/atlpuf") == 1
+    assert "frailecillo de juguete" in result
+
+
+def test_english_substitution_fixes_determiner():
+    """Masculine 'El' before a feminine localized name becomes 'La'."""
+    eni = {"Monk Parakeet": "monpar"}
+    c2l = {"monpar": "Cotorra Argentina"}
+    result = process_description(
+        "El Monk Parakeet es ruidoso.", eni, c2l, {}
+    )
+    assert "La " in result
+    assert "El Cotorra" not in result
+    assert 'La <a' in result
+
+
+def test_determiner_untouched_when_gender_agrees():
+    """A determiner that already agrees with the localized gender is kept."""
+    eni = {"Black Kite": "blakit1"}
+    c2l = {"blakit1": "Milano Negro"}
+    result = process_description(
+        "el Black Kite vuela", eni, c2l, {}
+    )
+    assert "el " in result
+    assert 'el <a' in result
+
+
+def test_feminine_el_head_not_rewritten():
+    """Feminine nouns using 'el' in the singular are left untouched."""
+    eni = {"Golden Eagle": "goleag"}
+    c2l = {"goleag": "Águila Real"}
+    result = process_description(
+        "el Golden Eagle planea alto", eni, c2l, {}
+    )
+    assert 'el <a href="https://ebird.org/species/goleag"' in result
+
+
+def test_capitalized_determiner_preserved():
+    """A capitalized determiner keeps its capitalization when rewritten."""
+    eni = {"Monk Parakeet": "monpar"}
+    c2l = {"monpar": "Cotorra Argentina"}
+    result = process_description(
+        "Del Monk Parakeet se dice mucho.", eni, c2l, {}
+    )
+    assert "De la " in result
+
+
+def test_no_determiner_rewrite_without_substitution():
+    """No real substitution happens when the code has no localized name.
+
+    ``code_to_localized.get(code, matched)`` falls back to the English
+    matched text itself (live production state when the taxonomy fetch
+    degrades to ``{}``). The determiner must NOT be rewritten against
+    the English head noun in that case.
+    """
+    eni = {"Barn Owl": "brnowl"}
+    result = process_description(
+        "la Barn Owl vuela de noche.", eni, {}, {}
+    )
+    assert 'la <a href="https://ebird.org/species/brnowl"' in result
+    assert 'el <a' not in result
+
+
+def test_whitespace_localized_name_does_not_crash():
+    """A whitespace-only localized name must not raise IndexError."""
+    eni = {"Barn Owl": "brnowl"}
+    c2l = {"brnowl": "   "}
+    result = process_description(
+        "The Barn Owl flies at night.", eni, c2l, {}
+    )
+    assert "ebird.org/species/brnowl" in result

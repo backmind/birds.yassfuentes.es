@@ -3,8 +3,9 @@
 
 Orchestrates species selection, image lookup, content scraping, RSS feed
 construction, and the static index.html / archive.html pages. Idempotent
-within a single UTC day: if today's bird is already in history, the script
-exits without making changes.
+within a single UTC day: if today's bird is already in history, no new
+entry is published. Maintenance still runs on every invocation, so a
+later tick can heal past entries and republish feed and site.
 """
 
 from __future__ import annotations
@@ -20,6 +21,7 @@ from pathlib import Path
 import requests
 
 from scripts import (
+    backfill,
     content_scraper,
     ebird_client,
     feed_builder,
@@ -27,6 +29,7 @@ from scripts import (
     image_fetcher,
     llm_enricher,
     map_composer,
+    run_report,
     site_builder,
 )
 
@@ -113,8 +116,8 @@ _ENV_OVERRIDES: dict[str, tuple[str, type]] = {
     "BOTD_DEDUP_WINDOW": ("dedup_window", int),
     "BOTD_MAX_FEED_ENTRIES": ("max_feed_entries", int),
     "BOTD_BACK_DAYS": ("back_days", int),
+    "BOTD_BACKFILL_LIMIT": ("backfill_limit", int),
     "BOTD_FEED_LINK": ("feed_link", str),
-    "BOTD_CONTENT_MODE": ("content_mode", str),
 }
 
 logging.basicConfig(
@@ -167,6 +170,13 @@ def load_config() -> dict:
                 "ignoring %s=%r (cast to %s failed: %s)",
                 env_name, raw_value, caster.__name__, e,
             )
+
+    if "content_mode" in config:
+        logger.warning(
+            "config key 'content_mode' is deprecated and ignored; the "
+            "pipeline enriches via LLM whenever one is configured"
+        )
+        config.pop("content_mode")
 
     known = i18n.discover_languages()
     if known and config["language"] not in known:
@@ -288,17 +298,22 @@ def _build_site_entries(
 
 
 def _build_indexes(
-    history: dict, feed_link: str
+    history: dict, feed_link: str, ebird_locale: str
 ) -> tuple[dict[str, str], dict[str, str], dict[str, str]]:
     """Build cross-reference indexes for the name linker.
 
     Returns ``(code_to_localized, published_anchors, published_anchors_abs)``.
     ``published_anchors`` uses relative archive URLs; ``published_anchors_abs``
     prepends the ``feed_link`` base so RSS readers can resolve them.
+
+    ``ebird_locale`` must be the resolved locale for the run. This function
+    can be the first taxonomy load of a run, and ``get_full_taxonomy``
+    caches both in-process and on disk keyed by locale, so omitting it
+    would populate those caches with the default Spanish taxonomy.
     """
     # Ensure the taxonomy is loaded (may not be if we're rebuilding
     # without going through the full selection pipeline).
-    ebird_client.get_full_taxonomy(cache_dir=CACHE_DIR)
+    ebird_client.get_full_taxonomy(locale=ebird_locale, cache_dir=CACHE_DIR)
     code_to_localized = ebird_client.get_code_to_localized()
 
     published_anchors: dict[str, str] = {}
@@ -323,12 +338,15 @@ def _rebuild_feed(
     code_to_localized: dict,
     published_anchors_abs: dict,
     now: datetime,
-) -> None:
+) -> dict[str, str]:
     """Full-rebuild the RSS feed from history.
 
     Every entry gets fresh name-linker output so cross-links to newly
     published species appear retroactively in older entries. pubDates are
     preserved from the existing feed via a pre-pass lookup.
+
+    Returns the ``species_code`` to relative-path map of composed
+    distribution maps, so callers can report the ones that are missing.
     """
     existing_pub_by_guid = {
         e.guid: e.pub_date
@@ -342,6 +360,9 @@ def _rebuild_feed(
         list(reversed(history["entries"])),
         str(CACHE_DIR),
         MAPS_DIR,
+    )
+    basemap_url = (
+        f"{feed_link.rstrip('/')}/assets/basemap.png" if feed_link else ""
     )
 
     all_feed_entries: list[feed_builder.FeedEntry] = []
@@ -384,6 +405,7 @@ def _rebuild_feed(
             distribution_map_url=fco.distribution_map_url,
             gbif_taxon_key=fco.gbif_taxon_key,
             composed_map_url=composed_map_url,
+            basemap_url=basemap_url,
             iucn_code=fco.iucn_code,
             iucn_birdlife_url=fco.iucn_birdlife_url,
             enriched_prose=fen.prose if fen else "",
@@ -410,6 +432,27 @@ def _rebuild_feed(
     all_feed_entries = all_feed_entries[:max_entries]
     feed_xml = feed_builder.build_feed(all_feed_entries, config, catalog)
     feed_builder.write_feed(feed_xml, str(FEED_PATH))
+    return composed_paths
+
+
+def _report_missing_maps(
+    history: dict,
+    composed_paths: dict[str, str],
+    report: run_report.RunReport,
+) -> None:
+    """Warn about species whose distribution map failed to compose.
+
+    Composition never fails the run, so without this the feed silently
+    loses maps. Only species that actually have a GBIF map URL are
+    reported: the rest have nothing to compose.
+    """
+    for entry in history["entries"]:
+        code = entry.get("speciesCode")
+        if not code or code in composed_paths:
+            continue
+        cached = content_scraper.load_cached_content(code, str(CACHE_DIR))
+        if cached is not None and cached.distribution_map_url:
+            report.warn(f"map composition missing for {code}")
 
 
 def _select_and_fetch(
@@ -460,9 +503,9 @@ def _select_and_fetch(
         content = content_scraper.load_cached_content(species_code, str(CACHE_DIR))
         if content is None:
             logger.info("Scraping content for %s", species_code)
-            # In enriched mode, cache full text (LLM applies its own
-            # context budget). In programmatic mode, truncate for layout.
-            enriched = config.get("content_mode") == "enriched"
+            # When an LLM is configured, cache full text (LLM applies its
+            # own context budget). Otherwise, truncate for layout.
+            enriched = llm_enricher.is_configured(config)
             max_chars = (llm_enricher.MAX_CONTEXT_CHARS if enriched
                          else content_scraper.MAX_DESCRIPTION_CHARS)
             content = content_scraper.scrape_species_content(
@@ -512,6 +555,7 @@ def main() -> None:
     history = load_history()
     now = datetime.now(timezone.utc)
     date_str = now.strftime("%Y-%m-%d")
+    report = run_report.RunReport()
 
     catalog = i18n.Catalog.load(config["language"])
 
@@ -524,15 +568,83 @@ def main() -> None:
         logger.warning("Could not load English taxonomy; name linker disabled")
         english_name_index = {}
 
-    # Idempotency: skip if today's entry is already in history.
-    last = history["entries"][-1] if history["entries"] else None
-    if last and last.get("date") == date_str:
-        logger.info("Already generated for %s, skipping", date_str)
-        return
-
     description_policy = config.get("description_policy", "foreign_fallback")
+    feed_link = config.get("feed_link", "")
 
     try:
+        # Maintenance first: heal past entries (missed enrichments,
+        # failed GBIF lookups). Runs even when today is already
+        # published, so a second cron tick repairs the morning's outage.
+        # Guarded on its own: building the indexes may need to fetch the
+        # taxonomy, and an outage there must not turn an otherwise no-op
+        # run on an already-published day into a failure.
+        try:
+            code_to_localized, published_anchors, published_anchors_abs = (
+                _build_indexes(history, feed_link, ebird_locale)
+            )
+            session = image_fetcher.new_session(
+                accept_language=catalog.accept_language_header
+            )
+            actions = backfill.run_backfill(
+                history, config, catalog, str(CACHE_DIR),
+                english_name_index, code_to_localized,
+                limit=int(config.get("backfill_limit", 3)),
+                session=session,
+            )
+        except requests.RequestException:
+            logger.warning(
+                "maintenance skipped: taxonomy or network unavailable",
+                exc_info=True,
+            )
+            report.warn("maintenance skipped: taxonomy or network unavailable")
+            code_to_localized = {}
+            published_anchors = {}
+            published_anchors_abs = {}
+            actions = []
+
+        healed = [a for a in actions if a.ok]
+        for action in actions:
+            if action.ok:
+                report.info(f"backfill healed {action.kind} for {action.species_code}")
+            else:
+                report.warn(f"backfill {action.kind} for {action.species_code} failed")
+
+        # Idempotency: today's entry is already published. Republish only
+        # when backfill actually changed something.
+        last = history["entries"][-1] if history["entries"] else None
+        if last and last.get("date") == date_str:
+            if healed:
+                logger.info(
+                    "Already generated for %s; backfill healed %d, rebuilding",
+                    date_str, len(healed),
+                )
+                composed_paths = _rebuild_feed(
+                    history, config, catalog, description_policy,
+                    english_name_index, code_to_localized,
+                    published_anchors_abs, now,
+                )
+                _report_missing_maps(history, composed_paths, report)
+                site_entries = _build_site_entries(
+                    history, description_policy=description_policy
+                )
+                site_builder.write_site(
+                    site_entries,
+                    STATE_DIR,
+                    catalog=catalog,
+                    feed_link=feed_link,
+                    english_name_index=english_name_index,
+                    code_to_localized=code_to_localized,
+                    published_anchors=published_anchors,
+                )
+            else:
+                logger.info("Already generated for %s, skipping", date_str)
+            report.info(
+                f"already published for {date_str}"
+                + (", outputs rebuilt after healing" if healed else "")
+            )
+            report.emit()
+            return
+
         # 1. Select species, fetch image + content.
         dedup_window = config.get("dedup_window", config.get("max_history", 50))
         history_codes = [e["speciesCode"] for e in history["entries"][-dedup_window:]]
@@ -544,10 +656,10 @@ def main() -> None:
         species_code = species["speciesCode"]
         common_name = species["comName"]
         scientific_name = species["sciName"]
+        report.info(f"species: {common_name} ({scientific_name}) [{species_code}]")
 
-        # 2. LLM enrichment (when content_mode is "enriched").
-        content_mode = config.get("content_mode", "programmatic")
-        if content_mode == "enriched":
+        # 2. LLM enrichment: always attempted when an LLM is configured.
+        if llm_enricher.is_configured(config):
             enriched = llm_enricher.load_cached_enrichment(
                 species_code, str(CACHE_DIR)
             )
@@ -555,6 +667,7 @@ def main() -> None:
                 enriched = llm_enricher.enrich_species(
                     species_code, common_name, scientific_name,
                     content, config, catalog,
+                    english_name_index, code_to_localized,
                 )
                 if enriched:
                     llm_enricher.save_cached_enrichment(
@@ -562,11 +675,18 @@ def main() -> None:
                     )
             if enriched:
                 logger.info("Using enriched content for %s", species_code)
+                report.info("content: enriched")
             else:
                 logger.warning(
                     "LLM enrichment failed for %s, falling back to programmatic",
                     species_code,
                 )
+                report.warn(
+                    f"LLM enrichment failed for {species_code}, "
+                    "published programmatic fallback"
+                )
+        else:
+            report.info("content: programmatic (no LLM configured)")
 
         # 3. Apply description policy.
         effective_description, effective_source = _apply_description_policy(
@@ -577,6 +697,7 @@ def main() -> None:
                 "foreign_fallback: using rejected %s text for %s",
                 content.fallback_language, species_code,
             )
+            report.warn(f"foreign-language description published for {species_code}")
 
         # 3. Update history.
         history["entries"].append(
@@ -592,17 +713,17 @@ def main() -> None:
         )
         save_history(history)
 
-        # 4. Build cross-reference indexes for the name linker.
-        feed_link = config.get("feed_link", "")
+        # 4. Rebuild cross-reference indexes so anchors include today.
         code_to_localized, published_anchors, published_anchors_abs = (
-            _build_indexes(history, feed_link)
+            _build_indexes(history, feed_link, ebird_locale)
         )
 
         # 5. Full-rebuild the RSS feed.
-        _rebuild_feed(
+        composed_paths = _rebuild_feed(
             history, config, catalog, description_policy,
             english_name_index, code_to_localized, published_anchors_abs, now,
         )
+        _report_missing_maps(history, composed_paths, report)
 
         # 6. Generate the static site.
         site_entries = _build_site_entries(history, description_policy=description_policy)
@@ -617,9 +738,11 @@ def main() -> None:
         )
 
         logger.info("Done. Today's bird: %s (%s)", common_name, scientific_name)
+        report.emit()
 
     except Exception:
         logger.exception("Failed to generate bird of the day")
+        report.emit()
         sys.exit(1)
 
 
