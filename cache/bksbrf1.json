@@ -1,0 +1,16 @@
+{
+  "description": "Matorralero raro, su rango de distribución está completamente restringido a los Andes orientales del centro de Perú. Tiene un ornamentado patrón en la cabeza con parcial máscara negra bordeada por rayas castañas, bigotera blanquinegra, y punto blanco entre el ojo y el pico. La única especie similar es Apurimac Brushfinch (Atlapetes forbesi), el cual es encontrado más al sureste y tiene máscara más pequeña y bigotera negra más delgada. Habita en áreas con matorral cerca de bordes de bosque. Su canto es una serie de notas vívidas y sibilantes.",
+  "description_source": "ebird",
+  "bow_intro": "Black-spectacled Brushfinch es una especie endémica peruana, y también es mejor considerarla miembro de una superespecie con otras dos especialidades peruanas, El apurimac (Atlapetes forbesi ) y Orejudo rufo (Atlapetes rufigenis ) fringillidae. Los tres tienen patrones de plumaje similares y se encuentran en poblaciones aisladas separadas dentro de Perú. Black-spectacled Brushfinch recibe su nombre porque tiene una gran mancha negra en la cara. De hecho, la cabeza está adornada en su patrón, con una corona, nuca y lados de la cara rojizos que rodean la mancha negra, ¡así como un estriado supraloral, la frente negra y unas atrevidas rayas blancas malares y negras laterales en la garganta! Resulta un visaje llamativo. Por lo demás, por arriba y en gran parte por abajo, se trata de un Fringillidae gris, con la garganta y el vientre blancos. Vive en matorrales montanos y en el borde de los bosques, y se encuentra en regiones estacionalmente húmedas, pero está ausente de las zonas de ladera oriental. A Black-spectacled Brushfinch también le gustan las zonas arbustivas secas (pero en una zona con precipitaciones estacionales bastante elevadas) y el borde de los bosques adyacentes en laderas húmedas entre las elevaciones de 2500-3600 m.",
+  "taxonomy": {},
+  "wikipedia_summary": "El atlapetes de anteojos es una especie de ave paseriforme de la familia Emberizidae endémica de Perú.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Atlapetes_melanopsis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2491440,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2491440&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22724596"
+}
