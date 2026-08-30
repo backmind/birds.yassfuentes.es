@@ -9,7 +9,7 @@
   "fallback_text": "Extremely local brushfinch that is essentially unknown in life, only being found in the remote northern Cordillera Vilcabamba. Similar to Tricolored Brushfinch, but underparts notably more greenish-tinged, and apparently found at higher elevations than that species. No other similar species in range. Behavior and voice unknown.",
   "fallback_language": "en",
   "gbif_taxon_key": 2491467,
-  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2491467&bin=hex&hexPerTile=75&style=classic.poly",
+  "distribution_map_url": "",
   "gbif_match": "matched",
   "iucn_code": "NT",
   "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22728571"

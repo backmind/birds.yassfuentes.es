@@ -9,7 +9,8 @@
   "fallback_text": "Extinct, last reported in 1927. Formerly Solomon Islands (Ramos and Makira).",
   "fallback_language": "en",
   "gbif_taxon_key": 10674967,
-  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=10674967&bin=hex&hexPerTile=75&style=classic.poly",
+  "distribution_map_url": "",
+  "gbif_match": "",
   "iucn_code": "EX",
   "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22691056"
 }
