@@ -25,6 +25,13 @@ Thumbs.db
 # Local plan / scratch
 plan-bird-of-the-day-rss.md
 
+# docker/ diverges too, in two files, and both are deliberate.
+# docker/crontab runs at 02:00 rather than the template's 07:00, and
+# docker/entrypoint.sh drops the block that copies config.example.json
+# when no config.json is present: a container here must fail loudly
+# rather than quietly publish somebody else's pools. Resolve a conflict
+# in either by keeping this side.
+#
 # README.md diverges from the template on purpose: this repository's
 # entry point describes the instance, not the software, and the template's
 # own README is a manual for building a different site. A template merge
