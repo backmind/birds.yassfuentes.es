@@ -1,0 +1,16 @@
+{
+  "description": "El atlapetes de Vilcabamba o matorralero de Vilcabamba es una especie de ave paseriforme de la familia Passerellidae endémica de los bosques húmedos de la Cordillera de Vilcabamba, en el sur de Perú. Anteriormente se consideraba una subespecie del atlapetes pechiamarillo.",
+  "description_source": "wikipedia",
+  "bow_intro": "Entre 1966 y 1970, los ornitólogos John Terborgh y John Weske, con un pequeño equipo de ayudantes, montaron una audaz serie de expediciones a la cresta de la salvaje y deshabitada Cordillera Vilcabamba, en el centro sur de Perú. El objetivo de estas expediciones era estudiar las relaciones ecológicas de las especies de aves con respecto a la altitud, en un hábitat prístino. Incidentalmente a estos estudios ecológicos, Terborgh y Weske encontraron varias especies que hasta entonces eran desconocidas para los biólogos: Cloud-forest Screech-Owl (Megascops marshalli ) , Vilcabamba Thistletail (Asthenes vilcabambae ) , Parodi's Hemispingus (Hemispingus parodii ) , y Vilcabamba Brushfinch. Tres de estas especies se encontraron posteriormente en otras localidades, pero Vilcabamba Brushfinch no se ha vuelto a encontrar. Poco se sabe de este brushfinch en vida, aparte de que ocupa bosques montanos húmedos y bosques frondosos, entre 2520-3520 m. Vilcabamba Brushfinch tiene la corona y la nuca rufo; el dorso verde oscuro, con las alas y la cola más negras; y las partes inferiores amarillo brillante, bañadas de oliva en los flancos. Su aspecto es similar al de yebbrf1 (Atlapetes latinuchus ) de los Andes septentrionales y al Bolivian Brushfinch (Atlapetes rufinucha ) de Bolivia, pero está más estrechamente emparentado con Black-faced Brushfinch (Atlapetes melanoleamus ) del sur de Perú y el extremo norte de Bolivia.",
+  "taxonomy": {},
+  "wikipedia_summary": "El atlapetes de Vilcabamba o matorralero de Vilcabamba es una especie de ave paseriforme de la familia Passerellidae endémica de los bosques húmedos de la Cordillera de Vilcabamba, en el sur de Perú. Anteriormente se consideraba una subespecie del atlapetes pechiamarillo.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Atlapetes_terborghi",
+  "wikipedia_language": "es",
+  "fallback_text": "Extremely local brushfinch that is essentially unknown in life, only being found in the remote northern Cordillera Vilcabamba. Similar to Tricolored Brushfinch, but underparts notably more greenish-tinged, and apparently found at higher elevations than that species. No other similar species in range. Behavior and voice unknown.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2491467,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2491467&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22728571"
+}
