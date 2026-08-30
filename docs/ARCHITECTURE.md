@@ -273,6 +273,35 @@ a pull request always does whatever it touches. No Python version is
 pinned in the workflow; `uv` reads `.python-version` at the repository
 root, so there is one source of truth for it.
 
+### The browser tests
+
+`tests/test_browser.py` is the one module that needs a real rendering
+engine, and it holds only what Python structurally cannot answer: that
+the webfonts actually painted rather than silently falling back, that no
+request leaves the site beyond the two hot links it is allowed, that the
+card link draws a focus ring and has an accessible name, that
+`prefers-reduced-motion` really neutralises the transitions, that a URL
+which does not exist answers with a 404 status, and that nothing
+overflows sideways at 390 CSS pixels.
+
+It serves the very site `tests/site_fixture.py` builds for the
+end-to-end tests, over HTTP rather than `file://`, because relative
+paths, the 404 status and font loading all behave differently on the
+two. One species in that fixture carries a GBIF distribution map and
+the rest do not, on purpose: the atlas frame is the widest thing a
+plate draws, so a fixture with no mapped species would leave the
+overflow check blind to the hardest case. `test_browser.py` asserts the
+atlas is actually present on the three page classes that render a plate,
+so that coverage cannot evaporate silently. Playwright is a dev dependency and must stay one; the module skips
+itself when Playwright is missing and each test skips when its browser
+is, so `uv run pytest` on a fresh clone is green plus skips, never an
+error.
+
+The `browser` job in `quality.yml` is what actually runs it: a second
+job that installs Chromium and passes `-m browser`, kept separate so
+that a browser download failing, or a rendering engine changing its mind
+about a computed style, never takes the ordinary test signal with it.
+
 There is **no linter and no type checker** configured in this repository,
 and the workflow does not run one. If you want them, that is your call to
 make in your own clone.
