@@ -1268,15 +1268,6 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900",
       "photographer": "Sinan Yılmaz",
       "attribution": "Sinan Yılmaz / Macaulay Library"
-    },
-    {
-      "speciesCode": "vilbrf1",
-      "comName": "Atlapetes de Vilcabamba",
-      "sciName": "Atlapetes terborghi",
-      "date": "2026-08-30",
-      "imageUrl": null,
-      "photographer": "",
-      "attribution": "Macaulay Library / Cornell Lab of Ornithology"
     }
   ]
 }
