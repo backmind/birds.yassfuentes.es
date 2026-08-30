@@ -1,0 +1,11 @@
+{
+  "prose": "En las laderas de los Andes orientales del centro de Perú, entre los 2500 y 3600 metros de altitud, habita un ave de distribución sumamente restringida: el Atlapetes de Anteojos (*Atlapetes melanopsis*). Esta especie rara encuentra su refugio entre los matorrales montanos y los bordes de bosques estacionalmente húmedos, donde se desplaza con agilidad cerca del suelo. Lo que vuelve verdaderamente memorable a este paseriforme es el elaborado ornamento de su cabeza. En contraste con su cuerpo de tonos grises y su vientre blanco, la cabeza presenta una hermosa combinación de colores, dominada por una corona y nuca de tono castaño rojizo que enmarcan un vistoso patrón facial.\n\nEl Atlapetes de Anteojos debe su nombre a la amplia mancha negra que cubre la zona de sus ojos, simulando la forma de unas gafas oscuras. Desde la perspectiva evolutiva, esta ave forma un grupo de superespecie junto a otros endemismos peruanos de plumaje similar, como el Atlapetes de Apurímac (*Atlapetes forbesi*), que habita más al sureste y luce un diseño facial más reducido. Aunque prefiere permanecer al abrigo de la vegetación densa, el Atlapetes de Anteojos delata su presencia mediante un canto característico: una serie de notas vívidas y sibilantes que resuenan en el aire de las montañas, marcando el ritmo de la vida en estos valiosos ecosistemas andinos.",
+  "identification": [
+    "Máscara negra prominente rodeada por una corona y lados de la cara de color castaño rojizo.",
+    "Punto blanco entre el ojo y el pico (supraloral) con una notable raya malar blanca y una franja negra lateral en la garganta.",
+    "Plumaje corporal predominantemente gris, con la garganta y el vientre de color blanco.",
+    "Canto compuesto por una serie de notas agudas, sibilantes y vívidas emitidas desde el matorral."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-30T11:56:11Z"
+}
