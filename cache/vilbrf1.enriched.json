@@ -1,0 +1,12 @@
+{
+  "prose": "En las laderas envueltas en bruma de la Cordillera de Vilcabamba, en el sur de Perú, habita una de las aves más enigmáticas de los Andes: el Atlapetes de Vilcabamba (Atlapetes terborghi). Este paseriforme ocupa los bosques húmedos montanos y frondosos que se extienden en una franja altitudinal entre los 2520 y los 3520 metros sobre el nivel del mar. Su vida en libertad permanece envuelta en el misterio; de hecho, no existen registros de su comportamiento ni de sus vocalizaciones. Es un habitante exclusivo de estos ecosistemas prístinos y remotos, donde su presencia testimonia la riqueza oculta de la vegetación montana.\n\nLa especie fue descubierta para la ciencia entre 1966 y 1970 durante una serie de expediciones pioneras encabezadas por los ornitólogos John Terborgh y John Weske. En aquellos mismos estudios sobre la distribución de la avifauna andina se hallaron otras aves singulares como el Autillo de Marshall (Megascops marshalli), el Piscuiz de Vilcabamba (Asthenes vilcabambae) y el Hemispingo de Parodi (Hemispingus parodii). Aunque en el pasado se consideraba una subespecie del Atlapetes Pechiamarillo (Atlapetes latinuchus), los análisis sistemáticos indican una relación más estrecha con el Atlapetes Carinegro (Atlapetes melanoleamus). El Atlapetes de Vilcabamba destaca como un ejemplo extraordinario de endemismo extremo, confinado a un único rincón del planeta.",
+  "identification": [
+    "Corona y nuca de vistoso color rufo.",
+    "Dorso verde oscuro con alas y cola visiblemente más negruzcas.",
+    "Partes inferiores de color amarillo brillante con un marcado matiz oliváceo en los flancos.",
+    "Ausencia total de registros sonoros conocidos en la naturaleza.",
+    "Exclusivo de los bosques húmedos montanos entre 2520 y 3520 m en la Cordillera de Vilcabamba."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-30T06:51:46Z"
+}
