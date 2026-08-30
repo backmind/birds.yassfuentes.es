@@ -170,6 +170,11 @@ def _try_ebird_og_image(
     The ``locale`` parameter controls the eBird language: with ``locale=es``
     the alt tag carries the Spanish common name, with ``locale=en`` the
     English one. Either way the asset id is the same.
+
+    Returns ``None`` when the page cannot be fetched, when it carries no
+    ``og:image``, and when the tag it carries has no asset id in it. That
+    last case is not theoretical: eBird emits the tag for species it has
+    no curated hero for, with the id left out.
     """
     url = f"https://ebird.org/species/{species_code}"
     try:
@@ -187,14 +192,18 @@ def _try_ebird_og_image(
     og_url = og_image["content"]
     match = _OG_ASSET_RE.search(og_url)
     if not match:
-        # Not a Macaulay CDN URL: surface as-is, no asset_id.
-        return ImageResult(
-            url=og_url,
-            asset_id=None,
-            photographer="",
-            attribution="Macaulay Library / Cornell Lab of Ornithology",
-            search_url=ml_search_url(species_code),
+        # No asset id in the tag, so we do not know what this URL points
+        # at. Earlier revisions surfaced it as-is, which published a
+        # broken photograph twice: eBird serves the hero tag even for a
+        # species it has no hero for, with the id left empty, and
+        # ".../api/v2/asset//900" is a 404 the reader sees as a hole in
+        # the plate. Decline and let the Macaulay strategy answer.
+        logger.debug(
+            "eBird og:image for %s carries no asset id (%s)",
+            species_code,
+            og_url,
         )
+        return None
 
     asset_id = match.group(1)
     photographer = ""
@@ -264,7 +273,12 @@ def fetch_image(
     order runs anyway: repeating a photograph beats publishing without one.
     """
     sess = session or new_session()
-    if ordinal:
+    # A debut normally has nothing to skip, so the ordinal alone used to
+    # decide this. The backfill breaks that: it re-fetches the photograph
+    # of an entry published long ago, and the species may have come round
+    # again since, with a photograph the reader has already seen. Whenever
+    # there is something to skip, walk the rated list.
+    if ordinal or seen_asset_ids:
         result = _try_macaulay_api(
             species_code, sess,
             count=ordinal + MACAULAY_LOOKAHEAD,
@@ -281,7 +295,7 @@ def fetch_image(
     return _fallback(species_code)
 
 
-def _image_cache_path(
+def image_cache_path(
     species_code: str, cache_dir: str, ordinal: int = 0
 ) -> Path:
     """Cache file for one publication's photograph.
@@ -299,7 +313,7 @@ def load_cached_image(
 ) -> ImageResult | None:
     from scripts import load_json_cache
     data = load_json_cache(
-        _image_cache_path(species_code, cache_dir, ordinal),
+        image_cache_path(species_code, cache_dir, ordinal),
         f"image cache for {species_code}",
     )
     if data is None:
@@ -318,7 +332,7 @@ def save_cached_image(
     """Persist a successful image lookup. Failures are not cached so they retry."""
     if not result.asset_id and not result.url:
         return
-    path = _image_cache_path(species_code, cache_dir, ordinal)
+    path = image_cache_path(species_code, cache_dir, ordinal)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(result.to_dict(), ensure_ascii=False, indent=2),
