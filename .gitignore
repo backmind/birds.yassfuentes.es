@@ -25,6 +25,13 @@ Thumbs.db
 # Local plan / scratch
 plan-bird-of-the-day-rss.md
 
+# README.md diverges from the template on purpose: this repository's
+# entry point describes the instance, not the software, and the template's
+# own README is a manual for building a different site. A template merge
+# that touches it conflicts; resolve by keeping this side and porting
+# anything genuinely new by hand. docs/ is inherited unchanged and merges
+# cleanly.
+#
 # This repository is the published instance, so it does NOT inherit the
 # template's "instance data" block. Everything the template ignores as
 # generated output (history.json, the feeds, index.html, archive.html,
