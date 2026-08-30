@@ -6,6 +6,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](pyproject.toml)
 
+> **This repository is a running instance, not the template.** It
+> publishes [birds.yassfuentes.es](https://birds.yassfuentes.es/): one
+> bird a day in Spanish, drawn mostly from Madrid and the rest of Spain,
+> committed to this branch and served by GitHub Pages. Its own settings
+> are in `data/config.json` and its schedule in
+> `.github/workflows/bird-of-the-day.yml`, at 02:17 and 06:23 UTC, best
+> effort. If you want to run your own, start from the template it is
+> built from: [backmind/Bird-of-the-day](https://github.com/backmind/Bird-of-the-day).
+>
+> Everything below is the template's documentation, merged in unchanged.
+> Where it and this instance disagree about a default, `data/config.json`
+> is what actually runs.
+
 A daily bird species RSS feed and minimal static site, self-hostable as a
 microservice. Each day a new species is selected from a configurable
 weighted pool of regions, scraped from public Cornell Lab sources, and
