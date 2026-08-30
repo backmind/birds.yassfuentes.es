@@ -2,8 +2,14 @@ name: Bird of the Day
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 02:00 UTC ≈ 04:00 CEST (Madrid)
-    - cron: '0 6 * * *'  # second tick: backfill retries same-day LLM/GBIF failures
+    # Odd minutes on purpose. GitHub queues scheduled runs and drops the
+    # ones it cannot serve, and the top of the hour is where every cron in
+    # the world piles up. Measured on this repository: from 16 to 26 Aug
+    # 2026 the ':00' tick landed between 02:53 and 03:04 every day, then
+    # drifted to 12:24, 13:53 and 08:41 on the 27th, 28th and 29th, and on
+    # the 30th had not fired at all by 06:47.
+    - cron: '17 2 * * *'  # 02:17 UTC, about 04:17 CEST (Madrid)
+    - cron: '23 6 * * *'  # second tick: backfill retries same-day LLM/GBIF failures
   workflow_dispatch:
 
 permissions:
