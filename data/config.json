@@ -45,6 +45,10 @@
 
   "feed_link": "https://birds.yassfuentes.es/",
 
+  "site_author": "Yass Fuentes",
+  "site_author_url": "https://yassfuentes.es",
+  "_site_author_help": "Author of this instance, shown in the footer and in the feed's copyright line. Required here: before the template split authorship in two, this name was hardcoded in the i18n catalogs, so leaving these empty would silently drop it from every page and from the feed. The template's own credit is separate and always shown. Set via BOTD_SITE_AUTHOR and BOTD_SITE_AUTHOR_URL.",
+
   "backfill_limit": 3,
   "_backfill_limit_help": "Max healing actions (missed enrichments, failed GBIF lookups) retried per run. 0 disables self-healing.",
 

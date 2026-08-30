@@ -25,6 +25,14 @@ Thumbs.db
 # Local plan / scratch
 plan-bird-of-the-day-rss.md
 
+# This repository is the published instance, so it does NOT inherit the
+# template's "instance data" block. Everything the template ignores as
+# generated output (history.json, the feeds, index.html, archive.html,
+# archive-*.html, sitemap.xml, robots.txt, 404.html, birds/, assets/,
+# cache/, maps/) is exactly what this repository exists to publish, and
+# the daily workflow stages it with "git add -A .". Adding those lines
+# here would silently stop new pages from ever being committed.
+
 # Agent scratch (worktrees and plan ledgers, never published)
 .worktrees/
 .superpowers/
