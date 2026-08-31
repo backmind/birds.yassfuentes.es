@@ -1277,6 +1277,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/210540181/900",
       "photographer": "Peter Kaestner",
       "attribution": "Peter Kaestner / Macaulay Library"
+    },
+    {
+      "speciesCode": "dybtwi1",
+      "comName": "Estrilda de Dybowski",
+      "sciName": "Euschistospiza dybowskii",
+      "date": "2026-08-31",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/386392611/900",
+      "photographer": "Markus Lilje",
+      "attribution": "Markus Lilje / Macaulay Library"
     }
   ]
 }

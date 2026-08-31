@@ -1,0 +1,16 @@
+{
+  "description": "La estrilda de Dybowski es una especie de ave paseriforme de la familia Estrildidae propia de África. Su nombre hace referencia al botánico francés Jean Dybowski.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La estrilda de Dybowski es una especie de ave paseriforme de la familia Estrildidae propia de África. Su nombre hace referencia al botánico francés Jean Dybowski.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Euschistospiza_dybowskii",
+  "wikipedia_language": "es",
+  "fallback_text": "An unusual dark twinspot with a gray hood, a red back and rump, and large white “twin spots” on the belly. Found in areas of tall grass, both in lush savanna and along forest edge. Usually in pairs or small groups. Most similar to Brown Twinspot, but separated by many details, including the red back and the twin spots restricted to the belly. The calls are simple, often repeated “seet” and “veet” notes. The song is a variable mix of the call notes, plus high-pitched bubbling and squealing notes.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2493700,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493700&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22719420"
+}

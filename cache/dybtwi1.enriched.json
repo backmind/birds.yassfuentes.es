@@ -1,0 +1,11 @@
+{
+  "prose": "Entre la densa vegetación de las sabanas húmedas y los márgenes de los bosques africanos habita una criatura discreta y cautivadora: la Estrilda de Dybowski (Euschistospiza dybowskii). Este pequeño paseriforme suele desplazarse en parejas o en diminutos grupos familiares, buscando refugio y sustento al abrigo de las hierbas altas. Su presencia destaca por un asombroso contraste cromático; sobre una cabeza envuelta en una sobria capucha gris se despliega una espalda y un obispillo de un intenso tono rojizo, que contrasta a su vez con las llamativas motas blancas emparejadas que salpican su vientre oscuro.\n\nBautizada en honor al botánico y explorador francés Jean Dybowski, esta especie se diferencia de parientes cercanos como la Estrilda Parda por su dorso escarlata y por limitar sus característicos puntos dobles exclusivamente a la zona ventral. En la penumbra de la maleza, su detección suele comenzar a través del oído: emite reclamos sencillos y repetitivos que suenan como breves «seet» o «veet». Cuando canta, enlaza estas llamadas en una melodía variable y fluida, intercalando trinos agudos, notas chillonas y un peculiar sonido burbujeante que resuena entre el follaje.",
+  "identification": [
+    "Capucha gris ceniza en la cabeza, combinada con dorso y obispillo de color rojo intenso.",
+    "Vientre oscuro decorado con grandes motas blancas dispuestas en pares.",
+    "Diferenciable de la Estrilda Parda por el color rojo de la espalda y por tener el moteado blanco restringido al vientre.",
+    "Vocalizaciones compuestas por llamadas cortas («seet» y «veet») y un canto con gorjeos burbujeantes y notas agudas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-08-31T08:43:50Z"
+}
