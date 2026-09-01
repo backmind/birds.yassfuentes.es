@@ -1286,6 +1286,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/386392611/900",
       "photographer": "Markus Lilje",
       "attribution": "Markus Lilje / Macaulay Library"
+    },
+    {
+      "speciesCode": "litgre1",
+      "comName": "Zampullín Común",
+      "sciName": "Tachybaptus ruficollis",
+      "date": "2026-09-01",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242168551/900",
+      "photographer": "Zhong Ying Koay",
+      "attribution": "Zhong Ying Koay / Macaulay Library"
     }
   ]
 }
