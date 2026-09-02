@@ -1,0 +1,11 @@
+{
+  "prose": "En las campiñas, páramos y zonas agrícolas salpicadas de matorrales de gran parte de Europa y Asia, el Escribano Cerillo (Emberiza citrinella) ofrece un espectáculo luminoso y sereno. Este pequeño paseriforme destaca por la costumbre del macho de posarse en lo alto de arbustos o cables para proclamar su territorio a través del canto. Durante los meses más fríos del invierno, estas aves adaptables modifican su comportamiento gregario, reuniéndose en pequeños bandos que recorren el suelo en busca de las semillas que constituyen la base de su alimentación, desempeñando un papel clave en los ecosistemas rurales.\n\nPerteneciente a la familia Emberizidae, el escribano cerillo se distingue de los pinzones por diversos rasgos morfológicos y evolutivos. Aunque la mayoría de sus poblaciones son residentes, los individuos de las regiones más norteñas migran hacia el sur cuando el invierno recrudece. Curiosamente, la especie ha logrado establecerse con éxito muy lejos de su nativa Eurasia, habiendo sido introducida en Nueva Zelanda. Su vuelo de corta distancia desde el suelo hacia la maleza revela dos señales de campo inconfundibles: las plumas blancas en los bordes de la cola y el cálido tono rojizo de su obispillo.",
+  "identification": [
+    "Macho con la cabeza y las partes inferiores de un amarillo vivo muy distintivo",
+    "Hembra más apagada y rayada, con un tono amarillento más tenue en la cabeza",
+    "Obispillo de un patente tono rojizo en ambos sexos",
+    "Plumas blancas externas de la cola visibles claramente en vuelo al despegar desde el suelo"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-02T07:15:20Z"
+}

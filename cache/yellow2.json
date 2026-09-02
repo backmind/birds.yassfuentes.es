@@ -1,0 +1,16 @@
+{
+  "description": "Es un ave bastante común en Europa (no en el sur) aunque localizado en páramos y tierras de cultivo con setos. El macho canta desde un posadero prominente en lo alto de un arbusto, en cables telefónicos, etc. Forma bandos en invierno, alimentándose principalmente en el suelo en busca de semillas. Muestra las plumas blancas externas de la cola durante el vuelo, como cuando se levanta desde el suelo para pararse en un seto o arbusto. El macho distintivo por su cabeza muy amarilla y partes inferiores amarillentas. La hembra es más apagada y rayada, generalmente con un amarillento más tenue en la cabeza, y a menudo se encuentra con machos de los que se distingue más claramente. Es característuco sul obispillo rojizo patente.",
+  "description_source": "ebird",
+  "bow_intro": "Irlanda, Isla de Man y Gran Bretaña (S a Gales y N y O de Inglaterra). Introducida en la región de Nueva Zelanda. Fennoscandia (al S desde c. 70° N) y el EE de Inglaterra del S al N de Iberia, el S de Francia e Italia y del E al extremo NO de Europa Rusia, Polonia, República Checa, Hungría y los Balcanes.",
+  "taxonomy": {},
+  "wikipedia_summary": "El escribano cerillo es un ave paseriforme de la familia de los empavesados Emberizidae, un grupo ahora separado por la mayoría de los autores modernos de los pinzones, Fringillidae. Vive a lo largo de Europa y de gran parte de Asia. La mayoría de los pájaros son residentes, pero algunos pájaros norteños emigran al sur en invierno. Es común en todas las clases de áreas abiertas con alguna maleza o árboles. En el invierno se unen a bandadas de pájaros pequeñas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Emberiza_citrinella",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2491534,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2491534&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22720878"
+}

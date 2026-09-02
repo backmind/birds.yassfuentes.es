@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 01 Sep 2026 07:51:55 +0000</pubDate>
+    <pubDate>Wed, 02 Sep 2026 07:09:07 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Escribano Cerillo (Emberiza citrinella)</title>
+      <link>https://birds.yassfuentes.es/birds/yellow2.html</link>
+      <guid isPermaLink="false">bird-of-the-day-yellow2-2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 07:09:07 +0000</pubDate>
+      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169382141/900" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Nigel Voaden / Macaulay Library</media:credit>
+      </media:content>
+      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169382141/900" />
+      <content:encoded><![CDATA[<p><small>№ 145 · 2026 · 09 · 02</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/yellow2.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169382141/900" alt="Escribano Cerillo" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Nigel Voaden / Macaulay Library</em></small></p>
+<h2>Escribano Cerillo — <em>Emberiza citrinella</em></h2>
+<p><small><em>Emberizidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22720878">LC</a> · Preocupación Menor</small></p>
+<p>En las campiñas, páramos y zonas agrícolas salpicadas de matorrales de gran parte de Europa y Asia, el <a href="https://birds.yassfuentes.es/birds/yellow2.html">Escribano Cerillo</a> (<em>Emberiza citrinella</em>) ofrece un espectáculo luminoso y sereno. Este pequeño paseriforme destaca por la costumbre del macho de posarse en lo alto de arbustos o cables para proclamar su territorio a través del canto. Durante los meses más fríos del invierno, estas aves adaptables modifican su comportamiento gregario, reuniéndose en pequeños bandos que recorren el suelo en busca de las semillas que constituyen la base de su alimentación, desempeñando un papel clave en los ecosistemas rurales.</p>
+<p>Perteneciente a la familia Emberizidae, el <a href="https://birds.yassfuentes.es/birds/yellow2.html">escribano cerillo</a> se distingue de los pinzones por diversos rasgos morfológicos y evolutivos. Aunque la mayoría de sus poblaciones son residentes, los individuos de las regiones más norteñas migran hacia el sur cuando el invierno recrudece. Curiosamente, la especie ha logrado establecerse con éxito muy lejos de su nativa Eurasia, habiendo sido introducida en Nueva Zelanda. Su vuelo de corta distancia desde el suelo hacia la maleza revela dos señales de campo inconfundibles: las plumas blancas en los bordes de la cola y el cálido tono rojizo de su obispillo.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Macho con la cabeza y las partes inferiores de un amarillo vivo muy distintivo</li><li>Hembra más apagada y rayada, con un tono amarillento más tenue en la cabeza</li><li>Obispillo de un patente tono rojizo en ambos sexos</li><li>Plumas blancas externas de la cola visibles claramente en vuelo al despegar desde el suelo</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2491534"><img src="https://birds.yassfuentes.es/maps/yellow2.png" alt="Distribución mundial de Emberiza citrinella según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/yellow2?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Emberiza_citrinella">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/yellow2/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=yellow2&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Zampullín Común (Tachybaptus ruficollis)</title>
       <link>https://birds.yassfuentes.es/birds/litgre1.html</link>
@@ -616,27 +637,6 @@
 <h3>Identificación en campo</h3>
 <ul><li>Estrecho y característico anillo ocular amarillo vivo alrededor del ojo.</li><li>Ceja de color blanco continua a lo largo de la frente.</li><li>Patas finas de tonalidad rosácea apagada.</li><li>Banda alar blanca estrecha y poco definida visible en vuelo.</li><li>Reclamo vocal seco y monosilábico transcribible como un «piu».</li></ul>
 <p><small><a href="https://ebird.org/species/lirplo?siteLanguage=es">eBird</a> · <a href="https://en.wikipedia.org/wiki/Little_ringed_plover">Wikipedia (en)</a> · <a href="https://birdsoftheworld.org/bow/species/lirplo/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=lirplo&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Mielerito Collarejo (Iridophanes pulcherrimus)</title>
-      <link>https://birds.yassfuentes.es/birds/gochon2.html</link>
-      <guid isPermaLink="false">bird-of-the-day-gochon2-2026-08-03</guid>
-      <pubDate>Mon, 03 Aug 2026 05:42:57 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Andres Vasquez Noboa / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900" />
-      <content:encoded><![CDATA[<p><small>№ 115 · 2026 · 08 · 03</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/gochon2.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900" alt="Mielerito Collarejo" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Andres Vasquez Noboa / Macaulay Library</em></small></p>
-<h2>Mielerito Collarejo — <em>Iridophanes pulcherrimus</em></h2>
-<p><small><em>Thraupidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22722961">LC</a> · Preocupación Menor</small></p>
-<p>En las laderas empinadas y brumosas de los Andes, desde el sur de Colombia hasta el sureste del Perú, habita una pequeña joya de los bosques nubosos: el <a href="https://birds.yassfuentes.es/birds/gochon2.html">Mielerito Collarejo</a> (<em>Iridophanes pulcherrimus</em>). Esta especie de la familia Thraupidae transita los niveles medios y el dosel forestal en busca de frutas e insectos. A menudo se le observa en solitario o en parejas, integrándose con fluidez en bandadas mixtas dominadas por otras pequeñas tangaras. El macho ofrece un espectáculo deslumbrante entre el follaje gracias a sus partes superiores negras interrumpidas por un nítido medio collar dorado, que contrasta con sus alas surcadas de azul y sus partes inferiores de un tono azul pálido.</p>
-<p>Más allá de su vistosa apariencia, el <a href="https://birds.yassfuentes.es/birds/gochon2.html">Mielerito Collarejo</a> custodia una singularidad evolutiva, al ser el único integrante de su género monotípico. Durante años, la semejanza de su plumaje indujo a los ornitólogos a clasificarlo junto a las tangaras tradicionales; sin embargo, las pruebas genéticas han demostrado que su pariente más cercano es el <a href="https://ebird.org/species/grehon1?siteLanguage=es" target="_blank" rel="noopener">Mielerito Verde</a> (<em>Chlorophanes spiza</em>), con el cual comparte un pico fino y ligeramente curvado hacia abajo. Dotado de una distintiva mandíbula inferior amarilla y vivos ojos rojos, este habitante montano completa su dieta recorriendo la vegetación andina y, en algunas regiones, llega incluso a dejarse ver en comederos artificiales.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Pico delgado y ligeramente decurvado, con la mandíbula inferior de color amarillo intenso.</li><li>Macho con plumaje negro en el dorso, medio collar dorado en la nuca y vientre azul pálido.</li><li>Hembra con rostro grisáceo, tenue tinte dorado en el cuello y matices verdes o azules en las alas.</li><li>Ojos de un característico color rojo.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2488677"><img src="https://birds.yassfuentes.es/maps/gochon2.png" alt="Distribución mundial de Iridophanes pulcherrimus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/gochon2?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Iridophanes_pulcherrimus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/gochon2/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=gochon2&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

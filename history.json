@@ -1295,6 +1295,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242168551/900",
       "photographer": "Zhong Ying Koay",
       "attribution": "Zhong Ying Koay / Macaulay Library"
+    },
+    {
+      "speciesCode": "yellow2",
+      "comName": "Escribano Cerillo",
+      "sciName": "Emberiza citrinella",
+      "date": "2026-09-02",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169382141/900",
+      "photographer": "Nigel Voaden",
+      "attribution": "Nigel Voaden / Macaulay Library"
     }
   ]
 }
