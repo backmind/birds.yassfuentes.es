@@ -1304,6 +1304,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169382141/900",
       "photographer": "Nigel Voaden",
       "attribution": "Nigel Voaden / Macaulay Library"
+    },
+    {
+      "speciesCode": "comcra",
+      "comName": "Grulla Común",
+      "sciName": "Grus grus",
+      "date": "2026-09-03",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168488341/900",
+      "photographer": "James Kennerley",
+      "attribution": "James Kennerley / Macaulay Library"
     }
   ]
 }

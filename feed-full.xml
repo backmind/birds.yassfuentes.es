@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Wed, 02 Sep 2026 07:09:07 +0000</pubDate>
+    <pubDate>Thu, 03 Sep 2026 07:13:29 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Grulla Común (Grus grus)</title>
+      <link>https://birds.yassfuentes.es/birds/comcra.html</link>
+      <guid isPermaLink="false">bird-of-the-day-comcra-2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 07:13:29 +0000</pubDate>
+      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168488341/900" medium="image" type="image/jpeg">
+        <media:credit role="photographer">James Kennerley / Macaulay Library</media:credit>
+      </media:content>
+      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168488341/900" />
+      <content:encoded><![CDATA[<p><small>№ 146 · 2026 · 09 · 03</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/comcra.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168488341/900" alt="Grulla Común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© James Kennerley / Macaulay Library</em></small></p>
+<h2>Grulla Común — <em>Grus grus</em></h2>
+<p><small><em>Gruidae</em> · <em>Gruiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22692146">LC</a> · Preocupación Menor</small></p>
+<p>La <a href="https://birds.yassfuentes.es/birds/comcra.html">Grulla Común</a> (<em>Grus grus</em>) es una de las viajeras más majestuosas del reino alado. Cada temporada, estas imponentes aves abandonan sus áreas de reproducción en el norte de Eurasia —que abarcan desde lagos costeros con densos carrizales hasta claros turbosos en el bosque boreal— para emprender largas travesías migratorias hacia humedales y zonas agrícolas del sur de Eurasia y el norte de África. En pleno vuelo, su avance es inconfundible: surcan los cielos con el cuello y las patas totalmente extendidos, realizando batidos de ala firmes y pausados. Con frecuencia se desplazan en disciplinadas formaciones en uve, anunciando su paso con potentes trompeteos que se propagan a varios kilómetros a la redonda.</p>
+<p>En tierra, la <a href="https://birds.yassfuentes.es/birds/comcra.html">grulla común</a> destaca por su porte señorial y por las plumas terciarias curvadas que caen sobre su parte posterior, asemejándose a una llamativa cola de avestruz. Su cabeza luce un elegante contraste de blanco y negro, coronado por una discreta mancha roja en el píleo. Durante la invernada, estas aves desempeñan una valiosa función ecológica en terrenos abiertos y rastrojales, donde se alimentan de semillas, tubérculos, brotes e invertebrados. Sus complejas interacciones sociales y sus célebres danzas rituales, cargadas de saltos y reverencias, consolidan a esta especie como un símbolo indiscutible de la sincronía entre estaciones y continentes.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Ave de gran altura y plumaje grisáceo, con las plumas terciarias alargadas formando un prominente manojo sobre la cola.</li><li>Cabeza con diseño contrastado en blanco y negro, con una mancha roja visible en el píleo de los adultos.</li><li>Vuelo majestuoso con cuello y patas rectos y estirados, diferenciándose claramente de las garzas.</li><li>Vocalizaciones muy potentes, metálicas y resonantes que se escuchan a grandes distancias, habitualmente emitidas en vuelo en formación de V.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2474950"><img src="https://birds.yassfuentes.es/maps/comcra.png" alt="Distribución mundial de Grus grus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/comcra?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Grus_grus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/comcra/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=comcra&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Escribano Cerillo (Emberiza citrinella)</title>
       <link>https://birds.yassfuentes.es/birds/yellow2.html</link>

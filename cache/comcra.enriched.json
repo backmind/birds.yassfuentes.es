@@ -1,0 +1,11 @@
+{
+  "prose": "La Grulla Común (Grus grus) es una de las viajeras más majestuosas del reino alado. Cada temporada, estas imponentes aves abandonan sus áreas de reproducción en el norte de Eurasia —que abarcan desde lagos costeros con densos carrizales hasta claros turbosos en el bosque boreal— para emprender largas travesías migratorias hacia humedales y zonas agrícolas del sur de Eurasia y el norte de África. En pleno vuelo, su avance es inconfundible: surcan los cielos con el cuello y las patas totalmente extendidos, realizando batidos de ala firmes y pausados. Con frecuencia se desplazan en disciplinadas formaciones en uve, anunciando su paso con potentes trompeteos que se propagan a varios kilómetros a la redonda.\n\nEn tierra, la grulla común destaca por su porte señorial y por las plumas terciarias curvadas que caen sobre su parte posterior, asemejándose a una llamativa cola de avestruz. Su cabeza luce un elegante contraste de blanco y negro, coronado por una discreta mancha roja en el píleo. Durante la invernada, estas aves desempeñan una valiosa función ecológica en terrenos abiertos y rastrojales, donde se alimentan de semillas, tubérculos, brotes e invertebrados. Sus complejas interacciones sociales y sus célebres danzas rituales, cargadas de saltos y reverencias, consolidan a esta especie como un símbolo indiscutible de la sincronía entre estaciones y continentes.",
+  "identification": [
+    "Ave de gran altura y plumaje grisáceo, con las plumas terciarias alargadas formando un prominente manojo sobre la cola.",
+    "Cabeza con diseño contrastado en blanco y negro, con una mancha roja visible en el píleo de los adultos.",
+    "Vuelo majestuoso con cuello y patas rectos y estirados, diferenciándose claramente de las garzas.",
+    "Vocalizaciones muy potentes, metálicas y resonantes que se escuchan a grandes distancias, habitualmente emitidas en vuelo en formación de V."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-03T07:13:47Z"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "Es poco frecuente y propia de terrenos poco poblados. Cría en distintos tipos de humedales, desde lagos costeros con carrizos a claros turbosos en el bosque boreal e inverna en humedales y terreno agrario. Muy grande y alta, con las plumas terciarias formando un llamativo manojo en forma de “cola de avestruz”. El adulto tiene una cabeza blanca y negra, con una pequeña mancha roja en el píleo. Tiene vuelo pausado con el cuello totalmente extendido (a diferencia de las garzas) y batidos rígidos, más rápidos hacia arriba. Los grupos vuelan con frecuencia en formación de V, como los gansos. Emite reclamos vibrantes muy sonoros que se escuchan a gran distancia.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La grulla común es una especie de ave gruiforme de la familia Gruidae. Es un ave migratoria que cría en el norte de Eurasia y pasa el invierno en el sur de ese continente y el norte de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Grus_grus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2474950,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474950&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22692146"
+}
