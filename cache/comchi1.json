@@ -1,0 +1,16 @@
+{
+  "description": "Más o menos frecuente en hábitats arbolados y arbustivos, a menudo cerca de agua. Se detectan pequeñas poblaciones en el oeste de Europa, pero la mayoría migra hacia África. Parece muy similar al Willow Warbler y la mejor identificación es por voz: el canto es un poco errático doble nota chiff-chaff, chiff-chaff… muy diferente del canto del Mosquitero musical. En comparación con el Willow Warbler, el Chiffchaff es a menudo más apagado y más parduzco en general, con débil ceja pálida, patas oscuras y tiende a bajar habitualmente su cola. Sin embargo, muchas aves vistas se quedan sin identificar.",
+  "description_source": "ebird",
+  "bow_intro": "El Common Chiffchaff pertenece al género Phylloscopus un grupo de aves tan anodino que las barras en las alas se consideran deportivas, un toque de amarillo es excéntrico y una pizca de naranja sería impensable. Sin embargo, incluso dentro de este grupo, el Common Chiffchaff se consideraría monótono. Su canto, un monótono chiff-chaff-chiff-chaff-chiff-chaff , hace poco por compensar su aspecto sencillo. No obstante, este enérgico y resistente pajarillo consigue hacerse querer por aquellos que lo conocen: \"Nadie que aclame la llegada de la primavera como el verdadero comienzo de una nueva vida para los hombres, las plantas y los animales puede dejar de estar agradecido a este pequeño pájaro pardo por poner en ella el sello y la sanción de su voz clara y resonante. Nos cansamos de sus dos notas - nunca pasa de dos - porque canta casi todo el verano... pero ni siquiera el primer gorjeo de la golondrina, o el canto más temprano del ruiseñor, tienen la misma historia esperanzadora que contarme que este delicado viajero que se atreve con el viento del este y la escarcha \" W. Warde Fowler, Un año con los pájaros ( 1 Fowler, W. W. (1886). A Year with the Birds. B. H. Blackwell, Oxford, United Kingdom. Close ).",
+  "taxonomy": {},
+  "wikipedia_summary": "El mosquitero común es una especie de ave paseriforme de la familia Phylloscopidae propia de los bosques abiertos de las regiones templadas del norte de Europa y Asia. Posee una longitud aproximada de 10 cm, una envergadura de 15-21 cm, un peso de 6-9 g. Acostumbra un modo de vida solitario y se alimenta capturando insectos y arañas del follaje, en vuelo.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Phylloscopus_collybita",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2493091,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493091&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103843725"
+}

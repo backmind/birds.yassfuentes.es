@@ -1322,6 +1322,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/373504371/900",
       "photographer": "Volker Hesse",
       "attribution": "Volker Hesse / Macaulay Library"
+    },
+    {
+      "speciesCode": "comchi1",
+      "comName": "Mosquitero Común",
+      "sciName": "Phylloscopus collybita",
+      "date": "2026-09-05",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256567401/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
     }
   ]
 }

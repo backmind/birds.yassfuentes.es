@@ -1,0 +1,12 @@
+{
+  "prose": "Entre las ramas aún desnudas de finales del invierno o en la espesura de bosques abiertos y sotos ribereños, un diminuto e incansable explorador anuncia el cambio de estación. El Mosquitero Común (Phylloscopus collybita) es un ave menuda, de apenas diez centímetros de longitud y un peso que escasamente alcanza los nueve gramos, dotada de una vitalidad asombrosa. De plumaje discreto en tonos parduzcos y apagados, este pequeño paseriforme recorre con presteza el follaje en una búsqueda incesante de alimento. Aunque existen poblaciones que permanecen en el oeste europeo durante el invierno, la gran mayoría emprende una formidable travesía migratoria hacia África, desafiando heladas y vientos adversos para retornar puntualmente a sus territorios de cría en el norte y centro de Eurasia.\n\nDe carácter predominantemente solitario, el Mosquitero Común desempeña un papel ecológico fundamental en el equilibrio de los ecosistemas forestales al regular las poblaciones de insectos y arañas, a los que captura tanto entre las hojas como en rápidos lances al vuelo. Aunque su aspecto modesto lo hace sumamente parecido al Mosquitero Musical (Phylloscopus trochilus), revela sutiles diferencias como sus patas oscuras y el hábito constante de bajar la cola con un tic nervioso. Sin embargo, su rasgo más icónico es sonoro: una alegre y obstinada cadencia de dos notas claras y rítmicas que llena los bosques templados, convirtiendo a este sobrio viajero en uno de los heraldos más tempranos y esperanzadores del despertar de la naturaleza.",
+  "identification": [
+    "Canto inconfundible y persistente compuesto por una doble nota rítmica y metálica.",
+    "Plumaje muy sobrio, de tonos parduzcos y verdosos apagados con una débil ceja pálida sobre el ojo.",
+    "Patas delgadas y de tonalidad notablemente oscura.",
+    "Comportamiento activo con un característico movimiento descendente de la cola mientras busca alimento.",
+    "Tamaño diminuto, con una longitud de unos 10 cm y un peso de entre 6 y 9 g."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-05T06:58:16Z"
+}
