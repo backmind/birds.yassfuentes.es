@@ -1,0 +1,16 @@
+{
+  "description": "Es un ave estival común en Europa que inverna en África. Se encuentra en prados húmedos, marismas, lagos con herbazales y llanos inundados. Se encuentra en campos de cultivo y a menudo cerca del ganado durante la migración. Al igual que otros wagtails, camina sobre el suelo y menea su larga cola con rectrices externas blancas de arriba a abajo. Su plumaje es altamente variable, pero el macho en plumaje nupcial es completamente amarillo brillante por debajo con el dorso verdoso. El patrón de la cabeza del macho varía regionalmente: en el Reino Unido tiene la cabeza verdosa con la ceja amarilla; en el norte de Europa la cabeza grisácea; en el centro y suroeste de Europa, cabeza azul grisácea con ceja blanca. El plumaje de la hembra y de macho no reproductor tiene colores apagados y más pálidos, pero siguiendo los mismos patrones del plumaje nupcial del macho.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La lavandera boyera es una especie de ave paseriforme de la familia Motacillidae propia de Eurasia y África",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Motacilla_flava",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9701857,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9701857&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103822349"
+}

@@ -1331,6 +1331,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256567401/900",
       "photographer": "Santiago Caballero Carrera",
       "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "eaywag1",
+      "comName": "Lavandera Boyera",
+      "sciName": "Motacilla flava",
+      "date": "2026-09-06",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257824121/900",
+      "photographer": "Christoph Moning",
+      "attribution": "Christoph Moning / Macaulay Library"
     }
   ]
 }

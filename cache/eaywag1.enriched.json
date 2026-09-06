@@ -1,0 +1,11 @@
+{
+  "prose": "La Lavandera Boyera (Motacilla flava) es una pequeña y vivaz ave estival que llena de color los paisajes abiertos de Eurasia antes de emprender su viaje invernal hacia África. Frecuenta prados húmedos, marismas, llanuras inundadas y orillas de lagos con densa vegetación herbácea, donde se desplaza caminando ágilmente por el suelo. Con cada paso, realiza el característico y rítmico balanceo vertical de su estilizada cola, una conducta icónica que comparte con otros miembros de su género. Durante la temporada de reproducción, los machos destacan por su brillante plumaje ventral de un amarillo intenso y un dorso verdoso, transformando los pastizales en un escenario de constante actividad.\n\nEl nombre de la Lavandera Boyera alude a una de sus costumbres más fascinantes: su estrecha asociación con el ganado y los campos de cultivo, especialmente durante los periodos migratorios. Al caminar cerca de grandes herbívoros, aprovecha el paso de los animales para atrapar con destreza los insectos que estos espantan a su alrededor, cumpliendo así una importante función en el control natural de invertebrados. Asimismo, la especie exhibe una notable variabilidad regional en el diseño de la cabeza de los machos adultos, que va desde tonos azul grisáceos con una ceja blanca bien definida en el centro y suroeste de Europa, hasta tonos completamente grisáceos en el norte o verdosos con ceja amarilla en las islas británicas.",
+  "identification": [
+    "Macho reproductor con partes inferiores de color amarillo brillante y dorso verdoso; hembras y machos no reproductores con tonos más apagados y pálidos.",
+    "Cola larga y esbelta con plumas externas blancas, que menea constantemente de arriba a abajo al caminar.",
+    "Patrón cefálico en machos muy variable según la subespecie: cabeza azul grisácea con ceja blanca, grisácea oscura o verdosa con ceja amarilla.",
+    "Silueta estilizada y comportamiento terrestre, frecuentando praderas húmedas y las inmediaciones de animales de pastoreo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-06T07:10:13Z"
+}
