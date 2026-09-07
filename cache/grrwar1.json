@@ -1,0 +1,16 @@
+{
+  "description": "Warbler enorme que se parece al Eurasian Reed Warbler en coloración pero mucho más grande con cabeza proporcionalmente más grandel, pico fuerte con punta oscura y ceja ancha y pálida. Cría en carrizos, moviéndose a través de las cañas en vuelos cortos y curvando los tallos cuando están posados. El canto corto pero muy ruidoso y fácil de recordar con frases de “karra-karra-karra gurk gurk gurk chirrr-chirrr karra karra”. Llamada aguda “krrrr”.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El carricero tordal es un ave de hábitos migratorios perteneciente a la familia Acrocephalidae, dentro del orden de los paseriformes. Habita en zonas húmedas, ríos y lagos de Europa, África y Asia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Acrocephalus_arundinaceus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2493128,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493128&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/104317670"
+}

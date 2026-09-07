@@ -1340,6 +1340,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257824121/900",
       "photographer": "Christoph Moning",
       "attribution": "Christoph Moning / Macaulay Library"
+    },
+    {
+      "speciesCode": "grrwar1",
+      "comName": "Carricero Tordal",
+      "sciName": "Acrocephalus arundinaceus",
+      "date": "2026-09-07",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/662317588/900",
+      "photographer": "Miguel Rouco",
+      "attribution": "Miguel Rouco / Macaulay Library"
     }
   ]
 }
