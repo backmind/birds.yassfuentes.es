@@ -1349,6 +1349,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/662317588/900",
       "photographer": "Miguel Rouco",
       "attribution": "Miguel Rouco / Macaulay Library"
+    },
+    {
+      "speciesCode": "gresni1",
+      "comName": "Agachadiza Real",
+      "sciName": "Gallinago media",
+      "date": "2026-09-08",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253680621/900",
+      "photographer": "James Kennerley",
+      "attribution": "James Kennerley / Macaulay Library"
     }
   ]
 }

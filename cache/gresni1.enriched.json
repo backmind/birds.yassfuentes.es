@@ -1,0 +1,12 @@
+{
+  "prose": "En los rincones más remotos del noreste de Europa y el noroeste de Asia, la Agachadiza Real (Gallinago media) encuentra su hogar estacional entre praderas húmedas y turberas de montaña. Esta ave de la familia Scolopacidae destaca por su comportamiento discreto y habitualmente silencioso. Durante la época de reproducción, los machos protagonizan un espectáculo fascinante al congregarse en cantaderos tradicionales o \"leks\", donde despliegan sus plumajes y compiten colectivamente para atraer a las hembras. Cuando se ve sorprendida entre la vegetación baja de las marismas, suele permanecer inmóvil hasta el último instante, emprendiendo un vuelo de escape característicamente lento y corto.\n\nAunque guarda cierta semejanza con la Agachadiza Común (Gallinago gallinago), la Agachadiza Real es ligeramente más grande y corpulenta. Su proeza migratoria es una de las más asombrosas del reino animal: durante el otoño, emprende un viaje directo y sin escalas desde sus áreas de cría eurasianas hasta los humedales del África subsahariana, sobrevolando miles de kilómetros sin realizar pausas para alimentarse o descansar. En estos ecosistemas húmedos, su presencia señala la vitalidad del suelo, donde su largo pico le permite sondear el limo en busca de pequeñas presas.",
+  "identification": [
+    "Ligeramente más grande y corpulenta que la Agachadiza Común, con pico largo y grueso.",
+    "Vientre intensamente barreado y parte inferior de las alas oscura.",
+    "Patrón de contraste bien definido en la cara superior de las alas.",
+    "Comportamiento silencioso que se levanta solo a muy corta distancia ante la presencia humana.",
+    "Vuelo de escape pausado y de recorrido breve."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-08T07:18:54Z"
+}

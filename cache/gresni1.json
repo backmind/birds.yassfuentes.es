@@ -1,0 +1,16 @@
+{
+  "description": "La agachadiza real es una especie de ave caradriforme de la familia Scolopacidae que vive en Eurasia y África. Cría en los humedales y praderas húmedas con vegetación corta del noreste de Europa y noroeste de Asia y migra al África subsahariana para pasar el invierno.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La agachadiza real es una especie de ave caradriforme de la familia Scolopacidae que vive en Eurasia y África. Cría en los humedales y praderas húmedas con vegetación corta del noreste de Europa y noroeste de Asia y migra al África subsahariana para pasar el invierno.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Gallinago_media",
+  "wikipedia_language": "es",
+  "fallback_text": "Slightly bigger and stockier than Common Snipe, with a long and thick bill, heavily barred belly and contrasting upperwing pattern with dark underwings. Flushes at close range; escape flight is usually slow and short. Typically quiet and silent. Breeds in remote wet meadows or in mountain bogs where males lek (display together). Usually found at marshes on migration; autumn migrants make a direct nonstop flight to tropical African wintering grounds.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481831,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481831&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693093"
+}
