@@ -1,0 +1,16 @@
+{
+  "description": "El pinzón azul de Gran Canaria es una especie de ave paseriforme de la familia de los fringílidos (Fringillidae) endémico de esta isla.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El pinzón azul de Gran Canaria es una especie de ave paseriforme de la familia de los fringílidos (Fringillidae) endémico de esta isla.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Fringilla_polatzeki",
+  "wikipedia_language": "es",
+  "fallback_text": "Endemic to the island of Gran Canaria in the Canary Islands. Medium-sized finch with a strong and heavy bill, broken white eyering, and bold white wing-bars. Male is a striking dark blue-gray while female is brown-gray. Largely restricted to montane pine forests. Song is a repetitive, accelerating series; call is a quiet, rising “weep.”",
+  "fallback_language": "en",
+  "gbif_taxon_key": 7894593,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7894593&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "EN",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103822640"
+}

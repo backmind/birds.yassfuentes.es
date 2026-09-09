@@ -1,0 +1,11 @@
+{
+  "prose": "En las altas cumbres de la isla de Gran Canaria, donde los densos pinares atrapan la niebla atlántica, habita una de las joyas ornitológicas más exclusivas del archipiélago: el Pinzón Azul de Gran Canaria (Fringilla polatzeki). Este fringílido de tamaño medio ha vinculado estrechamente su existencia a las masas arboladas de montaña. El macho exhibe un plumaje deslumbrante de tono azul grisáceo oscuro, que contrasta con el tono gris pardo, más discreto y mimetizado, de la hembra. Observar a este paseriforme moverse con agilidad entre las ramas es adentrarse en un ecosistema fascinante, donde su canto, una serie repetitiva que se acelera progresivamente, rompe el silencio del bosque.\n\nComo habitante especializado de estos pinares montanos, el Pinzón Azul de Gran Canaria desempeña un papel ecológico fundamental en su ecosistema insular. Su potente y robusto pico está perfectamente adaptado para manipular y extraer semillas, de las cuales depende en gran medida. Además de su canto característico, su llamada de contacto es un tenue y ascendente \"weep\" que a menudo delata su posición entre la espesura. Recluido de forma exclusiva a Gran Canaria, este ave es un ejemplo extraordinario de adaptación y evolución en el aislamiento de las Islas Canarias.",
+  "identification": [
+    "Macho con plumaje azul grisáceo oscuro y hembra de tono gris pardo",
+    "Pico fuerte, grueso y robusto",
+    "Anillo ocular blanco discontinuo y franjas blancas bien definidas en las alas",
+    "Canto estructurado en una serie repetitiva que se acelera; reclamo consistente en un tenue \"weep\" ascendente"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-09T07:27:59Z"
+}

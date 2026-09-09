@@ -1358,6 +1358,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253680621/900",
       "photographer": "James Kennerley",
       "attribution": "James Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "blucha3",
+      "comName": "Pinzón Azul de Gran Canaria",
+      "sciName": "Fringilla polatzeki",
+      "date": "2026-09-09",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/617259701/900",
+      "photographer": "Daniel Pettersson",
+      "attribution": "Daniel Pettersson / Macaulay Library"
     }
   ]
 }
