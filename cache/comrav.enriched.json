@@ -1,0 +1,11 @@
+{
+  "prose": "El Cuervo Grande (Corvus corax) es una de las aves más imponentes y extendidas del planeta. Con su plumaje enteramente negro y una presencia majestuosa, este gigante domina casi todos los biomas del hemisferio septentrional, desde las gélidas tundras y densos bosques hasta los áridos desiertos y las costas. A diferencia de otros córvidos de menor tamaño, los adultos tienden a ser solitarios o a desplazarse en parejas que permanecen juntas durante toda su vida, defendiendo con firmeza su territorio. Considerado el paseriforme más pesado del mundo, el Cuervo Grande destaca por su vuelo elegante de aleteos fluidos y continuos, patrullando con frecuencia los espacios abiertos y las carreteras.\n\nComo extraordinario oportunista, cumple un rol ecológico fundamental en la limpieza de los ecosistemas. Su dieta es sumamente variada: además de aprovechar la carroña y los desperdicios humanos, es un activo depredador de roedores y nidos, y consume abundantes artrópodos como escorpiones y saltamontes, así como granos y semillas. Históricamente vinculado a la actividad de grandes carnívoros como los lobos, ha demostrado una plasticidad notable para adaptarse a la presencia humana, recolonizando antiguos hábitats e incluso adentrándose en entornos urbanos. Se trata de una especie verdaderamente longeva, capaz de superar ampliamente la década de vida en estado silvestre.",
+  "identification": [
+    "Plumaje completamente negro y pico muy grueso, claramente más largo que la cabeza.",
+    "Cola con una característica forma de cuña, fácil de reconocer durante el vuelo.",
+    "Alas puntiagudas con aleteos fluidos y continuos, a diferencia de los aleteos más rápidos y agitados del Cuervo Americano.",
+    "Comportamiento habitualmente solitario o en parejas estables, a diferencia de otras especies gregarias."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-10T07:23:57Z"
+}

@@ -1367,6 +1367,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/617259701/900",
       "photographer": "Daniel Pettersson",
       "attribution": "Daniel Pettersson / Macaulay Library"
+    },
+    {
+      "speciesCode": "comrav",
+      "comName": "Cuervo Grande",
+      "sciName": "Corvus corax",
+      "date": "2026-09-10",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300152741/900",
+      "photographer": "Christopher Lindsey",
+      "attribution": "Christopher Lindsey / Macaulay Library"
     }
   ]
 }
