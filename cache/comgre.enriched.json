@@ -1,0 +1,11 @@
+{
+  "prose": "El Archibebe Claro (Tringa nebularia) es un limícola de silueta esbelta y porte distinguido que establece sus territorios de cría en los páramos abiertos y turberas del norte de Europa. Con la llegada de los pasos migratorios y el invierno, este viajero incansable desciende hacia latitudes más meridionales para ocupar una amplia variedad de ecosistemas acuáticos, desde marismas y lagunas interiores hasta estuarios costeros. A diferencia de otras especies que forman densas aglomeraciones, suele encontrarse en solitario o formando pequeños grupos dispersos. Vadea las aguas someras con zancadas largas y deliberadas, exhibiendo una figura ligeramente más corpulenta y alargada que la del Archibebe Común.\n\nSu técnica de forrajeo resulta fascinante por su dinamismo: avanza con presteza combinando picotazos certeros con barridos laterales del pico a través del agua para capturar pequeños invertebrados y peces. En los humedales, su presencia se detecta a menudo por el oído antes que por la vista, gracias a sus reclamos ruidosos, sonoros y penetrantes que alertan al resto de aves del entorno. Cuando levanta el vuelo, el ave revela un rasgo diagnóstico inconfundible: una amplia y llamativa franja blanca que asciende desde la cola hasta la mitad del dorso, recortándose nítidamente contra el tono grisáceo de sus alas.",
+  "identification": [
+    "Patas largas de coloración verdosa distintiva y pico largo y fino, sutilmente curvado hacia arriba.",
+    "Dorso y partes superiores de tonalidades grisáceas que contrastan con el pecho y vientre completamente blancos.",
+    "En vuelo exhibe una conspicua y ancha cuña blanca que se extiende desde la cola hasta el centro de la espalda.",
+    "Reclamo ruidoso, monocorde y muy sonoro, emitido con frecuencia al sentirse alarmado o levantar el vuelo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-11T07:21:43Z"
+}

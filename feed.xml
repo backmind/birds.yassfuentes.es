@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Thu, 10 Sep 2026 07:21:23 +0000</pubDate>
+    <pubDate>Fri, 11 Sep 2026 07:20:00 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Archibebe Claro (Tringa nebularia)</title>
+      <link>https://birds.yassfuentes.es/birds/comgre.html</link>
+      <guid isPermaLink="false">bird-of-the-day-comgre-2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 07:20:00 +0000</pubDate>
+      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253685851/900" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Marco Valentini / Macaulay Library</media:credit>
+      </media:content>
+      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253685851/900" />
+      <content:encoded><![CDATA[<p><small>№ 154 · 2026 · 09 · 11</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/comgre.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253685851/900" alt="Archibebe Claro" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Marco Valentini / Macaulay Library</em></small></p>
+<h2>Archibebe Claro — <em>Tringa nebularia</em></h2>
+<p><small><em>Scolopacidae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22693220">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/comgre.html">Archibebe Claro</a> (<em>Tringa nebularia</em>) es un limícola de silueta esbelta y porte distinguido que establece sus territorios de cría en los páramos abiertos y turberas del norte de Europa. Con la llegada de los pasos migratorios y el invierno, este viajero incansable desciende hacia latitudes más meridionales para ocupar una amplia variedad de ecosistemas acuáticos, desde marismas y lagunas interiores hasta estuarios costeros. A diferencia de otras especies que forman densas aglomeraciones, suele encontrarse en solitario o formando pequeños grupos dispersos. Vadea las aguas someras con zancadas largas y deliberadas, exhibiendo una figura ligeramente más corpulenta y alargada que la del <a href="https://birds.yassfuentes.es/birds/comred1.html">Archibebe Común</a>.</p>
+<p>Su técnica de forrajeo resulta fascinante por su dinamismo: avanza con presteza combinando picotazos certeros con barridos laterales del pico a través del agua para capturar pequeños invertebrados y peces. En los humedales, su presencia se detecta a menudo por el oído antes que por la vista, gracias a sus reclamos ruidosos, sonoros y penetrantes que alertan al resto de aves del entorno. Cuando levanta el vuelo, el ave revela un rasgo diagnóstico inconfundible: una amplia y llamativa franja blanca que asciende desde la cola hasta la mitad del dorso, recortándose nítidamente contra el tono grisáceo de sus alas.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Patas largas de coloración verdosa distintiva y pico largo y fino, sutilmente curvado hacia arriba.</li><li>Dorso y partes superiores de tonalidades grisáceas que contrastan con el pecho y vientre completamente blancos.</li><li>En vuelo exhibe una conspicua y ancha cuña blanca que se extiende desde la cola hasta el centro de la espalda.</li><li>Reclamo ruidoso, monocorde y muy sonoro, emitido con frecuencia al sentirse alarmado o levantar el vuelo.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481726"><img src="https://birds.yassfuentes.es/maps/comgre.png" alt="Distribución mundial de Tringa nebularia según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/comgre?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Tringa_nebularia">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/comgre/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=comgre&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Cuervo Grande (Corvus corax)</title>
       <link>https://birds.yassfuentes.es/birds/comrav.html</link>
@@ -617,27 +638,6 @@
 <ul><li>Cola alargada y profundamente ahorquillada de tono rojizo-anaranjado.</li><li>Cabeza de color gris plateado que destaca frente al plumaje corporal rufo.</li><li>Silueta de rapaz grande con audaz patrón alar contrastante en vuelo.</li><li>Vuelo característico que combina batidos lentos con planeos y giros frecuentes.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5229168"><img src="https://birds.yassfuentes.es/maps/redkit1.png" alt="Distribución mundial de Milvus milvus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/redkit1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Milvus_milvus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/redkit1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=redkit1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Gaviota de Cortés (Larus livens)</title>
-      <link>https://birds.yassfuentes.es/birds/yefgul.html</link>
-      <guid isPermaLink="false">bird-of-the-day-yefgul-2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 04:08:30 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308496801/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Tanner Martin / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308496801/900" />
-      <content:encoded><![CDATA[<p><small>№ 124 · 2026 · 08 · 12</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/yefgul.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308496801/900" alt="Gaviota de Cortés" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Tanner Martin / Macaulay Library</em></small></p>
-<h2>Gaviota de Cortés — <em>Larus livens</em></h2>
-<p><small><em>Laridae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22694340">LC</a> · Preocupación Menor</small></p>
-<p>En las tranquilas aguas y recortadas costas del Golfo de California, habita una criatura singular: la <a href="https://birds.yassfuentes.es/birds/yefgul.html">Gaviota de Cortés</a> (<em>Larus livens</em>). Posiblemente la única ave marina cuya área de reproducción se limita por completo a esta rica cuenca mexicana, es un habitante conspicuo de playas, muelles pesqueros y zonas intermareales rocosas o lodosas. Con su cuerpo robusto y su porte imponente, esta ave patrulla la línea de costa con una serenidad observadora, aprovechando los recursos de un ecosistema marino excepcionalmente fértil.</p>
-<p>Durante mucho tiempo, la <a href="https://birds.yassfuentes.es/birds/yefgul.html">Gaviota de Cortés</a> fue considerada una subespecie de la <a href="https://ebird.org/species/wesgul?siteLanguage=es" target="_blank" rel="noopener">Gaviota Occidental</a> (<em>Larus occidentalis</em>), con la que comparte un manto gris pizarra oscuro y un pico grueso y bulboso. Sin embargo, su identidad propia quedó establecida, e investigaciones recientes sugieren una estrecha relación con la <a href="https://ebird.org/species/kelgul?siteLanguage=es" target="_blank" rel="noopener">Gaviota Cocinera</a> (<em>Larus dominicanus</em>) del hemisferio sur. Al concluir la temporada reproductiva, parte de su población realiza un desplazamiento posgenerativo hacia el norte, concentrándose desde finales de mayo en el Mar de Salton, en California, donde alcanza varios centenares de individuos en pleno verano antes de dispersarse en otoño.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Adulto con cabeza blanca, manto gris pizarra oscuro y pico amarillo robusto y bulboso</li><li>Patas de un brillante color amarillo intenso en especímenes adultos</li><li>Inmaduros de primer año con plumaje café y patas rosadas</li><li>Adquisición del manto gris y patas amarillas completada hacia el segundo año de vida</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481154"><img src="https://birds.yassfuentes.es/maps/yefgul.png" alt="Distribución mundial de Larus livens según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/yefgul?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Larus_livens">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/yefgul/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=yefgul&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

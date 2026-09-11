@@ -1376,6 +1376,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300152741/900",
       "photographer": "Christopher Lindsey",
       "attribution": "Christopher Lindsey / Macaulay Library"
+    },
+    {
+      "speciesCode": "comgre",
+      "comName": "Archibebe Claro",
+      "sciName": "Tringa nebularia",
+      "date": "2026-09-11",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253685851/900",
+      "photographer": "Marco Valentini",
+      "attribution": "Marco Valentini / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Cría en los páramos del norte de Europa y es bastante común en el sur durante el paso e invernada que ocupan una amplia variedad de ecosistemas acuáticos. Aparece generalmente como individuos solitarios o pequeños grupos. Se alimenta dando largas zancadas en el agua, picando y barriendo el agua con su pico. Ligeramente de mayor tamaño y espigado que el Common Redshank. Dorso grisáceo con pecho blanco y patas verdosas. En vuelo el dorso con una amplia franja blanca desde la mitad del dorso a la cola.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El archibebe claro es una especie de ave Charadriiforme de la familia Scolopacidae. Es un ave marina, de aspecto delicado y elegante, con patas y pico muy largos. Es un limícola localizable por sus reclamos ruidosos, sonoros, monocordes.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tringa_nebularia",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481726,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481726&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693220"
+}
