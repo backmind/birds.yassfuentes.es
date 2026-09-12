@@ -1,0 +1,16 @@
+{
+  "description": "Es poco común por lo general pero puede ser localmente bastante común, a menudo se observa en bandos de Black-headed Gulls y Mew (Common) Gulls. Es ligeramente más grande que la Black-headed Gull, más parecida en tamaño y forma a la Mew Gull pero con el pico más robusto. El adulto es fácil de identificar por ser la única gaviota pequeña con la punta de las alas de color blanco níveo; en plumaje nupcial tiene una capucha negra. Fuera de la época reproductora y los inmaduros tienen una oscura máscara horizontal muy patente. Los jóvenes tienen el dorso moteado pardusco que muda a gris claro en invierno.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La gaviota cabecinegra o gaviota mediterránea es una especie de ave caradriforme de la familia Laridae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ichthyaetus_melanocephalus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 8151548,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8151548&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}

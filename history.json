@@ -1385,6 +1385,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253685851/900",
       "photographer": "Marco Valentini",
       "attribution": "Marco Valentini / Macaulay Library"
+    },
+    {
+      "speciesCode": "medgul1",
+      "comName": "Gaviota Cabecinegra",
+      "sciName": "Ichthyaetus melanocephalus",
+      "date": "2026-09-12",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253700151/900",
+      "photographer": "Josep del Hoyo",
+      "attribution": "Josep del Hoyo / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "prose": "La Gaviota Cabecinegra (Ichthyaetus melanocephalus) es una presencia distinguida y cautivadora a lo largo de las costas, estuarios y humedales. Aunque por lo general es un ave poco común, puede resultar localmente abundante en enclaves favorables, donde suele integrarse en nutridos bandos mixtos junto a la Gaviota Reidora (Chroicocephalus ridibundus) y la Gaviota Cana (Larus canus). Ligeramente más corpulenta que la gaviota reidora, destaca de inmediato durante la primavera por su plumaje nupcial: una capucha de un negro azabache profundo que envuelve toda la cabeza, enmarcada por delicados arcos blancos sobre los párpados y un pico rojo notablemente robusto. En vuelo, el adulto revela su rasgo más singular: unas alas de puntas níveas y puras, desprovistas de las marcas negras habituales en otras gaviotas de su tamaño.\n\nCon la llegada del otoño y el fin de la crianza, la densa capucha oscura desaparece para dejar paso a una marcada máscara horizontal detrás de los ojos, rasgo que también lucen los individuos inmaduros. Los juveniles presentan un dorso moteado de tonos pardos que muda hacia un gris claro durante su primer invierno. En los ecosistemas litorales y marismas, desempeña un papel ecológico activo como depredadora oportunista de pequeños peces, crustáceos e insectos, además de alimentarse en campos de cultivo. Su elegancia serena y su costumbre de mezclarse entre bandadas más numerosas convierten su detección en un auténtico deleite para la observación paciente.",
+  "identification": [
+    "Adulto inconfundible en vuelo por las puntas de las alas de color blanco níveo, sin marcas negras.",
+    "Plumaje nupcial con capucha completa de color negro azabache y pico rojizo robusto.",
+    "Fuera de la época reproductora e inmaduros presentan una conspicua máscara oscura horizontal tras el ojo.",
+    "Jóvenes con dorso moteado parduzco que muda a gris claro en invierno.",
+    "Tamaño ligeramente mayor que el de la Gaviota Reidora y silueta similar a la Gaviota Cana pero con pico más grueso."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-12T07:12:59Z"
+}
