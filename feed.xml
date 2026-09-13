@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sat, 12 Sep 2026 07:12:29 +0000</pubDate>
+    <pubDate>Sun, 13 Sep 2026 07:31:09 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Curruca Rabilarga (Curruca undata)</title>
+      <link>https://birds.yassfuentes.es/birds/darwar1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-darwar1-2026-09-13</guid>
+      <pubDate>Sun, 13 Sep 2026 07:31:09 +0000</pubDate>
+      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Ben Lucking / Macaulay Library</media:credit>
+      </media:content>
+      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900" />
+      <content:encoded><![CDATA[<p><small>№ 156 · 2026 · 09 · 13 · <a href="https://birds.yassfuentes.es/birds/darwar1.html">Ya publicada: 2026 · 05 · 24</a></small></p>
+<p><a href="https://birds.yassfuentes.es/birds/darwar1.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900" alt="Curruca Rabilarga" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Ben Lucking / Macaulay Library</em></small></p>
+<h2>Curruca Rabilarga — <em>Curruca undata</em></h2>
+<p><small><em>Sylviidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22716984">NT</a> · Casi Amenazado</small></p>
+<p>En los páramos azotados por el viento y en las laderas cubiertas de un denso manto de matorral, habita un pequeño acróbata de la vegetación baja: la <a href="https://birds.yassfuentes.es/birds/darwar1.html">Curruca Rabilarga</a> (<em>Curruca undata</em>). Este diminuto pájaro muestra una preferencia casi absoluta por los brezales y los tojos espinosos, un hábitat intrincado donde se mueve con una agilidad asombrosa. De carácter esquivo y reservado, la <a href="https://birds.yassfuentes.es/birds/darwar1.html">curruca rabilarga</a> pasa la mayor parte del año oculta entre la maleza, buscando incansablemente pequeños insectos y arañas. Sin embargo, con la llegada de la primavera, el macho rompe su habitual timidez. Asciende a la parte más alta de un arbusto y, recortado contra el cielo, despliega un canto enérgico y rascado, convirtiéndose en el auténtico protagonista de un paisaje aparentemente inhóspito.</p>
+<p>A diferencia de otras currucas que emprenden largas migraciones hacia el continente africano, la <a href="https://birds.yassfuentes.es/birds/darwar1.html">curruca rabilarga</a> es predominantemente sedentaria en gran parte de su área de distribución en el suroeste de Europa. Esta permanencia la expone a los rigores del invierno, convirtiéndola en un indicador biológico sumamente sensible al cambio climático y a las olas de frío extremo, que pueden diezmar temporalmente sus poblaciones. Su papel ecológico es crucial como controladora de poblaciones de invertebrados en ecosistemas de matorral mediterráneo y atlántico, hábitats que a menudo sufren la presión de los incendios y la fragmentación. Su supervivencia está íntimamente ligada a la conservación de estos santuarios arbustivos, demostrando que incluso en los entornos más densos y espinosos, la vida late con una delicadeza y una resistencia admirables.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Cola notablemente larga que a menudo sostiene ligeramente levantada.</li><li>Plumaje oscuro, con el dorso grisáceo y las partes inferiores de un tono rojo vinoso apagado.</li><li>Un estrecho y llamativo anillo ocular de color rojo.</li><li>Patas de un tono amarillento bastante brillante.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/10355796"><img src="https://birds.yassfuentes.es/maps/darwar1.png" alt="Distribución mundial de Curruca undata según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/darwar1?siteLanguage=es">eBird</a> · <a href="https://en.wikipedia.org/wiki/Dartford_warbler">Wikipedia (en)</a> · <a href="https://birdsoftheworld.org/bow/species/darwar1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=darwar1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Gaviota Cabecinegra (Ichthyaetus melanocephalus)</title>
       <link>https://birds.yassfuentes.es/birds/medgul1.html</link>
@@ -617,27 +638,6 @@
 <ul><li>Partes inferiores, rostro y frente de color blanco puro, en contraste con la nuca, alas y cola negras.</li><li>Dorso de tono grisáceo con el obispillo o rabadilla notablemente más pálida.</li><li>Tamaño relativamente pequeño y hábito característico de posarse en rocas o ramas sobre arroyos pedregosos de corriente rápida.</li><li>Canto agudo y aflautado, o reclamos ásperos y raspantes audibles sobre el sonido del agua.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5230805"><img src="https://birds.yassfuentes.es/maps/torfly1.png" alt="Distribución mundial de Monachella muelleriana según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/torfly1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Monachella_muelleriana">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/torfly1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=torfly1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Porrón Moñudo (Aythya fuligula)</title>
-      <link>https://birds.yassfuentes.es/birds/tufduc.html</link>
-      <guid isPermaLink="false">bird-of-the-day-tufduc-2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 04:09:31 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301541481/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Honza Grünwald / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301541481/900" />
-      <content:encoded><![CDATA[<p><small>№ 126 · 2026 · 08 · 14</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/tufduc.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301541481/900" alt="Porrón Moñudo" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Honza Grünwald / Macaulay Library</em></small></p>
-<h2>Porrón Moñudo — <em>Aythya fuligula</em></h2>
-<p><small><em>Anatidae</em> · <em>Anseriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22680391">LC</a> · Preocupación Menor</small></p>
-<p>En las aguas mansas de Eurasia y África, el <a href="https://birds.yassfuentes.es/birds/tufduc.html">Porrón Moñudo</a> (<em>Aythya fuligula</em>) se desliza como una de las anátidas buceadoras más representativas y reconocibles. Su silueta es habitual en una amplia diversidad de humedales, desde lagos y ciénagas provistos de abundante vegetación emergente hasta grandes embalses abiertos. Dotado de una notable pericia hidrodinámica, el <a href="https://birds.yassfuentes.es/birds/tufduc.html">porrón moñudo</a> se sumerge a medias profundidades para conseguir su sustento, impulsándose con presteza bajo el agua. No obstante, tras sus incursiones alimentarias, suele pasar gran parte de las horas diurnas dormitando en superficie, dejándose mecer por el suave vaivén de las corrientes.</p>
-<p>Con la llegada del invierno, esta especie muestra un marcado gregarismo y tiende a agruparse en nutridos bandos. Cuando las temperaturas extremas congelan los cuerpos de agua dulce del interior, no duda en desplazarse hacia bahías o franjas costeras marinas para capear la temporada fría. El macho destaca con un contraste nítido entre su cuerpo negro, los flancos de un blanco limpio y un peculiar moño colgante en la nuca. Ambos sexos comparten una mirada inconfundible gracias a sus intensos ojos de color amarillo vivo y lucen una franja alar blanca que resplandece de manera diáfana al levantar el vuelo.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Macho con plumaje negro contrastado con flancos blancos puros y un largo moño colgante en la nuca.</li><li>Hembra de tonos marrón oscuro con cresta más corta, flancos pálidos y a menudo una mancha clara en la base del pico.</li><li>Ojos de un llamativo color amarillo brillante en ambos sexos.</li><li>Ancha banda alar blanca claramente visible en vuelo.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2498261"><img src="https://birds.yassfuentes.es/maps/tufduc.png" alt="Distribución mundial de Aythya fuligula según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/tufduc?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Aythya_fuligula">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/tufduc/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=tufduc&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
