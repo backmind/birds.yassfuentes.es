@@ -1403,6 +1403,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900",
       "photographer": "Ben Lucking",
       "attribution": "Ben Lucking / Macaulay Library"
+    },
+    {
+      "speciesCode": "grepar",
+      "comName": "Loro Yaco",
+      "sciName": "Psittacus erithacus",
+      "date": "2026-09-14",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/240817371/900",
+      "photographer": "Zak Pohlen",
+      "attribution": "Zak Pohlen / Macaulay Library"
     }
   ]
 }
