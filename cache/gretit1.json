@@ -1,0 +1,16 @@
+{
+  "description": "Común y conspicuo en montes, bosques, parques, jardines y setos en tierras de cultivo. A menudo visita comederos de pájaros y usa cajas nido. Tiene plumaje característico, con mejillas blancas rodeadas por un píleo y babero negros y partes inferiores amarillas. Es notablemente más grande y con plumaje más marcado que el Eurasian Blue Tit, que a menudo aparece junto con el Great Tit. El macho tiene una banda negra más ancha en el vientre que la hembra, y el juvenil (en verano-principios del otoño) tiene un color amarillento y un plumaje más apagado en general.",
+  "description_source": "ebird",
+  "bow_intro": "Uno de los paseriformes paleárticos más comunes y más ampliamente distribuidos, y una especie modelo para el estudio de la ecología del comportamiento, el Great Tit se encuentra entre las aves mejor estudiadas del mundo. El Great Tit es bastante distintivo con su cabeza negra y su gran mancha facial blanca junto con sus partes inferiores amarillas. La especie se ha adaptado muy bien a paisajes modificados por el hombre, como tierras de cultivo arboladas y zonas urbanas muy alejadas de sus hábitats naturales de bosques y bordes de bosques, en parte porque utiliza fácilmente las cajas nido artificiales y es un visitante habitual de los comederos de pájaros de los jardines. Su canto es característico y repetitivo, pero también es famosamente variable, e incluso los observadores muy experimentados pueden confundirse al principio por otra variante de uno de los motivos más comunes. Es en gran medida una especie residente, pero en algunas regiones puede emprender migraciones elevacionales e incluso movimientos irruptivos en años en los que la población es especialmente elevada y los recursos alimenticios clave, como los cultivos de hayucos, escasean. El Great Tit cría en cavidades de árboles y cajas nido, y suele tener dos nidadas al año, cada una con un tamaño de puesta de 5-12 huevos incubados exclusivamente por la hembra.",
+  "taxonomy": {},
+  "wikipedia_summary": "El carbonero común es una especie de ave paseriforme de la familia de los páridos (Paridae). Es una especie ampliamente distribuida, siendo muy común en Europa y Asia, en bosques de todo tipo. Es sedentario y la mayoría de sus individuos no son migradores.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Parus_major",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9705453,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9705453&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22735990"
+}

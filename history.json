@@ -1412,6 +1412,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/240817371/900",
       "photographer": "Zak Pohlen",
       "attribution": "Zak Pohlen / Macaulay Library"
+    },
+    {
+      "speciesCode": "gretit1",
+      "comName": "Carbonero Común",
+      "sciName": "Parus major",
+      "date": "2026-09-15",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169357911/900",
+      "photographer": "Steven McGrath",
+      "attribution": "Steven McGrath / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "prose": "El Carbonero Común (Parus major) es una de las aves más familiares y conspicuas de los paisajes templados de Europa y Asia. Presente en una extraordinaria diversidad de ambientes, desde densos bosques caducifolios y mixtos hasta setos agrícolas, parques urbanos y jardines domésticos, este vivaz paseriforme destaca por su asombrosa capacidad de adaptación a los entornos transformados por el ser humano. Con un plumaje contrastado y una presencia inquieta, es un visitante asiduo y confiado de los comederos invernales, donde forrajea con frecuencia en compañía de otros páridos como el Herrerillo Común (Cyanistes caeruleus). Aunque en gran medida sedentario, algunas poblaciones pueden emprender desplazamientos altitudinales o movimientos dispersivos e irruptivos en otoños en los que escasean los frutos forestales.\n\nConvertido en un organismo modelo para la investigación de la ecología del comportamiento y la evolución, el Carbonero Común figura entre las aves más minuciosamente estudiadas por la ciencia. Para su reproducción aprovecha cavidades naturales en árboles maduros o cajas nido artificiales, donde la hembra asume en solitario la incubación de puestas extraordinariamente numerosas, de entre cinco y doce huevos. Además, su repertorio sonoro es famoso por su versatilidad: emite un canto rítmico, metálico y resonante con tantas variantes individuales y dialectales que desafía a menudo el oído de los ornitólogos más experimentados. En los ecosistemas que habita, cumple una función ecológica crucial al regular las poblaciones de orugas e insectos defoliadores durante la primavera.",
+  "identification": [
+    "Cabeza negra con una prominente mancha blanca en las mejillas y garganta oscura.",
+    "Partes inferiores de color amarillo brillante con una marcada franja negra central a lo largo del vientre, más ancha en los machos.",
+    "Tamaño sensiblemente mayor y aspecto más corpulento que el de otros páridos afines como el Herrerillo Común.",
+    "Canto territorial claro, metálico y bisilábico muy característico, aunque sumamente variable en tonalidad y ritmo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-15T07:50:45Z"
+}
