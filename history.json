@@ -1430,6 +1430,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/620374233/900",
       "photographer": "Alexis Lours",
       "attribution": "Alexis Lours / Macaulay Library"
+    },
+    {
+      "speciesCode": "yebtou1",
+      "comName": "Tucanete del Huallaga",
+      "sciName": "Aulacorhynchus huallagae",
+      "date": "2026-09-17",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228666251/900",
+      "photographer": "Jhonny Ramos Sandoval",
+      "attribution": "Jhonny Ramos Sandoval / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "prose": "En las brumosas y remotas laderas orientales de los Andes, al norte de Perú, habita una de las aves más esquivas y misteriosas del neotrópico: el Tucanete del Huallaga (Aulacorhynchus huallagae). Este pequeño tucán verde encuentra su refugio en bosques nublados y montanos de difícil acceso, un entorno tan inaccesible que la mayoría de los avistamientos requieren complejas expediciones. Considerado el miembro menos conocido y de distribución más restringida de su familia, se desplaza silenciosamente entre el denso dosel arbóreo de estas selvas húmedas, manteniéndose casi invisible para la ciencia.\n\nA pesar de la escasez de datos sobre su biología, se sabe que el Tucanete del Huallaga desempeña un papel ecológico vital en su ecosistema al alimentarse de frutos y semillas. Catalogado en peligro de extinción debido a la constante pérdida de hábitat, cada observación de esta ave representa un testimonio de la fragilidad de las laderas andinas. Aunque comparte gran similitud con el Tucanete Pechiazul, sutiles marcas en su rostro y en la base del pico revelan la identidad de este auténtico joyel de las brumas peruanas.",
+  "identification": [
+    "Plumaje mayormente verde con garganta blanca, rabadilla roja y una banda azul cruzando el pecho.",
+    "Pico predominantemente negro con una característica raya vertical blanca en la base.",
+    "Línea amarilla detrás del ojo (postocular) y punta de la cola de color rojo.",
+    "Se diferencia del Tucanete Pechiazul por la marca postocular amarilla en lugar de blanca, y del Tucanete Gorjiblanco y Tucanete de Derby por su pico negro."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-17T07:47:47Z"
+}

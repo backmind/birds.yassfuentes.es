@@ -1,0 +1,16 @@
+{
+  "description": "Tucán pequeño y verde presente solamente en regiones remotas a lo largo de la ladera oriental de los Andes al norte de Perú. La mayor parte de su hábitat (bosque nublado) es actualmente inaccesible a menos que se organice una expedición seria, razón por la cual muy pocos observadores de aves han encontrado esta rara especie. Su plumaje es mayormente verde, tiene rabadilla y punta de la cola rojas, garganta blanca y banda pectoral azul. Se diferencia de Blue-banded Toucanet (Aulacorhynchus coeruleicinctis) por tener raya postocular amarilla (no blanca) y raya blanca vertical en la base del pico. Su pico mayormente negro y la banda pectoral azul ayudan a diferenciarlo de Southern Emerald-Toucanet (Aulacorhynchus albivitta) y de Chestnut-tipped Toucanet (Aulacorhynchus derbianus).",
+  "description_source": "ebird",
+  "bow_intro": "Yellow-browed Toucanet es quizás el más restringido en su área de distribución y el menos conocido de todos los tucanes. Se sabe que esta especie raramente vista sólo se da en la vertiente oriental de los Andes del norte de Perú . En la actualidad Yellow-browed Toucanet se considera En peligro, aunque su área de distribución geográfica es aparentemente algo más extensa de lo que se conocía hasta ahora, y su estado de conservación quizá no sea tan precario como se pensaba. El Tucanete pardo-amarillo habita en bosques montanos húmedos y se alimenta de frutos y semillas. Yellow-browed Toucanet es muy similar a Blue-banded Toucanet (Aulacorhynchus coeruleicinctis ) que se da desde el centro de Perú hasta el centro de Bolivia, pero el tucán de ceja amarilla se diferencia sobre todo por la base blanca distintiva del pico. Es de suponer que la biología de Yellow-browed Toucanet es similar a la de la más conocida Franja azul, pero Yellow-browed Toucanet se ve con tan poca frecuencia que se sabe poco de esta especie.",
+  "taxonomy": {},
+  "wikipedia_summary": "El tucanete del Huallaga es una especie de ave piciforme de la familia Ramphastidae endémica del Perú. Es el miembro menos conocido de su familia ya que habita solo en las selvas húmedas de las laderas orientales de los Andes en una reducida región del norte de Perú. Está amenazado por la pérdida de hábitat y por ello catalogada como especie en peligro de extinción por la UICN.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aulacorhynchus_huallagae",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5229005,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5229005&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22681981"
+}
