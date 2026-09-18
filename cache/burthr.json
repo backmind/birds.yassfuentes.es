@@ -1,0 +1,16 @@
+{
+  "description": "Los machos suelen ser inconfundibles por su color azul oscuro con alas negras que pueden parecer completamente oscuros a distancia. Las hembras son de color marrón oscuro por arriba, vermiculadas (finamente barradas) en partes inferiores. Su silueta es distintiva dado su largo pico, alas y cola, que le confieren una forma muy diferente al Rufous-tailed Rock-Thrush. Los cantos de estas dos especies son similares: melódicas y similares a las de un Eurasian Blackbird. Se encuentra en las regiones montañosas, pero también en los acantilados, ruinas, canteras e incluso ciudades, donde canta desde los tejados y las antenas de televisión.",
+  "description_source": "ebird",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El roquero solitario es una especie de ave paseriforme de la familia Muscicapidae que se caracteriza por el plumaje azulado de los machos adultos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Monticola_solitarius",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2490955,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2490955&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22708286"
+}

@@ -1439,6 +1439,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/228666251/900",
       "photographer": "Jhonny Ramos Sandoval",
       "attribution": "Jhonny Ramos Sandoval / Macaulay Library"
+    },
+    {
+      "speciesCode": "burthr",
+      "comName": "Roquero Solitario",
+      "sciName": "Monticola solitarius",
+      "date": "2026-09-18",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900",
+      "photographer": "Pedro Marques",
+      "attribution": "Pedro Marques / Macaulay Library"
     }
   ]
 }

@@ -5,10 +5,28 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Thu, 17 Sep 2026 07:45:59 +0000</pubDate>
+    <pubDate>Fri, 18 Sep 2026 07:27:16 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Roquero Solitario (Monticola solitarius)</title>
+      <link>https://birds.yassfuentes.es/birds/burthr.html</link>
+      <guid isPermaLink="false">bird-of-the-day-burthr-2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 07:27:16 +0000</pubDate>
+      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Pedro Marques / Macaulay Library</media:credit>
+      </media:content>
+      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900" />
+      <content:encoded><![CDATA[<p><small>№ 161 · 2026 · 09 · 18</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/burthr.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900" alt="Roquero Solitario" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Pedro Marques / Macaulay Library</em></small></p>
+<h2>Roquero Solitario — <em>Monticola solitarius</em></h2>
+<p><small><em>Muscicapidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22708286">LC</a> · Preocupación Menor</small></p>
+<p>Los machos suelen ser inconfundibles por su color azul oscuro con alas negras que pueden parecer completamente oscuros a distancia. Las hembras son de color marrón oscuro por arriba, vermiculadas (finamente barradas) en partes inferiores. Su silueta es distintiva dado su largo pico, alas y cola, que le confieren una forma muy diferente al <a href="https://ebird.org/species/rtrthr1?siteLanguage=es" target="_blank" rel="noopener">Roquero Rojo</a>. Los cantos de estas dos especies son similares: melódicas y similares a las de un <a href="https://ebird.org/species/eurbla?siteLanguage=es" target="_blank" rel="noopener">Mirlo Común</a>. Se encuentra en las regiones montañosas, pero también en los acantilados, ruinas, canteras e incluso ciudades, donde canta desde los tejados y las antenas de televisión.</p>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2490955"><img src="https://birds.yassfuentes.es/maps/burthr.png" alt="Distribución mundial de Monticola solitarius según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/burthr?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Monticola_solitarius">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/burthr/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=burthr&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Tucanete del Huallaga (Aulacorhynchus huallagae)</title>
       <link>https://birds.yassfuentes.es/birds/yebtou1.html</link>
