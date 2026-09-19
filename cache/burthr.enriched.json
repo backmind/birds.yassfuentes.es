@@ -1,0 +1,11 @@
+{
+  "prose": "El Roquero Solitario (Monticola solitarius) es un habitante emblemático de los paisajes rocosos y escarpados. En riscos escarpados, gargantas fluviales, canteras abandonadas e incluso en antiguos edificios y ruinas de piedra, esta ave de porte erguido suele vigilar su territorio desde atalayas prominentes. Los machos destacan por su plumaje azul oscuro pizarra, que bajo ciertas luces o a distancia puede parecer completamente sombrío, en contraste con el plumaje pardo de las hembras. Dotado de una silueta esbelta, caracterizada por un pico fino y alargado, alas largas y cola estilizada, el Roquero Solitario exhibe un porte muy diferente al del Roquero Rojo (Monticola saxatilis).\n\nAunque su nombre evoca soledad y aislamiento en los roquedos salvajes, el Roquero Solitario ha demostrado una notable capacidad de adaptación al colonizar entornos urbanos con estructuras de piedra u hormigón, donde aprovecha tejados y antenas de televisión como plataformas para proclamar sus dominios. Su canto, fluido, aflautado y rico en modulaciones melódicas, recuerda con frecuencia a las estrofas del Mirlo Común (Turdus merula). Desde estas elevadas atalayas, este paseriforme combina su labor territorial con la búsqueda activa de invertebrados y pequeños animales entre las fisuras minerales, cumpliendo un papel clave en el equilibrio de los ecosistemas rupícolas.",
+  "identification": [
+    "Macho con plumaje distintivo de color azul oscuro uniforme y alas negras que pueden verse muy oscuras a distancia.",
+    "Hembra de tonos pardo oscuros en el dorso y partes inferiores finamente vermiculadas o barradas.",
+    "Silueta alargada y esbelta con pico fino y relativamente largo, alas largas y cola proporcionada.",
+    "Canto melódico y aflautado de gran sonoridad, similar al del Mirlo Común, emitido a menudo desde postes, riscos o tejados."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-19T07:23:40Z"
+}

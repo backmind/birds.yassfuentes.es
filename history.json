@@ -1448,6 +1448,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900",
       "photographer": "Pedro Marques",
       "attribution": "Pedro Marques / Macaulay Library"
+    },
+    {
+      "speciesCode": "blackc1",
+      "comName": "Curruca Capirotada",
+      "sciName": "Sylvia atricapilla",
+      "date": "2026-09-19",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900",
+      "photographer": "Santiago Caballero Carrera",
+      "attribution": "Santiago Caballero Carrera / Macaulay Library"
     }
   ]
 }
