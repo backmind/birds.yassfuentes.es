@@ -1,0 +1,11 @@
+{
+  "prose": "La Gaviota Argéntea Europea (Larus argentatus) es una de las aves más adaptables y extendidas del hemisferio norte. Ruidosa y de gran tamaño, esta especie resulta habitual tanto en costas, playas y zonas de marea como en campos arados, puertos y vertederos del interior. Posee una silueta fornida y una presencia imponente entre otras gaviotas, congregándose frecuentemente en grandes grupos tras los barcos pesqueros en alta mar para aprovechar cualquier resto arrojado por la borda. Su fama de audaz cleptómana en entornos urbanos y paseos marítimos oculta una fascinante complejidad conductual, donde la mirada o el habla humana pueden llegar a intimidar a los ejemplares más atrevidos.\n\nMás allá de su faceta oportunista, la Gaviota Argéntea Europea ocupa un lugar insustituible en la historia de la biología. A mediados del siglo XX, las investigaciones de Niko Tinbergen demostraron que la mancha roja en el pico de los adultos actúa como un estímulo visual clave que incita a los pichones a pedir comida, un experimento fundamental que sentó las bases de la etología moderna. Asimismo, la especie destaca por su pausado desarrollo: los jóvenes tardan cuatro años en transformar su plumaje marrón y moteado en el pulcro diseño gris y blanco de los adultos.",
+  "identification": [
+    "Plumaje adulto con manto gris pálido, cabeza blanca y puntas de las alas negras con espejos blancos.",
+    "Pico amarillo, grueso y fuerte, marcado con una característica mancha roja en la parte inferior.",
+    "De mayor tamaño y silueta más fornida que la Gaviota de Delaware.",
+    "Jóvenes de aspecto moteado en tonos marrones que tardan cuatro años en completar el plumaje adulto."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-20T07:48:25Z"
+}

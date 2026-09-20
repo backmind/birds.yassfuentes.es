@@ -1457,6 +1457,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900",
       "photographer": "Santiago Caballero Carrera",
       "attribution": "Santiago Caballero Carrera / Macaulay Library"
+    },
+    {
+      "speciesCode": "euhgul1",
+      "comName": "Gaviota Argéntea Europea",
+      "sciName": "Larus argentatus",
+      "date": "2026-09-20",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/623287377/900",
+      "photographer": "Alexis Lours",
+      "attribution": "Alexis Lours / Macaulay Library"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "description": "Ampliamente distribuido y a menudo común en el interior y en la costa. Los adultos tienen la espalda gris con las puntas de las alas negras. Toma cuatro años para que los inmaduros progresen de marrón a blanco y gris. Los plumajes intermedios son a menudo moteados y sucios. Más grande y fornida que Ring-billed Gull y con el pico más grueso. Busca su comida en costas, lodazales, campos arados y en mar abierto, recolectando restos donde sea posible. A menudo se concentra en grupos grandes con otras gaviotas, especialmente alrededor de los barcos de pesca, playas, muelles y vertederos.",
+  "description_source": "ebird",
+  "bow_intro": "La European Herring Gull es una ave muy conocida en el entorno humano: su presencia descarada en puertos, paseos marítimos y colas para comprar pescado con patatas fritas le ha valido a la especie la reputación de ser una ladrona de comida sin pudor. Esa reputación, sin embargo, solo es cierta en parte, ya que solo algunos ejemplares aceptan comida cerca de las personas, y las características de la mirada y el habla humanas pueden incluso tener un efecto intimidatorio sobre estos ejemplares más valientes. Tal complejidad conductual parece propia de una especie que contribuyó a sentar las bases de la etología moderna a mediados del siglo XX, cuando Niko Tinbergen y sus colegas demostraron que los pichones que piden alimento se ven estimulados por la mancha roja del pico de los padres —un simple estímulo visual— para desencadenar la respuesta de alimentación de los adultos. Esos experimentos fundamentales siguen siendo hoy en día ejemplos de manual en el campo del comportamiento animal. La European Herring Gull adulta es una ave de gran tamaño, con un manto gris pálido, cabeza blanca, marcas negras en las puntas de las alas y espejos blancos cerca de las puntas de las primarias. El pico es amarillo con una llamativa mancha roja en el gonideo. Ambos sexos son similares, y los juveniles tardan varios años calendario en adquirir el plumaje adulto completo, pasando por una serie de etapas intermedias de color marrón moteado.",
+  "taxonomy": {},
+  "wikipedia_summary": "La gaviota plateada o gaviota argéntea es una especie de ave Charadriiforme de la familia Laridae. Es un ave ruidosa y oportunista, y una de las gaviotas más extendidas y adaptables del hemisferio norte. Se alimentan en cultivos y alrededor de los depósitos de basura, así como en la playa y con frecuencia sigue a los barcos pesqueros esperando que lancen cualquier resto por la borda.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Larus_argentatus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481139,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481139&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/62030608"
+}
