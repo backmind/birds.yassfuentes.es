@@ -1466,6 +1466,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/623287377/900",
       "photographer": "Alexis Lours",
       "attribution": "Alexis Lours / Macaulay Library"
+    },
+    {
+      "speciesCode": "eurnig1",
+      "comName": "Chotacabras Europeo",
+      "sciName": "Caprimulgus europaeus",
+      "date": "2026-09-21",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46342211/900",
+      "photographer": "Peter Kennerley",
+      "attribution": "Peter Kennerley / Macaulay Library"
     }
   ]
 }
