@@ -1,0 +1,16 @@
+{
+  "description": "El págalo grande o salteador mayor es una especie de ave Charadriiforme de la familia Stercorariidae caracterizada por su gran tamaño y agresividad. Como todos los págalos, es un ave depredadora y oportunista.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El págalo grande o salteador mayor es una especie de ave Charadriiforme de la familia Stercorariidae caracterizada por su gran tamaño y agresividad. Como todos los págalos, es un ave depredadora y oportunista.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Stercorarius_skua",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481618,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481618&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694160"
+}

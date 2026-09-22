@@ -1,0 +1,16 @@
+{
+  "description": "El correlimos oscuro es una pequeña ave limícola.",
+  "description_source": "wikipedia",
+  "bow_intro": "Este Scolopacidae de tamaño mediano y corpulento tiene la distribución más septentrional de todas las aves costeras en invierno, apareciendo en pequeños grupos a lo largo de las costas expuestas y rocosas del Atlántico norte. Notablemente ágil y confiado sobre las rocas y cerca de las olas embravecidas, el Purple Sandpiper es el ave limícola invernante más común a lo largo de la costa oriental de Canadá, así como en Islandia y Groenlandia. La dieta de esta especie varía de moluscos marinos y otros invertebrados en invierno a insectos (marinos y terrestres) y semillas en verano. Llamada \"agachadiza invernal\" por los artilleros, la Purple Sandpiper fue cazada en Norteamérica, junto con otras aves limícolas, a principios del siglo XX. Esta especie tiene un plumaje notablemente oscuro y uniforme en invierno, con las partes superiores de color pizarra a carbón que en algunas condiciones de iluminación muestra un tenue brillo púrpura. En verano, sin embargo, Purple Sandpiper es más colorido, con reflejos castaños, beige y marrón claro en unas plumas dorsales por lo demás oscuras. Habitualmente silenciosos lejos de las zonas de cría, los individuos son bastante accesibles en invierno y, cuando aparecen, tienden a volar sólo una corta distancia, a poca altura sobre el agua.",
+  "taxonomy": {},
+  "wikipedia_summary": "El correlimos oscuro es una pequeña ave limícola.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Calidris_maritima",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481743,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481743&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693420"
+}

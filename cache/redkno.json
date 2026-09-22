@@ -1,0 +1,16 @@
+{
+  "description": "El correlimos gordo, playero ártico, playero rojo o playero rojizo es una especie de ave Charadriiforme de la familia Scolopacidae. Es un ave limícola que, en verano, su plumaje es una mezcla de castaño, blanco y negro. En invierno es gris pálido, y se ve en bandadas en las marismas, alimentándose de invertebrados.",
+  "description_source": "wikipedia",
+  "bow_intro": "El mayor correlimos calidridino de Norteamérica, y en el género Calidris sólo superado en tamaño por el Great Knot (C. tenuirostris ), el Red Knot es de color rojo óxido en el plumaje de cría, cambiando a gris apagado dorsalmente y blanco ventralmente en el plumaje básico (invierno), con pocas marcas distintivas. Esta especie se reproduce en el Holártico, principalmente en las zonas medias y altas del Ártico, con 3 subespecies (islandica , rufa y roselaari ) distribuidas en el Neártico desde Groenlandia hasta el norte de Alaska. La subespecie nominal anida en el centro de Rusia (por ejemplo, en el norte de la península de Taymyr), C. c . piersmai en las Nuevas Islas Siberianas, C. c. rogersi en el este de Rusia (por ejemplo, en la península de Chukchi) y C. c. roselaari en la isla de Wrangel y en el norte de Alaska. Este relato se centra en gran medida en las subespecies del hemisferio occidental. Red Knot destacan por sus extraordinarias migraciones de larga distancia, de hasta 15.000 km entre los hábitats circumpolares de cría y los hábitats marinos de invernada en latitudes meridionales de Sudamérica, África, Europa, Australia y Nueva Zelanda. El tamaño de las poblaciones de correlimos gordo está en declive en todo el mundo, especialmente la de C. c. rufa , que pasó de unos 82.000 individuos en la década de 1980 a menos de 30.000 en 2010.",
+  "taxonomy": {},
+  "wikipedia_summary": "El correlimos gordo, playero ártico, playero rojo o playero rojizo es una especie de ave Charadriiforme de la familia Scolopacidae. Es un ave limícola que, en verano, su plumaje es una mezcla de castaño, blanco y negro. En invierno es gris pálido, y se ve en bandadas en las marismas, alimentándose de invertebrados.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Calidris_canutus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481765,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481765&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693363"
+}

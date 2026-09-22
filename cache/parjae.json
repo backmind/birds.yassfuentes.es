@@ -1,0 +1,16 @@
+{
+  "description": "El págalo parásito, escúa ártico, salteador parásito o salteador parasítico es una especie de ave caradriforme de la familia Stercorariidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "Parasitic Jaeger reciben su nombre por su costumbre de obligar a otras aves marinas a degollar su comida, que los Stercorariidae se abalanzan hábilmente para recuperar. Sus acrobacias y su agresividad al perseguir a sus objetivos han suscitado tanto la admiración como el desprecio de los observadores humanos. En el Atlántico nororiental, y posiblemente también en las islas Aleutianas, los Parasitic Jaeger obtienen la mayor parte de su alimento robándoselo a las aves marinas coloniales. Sin embargo, en la mayor parte de su área de reproducción circumpolar, el \"cleptoparasitismo\" no es el principal modo de vida de Parasitic Jaeger. En todas las regiones de tundra del Ártico defienden grandes territorios en los que cazan aves, mamíferos y huevos. Son el depredador más importante de aves pequeñas en el Ártico y se encuentran entre los dos o tres depredadores más importantes de huevos de aves. Al ser tan eficaces en formas tan diversas de depredación y parasitismo, no necesitan poblaciones densas de lemmings ( Lemmus , Dichrostonyx ) para reproducirse con éxito. En este sentido, su ecología durante la temporada reproductiva difiere de la de la mayoría de los demás depredadores árticos, incluido el más pequeño Long-tailed Jaeger ( Stercorarius longicaudus ) y el más grande Pomarine Jaeger ( S. pomarinus ). Durante la migración y el invierno en el hemisferio sur, los Parasitic Jaeger dependen principalmente de la comida obtenida mediante cleptoparasitismo. Algunos parasitan a aves marinas coloniales que alimentan a sus crías en el hemisferio sur y se aprovechan así de las aves marinas que anidan durante todo el año. En su camino hacia el sur en otoño, suelen acompañar a los charranes migratorios (Sterna ) y, por tanto, permanecen cerca de la costa más a menudo que otros jácaros. En consecuencia, de las tres especies de Stercorariidae, son las que se ven con más frecuencia en el sur de Canadá y la parte baja de Estados Unidos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El págalo parásito, escúa ártico, salteador parásito o salteador parasítico es una especie de ave caradriforme de la familia Stercorariidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Stercorarius_parasiticus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481621,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481621&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694245"
+}

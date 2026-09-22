@@ -1,0 +1,16 @@
+{
+  "description": "El zarapito trinador es una especie de ave caradriforme de la familia Scolopacidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Eurasian Whimbrel es un ave limícola de gran tamaño con una amplia área de distribución geográfica. Sus cuatro subespecies crían en hábitats boreales y de tundra en todo el norte de Eurasia, con la excepción de la rara subespecie alboaxillaris , que cría en las estepas del suroeste de Rusia y posiblemente en Kazajstán. Esta limícola longeva es monógama y territorial, y sus parejas comparten la incubación de cuatro huevos puestos en una raspa de nido poco profunda. La especie es conspicua durante la época de nidificación, realizando vuelos de exhibición acompañados de una llamada de trino burbujeante. El Eurasian Whimbrel emprende una migración de larga distancia, que a menudo incluye paradas migratorias en lugares ricos en alimentos, hacia zonas costeras no reproductivas que van desde África hasta Australasia, pasando por Asia. Esta especie se alimenta principalmente de bayas e insectos durante la temporada reproductiva y de cangrejos y otros invertebrados acuáticos durante la temporada no reproductiva. El estado de conservación de la Eurasian Whimbrel no se ha evaluado desde que se separó de la Hudsonian Whimbrel ( Numenius hudsonicus ) , y es necesario seguir trabajando para determinar el tamaño global de su población y sus tendencias.",
+  "taxonomy": {},
+  "wikipedia_summary": "El zarapito trinador es una especie de ave caradriforme de la familia Scolopacidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Numenius_phaeopus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481784,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481784&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693178"
+}

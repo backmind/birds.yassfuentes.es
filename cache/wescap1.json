@@ -1,0 +1,16 @@
+{
+  "description": "El urogallo común es una especie de ave galliforme de la familia Phasianidae. Se distribuye por buena parte de la Europa boreal y en pequeños enclaves de montaña de zonas templadas como la cornisa cantábrica, los Pirineos, los Alpes y el Jura.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Western Capercaillie, cuyo nombre proviene del gaélico escocés y significa \"caballo de los bosques\", es la especie de urogallo más grande del mundo. El macho, macizo e impresionantemente coloreado, puede pesar hasta 6 kg y es casi el doble de grande que la hembra, críptica y relativamente sosa, lo que la convierte también en una de las aves vivas con mayor dimorfismo sexual. A pesar de estas diferencias obvias, ambos sexos comparten rasgos distintivos adaptados a su duro entorno septentrional: patas emplumadas, pies similares a los de las raquetas para atravesar la nieve profunda y \"rosetas oculares\" de color rojo brillante sobre cada ojo para señalar su vigor y salud. Como muchas especies de urogallos, los machos forman leks. Al amanecer durante la temporada reproductiva, los gallos territoriales se posan en ramas bajas para emitir una compleja y acelerada serie de chasquidos y estallidos, a menudo comparada con el rebote de una pelota de ping-pong seguido del estallido de un corcho de champán. Este característico canto de \"lekking\", acompañado de posturas dramáticas con la cola en abanico y el cuello estirado, atrae a las hembras al tiempo que advierte a los machos rivales. Los machos exhibicionistas se centran tanto en su cortejo que a menudo ignoran las amenazas cercanas, incluidos los humanos. Las hembras permanecen mucho más cautelosas y se ruborizan rápidamente cuando se las molesta. Se aconseja a los observadores que mantengan las distancias cuando estén cerca de un lek, ya que la presencia humana puede ahuyentar a todas las hembras, dejando a los machos exhibiéndose en un bosque vacío.",
+  "taxonomy": {},
+  "wikipedia_summary": "El urogallo común es una especie de ave galliforme de la familia Phasianidae. Se distribuye por buena parte de la Europa boreal y en pequeños enclaves de montaña de zonas templadas como la cornisa cantábrica, los Pirineos, los Alpes y el Jura.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tetrao_urogallus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2473577,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2473577&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679487"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El mochuelo boreal, también conocido como lechuza de Tengmalm, es una especie de ave de la familia Strigidae que habita en el norte de Europa, los Alpes, áreas de los Balcanes y por los Pirineos. Se trata del búho de montaña por excelencia, y reside en bosques densos de coníferas. Nunca se aleja de las zonas de cría.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Boreal Owl ( Aegolius funereus ), conocido como Búho de Tengmalm en Eurasia, ocupa bosques boreales y subalpinos en una distribución circumboreal desde Escandinavia hacia el este, a través del norte de Siberia hasta Alaska, y a través de Canadá y las porciones del extremo norte de EE.UU. hasta el Atlántico. Poblaciones dispersas se extienden hacia el sur hasta los bosques subalpinos de las Montañas Rocosas, las cordilleras Cascade y varias cadenas montañosas de Eurasia. Aunque está bien estudiada en Escandinavia, donde es el Strigidae forestal más abundante, esta especie es menos conocida en Norteamérica. Allí donde abunda, es un importante depredador de roedores forestales; la asimetría esquelética de sus orejas es pronunciada y ayuda a la localización precisa de dichas presas ocultas. Las hembras de Boreal Owl son notablemente más grandes que los machos; de hecho, esta especie muestra el dimorfismo sexual inverso más extremo de todos los Strigidae norteamericanos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El mochuelo boreal, también conocido como lechuza de Tengmalm, es una especie de ave de la familia Strigidae que habita en el norte de Europa, los Alpes, áreas de los Balcanes y por los Pirineos. Se trata del búho de montaña por excelencia, y reside en bosques densos de coníferas. Nunca se aleja de las zonas de cría.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aegolius_funereus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5739298,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5739298&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22689362"
+}

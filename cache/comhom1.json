@@ -1,0 +1,16 @@
+{
+  "description": "El avión común es una especie de ave paseriforme migratoria de la familia de las golondrinas que cría en la Eurasia templada y el norte de África, y que pasa el invierno en el África subsahariana y Asia tropical. Se alimenta de insectos que captura al vuelo y por ello migra a climas donde haya abundancia de insectos voladores. Tiene las partes superiores del cuerpo y la cabeza negras, con el obispillo y las partes inferiores del cuerpo blancos. Se encuentra tanto en el campo como en los lugares habitados por los humanos. Tiene un aspecto similar a las otras dos especies de aviones del género Delichon, que son endémicas de Asia oriental y meridional. Se le reconocen dos subespecies.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El avión común es una especie de ave paseriforme migratoria de la familia de las golondrinas que cría en la Eurasia templada y el norte de África, y que pasa el invierno en el África subsahariana y Asia tropical. Se alimenta de insectos que captura al vuelo y por ello migra a climas donde haya abundancia de insectos voladores. Tiene las partes superiores del cuerpo y la cabeza negras, con el obispillo y las partes inferiores del cuerpo blancos. Se encuentra tanto en el campo como en los lugares habitados por los humanos. Tiene un aspecto similar a las otras dos especies de aviones del género Delichon, que son endémicas de Asia oriental y meridional. Se le reconocen dos subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Delichon_urbicum",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489214,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489214&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103811886"
+}

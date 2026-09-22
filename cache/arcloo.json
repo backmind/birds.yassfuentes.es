@@ -1,0 +1,16 @@
+{
+  "description": "El colimbo ártico es una especie de ave gaviforme de la familia Gaviidae propia del norte de Eurasia. Es un ave acuática migratoria que cría en los lagos árticos y semiárticos, y se desplazan a las costas del Atlántico y Pacífico y los lagos del interior del continente para pasar el invierno.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Arctic Loon es una especie de amplia distribución que se reproduce en lagos y estanques de agua dulce de las regiones árticas y subárticas de toda Eurasia, extendiéndose hacia el este hasta el extremo occidental de Alaska. Tras la cría, los individuos se desplazan hacia el sur y hacia el mar, invernando principalmente en zonas costeras protegidas del noreste del Atlántico, hacia el sur hasta el Mediterráneo, el Mar Negro, el Mar Caspio y el Pacífico occidental hacia el sur hasta China y Japón. Arctic Loon es un visitante poco común a lo largo de la costa del Pacífico de Norteamérica y aún más raro en grandes lagos interiores. La historia nomenclatural del Arctic Loon está estrechamente ligada a la de su pariente más cercano, el Pacific Loon (Gavia pacifica ), con el que se ha considerado congénere en varias épocas del pasado. Desde 1985, la Unión Americana de Ornitólogos reconoce al Arctic Loon y al Pacific Loon como especies distintas ( 1 Monroe, Jr., B. L., R. C. Banks, J. W. Fitzpatrick, T. R. Howell, N. K. Johnson, H. Ouellet, J. V. Remsen, and R. W. Storer (1985). Thirty-fifth supplement to the American Ornithologists’ Union Check-list of North American birds. Auk 102(3):680–686. Close ), basándose en parte en la cría simpátrica en el noreste de Asia y el oeste de Alaska. Sin embargo, debido a que estas especies estuvieron combinadas durante gran parte de la década de 1900, gran parte de la bibliografía sobre la Arctic Loon se publicó con el nombre de Pacific Loon (como G. a. pacifica ). El Arctic Loon consta de dos subespecies, una raza euroasiática muy extendida, G. a. arctica (el colimbo de garganta negra o colimbo de garganta negra) a la que pertenecen la mayoría de los estudios más antiguos, y una raza siberiana, G. a. viridigularis (el colimbo \"de garganta verde\"), cuya distribución reproductora se extiende marginalmente hacia el este hasta el oeste de Alaska.",
+  "taxonomy": {},
+  "wikipedia_summary": "El colimbo ártico es una especie de ave gaviforme de la familia Gaviidae propia del norte de Eurasia. Es un ave acuática migratoria que cría en los lagos árticos y semiárticos, y se desplazan a las costas del Atlántico y Pacífico y los lagos del interior del continente para pasar el invierno.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Gavia_arctica",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481959,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481959&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697834"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El arao común es una especie de ave caradriforme de la familia Alcidae nativa de Europa.",
+  "description_source": "wikipedia",
+  "bow_intro": "Conocido en Eurasia como arao común y en Norteamérica como mérgulo común (o de pico fino) ( Uria aalge ), esta especie frecuenta las aguas más frías de la plataforma continental del Ártico subártico/bajo y es una de las aves marinas más numerosas del hemisferio norte. Cuenta con más de 8,3 millones de parejas reproductoras, con 5,0 millones en la región del Pacífico y 3,3 millones en la del Atlántico. Su área de distribución se solapa ampliamente con el congénere, pero generalmente más septentrional, arao de Brünnich o Mérgulo de pico grueso ( o de Brünnich) (Uria lomvia ) en la región del Pacífico, aunque menos en el Atlántico. Las formas del Pacífico y del Atlántico de Common Murre son morfológica y genéticamente distintas; en el Pacífico se reconocen 2 subespecies poco diferenciadas y en el Atlántico entre 2 y 5 subespecies, todas ellas presentes en Europa, mientras que sólo 1 se da en el este de Norteamérica. Entre los mayores de los Alcidae vivientes y un consumado buceador, Common Murre alcanza profundidades de más de 100 m en busca de peces pequeños pero también de invertebrados (como eufáusidos y cefalópodos). A menudo busca alimento en bandadas, incluidas las multiespecíficas. Sus alas relativamente pequeñas, un compromiso para el buceo submarino con propulsión alar y el vuelo aéreo, requieren batidos rápidos para que el mérgulo se mantenga en el aire. Esta elevada carga alar, sumada al buceo en aguas frías con escaso aislamiento, contribuye a un estilo de vida energéticamente costoso.",
+  "taxonomy": {},
+  "wikipedia_summary": "El arao común es una especie de ave caradriforme de la familia Alcidae nativa de Europa.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Uria_aalge",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481342,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481342&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694841"
+}

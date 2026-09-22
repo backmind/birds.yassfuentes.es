@@ -1,0 +1,16 @@
+{
+  "description": "El águila pescadora, también conocida como halieto, guincho o gavilán pescador, es una especie de ave accipitriforme de la familia Pandionidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "Entre las aves rapaces mejor estudiadas del mundo, la muy admirada Osprey es la única rapaz que se zambulle para capturar peces vivos como principal fuente de presa. A pesar de su dependencia de los peces, el Osprey ocupa una amplia gama de hábitats, que van desde los islotes de manglares hasta los lagos de los bosques boreales, y desde las marismas hasta las lagunas salinas. Las poblaciones septentrionales migran hacia el sur para pasar el invierno principalmente en ríos, lagos y zonas costeras ricas en peces de las regiones subtropicales y tropicales, regresando al norte cada primavera cuando las aguas se calientan y los peces se vuelven accesibles. Un Osprey que anide en una región septentrional y pase el invierno al sur del ecuador podría volar más de 200.000 kilómetros durante sus 15 a 20 años de vida. El Osprey se zambulle con las patas por delante para capturar presas, accediendo sólo al metro superior de agua aproximadamente, por lo que está limitado a buscar peces en la superficie y a los que se encuentran en aguas poco profundas; estos últimos suelen ser los más abundantes y disponibles. Como resultado, en muchas zonas tiende a criar más densamente donde abundan las aguas poco profundas. En muchos de estos lugares, los lugares artificiales de nidificación, o plataformas de nidificación, han ayudado enormemente a los criadores en las últimas décadas. Históricamente, el Osprey construía su voluminoso nido de palos encima de árboles, acantilados rocosos, promontorios e incluso en el suelo en unas pocas islas que carecen de depredadores mamíferos. Aunque algunos siguen utilizando lugares naturales, muchos han pasado a anidar en estructuras artificiales. La especie utiliza ahora una asombrosa variedad de emplazamientos artificiales: balizas de canales en puertos y vías navegables muy transitadas; torres de radio, telefonía móvil y líneas de servicios públicos; y plataformas erigidas exclusivamente para la especie. Este cambio ha sido drástico en muchas regiones, con un 90-95% de las parejas eligiendo anidar en lugares artificiales; la depredación, la pérdida de árboles y el desarrollo de las costas han sido las fuerzas impulsoras del cambio.",
+  "taxonomy": {},
+  "wikipedia_summary": "El águila pescadora, también conocida como halieto, guincho o gavilán pescador, es una especie de ave accipitriforme de la familia Pandionidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pandion_haliaetus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2480726,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480726&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694938"
+}

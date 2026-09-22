@@ -1,0 +1,16 @@
+{
+  "description": "La gaviota enana, también gaviota menor o gaviota mínima es una especie de gaviota que cría en el norte de Eurasia. También tiene pequeñas colonias en el norte de Canadá. Es un ave migratoria que inverna en las costas de Europa occidental, el Mediterráneo y el noreste de EE. UU.. De manera tradicional ha sido incluida taxonómicamente en el género Larus, pero hoy se la trata en su propio género monotípico: Hydrocoloeus.",
+  "description_source": "wikipedia",
+  "bow_intro": "Nota del editor: Basándose en datos genéticos y morfológicos, la gaviota sombría se sitúa ahora en su propio género, Hydrocoloeus. Las futuras revisiones de esta cuenta se ajustarán a este cambio. La gaviota más pequeña del mundo, la Little Gull se reproduce en pequeñas cantidades en Norteamérica, pero su área de distribución principal se encuentra en el Paleártico. En la actualidad aparece regularmente en pequeñas cantidades a lo largo de la costa este de Estados Unidos y en los Grandes Lagos, y parece criar sobre todo en la cuenca de los Grandes Lagos y en los humedales canadienses más al norte, normalmente cerca de Common Tern ( Sterna hirundo ) , Black Tern ( Chlidonias niger ) , Forster's Tern ( Sterna forsteri ) , o Ross's Gull ( Rhodostethia rosea ) . Aunque en general su número está aumentando en Norteamérica, se conocen pocos lugares de cría.",
+  "taxonomy": {},
+  "wikipedia_summary": "La gaviota enana, también gaviota menor o gaviota mínima es una especie de gaviota que cría en el norte de Eurasia. También tiene pequeñas colonias en el norte de Canadá. Es un ave migratoria que inverna en las costas de Europa occidental, el Mediterráneo y el noreste de EE. UU.. De manera tradicional ha sido incluida taxonómicamente en el género Larus, pero hoy se la trata en su propio género monotípico: Hydrocoloeus.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Hydrocoloeus_minutus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 6065841,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=6065841&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694469"
+}

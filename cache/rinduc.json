@@ -1,0 +1,16 @@
+{
+  "description": "El porrón acollarado es un pequeño pato buceador de Norteamérica.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Ring-necked Duck es un pato buceador de tamaño pequeño a mediano con unas características marcas blancas en el pico y una corta cresta que le da a la cabeza un perfil anguloso. La especie es originaria de Norteamérica, pero los avistamientos fuera del continente son cada vez más frecuentes. Migratorio en toda su área de distribución, este pato anida en densidades generalmente bajas en deltas subárticos, taiga, bosques boreales, parques de álamos temblones y, en menor medida, regiones de praderas. Su área de reproducción se amplió al este de los Grandes Lagos a partir de la década de 1930 y hacia el oeste hasta Alaska y el territorio del Yukón durante la década de 1980. Ring-necked Duck invernan en el interior a lo largo del Golfo de México y el sur de las costas atlánticas de Estados Unidos. Históricamente probablemente se dispersaban en bandadas pequeñas (10-40 aves) por el hábitat de invernada disponible, pero recientemente se han concentrado más (>500 aves) en algunos lugares de invernada debido a los cambios en el hábitat. Durante el verano y el invierno, Ring-necked Duck prefiere los humedales poco profundos de agua dulce con niveles de agua estables y abundantes plantas emergentes y sumergidas o flotantes. Los migradores se encuentran en lagos poco profundos con densos rodales de vegetación emergente o sumergida y en zonas temporalmente inundadas con abundante vegetación de suelo húmedo.",
+  "taxonomy": {},
+  "wikipedia_summary": "El porrón acollarado es un pequeño pato buceador de Norteamérica.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aythya_collaris",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2498264,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498264&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680370"
+}

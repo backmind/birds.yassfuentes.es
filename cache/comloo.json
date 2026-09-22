@@ -1,0 +1,16 @@
+{
+  "description": "El colimbo grande, conocido también como gran bribón septentrional o bribón común, es una especie de ave gaviforme de la familia Gaviidae propia de América del Norte y Europa. Es un ave acuática migratoria que cría en los lagos de Norteamérica, Groenlandia, Islandia y Gran Bretaña y en invierno migra a ambas costas del Atlántico norte y a la del Pacífico nororiental y lagos más meridionales.",
+  "description_source": "wikipedia",
+  "bow_intro": "Dedicado en honor de Jud Dayton- conservacionista, orgulloso minnesotano y miembro durante muchos años del Consejo de Administración del Cornell Lab of Ornithology. El Common Loon, una de las cinco especies de Gaviidae que existen en el mundo, es un símbolo icónico de la región lacustre en todo el Neártico, muy conocido por sus distintivas e inquietantes vocalizaciones. Es un ave buceadora predominantemente piscívora que ave en los lagos oligotróficos, pero también ocupa lagos mesotróficos en la periferia meridional de su área de distribución. Los lagos de cría varían mucho en tamaño, desde 5 hectáreas (que sustentan a 1 pareja) hasta 92.000 hectáreas (que sustentan a más de 100 parejas). Se reproduce en todo Canadá y Alaska (normalmente no en la tundra), al sur hasta la frontera norte de los Estados Unidos contiguos, y en la costa de Groenlandia e Islandia. Durante el periodo no reproductor, se encuentra predominantemente a lo largo de las costas, pero también con frecuencia en embalses de agua dulce. En Norteamérica, inverna principalmente desde Alaska hasta la península de Baja California y el golfo de California, y desde Terranova hasta Florida y el norte del golfo de México. En Europa, pasa el invierno en el Mar del Norte, frente a las costas de Noruega, Suecia y el Reino Unido, y en el Mar Céltico, desde la República de Irlanda hasta el sur de Francia y España.",
+  "taxonomy": {},
+  "wikipedia_summary": "El colimbo grande, conocido también como gran bribón septentrional o bribón común, es una especie de ave gaviforme de la familia Gaviidae propia de América del Norte y Europa. Es un ave acuática migratoria que cría en los lagos de Norteamérica, Groenlandia, Islandia y Gran Bretaña y en invierno migra a ambas costas del Atlántico norte y a la del Pacífico nororiental y lagos más meridionales.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Gavia_immer",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481962,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481962&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697842"
+}

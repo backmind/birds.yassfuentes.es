@@ -1,0 +1,16 @@
+{
+  "description": "El alcotán europeo es una especie de ave falconiforme de la familia Falconidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "Con sus alas relativamente largas y su excepcional agilidad aérea, la carismática Eurasian Hobby es una auténtica maestra de los cielos. Este depredador atlético y muy maniobrable surca el aire a gran velocidad para atrapar a sus presas al vuelo, incluidos insectos voladores, pequeñas aves y murciélagos. Se apodera de sus presas en el aire en pleno vuelo, o a lo largo de los bordes de los bosques, campos abiertos y sobre los humedales, donde puede encontrar su alimento favorito: las libélulas. La especie habita en bosques y plantaciones, y a menudo utiliza nidos abandonados de Corvidae para criar. Criador relativamente tardío, la temporada de volantones suele coincidir con la intensificación de la migración otoñal de las aves, cuando aumentan las reservas de alimento. El Eurasian Hobby tiene las partes superiores azul acero, una prominente franja bigotuda negra que contrasta con la mejilla blanca, audaces estrías oscuras en el pecho y el vientre sobre un fondo blanquecino (lo que lo distingue de otros pasatiempos que tienen tonos rojizos de fondo), y muslos y coberteras infracaudales rojizos o rojizos. Existen dos subespecies: F. s. subbuteo , la nominal, que se encuentra en la mayor parte de Eurasia, y F. s. streichi , en el sur y el este de China. La especie es un migrante de larga distancia, que emigra de su área de reproducción paleártica para pasar el invierno boreal en África al sur del Sáhara, el subcontinente indio y el sudeste asiático.",
+  "taxonomy": {},
+  "wikipedia_summary": "El alcotán europeo es una especie de ave falconiforme de la familia Falconidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Falco_subbuteo",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481035,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481035&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696460"
+}

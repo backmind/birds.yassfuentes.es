@@ -1,0 +1,16 @@
+{
+  "description": "El porrón bastardo es una especie de ave anseriforme de la familia de los patos (Anatidae) que se distribuye por buena parte del hemisferio norte. Es un ave migratoria que cría en las regiones árticas y pasa el invierno en las costas y humedales de regiones templadas.",
+  "description_source": "wikipedia",
+  "bow_intro": "Este pato buceador de tamaño moderado es el único circumpolar Aythya y una de las pocas especies de patos circumpolares. Se sabe menos de su biología que de otras especies norteamericanas de Aythya- en parte por sus zonas de cría relativamente aisladas, pero también por la dificultad para distinguirlo de su pariente cercano, el Lesser Scaup ( A. affinis ). En Norteamérica, la mayoría de las Greater Scaup anidan en la tundra costera del Ártico y el Subártico, especialmente en el oeste de Alaska. La mayoría migra hacia el sureste de Norteamérica para invernar en las bahías poco profundas de la costa atlántica nororiental, sobre todo en Long Island Sound. Un número menor inverna más al sur a lo largo de la costa atlántica hasta el norte de Florida y en la costa del Pacífico, principalmente desde Vancouver, Columbia Británica, hacia el sur hasta la bahía de San Francisco. La especie suele aparecer en grandes bandadas durante la muda, la migración y en sus zonas de invernada. Los Grandes Lagos constituyen una importante parada de descanso para los migrantes en su paso hacia la costa atlántica. Hasta el 80% de la población se concentra en invierno en la parte norte urbanizada de la ruta migratoria atlántica, donde estos patos están sometidos a perturbaciones físicas, degradación del hábitat y diversos contaminantes. El aparente declive a largo plazo de los Greater Scaup que invernan en esta región central ha suscitado preocupación por el bienestar de la especie y las estrategias de gestión, al igual que las pruebas de cambios en la dieta y niveles elevados de contaminantes orgánicos y algunos metales pesados en los hábitats invernales, los alimentos y los propios patos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El porrón bastardo es una especie de ave anseriforme de la familia de los patos (Anatidae) que se distribuye por buena parte del hemisferio norte. Es un ave migratoria que cría en las regiones árticas y pasa el invierno en las costas y humedales de regiones templadas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aythya_marila",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2498265,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498265&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680398"
+}

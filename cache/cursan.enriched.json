@@ -1,0 +1,11 @@
+{
+  "prose": "En los confines más septentrionales de la tundra siberiana, donde la nieve apenas comienza a retirarse, el Correlimos Zarapitín (Calidris ferruginea) protagoniza una de las carreras reproductivas más vertiginosas del reino animal. Esta pequeña ave limícola emprende cada primavera un periplo colosal desde sus cuarteles de invernada repartidos por África, el sur de Asia y Australasia. Antes de partir, los adultos mudan a un vistoso plumaje nupcial de tonos rojizos y ladrillo, cortejando a menudo durante la propia travesía hacia el norte. Al tocar tierra en el alto Ártico, el tiempo apremia: en apenas una semana tras su llegada la hembra completa una puesta de cuatro huevos. Cumplida su labor, los machos se despiden de inmediato hacia latitudes más templadas, dejando a las hembras a cargo de la incubación y de las primeras semanas de vida de los polluelos.\n\nLa estrategia migratoria del Correlimos Zarapitín es un prodigio de dispersión ecológica. La especie mantiene una gran fidelidad a sus zonas de descanso e invernada, pero una escasa vinculación a lugares de cría concretos, mezclándose libremente a lo largo de la tundra sin desarrollar variaciones geográficas. Cuando las hembras también parten al sur, los jóvenes quedan abandonados a su suerte en el rigor polar. Guiados por el instinto, engordan con rapidez antes de emprender en solitario su primera gran travesía continental. Estos juveniles permanecerán en las regiones australes durante su primer año de vida, experimentando por única vez en su existencia el invierno del hemisferio sur antes de sumarse al ciclo migratorio global.",
+  "identification": [
+    "Pico negro, relativamente largo y claramente curvado hacia abajo en el extremo.",
+    "Plumaje nupcial inconfundible de color castaño rojizo o ladrillo intenso en cabeza, cuello y vientre.",
+    "Plumaje no reproductor sobrio, con dorso gris pálido, partes inferiores blancas y una ceja clara bien definida.",
+    "Obispillo blanco puro que contrasta vivamente durante el vuelo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-22T07:48:36Z"
+}

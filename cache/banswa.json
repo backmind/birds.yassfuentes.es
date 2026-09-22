@@ -1,0 +1,16 @@
+{
+  "description": "El avión zapador es una especie de ave paseriforme de la familia Hirundinidae propia de Eurasia, América y África.",
+  "description_source": "wikipedia",
+  "bow_intro": "Aquí al menos hay un tipo inmutable, un vínculo visible entre Puerto Los Ángeles y Florencia en el Arno. La vida en común parece algo agradable para estas Hirundinidae, y suele haber un considerable revuelo de actividad en torno a los cuarteles. Dawson 1923 Dawson, W. L. (1923). The Birds of California: A Complete, Scientific and Popular Account of the 580 Species and Subspecies of Birds Found in the State. Volume 2. South Moulton, San Diego, CA, USA. Close : 534",
+  "taxonomy": {},
+  "wikipedia_summary": "El avión zapador es una especie de ave paseriforme de la familia Hirundinidae propia de Eurasia, América y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Riparia_riparia",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489160,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489160&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103815961"
+}

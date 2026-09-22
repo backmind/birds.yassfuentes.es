@@ -1,0 +1,16 @@
+{
+  "description": "El arrendajo siberiano o arrendajo funesto es una especie de ave paseriforme de la familia Corvidae ampliamente distribuido por los bosques boreales de Eurasia.",
+  "description_source": "wikipedia",
+  "bow_intro": "Montes Urales y Siberia noroccidental y central hasta Irkutsk, río Yenisey medio y Siberia exterior.",
+  "taxonomy": {},
+  "wikipedia_summary": "El arrendajo siberiano o arrendajo funesto es una especie de ave paseriforme de la familia Corvidae ampliamente distribuido por los bosques boreales de Eurasia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Perisoreus_infaustus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2482449,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482449&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22705775"
+}

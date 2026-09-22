@@ -1,0 +1,11 @@
+{
+  "prose": "Al caer el crepúsculo sobre los brezales, pastizales y claros forestales del Viejo Mundo, despierta una criatura verdaderamente enigmática: el Chotacabras Europeo (Caprimulgus europaeus). Durante las horas diurnas, esta fascinante ave descansa inmóvil en el suelo o sobre ramas bajas, confiando ciegamente en un plumaje mimético que reproduce con asombrosa precisión el aspecto de la hojarasca seca y la corteza. Sin embargo, con la llegada de la penumbra, su silueta estilizada de largas alas cobra vida. El Chotacabras Europeo patrulla los espacios abiertos mediante un vuelo ágil, silencioso y lleno de quiebros acrobáticos con el único fin de capturar insectos en el aire, sirviéndose de su corta pero desmesurada apertura bucal.\n\nSu nombre común y científico proviene de una antigua leyenda pastoral que acusaba injustamente a estas aves de mamar la leche del ganado durante la noche, una fabulación originada por su costumbre de cazar los insectos que revolotean cerca de los rebaños. El Chotacabras Europeo deposita sus huevos directamente sobre el suelo desnudo, sin construir estructura alguna, confiando la supervivencia de la nidada a su formidable camuflaje. En ciertas ocasiones, la hembra puede iniciar una segunda puesta mientras el macho se encarga de alimentar a la primera camada. Al finalizar el periodo de cría, emprende una larga migración hacia el África subsahariana, dejando tras de sí el recuerdo de su característico e hipnótico trino mecánico que resuena en la quietud de las noches estivales.",
+  "identification": [
+    "Plumaje extraordinariamente críptico con patrones de tonos pardos, grises y ocres que simulan corteza u hojas secas.",
+    "Silueta de vuelo ágil y quebrada, con alas largas y estrechas, patas cortas y pico diminuto con una boca ancha.",
+    "Manchas blancas visibles en vuelo en los extremos de las alas y las esquinas de la cola en los machos, ausentes en las hembras.",
+    "Canto crepuscular y nocturno inconfundible, consistente en un chirrido o trino sostenido, rápido y vibrante que modula levemente de tono."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-22T07:47:49Z"
+}

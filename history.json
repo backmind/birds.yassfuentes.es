@@ -1475,6 +1475,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46342211/900",
       "photographer": "Peter Kennerley",
       "attribution": "Peter Kennerley / Macaulay Library"
+    },
+    {
+      "speciesCode": "cursan",
+      "comName": "Correlimos Zarapitín",
+      "sciName": "Calidris ferruginea",
+      "date": "2026-09-22",
+      "imageUrl": null,
+      "photographer": "",
+      "attribution": "Macaulay Library / Cornell Lab of Ornithology"
     }
   ]
 }

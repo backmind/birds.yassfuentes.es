@@ -1,0 +1,16 @@
+{
+  "description": "La perdiz nival o lagópodo alpino es una especie de ave galliforme de la familia Phasianidae ampliamente extendida por las regiones frías del Holártico, y que también habita en las partes altas de las principales cadenas montañosas de Eurasia y Norteamérica, entre el límite superior de los árboles y las nieves perpetuas, donde las particularidades de cada zona a través del proceso de adaptación natural de la especie han dado lugar a varias subespecies.",
+  "description_source": "wikipedia",
+  "bow_intro": "Su forma recortada y su vuelo más directo y boyante hacen de la Rock Ptarmigan a la Willow Ptarmigan lo que la Cerceta es a la Mallard. Una de las vistas más bellas de este país del norte es una bandada de \"roqueros\" de vuelo rápido rozando la cúpula nevada de alguna colina por encima de la línea de árboles. El cielo es intensamente azul y, más abajo, el bosque se va estrechando en la distancia hasta marcar el curso del valle. Un zumbido de alas se eleva por encima del ulular del viento, y de repente desaparecen (Clemente, en Todd 1963a Todd, W. E. C. (1963). Birds of the Labrador Peninsula and Adjacent Areas: A Distributional List. University of Toronto Press, Toronto, ON, Canada. Close ). Rock Ptarmigan son el ave ártica por excelencia, que sólo vive en regiones de tundra inhóspitamente frías y azotadas por el viento en todo el hemisferio norte. Se trata de la única especie de ave en la que todas las poblaciones pasan todo su ciclo vital en la tundra, retirándose únicamente de las regiones más septentrionales durante el largo periodo de oscuridad invernal. Probablemente como resultado de su limitado contacto con los humanos, los Rock Ptarmigan suelen ser excepcionalmente mansos y fáciles de observar a corta distancia.",
+  "taxonomy": {},
+  "wikipedia_summary": "La perdiz nival o lagópodo alpino es una especie de ave galliforme de la familia Phasianidae ampliamente extendida por las regiones frías del Holártico, y que también habita en las partes altas de las principales cadenas montañosas de Eurasia y Norteamérica, entre el límite superior de los árboles y las nieves perpetuas, donde las particularidades de cada zona a través del proceso de adaptación natural de la especie han dado lugar a varias subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Lagopus_muta",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5227679,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5227679&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679464"
+}

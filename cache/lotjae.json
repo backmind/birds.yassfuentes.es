@@ -1,0 +1,16 @@
+{
+  "description": "El págalo rabero, págalo rabudo, salteador coludo, salteador cola larga o salteador de cola larga es una especie de ave Charadriiforme de la familia Stercorariidae que habita las regiones árticas de América y Eurasia. Sus colonias de cría son especialmente numerosas de Siberia, Alaska y el Ártico canadiense.",
+  "description_source": "wikipedia",
+  "bow_intro": "De las tres especies de Stercorarius la Long-tailed Jaeger es la más pequeña y la más grácil en vuelo. La migración transecuatorial permite a esta especie alimentarse en regiones de alta productividad y con una duración del día prolongada durante todo el año. Durante la temporada reproductiva, se alimenta sobre la tundra ártica; como migrante y durante todo el invierno boreal, es altamente pelágico, pasando su tiempo sobre mar abierto. Aunque esta Stercorariidae pasa más de tres cuartas partes de su vida en el mar, casi toda la información sobre su biología procede de sus zonas árticas de cría. La especie rara vez se ve en Norteamérica al sur de Canadá y Alaska, y gran parte de la información publicada no relacionada directamente con su biología reproductora se centra en la errancia o la identificación. En el Ártico esta especie es la Stercorariidae más ampliamente distribuida y abundante. Es la que más al norte se reproduce de todas las Stercorariidae, probablemente tan al norte como cualquier ave, y durante el verano frecuenta la tundra seca, a veces incluso los barrens, en laderas bajas y crestas. Su dieta en este hábitat consiste principalmente en lemmings y topillos, por lo que este ave es vulnerable a los ciclos en las densidades de estos roedores. El Long-tailed Jaeger está supremamente adaptado para la depredación de estos roedores cíclicos. Como sólo depende de los roedores para reproducirse, puede sobrevivir a las caídas en el número de roedores sin las irrupciones y la elevada mortalidad que experimentan otros depredadores árticos. En años con bajas densidades de lemmings, la Long-tailed Jaeger simplemente no cría y regresa al mar. En efecto, \"descrema\" los ciclos de población de los lemmings.",
+  "taxonomy": {},
+  "wikipedia_summary": "El págalo rabero, págalo rabudo, salteador coludo, salteador cola larga o salteador de cola larga es una especie de ave Charadriiforme de la familia Stercorariidae que habita las regiones árticas de América y Eurasia. Sus colonias de cría son especialmente numerosas de Siberia, Alaska y el Ártico canadiense.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Stercorarius_longicaudus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481613,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481613&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694251"
+}

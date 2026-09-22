@@ -1,0 +1,16 @@
+{
+  "description": "El pico dorsiblanco es una especie de pícido que vive en bosques maduros de montaña principalmente formados por hayas o abetos.",
+  "description_source": "wikipedia",
+  "bow_intro": "El mayor de los Dendrocopos picidae, el White-backed Woodpecker tiene una amplia distribución paleártica; se da en varias poblaciones discontinuas que van desde Escandinavia hasta el sur de Japón y Taiwán, hacia el sur hasta los montes Tauro en el sur de Turquía y partes del sur de China. Los estudios sobre esta especie son igualmente discontinuos, y la mayor parte de lo que se sabe sobre su ecología procede de números comparativamente pequeños que crían en los Pirineos y en Europa central y oriental. Hay poca información publicada sobre las poblaciones de Asia oriental. Considerada una especie paraguas de insectos y hongos poco llamativos que viven en la madera muerta, la White-backed Woodpecker depende de los bosques caducifolios y mixtos antiguos tanto para alimentarse como para anidar. Esta asociación con los bosques primigenios o casi primigenios se debe principalmente a la dieta especializada del ave, que se compone en gran parte de Coleópteros saproxílicos (escarabajos que se alimentan de madera en descomposición) y de las larvas perforadoras de madera de algunos Lepidópteros, que sólo se dan en bosques viejos no gestionados. A medida que se pierden estos bosques, la White-backed Woodpecker se ha vuelto muy rara en gran parte del norte y oeste de Europa.",
+  "taxonomy": {},
+  "wikipedia_summary": "El pico dorsiblanco es una especie de pícido que vive en bosques maduros de montaña principalmente formados por hayas o abetos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Dendrocopos_leucotos",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2477927,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2477927&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22727124"
+}

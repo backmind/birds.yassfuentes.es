@@ -1,0 +1,16 @@
+{
+  "description": "El rascón europeo o rascón común es una especie de ave gruiforme de la familia Rallidae propia de los carrizales y cañaverales de Eurasia y el norte de África. Sus poblaciones septentrionales y orientales son migratorias, pero las que viven en las zonas más cálidas son sedentarias. Los adultos miden entre 23 y 28 cm de largo, y como otros rállidos tienen el cuerpo aplanado lateralmente para pasar más fácilmente entre los cañaverales donde viven. El plumaje de sus partes superiores es de tonos pardos con veteado oscuro, y sus partes inferiores son principalmente de color gris azulado, con listado blanco y negro en los flancos y bajo vientre. Tienen un pico largo y rojizo, largos dedos y la cola corta. Los inmaduros tienen las partes inferiores anteadas y los polluelos son negros. Anteriormente se clasificaba al rascón asiático (R. indicus) como una subespecie de rascón común pero ahora se consideran especies separadas.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El rascón europeo o rascón común es una especie de ave gruiforme de la familia Rallidae propia de los carrizales y cañaverales de Eurasia y el norte de África. Sus poblaciones septentrionales y orientales son migratorias, pero las que viven en las zonas más cálidas son sedentarias. Los adultos miden entre 23 y 28 cm de largo, y como otros rállidos tienen el cuerpo aplanado lateralmente para pasar más fácilmente entre los cañaverales donde viven. El plumaje de sus partes superiores es de tonos pardos con veteado oscuro, y sus partes inferiores son principalmente de color gris azulado, con listado blanco y negro en los flancos y bajo vientre. Tienen un pico largo y rojizo, largos dedos y la cola corta. Los inmaduros tienen las partes inferiores anteadas y los polluelos son negros. Anteriormente se clasificaba al rascón asiático (R. indicus) como una subespecie de rascón común pero ahora se consideran especies separadas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Rallus_aquaticus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2474831,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474831&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22725141"
+}

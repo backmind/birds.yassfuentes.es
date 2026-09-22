@@ -1,0 +1,16 @@
+{
+  "description": "La focha común es una especie de ave gruiforme de la familia Rallidae que habita en lagos, ríos, charcas marjales, y en invierno, en bahías abrigadas. Son fácilmente distinguibles por su plumaje negro y su escudete frontal y pico blancos, en ambos sexos. Su área de distribución abarca Eurasia, el norte de África y Oceanía.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Eurasian Coot, un ave acuática oscura y rechoncha con un llamativo escudo facial blanco, es un miembro estridente y gregario de la familia de los Rallidae, por lo demás reservada. Es más conspicuo en invierno, cuando se congrega en lagos, embalses y aguas de movimiento lento para alimentarse juntos en densas balsas, a veces en grupos de cientos o miles de aves que vocalizan ruidosamente. En cambio, la especie es notoriamente territorial durante la temporada reproductiva. Es frecuente ver a las aves ahuyentar ferozmente a sus rivales batiendo las alas sobre el agua y golpeando con sus enormes patas lobuladas. El Eurasian Coot es especialmente territorial alrededor de su nido, una balsa flotante en forma de copa construida con juncos y vegetación muerta. La hembra pone aproximadamente de 6 a 10 huevos; la incubación corre a cargo de los dos adultos y dura entre 21 y 26 días, mientras que la eclosión es asíncrona. Los pichones de Eurasian Coot son llamativamente diferentes de los de los adultos, con el cuerpo negro y el plumón de color naranja o amarillo. Son semipresociales y abandonan el nido poco después de la eclosión. El volantón se produce en unas seis a ocho semanas. La escasez de recursos puede llevar a la pareja adulta a dividir una nidada grande en dos nidadas más pequeñas, una custodiada por cada progenitor. Cuando los recursos son particularmente escasos, los padres pueden sacrificar al pichón más débil picoteándolo hasta matarlo. Ocasionalmente, la hembra practica una forma de parasitismo de nidada intraespecífico poniendo huevos \"extra\" en el nido de un vecino.",
+  "taxonomy": {},
+  "wikipedia_summary": "La focha común es una especie de ave gruiforme de la familia Rallidae que habita en lagos, ríos, charcas marjales, y en invierno, en bahías abrigadas. Son fácilmente distinguibles por su plumaje negro y su escudete frontal y pico blancos, en ambos sexos. Su área de distribución abarca Eurasia, el norte de África y Oceanía.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Fulica_atra",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2474377,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474377&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22692913"
+}

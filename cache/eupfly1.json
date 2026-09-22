@@ -1,0 +1,16 @@
+{
+  "description": "El papamoscas cerrojillo es una especie de ave paseriforme de la familia de los papamoscas (Muscicapidae), extendido por la mayor parte del Viejo Mundo. No está amenazada y su población europea se estima entre veinticuatro y treinta y nueve millones ejemplares.",
+  "description_source": "wikipedia",
+  "bow_intro": "El European Pied Flycatcher es un ave europea familiar y muy querida que cría en diversos tipos de bosques y plantaciones, preferentemente caducifolios, a menudo cerca de bordes soleados y claros. Es frecuente verla en árboles grandes, a veces cerca de las copas, donde cría en cavidades arbóreas y acepta de buen grado las cajas nido, incluso en asentamientos humanos de baja densidad. Como su nombre indica, captura insectos voladores realizando rápidas salvas aéreas desde una percha oculta, aunque también cogerá pequeños artrópodos del suelo. La especie está estrechamente emparentada con la Atlas Flycatcher ( Ficedula speculigera ) , que antes se consideraba coespecífica pero que ahora es tratada como una especie separada por algunas autoridades taxonómicas, aunque no todas. Con frecuencia se hibrida con la Collared Flycatcher ( Ficedula albicollis ) donde sus áreas de distribución se solapan. Actualmente se reconocen tres subespecies de European Pied Flycatcher: la nominal F. h. hypoleuca , que se encuentra en la mayor parte del área de reproducción europea; F. h. sibirica , que se reproduce en Siberia occidental y central; y F. h. iberiae , que se reproduce en Iberia y a veces se propone como especie separada.",
+  "taxonomy": {},
+  "wikipedia_summary": "El papamoscas cerrojillo es una especie de ave paseriforme de la familia de los papamoscas (Muscicapidae), extendido por la mayor parte del Viejo Mundo. No está amenazada y su población europea se estima entre veinticuatro y treinta y nueve millones ejemplares.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ficedula_hypoleuca",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2492606,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492606&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22709308"
+}

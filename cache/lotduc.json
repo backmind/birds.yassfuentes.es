@@ -1,0 +1,16 @@
+{
+  "description": "El pato havelda es una especie de ave anseriforme de la familia Anatidae propia de las regiones frías de Eurasia y Norteamérica. Pertenece a la subfamilia de los patos marinos. Es la única especie viva del género Clangula. Es una de las especies a las cuales se aplica el Acuerdo para la Conservación de aves acuáticas migratorias africanas-eurasiáticas, AEWA.",
+  "description_source": "wikipedia",
+  "bow_intro": "Este pato marino de tamaño mediano es una verdadera especie ártica, que se reproduce en las regiones de tundra y taiga de todo el planeta, hasta los 80°N. Tras la cría, migra a las costas de aguas frías y templadas de Norteamérica, el oeste de Groenlandia, el este de Asia y los Grandes Lagos. Los individuos bucean en busca de alimento, hasta profundidades impresionantes que no alcanzan otros patos marinos (más de 60 metros), y tienen una amplia dieta de presas animales, centrándose en ítems en la dieta que son localmente abundantes. A diferencia de otras aves acuáticas, Long-tailed Duck tiene 3 plumajes, en lugar de los 2 normales ( Salomonsen 1949a Salomonsen, F. (1949). Some notes on the moult of the Long-tailed Duck. Avic. Magazine 55:59–62. Close ). Además, el plumaje alternativo del macho sólo se lleva en invierno, mientras que el plumaje básico se adquiere en primavera y se lleva durante la temporada reproductiva. El rasgo más distintivo, el que da nombre a esta especie, son las 2 plumas centrales de la cola, delgadas y alargadas, que salen detrás del macho. En verano, las plumas blancas de la cabeza del macho se sustituyen por negras, y el macho en estado reproductor muestra una banda de color rosa brillante alrededor del pico. Una característica distintiva de este ave es su reclamo: de sonido nasal y audible desde bastante distancia a lo largo de las costas de sus zonas de invernada y en sus zonas de cría en la tundra.",
+  "taxonomy": {},
+  "wikipedia_summary": "El pato havelda es una especie de ave anseriforme de la familia Anatidae propia de las regiones frías de Eurasia y Norteamérica. Pertenece a la subfamilia de los patos marinos. Es la única especie viva del género Clangula. Es una de las especies a las cuales se aplica el Acuerdo para la Conservación de aves acuáticas migratorias africanas-eurasiáticas, AEWA.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Clangula_hyemalis",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2498273,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498273&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680427"
+}

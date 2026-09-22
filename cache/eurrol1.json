@@ -1,0 +1,16 @@
+{
+  "description": "La carraca europea es una especie de ave coraciforme de la familia Coraciidae, el único miembro de esta familia que habita en Europa. Se encuentra también desde las estepas centroasiáticas hasta el Magreb, territorios desde los que emigra para invernar en buena parte del África subsahariana. Suele habitar en lugares de clima templado o cálido con presencia de árboles.",
+  "description_source": "wikipedia",
+  "bow_intro": "El European Roller es un paseriforme de tamaño mediano-grande, de colores brillantes, de zonas cálidas y abiertas. Esta especie es la única Coracias que se reproduce en el Paleártico occidental. Como es típico de los rodadores, la European Roller encuentra su alimento, principalmente artrópodos de tamaño mediano pero también lagartijas, roedores y pequeños pájaros, desde perchas elevadas como alambres y grandes árboles. A menudo recoge una presa del suelo con su potente pico y luego vuela de vuelta a su percha original. El European Roller utiliza cavidades en bancos de arena, muros, grandes árboles y casas para criar. En algunas partes de su área de distribución, también utiliza cajas nido. Su impresionante vuelo de exhibición rodando y buceando es un espectáculo digno de contemplar. El European Roller es fácilmente identificable debido a los brillantes tonos azules en la mayor parte de su plumaje; son más intensos en las alas, que se ven mejor en vuelo. Las plumas del manto y algunas del interior de las alas presentan una hermosa y profunda coloración rufo. Hay dos subespecies definidas: C. g. garrulus , la nominal, que se encuentra en la parte occidental de la distribución mundial de la especie, desde el noroeste de África a través de la mayor parte del sur de Europa y Turquía hasta el noroeste de Irán y el suroeste de Siberia, y C. g. semenowi , que se reproduce desde Irak e Irán a través de Asia Central hasta el noroeste de China. C. g. semenowi es algo más pálida que la subespecie nominal. Ambas subespecies migran largas distancias y pasan la temporada no reproductora (el invierno boreal) en África, al sur del Sáhara. A lo largo de las rutas migratorias del European Roller, a veces pueden verse grandes concentraciones de cientos o incluso miles de individuos.",
+  "taxonomy": {},
+  "wikipedia_summary": "La carraca europea es una especie de ave coraciforme de la familia Coraciidae, el único miembro de esta familia que habita en Europa. Se encuentra también desde las estepas centroasiáticas hasta el Magreb, territorios desde los que emigra para invernar en buena parte del África subsahariana. Suele habitar en lugares de clima templado o cálido con presencia de árboles.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Coracias_garrulus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2475365,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2475365&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22682860"
+}
