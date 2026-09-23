@@ -1,0 +1,16 @@
+{
+  "description": "El falaropo de pico grueso, falaropo picogrueso falaropo rojo, falaropo gris o pollito de mar rojizo es un ave limícola. Este falaropo habita en las regiones árticas de Norteamérica y Eurasia. Es una especie migratoria y normalmente sigue rutas oceánicas, invernando en mares tropicales.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Red Phalarope es la más pelágica de las 3 especies de falaropos, ya que pasa hasta 11 meses al año en hábitats marinos. Sus rutas migratorias y zonas de invernada son totalmente pelágicas, en contraste con las de los falaropos cuellirrojo (Phalaropus lobatus) y de Wilson (P. wilsonii ), y suele alimentarse de presas invertebradas más pequeñas que los primeros. Los migrantes en Alaska se alimentan de crustáceos en las plumas de lodo creadas por las ballenas grises (Eschrichtius robustus ), que buscan alimento bentónico, o cerca de las ballenas de Groenlandia (Balaena mysticetus ), un hábito que llevó a los balleneros europeos a etiquetar Red Phalarope como \"aves de Groenlandia\" ( Nelson 1883 Nelson, E. W. (1883). \"Birds of Bering Sea and the Arctic Ocean.\" In Cruise of the revenue steamer Corwin in Alaska and the N.W. Arctic Ocean in 1881, 55-118. Washington: Government Printing Office. Close ) y a utilizar las bandadas para localizar a las ballenas. Al igual que otros falaropos, Red Phalarope muestra un dimorfismo sexual inverso, con hembras más grandes y de plumaje más brillante que los machos. La especie se reproduce ampliamente por todo el Holártico, solapándose en la parte meridional de su área de distribución con el Red-necked Phalarope, pero no con el de Wilson. Cuando se reproduce, es más común en la tundra costera y rara vez se encuentra lejos tierra adentro. Allí donde se solapan, los falaropos cuellirrojo y colorado se alimentan a veces en los mismos macrohábitats, aunque Red Phalarope suele utilizar aguas de profundidad para vadear, mientras que Red-necked Phalarope se alimenta en aguas de profundidad para nadar.",
+  "taxonomy": {},
+  "wikipedia_summary": "El falaropo de pico grueso, falaropo picogrueso falaropo rojo, falaropo gris o pollito de mar rojizo es un ave limícola. Este falaropo habita en las regiones árticas de Norteamérica y Eurasia. Es una especie migratoria y normalmente sigue rutas oceánicas, invernando en mares tropicales.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Phalaropus_fulicarius",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5229390,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5229390&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693494"
+}

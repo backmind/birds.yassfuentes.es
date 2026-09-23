@@ -1,0 +1,16 @@
+{
+  "description": "El pavo real común, también conocido como pavo real de la India o pavo real de pecho azul, es una especie de ave galliforme de la familia Phasianidae, una de las dos especies del género Pavo, que desde tiempos antiguos destacó entre los animales admirados por el ser humano a causa del extraordinario abanico policromado que constituye la cola de los machos.",
+  "description_source": "wikipedia",
+  "bow_intro": "Nota del editor: Debido a una reciente revisión taxonómica, esta ficha de especie aún está siendo editada y puede contener contenidos de una versión anterior de la ficha. Nota del editor: Anteriormente conocido como pavo real común, el Indian Peafowl fue renombrado para reflejar su continente de origen. Las futuras revisiones de esta cuenta se ajustarán a este cambio de nombre.",
+  "taxonomy": {},
+  "wikipedia_summary": "El pavo real común, también conocido como pavo real de la India o pavo real de pecho azul, es una especie de ave galliforme de la familia Phasianidae, una de las dos especies del género Pavo, que desde tiempos antiguos destacó entre los animales admirados por el ser humano a causa del extraordinario abanico policromado que constituye la cola de los machos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pavo_cristatus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 9451184,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9451184&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679435"
+}

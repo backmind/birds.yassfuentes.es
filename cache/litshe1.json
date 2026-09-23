@@ -1,0 +1,16 @@
+{
+  "description": "La pardela de Barolo, también denominada pardela chica del norte o pardela de la Macaronesia, es una especie de ave procellariforme de la familia Procellariidae que cría en Macaronesia y habita principalmente en el Atlántico norte. Su nombre científico conmemora al marqués italiano Carlo Tancredi Falletti di Barolo.",
+  "description_source": "wikipedia",
+  "bow_intro": "Como Pardela de Boyd (Puffinus boydi ) con la que esta especie se consideraba anteriormente coespecífica, Barolo Shearwater es endémica como ave reproductora de las islas del Atlántico nororiental (conocidas colectivamente como Macaronesia). Sin embargo, a diferencia del Puffinus boydi , que está confinado a un único archipiélago, en ese caso las islas de Cabo Verde, la presente especie está considerablemente más extendida, anidando en las Azores, Madeira, las Desertas, Salvajes y Canarias. Estas dos especies son muy parecidas y su identificación en el mar es indudablemente difícil. Anteriormente, estas dos especies se trataban junto con la Fardela de Audubon (Puffinus lherminieri ) como parte de una única especie para todo el Atlántico Norte. Sin embargo, según la taxonomía actual, Puffinus lherminieri se considera endémica del Atlántico oriental y el Caribe. Al igual que muchas aves marinas pelágicas, Barolo Shearwater anida en colonias sueltas, ocupando grietas en las rocas o madrigueras excavadas por ellas mismas, a menudo entremezcladas con otras especies, por ejemplo, con la Pardela cenicienta (Calonectris diomedea ) en las Azores. La temporada reproductiva en toda su área de distribución parece bastante prolongada, comenzando en enero en las Azores, el puesto más occidental de la especie, con un registro tan tardío como noviembre en las Islas Canarias, en el extremo oriental.",
+  "taxonomy": {},
+  "wikipedia_summary": "La pardela de Barolo, también denominada pardela chica del norte o pardela de la Macaronesia, es una especie de ave procellariforme de la familia Procellariidae que cría en Macaronesia y habita principalmente en el Atlántico norte. Su nombre científico conmemora al marqués italiano Carlo Tancredi Falletti di Barolo.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Puffinus_baroli",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5843955,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5843955&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NE",
+  "iucn_birdlife_url": ""
+}

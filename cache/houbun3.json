@@ -1,0 +1,16 @@
+{
+  "description": "El escribano sahariano es una especie de ave paseriforme de la familia Emberizidae propia del norte de África",
+  "description_source": "wikipedia",
+  "bow_intro": "Este pequeño pero sutilmente atractivo escribano del noroeste de África es inusual por sentirse atraído por las viviendas humanas. Aunque también se da en zonas rocosas alejadas de pueblos y aldeas, es más conocido como habitante familiar de entornos construidos, desde estructuras aisladas hasta los tejados, calles y jardines de los asentamientos humanos. En esto puede compararse con ese otro ave urbana familiar, el House Sparrow ( Passer domesticus ) . Sin embargo, suele ser mucho más confiado que el House Sparrow y parece no inmutarse ante la proximidad humana, permitiendo un acercamiento muy estrecho y entrando fácilmente en los edificios. Es, por tanto, un habitante familiar de aldeas, pueblos y ciudades del Magreb, donde anida en agujeros de muros y otras estructuras construidas por el hombre. Allí donde es común se reúne en bandadas pequeñas allí donde los habitantes humanos, que las ven con buenos ojos, esparcen semillas para ellas. Un acontecimiento especialmente notable de las últimas décadas ha sido una marcada expansión hacia el norte del área de distribución de esta especie normalmente residente que la ha llevado hasta las costas del Mediterráneo y, últimamente, a través del estrecho de Gibraltar. Ya ha anidado en el extremo sur de España y es probable que la House Bunting se establezca en el sur de Europa durante el presente siglo.",
+  "taxonomy": {},
+  "wikipedia_summary": "El escribano sahariano es una especie de ave paseriforme de la familia Emberizidae propia del norte de África",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Emberiza_sahari",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 6100800,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=6100800&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22734808"
+}

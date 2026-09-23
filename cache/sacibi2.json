@@ -1,0 +1,16 @@
+{
+  "description": "El ibis sagrado es una especie de ave pelecaniforme de la familia Threskiornithidae propia de puntos de África y Oriente Medio. Es un ave especialmente conocida por su papel en la religión del Antiguo Egipto en la que era la personificación del dios Thot.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El ibis sagrado es una especie de ave pelecaniforme de la familia Threskiornithidae propia de puntos de África y Oriente Medio. Es un ave especialmente conocida por su papel en la religión del Antiguo Egipto en la que era la personificación del dios Thot.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Threskiornis_aethiopicus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2480764,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480764&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697510"
+}

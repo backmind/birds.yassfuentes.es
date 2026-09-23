@@ -1,0 +1,16 @@
+{
+  "description": "El ibis hadada \n es una especie de ave pelecaniforme de la familia Threskiornithidae nativa de África subsahariana. El nombre hadada es onomatopéyico pues esta palabra se asemeja al sonido que hace el ave.",
+  "description_source": "wikipedia",
+  "bow_intro": "El ibis de Hadada, un ibis relativamente pequeño con un llamativo pico rojo y plumas verdes iridiscentes en las alas, está muy extendido en diversos hábitats de toda el África subsahariana, desde sabanas abiertas, marismas, manglares, playas, bosques e incluso cerca de viviendas humanas, como en campos agrícolas, céspedes y parques urbanos. Buscan metódicamente sus presas picoteando y sondeando el suelo. Sus fuertes y estridentes gritos han sido comparados con la risa de una bruja ( 1 Hancock, J. A., J. A. Kushlan, and M. P. Kahl (1992). Storks, Ibises, and Spoonbills of the World. Academic Press, London, UK. Close ), y pueden oírse durante todo el año, especialmente al anochecer y al amanecer. Hadada Ibis pueden criar durante todo el año, y pueden criar hasta cuatro nidadas en un año, aunque en algunos lugares su temporada reproductiva está más limitada por las condiciones locales, ya que algunos crían durante y justo después de la estación húmeda, mientras que otros pueden criar durante la estación seca. Theristicus brevirostris Reichenow, 1907, Ornithologische Monatsberichte 15:147.-Alén, sur de Camerún.",
+  "taxonomy": {},
+  "wikipedia_summary": "El ibis hadada \n es una especie de ave pelecaniforme de la familia Threskiornithidae nativa de África subsahariana. El nombre hadada es onomatopéyico pues esta palabra se asemeja al sonido que hace el ave.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Bostrychia_hagedash",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5229203,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5229203&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697463"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "La hubara o avutarda hubara es una especie de ave otidiforme de la familia Otididae plenamente adaptada a vivir en estepas y desiertos de África. Se encuentran desde las islas Canarias hasta la península del Sinaí.",
+  "description_source": "wikipedia",
+  "bow_intro": "Otididae de tamaño medio y generalmente de color marrón arenoso, la African Houbara es una especie notablemente distintiva, especialmente durante la exhibición, cuando su cresta blanca y las plumas del pecho se erigen con un efecto espectacular e inusual. El taxón nominal se daba antiguamente en hábitats áridos, arenosos y semidesérticos de todo el norte de África, desde Marruecos y el Sáhara Occidental en el oeste hasta el valle egipcio del Nilo en el este, pero sus poblaciones se han visto muy mermadas. Una segunda subespecie, C. u. fuertaventurae , está confinada en las Islas Canarias, en la Macaronesia, en tres, pero principalmente sólo dos islas, donde se calcula que no quedan más de 600 individuos. Ambos taxones se consideraban antiguamente coespecíficos con el alopátrico Asian Houbara ( Chlamydotis macqueenii ) del suroeste y centro de Asia. La evaluación del estado de conservación global de las poblaciones silvestres de esta especie en declive se ha visto muy dificultada por su comportamiento naturalmente críptico, su ocupación de matorrales semidesérticos de difícil acceso pero cada vez más degradados, una presión de caza no cuantificada pero anecdóticamente elevada y las grandes sueltas anuales de aves criadas en cautividad. A pesar de la extensa área de distribución de la especie, que abarca más de 4.000 km de oeste a este, está evaluada como Vulnerable a la extinción según los criterios de la Lista Roja de la UICN. Excepto en las Islas Canarias, la amenaza crítica para el African Houbara es la caza, ya que es muy apreciado como presa para la cetrería. En las Islas Canarias, las colisiones con tendidos aéreos representan el mayor porcentaje de mortalidades; una amenaza que se espera que aumente en el área de distribución africana de la especie a medida que los desarrollos de energías renovables se extiendan por los hábitats soleados de la hubara.",
+  "taxonomy": {},
+  "wikipedia_summary": "La hubara o avutarda hubara es una especie de ave otidiforme de la familia Otididae plenamente adaptada a vivir en estepas y desiertos de África. Se encuentran desde las islas Canarias hasta la península del Sinaí.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Chlamydotis_undulata",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2474864,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474864&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22728245"
+}

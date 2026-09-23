@@ -1,0 +1,16 @@
+{
+  "description": "El eider común es una especie de ave anseriforme de la familia Anatidae ampliamente distribuida por las regiones costeras árticas y subárticas. Presenta un acusado dimorfismo sexual característico de su género, el macho tiene las alas negras, el cuerpo blanco, parte del cuello verde y un capuchón negro, la hembra, es completamente parda.",
+  "description_source": "wikipedia",
+  "bow_intro": "Este resistente eider, el pato más grande del hemisferio norte, está más estrechamente ligado a los hábitats marinos que cualquier otro pato marino. Habita generalmente en hábitats marinos costeros árticos y subárticos y tiene una distribución circumpolar. Su tendencia a anidar en grandes colonias en islas marinas y a formar grandes agregaciones en zonas costeras inshore durante la época no reproductiva hace que esta especie sea verdaderamente marina en todos los aspectos de su historia de vida. Muchas poblaciones permanecen tan al norte como persisten las aguas abiertas en invierno, donde se asocian con polinias (aberturas en el hielo) y lados de sotavento de islas libres de hielo compacto en movimiento. Common Eider son alimentadores diurnos y se sumergen para recoger moluscos y crustáceos del fondo marino en profundidades de agua que oscilan generalmente entre los 10 y los 20 metros. Las hembras son fieles a sus zonas natales y de cría y con frecuencia reutilizan el mismo lugar de nidificación. La filopatría a los lugares de invernada es probable pero no se ha estudiado. Se sabe que Common Eider es monógama estacionalmente y que en algunas poblaciones muestra vínculos de pareja a largo plazo, mientras que en otras no.",
+  "taxonomy": {},
+  "wikipedia_summary": "El eider común es una especie de ave anseriforme de la familia Anatidae ampliamente distribuida por las regiones costeras árticas y subárticas. Presenta un acusado dimorfismo sexual característico de su género, el macho tiene las alas negras, el cuerpo blanco, parte del cuello verde y un capuchón negro, la hembra, es completamente parda.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Somateria_mollissima",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2498352,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498352&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680405"
+}

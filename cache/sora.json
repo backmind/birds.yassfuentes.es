@@ -1,0 +1,16 @@
+{
+  "description": "La polluela sora o polluela norteña, también, entre otros, sora, gallito sora, gallineta sora, gallinuela oscura, o turura migratoria es una especie de ave gruiforme de la familia Rallidae, que habita en los pantanos de gran parte de América.",
+  "description_source": "wikipedia",
+  "bow_intro": "Una de las especies de Rallidae más abundantes y de mayor distribución en Norteamérica, el Sora se reproduce e inverna principalmente en marismas de agua dulce dominadas por vegetación emergente, pero también aparece en marismas costeras salobres durante la migración. Se le oye más a menudo de lo que se le ve y emite uno de los cantos más característicos de cualquier ave palustre, un fuerte relincho descendente: whee-hee-hee-hee-hee . Entre los nombres vernaculares de esta especie se encuentran Rallidae de Carolina, Soree, Pollo de los prados y Hortelano. Sora se alimenta principalmente de semillas de plantas de humedales y de invertebrados. El arroz silvestre es su alimento favorito a finales del verano y en otoño. Aunque parecen voladores débiles y reacios, los Sora migran cientos de kilómetros cada primavera y otoño entre los humedales de cría y los de invernada. Muchos de los humedales más importantes para Sora se encuentran entre los más amenazados de Estados Unidos, como las marismas costeras de California, Florida, Luisiana, Nueva Jersey y Texas; los humedales palustres emergentes del sur de Florida y la región de las praderas bacheadas; y los humedales ribereños del oeste.",
+  "taxonomy": {},
+  "wikipedia_summary": "La polluela sora o polluela norteña, también, entre otros, sora, gallito sora, gallineta sora, gallinuela oscura, o turura migratoria es una especie de ave gruiforme de la familia Rallidae, que habita en los pantanos de gran parte de América.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Porzana_carolina",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2474639,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474639&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22692684"
+}

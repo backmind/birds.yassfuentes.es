@@ -1,0 +1,16 @@
+{
+  "description": "El carricero agrícola es una especie de ave paseriforme de la familia Acrocephalidae propia de Asia y el sureste de Europa. Anteriormente el carricerín manchú se consideraba una subespecie del carricero agrícola. Antiguamente se clasificaba como todo su género dentro de la familia Sylviidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El carricero agrícola es una especie de ave paseriforme de la familia Acrocephalidae propia de Asia y el sureste de Europa. Anteriormente el carricerín manchú se consideraba una subespecie del carricero agrícola. Antiguamente se clasificaba como todo su género dentro de la familia Sylviidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Acrocephalus_agricola",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2493137,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493137&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22714714"
+}

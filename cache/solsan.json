@@ -1,0 +1,16 @@
+{
+  "description": "El andarríos solitario, pitotoy solitario o tigüiza es un ave limícola, de la familia de los escolopácidos, que habita en el continente americano.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Solitary Sandpiper, el homólogo neártico del paleártico Green Sandpiper (Tringa ocrophus ), se reproduce en los bosques boreales de Canadá y Alaska e inverna en los trópicos, desde el norte de México hacia el sur a través de gran parte de Sudamérica. Aunque esta especie fue descrita por primera vez por el ornitólogo Alexander Wilson en 1813, su nido no se descubrió hasta 1903. Es una de las pocas especies de Escolopácidos que anidan en los árboles; en las turberas almizcleras de los bosques boreales, las parejas ponen sus huevos en los nidos abandonados de los Corvidae y otros paseriformes. El nombre genérico del correlimos solitario, Tringa , procede del griego tryngas , que significa ave acuática con la rabadilla blanca, mientras que el nombre específico, solitaria , hace referencia a los hábitos solitarios de la especie en migración, que contrastan notablemente con el comportamiento en bandada de la mayoría de los demás correlimos migratorios. Se trata de un ave de formas gráciles que, al posarse tras el vuelo, mantiene las alas rectas hacia arriba y luego las cierra lentamente. Anida, poniendo sus huevos en los nidos de los árboles de varios pájaros cantores diferentes.",
+  "taxonomy": {},
+  "wikipedia_summary": "El andarríos solitario, pitotoy solitario o tigüiza es un ave limícola, de la familia de los escolopácidos, que habita en el continente americano.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tringa_solitaria",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481710,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481710&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693239"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El págalo antártico,  págalo austral, págalo sureño, págalo polar, escúa polar, skuá antartico o salteador polar es una especie de ave de la familia Stercorariidae perteneciente al género Stercorarius.\nSe distribuye por el hemisferio sur, sobre todo en sus regiones frías, incluyendo las islas subantárticas.",
+  "description_source": "wikipedia",
+  "bow_intro": "El South Polar Skua es una de las especies más pequeñas de los Stercorariidae skuas que se reproducen a lo largo de los márgenes del océano Antártico. Esta especie también emprende las migraciones más largas de cualquier skua, criando a lo largo de las costas de la Antártida pero invernando en el Pacífico Norte y el Atlántico Norte. En la Antártida se alimenta a veces de huevos y pichones de pingüino; tiende a ser más pelágico cuando está lejos de las colonias, alimentándose de peces y pirateando comidas de otras aves marinas. South Polar Skua es polimórfico, con plumajes de morfo claro y oscuro. El morfo claro es bastante distintivo, pero el morfo oscuro es similar al de otros miembros del género. El morfo oscuro de South Polar Skua suele distinguirse por su plumaje contrastado dominado por los tonos fríos, sin rufos en el plumaje. En todos los plumajes, South Polar Skua tiene el característico \"destello skua\" blanco a lo largo de las bases primarias; los adultos de ambos morfos también tienen la nuca y el cuello posterior de color amarillo buffy, aunque el juvenil carece de esta nuca más pálida.",
+  "taxonomy": {},
+  "wikipedia_summary": "El págalo antártico,  págalo austral, págalo sureño, págalo polar, escúa polar, skuá antartico o salteador polar es una especie de ave de la familia Stercorariidae perteneciente al género Stercorarius.\nSe distribuye por el hemisferio sur, sobre todo en sus regiones frías, incluyendo las islas subantárticas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Stercorarius_maccormicki",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481616,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481616&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694218"
+}

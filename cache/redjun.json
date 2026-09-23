@@ -1,0 +1,16 @@
+{
+  "description": "El gallo salvaje rojo, también conocido en el pasado como gallo bankiva, es una especie tropical de la familia Phasianidae nativa del sudeste asiático. El gallo salvaje rojo es el origen principal de la mayoría de las diferentes razas de gallo doméstico  con algo de hibridación del gallo salvaje gris. El gallo silvestre fue domesticado hace, al menos, siete mil años en Asia y posteriormente introducido en todo el mundo. La variedad doméstica se cría globalmente como fuente de carne y huevos.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Red Junglefowl es un nombre utilizado tanto para la estirpe ancestral del pollo doméstico como para las poblaciones asilvestradas derivadas de pollos domésticos introducidos. De menor tamaño y más esbelta que la mayoría de las razas de gallinas, la Red Junglefowl tiene las plumas del cuello de color ante o bronce que se extienden por el lomo y una cola arqueada de color azul metálico a verde. Originaria del sudeste asiático, desde la India hasta Indonesia, pasando por el sur de China, se ha asilvestrado en varias regiones del mundo, entre ellas Hawai y el Caribe. Las aves asilvestradas son a menudo muy difíciles de distinguir de las domésticas en libertad y con frecuencia ambas habitan en la misma isla, aunque las asilvestradas suelen ser sigilosas y difíciles de ver. En el Caribe existen poblaciones asilvestradas en La Española, Puerto Rico, Guadalupe y las Granadinas.",
+  "taxonomy": {},
+  "wikipedia_summary": "El gallo salvaje rojo, también conocido en el pasado como gallo bankiva, es una especie tropical de la familia Phasianidae nativa del sudeste asiático. El gallo salvaje rojo es el origen principal de la mayoría de las diferentes razas de gallo doméstico  con algo de hibridación del gallo salvaje gris. El gallo silvestre fue domesticado hace, al menos, siete mil años en Asia y posteriormente introducido en todo el mundo. La variedad doméstica se cría globalmente como fuente de carne y huevos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Gallus_gallus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 9326020,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9326020&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679199"
+}

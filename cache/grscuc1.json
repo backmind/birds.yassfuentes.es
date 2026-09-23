@@ -1,0 +1,16 @@
+{
+  "description": "El críalo europeo es una especie de ave cuculiforme de la familia Cuculidae que habita en el sur de Europa y Próximo Oriente en verano y que pasa el invierno en África. Como su pariente el cuco practica el parasitismo de puesta en los nidos de aves como las urracas y los estorninos. No se conocen subespecies.",
+  "description_source": "wikipedia",
+  "bow_intro": "A pesar de su gran tamaño, el Great Spotted Cuckoo es relativamente discreto y pasa desapercibido con facilidad cuando no está llamando. Está muy extendida en África tropical, donde habita en la sabana de acacias y en bosques abiertos. También se da en el Paleártico, donde es un habitante estacional de bosques abiertos de alcornoque (Quercus suber ) y pino piñonero (Pinus pinea ), así como de olivares. Los adultos tienen la corona plateada o pardo-grisácea, las partes superiores pardas moteadas de blanco y las partes inferiores blanquecinas con la garganta de color leonado. Los juveniles son notablemente diferentes y tienen las partes superiores negruzcas y las primarias rufo, que son conspicuas en vuelo. La Great Spotted Cuckoo es una de las especies modelo en el estudio del parasitismo de nido. Es un parasitismo de nido obligado que se dirige a una variedad de especies de córvidos hospederos en toda su área de distribución, especialmente a Eurasian Magpie (Pica pica ) y Carrion Crow (C. corone ) en Europa, y Pied Crow (Corvus albus ) en el África subsahariana, pero también parasita a diversos estorninos de nido abierto y de agujero en África. Posee un interesante repertorio de vocalizaciones que ha atraído muchos estudios, especialmente sobre el comportamiento vocal de las aves reproductoras y las adaptaciones vocales de los pichones.",
+  "taxonomy": {},
+  "wikipedia_summary": "El críalo europeo es una especie de ave cuculiforme de la familia Cuculidae que habita en el sur de Europa y Próximo Oriente en verano y que pasa el invierno en África. Como su pariente el cuco practica el parasitismo de puesta en los nidos de aves como las urracas y los estorninos. No se conocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Clamator_glandarius",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2496464,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2496464&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22683819"
+}

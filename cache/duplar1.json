@@ -1,0 +1,16 @@
+{
+  "description": "La alondra ricotí o alondra de Dupont es una especie de ave paseriforme de la familia Alaudidae propia de la región mediterránea. Es la única especie del género Chersophilus.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La alondra ricotí o alondra de Dupont es una especie de ave paseriforme de la familia Alaudidae propia de la región mediterránea. Es la única especie del género Chersophilus.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Chersophilus_duponti",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2490674,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2490674&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22717380"
+}

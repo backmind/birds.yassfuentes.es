@@ -1,0 +1,16 @@
+{
+  "description": "La tórtola senegalesa, también llamada tórtola del Senegal o tórtola reidora, es una especie de ave columbiforme de la familia Columbidae propia de África, Medio Oriente, Asia Central y el subcontinente indio; hay poblaciones en los Balcanes que no se sabe si fueron introducidas.",
+  "description_source": "wikipedia",
+  "bow_intro": "Oasis al sur del Atlas en Marruecos, Argelia, Túnez y el oeste de Libia. Recientemente se ha extendido al norte de Marruecos y Argelia. Senegal al este hasta Somalia, y al sur hasta Sudáfrica; y Arabia occidental desde Medina (Arabia Saudí) al sur hasta Adén y Mukalla (sur de Yemen).",
+  "taxonomy": {},
+  "wikipedia_summary": "La tórtola senegalesa, también llamada tórtola del Senegal o tórtola reidora, es una especie de ave columbiforme de la familia Columbidae propia de África, Medio Oriente, Asia Central y el subcontinente indio; hay poblaciones en los Balcanes que no se sabe si fueron introducidas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Spilopelia_senegalensis",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 6101223,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=6101223&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22690445"
+}

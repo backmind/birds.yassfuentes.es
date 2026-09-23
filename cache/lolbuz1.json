@@ -1,0 +1,16 @@
+{
+  "description": "El ratonero moro o busardo moro es una especie de ave accipitriforme de la familia Accipitridae ampliamente distribuida por África, Asia y los Balcanes. Es posible también avistar a esta ave en el sureste de Italia. En España se la considera una especie accidental, excepto en Ceuta que es residente, pues alguna vez se han observado ejemplares en el sur de Andalucía, Región de Murcia y Canarias.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El ratonero moro o busardo moro es una especie de ave accipitriforme de la familia Accipitridae ampliamente distribuida por África, Asia y los Balcanes. Es posible también avistar a esta ave en el sureste de Italia. En España se la considera una especie accidental, excepto en Ceuta que es residente, pues alguna vez se han observado ejemplares en el sur de Andalucía, Región de Murcia y Canarias.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Buteo_rufinus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2480564,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480564&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22736562"
+}

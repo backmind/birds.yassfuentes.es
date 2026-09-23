@@ -1,0 +1,16 @@
+{
+  "description": "El petrel Freira, fardela freira o petrel de Madeira, es un petrel que habita en la isla Madeira. Esta pequeña ave marina es de color blanco en su pecho y las alas son grises, su torso es oscuro, su cabeza es amarronada clara. Sus alas miden 34 centímetros y su envergadura es de 80 centímetros, su peso es de aproximadamente 290 gramos.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El petrel Freira, fardela freira o petrel de Madeira, es un petrel que habita en la isla Madeira. Esta pequeña ave marina es de color blanco en su pecho y las alas son grises, su torso es oscuro, su cabeza es amarronada clara. Sus alas miden 34 centímetros y su envergadura es de 80 centímetros, su peso es de aproximadamente 290 gramos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pterodroma_madeira",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481463,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481463&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "EN",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22698062"
+}

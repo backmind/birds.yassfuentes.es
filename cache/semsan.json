@@ -1,0 +1,16 @@
+{
+  "description": "El correlimos semipalmeado, Calidris pusilla, un ave limícola muy pequeña de la familia Scolopacidae. A veces es separada junto con otros correlimos pequeños en Erolia, pero aunque este grupo parece ser monofilético, el nombre genérico más antiguo de esta especie Ereunetes fue propuesto antes que Erolia.",
+  "description_source": "wikipedia",
+  "bow_intro": "Esta pequeña ave limícola norteamericana se reproduce cerca del agua en la tundra baja y subártica e inverna a lo largo de las costas septentrionales y centrales de Sudamérica. A pesar de los numerosos estudios sobre esta especie durante la migración, se sabe comparativamente poco de su biología, distribución y abundancia durante la invernada, salvo trabajos recientes en la República Dominicana, Puerto Rico (Collazo et al. Collazo et al. 1995 Collazo, J. A., B. A. Harrington, J. S. Grear and J. A. Colon. (1995). Abundance and distribution of shorebirds at the Cabo Rojo Salt Flats, Puerto Rico. Journal of Field Ornithology 66 (3):424-438. Close ) y a lo largo de la costa nordeste de Brasil ( Rodrigues 2000 Rodrigues, A. A. F. (2000). Seasonal abundance of Neartic shorebirds in the Gulf of Maranhão, Brazil. Journal of Field Ornithology 71 (4):665-675. Close ). Su biología reproductora sólo se ha analizado en dos zonas: Alaska y el norte de Manitoba. Allí donde su alimento (pequeños invertebrados acuáticos y marinos) es abundante, pueden reunirse bandadas de hasta 300.000 Semipalmated Sandpiper en zonas clave de parada de la migración y en las zonas de invernada. Los individuos de las poblaciones orientales emprenden vuelos transoceánicos sin escalas de entre 3.000 y 4.000 km desde Nueva Inglaterra y el sur de Canadá hasta Sudamérica, impulsados por amplias reservas de grasa. En primavera, los reproductores orientales siguen una ruta atlántica desde el noreste de Sudamérica hasta las zonas de descanso a lo largo de la costa noreste de Norteamérica, el interior de EE.UU. y el norte de Canadá, reuniendo los recursos energéticos para completar la migración a las zonas de cría subárticas... y para la producción de huevos. Estas migraciones anuales de primavera y otoño crean una ruta migratoria elíptica a través del hemisferio occidental.",
+  "taxonomy": {},
+  "wikipedia_summary": "El correlimos semipalmeado, Calidris pusilla, un ave limícola muy pequeña de la familia Scolopacidae. A veces es separada junto con otros correlimos pequeños en Erolia, pero aunque este grupo parece ser monofilético, el nombre genérico más antiguo de esta especie Ereunetes fue propuesto antes que Erolia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Calidris_pusilla",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481764,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481764&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693373"
+}

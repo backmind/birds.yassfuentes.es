@@ -1,0 +1,16 @@
+{
+  "description": "El carricerín cejudo es un ave de la familia Acrocephalidae que habita en Eurasia y África.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Aquatic Warbler es un ave canora amenazada en todo el mundo que se reproduce exclusivamente en los juncales abiertos y las turberas calcáreas de Europa, dependiendo de hábitats inundados estacionalmente con una hidrología estable. Es único entre los pájaros cantores europeos por su sistema de apareamiento poliginándrico, en el que tanto machos como hembras se aparean con múltiples parejas. Los machos no forman parejas ni colaboran en la nidificación; en su lugar, establecen puestos de canto en las zonas de cría y pueden engendrar crías en múltiples nidos, mientras que las hembras construyen solas los nidos, incuban los huevos y crían a las crías. Este sistema de apareamiento da lugar a tasas excepcionalmente altas de paternidad mixta, registrándose hasta cinco progenitores diferentes en una sola nidada. La distribución reproductora de la Aquatic Warbler está muy fragmentada, con menos de 50 lugares regulares restringidos a Polonia, Bielorrusia, Lituania y Ucrania, en gran parte confinados entre los 50°N y los 56°N. Las poblaciones principales se centran en las marismas de Biebrza (Polonia) y la cuenca del Pripyat (Bielorrusia y Ucrania), que en conjunto albergan alrededor de tres cuartas partes de la población mundial. Fuera de la temporada reproductiva, la especie migra hacia el suroeste, al África Occidental subsahariana, especialmente a los humedales de Senegal y Mali, siguiendo una ruta otoñal distinta a través de Francia e Iberia. A pesar de la identificación de lugares clave de invernada, los detalles sobre su área de distribución no reproductora siguen siendo incompletos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El carricerín cejudo es un ave de la familia Acrocephalidae que habita en Eurasia y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Acrocephalus_paludicola",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2493114,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2493114&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22714696"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El sisón común es una especie de ave otidiforme de la familia Otididae, la única del género Tetrax. Es propia del suroeste de la región paleártica. Su nombre común se debe al sonido que produce su vuelo, ya que emite una especie de silbido continuo al batir las alas, que se debe a que una de las plumas del borde es más corta que las demás. En enero de 2017 fue elegida ave del año por SEO/Birdlife para denunciar el acusado decrecimiento de las poblaciones en los últimos años.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El sisón común es una especie de ave otidiforme de la familia Otididae, la única del género Tetrax. Es propia del suroeste de la región paleártica. Su nombre común se debe al sonido que produce su vuelo, ya que emite una especie de silbido continuo al batir las alas, que se debe a que una de las plumas del borde es más corta que las demás. En enero de 2017 fue elegida ave del año por SEO/Birdlife para denunciar el acusado decrecimiento de las poblaciones en los últimos años.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Tetrax_tetrax",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5228228,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5228228&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22691896"
+}

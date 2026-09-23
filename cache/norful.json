@@ -1,0 +1,16 @@
+{
+  "description": "El fulmar boreal es una especie de ave procelariforme de la familia Procellariidae propia del océano Ártico y del norte de los océanos Atlántico y Pacífico. Es un ave marina robusta, de cabeza redondeada y pico robusto, se encuentra en varias fases de color del gris y blanco al gris azulado oscuro. Su vuelo es enérgico, alternando batidos rápidos con planeos. Come peces en la superficie del mar, o zooplacton a profundidades de varios metros y despojos de barcos pesqueros.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Northern Fulmar, un ave de \"nariz tubular\" emparentada con los petreles y las pardelas, abunda en Alaska y el Ártico canadiense, aunque pocas personas llegan a ver la especie en tierra en esas regiones porque tiende a estar muy agregada en unos pocos lugares de cría remotos. Por el contrario, los fulmares de la zona boreal del noreste del océano Atlántico -Islandia, las Islas Feroe y las Islas Británicas, en particular- son omnipresentes debido a un espectacular aumento de su población y distribución de cría durante los últimos 250 años. Este aumento y sus posibles causas están bien documentados y son muy debatidos. Los fulmares presentan morfos de color que van desde el blanco mayoritario con un manto gris claro hasta el gris oscuro uniforme, pasando por todos los gradientes entre los extremos. No existe una explicación generalmente aceptada para este polimorfismo. Los individuos de distintos colores se aparean indistintamente, aunque en muchas colonias la mayoría o la totalidad de las aves son de un solo tipo. La reproducción es lenta: la mayoría de los individuos posponen la cría entre 8 y 10 años, y las parejas producen como mucho 1 huevo al año. No es sorprendente, por tanto, que los fulmares también se encuentren entre las aves más longevas que se conocen. Los individuos que alcanzan la edad adulta tienen una esperanza de vida media superior a los 30 años, y algunos crían durante un periodo de 40 años o más.",
+  "taxonomy": {},
+  "wikipedia_summary": "El fulmar boreal es una especie de ave procelariforme de la familia Procellariidae propia del océano Ártico y del norte de los océanos Atlántico y Pacífico. Es un ave marina robusta, de cabeza redondeada y pico robusto, se encuentra en varias fases de color del gris y blanco al gris azulado oscuro. Su vuelo es enérgico, alternando batidos rápidos con planeos. Come peces en la superficie del mar, o zooplacton a profundidades de varios metros y despojos de barcos pesqueros.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Fulmarus_glacialis",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481433,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481433&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697866"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "La pardela mediterránea es una especie de ave procelariforme de la familia Procellariidae propia del Mediterráneo y el mar Negro",
+  "description_source": "wikipedia",
+  "bow_intro": "Distribuida por todo el mar Mediterráneo, esta pardela predominantemente blanca y negra se reproduce principalmente desde las islas del sur de Francia y el este de Argelia hasta Grecia y Bulgaria, pero aún no se ha demostrado que anide en Turquía, a pesar de la abundancia de la especie allí (es una vista familiar desde los transbordadores que cruzan el Bósforo). Más recientemente, se ha descubierto que Yelkouan Shearwater se reproduce en simpatría con el antes congénere y mucho más raro Balearic Shearwater (Puffinus mauretanicus ) en Menorca, frente al este de España. P. yelkouan se diferencia de P. mauretanicus , que sólo anida en unas pocas islas del oeste de la cuenca, por ser en general más pequeño, las patas sobresalen menos de la cola, las partes inferiores del ala y las partes inferiores suelen ser mucho más pálidas y el límite nítido (en lugar de borroso) entre los colores oscuro y pálido. En el mar, esta especie forma grandes bandadas que se alimentan de pequeños peces de bajura y crustáceos. Yelkouan Shearwater deriva sus inusuales nombres inglés y científico de la palabra turca, Yelkovan, que significa cazador del viento ( 1 Bourne, W.R.P., Paterson, A.M. and Zino, F. (2013). Shearwaters and their names. British Birds 106(3):172. Close ), que se aplica comúnmente a esta especie, con mucho el miembro más numeroso de los Procellariiformes en las aguas costeras del país.",
+  "taxonomy": {},
+  "wikipedia_summary": "La pardela mediterránea es una especie de ave procelariforme de la familia Procellariidae propia del Mediterráneo y el mar Negro",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Puffinus_yelkouan",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 5229377,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5229377&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22698230"
+}

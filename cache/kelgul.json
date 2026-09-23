@@ -1,0 +1,16 @@
+{
+  "description": "La gaviota dominicana o gaviota cocinera es una especie de ave Charadriiforme de la familia Laridae que habita las costas e islas del Hemisferio Sur.",
+  "description_source": "wikipedia",
+  "bow_intro": "La Kelp Gull es la especie de gaviota grande dominante del hemisferio sur. Es común en todo el sur del continente sudamericano y se extiende hacia el norte a lo largo de las costas hasta Ecuador en el oeste y Brasil en el este, aunque también se la conoce como errante y reproductora ocasional hacia el norte también hasta Estados Unidos. Grande, con las partes superiores negras muy oscuras y las patas amarillo verdoso pálido, esta gaviota se distingue fácilmente de otras gaviotas de su área de distribución. La Kelp Gull se alimenta de una gran variedad de animales terrestres y marinos y también acude a los vertederos. Sur de Sudamérica costera, incluidas las Islas Malvinas (Falkland Islands) y Georgia del Sur; sur de Australia (incluida Tasmania); y Nueva Zelanda (incluidas las Islas Chatham y todos los grupos de islas subantárticas).",
+  "taxonomy": {},
+  "wikipedia_summary": "La gaviota dominicana o gaviota cocinera es una especie de ave Charadriiforme de la familia Laridae que habita las costas e islas del Hemisferio Sur.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Larus_dominicanus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2481173,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481173&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694329"
+}

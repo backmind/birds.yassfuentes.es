@@ -1,0 +1,16 @@
+{
+  "description": "El chorlito dorado asiático, chorlito dorado siberiano o chorlo dorado del Pacífico es un ave de tamaño mediano perteneciente a la familia Charadriidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "El chorlitejo dorado es un aristócrata entre las aves. Todo en él es distintivo. El pecho y el vientre negro azabache, el dorso amarillo dorado y las llamativas marcas de la cabeza del plumaje de cría bastarían por sí solos para distinguirlo en cualquier conjunto de sus parientes. Además, tiene movimientos más bien señoriales y dignos en contraste con el nerviosismo precipitado de tantas aves limícolas ya sea alimentándose, migrando o en las zonas de cría. Los pichones de plumón están también entre los más adorables de todas las aves juveniles, ya que su dorso amarillo es sorprendentemente diferente de los habituales negros, marrones y grises de la mayoría de los jóvenes recién nacidos del clan de las aves playeras. Gabrielson y Lincoln (1959), Las aves de Alaska ( 1 Gabrielson, I. N., and F. C. Lincoln (1959). The Birds of Alaska. Stackpole Company, Harrisburg, PA, USA. Close )",
+  "taxonomy": {},
+  "wikipedia_summary": "El chorlito dorado asiático, chorlito dorado siberiano o chorlo dorado del Pacífico es un ave de tamaño mediano perteneciente a la familia Charadriidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Pluvialis_fulva",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2480331,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480331&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693735"
+}

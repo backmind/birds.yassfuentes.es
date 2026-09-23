@@ -1,0 +1,16 @@
+{
+  "description": "El agateador norteño o euroasiático es una especie de ave de la familia Certhiidae que vive en Eurasia. Es un ágil trepador de árboles de color parduzco moteado en las partes superiores y las partes inferiores blanquecinas, con un pico fino y curvado hacia abajo y una cola larga y rígida que usa como soporte en los troncos. Aunque su aspecto es similar a otros agateadores se diferencia fácilmente por su canto del agateador común con el que coincide en gran parte de su área de distribución europea.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El agateador norteño o euroasiático es una especie de ave de la familia Certhiidae que vive en Eurasia. Es un ágil trepador de árboles de color parduzco moteado en las partes superiores y las partes inferiores blanquecinas, con un pico fino y curvado hacia abajo y una cola larga y rígida que usa como soporte en los troncos. Aunque su aspecto es similar a otros agateadores se diferencia fácilmente por su canto del agateador común con el que coincide en gran parte de su área de distribución europea.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Certhia_familiaris",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2487603,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2487603&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22735060"
+}

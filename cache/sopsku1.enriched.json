@@ -1,0 +1,11 @@
+{
+  "prose": "El Págalo Polar (Stercorarius maccormicki) es un habitante extraordinario de las latitudes más extremas del planeta. Pese a ser una de las especies más pequeñas entre los págalos, su resistencia en los márgenes helados del océano Antártico resulta deslumbrante. Durante la temporada reproductiva, estas aves nidifican en las costas del continente helado y en islas subantárticas, donde despliegan un comportamiento audaz y oportunista. Lejos de las colonias, asumen hábitos profundamente pelágicos, surcando las aguas abiertas con gran agilidad. Sin embargo, su rasgo más asombroso es su travesía migratoria: emprende el viaje más largo de cualquier págalo, cruzando el ecuador para pasar el invierno en las aguas lejanas del Pacífico Norte y el Atlántico Norte.\n\nEn el ecosistema antártico, el págalo polar cumple un rol ecológico crucial como depredador y cleptoparásito. En tierra, se alimenta con frecuencia de huevos y pichones de pingüino, mientras que en altamar pesca o piratea la comida de otras aves marinas, acosándolas en el aire hasta arrebatarles su captura. Esta especie presenta un interesante polimorfismo con morfos claros y oscuros; los ejemplares del morfo oscuro destacan por su plumaje de tonos fríos sin matices rufos. Asimismo, los adultos de ambos morfos lucen un característico matiz amarillo ocre en la nuca. Con su destello blanco en las alas, este viajero incansable conecta las regiones extremas del globo en un ciclo anual fascinante.",
+  "identification": [
+    "Parche blanco muy marcado («destello skua») en la base de las plumas primarias de las alas.",
+    "Nuca y zona posterior del cuello impregnadas de un tono amarillo ocre en ejemplares adultos.",
+    "Plumaje polimórfico (claro y oscuro); el morfo oscuro muestra tonos fríos grises y marrones sin tintes rufos.",
+    "Tamaño relativamente pequeño dentro del grupo de los págalos, pero de complexión fuerte y pico robusto con gancho."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-23T07:50:39Z"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "description_source": "",
+  "bow_intro": "Esta relación de especies está dedicada en honor de Chuck Huntington, director de la Estación Científica Bowdoin en la isla de Kent (1953-1989), y de Bill Ellison, miembro del Consejo de Administración del Cornell Lab of Ornithology. Leach's Storm-Petrel, también conocido como petrel de Leach o pollo de la madre Cary, es el procelariiforme reproductor más ampliamente distribuido en el hemisferio norte. Más de 6 millones de parejas anidan en madrigueras o grietas en islas del Atlántico desde Noruega hasta Massachusetts y en islas del Pacífico desde Baja California hasta Hokkaido (Japón). Fuera de la larga temporada de nidificación, estas aves marinas se dispersan ampliamente por los océanos Atlántico y Pacífico, muy lejos de tierra firme y principalmente en los trópicos. Otros millones de individuos no reproductores, en su mayoría inmaduros, permanecen en el mar todo el año, aunque muchos de ellos visitan las colonias durante la temporada de nidificación, recorriendo a menudo enormes distancias. Pequeña y oscura y, por lo general, no gregaria ni atraída por los barcos, esta especie pasa desapercibida en el mar. Queda mucho trabajo por hacer para determinar las distribuciones no reproductivas de estas poblaciones.",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Leach's_storm_petrel",
+  "wikipedia_language": "en",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 9461262,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9461262&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/132438298"
+}

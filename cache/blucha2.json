@@ -1,0 +1,16 @@
+{
+  "description": "El pinzón azul de Tenerife o pinzón del Teide, es una especie de ave paseriforme de la familia de los fringílidos (Fringillidae). Es un endemismo exclusivo de esta isla. Se considera, según una ley del Gobierno de Canarias, como símbolo animal de la isla de Tenerife, conjuntamente con el drago como símbolo vegetal.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El pinzón azul de Tenerife o pinzón del Teide, es una especie de ave paseriforme de la familia de los fringílidos (Fringillidae). Es un endemismo exclusivo de esta isla. Se considera, según una ley del Gobierno de Canarias, como símbolo animal de la isla de Tenerife, conjuntamente con el drago como símbolo vegetal.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Fringilla_teydea",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2494442,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2494442&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103822567"
+}
