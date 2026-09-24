@@ -1,0 +1,16 @@
+{
+  "description": "El estornino de las Tanimbar es una especie de ave paseriforme de la familia Sturnidae endémica del este de Indonesia.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El estornino de las Tanimbar es una especie de ave paseriforme de la familia Sturnidae endémica del este de Indonesia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aplonis_crassa",
+  "wikipedia_language": "es",
+  "fallback_text": "A uniformly blackish starling with a medium-length square tail and a dark eye. Juveniles browner, with streaking below and a rufous-tinged tail. Occurs in the canopy of forest edges, wooded areas, and mangroves, where it is usually encountered in pairs or small groups. Confined to the Tanimbar Islands. Noticeably shorter-tailed than Metallic Starling, with less colorful plumage gloss and a dark eye. Calls include a harsh, metallic “brrrrrit” and a disyllabic “tzewit.”",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489039,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489039&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22710522"
+}

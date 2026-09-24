@@ -1493,6 +1493,15 @@
       "imageUrl": null,
       "photographer": "",
       "attribution": "Macaulay Library / Cornell Lab of Ornithology"
+    },
+    {
+      "speciesCode": "tansta1",
+      "comName": "Estornino de las Tanimbar",
+      "sciName": "Aplonis crassa",
+      "date": "2026-09-24",
+      "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/613855973/900",
+      "photographer": "Andrew Spencer",
+      "attribution": "Andrew Spencer / Macaulay Library"
     }
   ]
 }

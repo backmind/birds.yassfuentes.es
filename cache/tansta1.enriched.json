@@ -1,0 +1,11 @@
+{
+  "prose": "En los doseles del archipiélago de Tanimbar, al este de Indonesia, habita un especialista de la canopia tropical: el Estornino de las Tanimbar (Aplonis crassa). Esta ave paseriforme, estrechamente vinculada a los bordes del bosque, las zonas arboladas y los manglares de las islas, suele desplazar su sobria silueta en parejas o en pequeños grupos sociales. A través de la densa vegetación, su comportamiento inquieto y curioso revela la naturaleza adaptativa de la familia Sturnidae, encontrando refugio y alimento en las capas más altas de la selva insular.\n\nA diferencia de especies afines como el Estornino Lustroso, el Estornino de las Tanimbar exhibe un plumaje negruzco de brillo reducido, acompañado por un ojo oscuro y una cola cuadrada de longitud moderada. Los ejemplares jóvenes muestran una clara transición de plumaje, con tonos más pardos, un vientre estriado y matices rojizos en la cola. Su presencia en las islas se anuncia mediante llamadas cortantes y metálicas —un áspero «brrrrrit» o un bisílabo «tzewit»— que resuenan entre las copas, donde desempeña un papel clave en el dinamismo ecológico de su restringido hogar insular.",
+  "identification": [
+    "Plumaje uniformemente negruzco en adultos, con iris oscuro y cola cuadrada de longitud media.",
+    "Juveniles de tonos parduzcos, con estriado en las partes inferiores y matiz rojizo en la cola.",
+    "Cola más corta, ojo oscuro y plumaje menos brillante en comparación con el Estornino Lustroso.",
+    "Llamadas metálicas y ásperas, incluyendo un «brrrrrit» prolongado y un «tzewit» bisílabo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-24T07:42:09Z"
+}
