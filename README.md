@@ -65,7 +65,9 @@ actually runs here.
 Data from [eBird](https://ebird.org) and the
 [Cornell Lab of Ornithology](https://www.birds.cornell.edu/).
 Photographs from the [Macaulay Library](https://www.macaulaylibrary.org/),
-copyright their respective authors, hot-linked with visible attribution.
+copyright their respective authors, hot-linked with visible attribution;
+when Macaulay does not answer, from [Wikimedia
+Commons](https://commons.wikimedia.org/), credited with author and licence.
 Distribution maps from [GBIF](https://www.gbif.org/). Non-commercial
 project. No tracking, no cookies.
 

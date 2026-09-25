@@ -20,9 +20,11 @@ Daily run (GitHub Actions cron 07:17 UTC, or the container's own 07:00)
   │     dedup window that grows with the archive and is clamped to
   │     what the pool can supply today
   ├─ 3. Photo + photographer: eBird's curated og:image hero first,
-  │     Macaulay Library Search API as fallback. A republication
-  │     skips the hero and walks the Macaulay list for an unused
-  │     photo, falling back to the normal order if it finds none
+  │     Macaulay Library Search API second, the Wikimedia Commons
+  │     lead image of the species' Wikipedia article third (credited
+  │     with author and licence). A republication skips the hero and
+  │     walks the Macaulay list for an unused photo, falling back to
+  │     the normal order if it finds none
   ├─ 4. Description chain in the configured language:
   │     eBird Merlin → Wikipedia → policy-driven fallback
   ├─ 4b. LLM enrichment (when an LLM endpoint is configured):
@@ -45,7 +47,8 @@ Daily run (GitHub Actions cron 07:17 UTC, or the container's own 07:00)
 The selection is **deterministic by date**: two runs on the same day pick
 exactly the same species. If today's entry is already in `history.json`,
 publication is skipped, but maintenance always runs first: up to
-`backfill_limit` past entries with a broken photograph, a missed LLM
+`backfill_limit` past entries with a broken photograph (or, for a week,
+none at all), a missed LLM
 enrichment or a failed GBIF map lookup are retried, and the feed and site
 are rebuilt when any of them heal. This makes the daily cron and ad-hoc
 reruns self-healing instead of duplicating work. See [Backfill and
@@ -74,6 +77,9 @@ policy sends a pick back for a second reason, no description in the
 configured language. Both share the `max_skip_retries` budget, and when
 it runs out the last attempt publishes as it is, because a day with no
 entry is worse than a day with a thin one.
+Each re-roll draws with its own seed; the first draw of the day keeps
+the date's seed, so the day's pick does not change when nothing is sent
+back.
 
 Within the pool, each candidate is weighted by `1 / count ** rarity_bias`,
 where `count` is the number of individuals eBird reports for it over that
@@ -218,7 +224,7 @@ Bird-of-the-day/
 │   ├── generate.py        # orchestrator (entry point)
 │   ├── http_client.py     # shared retry session + validated image download
 │   ├── ebird_client.py    # eBird API + species selection + taxonomy cache
-│   ├── image_fetcher.py   # eBird og:image hero, Macaulay Library API fallback
+│   ├── image_fetcher.py   # eBird og:image hero, Macaulay Library API, Wikimedia Commons
 │   ├── content_scraper.py # eBird og:description + Wikipedia + BoW
 │   ├── distribution_map.py # GBIF taxon match, density tile URL, IUCN category
 │   ├── llm_enricher.py   # optional LLM content enrichment

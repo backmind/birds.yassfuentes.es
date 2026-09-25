@@ -1,10 +1,12 @@
 """Multi-strategy image fetcher for bird species photos.
 
-Two live strategies + a fallback:
+Three live strategies + a fallback:
   1. Macaulay Library Search internal JSON API (returns assetId + photographer).
   2. eBird species page meta tags (og:image + og:image:alt). Requires a
      Session because eBird's CAS gateway needs cookies to resolve redirects.
-  3. Fallback: link to ML Search without an inline image.
+  3. Wikimedia Commons, through the Wikipedia article for the scientific
+     name: its lead image, with author and licence from the file page.
+  4. Fallback: link to ML Search without an inline image.
 """
 
 from __future__ import annotations
@@ -152,6 +154,39 @@ def _try_macaulay_api(
 
 _OG_ASSET_RE = re.compile(r"/asset/(\d+)")
 
+# The meta description eBird serves on its generic landing page. From
+# 2026-09-22 the species URL started answering the runner with that page
+# instead of the species page on most requests: no hero, and this text in
+# og:description, which the content scraper then cached as if it were the
+# species' Merlin text (140 caches in four days).
+_EBIRD_GENERIC_DESCRIPTIONS = (
+    "ebird transforms your bird sightings",
+)
+
+
+def is_ebird_species_page(soup: BeautifulSoup, species_code: str) -> bool:
+    """Whether a page fetched from ``/species/{code}`` is that species' page.
+
+    eBird can answer the species URL with its generic landing page (an
+    anti-bot interstitial or a redirect lands there). That page has meta
+    tags too, and reading them as the species' would publish eBird's
+    slogan as a description, or a hero that is not this bird. Declines
+    when the page's own canonical URL names another page, or when its
+    description is the known generic one. A page that states neither is
+    given the benefit of the doubt, as before.
+    """
+    og_desc = soup.find("meta", property="og:description")
+    desc = (og_desc.get("content") or "").strip().lower() if og_desc else ""
+    if any(desc.startswith(g) for g in _EBIRD_GENERIC_DESCRIPTIONS):
+        return False
+    code = species_code.lower()
+    og_url = soup.find("meta", property="og:url")
+    canonical = soup.find("link", rel="canonical")
+    for tag, attr in ((og_url, "content"), (canonical, "href")):
+        if tag is not None and tag.get(attr):
+            return f"/species/{code}" in tag[attr].lower()
+    return True
+
 
 def asset_id_from_url(url: str | None) -> str | None:
     """The Macaulay asset id embedded in a photo URL, if there is one.
@@ -193,6 +228,12 @@ def _try_ebird_og_image(
         return None
 
     soup = BeautifulSoup(resp.text, "html.parser")
+    if not is_ebird_species_page(soup, species_code):
+        logger.warning(
+            "eBird served a generic page instead of the species page for %s",
+            species_code,
+        )
+        return None
     og_image = soup.find("meta", property="og:image")
     if not og_image or not og_image.get("content"):
         return None
@@ -230,6 +271,89 @@ def _try_ebird_og_image(
     )
 
 
+WIKIPEDIA_API = "https://{lang}.wikipedia.org/w/api.php"
+WIKIMEDIA_LANGUAGES = ("en",)
+
+
+def _plain(html: str) -> str:
+    """Text of a Commons metadata field, which arrives as HTML."""
+    return " ".join(BeautifulSoup(html or "", "html.parser").get_text(" ").split())
+
+
+def _try_wikimedia(
+    scientific_name: str,
+    session: requests.Session,
+    size: int = DEFAULT_SIZE,
+) -> ImageResult | None:
+    """Strategy 3: the lead image of the species' Wikipedia article.
+
+    Two MediaWiki API calls, both documented and unauthenticated. The
+    first resolves the scientific name (redirects followed, as the
+    summary endpoint the content scraper uses does) and asks
+    ``pageimages`` for the article's lead file; ``pageimages`` only offers
+    freely licensed files unless told otherwise, which is what a
+    hot-linked plate needs. The second reads that file's author and
+    licence, because a Commons photograph without them cannot be shown.
+
+    This path does not go through Cornell at all, so it keeps answering
+    when eBird and Macaulay put their pages behind a bot gateway, which
+    is what they did on 2026-08-30 and 2026-09-22.
+    """
+    if not scientific_name:
+        return None
+    for lang in WIKIMEDIA_LANGUAGES:
+        api = WIKIPEDIA_API.format(lang=lang)
+        try:
+            resp = session.get(api, params={
+                "action": "query", "format": "json", "formatversion": "2",
+                "redirects": "1", "titles": scientific_name,
+                "prop": "pageimages", "piprop": "name",
+            }, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            pages = resp.json().get("query", {}).get("pages", [])
+        except (requests.RequestException, ValueError) as e:
+            logger.warning(
+                "Wikipedia %s image lookup failed for %s: %s",
+                lang, scientific_name, e,
+            )
+            continue
+        name = next((p.get("pageimage") for p in pages if p.get("pageimage")), None)
+        if not name:
+            continue
+        try:
+            resp = session.get(api, params={
+                "action": "query", "format": "json", "formatversion": "2",
+                "titles": f"File:{name}", "prop": "imageinfo",
+                "iiprop": "url|extmetadata", "iiurlwidth": str(size),
+            }, timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            pages = resp.json().get("query", {}).get("pages", [])
+        except (requests.RequestException, ValueError) as e:
+            logger.warning("Commons file info failed for %s: %s", name, e)
+            continue
+        info = next(
+            (p["imageinfo"][0] for p in pages if p.get("imageinfo")), None
+        )
+        if not info:
+            continue
+        url = info.get("thumburl") or info.get("url")
+        meta = info.get("extmetadata") or {}
+        artist = _plain(meta.get("Artist", {}).get("value", ""))
+        licence = _plain(meta.get("LicenseShortName", {}).get("value", ""))
+        if not url or not licence:
+            # No licence recorded, no licence to show: not publishable.
+            continue
+        credit = " / ".join(x for x in (artist, "Wikimedia Commons") if x)
+        return ImageResult(
+            url=url,
+            asset_id=None,
+            photographer=artist,
+            attribution=f"{credit} ({licence})",
+            search_url="",
+        )
+    return None
+
+
 def _fallback(species_code: str) -> ImageResult:
     return ImageResult(
         url=None,
@@ -247,6 +371,7 @@ def fetch_image(
     *,
     ordinal: int = 0,
     seen_asset_ids: frozenset[str] = frozenset(),
+    scientific_name: str = "",
 ) -> ImageResult:
     """Fetch the species image, prioritising eBird's curated hero.
 
@@ -261,7 +386,11 @@ def fetch_image(
        (rare; tends to happen with very recent splits or obscure
        endemics). Reliable fallback because it returns *something*
        whenever Macaulay has any photo at all.
-    3. **No image + link to ML Search** — last-resort fallback. The
+    3. **Wikimedia Commons** — the lead image of the Wikipedia article
+       for ``scientific_name``, freely licensed, credited with author and
+       licence. Reached when Cornell answers neither of the above, which
+       since its bot gateways went up is most days on a CI runner.
+    4. **No image + link to ML Search** — last-resort fallback. The
        reader can click through to find a photo manually.
 
     Earlier revisions had the order reversed (rating-first), which
@@ -299,6 +428,10 @@ def fetch_image(
         return result
     result = _try_macaulay_api(species_code, sess)
     if result is not None:
+        return result
+    result = _try_wikimedia(scientific_name, sess)
+    if result is not None:
+        result.search_url = ml_search_url(species_code)
         return result
     return _fallback(species_code)
 

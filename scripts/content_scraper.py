@@ -35,7 +35,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from scripts import distribution_map, i18n
-from scripts.image_fetcher import new_session
+from scripts.image_fetcher import is_ebird_species_page, new_session
 
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
@@ -115,6 +115,12 @@ def _fetch_ebird_og_description(
         return ""
 
     soup = BeautifulSoup(resp.text, "html.parser")
+    if not is_ebird_species_page(soup, species_code):
+        logger.warning(
+            "eBird served a generic page instead of the species page for %s",
+            species_code,
+        )
+        return ""
     og = soup.find("meta", property="og:description")
     if og and og.get("content"):
         return og["content"].strip()
