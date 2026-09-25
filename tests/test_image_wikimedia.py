@@ -61,11 +61,13 @@ class _WikiSession:
     ``lead`` es la imagen principal del artículo, ``others`` el resto de
     ficheros que usa y ``files`` los metadatos de cada fichero."""
 
-    def __init__(self, lead=_LIVE_BIRD, others=(), files=None, inat=None):
+    def __init__(self, lead=_LIVE_BIRD, others=(), files=None, inat=None,
+                 inat_photos=()):
         self.lead = lead
         self.others = list(others)
         self.files = files if files is not None else {_LIVE_BIRD: _file()}
         self.inat = inat
+        self.inat_photos = list(inat_photos)
         self.calls = []
 
     def get(self, url, params=None, timeout=None, **kwargs):
@@ -90,6 +92,10 @@ class _WikiSession:
                     page["imageinfo"] = [info]
                 pages.append(page)
             return _Resp({"query": {"pages": pages}})
+        if "api.inaturalist.org/v1/taxa/" in url:
+            return _Resp({"results": [{"id": 1, "taxon_photos": [
+                {"photo": p} for p in self.inat_photos
+            ]}]})
         if "api.inaturalist.org" in url and self.inat is not None:
             return _Resp({"results": self.inat})
         if "ebird.org/species/" in url:
@@ -100,7 +106,7 @@ class _WikiSession:
 def _taxon(name="Microeca hemixantha", licence="cc-by-nc",
            attribution="(c) Ana Pérez, some rights reserved (CC BY-NC)",
            url="https://inaturalist-open-data.s3.amazonaws.com/photos/42/medium.jpg"):
-    return {"name": name, "rank": "species", "is_active": True, "default_photo": {
+    return {"id": 1, "name": name, "rank": "species", "is_active": True, "default_photo": {
         "license_code": licence, "attribution": attribution, "medium_url": url,
     }}
 
@@ -223,6 +229,26 @@ def test_description_and_categories_are_read_too():
         assert image_fetcher._try_wikimedia("Microeca hemixantha", session) is None, extra
 
 
+def test_a_file_of_another_species_is_declined():
+    """El artículo de Microeca hemixantha usaba «SouthIslandTomtit.jpg», una
+    Petroica (2026-09-25). Fuera de la imagen principal, el fichero tiene
+    que nombrar la especie."""
+    tomtit = "SouthIslandTomtit.jpg"
+    session = _WikiSession(
+        lead=_SKIN, others=[tomtit],
+        files={_SKIN: _file(licence="CC0"), tomtit: _file()},
+    )
+    assert image_fetcher._try_wikimedia("Microeca hemixantha", session) is None
+
+    # El mismo fichero vale si su descripción o sus categorías la nombran.
+    session = _WikiSession(
+        lead=_SKIN, others=[tomtit],
+        files={_SKIN: _file(licence="CC0"),
+               tomtit: _file(Categories="Microeca hemixantha|Birds of Tanimbar")},
+    )
+    assert image_fetcher._try_wikimedia("Microeca hemixantha", session) is not None
+
+
 def test_whole_words_only():
     """«range» no excluye «orange», ni «plate» al Tucán Piquiplano, ni la
     categoría de mantenimiento «Pages with maps» a una foto geolocalizada."""
@@ -318,6 +344,25 @@ def test_inaturalist_without_a_licence_falls_through_to_commons():
     )
     assert "inaturalist" not in result.url
     assert result.url == "https://upload.wikimedia.org/900px.jpg"
+
+
+def test_inaturalist_walks_the_taxon_photos_when_the_default_is_reserved():
+    """Si la foto por defecto no tiene licencia, sirve la primera con
+    licencia entre las fotos del taxón (sopsku1 y gobfly2, 2026-09-25)."""
+    session = _WikiSession(
+        inat=[_taxon(licence=None, attribution="(c) X, all rights reserved")],
+        inat_photos=[
+            {"license_code": None, "attribution": "(c) Y, all rights reserved",
+             "medium_url": "https://static.inaturalist.org/photos/7/medium.jpg"},
+            {"license_code": "cc-by", "attribution": "(c) Zoe, some rights reserved (CC BY)",
+             "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8/square.jpg"},
+        ],
+    )
+    result = image_fetcher._try_inaturalist("Microeca hemixantha", session)
+    assert result.url == (
+        "https://inaturalist-open-data.s3.amazonaws.com/photos/8/large.jpg"
+    )
+    assert result.attribution == "Zoe / iNaturalist (CC BY)"
 
 
 def test_inaturalist_takes_only_an_exact_name():
