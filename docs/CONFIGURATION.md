@@ -152,6 +152,14 @@ backlog of broken images cannot starve the other two healers while it
 drains. Healed entries trigger a feed and site rebuild even on days when
 today's bird was already published.
 
+A photoless entry that no source can fill keeps its slot on every run
+for its whole week, and the queue is newest first, so an older one
+behind it waits. Give the photographs as many slots as there can be
+photoless entries in a week you want healed together: `backfill_limit`
+`6` gives three. The retry goes through the same sources as a new entry,
+iNaturalist and Wikimedia Commons included, so an entry the runner could
+not illustrate from Cornell usually heals on the next run.
+
 What is *not* retried matters as much. A taxon GBIF answers with an
 authoritative "no such record" is an answer rather than an outage, and
 neither is an entry still without a photograph a week after it was

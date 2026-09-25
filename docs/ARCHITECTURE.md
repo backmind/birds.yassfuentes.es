@@ -20,11 +20,14 @@ Daily run (GitHub Actions cron 07:17 UTC, or the container's own 07:00)
   │     dedup window that grows with the archive and is clamped to
   │     what the pool can supply today
   ├─ 3. Photo + photographer: eBird's curated og:image hero first,
-  │     Macaulay Library Search API second, the Wikimedia Commons
-  │     lead image of the species' Wikipedia article third (credited
-  │     with author and licence). A republication skips the hero and
-  │     walks the Macaulay list for an unused photo, falling back to
-  │     the normal order if it finds none
+  │     Macaulay Library Search API second, the iNaturalist taxon's
+  │     default photo third (Creative Commons only), and a Wikimedia
+  │     Commons photograph from the species' Wikipedia article fourth
+  │     (JPEG only, specimens, eggs, drawings, maps and stamps
+  │     declined). The last two are credited with author and licence
+  │     and hot-linked without query strings. A republication skips
+  │     the hero and walks the Macaulay list for an unused photo,
+  │     falling back to the normal order if it finds none
   ├─ 4. Description chain in the configured language:
   │     eBird Merlin → Wikipedia → policy-driven fallback
   ├─ 4b. LLM enrichment (when an LLM endpoint is configured):
@@ -224,7 +227,7 @@ Bird-of-the-day/
 │   ├── generate.py        # orchestrator (entry point)
 │   ├── http_client.py     # shared retry session + validated image download
 │   ├── ebird_client.py    # eBird API + species selection + taxonomy cache
-│   ├── image_fetcher.py   # eBird og:image hero, Macaulay Library API, Wikimedia Commons
+│   ├── image_fetcher.py   # eBird og:image hero, Macaulay Library API, iNaturalist, Wikimedia Commons
 │   ├── content_scraper.py # eBird og:description + Wikipedia + BoW
 │   ├── distribution_map.py # GBIF taxon match, density tile URL, IUCN category
 │   ├── llm_enricher.py   # optional LLM content enrichment

@@ -1,12 +1,15 @@
 """Multi-strategy image fetcher for bird species photos.
 
-Three live strategies + a fallback:
+Four live strategies + a fallback:
   1. Macaulay Library Search internal JSON API (returns assetId + photographer).
   2. eBird species page meta tags (og:image + og:image:alt). Requires a
      Session because eBird's CAS gateway needs cookies to resolve redirects.
-  3. Wikimedia Commons, through the Wikipedia article for the scientific
-     name: its lead image, with author and licence from the file page.
-  4. Fallback: link to ML Search without an inline image.
+  3. iNaturalist, through its public taxa API: the taxon's default photo,
+     when its author has put a Creative Commons licence on it.
+  4. Wikimedia Commons, through the Wikipedia article for the scientific
+     name: a photograph of a live bird from that article, with author and
+     licence from the file page.
+  5. Fallback: link to ML Search without an inline image.
 """
 
 from __future__ import annotations
@@ -16,6 +19,7 @@ import logging
 import re
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -271,8 +275,129 @@ def _try_ebird_og_image(
     )
 
 
+INATURALIST_TAXA_API = "https://api.inaturalist.org/v1/taxa"
+
+
+def _without_query(url: str) -> str:
+    """``url`` with its query string and fragment removed.
+
+    The MediaWiki API started appending ``utm_source``/``utm_campaign``
+    to the thumbnails it hands out, and the first Commons photograph this
+    site published (gobfly2, 2026-09-25) went out carrying them. The site
+    says it does not track its readers, and a hot link that reports where
+    it was embedded is tracking, whoever does the counting.
+    """
+    parts = urlsplit(url)
+    return urlunsplit((parts.scheme, parts.netloc, parts.path, "", ""))
+
+
+def _inat_licence(code: str) -> str:
+    """``cc-by-nc-sa`` as the site shows licences: ``CC BY-NC-SA``."""
+    code = code.strip().lower()
+    if code == "cc0":
+        return "CC0"
+    if code.startswith("cc-"):
+        return "CC " + code[3:].upper()
+    return code.upper()
+
+
+_INAT_ATTRIBUTION_RE = re.compile(
+    r"^\s*(?:\(c\)|©)?\s*(?P<name>.+?),\s*(?:some|all|no) rights reserved",
+    re.IGNORECASE,
+)
+
+
+def _inat_author(photo: dict) -> str:
+    """Who took an iNaturalist photo, without iNat's own "(c)".
+
+    iNaturalist writes the credit as ``(c) Name, some rights reserved
+    (CC BY-NC)``. The plate already prints a "©" and the licence goes in
+    its own parenthesis, so only the name is kept. ``attribution_name``
+    is used when the API sends it, the parsed string otherwise.
+    """
+    name = (photo.get("attribution_name") or "").strip()
+    if name:
+        return name
+    match = _INAT_ATTRIBUTION_RE.match(photo.get("attribution") or "")
+    return match.group("name").strip() if match else ""
+
+
+def _try_inaturalist(
+    scientific_name: str, session: requests.Session
+) -> ImageResult | None:
+    """Strategy 3: the default photo of the iNaturalist taxon.
+
+    One call to the public, documented, unauthenticated taxa endpoint.
+    The default photo is the one the community chose to represent the
+    taxon, taken from observations, which are overwhelmingly photographs
+    of live birds rather than of a museum drawer: Commons gave this site
+    a skin from Naturalis for gobfly2 on 2026-09-25.
+
+    Only an exact match on the scientific name is taken: ``q`` is a
+    fuzzy search, and a near neighbour's photograph under this bird's
+    name would be worse than no photograph. A photo with no licence
+    (``license_code`` null) is "all rights reserved" and is declined.
+    The rest are all Creative Commons, including the NC variants, which
+    this project can use because it is non-commercial (README). None of
+    them is modified here: the ``large`` rendition is iNaturalist's own.
+
+    ``medium`` is 500 px on the long side and ``large`` 1024; the
+    renditions differ only in that path segment.
+    """
+    if not scientific_name:
+        return None
+    try:
+        resp = session.get(INATURALIST_TAXA_API, params={
+            "q": scientific_name, "rank": "species", "per_page": "10",
+        }, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        results = resp.json().get("results", []) or []
+    except (requests.RequestException, ValueError, AttributeError) as e:
+        logger.warning("iNaturalist lookup failed for %s: %s", scientific_name, e)
+        return None
+
+    wanted = scientific_name.strip().casefold()
+    taxon = next(
+        (
+            t for t in results
+            if (t.get("name") or "").strip().casefold() == wanted
+            and t.get("is_active", True) is not False
+        ),
+        None,
+    )
+    if taxon is None:
+        logger.info("iNaturalist has no taxon named %s", scientific_name)
+        return None
+    photo = taxon.get("default_photo") or {}
+    code = (photo.get("license_code") or "").strip()
+    url = photo.get("medium_url") or photo.get("url") or ""
+    if not url:
+        return None
+    if not code:
+        logger.info(
+            "iNaturalist default photo for %s is all rights reserved",
+            scientific_name,
+        )
+        return None
+    url = _without_query(url)
+    url = re.sub(r"/(?:medium|square|small|thumb)(\.\w+)$", r"/large\1", url)
+    author = _inat_author(photo)
+    licence = _inat_licence(code)
+    credit = " / ".join(x for x in (author, "iNaturalist") if x)
+    return ImageResult(
+        url=url,
+        asset_id=None,
+        photographer=author,
+        attribution=f"{credit} ({licence})",
+        search_url="",
+    )
+
+
 WIKIPEDIA_API = "https://{lang}.wikipedia.org/w/api.php"
 WIKIMEDIA_LANGUAGES = ("en",)
+# Files looked at per article. The lead image comes first, then the rest
+# of the article's files in the order MediaWiki lists them.
+WIKIMEDIA_MAX_CANDIDATES = 20
 
 
 def _plain(html: str) -> str:
@@ -280,20 +405,119 @@ def _plain(html: str) -> str:
     return " ".join(BeautifulSoup(html or "", "html.parser").get_text(" ").split())
 
 
+# What a bird-of-the-day plate must not be. Commons files a lot of
+# museum material under the species, and an article's lead image can be
+# one of them: on 2026-09-25 gobfly2 was published with a Naturalis skin
+# ("... - bird skin specimen.jpeg"). Whole words only, so "range" does
+# not reject "orange", and "plate" only when it is a book plate
+# ("Plate 12", "plates from ..."), so the Plate-billed Mountain Toucan
+# keeps its photographs.
+_UNSUITABLE_RE = re.compile(
+    r"\b(?:"
+    r"specimens?|skins?|museums?|naturalis|taxiderm\w*"
+    r"|eggs?|clutch|skeletons?|skulls?"
+    r"|illustrations?|drawings?|paintings?|lithographs?|engravings?"
+    r"|plates?\s+(?:no\.?\s*)?(?:\d+|[ivxlcdm]+\b)|plates?\s+(?:from|of|in)\b"
+    r"|maps?|range|stamps?"
+    r")\b",
+    re.IGNORECASE,
+)
+
+# Categories MediaWiki adds for its own bookkeeping, which say nothing
+# about what the picture shows: every geotagged photograph is in "Pages
+# with maps", and that must not read as a map.
+_MAINTENANCE_CATEGORY_RE = re.compile(
+    r"^(?:(?:pages|files|media|images|items)\s+(?:with|without|missing|by|from)"
+    r"|uploaded\b|taken with\b)",
+    re.IGNORECASE,
+)
+
+
+def _unsuitable(name: str, meta: dict) -> str | None:
+    """Why a Commons file is not a photograph of a live bird, or ``None``.
+
+    Reads the file name, the description and the categories. Underscores
+    and hyphens are word separators here: the names arrive as
+    ``Naturalis_..._-_bird_skin_specimen.jpeg``.
+    """
+    description = _plain(meta.get("ImageDescription", {}).get("value", ""))
+    categories = [
+        c.strip()
+        for c in (meta.get("Categories", {}).get("value", "") or "").split("|")
+        if c.strip() and not _MAINTENANCE_CATEGORY_RE.match(c.strip())
+    ]
+    for text in (name, description, *categories):
+        match = _UNSUITABLE_RE.search(re.sub(r"[_\-]+", " ", text))
+        if match:
+            return match.group(0)
+    return None
+
+
+# A taxonomic authority, "Sclater, 1883" or "(Linnaeus, 1758)". Naturalis
+# uploads put it in the Artist field, and gobfly2 went out on 2026-09-25
+# credited to a zoologist who died in 1913.
+_AUTHORITY_RE = re.compile(r"^\(?[^\W\d][^,()]*,\s*1[789]\d\d\)?$")
+_PLACEHOLDER_RE = re.compile(
+    r"^(?:unknown|anonymous|anon\.?|unknown author|author unknown)$",
+    re.IGNORECASE,
+)
+# What ``Credit`` holds when it names a source rather than a person.
+_SOURCE_RE = re.compile(
+    r"own work|https?:|www\.|flickr|transferred|wikipedia|commons|\bsource\b",
+    re.IGNORECASE,
+)
+_URL_RE = re.compile(r"\s*\(?\s*https?://\S+?\s*\)?(?=\s|$)")
+
+
+def _commons_author(meta: dict) -> str:
+    """The person to credit for a Commons file, or ``""``.
+
+    ``Artist`` first, then ``Credit``, and neither when it reads as a
+    taxonomic authority or a placeholder. ``Credit`` is usually the
+    source ("Own work", a Flickr link) rather than a person, so it is
+    only taken when it reads as neither. A bare URL next to a name
+    ("JJ Harrison (https://...)") is dropped and the name kept. With no
+    author the plate credits "Wikimedia Commons" and the licence alone,
+    which is honest; a wrong name is not.
+    """
+    for field in ("Artist", "Credit"):
+        value = _URL_RE.sub("", _plain(meta.get(field, {}).get("value", ""))).strip()
+        if (
+            not value
+            or len(value) > 100
+            or _AUTHORITY_RE.match(value)
+            or _PLACEHOLDER_RE.match(value)
+            or (field == "Credit" and _SOURCE_RE.search(value))
+        ):
+            continue
+        return value
+    return ""
+
+
+def _is_jpeg_name(name: str) -> bool:
+    return name.lower().endswith((".jpg", ".jpeg"))
+
+
 def _try_wikimedia(
     scientific_name: str,
     session: requests.Session,
     size: int = DEFAULT_SIZE,
 ) -> ImageResult | None:
-    """Strategy 3: the lead image of the species' Wikipedia article.
+    """Strategy 4: a photograph from the species' Wikipedia article.
 
     Two MediaWiki API calls, both documented and unauthenticated. The
     first resolves the scientific name (redirects followed, as the
-    summary endpoint the content scraper uses does) and asks
-    ``pageimages`` for the article's lead file; ``pageimages`` only offers
-    freely licensed files unless told otherwise, which is what a
-    hot-linked plate needs. The second reads that file's author and
-    licence, because a Commons photograph without them cannot be shown.
+    summary endpoint the content scraper uses does) and asks for the
+    article's lead file (``pageimages``, which only offers freely
+    licensed files) and every other file it uses (``images``). The
+    second reads author, licence, description and categories for the
+    JPEGs among them, in one request.
+
+    Candidates are tried lead image first. A file is declined when it is
+    not a JPEG (range maps and status icons are SVG or PNG), when it has
+    no licence to show, or when its name, description or categories say
+    it is a specimen, an egg, a drawing, a map or a stamp. The first one
+    left is published, without the tracking parameters the API appends.
 
     This path does not go through Cornell at all, so it keeps answering
     when eBird and Macaulay put their pages behind a bot gateway, which
@@ -307,50 +531,84 @@ def _try_wikimedia(
             resp = session.get(api, params={
                 "action": "query", "format": "json", "formatversion": "2",
                 "redirects": "1", "titles": scientific_name,
-                "prop": "pageimages", "piprop": "name",
+                "prop": "pageimages|images", "piprop": "name",
+                "imlimit": "max",
             }, timeout=REQUEST_TIMEOUT)
             resp.raise_for_status()
             pages = resp.json().get("query", {}).get("pages", [])
-        except (requests.RequestException, ValueError) as e:
+        except (requests.RequestException, ValueError, AttributeError) as e:
             logger.warning(
                 "Wikipedia %s image lookup failed for %s: %s",
                 lang, scientific_name, e,
             )
             continue
-        name = next((p.get("pageimage") for p in pages if p.get("pageimage")), None)
-        if not name:
+
+        names: list[str] = []
+        for page in pages:
+            lead = page.get("pageimage")
+            if lead:
+                names.append(lead.replace("_", " "))
+            for image in page.get("images") or []:
+                title = image.get("title") or ""
+                names.append(title.split(":", 1)[-1] if ":" in title else title)
+        candidates = list(dict.fromkeys(n for n in names if _is_jpeg_name(n)))
+        candidates = candidates[:WIKIMEDIA_MAX_CANDIDATES]
+        if not candidates:
             continue
+
         try:
             resp = session.get(api, params={
                 "action": "query", "format": "json", "formatversion": "2",
-                "titles": f"File:{name}", "prop": "imageinfo",
-                "iiprop": "url|extmetadata", "iiurlwidth": str(size),
+                "titles": "|".join(f"File:{n}" for n in candidates),
+                "prop": "imageinfo", "iiprop": "url|mime|extmetadata",
+                "iiextmetadatafilter": (
+                    "Artist|Credit|LicenseShortName|ImageDescription|Categories"
+                ),
+                "iiurlwidth": str(size),
             }, timeout=REQUEST_TIMEOUT)
             resp.raise_for_status()
             pages = resp.json().get("query", {}).get("pages", [])
-        except (requests.RequestException, ValueError) as e:
-            logger.warning("Commons file info failed for %s: %s", name, e)
+        except (requests.RequestException, ValueError, AttributeError) as e:
+            logger.warning(
+                "Commons file info failed for %s: %s", scientific_name, e
+            )
             continue
-        info = next(
-            (p["imageinfo"][0] for p in pages if p.get("imageinfo")), None
-        )
-        if not info:
-            continue
-        url = info.get("thumburl") or info.get("url")
-        meta = info.get("extmetadata") or {}
-        artist = _plain(meta.get("Artist", {}).get("value", ""))
-        licence = _plain(meta.get("LicenseShortName", {}).get("value", ""))
-        if not url or not licence:
-            # No licence recorded, no licence to show: not publishable.
-            continue
-        credit = " / ".join(x for x in (artist, "Wikimedia Commons") if x)
-        return ImageResult(
-            url=url,
-            asset_id=None,
-            photographer=artist,
-            attribution=f"{credit} ({licence})",
-            search_url="",
-        )
+        infos = {
+            (p.get("title") or "").split(":", 1)[-1].replace("_", " "):
+                p["imageinfo"][0]
+            for p in pages
+            if p.get("imageinfo")
+        }
+
+        for name in candidates:
+            info = infos.get(name)
+            if not info:
+                continue
+            meta = info.get("extmetadata") or {}
+            url = info.get("thumburl") or info.get("url")
+            licence = _plain(meta.get("LicenseShortName", {}).get("value", ""))
+            reason = None
+            if info.get("mime", "image/jpeg") != "image/jpeg":
+                reason = f"not a JPEG ({info.get('mime')})"
+            elif not url or not licence:
+                # No licence recorded, no licence to show: not publishable.
+                reason = "no licence"
+            else:
+                why = _unsuitable(name, meta)
+                if why:
+                    reason = f"not a live bird ({why!r})"
+            if reason:
+                logger.info("Commons file %s declined: %s", name, reason)
+                continue
+            author = _commons_author(meta)
+            credit = " / ".join(x for x in (author, "Wikimedia Commons") if x)
+            return ImageResult(
+                url=_without_query(url),
+                asset_id=None,
+                photographer=author,
+                attribution=f"{credit} ({licence})",
+                search_url="",
+            )
     return None
 
 
@@ -386,11 +644,16 @@ def fetch_image(
        (rare; tends to happen with very recent splits or obscure
        endemics). Reliable fallback because it returns *something*
        whenever Macaulay has any photo at all.
-    3. **Wikimedia Commons** — the lead image of the Wikipedia article
+    3. **iNaturalist** — the default photo of the taxon named
+       ``scientific_name``, when it carries a Creative Commons licence.
+       Reached when Cornell answers neither of the above, which since its
+       bot gateways went up is most days on a CI runner. Ahead of Commons
+       because iNaturalist photographs are of observations, nearly
+       always of a live bird, where Commons files museum skins too.
+    4. **Wikimedia Commons** — a photograph from the Wikipedia article
        for ``scientific_name``, freely licensed, credited with author and
-       licence. Reached when Cornell answers neither of the above, which
-       since its bot gateways went up is most days on a CI runner.
-    4. **No image + link to ML Search** — last-resort fallback. The
+       licence, specimens, drawings and maps declined.
+    5. **No image + link to ML Search** — last-resort fallback. The
        reader can click through to find a photo manually.
 
     Earlier revisions had the order reversed (rating-first), which
@@ -429,10 +692,11 @@ def fetch_image(
     result = _try_macaulay_api(species_code, sess)
     if result is not None:
         return result
-    result = _try_wikimedia(scientific_name, sess)
-    if result is not None:
-        result.search_url = ml_search_url(species_code)
-        return result
+    for strategy in (_try_inaturalist, _try_wikimedia):
+        result = strategy(scientific_name, sess)
+        if result is not None:
+            result.search_url = ml_search_url(species_code)
+            return result
     return _fallback(species_code)
 
 
