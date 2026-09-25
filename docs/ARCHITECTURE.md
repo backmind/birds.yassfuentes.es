@@ -21,10 +21,12 @@ Daily run (GitHub Actions cron 07:17 UTC, or the container's own 07:00)
   │     what the pool can supply today
   ├─ 3. Photo + photographer: eBird's curated og:image hero first,
   │     Macaulay Library Search API second, the iNaturalist taxon's
-  │     default photo third (Creative Commons only), and a Wikimedia
-  │     Commons photograph from the species' Wikipedia article fourth
-  │     (JPEG only, specimens, eggs, drawings, maps and stamps
-  │     declined). The last two are credited with author and licence
+  │     default photo third (or its first licensed curated photo;
+  │     Creative Commons only), and a Wikimedia Commons photograph
+  │     from the species' Wikipedia article fourth (JPEG only;
+  │     specimens, eggs, drawings, maps and stamps declined; any file
+  │     but the lead must name the species). The last two are
+  │     credited with author and licence
   │     and hot-linked without query strings. A republication skips
   │     the hero and walks the Macaulay list for an unused photo,
   │     falling back to the normal order if it finds none

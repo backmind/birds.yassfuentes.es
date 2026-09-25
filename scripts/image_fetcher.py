@@ -369,15 +369,19 @@ def _try_inaturalist(
         logger.info("iNaturalist has no taxon named %s", scientific_name)
         return None
     photo = taxon.get("default_photo") or {}
-    code = (photo.get("license_code") or "").strip()
-    url = photo.get("medium_url") or photo.get("url") or ""
-    if not url:
-        return None
-    if not code:
+    if not (photo.get("license_code") or "").strip():
+        # The default photo of Stercorarius maccormicki and of Microeca
+        # hemixantha was "all rights reserved" on 2026-09-25, which left
+        # both to Commons. The taxon usually has other photos curated
+        # alongside it; the first one with a licence will do.
         logger.info(
             "iNaturalist default photo for %s is all rights reserved",
             scientific_name,
         )
+        photo = _licensed_taxon_photo(taxon.get("id"), session) or {}
+    code = (photo.get("license_code") or "").strip()
+    url = photo.get("medium_url") or photo.get("url") or ""
+    if not url or not code:
         return None
     url = _without_query(url)
     url = re.sub(r"/(?:medium|square|small|thumb)(\.\w+)$", r"/large\1", url)
@@ -391,6 +395,37 @@ def _try_inaturalist(
         attribution=f"{credit} ({licence})",
         search_url="",
     )
+
+
+def _licensed_taxon_photo(
+    taxon_id: int | str | None, session: requests.Session
+) -> dict | None:
+    """The first licensed photo among a taxon's curated photos.
+
+    The search endpoint only carries the default photo; the taxon's own
+    record (``/v1/taxa/{id}``) lists every photo curated for it, in the
+    order the community ranked them, under ``taxon_photos``.
+    """
+    if not taxon_id:
+        return None
+    try:
+        resp = session.get(
+            f"{INATURALIST_TAXA_API}/{taxon_id}", timeout=REQUEST_TIMEOUT
+        )
+        resp.raise_for_status()
+        results = resp.json().get("results", []) or []
+    except (requests.RequestException, ValueError, AttributeError) as e:
+        logger.warning("iNaturalist taxon %s failed: %s", taxon_id, e)
+        return None
+    for taxon in results:
+        for entry in taxon.get("taxon_photos") or []:
+            photo = (entry or {}).get("photo") or {}
+            if (photo.get("license_code") or "").strip() and (
+                photo.get("medium_url") or photo.get("url")
+            ):
+                return photo
+    logger.info("iNaturalist has no licensed photo for taxon %s", taxon_id)
+    return None
 
 
 WIKIPEDIA_API = "https://{lang}.wikipedia.org/w/api.php"
@@ -494,6 +529,29 @@ def _commons_author(meta: dict) -> str:
     return ""
 
 
+def _names_species(name: str, meta: dict, scientific_name: str) -> bool:
+    """Whether a Commons file says it shows ``scientific_name``.
+
+    An article uses files of other birds too: relatives, look-alikes,
+    the genus. On 2026-09-25 the Microeca hemixantha article offered
+    "SouthIslandTomtit.jpg", a Petroica. The lead image is the article's
+    own choice and is trusted; any other file has to carry the binomial
+    in its name, description or categories.
+    """
+    wanted = " ".join(scientific_name.split()).casefold()
+    if not wanted:
+        return False
+    fields = (
+        name,
+        _plain(meta.get("ImageDescription", {}).get("value", "")),
+        meta.get("Categories", {}).get("value", "") or "",
+    )
+    return any(
+        wanted in " ".join(re.sub(r"[_\-]+", " ", f).split()).casefold()
+        for f in fields
+    )
+
+
 def _is_jpeg_name(name: str) -> bool:
     return name.lower().endswith((".jpg", ".jpeg"))
 
@@ -544,10 +602,12 @@ def _try_wikimedia(
             continue
 
         names: list[str] = []
+        leads: set[str] = set()
         for page in pages:
             lead = page.get("pageimage")
             if lead:
                 names.append(lead.replace("_", " "))
+                leads.add(lead.replace("_", " "))
             for image in page.get("images") or []:
                 title = image.get("title") or ""
                 names.append(title.split(":", 1)[-1] if ":" in title else title)
@@ -593,6 +653,10 @@ def _try_wikimedia(
             elif not url or not licence:
                 # No licence recorded, no licence to show: not publishable.
                 reason = "no licence"
+            elif name not in leads and not _names_species(
+                name, meta, scientific_name
+            ):
+                reason = "does not name this species"
             else:
                 why = _unsuitable(name, meta)
                 if why:
