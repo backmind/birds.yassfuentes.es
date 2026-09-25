@@ -1,0 +1,16 @@
+{
+  "description": "La petroica pechigrís es una especie de ave de la familia de la petroica de Australasia, Petroicidae, originaria de Australia. Descrito por John Gould en 1838, la pechoica petigris y sus parientes australianos no están estrechamente relacionados con los petirrojos europeos o estadounidenses, pero parecen ser una rama primitiva del grupo de pájaros cantores Passerida. Mide entre 13,5 y 15,5 cm de largo, tiene las partes superiores grises y el pecho y la cabeza del mismo color, interrumpidos por vetas blanquecinas cerca del pico y debajo del ojo, con un llamativo vientre amarillo. Los sexos son similares en apariencia. Se reconocen dos subespecies: subespecie griseogularis, que tiene una rabadilla amarilla, y subespecie rosinae, con su respectiva rabadilla color oliva.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La petroica pechigrís es una especie de ave de la familia de la petroica de Australasia, Petroicidae, originaria de Australia. Descrito por John Gould en 1838, la pechoica petigris y sus parientes australianos no están estrechamente relacionados con los petirrojos europeos o estadounidenses, pero parecen ser una rama primitiva del grupo de pájaros cantores Passerida. Mide entre 13,5 y 15,5 cm de largo, tiene las partes superiores grises y el pecho y la cabeza del mismo color, interrumpidos por vetas blanquecinas cerca del pico y debajo del ojo, con un llamativo vientre amarillo. Los sexos son similares en apariencia. Se reconocen dos subespecies: subespecie griseogularis, que tiene una rabadilla amarilla, y subespecie rosinae, con su respectiva rabadilla color oliva.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Eopsaltria_griseogularis",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489305,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489305&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22704853"
+}

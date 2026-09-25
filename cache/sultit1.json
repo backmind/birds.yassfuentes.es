@@ -1,0 +1,16 @@
+{
+  "description": "El carbonero sultán es una especie de ave paseriforme de la familia Paridae propia del sureste de Asia. Este pájaro mide aproximadamente 20 cm de largo, y posee una distintiva cresta amarilla, pico oscuro, la parte superior de su plumaje es negra y la inferior es amarillo. Ambos sexos son similares. En la hembra el plumaje de su parte superior es de un tono negro verdoso y la es garganta amarillenta. Los juveniles son de colores más apagados que el adulto y su cresta es más corta. Es el único miembro del género monotípico Melanochlora, que es bastante distinto de los carboneros sultán, siendo su pariente más cercano Sylviparus.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El carbonero sultán es una especie de ave paseriforme de la familia Paridae propia del sureste de Asia. Este pájaro mide aproximadamente 20 cm de largo, y posee una distintiva cresta amarilla, pico oscuro, la parte superior de su plumaje es negra y la inferior es amarillo. Ambos sexos son similares. En la hembra el plumaje de su parte superior es de un tono negro verdoso y la es garganta amarillenta. Los juveniles son de colores más apagados que el adulto y su cresta es más corta. Es el único miembro del género monotípico Melanochlora, que es bastante distinto de los carboneros sultán, siendo su pariente más cercano Sylviparus.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Melanochlora_sultanea",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2487922,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2487922&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22712001"
+}

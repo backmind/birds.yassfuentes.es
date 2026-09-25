@@ -1,0 +1,16 @@
+{
+  "description": "Eopsaltria georgiana es una especie de ave paseriformes, perteneciente a la familia Petroicidae, del género Eopsaltria.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "Eopsaltria georgiana es una especie de ave paseriformes, perteneciente a la familia Petroicidae, del género Eopsaltria.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Eopsaltria_georgiana",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489302,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489302&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22704860"
+}

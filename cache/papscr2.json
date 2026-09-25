@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "description_source": "",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "",
+  "wikipedia_url": "https://en.wikipedia.org/wiki/Papuan_scrub_robin",
+  "wikipedia_language": "en",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 8014229,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8014229&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103737970"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El picatartes cuelligrís es una especie de ave mediana de largo cuello y cola, perteneciente a la familia Picathartidae. No se han reconocido subespecies, aunque algunos creen que forme una superespecie con el picatartes cuelliblanco.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Gray-necked Rockfowl es un ave terrestre única que se caracteriza por su cabeza desnuda y colorida, sus largas patas y sus hábitos especializados de nidificación. Su distribución está restringida al suroeste de Camerún, el sureste de Nigeria, el noreste de Gabón y Guinea Ecuatorial, con registros recientes en la República del Congo y la República Centroafricana. La especie habita terrenos escarpados y rocosos dentro de las selvas tropicales de tierras bajas y submontanas, donde busca en el suelo del bosque una variedad de invertebrados y pequeños vertebrados. Esta ave roquera destaca por sus requisitos de hábitat muy específicos, sobre todo para anidar. Construye nidos de barro en superficies verticales de cuevas, en salientes de rocas o en grandes peñascos, a menudo en pequeñas colonias. Este comportamiento a la hora de anidar lo diferencia de muchas otras especies de paseriformes y lo ha convertido en objeto de interés para investigadores y conservacionistas. La cría suele tener lugar durante la temporada reproductiva, con un tamaño de puesta de dos huevos. La especie muestra algunas evidencias de comportamientos de crianza cooperativa, con miembros de la colonia que potencialmente ayudan en la incubación y crianza de los pichones.",
+  "taxonomy": {},
+  "wikipedia_summary": "El picatartes cuelligrís es una especie de ave mediana de largo cuello y cola, perteneciente a la familia Picathartidae. No se han reconocido subespecies, aunque algunos creen que forme una superespecie con el picatartes cuelliblanco.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Picathartes_oreas",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2482631,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482631&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22708119"
+}

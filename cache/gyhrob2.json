@@ -1,0 +1,16 @@
+{
+  "description": "La petroica cabecigrís es una especie de ave paseriforme de la familia Petroicidae endémica del noreste de Queensland, Australia.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La petroica cabecigrís es una especie de ave paseriforme de la familia Petroicidae endémica del noreste de Queensland, Australia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Heteromyias_cinereifrons",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489269,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489269&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103753555"
+}

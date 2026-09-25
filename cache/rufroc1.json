@@ -1,0 +1,16 @@
+{
+  "description": "El saltarrocas del Cabo es una especie de ave paseriforme de la familia Chaetopidae endémica del fynbos de montaña del sur de Sudáfrica.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Cape Rockjumper es uno de los endemismos más buscados y carismáticos de Sudáfrica. Es una de las ocho aves endémicas (siete paseriformes y una codorniz botonera) de la Región Florística del Cabo, denominada coloquialmente fynbos (véase Distribución y Hábitat ). El Cape Rockjumper está inextricablemente ligado a su hábitat de fynbos de montaña y es una especie clave dentro de los fynbos de montaña. Dado que las especies fuertemente asociadas a un tipo de hábitat concreto pueden ser indicadores útiles del propio hábitat ( 1 Carignan, V., and M.-A. Villard (2002) Selecting indicator species to monitor ecological integrity: a review. Environmental Monitoring and Assessment 78: 45-61. Close ), puede servir como especie indicadora de la salud general y de la pérdida de biodiversidad en el propio fynbos.",
+  "taxonomy": {},
+  "wikipedia_summary": "El saltarrocas del Cabo es una especie de ave paseriforme de la familia Chaetopidae endémica del fynbos de montaña del sur de Sudáfrica.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Chaetops_frenatus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2482634,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482634&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22708094"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "En los confines más remotos del archipiélago indonesio, donde las islas Tanimbar emergen sobre las aguas tropicales, habita una pequeña joya alada: la petroica de las Tanimbar (Microeca hemixantha). Esta singular ave paseriforme, perteneciente a la familia Petroicidae, encuentra su hogar exclusivo en las selvas húmedas de tierras bajas y los manglares de este enclave insular. Dotada de un porte menudo y vivaz, la petroica de las Tanimbar destaca por el vivo contraste de su plumaje, donde los matices verde oliva del dorso se funden con un vientre de un amarillo dorado resplandeciente. Con la paciencia propia de los cazadores de emboscada, permanece posada en ramas estratégicas, escudriñando con atención el entorno antes de lanzarse en rápidos y precisos vuelos para capturar invertebrados entre la vegetación.\n\nEl aislamiento evolutivo de este archipiélago ha convertido a la petroica de las Tanimbar en un endemismo estricto de enorme valor biológico. En su hábitat natural, desempeña un papel ecológico esencial como consumidora de insectos, contribuyendo al control natural de sus poblaciones en el ecosistema forestal. Su presencia en un territorio tan acotado ilustra de forma elocuente los delicados procesos de especiación que ocurren en las islas, donde cada rincón del bosque alberga formas de vida únicas adaptadas a nichos ecológicos muy concretos.",
+  "identification": [
+    "Pecho y vientre teñidos de un llamativo color amarillo dorado.",
+    "Partes superiores y dorso con tonalidades verde oliva y parduscas.",
+    "Silueta compacta y pico fino y oscuro adecuado para una dieta insectívora.",
+    "Costumbre de posarse erguida en ramas intermedias o bajas para vigilar a sus presas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-25T07:58:03Z"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El herrerillo modesto es una especie de ave paseriforme de la familia Paridae propia de Asia. Es la única especie del género Sylviparus.",
+  "description_source": "wikipedia",
+  "bow_intro": "C y E del Himalaya, NE de la India (colinas del S de Assam hasta Nagaland y Manipur), N, O y EE de Myanmar, SC y EE de China (EE del Tíbet, Yunnan, E de Sichuan y Guizhou; también NW de Fujian y SO de Zhejiang), NW de Tailandia, N y EE de Laos y N y SC de Vietnam (W de Tonkín, S de Annam).",
+  "taxonomy": {},
+  "wikipedia_summary": "El herrerillo modesto es una especie de ave paseriforme de la familia Paridae propia de Asia. Es la única especie del género Sylviparus.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Sylviparus_modestus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2487885,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2487885&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22711998"
+}

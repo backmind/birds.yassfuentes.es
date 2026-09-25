@@ -1,0 +1,16 @@
+{
+  "description": "La petroica limón es una especie de ave paseriforme de la familia Petroicidae propia de Nueva Guinea y el norte de Australia.",
+  "description_source": "wikipedia",
+  "bow_intro": "Nota taxonómica: Terrón. Esta cuenta es una combinación de múltiples cuentas de especies publicadas originalmente en HBW Alive. Ese contenido se ha combinado y etiquetado aquí a nivel de subespecie. En el futuro crearemos una cuenta más unificada para este taxón parental. Por favor, considere contribuir con su experiencia para actualizar esta cuenta.",
+  "taxonomy": {},
+  "wikipedia_summary": "La petroica limón es una especie de ave paseriforme de la familia Petroicidae propia de Nueva Guinea y el norte de Australia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Microeca_flavigaster",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2489293,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2489293&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103736933"
+}

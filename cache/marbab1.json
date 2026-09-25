@@ -1,0 +1,16 @@
+{
+  "description": "La zordala colilarga es una especie de ave paseriforme de la familia Eupetidae que habita en el suelo de los bosques primarios en la península malaya, Sumatra y Borneo, relacionada de forma lejana con las aves australianas semejantes a cuervos. Sus poblaciones se han reducido mucho porque la mayor parte de los bosques primarios de las tierras bajas han sido talados, y los bosques secundarios suelen tener vegetación de sotobosque muy densa o no ofrece suficiente sombra como para ser favorable para la especie. Sin embargo, es aún localmente común en los bosques talados o en los bosques de laderas de colinas, y probablemente no está en peligro inmediato de extinción.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La zordala colilarga es una especie de ave paseriforme de la familia Eupetidae que habita en el suelo de los bosques primarios en la península malaya, Sumatra y Borneo, relacionada de forma lejana con las aves australianas semejantes a cuervos. Sus poblaciones se han reducido mucho porque la mayor parte de los bosques primarios de las tierras bajas han sido talados, y los bosques secundarios suelen tener vegetación de sotobosque muy densa o no ofrece suficiente sombra como para ser favorable para la especie. Sin embargo, es aún localmente común en los bosques talados o en los bosques de laderas de colinas, y probablemente no está en peligro inmediato de extinción.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Eupetes_macrocerus",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2495050,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2495050&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22705375"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "La elminia ventriblanca es una especie de ave paseriforme de la familia Stenostiridae propia de las montañas del golfo de Guinea y los Grandes Lagos de África.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La elminia ventriblanca es una especie de ave paseriforme de la familia Stenostiridae propia de las montañas del golfo de Guinea y los Grandes Lagos de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Elminia_albiventris",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 7342164,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=7342164&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22707043"
+}

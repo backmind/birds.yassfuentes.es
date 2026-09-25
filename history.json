@@ -1502,6 +1502,15 @@
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/613855973/900",
       "photographer": "Andrew Spencer",
       "attribution": "Andrew Spencer / Macaulay Library"
+    },
+    {
+      "speciesCode": "gobfly2",
+      "comName": "Petroica de las Tanimbar",
+      "sciName": "Microeca hemixantha",
+      "date": "2026-09-25",
+      "imageUrl": null,
+      "photographer": "",
+      "attribution": "Macaulay Library / Cornell Lab of Ornithology"
     }
   ]
 }

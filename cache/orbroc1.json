@@ -1,0 +1,16 @@
+{
+  "description": "El saltarrocas del Drakensberg es una especie de ave paseriforme de la familia Chaetopidae endémica de los herbazales alpinos y roquedales de las montañas Drakensberg, en el sudeste de Sudáfrica. Junto al saltarrocas del Cabo son los dos únicos miembros vivos de la familia Chaetopidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El saltarrocas del Drakensberg es una especie de ave paseriforme de la familia Chaetopidae endémica de los herbazales alpinos y roquedales de las montañas Drakensberg, en el sudeste de Sudáfrica. Junto al saltarrocas del Cabo son los dos únicos miembros vivos de la familia Chaetopidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Chaetops_aurantius",
+  "wikipedia_language": "es",
+  "fallback_text": "eBird transforms your bird sightings into science and conservation. Plan trips, find birds, track your lists, explore range maps and bird migration—all free.",
+  "fallback_language": "en",
+  "gbif_taxon_key": 2482635,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482635&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22708101"
+}
