@@ -21,13 +21,19 @@ Daily run (GitHub Actions cron 07:17 UTC, or the container's own 07:00)
   │     what the pool can supply today
   ├─ 3. Photo + photographer: eBird's curated og:image hero first,
   │     Macaulay Library Search API second, the iNaturalist taxon's
-  │     default photo third (Creative Commons only), and a Wikimedia
-  │     Commons photograph from the species' Wikipedia article fourth
-  │     (JPEG only, specimens, eggs, drawings, maps and stamps
-  │     declined). The last two are credited with author and licence
+  │     default photo third (or its first licensed curated photo;
+  │     Creative Commons only), and a Wikimedia Commons photograph
+  │     from the species' Wikipedia article fourth (JPEG only;
+  │     specimens, eggs, drawings, maps and stamps declined; any file
+  │     but the lead must name the species). The last two are
+  │     credited with author and licence
   │     and hot-linked without query strings. A republication skips
   │     the hero and walks the Macaulay list for an unused photo,
-  │     falling back to the normal order if it finds none
+  │     falling back to the normal order if it finds none. Cornell
+  │     has kept both of its hosts behind a proof-of-work bot gate
+  │     (Anubis) since 2026-08-30 (Macaulay) and 2026-09-22 (eBird);
+  │     the gate is recognised and reported once per run, never
+  │     passed, so today the last two sources are the ones that answer
   ├─ 4. Description chain in the configured language:
   │     eBird Merlin → Wikipedia → policy-driven fallback
   ├─ 4b. LLM enrichment (when an LLM endpoint is configured):

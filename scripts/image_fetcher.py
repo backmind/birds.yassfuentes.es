@@ -99,6 +99,45 @@ def _attribution(photographer: str) -> str:
 
 MACAULAY_LOOKAHEAD = 5
 
+# Cornell put Anubis, a proof-of-work gate against crawlers, in front of
+# search.macaulaylibrary.org on 2026-08-30 and in front of ebird.org on
+# 2026-09-22. Whatever the User-Agent, every request gets a 200 carrying
+# an HTML challenge that only a browser running JavaScript can pass; for
+# ebird.org that page even carries eBird's generic meta description, which
+# is what the "generic page" detector was catching. Gating the site is the
+# owner's decision, so this code does not try to pass the challenge: it
+# recognises it, says so once per run and host, and lets the sources that
+# do answer take over. The requests are still made, so the strategies come
+# back by themselves the day the gate is lifted.
+_BOT_GATE_MARKS = (
+    "making sure you're not a bot",
+    "making sure you&#39;re not a bot",
+    "anubis",
+)
+_bot_gates_reported: set[str] = set()
+
+
+def is_bot_gate(text: str) -> bool:
+    """Whether an HTML body is a bot-gate challenge rather than content."""
+    head = (text or "")[:4096].lower()
+    return any(mark in head for mark in _BOT_GATE_MARKS)
+
+
+def _report_bot_gate(host: str, species_code: str) -> None:
+    """Log the gate as a warning the first time a host shows it, then as debug."""
+    if host in _bot_gates_reported:
+        logger.debug("%s is behind Cornell's bot gate; skipped for %s", host, species_code)
+        return
+    _bot_gates_reported.add(host)
+    logger.warning(
+        "%s answers with Cornell's bot gate (Anubis) instead of content "
+        "(seen for %s); its strategy yields to iNaturalist and Commons "
+        "for this run",
+        host,
+        species_code,
+    )
+
+
 
 def _try_macaulay_api(
     species_code: str,
@@ -124,15 +163,19 @@ def _try_macaulay_api(
     try:
         resp = session.get(url, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
+    except requests.RequestException as e:
+        logger.warning("ML search API unavailable for %s: %s", species_code, e)
+        return None
+    if is_bot_gate(getattr(resp, "text", "")):
+        _report_bot_gate("search.macaulaylibrary.org", species_code)
+        return None
+    try:
         data = resp.json()
-    except (requests.RequestException, ValueError) as e:
+    except ValueError as e:
         # Not debug: this strategy is the only one that can find a
         # photograph eBird has not curated, and the only one that can find
         # a *different* photograph for a republication. When it stops
         # answering, both features go quiet with nothing to show for it.
-        # Macaulay put an anti-bot gateway in front of this endpoint on
-        # 2026-08-30, which arrives as a 200 carrying an HTML challenge,
-        # so the JSON parse is what fails and the message is worth having.
         logger.warning("ML search API unavailable for %s: %s", species_code, e)
         return None
 
@@ -231,6 +274,9 @@ def _try_ebird_og_image(
         logger.debug("eBird species page failed for %s: %s", species_code, e)
         return None
 
+    if is_bot_gate(resp.text):
+        _report_bot_gate("ebird.org", species_code)
+        return None
     soup = BeautifulSoup(resp.text, "html.parser")
     if not is_ebird_species_page(soup, species_code):
         logger.warning(
@@ -369,15 +415,19 @@ def _try_inaturalist(
         logger.info("iNaturalist has no taxon named %s", scientific_name)
         return None
     photo = taxon.get("default_photo") or {}
-    code = (photo.get("license_code") or "").strip()
-    url = photo.get("medium_url") or photo.get("url") or ""
-    if not url:
-        return None
-    if not code:
+    if not (photo.get("license_code") or "").strip():
+        # The default photo of Stercorarius maccormicki and of Microeca
+        # hemixantha was "all rights reserved" on 2026-09-25, which left
+        # both to Commons. The taxon usually has other photos curated
+        # alongside it; the first one with a licence will do.
         logger.info(
             "iNaturalist default photo for %s is all rights reserved",
             scientific_name,
         )
+        photo = _licensed_taxon_photo(taxon.get("id"), session) or {}
+    code = (photo.get("license_code") or "").strip()
+    url = photo.get("medium_url") or photo.get("url") or ""
+    if not url or not code:
         return None
     url = _without_query(url)
     url = re.sub(r"/(?:medium|square|small|thumb)(\.\w+)$", r"/large\1", url)
@@ -391,6 +441,37 @@ def _try_inaturalist(
         attribution=f"{credit} ({licence})",
         search_url="",
     )
+
+
+def _licensed_taxon_photo(
+    taxon_id: int | str | None, session: requests.Session
+) -> dict | None:
+    """The first licensed photo among a taxon's curated photos.
+
+    The search endpoint only carries the default photo; the taxon's own
+    record (``/v1/taxa/{id}``) lists every photo curated for it, in the
+    order the community ranked them, under ``taxon_photos``.
+    """
+    if not taxon_id:
+        return None
+    try:
+        resp = session.get(
+            f"{INATURALIST_TAXA_API}/{taxon_id}", timeout=REQUEST_TIMEOUT
+        )
+        resp.raise_for_status()
+        results = resp.json().get("results", []) or []
+    except (requests.RequestException, ValueError, AttributeError) as e:
+        logger.warning("iNaturalist taxon %s failed: %s", taxon_id, e)
+        return None
+    for taxon in results:
+        for entry in taxon.get("taxon_photos") or []:
+            photo = (entry or {}).get("photo") or {}
+            if (photo.get("license_code") or "").strip() and (
+                photo.get("medium_url") or photo.get("url")
+            ):
+                return photo
+    logger.info("iNaturalist has no licensed photo for taxon %s", taxon_id)
+    return None
 
 
 WIKIPEDIA_API = "https://{lang}.wikipedia.org/w/api.php"
@@ -494,6 +575,29 @@ def _commons_author(meta: dict) -> str:
     return ""
 
 
+def _names_species(name: str, meta: dict, scientific_name: str) -> bool:
+    """Whether a Commons file says it shows ``scientific_name``.
+
+    An article uses files of other birds too: relatives, look-alikes,
+    the genus. On 2026-09-25 the Microeca hemixantha article offered
+    "SouthIslandTomtit.jpg", a Petroica. The lead image is the article's
+    own choice and is trusted; any other file has to carry the binomial
+    in its name, description or categories.
+    """
+    wanted = " ".join(scientific_name.split()).casefold()
+    if not wanted:
+        return False
+    fields = (
+        name,
+        _plain(meta.get("ImageDescription", {}).get("value", "")),
+        meta.get("Categories", {}).get("value", "") or "",
+    )
+    return any(
+        wanted in " ".join(re.sub(r"[_\-]+", " ", f).split()).casefold()
+        for f in fields
+    )
+
+
 def _is_jpeg_name(name: str) -> bool:
     return name.lower().endswith((".jpg", ".jpeg"))
 
@@ -544,10 +648,12 @@ def _try_wikimedia(
             continue
 
         names: list[str] = []
+        leads: set[str] = set()
         for page in pages:
             lead = page.get("pageimage")
             if lead:
                 names.append(lead.replace("_", " "))
+                leads.add(lead.replace("_", " "))
             for image in page.get("images") or []:
                 title = image.get("title") or ""
                 names.append(title.split(":", 1)[-1] if ":" in title else title)
@@ -593,6 +699,10 @@ def _try_wikimedia(
             elif not url or not licence:
                 # No licence recorded, no licence to show: not publishable.
                 reason = "no licence"
+            elif name not in leads and not _names_species(
+                name, meta, scientific_name
+            ):
+                reason = "does not name this species"
             else:
                 why = _unsuitable(name, meta)
                 if why:
