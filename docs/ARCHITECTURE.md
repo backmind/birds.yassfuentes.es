@@ -29,7 +29,11 @@ Daily run (GitHub Actions cron 07:17 UTC, or the container's own 07:00)
   │     credited with author and licence
   │     and hot-linked without query strings. A republication skips
   │     the hero and walks the Macaulay list for an unused photo,
-  │     falling back to the normal order if it finds none
+  │     falling back to the normal order if it finds none. Cornell
+  │     has kept both of its hosts behind a proof-of-work bot gate
+  │     (Anubis) since 2026-08-30 (Macaulay) and 2026-09-22 (eBird);
+  │     the gate is recognised and reported once per run, never
+  │     passed, so today the last two sources are the ones that answer
   ├─ 4. Description chain in the configured language:
   │     eBird Merlin → Wikipedia → policy-driven fallback
   ├─ 4b. LLM enrichment (when an LLM endpoint is configured):

@@ -35,7 +35,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from scripts import distribution_map, i18n
-from scripts.image_fetcher import is_ebird_species_page, new_session
+from scripts.image_fetcher import is_bot_gate, is_ebird_species_page, new_session
 
 if TYPE_CHECKING:
     from scripts.i18n import Catalog
@@ -114,6 +114,9 @@ def _fetch_ebird_og_description(
         )
         return ""
 
+    if is_bot_gate(resp.text):
+        logger.info("ebird.org is behind Cornell's bot gate; no Merlin text for %s", species_code)
+        return ""
     soup = BeautifulSoup(resp.text, "html.parser")
     if not is_ebird_species_page(soup, species_code):
         logger.warning(

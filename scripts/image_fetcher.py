@@ -99,6 +99,45 @@ def _attribution(photographer: str) -> str:
 
 MACAULAY_LOOKAHEAD = 5
 
+# Cornell put Anubis, a proof-of-work gate against crawlers, in front of
+# search.macaulaylibrary.org on 2026-08-30 and in front of ebird.org on
+# 2026-09-22. Whatever the User-Agent, every request gets a 200 carrying
+# an HTML challenge that only a browser running JavaScript can pass; for
+# ebird.org that page even carries eBird's generic meta description, which
+# is what the "generic page" detector was catching. Gating the site is the
+# owner's decision, so this code does not try to pass the challenge: it
+# recognises it, says so once per run and host, and lets the sources that
+# do answer take over. The requests are still made, so the strategies come
+# back by themselves the day the gate is lifted.
+_BOT_GATE_MARKS = (
+    "making sure you're not a bot",
+    "making sure you&#39;re not a bot",
+    "anubis",
+)
+_bot_gates_reported: set[str] = set()
+
+
+def is_bot_gate(text: str) -> bool:
+    """Whether an HTML body is a bot-gate challenge rather than content."""
+    head = (text or "")[:4096].lower()
+    return any(mark in head for mark in _BOT_GATE_MARKS)
+
+
+def _report_bot_gate(host: str, species_code: str) -> None:
+    """Log the gate as a warning the first time a host shows it, then as debug."""
+    if host in _bot_gates_reported:
+        logger.debug("%s is behind Cornell's bot gate; skipped for %s", host, species_code)
+        return
+    _bot_gates_reported.add(host)
+    logger.warning(
+        "%s answers with Cornell's bot gate (Anubis) instead of content "
+        "(seen for %s); its strategy yields to iNaturalist and Commons "
+        "for this run",
+        host,
+        species_code,
+    )
+
+
 
 def _try_macaulay_api(
     species_code: str,
@@ -124,15 +163,19 @@ def _try_macaulay_api(
     try:
         resp = session.get(url, timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
+    except requests.RequestException as e:
+        logger.warning("ML search API unavailable for %s: %s", species_code, e)
+        return None
+    if is_bot_gate(getattr(resp, "text", "")):
+        _report_bot_gate("search.macaulaylibrary.org", species_code)
+        return None
+    try:
         data = resp.json()
-    except (requests.RequestException, ValueError) as e:
+    except ValueError as e:
         # Not debug: this strategy is the only one that can find a
         # photograph eBird has not curated, and the only one that can find
         # a *different* photograph for a republication. When it stops
         # answering, both features go quiet with nothing to show for it.
-        # Macaulay put an anti-bot gateway in front of this endpoint on
-        # 2026-08-30, which arrives as a 200 carrying an HTML challenge,
-        # so the JSON parse is what fails and the message is worth having.
         logger.warning("ML search API unavailable for %s: %s", species_code, e)
         return None
 
@@ -231,6 +274,9 @@ def _try_ebird_og_image(
         logger.debug("eBird species page failed for %s: %s", species_code, e)
         return None
 
+    if is_bot_gate(resp.text):
+        _report_bot_gate("ebird.org", species_code)
+        return None
     soup = BeautifulSoup(resp.text, "html.parser")
     if not is_ebird_species_page(soup, species_code):
         logger.warning(
