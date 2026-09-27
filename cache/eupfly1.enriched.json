@@ -1,0 +1,11 @@
+{
+  "prose": "El Papamoscas Cerrojillo (Ficedula hypoleuca) es una pequeña y entrañable ave paseriforme de la familia Muscicapidae que se extiende por la mayor parte del Viejo Mundo. Durante la época de reproducción, habita en una amplia variedad de bosques caducifolios, plantaciones y claros soleados, a menudo ligado a árboles maduros con cavidades naturales o a la presencia de cajas nido en asentamientos humanos de baja densidad. Su comportamiento de caza es un despliegue de agilidad: desde un posadero discreto, con frecuencia cerca de las copas de los árboles, vigila pacientemente hasta detectar un insecto en el aire, lanzándose en una rápida y precisa salida aérea para capturarlo antes de retornar a su atalaya, si bien no duda en descender al suelo para atrapar pequeños artrópodos.\n\nCon una población europea estimada entre veinticuatro y treinta y nueve millones de ejemplares, este vivaz migrador desempeña un valioso papel en el control de insectos forestales. Su biología evolutiva revela detalles fascinantes: actualmente se reconocen tres subespecies (la nominal F. h. hypoleuca, F. h. sibirica en Siberia y F. h. iberiae en la península ibérica), y guarda un estrecho parentesco con el Papamoscas del Atlas (Ficedula speculigera). Asimismo, en las zonas de Europa donde su área de distribución coincide con la del Papamoscas Acollarado (Ficedula albicollis), ambas especies se hibridan con frecuencia, mostrando la naturaleza fluida y dinámica de estas aves.",
+  "identification": [
+    "Captura insectos en vuelo mediante rápidas maniobras acrobáticas desde posaderos discretos.",
+    "Nidifica en cavidades arbóreas y acepta de buen grado las cajas nido instaladas por el ser humano.",
+    "Frecuenta las copas altas, claros y bordes soleados de bosques caducifolios y plantaciones.",
+    "Se alimenta tanto de insectos voladores como de pequeños artrópodos capturados en el suelo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-27T08:19:06Z"
+}

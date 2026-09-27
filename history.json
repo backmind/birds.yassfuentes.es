@@ -1520,6 +1520,15 @@
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg/960px-2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg",
       "photographer": "stevem4560",
       "attribution": "stevem4560 / Wikimedia Commons (CC BY 4.0)"
+    },
+    {
+      "speciesCode": "eupfly1",
+      "comName": "Papamoscas Cerrojillo",
+      "sciName": "Ficedula hypoleuca",
+      "date": "2026-09-27",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/185217056/large.jpeg",
+      "photographer": "Matthieu Gauvain",
+      "attribution": "Matthieu Gauvain / iNaturalist (CC BY-NC)"
     }
   ]
 }

@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sat, 26 Sep 2026 07:48:23 +0000</pubDate>
+    <pubDate>Sun, 27 Sep 2026 08:17:51 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Papamoscas Cerrojillo (Ficedula hypoleuca)</title>
+      <link>https://birds.yassfuentes.es/birds/eupfly1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-eupfly1-2026-09-27</guid>
+      <pubDate>Sun, 27 Sep 2026 08:17:51 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/185217056/large.jpeg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Matthieu Gauvain / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/185217056/large.jpeg" />
+      <content:encoded><![CDATA[<p><small>№ 170 · 2026 · 09 · 27</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/eupfly1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/185217056/large.jpeg" alt="Papamoscas Cerrojillo" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Matthieu Gauvain / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Papamoscas Cerrojillo — <em>Ficedula hypoleuca</em></h2>
+<p><small><em>Muscicapidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22709308">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/eupfly1.html">Papamoscas Cerrojillo</a> (<em>Ficedula hypoleuca</em>) es una pequeña y entrañable ave paseriforme de la familia Muscicapidae que se extiende por la mayor parte del Viejo Mundo. Durante la época de reproducción, habita en una amplia variedad de bosques caducifolios, plantaciones y claros soleados, a menudo ligado a árboles maduros con cavidades naturales o a la presencia de cajas nido en asentamientos humanos de baja densidad. Su comportamiento de caza es un despliegue de agilidad: desde un posadero discreto, con frecuencia cerca de las copas de los árboles, vigila pacientemente hasta detectar un insecto en el aire, lanzándose en una rápida y precisa salida aérea para capturarlo antes de retornar a su atalaya, si bien no duda en descender al suelo para atrapar pequeños artrópodos.</p>
+<p>Con una población europea estimada entre veinticuatro y treinta y nueve millones de ejemplares, este vivaz migrador desempeña un valioso papel en el control de insectos forestales. Su biología evolutiva revela detalles fascinantes: actualmente se reconocen tres subespecies (la nominal F. h. hypoleuca, F. h. sibirica en Siberia y F. h. iberiae en la península ibérica), y guarda un estrecho parentesco con el <a href="https://ebird.org/species/atlfly1?siteLanguage=es" target="_blank" rel="noopener">Papamoscas del Atlas</a> (<em>Ficedula speculigera</em>). Asimismo, en las zonas de Europa donde su área de distribución coincide con la del <a href="https://ebird.org/species/colfly1?siteLanguage=es" target="_blank" rel="noopener">Papamoscas Acollarado</a> (<em>Ficedula albicollis</em>), ambas especies se hibridan con frecuencia, mostrando la naturaleza fluida y dinámica de estas aves.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Captura insectos en vuelo mediante rápidas maniobras acrobáticas desde posaderos discretos.</li><li>Nidifica en cavidades arbóreas y acepta de buen grado las cajas nido instaladas por el ser humano.</li><li>Frecuenta las copas altas, claros y bordes soleados de bosques caducifolios y plantaciones.</li><li>Se alimenta tanto de insectos voladores como de pequeños artrópodos capturados en el suelo.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2492606"><img src="https://birds.yassfuentes.es/maps/eupfly1.png" alt="Distribución mundial de Ficedula hypoleuca según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/eupfly1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Ficedula_hypoleuca">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eupfly1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eupfly1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Tórtola Turca (Streptopelia decaocto)</title>
       <link>https://birds.yassfuentes.es/birds/eucdov.html</link>
