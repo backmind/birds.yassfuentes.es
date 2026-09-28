@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 27 Sep 2026 08:17:51 +0000</pubDate>
+    <pubDate>Mon, 28 Sep 2026 08:45:12 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Avión Roquero (Ptyonoprogne rupestris)</title>
+      <link>https://birds.yassfuentes.es/birds/eurcrm1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-eurcrm1-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 08:45:12 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Manuel Raab / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 171 · 2026 · 09 · 28</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/eurcrm1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg" alt="Avión Roquero" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Manuel Raab / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Avión Roquero — <em>Ptyonoprogne rupestris</em></h2>
+<p><small><em>Hirundinidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22712216">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/eurcrm1.html">Avión Roquero</a> (<em>Ptyonoprogne rupestris</em>) es un verdadero especialista de los abismos y paredes rocosas. Con una longitud de 14 centímetros, esta ave de la familia Hirundinidae desafía los vientos de los desfiladeros y cordilleras del sur de Europa, el noroeste de África y el sur de Asia. Su plumaje, de tonos marrón ceniza en las partes superiores y más claro en la zona inferior, le otorga un camuflaje ideal sobre el fondo de piedra. Capaz de realizar maniobras acrobáticas de extraordinaria precisión, el <a href="https://birds.yassfuentes.es/birds/eurcrm1.html">Avión Roquero</a> aprovecha las corrientes térmicas que se forman en los cortados para capturar insectos en pleno vuelo, demostrando un dominio formidable del espacio aéreo en los hábitats de montaña.</p>
+<p>A diferencia de otros miembros de su familia que emprenden invariablemente largas migraciones continentales, muchos ejemplares del sur de Europa son residentes permanentes. Sin embargo, las poblaciones más septentrionales y las de origen asiático sí migran hacia el norte de África, Oriente Medio o la India para pasar los meses fríos. Como eficiente insectívoro, cumple una importante función en el equilibrio de las poblaciones de invertebrados voladores. En pleno vuelo, revela su rasgo más característico: unas distintivas manchas blancas en su cola corta y cuadrada que parpadean de forma notable cada vez que despliega las plumas para maniobrar junto a los cantiles.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje marrón ceniza en el dorso y partes inferiores en tonos más claros.</li><li>Cola corta y cuadrada con manchas blancas muy visibles al abrirse en vuelo.</li><li>Longitud aproximada de 14 cm, siendo el miembro de mayor tamaño de su género.</li><li>Silueta de vuelo ágil y acrobática asociada a paredes verticales y desfiladeros.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/4408796"><img src="https://birds.yassfuentes.es/maps/eurcrm1.png" alt="Distribución mundial de Ptyonoprogne rupestris según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/eurcrm1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Ptyonoprogne_rupestris">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eurcrm1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eurcrm1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Papamoscas Cerrojillo (Ficedula hypoleuca)</title>
       <link>https://birds.yassfuentes.es/birds/eupfly1.html</link>
@@ -612,27 +633,6 @@
 <ul><li>Máscara negra prominente rodeada por una corona y lados de la cara de color castaño rojizo.</li><li>Punto blanco entre el ojo y el pico (supraloral) con una notable raya malar blanca y una franja negra lateral en la garganta.</li><li>Plumaje corporal predominantemente gris, con la garganta y el vientre de color blanco.</li><li>Canto compuesto por una serie de notas agudas, sibilantes y vívidas emitidas desde el matorral.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2491440"><img src="https://birds.yassfuentes.es/maps/bksbrf1.png" alt="Distribución mundial de Atlapetes melanopsis según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/bksbrf1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Atlapetes_melanopsis">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/bksbrf1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=bksbrf1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Mochuelo Europeo (Athene noctua)</title>
-      <link>https://birds.yassfuentes.es/birds/litowl1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-litowl1-2026-08-29</guid>
-      <pubDate>Sat, 29 Aug 2026 08:41:45 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Sinan Yılmaz / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900" />
-      <content:encoded><![CDATA[<p><small>№ 141 · 2026 · 08 · 29</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/litowl1.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900" alt="Mochuelo Europeo" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Sinan Yılmaz / Macaulay Library</em></small></p>
-<h2>Mochuelo Europeo — <em>Athene noctua</em></h2>
-<p><small><em>Strigidae</em> · <em>Strigiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22689328">LC</a> · Preocupación Menor</small></p>
-<p>Posado con porte erguido sobre un poste de madera o un viejo muro de piedra, el <a href="https://birds.yassfuentes.es/birds/litowl1.html">Mochuelo Europeo</a> (<em>Athene noctua</em>) escudriña el entorno con una intensidad inconfundible. Esta pequeña rapaz nocturna está ampliamente extendida por el sur de Europa y el norte de África, donde encuentra su hábitat predilecto en paisajes abiertos, mosaicos agrícolas, olivares, huertos y bosques aclarados. Aunque despliega la mayor parte de su actividad entre el atardecer y el amanecer, es una de las pocas estrigiformes que se deja ver con frecuencia durante las horas de luz, descansando o acechando a sus presas antes de desplazarse con un vuelo bajo y marcadamente ondulado.</p>
-<p>Para criar y buscar refugio, el <a href="https://birds.yassfuentes.es/birds/litowl1.html">Mochuelo Europeo</a> aprovecha oquedades en árboles añosos, grietas en roquedos, canteras e incluso huecos en construcciones rurales. En estos entornos desempeña una función ecológica clave, manteniendo el equilibrio natural al alimentarse de pequeños roedores, insectos y otros invertebrados. Su plumaje pardo, salpicado de motas blancas, le confiere un camuflaje extraordinario frente a la corteza y las rocas, mientras que su penetrante mirada de iris amarillos y cejas blanquecinas le otorga una expresión de perpetua y cautivadora alerta.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Tamaño pequeño y silueta compacta con cabeza ancha y redondeada.</li><li>Plumaje dorsal de tonos pardos profusamente moteado de blanco.</li><li>Grandes ojos de color amarillo brillante coronados por marcadas cejas blancas.</li><li>Vuelo bajo, rápido y notablemente ondulado.</li><li>Frecuente postura erguida y visible sobre postes, vallas, rocas y árboles dispersos durante el día y el crepúsculo.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2497266"><img src="https://birds.yassfuentes.es/maps/litowl1.png" alt="Distribución mundial de Athene noctua según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/litowl1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Athene_noctua">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/litowl1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=litowl1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 27 Sep 2026 08:17:51 +0000</pubDate>
+    <pubDate>Mon, 28 Sep 2026 08:45:12 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Avión Roquero (Ptyonoprogne rupestris)</title>
+      <link>https://birds.yassfuentes.es/birds/eurcrm1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-eurcrm1-2026-09-28</guid>
+      <pubDate>Mon, 28 Sep 2026 08:45:12 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Manuel Raab / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 171 · 2026 · 09 · 28</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/eurcrm1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg" alt="Avión Roquero" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Manuel Raab / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Avión Roquero — <em>Ptyonoprogne rupestris</em></h2>
+<p><small><em>Hirundinidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22712216">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/eurcrm1.html">Avión Roquero</a> (<em>Ptyonoprogne rupestris</em>) es un verdadero especialista de los abismos y paredes rocosas. Con una longitud de 14 centímetros, esta ave de la familia Hirundinidae desafía los vientos de los desfiladeros y cordilleras del sur de Europa, el noroeste de África y el sur de Asia. Su plumaje, de tonos marrón ceniza en las partes superiores y más claro en la zona inferior, le otorga un camuflaje ideal sobre el fondo de piedra. Capaz de realizar maniobras acrobáticas de extraordinaria precisión, el <a href="https://birds.yassfuentes.es/birds/eurcrm1.html">Avión Roquero</a> aprovecha las corrientes térmicas que se forman en los cortados para capturar insectos en pleno vuelo, demostrando un dominio formidable del espacio aéreo en los hábitats de montaña.</p>
+<p>A diferencia de otros miembros de su familia que emprenden invariablemente largas migraciones continentales, muchos ejemplares del sur de Europa son residentes permanentes. Sin embargo, las poblaciones más septentrionales y las de origen asiático sí migran hacia el norte de África, Oriente Medio o la India para pasar los meses fríos. Como eficiente insectívoro, cumple una importante función en el equilibrio de las poblaciones de invertebrados voladores. En pleno vuelo, revela su rasgo más característico: unas distintivas manchas blancas en su cola corta y cuadrada que parpadean de forma notable cada vez que despliega las plumas para maniobrar junto a los cantiles.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje marrón ceniza en el dorso y partes inferiores en tonos más claros.</li><li>Cola corta y cuadrada con manchas blancas muy visibles al abrirse en vuelo.</li><li>Longitud aproximada de 14 cm, siendo el miembro de mayor tamaño de su género.</li><li>Silueta de vuelo ágil y acrobática asociada a paredes verticales y desfiladeros.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/4408796"><img src="https://birds.yassfuentes.es/maps/eurcrm1.png" alt="Distribución mundial de Ptyonoprogne rupestris según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/eurcrm1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Ptyonoprogne_rupestris">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eurcrm1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eurcrm1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Papamoscas Cerrojillo (Ficedula hypoleuca)</title>
       <link>https://birds.yassfuentes.es/birds/eupfly1.html</link>

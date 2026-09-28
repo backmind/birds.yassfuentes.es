@@ -1,0 +1,11 @@
+{
+  "prose": "El Avión Roquero (Ptyonoprogne rupestris) es un verdadero especialista de los abismos y paredes rocosas. Con una longitud de 14 centímetros, esta ave de la familia Hirundinidae desafía los vientos de los desfiladeros y cordilleras del sur de Europa, el noroeste de África y el sur de Asia. Su plumaje, de tonos marrón ceniza en las partes superiores y más claro en la zona inferior, le otorga un camuflaje ideal sobre el fondo de piedra. Capaz de realizar maniobras acrobáticas de extraordinaria precisión, el Avión Roquero aprovecha las corrientes térmicas que se forman en los cortados para capturar insectos en pleno vuelo, demostrando un dominio formidable del espacio aéreo en los hábitats de montaña.\n\nA diferencia de otros miembros de su familia que emprenden invariablemente largas migraciones continentales, muchos ejemplares del sur de Europa son residentes permanentes. Sin embargo, las poblaciones más septentrionales y las de origen asiático sí migran hacia el norte de África, Oriente Medio o la India para pasar los meses fríos. Como eficiente insectívoro, cumple una importante función en el equilibrio de las poblaciones de invertebrados voladores. En pleno vuelo, revela su rasgo más característico: unas distintivas manchas blancas en su cola corta y cuadrada que parpadean de forma notable cada vez que despliega las plumas para maniobrar junto a los cantiles.",
+  "identification": [
+    "Plumaje marrón ceniza en el dorso y partes inferiores en tonos más claros.",
+    "Cola corta y cuadrada con manchas blancas muy visibles al abrirse en vuelo.",
+    "Longitud aproximada de 14 cm, siendo el miembro de mayor tamaño de su género.",
+    "Silueta de vuelo ágil y acrobática asociada a paredes verticales y desfiladeros."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-28T08:47:20Z"
+}

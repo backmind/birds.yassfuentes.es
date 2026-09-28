@@ -1,0 +1,16 @@
+{
+  "description": "El avión roquero es una especie de ave de la familia de los aviones y golondrinas (Hirundinidae). Mide 14 cm de largo y posee partes superiores color marrón ceniza y partes inferiores más claras, además de una cola corta y cuadrada que posee unas manchas blancas distintivas en la mayoría de sus plumas. Habita en las montañas del sur de Europa, el noroeste de África y el sur de Asia. Se le puede confundir con las otras dos especies del género, pero es de mayor tamaño que estas, presenta unas manchas más notorias en la cola y posee un plumaje de tono diferente. Muchos ejemplares de Europa son residentes, pero las poblaciones más norteñas y las que habitan en Asia son migratorias, ya que hibernan en el norte de África, el Medio Oriente o la India.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El avión roquero es una especie de ave de la familia de los aviones y golondrinas (Hirundinidae). Mide 14 cm de largo y posee partes superiores color marrón ceniza y partes inferiores más claras, además de una cola corta y cuadrada que posee unas manchas blancas distintivas en la mayoría de sus plumas. Habita en las montañas del sur de Europa, el noroeste de África y el sur de Asia. Se le puede confundir con las otras dos especies del género, pero es de mayor tamaño que estas, presenta unas manchas más notorias en la cola y posee un plumaje de tono diferente. Muchos ejemplares de Europa son residentes, pero las poblaciones más norteñas y las que habitan en Asia son migratorias, ya que hibernan en el norte de África, el Medio Oriente o la India.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ptyonoprogne_rupestris",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 4408796,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=4408796&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22712216"
+}
