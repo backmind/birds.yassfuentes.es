@@ -5,10 +5,28 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Mon, 28 Sep 2026 08:45:12 +0000</pubDate>
+    <pubDate>Tue, 29 Sep 2026 08:38:33 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Carricerín Real (Acrocephalus melanopogon)</title>
+      <link>https://birds.yassfuentes.es/birds/mouwar1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-mouwar1-2026-09-29</guid>
+      <pubDate>Tue, 29 Sep 2026 08:38:33 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/96456323/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Анна Голубева / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/96456323/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 172 · 2026 · 09 · 29</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/mouwar1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/96456323/large.jpg" alt="Carricerín Real" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Анна Голубева / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Carricerín Real — <em>Acrocephalus melanopogon</em></h2>
+<p><small><em>Acrocephalidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22714693">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/mouwar1.html">carricerín real</a> es una especie de ave paseriforme de la familia Acrocephalidae. Se reproduce en el sur de Europa y en zonas templadas del sur Asia y en una pequeña porción del noroeste de África. Es parcialmente migratorias, en el suroeste de Europa son residentes, en el sur de Europa oriental las aves invernan en el área de cría del Mediterráneo, y la subespecie asiática emigra a Arabia y la India.</p>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2493124"><img src="https://birds.yassfuentes.es/maps/mouwar1.png" alt="Distribución mundial de Acrocephalus melanopogon según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/mouwar1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Acrocephalus_melanopogon">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/mouwar1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=mouwar1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Avión Roquero (Ptyonoprogne rupestris)</title>
       <link>https://birds.yassfuentes.es/birds/eurcrm1.html</link>
