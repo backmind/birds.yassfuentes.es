@@ -1,0 +1,11 @@
+{
+  "prose": "Entre los densos carrizales, espadañas y junquerales que bordean los humedales del sur de Europa, el sur de Asia y el noroeste de África, habita un pequeño acróbata de la vegetación palustre: el Carricerín Real (Acrocephalus melanopogon). Esta discreta ave paseriforme se desplaza con una agilidad prodigiosa a escasa altura del agua, aferrándose firmemente a los tallos verticales donde rara vez se expone en terreno abierto. Su plumaje pardo y estriado le confiere un camuflaje formidable en la espesura de la marisma, donde busca incansablemente alimento inspeccionando la base de las cañas en busca de insectos acuáticos, larvas y pequeños invertebrados.\n\nA diferencia de otros miembros de su familia que emprenden largas travesías transaharianas, el comportamiento migratorio del Carricerín Real es singularmente parcial y adaptable. Las poblaciones asentadas en el suroeste de Europa son predominantemente residentes y permanecen durante todo el año en sus humedales de cría, mientras que las aves del sureste europeo se desplazan hacia el Mediterráneo y las subespecies asiáticas invernan en Arabia y la India. Con su canto musical y acelerado, este pequeño habitante de las marismas actúa como un eficaz bioindicador y un regulador esencial de las poblaciones de invertebrados en estos frágiles ecosistemas acuáticos.",
+  "identification": [
+    "Cejilla superciliar blanca muy prominente y ancha, contrastada con una lista ocular oscura.",
+    "Píleo negruzco muy oscuro que resalta frente a la garganta blanca pura.",
+    "Partes superiores de color pardo cálido con marcadas estrías oscuras longitudinales.",
+    "Canto rápido, melódico y variado, emitido habitualmente oculto entre la vegetación densa."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-30T08:39:47Z"
+}

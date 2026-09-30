@@ -1,0 +1,16 @@
+{
+  "description": "El mito común es una especie de ave paseriforme de la familia Aegithalidae que se distribuye en los bosques y sotos de gran parte de la Eurasia paleártica. Se caracteriza por su cola, más larga que el resto del cuerpo.",
+  "description_source": "wikipedia",
+  "bow_intro": "Fennoscandia (al norte hasta c. 70°N en Noruega, localmente hasta 66°N en Finlandia) y noreste de Europa (Polonia) al este en banda ancha a través de Siberia hasta el este de Rusia (Kamchatka), Sajalín, sur de las islas Kuriles y norte de Japón (Hokkaido, Rebun-to y Rishiri-to), extendiéndose al sur hasta el norte de Kazajstán, norte de Mongolia, noreste de China y Corea del Norte (sur hasta 40-41°N); no reproductiva también al sur hasta el este de China (noreste de Hebei, Pekín) y el centro de Japón (centro-sur de Honshu).",
+  "taxonomy": {},
+  "wikipedia_summary": "El mito común es una especie de ave paseriforme de la familia Aegithalidae que se distribuye en los bosques y sotos de gran parte de la Eurasia paleártica. Se caracteriza por su cola, más larga que el resto del cuerpo.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aegithalos_caudatus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2495000,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2495000&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103871923"
+}

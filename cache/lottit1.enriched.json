@@ -1,0 +1,11 @@
+{
+  "prose": "En la amplia franja boscosa que atraviesa la Eurasia paleártica, desde Fennoscandia y los sotos del norte de Europa hasta los frondosos confines de Siberia y el este de Asia, habita una criatura diminuta e inconfundible: el Mito Común (Aegithalos caudatus). Perteneciente a la familia Aegithalidae, esta pequeña ave paseriforme destaca por una proporción corporal verdaderamente inverosímil, pues posee una cola estrecha que supera en longitud al resto de su propio cuerpo. De hábitos marcadamente gregarios fuera de la época reproductiva, se desplaza con incansable agilidad entre la vegetación de bosques y sotos fluviales en pequeños grupos familiares, emitiendo agudos reclamos mientras inspecciona ramas y hojas en busca de pequeños invertebrados.\n\nMás allá de su singular silueta, el Mito Común destaca por sus extraordinarias habilidades arquitectónicas y su compleja estructura social. Para albergar a su nidada, construye un nido ovoidal prodigioso, cuidadosamente tejido con musgo, líquenes y telas de araña, cuyo interior reviste con cientos de plumas para garantizar un aislamiento térmico idóneo. Además, la especie exhibe con frecuencia un comportamiento de cría cooperativa, donde aquellos individuos que pierden sus propias puestas ayudan a alimentar a los polluelos de parejas emparentadas. Como activo depredador de pequeños artrópodos, desempeña un papel clave en la dinámica y salud de las masas forestales que habitan.",
+  "identification": [
+    "Cola gradualmente alargada y estrecha, notablemente más larga que el resto del cuerpo.",
+    "Cuerpo pequeño y compacto con aspecto de diminuta bola de algodón.",
+    "Pico verdaderamente corto, fino y cónico.",
+    "Comportamiento hiperactivo y gregario, desplazándose en ruidosos grupos a través del dosel arbóreo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-09-30T08:41:07Z"
+}
