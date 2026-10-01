@@ -1,0 +1,16 @@
+{
+  "description": "El sirirí de la pampa, también denominado pato silbón pampa, yaguasa o pato de cara blanca, pato sirire, iguasa careta o suirirí cariblanco, es una especie de ave anseriforme de la familia Anatidae y la subfamilia Anatinae.",
+  "description_source": "wikipedia",
+  "bow_intro": "La White-faced Whistling-Duck es una especie residente de los pantanos de agua dulce desde Costa Rica hasta el norte de Argentina y Uruguay.  Con la cabeza y la corona negras y las mejillas y la frente blancas, el White-faced Whistling-Duck se distingue fácilmente de otras especies del género Dendrocygna . Estas aves son principalmente recolectoras nocturnas y se alimentan de diversos ítems en la dieta, como hierba, semillas y moluscos acuáticos.  Durante la temporada reproductiva, White-faced Whistling-Duck forma colonias sueltas y crea nidos en la hierba larga o en cañaverales hechos con la vegetación circundante.",
+  "taxonomy": {},
+  "wikipedia_summary": "El sirirí de la pampa, también denominado pato silbón pampa, yaguasa o pato de cara blanca, pato sirire, iguasa careta o suirirí cariblanco, es una especie de ave anseriforme de la familia Anatidae y la subfamilia Anatinae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Dendrocygna_viduata",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498396,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498396&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679763"
+}
