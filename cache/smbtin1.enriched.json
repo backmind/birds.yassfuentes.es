@@ -1,0 +1,11 @@
+{
+  "prose": "En las extensas sabanas húmedas y campos cultivados que se extienden por el interior de Sudamérica, habita una criatura tan discreta como fascinante: el Tinamú Piquicorto (Crypturellus parvirostris). Considerado el miembro más pequeño de su género, este tinamú se desplaza con sigilo entre la cubierta vegetal de sabanas en gran parte del interior de Brasil, el norte de Bolivia, Paraguay, el noreste de Argentina y zonas muy locales del sudeste de Perú. Su capacidad para prosperar tanto en hábitats naturales como en zonas agrícolas refleja una adaptabilidad notable dentro de un grupo de aves famoso por su comportamiento elusivo y eminentemente terrestre.\n\nA pesar de que el plumaje del Tinamú Piquicorto es casi idéntico al del Tinamú Tataupá (Crypturellus tataupa), lo que dificulta enormemente su identificación sobre el terreno, un ojo atento puede reparar en sus rasgos distintivos: un pico más rechoncho y patas ligeramente más cortas, ambos teñidos de un delicado color rojo pálido. A diferencia de otros miembros de su familia cuyo modo de vida permanece sumergido en el misterio, esta especie es relativamente bien conocida. Diversos estudios realizados en cautiverio han revelado que su puesta consta de cuatro a cinco huevos con un hermoso tono chocolate oliváceo pálido, los cuales son incubados pacientemente durante diecinueve días.",
+  "identification": [
+    "Es el representante de menor tamaño dentro del género Crypturellus.",
+    "Pico notablemente rechoncho y corto de color rojo pálido.",
+    "Patas y tarsos cortos con tonalidad rojo pálida.",
+    "Plumaje muy semejante al del Tinamú Tataupá, difícil de diferenciar a simple vista en libertad."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-02T08:41:30Z"
+}

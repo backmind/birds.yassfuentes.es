@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Thu, 01 Oct 2026 09:02:14 +0000</pubDate>
+    <pubDate>Fri, 02 Oct 2026 08:37:56 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Tinamú Piquicorto (Crypturellus parvirostris)</title>
+      <link>https://birds.yassfuentes.es/birds/smbtin1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-smbtin1-2026-10-02</guid>
+      <pubDate>Fri, 02 Oct 2026 08:37:56 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/648114/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/648114/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 175 · 2026 · 10 · 02</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/smbtin1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/648114/large.jpg" alt="Tinamú Piquicorto" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)</em></small></p>
+<h2>Tinamú Piquicorto — <em>Crypturellus parvirostris</em></h2>
+<p><small><em>Tinamidae</em> · <em>Tinamiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22678232">LC</a> · Preocupación Menor</small></p>
+<p>En las extensas sabanas húmedas y campos cultivados que se extienden por el interior de Sudamérica, habita una criatura tan discreta como fascinante: el <a href="https://birds.yassfuentes.es/birds/smbtin1.html">Tinamú Piquicorto</a> (<em>Crypturellus parvirostris</em>). Considerado el miembro más pequeño de su género, este tinamú se desplaza con sigilo entre la cubierta vegetal de sabanas en gran parte del interior de Brasil, el norte de Bolivia, Paraguay, el noreste de Argentina y zonas muy locales del sudeste de Perú. Su capacidad para prosperar tanto en hábitats naturales como en zonas agrícolas refleja una adaptabilidad notable dentro de un grupo de aves famoso por su comportamiento elusivo y eminentemente terrestre.</p>
+<p>A pesar de que el plumaje del <a href="https://birds.yassfuentes.es/birds/smbtin1.html">Tinamú Piquicorto</a> es casi idéntico al del <a href="https://ebird.org/species/tattin1?siteLanguage=es" target="_blank" rel="noopener">Tinamú Tataupá</a> (<em>Crypturellus tataupa</em>), lo que dificulta enormemente su identificación sobre el terreno, un ojo atento puede reparar en sus rasgos distintivos: un pico más rechoncho y patas ligeramente más cortas, ambos teñidos de un delicado color rojo pálido. A diferencia de otros miembros de su familia cuyo modo de vida permanece sumergido en el misterio, esta especie es relativamente bien conocida. Diversos estudios realizados en cautiverio han revelado que su puesta consta de cuatro a cinco huevos con un hermoso tono chocolate oliváceo pálido, los cuales son incubados pacientemente durante diecinueve días.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Es el representante de menor tamaño dentro del género Crypturellus.</li><li>Pico notablemente rechoncho y corto de color rojo pálido.</li><li>Patas y tarsos cortos con tonalidad rojo pálida.</li><li>Plumaje muy semejante al del Tinamú Tataupá, difícil de diferenciar a simple vista en libertad.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2477558"><img src="https://birds.yassfuentes.es/maps/smbtin1.png" alt="Distribución mundial de Crypturellus parvirostris según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/smbtin1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Crypturellus_parvirostris">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/smbtin1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=smbtin1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Suirirí Cariblanco (Dendrocygna viduata)</title>
       <link>https://birds.yassfuentes.es/birds/wfwduc1.html</link>

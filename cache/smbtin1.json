@@ -1,0 +1,16 @@
+{
+  "description": "El Tataupá Chico o inambú chico amazónico es un tipo de Tinamidae comúnmente encontrado en las sabanas húmedas en el Amazonas en Sud América.",
+  "description_source": "wikipedia",
+  "bow_intro": "El miembro más pequeño del género Crypturellus el Small-billed Tinamou es un ave de amplia distribución de hábitats de sabana, incluidos los campos cultivados, que se encuentra en gran parte del interior de Brasil, hasta el sureste de Perú (donde es muy local), así como en el norte de Bolivia, Paraguay y el noreste de Argentina. El Small-billed Tinamou es muy parecido al Tataupa Tinamou ( Crypturellus tataupa ) pero es más pequeño, con un pico más rechoncho y un tarso más corto, ambos de color rojo pálido. Las diferencias de plumaje entre estas dos especies son escasas y aún menos fáciles de distinguir sobre el terreno. En comparación con muchos tinamus, esta especie es relativamente bien conocida, aunque los únicos datos sólidos sobre su reproducción proceden de estudios realizados en cautiverio, en los que la Small-billed Tinamou pone 4-5 huevos de color chocolate oliváceo pálido que se incuban durante 19 días.",
+  "taxonomy": {},
+  "wikipedia_summary": "El Tataupá Chico o inambú chico amazónico es un tipo de Tinamidae comúnmente encontrado en las sabanas húmedas en el Amazonas en Sud América.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Crypturellus_parvirostris",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2477558,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2477558&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22678232"
+}

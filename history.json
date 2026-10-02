@@ -1565,6 +1565,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30515510/large.jpeg",
       "photographer": "Bird Explorers",
       "attribution": "Bird Explorers / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "smbtin1",
+      "comName": "Tinamú Piquicorto",
+      "sciName": "Crypturellus parvirostris",
+      "date": "2026-10-02",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648114/large.jpg",
+      "photographer": "Cláudio Dias Timm",
+      "attribution": "Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)"
     }
   ]
 }
