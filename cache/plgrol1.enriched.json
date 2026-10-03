@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra húmeda de las selvas orientales de Madagascar habita una criatura de belleza singular: la Carraca Terrestre Cabeciazul (Atelornis pittoides). Perteneciente a una familia exclusiva de esta isla, los braquipterácidos, esta ave ha abandonado en gran medida el vuelo constante de otras carracas para adoptar una existencia discreta y ligada al suelo forestal. Con movimientos pausados y atentos, avanza entre la hojarasca del sotobosque denso, deteniéndose con frecuencia en actitud vigilante para explorar el entorno con sus grandes ojos adaptados a la escasa luz del dosel.\n\nA pesar de su comportamiento reservado, la Carraca Terrestre Cabeciazul exhibe un plumaje deslumbrante donde destaca una cabeza teñida de azul cobalto y un distintivo collar blanco. En el intrincado equilibrio de la selva malgache, cumple un papel ecológico esencial como depredadora de invertebrados terrestres, capturando escarabajos, orugas, hormigas e incluso pequeños camaleones entre el mantillo vegetal. Su nidificación resulta igualmente fascinante, pues excava profundas galerías o túneles en taludes de tierra húmeda, garantizando así un refugio seguro para sus crías en el corazón del bosque primario.",
+  "identification": [
+    "Cabeza y coronilla de un intenso color azul cobalto, complementada con una máscara oscura y una marcada ceja clara.",
+    "Garganta blanca bordeada por una fina línea oscura, que da paso a un pecho y vientre de color canela rojizo.",
+    "Partes superiores de color verde oliva o bronceado, con patas largas adaptadas a la marcha terrestre.",
+    "Canto compuesto por notas graves y resonantes de tipo 'boop', emitidas a menudo desde perchas muy bajas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-03T08:14:56Z"
+}

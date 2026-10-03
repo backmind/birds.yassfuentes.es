@@ -1574,6 +1574,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648114/large.jpg",
       "photographer": "Cláudio Dias Timm",
       "attribution": "Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)"
+    },
+    {
+      "speciesCode": "plgrol1",
+      "comName": "Carraca Terrestre Cabeciazul",
+      "sciName": "Atelornis pittoides",
+      "date": "2026-10-03",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57416008/large.jpeg",
+      "photographer": "lemurtaquin",
+      "attribution": "lemurtaquin / iNaturalist (CC BY-NC)"
     }
   ]
 }

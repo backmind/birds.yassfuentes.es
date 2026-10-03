@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Fri, 02 Oct 2026 08:37:56 +0000</pubDate>
+    <pubDate>Sat, 03 Oct 2026 08:13:56 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Carraca Terrestre Cabeciazul (Atelornis pittoides)</title>
+      <link>https://birds.yassfuentes.es/birds/plgrol1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-plgrol1-2026-10-03</guid>
+      <pubDate>Sat, 03 Oct 2026 08:13:56 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/57416008/large.jpeg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">lemurtaquin / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/57416008/large.jpeg" />
+      <content:encoded><![CDATA[<p><small>№ 176 · 2026 · 10 · 03</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/plgrol1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/57416008/large.jpeg" alt="Carraca Terrestre Cabeciazul" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© lemurtaquin / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Carraca Terrestre Cabeciazul — <em>Atelornis pittoides</em></h2>
+<p><small><em>Brachypteraciidae</em> · <em>Coraciiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22682955">LC</a> · Preocupación Menor</small></p>
+<p>En la penumbra húmeda de las selvas orientales de Madagascar habita una criatura de belleza singular: la <a href="https://birds.yassfuentes.es/birds/plgrol1.html">Carraca Terrestre Cabeciazul</a> (<em>Atelornis pittoides</em>). Perteneciente a una familia exclusiva de esta isla, los braquipterácidos, esta ave ha abandonado en gran medida el vuelo constante de otras carracas para adoptar una existencia discreta y ligada al suelo forestal. Con movimientos pausados y atentos, avanza entre la hojarasca del sotobosque denso, deteniéndose con frecuencia en actitud vigilante para explorar el entorno con sus grandes ojos adaptados a la escasa luz del dosel.</p>
+<p>A pesar de su comportamiento reservado, la <a href="https://birds.yassfuentes.es/birds/plgrol1.html">Carraca Terrestre Cabeciazul</a> exhibe un plumaje deslumbrante donde destaca una cabeza teñida de azul cobalto y un distintivo collar blanco. En el intrincado equilibrio de la selva malgache, cumple un papel ecológico esencial como depredadora de invertebrados terrestres, capturando escarabajos, orugas, hormigas e incluso pequeños camaleones entre el mantillo vegetal. Su nidificación resulta igualmente fascinante, pues excava profundas galerías o túneles en taludes de tierra húmeda, garantizando así un refugio seguro para sus crías en el corazón del bosque primario.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Cabeza y coronilla de un intenso color azul cobalto, complementada con una máscara oscura y una marcada ceja clara.</li><li>Garganta blanca bordeada por una fina línea oscura, que da paso a un pecho y vientre de color canela rojizo.</li><li>Partes superiores de color verde oliva o bronceado, con patas largas adaptadas a la marcha terrestre.</li><li>Canto compuesto por notas graves y resonantes de tipo &#x27;boop&#x27;, emitidas a menudo desde perchas muy bajas.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2475334"><img src="https://birds.yassfuentes.es/maps/plgrol1.png" alt="Distribución mundial de Atelornis pittoides según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/plgrol1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Atelornis_pittoides">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/plgrol1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=plgrol1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Tinamú Piquicorto (Crypturellus parvirostris)</title>
       <link>https://birds.yassfuentes.es/birds/smbtin1.html</link>

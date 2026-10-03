@@ -1,0 +1,16 @@
+{
+  "description": "La carraca terrestre cabeciazul es una especie de ave coraciforme de la familia Brachypteraciidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La carraca terrestre cabeciazul es una especie de ave coraciforme de la familia Brachypteraciidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Atelornis_pittoides",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2475334,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2475334&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22682955"
+}
