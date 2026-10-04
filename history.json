@@ -1583,6 +1583,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57416008/large.jpeg",
       "photographer": "lemurtaquin",
       "attribution": "lemurtaquin / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "crelar1",
+      "comName": "Cogujada Común",
+      "sciName": "Galerida cristata",
+      "date": "2026-10-04",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61326230/large.jpg",
+      "photographer": "Koshy Koshy",
+      "attribution": "Koshy Koshy / iNaturalist (CC BY)"
     }
   ]
 }

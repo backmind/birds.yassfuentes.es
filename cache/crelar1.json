@@ -1,0 +1,16 @@
+{
+  "description": "La cogujada común es una especie de ave de la familia Alaudidae de 17,5 cm de longitud y 34 cm de envergadura.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Crested Lark tiene una cresta conspicua, típicamente estriada y de color marrón arenoso, con una cola corta y las partes inferiores del ala teñidas de óxido que son evidentes en vuelo. Es una especie común y se encuentra en toda África, Asia y Europa. La Crested Lark engloba un gran complejo con docenas de subespecies que muestran mucha variación en la coloración del plumaje que se ajusta a los tipos de suelo locales. Las subespecies suelen diferenciarse por la intensidad de las estrías, el tamaño y la forma del pico y la longitud alar. La alondra crestada suele ser más gris y oscura que Eurasian Skylark ( Alauda arvensis ) . Recientemente se ha agrupado con la alondra del Magreb, y se separa de la de área de distribución restringida Thekla's Lark ( Galerida theklae ) por su pico más largo, con la mandíbula inferior recta y la cresta normalmente más larga y puntiaguda. Se encuentra en zonas secas con escasa vegetación, especialmente tierras agrícolas y en los bordes de las carreteras. El canto es una serie a menudo magníficamente larga y muy impresionante de variados gorjeos entremezclados, trinos, gorjeos y notas arrastradas. A menudo emite un lastimero \"ch'wee\" En algunas partes de Oriente Próximo, se considera una especie plaga debido a su afición por los granos. Europa central desde Dinamarca al este hasta Bielorrusia, al sur hasta Francia, norte de Italia, norte de Croacia, norte de Hungría y norte de Ucrania.",
+  "taxonomy": {},
+  "wikipedia_summary": "La cogujada común es una especie de ave de la familia Alaudidae de 17,5 cm de longitud y 34 cm de envergadura.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Galerida_cristata",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2490669,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2490669&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22717383"
+}

@@ -1,0 +1,12 @@
+{
+  "prose": "En los terrenos áridos, bordes de caminos y campos agrícolas de África, Asia y Europa, habita la Cogujada Común (Galerida cristata). Con una longitud de 17,5 centímetros y una envergadura de 34 centímetros, esta ave pasa gran parte de su vida caminando sobre terrenos de vegetación escasa. Lo que la distingue de inmediato es su llamativa cresta erizada y puntiaguda, así como un plumaje de tonos pardos y arenosos. Aunque en el suelo exhibe un mimetismo notable, al emprender el vuelo revela el tono rojizo u óxido en la parte inferior de sus alas, acompañado por una compleja y prolongada melodía de trinos y gorjeos.\n\nLa adaptación de la Cogujada Común al entorno es asombrosa, ya que abarca un amplio complejo de docenas de subespecies cuya coloración varía para ajustarse al color del suelo de su hábitat local. A diferencia de la Alondra Común (Alauda arvensis), presenta un plumaje más gris y oscuro, mientras que su pico más largo y de mandíbula inferior recta permite diferenciarla de la Cogujada Montesina (Galerida theklae). En zonas de Oriente Próximo es vista en ocasiones como una especie dañina debido a su afición por los granos agrícolas, mientras que su reclamo con un lastimero 'ch'wee' marca la sonoridad de los ambientes secos.",
+  "identification": [
+    "Cresta conspicua, habitualmente larga y puntiaguda en la cabeza.",
+    "Plumaje estriado de color marrón arenoso adaptado al tono del suelo local.",
+    "Tono rojizo u óxido en la parte inferior de las alas, apreciable en vuelo.",
+    "Pico largo con la mandíbula inferior recta y cola corta.",
+    "Canto melodioso y prolongado junto a un característico reclamo lastimero semejante a un 'ch'wee'."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-04T08:31:55Z"
+}
