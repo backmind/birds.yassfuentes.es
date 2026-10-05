@@ -1,0 +1,11 @@
+{
+  "prose": "El Águila Imperial Oriental (Aquila heliaca) es una de las aves rapaces más majestuosas de Eurasia, imponente por su envergadura y su soberbio vuelo térmico. Esta gran cazadora habita principalmente en las estepas, bosques abiertos y zonas de monte bajo del este de Europa y amplias regiones de Asia. Con la llegada del invierno septentrional, emprende exigentes migraciones de larga distancia hacia el sudeste asiático y el este de África en busca de climas más templados. No obstante, existen núcleos de población reducidos y aislados que permanecen durante todo el año en áreas muy específicas, como los Alpes austriacos e italianos, así como en la isla de Chipre.\n\nDurante décadas, esta ave estuvo catalogada junto al águila imperial ibérica como una misma especie. Sin embargo, en 1996 los análisis genéticos, sumados a marcadas diferencias en el plumaje y en la conducta habitual, motivaron su reconocimiento oficial como especie independiente. A diferencia de otros grandes congéneres, el Águila Imperial Oriental no presenta subespecies reconocidas. En su hábitat natural ejerce el rol insustituible de superdepredador, manteniendo el equilibrio de las poblaciones de mamíferos medianos y pequeñas aves en los abiertos paisajes donde reina.",
+  "identification": [
+    "Plumaje pardo muy oscuro con manchas blancas distintivas en los hombros (escapulares).",
+    "Nuca y coronilla de un tono pajizo o crema claro que contrasta con el resto del cuerpo.",
+    "Gran tamaño con alas anchas de bordes rectos adaptadas para el planeo.",
+    "Cola de longitud media, de tono grisáceo con una ancha franja oscura en el extremo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-05T09:13:02Z"
+}

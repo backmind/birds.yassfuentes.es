@@ -1,0 +1,16 @@
+{
+  "description": "El águila imperial oriental, antes llamada simplemente águila imperial, es una especie de ave accipitriforme de la familia Accipitridae distribuida por Europa del este y gran parte de Asia, de donde emigra al sureste de Asia y África oriental en invierno. Existen pequeñas poblaciones aisladas en los Alpes austriacos e italianos y en la isla de Chipre. El águila imperial ibérica de España, Portugal y parte de Marruecos, considerada una subespecie de águila imperial durante mucho tiempo, ha sido reconocida en 1996 como especie independiente, debido a importantes diferencias genéticas. Ambas águilas difieren también en su aspecto y comportamiento habitual. Por este motivo, a esta especie se la denomina también águila imperial oriental. No se conocen subespecies.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El águila imperial oriental, antes llamada simplemente águila imperial, es una especie de ave accipitriforme de la familia Accipitridae distribuida por Europa del este y gran parte de Asia, de donde emigra al sureste de Asia y África oriental en invierno. Existen pequeñas poblaciones aisladas en los Alpes austriacos e italianos y en la isla de Chipre. El águila imperial ibérica de España, Portugal y parte de Marruecos, considerada una subespecie de águila imperial durante mucho tiempo, ha sido reconocida en 1996 como especie independiente, debido a importantes diferencias genéticas. Ambas águilas difieren también en su aspecto y comportamiento habitual. Por este motivo, a esta especie se la denomina también águila imperial oriental. No se conocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aquila_heliaca",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480500,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480500&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696048"
+}

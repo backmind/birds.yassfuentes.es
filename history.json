@@ -1592,6 +1592,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61326230/large.jpg",
       "photographer": "Koshy Koshy",
       "attribution": "Koshy Koshy / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "impeag1",
+      "comName": "Águila Imperial Oriental",
+      "sciName": "Aquila heliaca",
+      "date": "2026-10-05",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/129874502/large.jpeg",
+      "photographer": "Andrew Bazdyrev",
+      "attribution": "Andrew Bazdyrev / iNaturalist (CC BY)"
     }
   ]
 }
