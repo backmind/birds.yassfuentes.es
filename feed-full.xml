@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Mon, 05 Oct 2026 09:11:09 +0000</pubDate>
+    <pubDate>Tue, 06 Oct 2026 09:04:22 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Sisón Común (Tetrax tetrax)</title>
+      <link>https://birds.yassfuentes.es/birds/litbus1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-litbus1-2026-10-06</guid>
+      <pubDate>Tue, 06 Oct 2026 09:04:22 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/144406705/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Анна Голубева / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/144406705/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 179 · 2026 · 10 · 06</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/litbus1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/144406705/large.jpg" alt="Sisón Común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Анна Голубева / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Sisón Común — <em>Tetrax tetrax</em></h2>
+<p><small><em>Otididae</em> · <em>Otidiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22691896">NT</a> · Casi Amenazado</small></p>
+<p>En las vastas llanuras abiertas y campos agrícolas del suroeste de la región paleártica habita el <a href="https://birds.yassfuentes.es/birds/litbus1.html">Sisón Común</a> (<em>Tetrax tetrax</em>), un ave estrechamente ligada a los ambientes esteparios y a la vegetación baja. A pesar de su plumaje altamente críptico, que le permite mimetizarse a la perfección entre los pastizales secos y los cultivos tradicionales de cereal, esta especie destaca durante la primavera por el dinámico comportamiento territorial del macho. Para atraer a las hembras en sus áreas de exhibición o &#x27;leks&#x27;, el macho realiza pequeños saltos en el aire, patea el suelo con insistencia y emite reclamos secos, transformando la aparente tranquilidad del paisaje estepario en un escenario de cortejo vibrante y lleno de vida.</p>
+<p>Una de las peculiaridades más fascinantes del <a href="https://birds.yassfuentes.es/birds/litbus1.html">Sisón Común</a> reside en la física de su vuelo. Al batir las alas, produce un silbido constante y característico que da origen a su nombre común; este sonido es generado por una pluma primaria del borde del ala que es notablemente más corta que las demás, provocando una vibración aerodinámica única. Como consumidor de semillas, brotes e invertebrados, el <a href="https://birds.yassfuentes.es/birds/litbus1.html">Sisón Común</a> ejerce un papel fundamental en la salud ecológica de las estepas. Sin embargo, las intensificaciones agrícolas y la alteración de su hábitat han causado un acusado decrecimiento de sus poblaciones, lo que motivó su elección como Ave del Año 2017 por SEO/BirdLife para visibilizar la delicada situación de la fauna esteparia.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Silbido continuo y siseante perceptible durante el vuelo, producido por la modificación anatómica de sus plumas primarias.</li><li>Macho en plumaje nupcial con un característico patrón de franjas blancas y negras en el cuello.</li><li>Plumaje dorsal de tonos pardos y leonados muy finamente dibujados, ideal para mimetizarse con el suelo seco.</li><li>Silueta rechoncha de mediano tamaño con vientre blanco y patas amarillentas adaptadas a la carrera.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5228228"><img src="https://birds.yassfuentes.es/maps/litbus1.png" alt="Distribución mundial de Tetrax tetrax según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/litbus1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Tetrax_tetrax">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/litbus1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=litbus1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Águila Imperial Oriental (Aquila heliaca)</title>
       <link>https://birds.yassfuentes.es/birds/impeag1.html</link>

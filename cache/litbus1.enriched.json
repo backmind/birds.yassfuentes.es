@@ -1,0 +1,11 @@
+{
+  "prose": "En las vastas llanuras abiertas y campos agrícolas del suroeste de la región paleártica habita el Sisón Común (*Tetrax tetrax*), un ave estrechamente ligada a los ambientes esteparios y a la vegetación baja. A pesar de su plumaje altamente críptico, que le permite mimetizarse a la perfección entre los pastizales secos y los cultivos tradicionales de cereal, esta especie destaca durante la primavera por el dinámico comportamiento territorial del macho. Para atraer a las hembras en sus áreas de exhibición o 'leks', el macho realiza pequeños saltos en el aire, patea el suelo con insistencia y emite reclamos secos, transformando la aparente tranquilidad del paisaje estepario en un escenario de cortejo vibrante y lleno de vida.\n\nUna de las peculiaridades más fascinantes del Sisón Común reside en la física de su vuelo. Al batir las alas, produce un silbido constante y característico que da origen a su nombre común; este sonido es generado por una pluma primaria del borde del ala que es notablemente más corta que las demás, provocando una vibración aerodinámica única. Como consumidor de semillas, brotes e invertebrados, el Sisón Común ejerce un papel fundamental en la salud ecológica de las estepas. Sin embargo, las intensificaciones agrícolas y la alteración de su hábitat han causado un acusado decrecimiento de sus poblaciones, lo que motivó su elección como Ave del Año 2017 por SEO/BirdLife para visibilizar la delicada situación de la fauna esteparia.",
+  "identification": [
+    "Silbido continuo y siseante perceptible durante el vuelo, producido por la modificación anatómica de sus plumas primarias.",
+    "Macho en plumaje nupcial con un característico patrón de franjas blancas y negras en el cuello.",
+    "Plumaje dorsal de tonos pardos y leonados muy finamente dibujados, ideal para mimetizarse con el suelo seco.",
+    "Silueta rechoncha de mediano tamaño con vientre blanco y patas amarillentas adaptadas a la carrera."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-06T09:06:04Z"
+}
