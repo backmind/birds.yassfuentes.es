@@ -1,0 +1,11 @@
+{
+  "prose": "Entre los cañizales y las aguas someras del sur de Europa, el suroeste de Asia y África, habita la Garcilla Cangrejera (Ardeola ralloides). Esta pequeña y discreta ave acuática es una auténtica maestra del mimetismo. Mientras permanece inmóvil entre la vegetación palustre de lagunas y estanques, su plumaje de tonos ocre y paja la vuelve prácticamente invisible a los ojos de observadores y presas. Sin embargo, al levantar el vuelo, la garcilla cangrejera revela un contraste deslumbrante: sus alas, ocultas en reposo, despliegan un blanco impoluto y brillante que transforma por completo su silueta sobre el agua.\n\nA pesar de su nombre común, su dieta no se limita a los crustáceos, sino que incluye una gran variedad de insectos acuáticos, anfibios y pequeños peces, desempeñando un papel clave en el equilibrio ecológico de las masas de agua dulce. Con la llegada de la primavera, el ave experimenta un cambio notable en su apariencia: la base de su pico adquiere un azul cobalto intenso y de su nuca brotan elegantes plumas ornamentales. Al concluir el periodo reproductor, estas aves de hábitos migratorios emprenden largas travesías hacia el continente africano para pasar el invierno.",
+  "identification": [
+    "Plumaje ocre o leonado en reposo que revela alas completamente blancas al volar",
+    "Tamaño pequeño y silueta compacta con cuello relativamente corto",
+    "Pico amarillento con la punta oscura, que torna a azul en la base durante la reproducción",
+    "Largas plumas finas y colgantes en la nuca durante la época reproductora"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-07T08:48:29Z"
+}

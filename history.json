@@ -1610,6 +1610,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/144406705/large.jpg",
       "photographer": "Анна Голубева",
       "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "squher1",
+      "comName": "Garcilla Cangrejera",
+      "sciName": "Ardeola ralloides",
+      "date": "2026-10-07",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg",
+      "photographer": "Ian White",
+      "attribution": "Ian White / iNaturalist (CC BY-ND)"
     }
   ]
 }

@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 06 Oct 2026 09:04:22 +0000</pubDate>
+    <pubDate>Wed, 07 Oct 2026 08:47:04 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Garcilla Cangrejera (Ardeola ralloides)</title>
+      <link>https://birds.yassfuentes.es/birds/squher1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-squher1-2026-10-07</guid>
+      <pubDate>Wed, 07 Oct 2026 08:47:04 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Ian White / iNaturalist (CC BY-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 180 · 2026 · 10 · 07</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/squher1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg" alt="Garcilla Cangrejera" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Ian White / iNaturalist (CC BY-ND)</em></small></p>
+<h2>Garcilla Cangrejera — <em>Ardeola ralloides</em></h2>
+<p><small><em>Ardeidae</em> · <em>Pelecaniformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22697123">LC</a> · Preocupación Menor</small></p>
+<p>Entre los cañizales y las aguas someras del sur de Europa, el suroeste de Asia y África, habita la <a href="https://birds.yassfuentes.es/birds/squher1.html">Garcilla Cangrejera</a> (<em>Ardeola ralloides</em>). Esta pequeña y discreta ave acuática es una auténtica maestra del mimetismo. Mientras permanece inmóvil entre la vegetación palustre de lagunas y estanques, su plumaje de tonos ocre y paja la vuelve prácticamente invisible a los ojos de observadores y presas. Sin embargo, al levantar el vuelo, la <a href="https://birds.yassfuentes.es/birds/squher1.html">garcilla cangrejera</a> revela un contraste deslumbrante: sus alas, ocultas en reposo, despliegan un blanco impoluto y brillante que transforma por completo su silueta sobre el agua.</p>
+<p>A pesar de su nombre común, su dieta no se limita a los crustáceos, sino que incluye una gran variedad de insectos acuáticos, anfibios y pequeños peces, desempeñando un papel clave en el equilibrio ecológico de las masas de agua dulce. Con la llegada de la primavera, el ave experimenta un cambio notable en su apariencia: la base de su pico adquiere un azul cobalto intenso y de su nuca brotan elegantes plumas ornamentales. Al concluir el periodo reproductor, estas aves de hábitos migratorios emprenden largas travesías hacia el continente africano para pasar el invierno.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje ocre o leonado en reposo que revela alas completamente blancas al volar</li><li>Tamaño pequeño y silueta compacta con cuello relativamente corto</li><li>Pico amarillento con la punta oscura, que torna a azul en la base durante la reproducción</li><li>Largas plumas finas y colgantes en la nuca durante la época reproductora</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2480906"><img src="https://birds.yassfuentes.es/maps/squher1.png" alt="Distribución mundial de Ardeola ralloides según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/squher1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Ardeola_ralloides">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/squher1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=squher1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Sisón Común (Tetrax tetrax)</title>
       <link>https://birds.yassfuentes.es/birds/litbus1.html</link>

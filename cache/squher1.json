@@ -1,0 +1,16 @@
+{
+  "description": "La garcilla cangrejera es una especie de ave pelecaniforme de la familia Ardeidae propia de Europa meridional, Asia sudoccidental y África. Es un ave acuática de hábitos migratorios que habita en zonas húmedas, lagunas, estanques y las arboledas circundantes.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La garcilla cangrejera es una especie de ave pelecaniforme de la familia Ardeidae propia de Europa meridional, Asia sudoccidental y África. Es un ave acuática de hábitos migratorios que habita en zonas húmedas, lagunas, estanques y las arboledas circundantes.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ardeola_ralloides",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2480906,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2480906&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697123"
+}
