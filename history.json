@@ -1619,6 +1619,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg",
       "photographer": "Ian White",
       "attribution": "Ian White / iNaturalist (CC BY-ND)"
+    },
+    {
+      "speciesCode": "shteag1",
+      "comName": "Culebrera Europea",
+      "sciName": "Circaetus gallicus",
+      "date": "2026-10-08",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40950147/large.jpg",
+      "photographer": "Vijay Vanaparthy",
+      "attribution": "Vijay Vanaparthy / iNaturalist (CC BY)"
     }
   ]
 }
