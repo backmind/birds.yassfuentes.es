@@ -1628,6 +1628,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40950147/large.jpg",
       "photographer": "Vijay Vanaparthy",
       "attribution": "Vijay Vanaparthy / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "wlwwar",
+      "comName": "Mosquitero Musical",
+      "sciName": "Phylloscopus trochilus",
+      "date": "2026-10-09",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg",
+      "photographer": "Valia Pavlou",
+      "attribution": "Valia Pavlou / iNaturalist (CC BY-NC)"
     }
   ]
 }

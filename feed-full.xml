@@ -5,10 +5,28 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Thu, 08 Oct 2026 09:05:22 +0000</pubDate>
+    <pubDate>Fri, 09 Oct 2026 09:12:08 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Mosquitero Musical (Phylloscopus trochilus)</title>
+      <link>https://birds.yassfuentes.es/birds/wlwwar.html</link>
+      <guid isPermaLink="false">bird-of-the-day-wlwwar-2026-10-09</guid>
+      <pubDate>Fri, 09 Oct 2026 09:12:08 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Valia Pavlou / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg" />
+      <content:encoded><![CDATA[<p><small>№ 182 · 2026 · 10 · 09</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/wlwwar.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg" alt="Mosquitero Musical" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Valia Pavlou / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Mosquitero Musical — <em>Phylloscopus trochilus</em></h2>
+<p><small><em>Phylloscopidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22715240">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/wlwwar.html">mosquitero musical</a>, un ave cuyo nombre científico es <em>Phylloscopus trochilus</em>, es un Passeriforme de la familia Phylloscopidae muy común y propio de las áreas templadas de Europa y Asia. Descrito por Linneo en 1758, fue incluido al principio en el género Motacilla. Posee una envergadura promedio de 19 cm, una longitud de 11 cm y un peso de unos 10 g. Su estatus de conservación es seguro.</p>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2493052"><img src="https://birds.yassfuentes.es/maps/wlwwar.png" alt="Distribución mundial de Phylloscopus trochilus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/wlwwar?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Phylloscopus_trochilus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/wlwwar/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=wlwwar&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Culebrera Europea (Circaetus gallicus)</title>
       <link>https://birds.yassfuentes.es/birds/shteag1.html</link>
