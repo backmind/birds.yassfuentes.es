@@ -1637,6 +1637,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg",
       "photographer": "Valia Pavlou",
       "attribution": "Valia Pavlou / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "yesbul1",
+      "comName": "Bulbul Listado",
+      "sciName": "Phyllastrephus flavostriatus",
+      "date": "2026-10-10",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165622853/large.jpg",
+      "photographer": "clicque",
+      "attribution": "clicque / iNaturalist (CC BY-NC)"
     }
   ]
 }

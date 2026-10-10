@@ -1,0 +1,11 @@
+{
+  "prose": "En las densas sombras de los bosques perennes de África oriental y meridional, el Bulbul Listado (Phyllastrephus flavostriatus) desarrolla una existencia inquieta y metódica. Este paseriforme destaca por una costumbre poco habitual entre muchos miembros de su familia: en lugar de limitarse a revolotear entre las copas exteriores, asciende con destreza por troncos musgosos, lianas y ramas gruesas, explorando minuciosamente las grietas de la corteza. Con movimientos ágiles que recuerdan a los de un agateador, este pájaro escudriña cada recoveco vegetal en busca de artrópodos e insectos ocultos, aprovechando al máximo los estratos medios y altos del bosque.\n\nUno de los gestos más fascinantes del Bulbul Listado es el hábito característico de sacudir de forma súbita e intermitente una sola ala mientras forrajea, una señal visual típica de su linaje que podría servir tanto para comunicarse con sus congéneres como para alarmar y hacer salir a presas camufladas. Rara vez se desplaza solo; por lo general, pequeños grupos familiares emiten continuos reclamos de contacto y se integran como miembros activos en bandadas mixtas de alimentación. Al registrar incansablemente la vegetación epífita y la madera, el Bulbul Listado cumple una función ecológica esencial en la regulación de pequeños invertebrados forestales.",
+  "identification": [
+    "Partes inferiores de color blancuzco o gris pálido con notorias estrías longitudinales de color amarillo.",
+    "Dorso y alas de tono verde oliva apagado, con el píleo y los lados de la cabeza de matiz grisáceo.",
+    "Pico relativamente largo, fino y recto, adaptado para hurgar en la corteza.",
+    "Comportamiento diagnóstico de trepar por troncos y sacudir un ala de manera espasmódica mientras busca alimento."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-10T08:37:23Z"
+}
