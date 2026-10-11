@@ -1646,6 +1646,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165622853/large.jpg",
       "photographer": "clicque",
       "attribution": "clicque / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "corplo",
+      "comName": "Chorlitejo Grande",
+      "sciName": "Charadrius hiaticula",
+      "date": "2026-10-11",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8956/large.jpg",
+      "photographer": "Paul Roberts",
+      "attribution": "Paul Roberts / iNaturalist (CC BY-NC)"
     }
   ]
 }

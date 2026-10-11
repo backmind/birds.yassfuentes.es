@@ -1,0 +1,12 @@
+{
+  "prose": "El Chorlitejo Grande (Charadrius hiaticula) es un pequeño y tenaz limícola adaptado a las costas y tundras del hemisferio norte. Sus zonas de reproducción abarcan desde las gélidas latitudes del noreste de Canadá, Groenlandia, Islandia y Spitsbergen hasta las playas de Escandinavia y el litoral de Francia. En estos paisajes abiertos de cantos rodados, arena y lodo intermareal, este incansable viajero destaca por una técnica de alimentación rítmica y sumamente precisa: avanza a pasos rápidos y cortos, se detiene de forma repentina para detectar lombrices marinas o pequeños crustáceos con su aguda vista, y los captura con un rápido golpe de pico antes de reanudar la carrera. Al llegar el otoño boreal, emprende formidables migraciones hacia el sur para invernar principalmente a lo largo de las costas de África occidental.\n\nLa supervivencia del Chorlitejo Grande en hábitats tan abiertos reside en un camuflaje excepcional y en astutas conductas antidepredatorias. Su nido es una sencilla depresión en la grava donde los huevos, salpicados de motas terrosas, se confunden a la perfección con el entorno. Ante la aproximación de una amenaza, los adultos recurren a la maniobra de distracción del ala rota: fingen una lesión arrastrando las alas por el suelo para atraer la atención del intruso lejos de los huevos o polluelos, alzando el vuelo en el último segundo. En las zonas intermareales donde se alimenta en densas bandadas, desempeña un papel ecológico fundamental en la regulación de comunidades de invertebrados bentónicos, constituyendo a la vez un sensible indicador del equilibrio de las costas que recorre.",
+  "identification": [
+    "Collar negro continuo y ancho en el pecho sobre fondo blanco.",
+    "Pico corto de base naranja brillante con la punta negra en época reproductora.",
+    "Patas anaranjadas o amarillentas bien visibles.",
+    "Máscara facial contrastada con frente blanca, antifaz oscuro y garganta blanca.",
+    "Reclamo característico consistente en un silbido bisilábico suave y ascendente, emitido a menudo en vuelo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-11T09:00:38Z"
+}

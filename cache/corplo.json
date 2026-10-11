@@ -1,0 +1,16 @@
+{
+  "description": "El chorlitejo grande es una especie de ave caradriforme de la familia Charadriidae que habita en Eurasia y norte de África.",
+  "description_source": "wikipedia",
+  "bow_intro": "cría en el noreste del Canadá ártico, Groenlandia, Islandia, Spitsbergen y el sur de Escandinavia hacia el sur hasta Francia; inverna principalmente en el oeste de África",
+  "taxonomy": {},
+  "wikipedia_summary": "El chorlitejo grande es una especie de ave caradriforme de la familia Charadriidae que habita en Eurasia y norte de África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Charadrius_hiaticula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9566659,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9566659&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22693759"
+}
