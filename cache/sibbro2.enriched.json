@@ -1,0 +1,11 @@
+{
+  "prose": "En las profundidades de los bosques húmedos del sur y sudeste de Asia habita el Eurilaimo Cejigrís (Serilophus rubropygius), un pequeño paseriforme de la familia Eurylaimidae. Esta ave destaca por su silueta compacta, su cabeza redondeada y un pico notablemente ancho y aplanado, característico de su estirpe. Posado en la penumbra del sotobosque o el dosel medio, el Eurilaimo Cejigrís permanece muy atento a su entorno, lanzándose en veloces y breves vuelos para capturar insectos en pleno aire o entre la densa vegetación.\n\nTratado anteriormente como una subespecie, la ciencia reconoce hoy al Eurilaimo Cejigrís como una especie independiente dentro del género Serilophus, sin subespecies diferenciadas. Su rol en el ecosistema forestal es clave como regulador de las poblaciones de invertebrados. Destaca también por su arquitectura reproductiva: al igual que otros miembros de su familia, confecciona laboriosos nidos colgantes en forma de bolsa, suspendidos de ramas finas para mantener a sus puestas a salvo de los depredadores terrestres.",
+  "identification": [
+    "Pico ancho, plano y de base robusta, adaptado para atrapar insectos al vuelo.",
+    "Zona de la lora (entre el ojo y el pico) de tonalidad grisácea con una marca oscura sobre el ojo.",
+    "Cuerpo rechoncho de cabeza voluminosa, con plumaje de tonos suaves y matices rojizos hacia la rabadilla.",
+    "Postura erguida e inmóvil en ramas bajas o medias mientras acecha a sus presas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-12T09:22:10Z"
+}
