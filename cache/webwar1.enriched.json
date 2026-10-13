@@ -1,0 +1,11 @@
+{
+  "prose": "El Mosquitero Papialbo (Phylloscopus bonelli) es un diminuto viajero que marca la llegada de la primavera a los bosques mediterráneos y laderas soleadas del suroeste de Europa. Con una agilidad asombrosa, este pequeño paseriforme se desplaza sin descanso entre las copas de robles, encinas y pinos, inspeccionando el follaje en busca de pequeños insectos y arañas. A pesar de su apariencia sobria, su capacidad para navegar miles de kilómetros desde sus zonas de invernada en el África subsahariana hasta sus áreas de reproducción lo convierte en un prodigio de la migración.\n\nSu nombre específico rinde homenaje al naturalista italiano Franco Andrea Bonelli. En el ecosistema forestal, el Mosquitero Papialbo desempeña un papel clave en el control biológico de poblaciones de invertebrados. Su presencia suele detectarse antes por el oído que por la vista: su canto es un trino rápido, seco y monótono que resuena en la espesura del bosque, permitiendo a los observadores diferenciarlo de otras especies de mosquiteros de plumaje casi idéntico.",
+  "identification": [
+    "Partes inferiores de un color blanco limpio, especialmente en la garganta y el vientre.",
+    "Obispillo y bordes de las plumas de vuelo de color verde amarillento brillante.",
+    "Canto consistente en un trino acelerado y monótono de notas idénticas.",
+    "Línea superciliar (ceja) pálida y poco contrastada sobre la cara."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-13T14:24:26Z"
+}
