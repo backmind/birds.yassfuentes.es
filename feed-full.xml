@@ -5,10 +5,28 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Mon, 12 Oct 2026 09:20:38 +0000</pubDate>
+    <pubDate>Tue, 13 Oct 2026 09:30:48 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Mosquitero Papialbo (Phylloscopus bonelli)</title>
+      <link>https://birds.yassfuentes.es/birds/webwar1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-webwar1-2026-10-13</guid>
+      <pubDate>Tue, 13 Oct 2026 09:30:48 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/177324940/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">David Barros Cardona / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/177324940/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 186 · 2026 · 10 · 13</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/webwar1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/177324940/large.jpg" alt="Mosquitero Papialbo" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© David Barros Cardona / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Mosquitero Papialbo — <em>Phylloscopus bonelli</em></h2>
+<p><small><em>Phylloscopidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22715255">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/webwar1.html">mosquitero papialbo</a> es una especie de ave paseriforme de la familia Phylloscopidae que habita en Europa suroccidental y África. Recibió su nombre específico en honor del ornitólogo italiano Franco Andrea Bonelli.</p>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2493070"><img src="https://birds.yassfuentes.es/maps/webwar1.png" alt="Distribución mundial de Phylloscopus bonelli según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/webwar1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Phylloscopus_bonelli">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/webwar1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=webwar1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Eurilaimo Cejigrís (Serilophus rubropygius)</title>
       <link>https://birds.yassfuentes.es/birds/sibbro2.html</link>

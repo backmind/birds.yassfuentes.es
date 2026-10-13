@@ -1664,6 +1664,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245267422/large.jpg",
       "photographer": "Md. Zaber Ansary",
       "attribution": "Md. Zaber Ansary / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "webwar1",
+      "comName": "Mosquitero Papialbo",
+      "sciName": "Phylloscopus bonelli",
+      "date": "2026-10-13",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/177324940/large.jpg",
+      "photographer": "David Barros Cardona",
+      "attribution": "David Barros Cardona / iNaturalist (CC BY-NC)"
     }
   ]
 }
