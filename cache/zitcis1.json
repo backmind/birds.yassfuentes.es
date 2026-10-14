@@ -1,0 +1,16 @@
+{
+  "description": "El cistícola buitrón o simplemente buitrón es una especie de ave paseriforme de la familia Cisticolidae propia del sur de Eurasia, África y Australasia. Es un pájaro típico de zonas húmedas con carrizales.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El cistícola buitrón o simplemente buitrón es una especie de ave paseriforme de la familia Cisticolidae propia del sur de Eurasia, África y Australasia. Es un pájaro típico de zonas húmedas con carrizales.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cisticola_juncidis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2492822,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492822&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22713491"
+}

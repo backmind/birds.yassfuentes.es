@@ -5,10 +5,28 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 13 Oct 2026 09:30:48 +0000</pubDate>
+    <pubDate>Wed, 14 Oct 2026 07:44:01 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Cistícola Buitrón (Cisticola juncidis)</title>
+      <link>https://birds.yassfuentes.es/birds/zitcis1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-zitcis1-2026-10-14</guid>
+      <pubDate>Wed, 14 Oct 2026 07:44:01 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/180576291/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Ximo Galarza / iNaturalist (CC BY-NC-SA)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/180576291/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 187 · 2026 · 10 · 14</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/zitcis1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/180576291/large.jpg" alt="Cistícola Buitrón" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Ximo Galarza / iNaturalist (CC BY-NC-SA)</em></small></p>
+<h2>Cistícola Buitrón — <em>Cisticola juncidis</em></h2>
+<p><small><em>Cisticolidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22713491">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/zitcis1.html">cistícola buitrón</a> o simplemente buitrón es una especie de ave paseriforme de la familia Cisticolidae propia del sur de Eurasia, África y Australasia. Es un pájaro típico de zonas húmedas con carrizales.</p>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2492822"><img src="https://birds.yassfuentes.es/maps/zitcis1.png" alt="Distribución mundial de Cisticola juncidis según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/zitcis1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Cisticola_juncidis">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/zitcis1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=zitcis1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Mosquitero Papialbo (Phylloscopus bonelli)</title>
       <link>https://birds.yassfuentes.es/birds/webwar1.html</link>

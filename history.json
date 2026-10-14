@@ -1673,6 +1673,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/177324940/large.jpg",
       "photographer": "David Barros Cardona",
       "attribution": "David Barros Cardona / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "zitcis1",
+      "comName": "Cistícola Buitrón",
+      "sciName": "Cisticola juncidis",
+      "date": "2026-10-14",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/180576291/large.jpg",
+      "photographer": "Ximo Galarza",
+      "attribution": "Ximo Galarza / iNaturalist (CC BY-NC-SA)"
     }
   ]
 }
