@@ -1,0 +1,11 @@
+{
+  "prose": "En la espesura de los carrizales y pastizales húmedos que salpican el sur de Eurasia, África y Australasia, habita una criatura tan diminuta como inconfundible: el Cistícola Buitrón (Cisticola juncidis). A pesar de su reducido tamaño y de pasar gran parte del tiempo oculto entre la densa vegetación baja, este menudo paseriforme se convierte en el gran protagonista sonoro de su entorno durante la época de cría. El macho se eleva a considerable altura sobre los campos para entregarse a un vuelo marcadamente ondulante, en el que cada ascenso y descenso va acompañado por un seco y rítmico chasquido metálico. Es una demostración de vigor aéreo que transforma la llanura herbácea en un escenario vivo.\n\nMás allá de su singular vuelo territorial, el Cistícola Buitrón es célebre por una proeza arquitectónica fascinante. Para proteger su puesta, utiliza seda de araña y fibras vegetales para coser hojas de hierba viva, formando un nido con forma de bolsa elíptica que continúa creciendo y permanece verde, logrando un camuflaje casi impenetrable para los depredadores. En estos ecosistemas abiertos y márgenes acuáticos, la especie desempeña un papel ecológico fundamental como consumidora activa de pequeños invertebrados, capturando arañas, orugas y diminutos insectos que acecha incansablemente entre los tallos.",
+  "identification": [
+    "Tamaño muy pequeño y compacto, con dorso pardo intensamente estriado de negro y partes inferiores de tonos crema y ante.",
+    "Cola corta y redondeada con manchas oscuras subterminales y extremos de color blanco, especialmente visibles en vuelo.",
+    "Vuelo de cortejo distintivo, profundamente ondulante a media y gran altura.",
+    "Vocalización inconfundible en vuelo: un chasquido agudo, metálico y rítmico emitido en cada ondulación de su trayectoria."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-14T12:06:02Z"
+}
