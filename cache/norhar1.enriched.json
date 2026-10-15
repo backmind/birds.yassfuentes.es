@@ -1,0 +1,11 @@
+{
+  "prose": "Sobre los vastos brezales, humedales y campos abiertos de Eurasia, se recorta la silueta grácil del Aguilucho Pálido (Circus cyaneus). Esta rapaz destaca por su vuelo pausado y boyante, planeando a escasa altura del terreno con las alas levantadas en una característica forma de 'V'. Equipado con un disco facial similar al de las rapaces nocturnas que amplifica los sonidos ambientales, el aguilucho pálido patrulla el matorral confiando tanto en su aguda vista como en su fino oído para detectar pequeñas presas ocultas. El dimorfismo sexual de la especie es extraordinario: mientras que la hembra luce un plumaje pardo moteado, el macho adulto presenta una tonalidad gris ceniza casi fantasmal que contrasta marcadamente con los extremos de sus alas, teñidos de un denso negro azabache.\n\nEl cortejo nupcial del aguilucho pálido ofrece un espectáculo aéreo formidable. Durante la primavera, la pareja ejecuta maniobras acrobáticas que incluyen caídas en picado, giros e intercambios de alimento en pleno vuelo, donde el macho suelta una presa para que la hembra la capture en el aire tras girar hábilmente sobre su dorso. En el ecosistema, esta ave desempeña un papel crucial como depredador superior, regulando de forma natural las poblaciones de roedores y pequeñas aves en espacios abiertos, actuando además como un fiel indicador de la integridad de los hábitats esteparios y palustres.",
+  "identification": [
+    "Vuelo de caza rasante sobre la vegetación baja, sosteniendo las alas elevadas en una clara forma de 'V'.",
+    "Macho de tonalidad gris plateada en el dorso, vientre claro y primarias externas de color negro intenso.",
+    "Hembra de color pardo con un característico parche blanco puro en la zona del obispillo.",
+    "Disco facial redondeado visible a corta distancia, similar al de una lechuza."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-15T07:35:29Z"
+}
