@@ -1691,6 +1691,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/38130778/large.jpg",
       "photographer": "Константин Самодуров",
       "attribution": "Константин Самодуров / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "eurrob1",
+      "comName": "Petirrojo Europeo",
+      "sciName": "Erithacus rubecula",
+      "date": "2026-10-16",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/large.jpeg",
+      "photographer": "naturpel",
+      "attribution": "naturpel / iNaturalist (CC BY-NC)"
     }
   ]
 }
