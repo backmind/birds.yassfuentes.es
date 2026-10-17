@@ -1,0 +1,12 @@
+{
+  "prose": "El Somormujo Lavanco (Podiceps cristatus) es un habitante emblemático de las aguas dulces de Eurasia, África y Australasia. En lagos, lagunas y embalses bordeados por vegetación palustre, esta elegante ave acuática se desliza con una serenidad cautivadora. Su silueta es inconfundible, caracterizada por un cuello largo y grácil y, durante la época de cría, una espectacular gola de plumas castañas y negras en las mejillas rematada por dos crestas oscuras en la coronilla. Es en primavera cuando el Somormujo Lavanco despliega uno de los rituales nupciales más fascinantes del reino animal: las parejas se sitúan frente a frente sacudiendo rítmicamente la cabeza, erizando sus plumas y culminando en una danza vertical en la que ambos se yerguen pecho contra pecho sobre la superficie del agua, sosteniendo fragmentos de vegetación acuática en el pico como ofrenda mutua.\n\nAdaptado a una existencia casi exclusivamente acuática, el Somormujo Lavanco es un pescador formidable que se sumerge en prolongadas inmersiones en busca de peces e invertebrados. Sus patas, retrasadas en el cuerpo y dotadas de dedos lobulados en lugar de membranas completas, funcionan como potentes hélices propulsoras, si bien vuelven sus movimientos en tierra torpes y pesados. Entre sus hábitos más singulares destaca la ingestión deliberada de sus propias plumas, una práctica que también transmiten a sus crías; este plumaje tapiza el estómago y amortigua el impacto de las afiladas espinas de pescado antes de ser regurgitado en forma de egagrópilas. Asimismo, los pequeños polluelos de plumaje rayado pasan sus primeros días de vida transportados cómodamente sobre la espalda de sus progenitores, protegidos entre las plumas mientras los adultos patrullan el humedal.",
+  "identification": [
+    "Cuello largo y esbelto de color blanco brillante por delante, con cuerpo flotando a menudo muy hundido en el agua.",
+    "En plumaje nupcial, destaca una llamativa gola facial castaña y negra junto a dos prominentes moños o crestas oscuras en la cabeza.",
+    "Pico largo, recto y puntiagudo de tono rosáceo.",
+    "En invierno pierde la gola decorativa, mostrando una cabeza blanquecina con una línea oscura que atraviesa la coronilla y la nuca.",
+    "Polluelos con un característico patrón cebra a rayas blancas y negras, observados con frecuencia sobre el dorso de los adultos."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-17T07:01:31Z"
+}

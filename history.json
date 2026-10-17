@@ -1700,6 +1700,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/large.jpeg",
       "photographer": "naturpel",
       "attribution": "naturpel / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "grcgre1",
+      "comName": "Somormujo Lavanco",
+      "sciName": "Podiceps cristatus",
+      "date": "2026-10-17",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/556162413/large.jpg",
+      "photographer": "caroline legg",
+      "attribution": "caroline legg / iNaturalist (CC BY)"
     }
   ]
 }

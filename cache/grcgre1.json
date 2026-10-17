@@ -1,0 +1,16 @@
+{
+  "description": "El somormujo lavanco es una especie de ave podicipediforme de la familia Podicipedidae propia de los humedales de Eurasia, África y Australasia. Es uno de los miembros más característicos y conocidos de su familia.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El somormujo lavanco es una especie de ave podicipediforme de la familia Podicipedidae propia de los humedales de Eurasia, África y Australasia. Es uno de los miembros más característicos y conocidos de su familia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Podiceps_cristatus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482054,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482054&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696602"
+}
