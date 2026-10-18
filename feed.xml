@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sat, 17 Oct 2026 07:01:13 +0000</pubDate>
+    <pubDate>Sun, 18 Oct 2026 07:16:49 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Pico Menor (Dryobates minor)</title>
+      <link>https://birds.yassfuentes.es/birds/leswoo1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-leswoo1-2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 07:16:49 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/9109/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Sergey Yeliseev / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/9109/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 191 · 2026 · 10 · 18</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/leswoo1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/9109/large.jpg" alt="Pico Menor" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Sergey Yeliseev / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Pico Menor — <em>Dryobates minor</em></h2>
+<p><small><em>Picidae</em> · <em>Piciformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22681076">LC</a> · Preocupación Menor</small></p>
+<p>En las alturas del dosel de bosques caducifolios, sotos fluviales y viejos huertos de Eurasia y el norte de África habita un pájaro verdaderamente singular: el <a href="https://birds.yassfuentes.es/birds/leswoo1.html">Pico Menor</a> (<em>Dryobates minor</em>). Con unas dimensiones que apenas superan las de un <a href="https://birds.yassfuentes.es/birds/houspa.html">gorrión común</a>, ostenta el título de ser el pájaro carpintero más diminuto de Europa. Esta extraordinaria ligereza corporal le otorga una ventaja evolutiva clave, permitiéndole forrajear en las ramas terminales más delgadas y quebradizas de la copa arbórea, un estrato inaccesible para carpinteros más corpulentos. Allí se desplaza con asombrosa agilidad acrobática, examinando pequeñas fisuras y desprendiendo sutiles fragmentos de corteza en busca de escarabajos, larvas e invertebrados.</p>
+<p>A pesar de su discreto plumaje mimético, la presencia del <a href="https://birds.yassfuentes.es/birds/leswoo1.html">Pico Menor</a> se revela a finales del invierno gracias a su distintivo tamborileo, una ráfaga rápida, prolongada y algo más débil que la de sus congéneres, con la que delimita su territorio. En el plano ecológico, ejerce un papel determinante como ingeniero forestal. Al excavar anualmente sus pequeños nidos en maderas blandas o ramas secas en descomposición, crea cavidades que, tras ser abandonadas, ofrecen un refugio vital para diversos paseriformes de menor porte, como herrerillos y carboneros, perpetuando así la rica dinámica de vida del bosque.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Tamaño diminuto (14-16 cm), comparable al de un gorrión, con cola corta y silueta compacta.</li><li>Dorso y alas cubiertos por un conspicuo barreado horizontal blanco y negro en forma de escalera, sin grandes manchas blancas en las escápulas.</li><li>Píleo o coronilla de color rojo intenso en los machos y de tono blanquecino a crema en las hembras.</li><li>Zona ventral blanquecina o anteada con estrías oscuras, careciendo por completo del color rojo bajo la cola presente en otros carpinteros.</li><li>Canto característico compuesto por una serie rápida y aguda de notas &#x27;pii-pii-pii-pii&#x27;, y un tamborileo veloz y constante en ramas altas.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9015784"><img src="https://birds.yassfuentes.es/maps/leswoo1.png" alt="Distribución mundial de Dryobates minor según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/leswoo1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Dryobates_minor">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/leswoo1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=leswoo1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Somormujo Lavanco (Podiceps cristatus)</title>
       <link>https://birds.yassfuentes.es/birds/grcgre1.html</link>
@@ -612,27 +633,6 @@
 <ul><li>El macho presenta un capirote negro azabache muy definido sobre un cuerpo grisáceo.</li><li>La hembra y los ejemplares juveniles lucen un capirote de color castaño oxidado o pardo.</li><li>Silueta compacta y corpulenta en comparación con otras especies de su género.</li><li>Canto melódico y potente que suele comenzar con notas suaves para terminar en un gorjeo sonoro.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2492956"><img src="https://birds.yassfuentes.es/maps/blackc1.png" alt="Distribución mundial de Sylvia atricapilla según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/blackc1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sylvia_atricapilla">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/blackc1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=blackc1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Roquero Solitario (Monticola solitarius)</title>
-      <link>https://birds.yassfuentes.es/birds/burthr.html</link>
-      <guid isPermaLink="false">bird-of-the-day-burthr-2026-09-18</guid>
-      <pubDate>Fri, 18 Sep 2026 07:27:16 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Pedro Marques / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900" />
-      <content:encoded><![CDATA[<p><small>№ 161 · 2026 · 09 · 18</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/burthr.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900" alt="Roquero Solitario" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Pedro Marques / Macaulay Library</em></small></p>
-<h2>Roquero Solitario — <em>Monticola solitarius</em></h2>
-<p><small><em>Muscicapidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22708286">LC</a> · Preocupación Menor</small></p>
-<p>El <a href="https://birds.yassfuentes.es/birds/burthr.html">Roquero Solitario</a> (<em>Monticola solitarius</em>) es un habitante emblemático de los paisajes rocosos y escarpados. En riscos escarpados, gargantas fluviales, canteras abandonadas e incluso en antiguos edificios y ruinas de piedra, esta ave de porte erguido suele vigilar su territorio desde atalayas prominentes. Los machos destacan por su plumaje azul oscuro pizarra, que bajo ciertas luces o a distancia puede parecer completamente sombrío, en contraste con el plumaje pardo de las hembras. Dotado de una silueta esbelta, caracterizada por un pico fino y alargado, alas largas y cola estilizada, el <a href="https://birds.yassfuentes.es/birds/burthr.html">Roquero Solitario</a> exhibe un porte muy diferente al del <a href="https://ebird.org/species/rtrthr1?siteLanguage=es" target="_blank" rel="noopener">Roquero Rojo</a> (<em>Monticola saxatilis</em>).</p>
-<p>Aunque su nombre evoca soledad y aislamiento en los roquedos salvajes, el <a href="https://birds.yassfuentes.es/birds/burthr.html">Roquero Solitario</a> ha demostrado una notable capacidad de adaptación al colonizar entornos urbanos con estructuras de piedra u hormigón, donde aprovecha tejados y antenas de televisión como plataformas para proclamar sus dominios. Su canto, fluido, aflautado y rico en modulaciones melódicas, recuerda con frecuencia a las estrofas del <a href="https://ebird.org/species/eurbla?siteLanguage=es" target="_blank" rel="noopener">Mirlo Común</a> (<em>Turdus merula</em>). Desde estas elevadas atalayas, este paseriforme combina su labor territorial con la búsqueda activa de invertebrados y pequeños animales entre las fisuras minerales, cumpliendo un papel clave en el equilibrio de los ecosistemas rupícolas.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Macho con plumaje distintivo de color azul oscuro uniforme y alas negras que pueden verse muy oscuras a distancia.</li><li>Hembra de tonos pardo oscuros en el dorso y partes inferiores finamente vermiculadas o barradas.</li><li>Silueta alargada y esbelta con pico fino y relativamente largo, alas largas y cola proporcionada.</li><li>Canto melódico y aflautado de gran sonoridad, similar al del Mirlo Común, emitido a menudo desde postes, riscos o tejados.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2490955"><img src="https://birds.yassfuentes.es/maps/burthr.png" alt="Distribución mundial de Monticola solitarius según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/burthr?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Monticola_solitarius">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/burthr/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=burthr&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

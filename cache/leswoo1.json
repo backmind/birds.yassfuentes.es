@@ -1,0 +1,16 @@
+{
+  "description": "El pico menor es una especie de ave piciforme de la familia Picidae propia de Eurasia y el extremo norte de África. Es el más pequeño de los pájaros carpinteros europeos.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El pico menor es una especie de ave piciforme de la familia Picidae propia de Eurasia y el extremo norte de África. Es el más pequeño de los pájaros carpinteros europeos.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Dryobates_minor",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9015784,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9015784&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22681076"
+}

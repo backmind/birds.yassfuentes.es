@@ -1,0 +1,12 @@
+{
+  "prose": "En las alturas del dosel de bosques caducifolios, sotos fluviales y viejos huertos de Eurasia y el norte de África habita un pájaro verdaderamente singular: el Pico Menor (Dryobates minor). Con unas dimensiones que apenas superan las de un gorrión común, ostenta el título de ser el pájaro carpintero más diminuto de Europa. Esta extraordinaria ligereza corporal le otorga una ventaja evolutiva clave, permitiéndole forrajear en las ramas terminales más delgadas y quebradizas de la copa arbórea, un estrato inaccesible para carpinteros más corpulentos. Allí se desplaza con asombrosa agilidad acrobática, examinando pequeñas fisuras y desprendiendo sutiles fragmentos de corteza en busca de escarabajos, larvas e invertebrados.\n\nA pesar de su discreto plumaje mimético, la presencia del Pico Menor se revela a finales del invierno gracias a su distintivo tamborileo, una ráfaga rápida, prolongada y algo más débil que la de sus congéneres, con la que delimita su territorio. En el plano ecológico, ejerce un papel determinante como ingeniero forestal. Al excavar anualmente sus pequeños nidos en maderas blandas o ramas secas en descomposición, crea cavidades que, tras ser abandonadas, ofrecen un refugio vital para diversos paseriformes de menor porte, como herrerillos y carboneros, perpetuando así la rica dinámica de vida del bosque.",
+  "identification": [
+    "Tamaño diminuto (14-16 cm), comparable al de un gorrión, con cola corta y silueta compacta.",
+    "Dorso y alas cubiertos por un conspicuo barreado horizontal blanco y negro en forma de escalera, sin grandes manchas blancas en las escápulas.",
+    "Píleo o coronilla de color rojo intenso en los machos y de tono blanquecino a crema en las hembras.",
+    "Zona ventral blanquecina o anteada con estrías oscuras, careciendo por completo del color rojo bajo la cola presente en otros carpinteros.",
+    "Canto característico compuesto por una serie rápida y aguda de notas 'pii-pii-pii-pii', y un tamborileo veloz y constante en ramas altas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-18T07:17:17Z"
+}
