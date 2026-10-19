@@ -1718,6 +1718,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9109/large.jpg",
       "photographer": "Sergey Yeliseev",
       "attribution": "Sergey Yeliseev / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "eursta",
+      "comName": "Estornino Pinto",
+      "sciName": "Sturnus vulgaris",
+      "date": "2026-10-19",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/large.jpg",
+      "photographer": "Fran Wiesner",
+      "attribution": "Fran Wiesner / iNaturalist (CC BY-NC-ND)"
     }
   ]
 }

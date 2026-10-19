@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 18 Oct 2026 07:16:49 +0000</pubDate>
+    <pubDate>Mon, 19 Oct 2026 07:52:52 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Estornino Pinto (Sturnus vulgaris)</title>
+      <link>https://birds.yassfuentes.es/birds/eursta.html</link>
+      <guid isPermaLink="false">bird-of-the-day-eursta-2026-10-19</guid>
+      <pubDate>Mon, 19 Oct 2026 07:52:52 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Fran Wiesner / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 192 · 2026 · 10 · 19 · <a href="https://birds.yassfuentes.es/birds/eursta.html">Ya publicada: 2026 · 04 · 18</a></small></p>
+<p><a href="https://birds.yassfuentes.es/birds/eursta.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/large.jpg" alt="Estornino Pinto" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Fran Wiesner / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Estornino Pinto — <em>Sturnus vulgaris</em></h2>
+<p><small><em>Sturnidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22710886">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/eursta.html">Estornino Pinto</a> (<em>Sturnus vulgaris</em>) es una de las aves más adaptables y exitosas del planeta. De silueta rechoncha, cola corta y alas triangulares, este paseriforme nativo de la región paleártica ha colonizado diversos rincones del mundo, prosperando especialmente en áreas transformadas por la actividad humana. Su comportamiento es profundamente gregario; es común observarlo en grandes bandadas que se mueven con una coordinación asombrosa. Aunque a la distancia puede parecer simplemente oscuro, una mirada cercana revela un plumaje extraordinario. Durante la época de reproducción, su cuerpo brilla con reflejos púrpuras y verdes iridiscentes, coronado por un pico de un amarillo intenso. Al llegar el invierno, su aspecto se transforma: el pico se torna oscuro y su plumaje se cubre de motas blancas contrastantes, dándole una apariencia estrellada que justifica su nombre.</p>
+<p>La historia de su expansión es tan fascinante como controvertida. En Norteamérica, la población actual de cientos de millones de individuos desciende de apenas un centenar de aves liberadas en Central Park a finales del siglo XIX. Este éxito biológico ha tenido consecuencias ecológicas, pues el <a href="https://birds.yassfuentes.es/birds/eursta.html">Estornino Pinto</a> compite agresivamente por cavidades de anidación, desplazando en ocasiones a especies autóctonas. Sin embargo, su capacidad cognitiva es innegable. Posee un talento asombroso para la imitación, incorporando en su canto ruidoso y chirriante los sonidos de otras aves e incluso ruidos de su entorno. Esta destreza vocal no ha pasado desapercibida a lo largo de los siglos, ganándose menciones en la literatura clásica, desde las crónicas de Plinio el Viejo hasta las obras de William Shakespeare, consolidando su lugar no solo en los ecosistemas, sino también en la cultura humana.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje negro con iridiscencias púrpuras y verdes en verano, o densamente moteado de blanco en invierno.</li><li>Pico largo y puntiagudo, de color amarillo brillante durante la época de cría y negro en los meses fríos.</li><li>Silueta en vuelo característica con alas triangulares y una cola notablemente corta.</li><li>Canto complejo y ruidoso que incluye imitaciones precisas de otras especies y sonidos ambientales.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9809229"><img src="https://birds.yassfuentes.es/maps/eursta.png" alt="Distribución mundial de Sturnus vulgaris según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/eursta?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sturnus_vulgaris">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eursta/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eursta&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Pico Menor (Dryobates minor)</title>
       <link>https://birds.yassfuentes.es/birds/leswoo1.html</link>
@@ -612,27 +633,6 @@
 <ul><li>Plumaje adulto con manto gris pálido, cabeza blanca y puntas de las alas negras con espejos blancos.</li><li>Pico amarillo, grueso y fuerte, marcado con una característica mancha roja en la parte inferior.</li><li>De mayor tamaño y silueta más fornida que la Gaviota de Delaware.</li><li>Jóvenes de aspecto moteado en tonos marrones que tardan cuatro años en completar el plumaje adulto.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481139"><img src="https://birds.yassfuentes.es/maps/euhgul1.png" alt="Distribución mundial de Larus argentatus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/euhgul1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Larus_argentatus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/euhgul1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=euhgul1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Curruca Capirotada (Sylvia atricapilla)</title>
-      <link>https://birds.yassfuentes.es/birds/blackc1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-blackc1-2026-09-19</guid>
-      <pubDate>Sat, 19 Sep 2026 07:23:17 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Santiago Caballero Carrera / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900" />
-      <content:encoded><![CDATA[<p><small>№ 162 · 2026 · 09 · 19 · <a href="https://birds.yassfuentes.es/birds/blackc1.html">Ya publicada: 2026 · 05 · 13</a></small></p>
-<p><a href="https://birds.yassfuentes.es/birds/blackc1.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900" alt="Curruca Capirotada" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Santiago Caballero Carrera / Macaulay Library</em></small></p>
-<h2>Curruca Capirotada — <em>Sylvia atricapilla</em></h2>
-<p><small><em>Sylviidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22716901">LC</a> · Preocupación Menor</small></p>
-<p>En el corazón de los bosques caducifolios, sotos y jardines con vegetación densa, habita un ave de apariencia discreta pero de presencia vibrante: la <a href="https://birds.yassfuentes.es/birds/blackc1.html">Curruca Capirotada</a> (<em>Sylvia atricapilla</em>). Esta especie, una de las más abundantes de Europa con poblaciones que alcanzan decenas de millones de parejas, destaca por su comportamiento inquieto y un vuelo ágil que le permite desplazarse con soltura entre el sotobosque. Aunque a menudo prefiere ocultarse en la espesura, su presencia se revela a través de un canto extraordinario; un gorjeo fuerte, variado y en ocasiones estridente que llena el aire forestal. Es una curruca de constitución robusta, cuya sobriedad en el plumaje esconde una adaptabilidad asombrosa, permitiéndole prosperar tanto en las umbrías de las montañas como en los arbustos de los parques urbanos, siempre que encuentre el refugio necesario para su actividad incesante.</p>
-<p>La versatilidad de la <a href="https://birds.yassfuentes.es/birds/blackc1.html">Curruca Capirotada</a> se manifiesta especialmente en su dieta y sus patrones migratorios. Durante la época de cría, se comporta como una experta cazadora de insectos y arañas, pero al llegar el otoño, transforma sus hábitos para convertirse en una consumidora de frutos, desempeñando un papel crucial en la dispersión de semillas. Mientras que muchas poblaciones se desplazan hacia la región mediterránea para pasar el invierno, otras permanecen en latitudes más septentrionales, visitando ocasionalmente comederos artificiales. Un detalle fascinante de su biología se encuentra en las poblaciones de las islas atlánticas, como las Canarias o Madeira, donde aparece con mayor frecuencia un morfo oscuro, una variación melánica que añade un matiz de misterio a esta especie. Su capacidad para ajustar su comportamiento y alimentación según la estación la convierte en un ejemplo perfecto de resiliencia en el mundo natural.</p>
-<h3>Identificación en campo</h3>
-<ul><li>El macho presenta un capirote negro azabache muy definido sobre un cuerpo grisáceo.</li><li>La hembra y los ejemplares juveniles lucen un capirote de color castaño oxidado o pardo.</li><li>Silueta compacta y corpulenta en comparación con otras especies de su género.</li><li>Canto melódico y potente que suele comenzar con notas suaves para terminar en un gorjeo sonoro.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2492956"><img src="https://birds.yassfuentes.es/maps/blackc1.png" alt="Distribución mundial de Sylvia atricapilla según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/blackc1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sylvia_atricapilla">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/blackc1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=blackc1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
