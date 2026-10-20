@@ -1,0 +1,12 @@
+{
+  "prose": "Como una centella de cobalto que hiende la calma ribereña, el Martín Pescador Común (Alcedo atthis) protagoniza una de las apariciones más deslumbrantes de las aguas continentales. Esta menuda ave habita en ríos de corrientes lentas, arroyos transparentes, lagunas y humedales de Europa, Asia y el norte de África. Su técnica de caza es un despliegue de paciencia y precisión: permanece posado con calma absoluta sobre una rama que sobresale del agua, escrutando la superficie hasta detectar el destello de un pequeño pez. En una fracción de segundo, se arroja en un picado fulgurante que quiebra la lámina acuática para apresar a su víctima con su formidable pico en forma de lanza.\n\nBajo el agua, el Martín Pescador Común cuenta con adaptaciones extraordinarias, como una membrana nictitante que actúa a modo de lente protectora y un sistema visual capaz de compensar con exactitud la refracción lumínica. Durante la época de cría, no fabrica un nido convencional, sino que horada con el pico y las patas una profunda galería en los taludes arenosos de las orillas. Al requerir aguas limpias y bien oxigenadas con abundancia de presas para sobrevivir, su presencia constituye un valioso bioindicador de la calidad y el equilibrio de los ecosistemas fluviales.",
+  "identification": [
+    "Dorso, cabeza y rabadilla de un brillante color azul turquesa iridiscente, en marcado contraste con el pecho y vientre de tono castaño anaranjado.",
+    "Silueta compacta y rechoncha, de cola sumamente corta y alas redondeadas, dominada por un pico negro, largo y puntiagudo.",
+    "Vuelo directo, potente y muy veloz, habitualmente a escasos centímetros por encima de la superficie del agua.",
+    "Vocalización aguda y metálica, un silbido penetrante y estridente que suele emitir al levantar el vuelo a lo largo del cauce.",
+    "La hembra presenta la base de la mandíbula inferior de color rojizo o anaranjado, mientras que en el macho el pico es completamente negruzco."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-20T07:42:20Z"
+}

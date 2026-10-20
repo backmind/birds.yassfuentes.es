@@ -1727,6 +1727,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/large.jpg",
       "photographer": "Fran Wiesner",
       "attribution": "Fran Wiesner / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "comkin1",
+      "comName": "Martín Pescador Común",
+      "sciName": "Alcedo atthis",
+      "date": "2026-10-20",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/large.jpg",
+      "photographer": "Mark Kilner",
+      "attribution": "Mark Kilner / iNaturalist (CC BY-NC-SA)"
     }
   ]
 }

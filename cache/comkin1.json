@@ -1,0 +1,16 @@
+{
+  "description": "El martín pescador común o alción es una especie de ave coraciiforme de la familia Alcedinidae, que habita en ríos y humedales de Europa, África y Asia.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El martín pescador común o alción es una especie de ave coraciiforme de la familia Alcedinidae, que habita en ríos y humedales de Europa, África y Asia.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Alcedo_atthis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2475532,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2475532&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22683027"
+}
