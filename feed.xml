@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 20 Oct 2026 07:41:06 +0000</pubDate>
+    <pubDate>Wed, 21 Oct 2026 07:45:27 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Pato Colorado (Netta rufina)</title>
+      <link>https://birds.yassfuentes.es/birds/recpoc.html</link>
+      <guid isPermaLink="false">bird-of-the-day-recpoc-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 07:45:27 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/458515851/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Diego González Dopico / iNaturalist (CC BY)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/458515851/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 194 · 2026 · 10 · 21</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/recpoc.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/458515851/large.jpg" alt="Pato Colorado" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Diego González Dopico / iNaturalist (CC BY)</em></small></p>
+<h2>Pato Colorado — <em>Netta rufina</em></h2>
+<p><small><em>Anatidae</em> · <em>Anseriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22680348">LC</a> · Preocupación Menor</small></p>
+<p>En los humedales que se extienden por Eurasia y el norte de África, el <a href="https://birds.yassfuentes.es/birds/recpoc.html">Pato Colorado</a> (<em>Netta rufina</em>) destaca como una de las aves acuáticas más vistosas y singulares. Este pato buceador, de silueta grande y rechoncha, busca las aguas tranquilas de lagos poco profundos, estanques con abundante vegetación de ribera y remansos salobres o alcalinos. Aunque posee una formidable capacidad para sumergirse en busca de sustento, combina con frecuencia esta destreza con la costumbre de chapotear en la superficie. Profundamente social, es una especie gregaria que se congrega en nutridas bandadas durante las estaciones de muda e invernada, desplazándose en grupo entre sus áreas de reproducción y sus zonas de descanso anuales.</p>
+<p>Como especialista en alimentación acuática, cumple un papel fundamental consumiendo algas sumergidas y vegetación de fondo. La biología reproductiva del <a href="https://birds.yassfuentes.es/birds/recpoc.html">Pato Colorado</a> resulta verdaderamente fascinante: sus parejas se consolidan en invierno tras intensos cortejos grupales que incluyen veloces persecuciones a nado y en vuelo. Además, es habitual que recurra al parasitismo de puesta, depositando huevos en nidos de su propia especie o de otros anátidos. Tras la eclosión, sus crías nidífugas abandonan el nido casi de inmediato; algunas incluso llegan a unirse pronto a las nidadas de otras aves como el <a href="https://ebird.org/species/mallar3?siteLanguage=es" target="_blank" rel="noopener">Ánade Azulón</a> (<em>Anas platyrhynchos</em>), revelando las sorprendentes dinámicas sociales que albergaba la vida en el carrizal.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Macho inconfundible por su voluminosa cabeza rojiza oxidada, pico rojo brillante y pecho negro.</li><li>Hembra con plumaje marrón chocolate y un marcado contraste pálido en las mejillas y la garganta.</li><li>Ancha franja blanca muy conspicua a lo largo de las alas, visible en vuelo en ambos sexos.</li><li>Porte grande y rechoncho, con alas largas en comparación con otros patos buceadores.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2498180"><img src="https://birds.yassfuentes.es/maps/recpoc.png" alt="Distribución mundial de Netta rufina según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/recpoc?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Netta_rufina">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/recpoc/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=recpoc&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Martín Pescador Común (Alcedo atthis)</title>
       <link>https://birds.yassfuentes.es/birds/comkin1.html</link>
@@ -612,27 +633,6 @@
 <ul><li>Pico negro, relativamente largo y claramente curvado hacia abajo en el extremo.</li><li>Plumaje nupcial inconfundible de color castaño rojizo o ladrillo intenso en cabeza, cuello y vientre.</li><li>Plumaje no reproductor sobrio, con dorso gris pálido, partes inferiores blancas y una ceja clara bien definida.</li><li>Obispillo blanco puro que contrasta vivamente durante el vuelo.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481741"><img src="https://birds.yassfuentes.es/maps/cursan.png" alt="Distribución mundial de Calidris ferruginea según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/cursan?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Calidris_ferruginea">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/cursan/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=cursan&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Chotacabras Europeo (Caprimulgus europaeus)</title>
-      <link>https://birds.yassfuentes.es/birds/eurnig1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-eurnig1-2026-09-21</guid>
-      <pubDate>Mon, 21 Sep 2026 08:00:40 +0000</pubDate>
-      <media:content url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46342211/900" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Peter Kennerley / Macaulay Library</media:credit>
-      </media:content>
-      <media:thumbnail url="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46342211/900" />
-      <content:encoded><![CDATA[<p><small>№ 164 · 2026 · 09 · 21</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/eurnig1.html"><img src="https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46342211/900" alt="Chotacabras Europeo" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Peter Kennerley / Macaulay Library</em></small></p>
-<h2>Chotacabras Europeo — <em>Caprimulgus europaeus</em></h2>
-<p><small><em>Caprimulgidae</em> · <em>Caprimulgiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22689887">LC</a> · Preocupación Menor</small></p>
-<p>Al caer el crepúsculo sobre los brezales, pastizales y claros forestales del Viejo Mundo, despierta una criatura verdaderamente enigmática: el <a href="https://birds.yassfuentes.es/birds/eurnig1.html">Chotacabras Europeo</a> (<em>Caprimulgus europaeus</em>). Durante las horas diurnas, esta fascinante ave descansa inmóvil en el suelo o sobre ramas bajas, confiando ciegamente en un plumaje mimético que reproduce con asombrosa precisión el aspecto de la hojarasca seca y la corteza. Sin embargo, con la llegada de la penumbra, su silueta estilizada de largas alas cobra vida. El <a href="https://birds.yassfuentes.es/birds/eurnig1.html">Chotacabras Europeo</a> patrulla los espacios abiertos mediante un vuelo ágil, silencioso y lleno de quiebros acrobáticos con el único fin de capturar insectos en el aire, sirviéndose de su corta pero desmesurada apertura bucal.</p>
-<p>Su nombre común y científico proviene de una antigua leyenda pastoral que acusaba injustamente a estas aves de mamar la leche del ganado durante la noche, una fabulación originada por su costumbre de cazar los insectos que revolotean cerca de los rebaños. El <a href="https://birds.yassfuentes.es/birds/eurnig1.html">Chotacabras Europeo</a> deposita sus huevos directamente sobre el suelo desnudo, sin construir estructura alguna, confiando la supervivencia de la nidada a su formidable camuflaje. En ciertas ocasiones, la hembra puede iniciar una segunda puesta mientras el macho se encarga de alimentar a la primera camada. Al finalizar el periodo de cría, emprende una larga migración hacia el África subsahariana, dejando tras de sí el recuerdo de su característico e hipnótico trino mecánico que resuena en la quietud de las noches estivales.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Plumaje extraordinariamente críptico con patrones de tonos pardos, grises y ocres que simulan corteza u hojas secas.</li><li>Silueta de vuelo ágil y quebrada, con alas largas y estrechas, patas cortas y pico diminuto con una boca ancha.</li><li>Manchas blancas visibles en vuelo en los extremos de las alas y las esquinas de la cola en los machos, ausentes en las hembras.</li><li>Canto crepuscular y nocturno inconfundible, consistente en un chirrido o trino sostenido, rápido y vibrante que modula levemente de tono.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/8109681"><img src="https://birds.yassfuentes.es/maps/eurnig1.png" alt="Distribución mundial de Caprimulgus europaeus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/eurnig1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Caprimulgus_europaeus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eurnig1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eurnig1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

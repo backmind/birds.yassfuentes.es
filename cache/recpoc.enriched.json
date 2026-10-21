@@ -1,0 +1,11 @@
+{
+  "prose": "En los humedales que se extienden por Eurasia y el norte de África, el Pato Colorado (Netta rufina) destaca como una de las aves acuáticas más vistosas y singulares. Este pato buceador, de silueta grande y rechoncha, busca las aguas tranquilas de lagos poco profundos, estanques con abundante vegetación de ribera y remansos salobres o alcalinos. Aunque posee una formidable capacidad para sumergirse en busca de sustento, combina con frecuencia esta destreza con la costumbre de chapotear en la superficie. Profundamente social, es una especie gregaria que se congrega en nutridas bandadas durante las estaciones de muda e invernada, desplazándose en grupo entre sus áreas de reproducción y sus zonas de descanso anuales.\n\nComo especialista en alimentación acuática, cumple un papel fundamental consumiendo algas sumergidas y vegetación de fondo. La biología reproductiva del Pato Colorado resulta verdaderamente fascinante: sus parejas se consolidan en invierno tras intensos cortejos grupales que incluyen veloces persecuciones a nado y en vuelo. Además, es habitual que recurra al parasitismo de puesta, depositando huevos en nidos de su propia especie o de otros anátidos. Tras la eclosión, sus crías nidífugas abandonan el nido casi de inmediato; algunas incluso llegan a unirse pronto a las nidadas de otras aves como el Ánade Azulón (Anas platyrhynchos), revelando las sorprendentes dinámicas sociales que albergaba la vida en el carrizal.",
+  "identification": [
+    "Macho inconfundible por su voluminosa cabeza rojiza oxidada, pico rojo brillante y pecho negro.",
+    "Hembra con plumaje marrón chocolate y un marcado contraste pálido en las mejillas y la garganta.",
+    "Ancha franja blanca muy conspicua a lo largo de las alas, visible en vuelo en ambos sexos.",
+    "Porte grande y rechoncho, con alas largas en comparación con otros patos buceadores."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-21T07:51:00Z"
+}

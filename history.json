@@ -1736,6 +1736,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/large.jpg",
       "photographer": "Mark Kilner",
       "attribution": "Mark Kilner / iNaturalist (CC BY-NC-SA)"
+    },
+    {
+      "speciesCode": "recpoc",
+      "comName": "Pato Colorado",
+      "sciName": "Netta rufina",
+      "date": "2026-10-21",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/458515851/large.jpg",
+      "photographer": "Diego González Dopico",
+      "attribution": "Diego González Dopico / iNaturalist (CC BY)"
     }
   ]
 }

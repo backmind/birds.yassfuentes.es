@@ -1,0 +1,16 @@
+{
+  "description": "El pato colorado es una especie de ave anseriforme de la familia Anatidae propia de Eurasia y el norte de África. No se reconocen subespecies.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Red-crested Pochard es un pato buceador grande y rechoncho con alas largas que presentan una franja blanca muy visible en vuelo. La especie presenta una coloración dimórfica, ya que los machos tienen un aspecto vistoso, que incluye una cabeza rojiza oxidada que le da su nombre común, un pico rojo brillante y el cuello y el pecho negros, mientras que las hembras son en general de color marrón chocolate oscuro con un contraste más pálido en las mejillas y el cuello. Ocupa una extensa área de distribución desde Europa occidental hasta Asia central, desplazándose cada año de los humedales de cría a los lugares de muda y luego a las zonas de invernada. Red-crested Pochard es gregario durante las estaciones de muda e invernada. Durante la temporada reproductiva, aparece en una amplia variedad de hábitats de humedales, incluidos lagos poco profundos y estanques con rica vegetación ribereña, grandes zonas de aguas abiertas, cursos de agua estancada y lagos salobres o alcalinos. Se alimenta principalmente buceando y chapoteando en la superficie. Como especialista en alimentación, cría en humedales con rica vegetación sumergida que incluye algas (Characeae) y algas de estanque (Potamogetonaceae). Red-crested Pochard es estacionalmente monógama, con parejas que se forman en los lugares de invernada. Los grupos de cortejo se componen de 2-20 machos y 1-4 hembras. Las intensas persecuciones a nado pueden ir seguidas de vuelos de persecución. Las fechas de puesta van de marzo a agosto en toda su área de distribución. La puesta parasitaria, tanto por congéneres como por otras especies, es frecuente. Los pichones son precociales, cubiertos por el plumón y nidífugos. Algunos pichones abandonan pronto a sus familias y otros se unen a nidadas de otras especies, principalmente Mallard ( Anas platyrhynchos ) . Los patitos suelen ser cuidados por la hembra hasta su primer vuelo a los 45-80 días de edad, pero las hembras pueden abandonarlos antes.",
+  "taxonomy": {},
+  "wikipedia_summary": "El pato colorado es una especie de ave anseriforme de la familia Anatidae propia de Eurasia y el norte de África. No se reconocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Netta_rufina",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498180,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498180&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680348"
+}
