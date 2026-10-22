@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Wed, 21 Oct 2026 07:45:27 +0000</pubDate>
+    <pubDate>Thu, 22 Oct 2026 07:41:07 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Charrán Ártico (Sterna paradisaea)</title>
+      <link>https://birds.yassfuentes.es/birds/arcter.html</link>
+      <guid isPermaLink="false">bird-of-the-day-arcter-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 07:41:07 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">pelagicgraf / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 195 · 2026 · 10 · 22</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/arcter.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg" alt="Charrán Ártico" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© pelagicgraf / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Charrán Ártico — <em>Sterna paradisaea</em></h2>
+<p><small><em>Laridae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22694629">LC</a> · Preocupación Menor</small></p>
+<p>Bajo la perpetua claridad del verano boreal, en las tundras e islotes rocosos que orlan el océano Ártico, emerge una de las siluetas más elegantes del reino alado: el <a href="https://birds.yassfuentes.es/birds/arcter.html">Charrán Ártico</a> (<em>Sterna paradisaea</em>). Esta estilizada ave marina apenas permanece dos o tres meses en sus colonias de cría septentrionales, que se extienden por el norte de Europa, Asia y Norteamérica hasta los confines helados de Groenlandia. Con el declive del estío, inicia un éxodo prodigioso hacia el confín opuesto del planeta para alcanzar los bordes del hielo compacto que circunda la Antártida. Al encadenar dos veranos polares en un periplo incesante a través de aguas abiertas, esta especie disfruta de más horas de luz solar que ningún otro animal sobre la faz de la Tierra.</p>
+<p>Esta asombrosa travesía anual constituye la migración regular más larga conocida en el reino animal, con registros de viaje que llegan a superar los 80.000 kilómetros al año. Si se contempla una longevidad potencial de más de 34 años, la distancia recorrida a lo largo de su vida resulta vertiginosa. En alta mar y en sus costas de cría, forrajea con consumada destreza zambulléndose velozmente para capturar pequeños peces e invertebrados, o cazando insectos al vuelo como un diestro halcón. En zonas donde comparte espacio reproductivo con el <a href="https://ebird.org/species/comter?siteLanguage=es" target="_blank" rel="noopener">Charrán Común</a> (<em>Sterna hirundo</em>) o el <a href="https://ebird.org/species/aleter1?siteLanguage=es" target="_blank" rel="noopener">Charrán Aleutiano</a> (<em>Onychoprion aleuticus</em>), destaca por consumir una mayor proporción de invertebrados, actuando como un puente ecológico fundamental entre las aguas marinas y los ecosistemas costeros.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Capirote negro uniforme en plumaje nupcial, que contrasta con las mejillas blancas y el cuerpo de color gris pálido.</li><li>Pico recto y patas de un vivo tono rojo carmín, siendo las patas notablemente cortas.</li><li>Cola profundamente ahorquillada con largas plumas externas que suelen sobrepasar las puntas de las alas cuando el ave está posada.</li><li>Vuelo sumamente boyante, grácil y elástico, a menudo suspendido en el aire antes de lanzarse en picado hacia el agua.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5229230"><img src="https://birds.yassfuentes.es/maps/arcter.png" alt="Distribución mundial de Sterna paradisaea según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/arcter?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sterna_paradisaea">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/arcter/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=arcter&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Pato Colorado (Netta rufina)</title>
       <link>https://birds.yassfuentes.es/birds/recpoc.html</link>

@@ -1,0 +1,11 @@
+{
+  "prose": "Bajo la perpetua claridad del verano boreal, en las tundras e islotes rocosos que orlan el océano Ártico, emerge una de las siluetas más elegantes del reino alado: el Charrán Ártico (Sterna paradisaea). Esta estilizada ave marina apenas permanece dos o tres meses en sus colonias de cría septentrionales, que se extienden por el norte de Europa, Asia y Norteamérica hasta los confines helados de Groenlandia. Con el declive del estío, inicia un éxodo prodigioso hacia el confín opuesto del planeta para alcanzar los bordes del hielo compacto que circunda la Antártida. Al encadenar dos veranos polares en un periplo incesante a través de aguas abiertas, esta especie disfruta de más horas de luz solar que ningún otro animal sobre la faz de la Tierra.\n\nEsta asombrosa travesía anual constituye la migración regular más larga conocida en el reino animal, con registros de viaje que llegan a superar los 80.000 kilómetros al año. Si se contempla una longevidad potencial de más de 34 años, la distancia recorrida a lo largo de su vida resulta vertiginosa. En alta mar y en sus costas de cría, forrajea con consumada destreza zambulléndose velozmente para capturar pequeños peces e invertebrados, o cazando insectos al vuelo como un diestro halcón. En zonas donde comparte espacio reproductivo con el Charrán Común (Sterna hirundo) o el Charrán Aleutiano (Onychoprion aleuticus), destaca por consumir una mayor proporción de invertebrados, actuando como un puente ecológico fundamental entre las aguas marinas y los ecosistemas costeros.",
+  "identification": [
+    "Capirote negro uniforme en plumaje nupcial, que contrasta con las mejillas blancas y el cuerpo de color gris pálido.",
+    "Pico recto y patas de un vivo tono rojo carmín, siendo las patas notablemente cortas.",
+    "Cola profundamente ahorquillada con largas plumas externas que suelen sobrepasar las puntas de las alas cuando el ave está posada.",
+    "Vuelo sumamente boyante, grácil y elástico, a menudo suspendido en el aire antes de lanzarse en picado hacia el agua."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-22T07:41:38Z"
+}

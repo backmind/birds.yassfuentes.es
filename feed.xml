@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Wed, 21 Oct 2026 07:45:27 +0000</pubDate>
+    <pubDate>Thu, 22 Oct 2026 07:41:07 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Charrán Ártico (Sterna paradisaea)</title>
+      <link>https://birds.yassfuentes.es/birds/arcter.html</link>
+      <guid isPermaLink="false">bird-of-the-day-arcter-2026-10-22</guid>
+      <pubDate>Thu, 22 Oct 2026 07:41:07 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">pelagicgraf / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 195 · 2026 · 10 · 22</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/arcter.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg" alt="Charrán Ártico" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© pelagicgraf / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Charrán Ártico — <em>Sterna paradisaea</em></h2>
+<p><small><em>Laridae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22694629">LC</a> · Preocupación Menor</small></p>
+<p>Bajo la perpetua claridad del verano boreal, en las tundras e islotes rocosos que orlan el océano Ártico, emerge una de las siluetas más elegantes del reino alado: el <a href="https://birds.yassfuentes.es/birds/arcter.html">Charrán Ártico</a> (<em>Sterna paradisaea</em>). Esta estilizada ave marina apenas permanece dos o tres meses en sus colonias de cría septentrionales, que se extienden por el norte de Europa, Asia y Norteamérica hasta los confines helados de Groenlandia. Con el declive del estío, inicia un éxodo prodigioso hacia el confín opuesto del planeta para alcanzar los bordes del hielo compacto que circunda la Antártida. Al encadenar dos veranos polares en un periplo incesante a través de aguas abiertas, esta especie disfruta de más horas de luz solar que ningún otro animal sobre la faz de la Tierra.</p>
+<p>Esta asombrosa travesía anual constituye la migración regular más larga conocida en el reino animal, con registros de viaje que llegan a superar los 80.000 kilómetros al año. Si se contempla una longevidad potencial de más de 34 años, la distancia recorrida a lo largo de su vida resulta vertiginosa. En alta mar y en sus costas de cría, forrajea con consumada destreza zambulléndose velozmente para capturar pequeños peces e invertebrados, o cazando insectos al vuelo como un diestro halcón. En zonas donde comparte espacio reproductivo con el <a href="https://ebird.org/species/comter?siteLanguage=es" target="_blank" rel="noopener">Charrán Común</a> (<em>Sterna hirundo</em>) o el <a href="https://ebird.org/species/aleter1?siteLanguage=es" target="_blank" rel="noopener">Charrán Aleutiano</a> (<em>Onychoprion aleuticus</em>), destaca por consumir una mayor proporción de invertebrados, actuando como un puente ecológico fundamental entre las aguas marinas y los ecosistemas costeros.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Capirote negro uniforme en plumaje nupcial, que contrasta con las mejillas blancas y el cuerpo de color gris pálido.</li><li>Pico recto y patas de un vivo tono rojo carmín, siendo las patas notablemente cortas.</li><li>Cola profundamente ahorquillada con largas plumas externas que suelen sobrepasar las puntas de las alas cuando el ave está posada.</li><li>Vuelo sumamente boyante, grácil y elástico, a menudo suspendido en el aire antes de lanzarse en picado hacia el agua.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5229230"><img src="https://birds.yassfuentes.es/maps/arcter.png" alt="Distribución mundial de Sterna paradisaea según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/arcter?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sterna_paradisaea">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/arcter/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=arcter&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Pato Colorado (Netta rufina)</title>
       <link>https://birds.yassfuentes.es/birds/recpoc.html</link>
@@ -612,27 +633,6 @@
 <ul><li>Parche blanco muy marcado («destello skua») en la base de las plumas primarias de las alas.</li><li>Nuca y zona posterior del cuello impregnadas de un tono amarillo ocre en ejemplares adultos.</li><li>Plumaje polimórfico (claro y oscuro); el morfo oscuro muestra tonos fríos grises y marrones sin tintes rufos.</li><li>Tamaño relativamente pequeño dentro del grupo de los págalos, pero de complexión fuerte y pico robusto con gancho.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481616"><img src="https://birds.yassfuentes.es/maps/sopsku1.png" alt="Distribución mundial de Stercorarius maccormicki según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/sopsku1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Stercorarius_maccormicki">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/sopsku1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=sopsku1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Correlimos Zarapitín (Calidris ferruginea)</title>
-      <link>https://birds.yassfuentes.es/birds/cursan.html</link>
-      <guid isPermaLink="false">bird-of-the-day-cursan-2026-09-22</guid>
-      <pubDate>Tue, 22 Sep 2026 07:45:48 +0000</pubDate>
-      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/2324759/large.jpg" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Paul Cools / iNaturalist (CC BY-NC)</media:credit>
-      </media:content>
-      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/2324759/large.jpg" />
-      <content:encoded><![CDATA[<p><small>№ 165 · 2026 · 09 · 22</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/cursan.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/2324759/large.jpg" alt="Correlimos Zarapitín" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Paul Cools / iNaturalist (CC BY-NC)</em></small></p>
-<h2>Correlimos Zarapitín — <em>Calidris ferruginea</em></h2>
-<p><small><em>Scolopacidae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22693431">VU</a> · Vulnerable</small></p>
-<p>En los confines más septentrionales de la tundra siberiana, donde la nieve apenas comienza a retirarse, el <a href="https://birds.yassfuentes.es/birds/cursan.html">Correlimos Zarapitín</a> (<em>Calidris ferruginea</em>) protagoniza una de las carreras reproductivas más vertiginosas del reino animal. Esta pequeña ave limícola emprende cada primavera un periplo colosal desde sus cuarteles de invernada repartidos por África, el sur de Asia y Australasia. Antes de partir, los adultos mudan a un vistoso plumaje nupcial de tonos rojizos y ladrillo, cortejando a menudo durante la propia travesía hacia el norte. Al tocar tierra en el alto Ártico, el tiempo apremia: en apenas una semana tras su llegada la hembra completa una puesta de cuatro huevos. Cumplida su labor, los machos se despiden de inmediato hacia latitudes más templadas, dejando a las hembras a cargo de la incubación y de las primeras semanas de vida de los polluelos.</p>
-<p>La estrategia migratoria del <a href="https://birds.yassfuentes.es/birds/cursan.html">Correlimos Zarapitín</a> es un prodigio de dispersión ecológica. La especie mantiene una gran fidelidad a sus zonas de descanso e invernada, pero una escasa vinculación a lugares de cría concretos, mezclándose libremente a lo largo de la tundra sin desarrollar variaciones geográficas. Cuando las hembras también parten al sur, los jóvenes quedan abandonados a su suerte en el rigor polar. Guiados por el instinto, engordan con rapidez antes de emprender en solitario su primera gran travesía continental. Estos juveniles permanecerán en las regiones australes durante su primer año de vida, experimentando por única vez en su existencia el invierno del hemisferio sur antes de sumarse al ciclo migratorio global.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Pico negro, relativamente largo y claramente curvado hacia abajo en el extremo.</li><li>Plumaje nupcial inconfundible de color castaño rojizo o ladrillo intenso en cabeza, cuello y vientre.</li><li>Plumaje no reproductor sobrio, con dorso gris pálido, partes inferiores blancas y una ceja clara bien definida.</li><li>Obispillo blanco puro que contrasta vivamente durante el vuelo.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481741"><img src="https://birds.yassfuentes.es/maps/cursan.png" alt="Distribución mundial de Calidris ferruginea según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/cursan?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Calidris_ferruginea">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/cursan/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=cursan&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
