@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra solemne de los bosques maduros de Europa y Asia, el Picamaderos Negro (Dryocopus martius) se erige como el gigante indiscutible de su familia en el continente. Con un tamaño comparable al de un cuervo, este carpintero formidable habita extensiones densas de coníferas, hayedos y masas mixtas donde abundan los árboles añosos. Su avance por el bosque es inconfundible: vuela con aleteos amplios pero pausados, apoyándose en los troncos con garras vigorosas y una cola de plumas rígidas que actúa como un trípode perfecto. Desde esa posición, percute la madera muerta con una fuerza descomunal, cincelando la corteza con golpes secos y metódicos para extraer hormigas carpinteras y larvas de escarabajos xilófagos ocultas en el corazón del tronco.\n\nLa labor del Picamaderos Negro trasciende su propia supervivencia y lo consagra como un auténtico ingeniero del ecosistema forestal. Cada temporada, la pareja invierte semanas de extenuante trabajo en labrar grandes oquedades de acceso típicamente ovalado en troncos vivos de buen porte. Estos nidos, una vez abandonados tras la cría, se convierten en un recurso indispensable para decenas de especies incapaces de perforar la madera por sí mismas; desde rapaces nocturnas y pequeñas palomas hasta murciélagos y mirones encuentran cobijo en sus viejas cámaras. Su presencia es un indicador fidedigno de la madurez y la salud de los bosques, donde su potente tamborileo primaveral y sus reclamos sonoros resuenan como el pulso vital de la espesura.",
+  "identification": [
+    "Tamaño excepcionalmente grande para un carpintero (unos 45 a 55 cm de longitud), con plumaje enteramente negro azabache.",
+    "Corona de color rojo intenso en la cabeza: en el macho abarca desde la frente hasta la nuca, mientras que en la hembra queda restringida a una mancha occipital.",
+    "Pico robusto y cónico de tonalidad marfil o gris pálida, en marcado contraste con el plumaje oscuro y los ojos de iris blanquecino o amarillento.",
+    "Vocalizaciones muy potentes y estridentes, acompañadas de un tamborileo resonante y profundo que se percibe a grandes distancias."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-23T07:39:39Z"
+}

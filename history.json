@@ -1754,6 +1754,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg",
       "photographer": "pelagicgraf",
       "attribution": "pelagicgraf / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "blawoo1",
+      "comName": "Picamaderos Negro",
+      "sciName": "Dryocopus martius",
+      "date": "2026-10-23",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31574109/large.jpg",
+      "photographer": "Александр",
+      "attribution": "Александр / iNaturalist (CC BY-NC-SA)"
     }
   ]
 }

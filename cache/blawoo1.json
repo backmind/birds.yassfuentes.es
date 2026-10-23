@@ -1,0 +1,16 @@
+{
+  "description": "El pito negro, rebautizado como picamaderos negro, es una especie de ave piciforme de la familia de los pájaros carpinteros (Picidae) que se distribuye por los bosques maduros templados y boreales de Europa y Asia. No está amenazada a nivel global, y su población se estima entre 1.500.000 y 2.900.000 ejemplares.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El pito negro, rebautizado como picamaderos negro, es una especie de ave piciforme de la familia de los pájaros carpinteros (Picidae) que se distribuye por los bosques maduros templados y boreales de Europa y Asia. No está amenazada a nivel global, y su población se estima entre 1.500.000 y 2.900.000 ejemplares.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Dryocopus_martius",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2477872,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2477872&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22681382"
+}
