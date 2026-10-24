@@ -1,0 +1,16 @@
+{
+  "description": "El alcaraván común es una especie de ave caradriforme de la familia Burhinidae propia de Eurasia y África. Es un ave zancuda migratoria con plumaje de tonos pardos y unos 40 cm de longitud, que habita en estepas y herbazales secos alejados del agua.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El alcaraván común es una especie de ave caradriforme de la familia Burhinidae propia de Eurasia y África. Es un ave zancuda migratoria con plumaje de tonos pardos y unos 40 cm de longitud, que habita en estepas y herbazales secos alejados del agua.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Burhinus_oedicnemus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482100,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482100&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/45111439"
+}

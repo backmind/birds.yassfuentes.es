@@ -1,0 +1,11 @@
+{
+  "prose": "El Alcaraván Común (Burhinus oedicnemus) es un ave verdaderamente singular entre las zancudas. A diferencia de la mayoría de sus parientes caradriformes, prefiere los terrenos áridos, las estepas abiertas y los herbazales secos alejados del agua. Con unos 40 centímetros de longitud, esta especie migratoria posee un plumaje de tonos pardos y leonados que le otorga un mimetismo extraordinario con el suelo pedregoso. Durante el día, el Alcaraván Común suele permanecer inmóvil y agazapado en la tierra, confiando plenamente en su camuflaje para pasar desapercibido ante los depredadores, transformándose en una figura casi invisible en el paisaje.\n\nLa verdadera naturaleza del Alcaraván Común se desvela al llegar el crepúsculo. Dotado de unos enormes y llamativos ojos amarillos adaptados a la penumbra, inicia sus desplazamientos nocturnos para cazar insectos grandes, lombrices, caracoles y pequeños vertebrados como lagartijas. Cumple así una función ecológica clave en el control de invertebrados en ecosistemas esteparios. Además, es famoso por su característico canto, un silbido penetrante y melancólico que resuena en la oscuridad de las llanuras de Eurasia y África.",
+  "identification": [
+    "Ojos de gran tamaño y de un color amarillo muy llamativo.",
+    "Plumaje pardo con denso veteado oscuro, altamente mimético con el terreno seco.",
+    "Patas largas y amarillentas, acompañadas de un pico corto de base amarilla y punta negra.",
+    "Canto nocturno potente, agudo y gimiente que se escucha a gran distancia."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-24T07:27:50Z"
+}

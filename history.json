@@ -1763,6 +1763,15 @@
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31574109/large.jpg",
       "photographer": "Александр",
       "attribution": "Александр / iNaturalist (CC BY-NC-SA)"
+    },
+    {
+      "speciesCode": "eutkne1",
+      "comName": "Alcaraván Común",
+      "sciName": "Burhinus oedicnemus",
+      "date": "2026-10-24",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/208423163/large.jpg",
+      "photographer": "Kudaibergen Amirekul",
+      "attribution": "Kudaibergen Amirekul / iNaturalist (CC BY-SA)"
     }
   ]
 }
