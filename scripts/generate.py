@@ -324,6 +324,19 @@ def _seen_asset_ids(raw_entries: list[dict], species_code: str) -> frozenset[str
     return frozenset(i for i in ids if i)
 
 
+def _seen_urls(raw_entries: list[dict], species_code: str) -> frozenset[str]:
+    """Photo URLs this species has already been published with.
+
+    The only record of an iNaturalist or Commons photo, which has no
+    asset id.
+    """
+    return frozenset(
+        e["imageUrl"]
+        for e in raw_entries
+        if e.get("speciesCode") == species_code and e.get("imageUrl")
+    )
+
+
 def _image_for(raw: dict, code: str, ordinal: int) -> image_fetcher.ImageResult:
     """The photograph a history entry was published with.
 
@@ -333,6 +346,8 @@ def _image_for(raw: dict, code: str, ordinal: int) -> image_fetcher.ImageResult:
     """
     cached = image_fetcher.load_cached_image(code, str(CACHE_DIR), ordinal=ordinal)
     if cached is not None:
+        if cached.width is None:
+            cached.width, cached.height = raw.get("imageWidth"), raw.get("imageHeight")
         return cached
     return image_fetcher.ImageResult(
         url=raw.get("imageUrl"),
@@ -342,6 +357,8 @@ def _image_for(raw: dict, code: str, ordinal: int) -> image_fetcher.ImageResult:
             "attribution", "Macaulay Library / Cornell Lab of Ornithology"
         ),
         search_url=image_fetcher.ml_search_url(code),
+        width=raw.get("imageWidth"),
+        height=raw.get("imageHeight"),
     )
 
 
@@ -395,6 +412,8 @@ def _build_site_entries(
                 scientific_name=raw.get("sciName", ""),
                 date=raw.get("date", ""),
                 image_url=image.url,
+                image_width=image.width,
+                image_height=image.height,
                 photographer=image.photographer,
                 attribution=image.attribution,
                 description=effective_description,
@@ -720,6 +739,7 @@ def _select_and_fetch(
                 species_code, session=session, locale=ebird_locale,
                 ordinal=ordinal,
                 seen_asset_ids=_seen_asset_ids(history_entries, species_code),
+                seen_urls=_seen_urls(history_entries, species_code),
                 scientific_name=species["sciName"],
             )
             image_fetcher.save_cached_image(
@@ -1047,6 +1067,8 @@ def main() -> None:
                 "sciName": scientific_name,
                 "date": date_str,
                 "imageUrl": image.url,
+                "imageWidth": image.width,
+                "imageHeight": image.height,
                 "photographer": image.photographer,
                 "attribution": image.attribution,
             }
