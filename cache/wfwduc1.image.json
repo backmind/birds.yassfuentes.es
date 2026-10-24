@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Bird Explorers",
   "attribution": "Bird Explorers / iNaturalist (CC BY-NC)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=wfwduc1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=wfwduc1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 683
 }

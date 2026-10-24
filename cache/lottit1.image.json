@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Luca Boscain",
   "attribution": "Luca Boscain / iNaturalist (CC BY-NC)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=lottit1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=lottit1&mediaType=photo&sort=rating_rank_desc",
+  "width": 888,
+  "height": 606
 }

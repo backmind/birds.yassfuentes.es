@@ -1,7 +1,9 @@
 {
-  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61326230/large.jpg",
+  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118077344/large.jpg",
   "asset_id": null,
-  "photographer": "Koshy Koshy",
-  "attribution": "Koshy Koshy / iNaturalist (CC BY)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=crelar1&mediaType=photo&sort=rating_rank_desc"
+  "photographer": "Анна Голубева",
+  "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)",
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=crelar1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1200,
+  "height": 801
 }

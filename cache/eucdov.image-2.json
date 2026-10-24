@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "stevem4560",
   "attribution": "stevem4560 / Wikimedia Commons (CC BY 4.0)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=eucdov&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=eucdov&mediaType=photo&sort=rating_rank_desc",
+  "width": 960,
+  "height": 720
 }

@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "lemurtaquin",
   "attribution": "lemurtaquin / iNaturalist (CC BY-NC)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=plgrol1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=plgrol1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 723
 }

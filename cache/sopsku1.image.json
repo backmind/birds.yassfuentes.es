@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Paride Legovini",
   "attribution": "Paride Legovini / Wikimedia Commons (CC BY-SA 4.0)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=sopsku1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=sopsku1&mediaType=photo&sort=rating_rank_desc",
+  "width": 960,
+  "height": 640
 }

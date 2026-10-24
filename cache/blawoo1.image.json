@@ -1,7 +1,9 @@
 {
-  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31574109/large.jpg",
+  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150466350/large.jpg",
   "asset_id": null,
-  "photographer": "Александр",
-  "attribution": "Александр / iNaturalist (CC BY-NC-SA)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=blawoo1&mediaType=photo&sort=rating_rank_desc"
+  "photographer": "cesare dolzani",
+  "attribution": "cesare dolzani / iNaturalist (CC BY-NC-SA)",
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=blawoo1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1204,
+  "height": 804
 }

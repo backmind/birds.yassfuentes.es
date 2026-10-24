@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Andrew Bazdyrev",
   "attribution": "Andrew Bazdyrev / iNaturalist (CC BY)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=impeag1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=impeag1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 768
 }

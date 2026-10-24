@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Ximo Galarza",
   "attribution": "Ximo Galarza / iNaturalist (CC BY-NC-SA)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=zitcis1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=zitcis1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 759
 }

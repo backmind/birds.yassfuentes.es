@@ -3,5 +3,7 @@
   "asset_id": "173556991",
   "photographer": "Laurie Ross | Tracks Birding & Photography Tours",
   "attribution": "Laurie Ross | Tracks Birding & Photography Tours / Macaulay Library",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=kimhon1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=kimhon1&mediaType=photo&sort=rating_rank_desc",
+  "width": 800,
+  "height": 600
 }

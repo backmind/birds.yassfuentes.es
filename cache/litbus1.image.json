@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Анна Голубева",
   "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=litbus1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=litbus1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 684
 }

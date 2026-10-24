@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Diego González Dopico",
   "attribution": "Diego González Dopico / iNaturalist (CC BY)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=recpoc&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=recpoc&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 683
 }

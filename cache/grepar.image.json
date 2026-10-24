@@ -3,5 +3,7 @@
   "asset_id": "240817371",
   "photographer": "Zak Pohlen",
   "attribution": "Zak Pohlen / Macaulay Library",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=grepar&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=grepar&mediaType=photo&sort=rating_rank_desc",
+  "width": 900,
+  "height": 675
 }

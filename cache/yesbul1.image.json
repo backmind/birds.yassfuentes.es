@@ -1,7 +1,9 @@
 {
-  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165622853/large.jpg",
+  "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/324995014/large.jpeg",
   "asset_id": null,
-  "photographer": "clicque",
-  "attribution": "clicque / iNaturalist (CC BY-NC)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=yesbul1&mediaType=photo&sort=rating_rank_desc"
+  "photographer": "Helen Badenhorst",
+  "attribution": "Helen Badenhorst / iNaturalist (CC BY-NC)",
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=yesbul1&mediaType=photo&sort=rating_rank_desc",
+  "width": 1024,
+  "height": 755
 }

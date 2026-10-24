@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "pelagicgraf",
   "attribution": "pelagicgraf / iNaturalist (CC BY-NC)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=arcter&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=arcter&mediaType=photo&sort=rating_rank_desc",
+  "width": 1000,
+  "height": 667
 }

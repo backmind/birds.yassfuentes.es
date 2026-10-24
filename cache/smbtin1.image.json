@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Cláudio Dias Timm",
   "attribution": "Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=smbtin1&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=smbtin1&mediaType=photo&sort=rating_rank_desc",
+  "width": 640,
+  "height": 426
 }

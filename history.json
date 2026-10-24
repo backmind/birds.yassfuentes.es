@@ -7,7 +7,9 @@
       "date": "2026-04-11",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/173556991/900",
       "photographer": "Laurie Ross | Tracks Birding & Photography Tours",
-      "attribution": "Laurie Ross | Tracks Birding & Photography Tours / Macaulay Library"
+      "attribution": "Laurie Ross | Tracks Birding & Photography Tours / Macaulay Library",
+      "imageWidth": 800,
+      "imageHeight": 600
     },
     {
       "speciesCode": "nazboo1",
@@ -16,7 +18,9 @@
       "date": "2026-04-12",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/53479591/900",
       "photographer": "Jeff Tingle",
-      "attribution": "Jeff Tingle / Macaulay Library"
+      "attribution": "Jeff Tingle / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "rinouz1",
@@ -25,7 +29,9 @@
       "date": "2026-04-13",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
       "photographer": "Rafael Merchante",
-      "attribution": "Rafael Merchante / Macaulay Library"
+      "attribution": "Rafael Merchante / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "norshr1",
@@ -34,7 +40,9 @@
       "date": "2026-04-14",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/68034661/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "subpar1",
@@ -43,7 +51,9 @@
       "date": "2026-04-15",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/181382561/900",
       "photographer": "Alexander Lees",
-      "attribution": "Alexander Lees / Macaulay Library"
+      "attribution": "Alexander Lees / Macaulay Library",
+      "imageWidth": 807,
+      "imageHeight": 605
     },
     {
       "speciesCode": "litbit1",
@@ -52,7 +62,9 @@
       "date": "2026-04-16",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
       "photographer": "José Frade",
-      "attribution": "José Frade / Macaulay Library"
+      "attribution": "José Frade / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "brambl",
@@ -61,7 +73,9 @@
       "date": "2026-04-17",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257644141/900",
       "photographer": "David Irving",
-      "attribution": "David Irving / Macaulay Library"
+      "attribution": "David Irving / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eursta",
@@ -70,7 +84,9 @@
       "date": "2026-04-18",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303928891/900",
       "photographer": "Matt Davis",
-      "attribution": "Matt Davis / Macaulay Library"
+      "attribution": "Matt Davis / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "misthr1",
@@ -79,7 +95,9 @@
       "date": "2026-04-19",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/618569590/900",
       "photographer": "Ivan Sjögren",
-      "attribution": "Ivan Sjögren / Macaulay Library"
+      "attribution": "Ivan Sjögren / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 680
     },
     {
       "speciesCode": "whinch1",
@@ -88,7 +106,9 @@
       "date": "2026-04-20",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46413781/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "ibechi2",
@@ -97,7 +117,9 @@
       "date": "2026-04-21",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256730921/900",
       "photographer": "Manuel Segura Herrero",
-      "attribution": "Manuel Segura Herrero / Macaulay Library"
+      "attribution": "Manuel Segura Herrero / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "meapip1",
@@ -106,7 +128,9 @@
       "date": "2026-04-22",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257684731/900",
       "photographer": "Anne Carrington-Cotton",
-      "attribution": "Anne Carrington-Cotton / Macaulay Library"
+      "attribution": "Anne Carrington-Cotton / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "afbtit2",
@@ -115,7 +139,9 @@
       "date": "2026-04-23",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/214988571/900",
       "photographer": "Daniel Pettersson",
-      "attribution": "Daniel Pettersson / Macaulay Library"
+      "attribution": "Daniel Pettersson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 600
     },
     {
       "speciesCode": "bearee1",
@@ -124,7 +150,9 @@
       "date": "2026-04-24",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
       "photographer": "Josep del Hoyo",
-      "attribution": "Josep del Hoyo / Macaulay Library"
+      "attribution": "Josep del Hoyo / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "woosan",
@@ -133,7 +161,9 @@
       "date": "2026-04-25",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253697141/900",
       "photographer": "Marco Valentini",
-      "attribution": "Marco Valentini / Macaulay Library"
+      "attribution": "Marco Valentini / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blakit1",
@@ -142,7 +172,9 @@
       "date": "2026-04-26",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45127481/900",
       "photographer": "PMDE ESTEVES",
-      "attribution": "PMDE ESTEVES / Macaulay Library"
+      "attribution": "PMDE ESTEVES / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "kenplo1",
@@ -151,7 +183,9 @@
       "date": "2026-04-27",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/351106011/900",
       "photographer": "Mário Estevens",
-      "attribution": "Mário Estevens / Macaulay Library"
+      "attribution": "Mário Estevens / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "euptit1",
@@ -160,7 +194,9 @@
       "date": "2026-04-28",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45223631/900",
       "photographer": "Patrick J. Blake",
-      "attribution": "Patrick J. Blake / Macaulay Library"
+      "attribution": "Patrick J. Blake / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurgre1",
@@ -169,7 +205,9 @@
       "date": "2026-04-29",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/621602853/900",
       "photographer": "Santiago Caballero Carrera",
-      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+      "attribution": "Santiago Caballero Carrera / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "coatit2",
@@ -178,7 +216,9 @@
       "date": "2026-04-30",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
       "photographer": "Adrien Mauss",
-      "attribution": "Adrien Mauss / Macaulay Library"
+      "attribution": "Adrien Mauss / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 674
     },
     {
       "speciesCode": "whisto1",
@@ -187,7 +227,9 @@
       "date": "2026-05-01",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254730691/900",
       "photographer": "Kuzey Cem Kulaçoğlu",
-      "attribution": "Kuzey Cem Kulaçoğlu / Macaulay Library"
+      "attribution": "Kuzey Cem Kulaçoğlu / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comred1",
@@ -196,7 +238,9 @@
       "date": "2026-05-02",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168487271/900",
       "photographer": "Mouser Williams",
-      "attribution": "Mouser Williams / Macaulay Library"
+      "attribution": "Mouser Williams / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grnwoo3",
@@ -205,7 +249,9 @@
       "date": "2026-05-03",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/171648691/900",
       "photographer": "Jorge García Mora",
-      "attribution": "Jorge García Mora / Macaulay Library"
+      "attribution": "Jorge García Mora / Macaulay Library",
+      "imageWidth": 826,
+      "imageHeight": 619
     },
     {
       "speciesCode": "compoc",
@@ -223,7 +269,9 @@
       "date": "2026-05-05",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54251601/900",
       "photographer": "Batmunkh Davaasuren",
-      "attribution": "Batmunkh Davaasuren / Macaulay Library"
+      "attribution": "Batmunkh Davaasuren / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "euroys1",
@@ -232,7 +280,9 @@
       "date": "2026-05-06",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168484841/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurbul",
@@ -250,7 +300,9 @@
       "date": "2026-05-08",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45281881/900",
       "photographer": "Patrick J. Blake",
-      "attribution": "Patrick J. Blake / Macaulay Library"
+      "attribution": "Patrick J. Blake / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "combuz1",
@@ -259,7 +311,9 @@
       "date": "2026-05-09",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46432381/900",
       "photographer": "Omar alshaheen",
-      "attribution": "Omar alshaheen / Macaulay Library"
+      "attribution": "Omar alshaheen / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "martit2",
@@ -268,7 +322,9 @@
       "date": "2026-05-10",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168811611/900",
       "photographer": "Javier Robres",
-      "attribution": "Javier Robres / Macaulay Library"
+      "attribution": "Javier Robres / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "ortbun1",
@@ -277,7 +333,9 @@
       "date": "2026-05-11",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169221351/900",
       "photographer": "Daniel Pettersson",
-      "attribution": "Daniel Pettersson / Macaulay Library"
+      "attribution": "Daniel Pettersson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurwoo",
@@ -286,7 +344,9 @@
       "date": "2026-05-12",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55023941/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blackc1",
@@ -295,7 +355,9 @@
       "date": "2026-05-13",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900",
       "photographer": "Santiago Caballero Carrera",
-      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+      "attribution": "Santiago Caballero Carrera / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "trepip",
@@ -304,7 +366,9 @@
       "date": "2026-05-14",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46493931/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "rebcho1",
@@ -313,7 +377,9 @@
       "date": "2026-05-15",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54017551/900",
       "photographer": "Ricardo Salgueiro",
-      "attribution": "Ricardo Salgueiro / Macaulay Library"
+      "attribution": "Ricardo Salgueiro / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurgol",
@@ -322,7 +388,9 @@
       "date": "2026-05-16",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256707351/900",
       "photographer": "Santiago Caballero Carrera",
-      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+      "attribution": "Santiago Caballero Carrera / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurrob1",
@@ -331,7 +399,9 @@
       "date": "2026-05-17",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44599871/900",
       "photographer": "Ryan Schain",
-      "attribution": "Ryan Schain / Macaulay Library"
+      "attribution": "Ryan Schain / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grefla3",
@@ -340,7 +410,9 @@
       "date": "2026-05-18",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54167691/900",
       "photographer": "Melvin Jaison",
-      "attribution": "Melvin Jaison / Macaulay Library"
+      "attribution": "Melvin Jaison / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "redkit1",
@@ -349,7 +421,9 @@
       "date": "2026-05-19",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254929681/900",
       "photographer": "James Kennerley",
-      "attribution": "James Kennerley / Macaulay Library"
+      "attribution": "James Kennerley / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "egyvul1",
@@ -358,7 +432,9 @@
       "date": "2026-05-20",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168727561/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "rudshe",
@@ -367,7 +443,9 @@
       "date": "2026-05-21",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241980221/900",
       "photographer": "Pablo Barrena",
-      "attribution": "Pablo Barrena / Macaulay Library"
+      "attribution": "Pablo Barrena / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "commoo3",
@@ -376,7 +454,9 @@
       "date": "2026-05-22",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/620374233/900",
       "photographer": "Alexis Lours",
-      "attribution": "Alexis Lours / Macaulay Library"
+      "attribution": "Alexis Lours / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "whtdip1",
@@ -385,7 +465,9 @@
       "date": "2026-05-23",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300170991/900",
       "photographer": "Ivan Sjögren",
-      "attribution": "Ivan Sjögren / Macaulay Library"
+      "attribution": "Ivan Sjögren / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "darwar1",
@@ -394,7 +476,9 @@
       "date": "2026-05-24",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900",
       "photographer": "Ben Lucking",
-      "attribution": "Ben Lucking / Macaulay Library"
+      "attribution": "Ben Lucking / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "wemhar1",
@@ -403,7 +487,9 @@
       "date": "2026-05-25",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
       "photographer": "Jeffrey Wang",
-      "attribution": "Jeffrey Wang / Macaulay Library"
+      "attribution": "Jeffrey Wang / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "bkewhe1",
@@ -412,7 +498,9 @@
       "date": "2026-05-26",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/348217891/900",
       "photographer": "Iker Fernández Martínez",
-      "attribution": "Iker Fernández Martínez / Macaulay Library"
+      "attribution": "Iker Fernández Martínez / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "hoopoe",
@@ -421,7 +509,9 @@
       "date": "2026-05-27",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255121291/900",
       "photographer": "Rhys Marsh",
-      "attribution": "Rhys Marsh / Macaulay Library"
+      "attribution": "Rhys Marsh / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blutit",
@@ -430,7 +520,9 @@
       "date": "2026-05-28",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
       "photographer": "Ferit Başbuğ",
-      "attribution": "Ferit Başbuğ / Macaulay Library"
+      "attribution": "Ferit Başbuğ / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eucdov",
@@ -439,7 +531,9 @@
       "date": "2026-05-29",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308119951/900",
       "photographer": "Jim Merritt",
-      "attribution": "Jim Merritt / Macaulay Library"
+      "attribution": "Jim Merritt / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "shttre1",
@@ -448,7 +542,9 @@
       "date": "2026-05-30",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/107768711/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "webowl1",
@@ -457,7 +553,9 @@
       "date": "2026-05-31",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622231328/900",
       "photographer": "Jon Lowes",
-      "attribution": "Jon Lowes / Macaulay Library"
+      "attribution": "Jon Lowes / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurwig",
@@ -466,7 +564,9 @@
       "date": "2026-06-01",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300137371/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "stbtre1",
@@ -475,7 +575,9 @@
       "date": "2026-06-02",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/245219731/900",
       "photographer": "Fernando Burgalin Sequeria",
-      "attribution": "Fernando Burgalin Sequeria / Macaulay Library"
+      "attribution": "Fernando Burgalin Sequeria / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "thelar1",
@@ -484,7 +586,9 @@
       "date": "2026-06-03",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168820931/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 676
     },
     {
       "speciesCode": "rorpar",
@@ -493,7 +597,9 @@
       "date": "2026-06-04",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622584055/900",
       "photographer": "Albin Jacob",
-      "attribution": "Albin Jacob / Macaulay Library"
+      "attribution": "Albin Jacob / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "martea1",
@@ -502,7 +608,9 @@
       "date": "2026-06-05",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/77959511/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eursco1",
@@ -511,7 +619,9 @@
       "date": "2026-06-06",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55028931/900",
       "photographer": "Patrick J. Blake",
-      "attribution": "Patrick J. Blake / Macaulay Library"
+      "attribution": "Patrick J. Blake / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "lecthr",
@@ -520,7 +630,9 @@
       "date": "2026-06-07",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303824071/900",
       "photographer": "Andrew Spencer",
-      "attribution": "Andrew Spencer / Macaulay Library"
+      "attribution": "Andrew Spencer / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "callar1",
@@ -529,7 +641,9 @@
       "date": "2026-06-08",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54016831/900",
       "photographer": "Asghar Mohammadi Nasrabadi",
-      "attribution": "Asghar Mohammadi Nasrabadi / Macaulay Library"
+      "attribution": "Asghar Mohammadi Nasrabadi / Macaulay Library",
+      "imageWidth": 800,
+      "imageHeight": 601
     },
     {
       "speciesCode": "grywag",
@@ -538,7 +652,9 @@
       "date": "2026-06-09",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44950691/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "pieavo1",
@@ -547,7 +663,9 @@
       "date": "2026-06-10",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/373504371/900",
       "photographer": "Volker Hesse",
-      "attribution": "Volker Hesse / Macaulay Library"
+      "attribution": "Volker Hesse / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grebit1",
@@ -556,7 +674,9 @@
       "date": "2026-06-11",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282511/900",
       "photographer": "shahin olakara",
-      "attribution": "shahin olakara / Macaulay Library"
+      "attribution": "shahin olakara / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "garwar1",
@@ -565,7 +685,9 @@
       "date": "2026-06-12",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256752121/900",
       "photographer": "Luis Rodrigues",
-      "attribution": "Luis Rodrigues / Macaulay Library"
+      "attribution": "Luis Rodrigues / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grnjay",
@@ -574,7 +696,9 @@
       "date": "2026-06-13",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302348751/900",
       "photographer": "Scott Martin",
-      "attribution": "Scott Martin / Macaulay Library"
+      "attribution": "Scott Martin / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gragoo",
@@ -583,7 +707,9 @@
       "date": "2026-06-14",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/162799271/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "litgre1",
@@ -592,7 +718,9 @@
       "date": "2026-06-15",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242168551/900",
       "photographer": "Zhong Ying Koay",
-      "attribution": "Zhong Ying Koay / Macaulay Library"
+      "attribution": "Zhong Ying Koay / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "bearee1",
@@ -601,7 +729,9 @@
       "date": "2026-06-16",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256551461/900",
       "photographer": "Josep del Hoyo",
-      "attribution": "Josep del Hoyo / Macaulay Library"
+      "attribution": "Josep del Hoyo / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gloibi",
@@ -610,7 +740,9 @@
       "date": "2026-06-17",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308505311/900",
       "photographer": "Jeremiah Trimble",
-      "attribution": "Jeremiah Trimble / Macaulay Library"
+      "attribution": "Jeremiah Trimble / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "bkrwhe1",
@@ -619,7 +751,9 @@
       "date": "2026-06-18",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275407491/900",
       "photographer": "Simon Colenutt",
-      "attribution": "Simon Colenutt / Macaulay Library"
+      "attribution": "Simon Colenutt / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "thbflo1",
@@ -628,7 +762,9 @@
       "date": "2026-06-19",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/156739411/900",
       "photographer": "Natthaphat Chotjuckdikul",
-      "attribution": "Natthaphat Chotjuckdikul / Macaulay Library"
+      "attribution": "Natthaphat Chotjuckdikul / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eutdov",
@@ -637,7 +773,9 @@
       "date": "2026-06-20",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45282241/900",
       "photographer": "Vladan Vuckovic",
-      "attribution": "Vladan Vuckovic / Macaulay Library"
+      "attribution": "Vladan Vuckovic / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "tbgdov1",
@@ -655,7 +793,9 @@
       "date": "2026-06-22",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/261494631/900",
       "photographer": "Bryan Calk",
-      "attribution": "Bryan Calk / Macaulay Library"
+      "attribution": "Bryan Calk / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "houspa",
@@ -664,7 +804,9 @@
       "date": "2026-06-23",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305880301/900",
       "photographer": "Evan Lipton",
-      "attribution": "Evan Lipton / Macaulay Library"
+      "attribution": "Evan Lipton / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "leskes1",
@@ -673,7 +815,9 @@
       "date": "2026-06-24",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027951/900",
       "photographer": "Dorna Mojab",
-      "attribution": "Dorna Mojab / Macaulay Library"
+      "attribution": "Dorna Mojab / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "pitsan1",
@@ -682,7 +826,9 @@
       "date": "2026-06-25",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/172620811/900",
       "photographer": "Shlomi Levi",
-      "attribution": "Shlomi Levi / Macaulay Library"
+      "attribution": "Shlomi Levi / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "batgod",
@@ -691,7 +837,9 @@
       "date": "2026-06-26",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46320861/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "euptit1",
@@ -700,7 +848,9 @@
       "date": "2026-06-27",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45223631/900",
       "photographer": "Patrick J. Blake",
-      "attribution": "Patrick J. Blake / Macaulay Library"
+      "attribution": "Patrick J. Blake / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "coatit2",
@@ -709,7 +859,9 @@
       "date": "2026-06-28",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256190791/900",
       "photographer": "Adrien Mauss",
-      "attribution": "Adrien Mauss / Macaulay Library"
+      "attribution": "Adrien Mauss / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 674
     },
     {
       "speciesCode": "rinouz1",
@@ -718,7 +870,9 @@
       "date": "2026-06-29",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257903841/900",
       "photographer": "Rafael Merchante",
-      "attribution": "Rafael Merchante / Macaulay Library"
+      "attribution": "Rafael Merchante / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "reblei",
@@ -727,7 +881,9 @@
       "date": "2026-06-30",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/608766071/900",
       "photographer": "Marco Valentini",
-      "attribution": "Marco Valentini / Macaulay Library"
+      "attribution": "Marco Valentini / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "afroys1",
@@ -736,7 +892,9 @@
       "date": "2026-07-01",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/215836881/900",
       "photographer": "Paul Farrell",
-      "attribution": "Paul Farrell / Macaulay Library"
+      "attribution": "Paul Farrell / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "stonec4",
@@ -745,7 +903,9 @@
       "date": "2026-07-02",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/387157581/900",
       "photographer": "Daniel Pettersson",
-      "attribution": "Daniel Pettersson / Macaulay Library"
+      "attribution": "Daniel Pettersson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurlin1",
@@ -754,7 +914,9 @@
       "date": "2026-07-03",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256711051/900",
       "photographer": "Rui Pereira | Portugal Birding Tours",
-      "attribution": "Rui Pereira | Portugal Birding Tours / Macaulay Library"
+      "attribution": "Rui Pereira | Portugal Birding Tours / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "masyel4",
@@ -763,7 +925,9 @@
       "date": "2026-07-04",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/486441101/900",
       "photographer": "Miguel Aguilar @birdnomad",
-      "attribution": "Miguel Aguilar @birdnomad / Macaulay Library"
+      "attribution": "Miguel Aguilar @birdnomad / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eueowl1",
@@ -772,7 +936,9 @@
       "date": "2026-07-05",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258097941/900",
       "photographer": "birol hatinoğlu",
-      "attribution": "birol hatinoğlu / Macaulay Library"
+      "attribution": "birol hatinoğlu / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "stodov1",
@@ -781,7 +947,9 @@
       "date": "2026-07-06",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242172531/900",
       "photographer": "Paul Lewis",
-      "attribution": "Paul Lewis / Macaulay Library"
+      "attribution": "Paul Lewis / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "lbbgul",
@@ -790,7 +958,9 @@
       "date": "2026-07-07",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/299868811/900",
       "photographer": "Terry Bohling",
-      "attribution": "Terry Bohling / Macaulay Library"
+      "attribution": "Terry Bohling / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "goldcr1",
@@ -799,7 +969,9 @@
       "date": "2026-07-08",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035631/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "bargoo",
@@ -808,7 +980,9 @@
       "date": "2026-07-09",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/161008611/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 676
     },
     {
       "speciesCode": "monpar",
@@ -817,7 +991,9 @@
       "date": "2026-07-10",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/71547631/900",
       "photographer": "Kacau Oliveira",
-      "attribution": "Kacau Oliveira / Macaulay Library"
+      "attribution": "Kacau Oliveira / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "cinvul1",
@@ -826,7 +1002,9 @@
       "date": "2026-07-11",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254915731/900",
       "photographer": "Aseem Kothiala",
-      "attribution": "Aseem Kothiala / Macaulay Library"
+      "attribution": "Aseem Kothiala / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 676
     },
     {
       "speciesCode": "cetwar1",
@@ -835,7 +1013,9 @@
       "date": "2026-07-12",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/615717250/900",
       "photographer": "Ferit Başbuğ",
-      "attribution": "Ferit Başbuğ / Macaulay Library"
+      "attribution": "Ferit Başbuğ / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "litbit1",
@@ -844,7 +1024,9 @@
       "date": "2026-07-13",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46034981/900",
       "photographer": "José Frade",
-      "attribution": "José Frade / Macaulay Library"
+      "attribution": "José Frade / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "elefal1",
@@ -853,7 +1035,9 @@
       "date": "2026-07-14",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55027681/900",
       "photographer": "Ricardo Rodríguez",
-      "attribution": "Ricardo Rodríguez / Macaulay Library"
+      "attribution": "Ricardo Rodríguez / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "norgos1",
@@ -862,7 +1046,9 @@
       "date": "2026-07-15",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609520163/900",
       "photographer": "Daniel López-Velasco | Ornis Birding Expeditions",
-      "attribution": "Daniel López-Velasco | Ornis Birding Expeditions / Macaulay Library"
+      "attribution": "Daniel López-Velasco | Ornis Birding Expeditions / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "skylar",
@@ -871,7 +1057,9 @@
       "date": "2026-07-16",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/311380331/900",
       "photographer": "Peter Kennerley",
-      "attribution": "Peter Kennerley / Macaulay Library"
+      "attribution": "Peter Kennerley / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "sinmar1",
@@ -889,7 +1077,9 @@
       "date": "2026-07-18",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46495721/900",
       "photographer": "Wayne Gillatt",
-      "attribution": "Wayne Gillatt / Macaulay Library"
+      "attribution": "Wayne Gillatt / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comqua1",
@@ -898,7 +1088,9 @@
       "date": "2026-07-19",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/241998281/900",
       "photographer": "Javier Robres",
-      "attribution": "Javier Robres / Macaulay Library"
+      "attribution": "Javier Robres / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "cretit2",
@@ -907,7 +1099,9 @@
       "date": "2026-07-20",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258104311/900",
       "photographer": "Javier Robres",
-      "attribution": "Javier Robres / Macaulay Library"
+      "attribution": "Javier Robres / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grewhi1",
@@ -916,7 +1110,9 @@
       "date": "2026-07-21",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256746661/900",
       "photographer": "Anonymous",
-      "attribution": "Anonymous / Macaulay Library"
+      "attribution": "Anonymous / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blared1",
@@ -925,7 +1121,9 @@
       "date": "2026-07-22",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/44587591/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grebus1",
@@ -934,7 +1132,9 @@
       "date": "2026-07-23",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242189201/900",
       "photographer": "Marco Valentini",
-      "attribution": "Marco Valentini / Macaulay Library"
+      "attribution": "Marco Valentini / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "carcro1",
@@ -943,7 +1143,9 @@
       "date": "2026-07-24",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256186201/900",
       "photographer": "Guillermo López Zamora",
-      "attribution": "Guillermo López Zamora / Macaulay Library"
+      "attribution": "Guillermo López Zamora / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comcuc",
@@ -952,7 +1154,9 @@
       "date": "2026-07-25",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45125031/900",
       "photographer": "Biju PB",
-      "attribution": "Biju PB / Macaulay Library"
+      "attribution": "Biju PB / Macaulay Library",
+      "imageWidth": 830,
+      "imageHeight": 623
     },
     {
       "speciesCode": "eurbul",
@@ -970,7 +1174,9 @@
       "date": "2026-07-27",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/632267408/900",
       "photographer": "Vincent Wang",
-      "attribution": "Vincent Wang / Macaulay Library"
+      "attribution": "Vincent Wang / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blutit",
@@ -979,7 +1185,9 @@
       "date": "2026-07-28",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46409481/900",
       "photographer": "Ferit Başbuğ",
-      "attribution": "Ferit Başbuğ / Macaulay Library"
+      "attribution": "Ferit Başbuğ / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comnig1",
@@ -988,7 +1196,9 @@
       "date": "2026-07-29",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730581/900",
       "photographer": "Tânia Araújo",
-      "attribution": "Tânia Araújo / Macaulay Library"
+      "attribution": "Tânia Araújo / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "wooshr1",
@@ -997,7 +1207,9 @@
       "date": "2026-07-30",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/54019381/900",
       "photographer": "Markus Craig",
-      "attribution": "Markus Craig / Macaulay Library"
+      "attribution": "Markus Craig / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "norlap",
@@ -1006,7 +1218,9 @@
       "date": "2026-07-31",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/609204339/900",
       "photographer": "Abhishek Das",
-      "attribution": "Abhishek Das / Macaulay Library"
+      "attribution": "Abhishek Das / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "woowar",
@@ -1024,7 +1238,9 @@
       "date": "2026-08-02",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/302851271/900",
       "photographer": "Simon Boivin",
-      "attribution": "Simon Boivin / Macaulay Library"
+      "attribution": "Simon Boivin / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gochon2",
@@ -1033,7 +1249,9 @@
       "date": "2026-08-03",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/244026431/900",
       "photographer": "Andres Vasquez Noboa",
-      "attribution": "Andres Vasquez Noboa / Macaulay Library"
+      "attribution": "Andres Vasquez Noboa / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "lirplo",
@@ -1042,7 +1260,9 @@
       "date": "2026-08-04",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/216990981/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eargre",
@@ -1051,7 +1271,9 @@
       "date": "2026-08-05",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305508041/900",
       "photographer": "Caroline Lambert",
-      "attribution": "Caroline Lambert / Macaulay Library"
+      "attribution": "Caroline Lambert / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "wemhar1",
@@ -1060,7 +1282,9 @@
       "date": "2026-08-06",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/258094771/900",
       "photographer": "Jeffrey Wang",
-      "attribution": "Jeffrey Wang / Macaulay Library"
+      "attribution": "Jeffrey Wang / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "norsho",
@@ -1069,7 +1293,9 @@
       "date": "2026-08-07",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300124811/900",
       "photographer": "Dorian Anderson",
-      "attribution": "Dorian Anderson / Macaulay Library"
+      "attribution": "Dorian Anderson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "perfal",
@@ -1078,7 +1304,9 @@
       "date": "2026-08-08",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/303618951/900",
       "photographer": "Joshua Stacy",
-      "attribution": "Joshua Stacy / Macaulay Library"
+      "attribution": "Joshua Stacy / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "dunlin",
@@ -1087,7 +1315,9 @@
       "date": "2026-08-09",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301478601/900",
       "photographer": "Dorian Anderson",
-      "attribution": "Dorian Anderson / Macaulay Library"
+      "attribution": "Dorian Anderson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "lammer1",
@@ -1096,7 +1326,9 @@
       "date": "2026-08-10",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45942621/900",
       "photographer": "Andrew Spencer",
-      "attribution": "Andrew Spencer / Macaulay Library"
+      "attribution": "Andrew Spencer / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gobfru1",
@@ -1105,7 +1337,9 @@
       "date": "2026-08-11",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/322126041/900",
       "photographer": "Yve Morrell",
-      "attribution": "Yve Morrell / Macaulay Library"
+      "attribution": "Yve Morrell / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "yefgul",
@@ -1114,7 +1348,9 @@
       "date": "2026-08-12",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/308496801/900",
       "photographer": "Tanner Martin",
-      "attribution": "Tanner Martin / Macaulay Library"
+      "attribution": "Tanner Martin / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "redkit1",
@@ -1123,7 +1359,9 @@
       "date": "2026-08-13",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254929681/900",
       "photographer": "James Kennerley",
-      "attribution": "James Kennerley / Macaulay Library"
+      "attribution": "James Kennerley / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "tufduc",
@@ -1132,7 +1370,9 @@
       "date": "2026-08-14",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/301541481/900",
       "photographer": "Honza Grünwald",
-      "attribution": "Honza Grünwald / Macaulay Library"
+      "attribution": "Honza Grünwald / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "torfly1",
@@ -1141,7 +1381,9 @@
       "date": "2026-08-15",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622964945/900",
       "photographer": "Dubi Shapiro",
-      "attribution": "Dubi Shapiro / Macaulay Library"
+      "attribution": "Dubi Shapiro / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurspa1",
@@ -1150,7 +1392,9 @@
       "date": "2026-08-16",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/254927951/900",
       "photographer": "Magnus Andersson",
-      "attribution": "Magnus Andersson / Macaulay Library"
+      "attribution": "Magnus Andersson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "combuz1",
@@ -1159,7 +1403,9 @@
       "date": "2026-08-17",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46432381/900",
       "photographer": "Omar alshaheen",
-      "attribution": "Omar alshaheen / Macaulay Library"
+      "attribution": "Omar alshaheen / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comred1",
@@ -1168,7 +1414,9 @@
       "date": "2026-08-18",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168487271/900",
       "photographer": "Mouser Williams",
-      "attribution": "Mouser Williams / Macaulay Library"
+      "attribution": "Mouser Williams / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "subwar6",
@@ -1177,7 +1425,9 @@
       "date": "2026-08-19",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/362122751/900",
       "photographer": "Rui Jorge",
-      "attribution": "Rui Jorge / Macaulay Library"
+      "attribution": "Rui Jorge / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "goleag",
@@ -1186,7 +1436,9 @@
       "date": "2026-08-20",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/305364081/900",
       "photographer": "Bryan Calk",
-      "attribution": "Bryan Calk / Macaulay Library"
+      "attribution": "Bryan Calk / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "rorpar",
@@ -1195,7 +1447,9 @@
       "date": "2026-08-21",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/622584055/900",
       "photographer": "Albin Jacob",
-      "attribution": "Albin Jacob / Macaulay Library"
+      "attribution": "Albin Jacob / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "hawfin",
@@ -1204,7 +1458,9 @@
       "date": "2026-08-22",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257636241/900",
       "photographer": "Ivan Sjögren",
-      "attribution": "Ivan Sjögren / Macaulay Library"
+      "attribution": "Ivan Sjögren / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurjay1",
@@ -1213,7 +1469,9 @@
       "date": "2026-08-23",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/252252921/900",
       "photographer": "John Higgins",
-      "attribution": "John Higgins / Macaulay Library"
+      "attribution": "John Higgins / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "trepip",
@@ -1222,7 +1480,9 @@
       "date": "2026-08-24",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46493931/900",
       "photographer": "Ian Davies",
-      "attribution": "Ian Davies / Macaulay Library"
+      "attribution": "Ian Davies / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eursco1",
@@ -1231,7 +1491,9 @@
       "date": "2026-08-25",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/55028931/900",
       "photographer": "Patrick J. Blake",
-      "attribution": "Patrick J. Blake / Macaulay Library"
+      "attribution": "Patrick J. Blake / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurjac",
@@ -1240,7 +1502,9 @@
       "date": "2026-08-26",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/45035361/900",
       "photographer": "Ryan Schain",
-      "attribution": "Ryan Schain / Macaulay Library"
+      "attribution": "Ryan Schain / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "garrob1",
@@ -1249,7 +1513,9 @@
       "date": "2026-08-27",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/275299061/900",
       "photographer": "Jacques Erard",
-      "attribution": "Jacques Erard / Macaulay Library"
+      "attribution": "Jacques Erard / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "caichi1",
@@ -1258,7 +1524,9 @@
       "date": "2026-08-28",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/611393322/900",
       "photographer": "Andrés  Rojas Sánchez",
-      "attribution": "Andrés  Rojas Sánchez / Macaulay Library"
+      "attribution": "Andrés  Rojas Sánchez / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "litowl1",
@@ -1267,7 +1535,9 @@
       "date": "2026-08-29",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/255114031/900",
       "photographer": "Sinan Yılmaz",
-      "attribution": "Sinan Yılmaz / Macaulay Library"
+      "attribution": "Sinan Yılmaz / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "bksbrf1",
@@ -1276,7 +1546,9 @@
       "date": "2026-08-30",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/210540181/900",
       "photographer": "Peter Kaestner",
-      "attribution": "Peter Kaestner / Macaulay Library"
+      "attribution": "Peter Kaestner / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "dybtwi1",
@@ -1285,7 +1557,9 @@
       "date": "2026-08-31",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/386392611/900",
       "photographer": "Markus Lilje",
-      "attribution": "Markus Lilje / Macaulay Library"
+      "attribution": "Markus Lilje / Macaulay Library",
+      "imageWidth": 864,
+      "imageHeight": 648
     },
     {
       "speciesCode": "litgre1",
@@ -1294,7 +1568,9 @@
       "date": "2026-09-01",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/242168551/900",
       "photographer": "Zhong Ying Koay",
-      "attribution": "Zhong Ying Koay / Macaulay Library"
+      "attribution": "Zhong Ying Koay / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "yellow2",
@@ -1303,7 +1579,9 @@
       "date": "2026-09-02",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169382141/900",
       "photographer": "Nigel Voaden",
-      "attribution": "Nigel Voaden / Macaulay Library"
+      "attribution": "Nigel Voaden / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comcra",
@@ -1312,7 +1590,9 @@
       "date": "2026-09-03",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168488341/900",
       "photographer": "James Kennerley",
-      "attribution": "James Kennerley / Macaulay Library"
+      "attribution": "James Kennerley / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "pieavo1",
@@ -1321,7 +1601,9 @@
       "date": "2026-09-04",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/373504371/900",
       "photographer": "Volker Hesse",
-      "attribution": "Volker Hesse / Macaulay Library"
+      "attribution": "Volker Hesse / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comchi1",
@@ -1330,7 +1612,9 @@
       "date": "2026-09-05",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/256567401/900",
       "photographer": "Santiago Caballero Carrera",
-      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+      "attribution": "Santiago Caballero Carrera / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eaywag1",
@@ -1339,7 +1623,9 @@
       "date": "2026-09-06",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/257824121/900",
       "photographer": "Christoph Moning",
-      "attribution": "Christoph Moning / Macaulay Library"
+      "attribution": "Christoph Moning / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grrwar1",
@@ -1348,7 +1634,9 @@
       "date": "2026-09-07",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/662317588/900",
       "photographer": "Miguel Rouco",
-      "attribution": "Miguel Rouco / Macaulay Library"
+      "attribution": "Miguel Rouco / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gresni1",
@@ -1357,7 +1645,9 @@
       "date": "2026-09-08",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253680621/900",
       "photographer": "James Kennerley",
-      "attribution": "James Kennerley / Macaulay Library"
+      "attribution": "James Kennerley / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blucha3",
@@ -1366,7 +1656,9 @@
       "date": "2026-09-09",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/617259701/900",
       "photographer": "Daniel Pettersson",
-      "attribution": "Daniel Pettersson / Macaulay Library"
+      "attribution": "Daniel Pettersson / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comrav",
@@ -1375,7 +1667,9 @@
       "date": "2026-09-10",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/300152741/900",
       "photographer": "Christopher Lindsey",
-      "attribution": "Christopher Lindsey / Macaulay Library"
+      "attribution": "Christopher Lindsey / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "comgre",
@@ -1384,7 +1678,9 @@
       "date": "2026-09-11",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253685851/900",
       "photographer": "Marco Valentini",
-      "attribution": "Marco Valentini / Macaulay Library"
+      "attribution": "Marco Valentini / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "medgul1",
@@ -1393,7 +1689,9 @@
       "date": "2026-09-12",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/253700151/900",
       "photographer": "Josep del Hoyo",
-      "attribution": "Josep del Hoyo / Macaulay Library"
+      "attribution": "Josep del Hoyo / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "darwar1",
@@ -1402,7 +1700,9 @@
       "date": "2026-09-13",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/610068865/900",
       "photographer": "Ben Lucking",
-      "attribution": "Ben Lucking / Macaulay Library"
+      "attribution": "Ben Lucking / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "grepar",
@@ -1411,7 +1711,9 @@
       "date": "2026-09-14",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/240817371/900",
       "photographer": "Zak Pohlen",
-      "attribution": "Zak Pohlen / Macaulay Library"
+      "attribution": "Zak Pohlen / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gretit1",
@@ -1420,7 +1722,9 @@
       "date": "2026-09-15",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/169357911/900",
       "photographer": "Steven McGrath",
-      "attribution": "Steven McGrath / Macaulay Library"
+      "attribution": "Steven McGrath / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "commoo3",
@@ -1429,7 +1733,9 @@
       "date": "2026-09-16",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/620374233/900",
       "photographer": "Alexis Lours",
-      "attribution": "Alexis Lours / Macaulay Library"
+      "attribution": "Alexis Lours / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "yebtou1",
@@ -1447,7 +1753,9 @@
       "date": "2026-09-18",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/168730821/900",
       "photographer": "Pedro Marques",
-      "attribution": "Pedro Marques / Macaulay Library"
+      "attribution": "Pedro Marques / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "blackc1",
@@ -1456,7 +1764,9 @@
       "date": "2026-09-19",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/459237521/900",
       "photographer": "Santiago Caballero Carrera",
-      "attribution": "Santiago Caballero Carrera / Macaulay Library"
+      "attribution": "Santiago Caballero Carrera / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "euhgul1",
@@ -1465,7 +1775,9 @@
       "date": "2026-09-20",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/623287377/900",
       "photographer": "Alexis Lours",
-      "attribution": "Alexis Lours / Macaulay Library"
+      "attribution": "Alexis Lours / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "eurnig1",
@@ -1474,7 +1786,9 @@
       "date": "2026-09-21",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/46342211/900",
       "photographer": "Peter Kennerley",
-      "attribution": "Peter Kennerley / Macaulay Library"
+      "attribution": "Peter Kennerley / Macaulay Library",
+      "imageWidth": 828,
+      "imageHeight": 621
     },
     {
       "speciesCode": "cursan",
@@ -1483,7 +1797,9 @@
       "date": "2026-09-22",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2324759/large.jpg",
       "photographer": "Paul Cools",
-      "attribution": "Paul Cools / iNaturalist (CC BY-NC)"
+      "attribution": "Paul Cools / iNaturalist (CC BY-NC)",
+      "imageWidth": 900,
+      "imageHeight": 538
     },
     {
       "speciesCode": "sopsku1",
@@ -1492,7 +1808,9 @@
       "date": "2026-09-23",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/South_polar_skua.jpg/960px-South_polar_skua.jpg",
       "photographer": "Paride Legovini",
-      "attribution": "Paride Legovini / Wikimedia Commons (CC BY-SA 4.0)"
+      "attribution": "Paride Legovini / Wikimedia Commons (CC BY-SA 4.0)",
+      "imageWidth": 960,
+      "imageHeight": 640
     },
     {
       "speciesCode": "tansta1",
@@ -1501,7 +1819,9 @@
       "date": "2026-09-24",
       "imageUrl": "https://cdn.download.ams.birds.cornell.edu/api/v2/asset/613855973/900",
       "photographer": "Andrew Spencer",
-      "attribution": "Andrew Spencer / Macaulay Library"
+      "attribution": "Andrew Spencer / Macaulay Library",
+      "imageWidth": 900,
+      "imageHeight": 675
     },
     {
       "speciesCode": "gobfly2",
@@ -1519,7 +1839,9 @@
       "date": "2026-09-26",
       "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg/960px-2022-04-06_Streptopelia_decaocto%2C_Plovdiv%2C_Bulgaria_1.jpg",
       "photographer": "stevem4560",
-      "attribution": "stevem4560 / Wikimedia Commons (CC BY 4.0)"
+      "attribution": "stevem4560 / Wikimedia Commons (CC BY 4.0)",
+      "imageWidth": 960,
+      "imageHeight": 720
     },
     {
       "speciesCode": "eupfly1",
@@ -1528,7 +1850,9 @@
       "date": "2026-09-27",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/185217056/large.jpeg",
       "photographer": "Matthieu Gauvain",
-      "attribution": "Matthieu Gauvain / iNaturalist (CC BY-NC)"
+      "attribution": "Matthieu Gauvain / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 768
     },
     {
       "speciesCode": "eurcrm1",
@@ -1537,7 +1861,9 @@
       "date": "2026-09-28",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/501784601/large.jpg",
       "photographer": "Manuel Raab",
-      "attribution": "Manuel Raab / iNaturalist (CC BY-NC)"
+      "attribution": "Manuel Raab / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "mouwar1",
@@ -1546,7 +1872,9 @@
       "date": "2026-09-29",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/96456323/large.jpg",
       "photographer": "Анна Голубева",
-      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)"
+      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)",
+      "imageWidth": 1024,
+      "imageHeight": 684
     },
     {
       "speciesCode": "lottit1",
@@ -1555,7 +1883,9 @@
       "date": "2026-09-30",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/large.jpg",
       "photographer": "Luca Boscain",
-      "attribution": "Luca Boscain / iNaturalist (CC BY-NC)"
+      "attribution": "Luca Boscain / iNaturalist (CC BY-NC)",
+      "imageWidth": 888,
+      "imageHeight": 606
     },
     {
       "speciesCode": "wfwduc1",
@@ -1564,7 +1894,9 @@
       "date": "2026-10-01",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/30515510/large.jpeg",
       "photographer": "Bird Explorers",
-      "attribution": "Bird Explorers / iNaturalist (CC BY-NC)"
+      "attribution": "Bird Explorers / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "smbtin1",
@@ -1573,7 +1905,9 @@
       "date": "2026-10-02",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/648114/large.jpg",
       "photographer": "Cláudio Dias Timm",
-      "attribution": "Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)"
+      "attribution": "Cláudio Dias Timm / iNaturalist (CC BY-NC-SA)",
+      "imageWidth": 640,
+      "imageHeight": 426
     },
     {
       "speciesCode": "plgrol1",
@@ -1582,16 +1916,20 @@
       "date": "2026-10-03",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/57416008/large.jpeg",
       "photographer": "lemurtaquin",
-      "attribution": "lemurtaquin / iNaturalist (CC BY-NC)"
+      "attribution": "lemurtaquin / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 723
     },
     {
       "speciesCode": "crelar1",
       "comName": "Cogujada Común",
       "sciName": "Galerida cristata",
       "date": "2026-10-04",
-      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61326230/large.jpg",
-      "photographer": "Koshy Koshy",
-      "attribution": "Koshy Koshy / iNaturalist (CC BY)"
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/118077344/large.jpg",
+      "photographer": "Анна Голубева",
+      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)",
+      "imageWidth": 1200,
+      "imageHeight": 801
     },
     {
       "speciesCode": "impeag1",
@@ -1600,7 +1938,9 @@
       "date": "2026-10-05",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/129874502/large.jpeg",
       "photographer": "Andrew Bazdyrev",
-      "attribution": "Andrew Bazdyrev / iNaturalist (CC BY)"
+      "attribution": "Andrew Bazdyrev / iNaturalist (CC BY)",
+      "imageWidth": 1024,
+      "imageHeight": 768
     },
     {
       "speciesCode": "litbus1",
@@ -1609,7 +1949,9 @@
       "date": "2026-10-06",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/144406705/large.jpg",
       "photographer": "Анна Голубева",
-      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)"
+      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)",
+      "imageWidth": 1024,
+      "imageHeight": 684
     },
     {
       "speciesCode": "squher1",
@@ -1618,7 +1960,9 @@
       "date": "2026-10-07",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg",
       "photographer": "Ian White",
-      "attribution": "Ian White / iNaturalist (CC BY-ND)"
+      "attribution": "Ian White / iNaturalist (CC BY-ND)",
+      "imageWidth": 1024,
+      "imageHeight": 681
     },
     {
       "speciesCode": "shteag1",
@@ -1627,7 +1971,9 @@
       "date": "2026-10-08",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40950147/large.jpg",
       "photographer": "Vijay Vanaparthy",
-      "attribution": "Vijay Vanaparthy / iNaturalist (CC BY)"
+      "attribution": "Vijay Vanaparthy / iNaturalist (CC BY)",
+      "imageWidth": 1024,
+      "imageHeight": 769
     },
     {
       "speciesCode": "wlwwar",
@@ -1636,16 +1982,20 @@
       "date": "2026-10-09",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165631422/large.jpeg",
       "photographer": "Valia Pavlou",
-      "attribution": "Valia Pavlou / iNaturalist (CC BY-NC)"
+      "attribution": "Valia Pavlou / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 735
     },
     {
       "speciesCode": "yesbul1",
       "comName": "Bulbul Listado",
       "sciName": "Phyllastrephus flavostriatus",
       "date": "2026-10-10",
-      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165622853/large.jpg",
-      "photographer": "clicque",
-      "attribution": "clicque / iNaturalist (CC BY-NC)"
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/324995014/large.jpeg",
+      "photographer": "Helen Badenhorst",
+      "attribution": "Helen Badenhorst / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 755
     },
     {
       "speciesCode": "corplo",
@@ -1654,16 +2004,20 @@
       "date": "2026-10-11",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8956/large.jpg",
       "photographer": "Paul Roberts",
-      "attribution": "Paul Roberts / iNaturalist (CC BY-NC)"
+      "attribution": "Paul Roberts / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "sibbro2",
       "comName": "Eurilaimo Cejigrís",
       "sciName": "Serilophus rubropygius",
       "date": "2026-10-12",
-      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/245267422/large.jpg",
-      "photographer": "Md. Zaber Ansary",
-      "attribution": "Md. Zaber Ansary / iNaturalist (CC BY-NC)"
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/48618809/large.jpg",
+      "photographer": "subhashc",
+      "attribution": "subhashc / iNaturalist (CC BY-NC)",
+      "imageWidth": 1000,
+      "imageHeight": 667
     },
     {
       "speciesCode": "webwar1",
@@ -1672,7 +2026,9 @@
       "date": "2026-10-13",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/177324940/large.jpg",
       "photographer": "David Barros Cardona",
-      "attribution": "David Barros Cardona / iNaturalist (CC BY-NC)"
+      "attribution": "David Barros Cardona / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 715
     },
     {
       "speciesCode": "zitcis1",
@@ -1681,7 +2037,9 @@
       "date": "2026-10-14",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/180576291/large.jpg",
       "photographer": "Ximo Galarza",
-      "attribution": "Ximo Galarza / iNaturalist (CC BY-NC-SA)"
+      "attribution": "Ximo Galarza / iNaturalist (CC BY-NC-SA)",
+      "imageWidth": 1024,
+      "imageHeight": 759
     },
     {
       "speciesCode": "norhar1",
@@ -1690,7 +2048,9 @@
       "date": "2026-10-15",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/38130778/large.jpg",
       "photographer": "Константин Самодуров",
-      "attribution": "Константин Самодуров / iNaturalist (CC BY-NC)"
+      "attribution": "Константин Самодуров / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "eurrob1",
@@ -1699,7 +2059,9 @@
       "date": "2026-10-16",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/104940884/large.jpeg",
       "photographer": "naturpel",
-      "attribution": "naturpel / iNaturalist (CC BY-NC)"
+      "attribution": "naturpel / iNaturalist (CC BY-NC)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "grcgre1",
@@ -1708,16 +2070,20 @@
       "date": "2026-10-17",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/556162413/large.jpg",
       "photographer": "caroline legg",
-      "attribution": "caroline legg / iNaturalist (CC BY)"
+      "attribution": "caroline legg / iNaturalist (CC BY)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "leswoo1",
       "comName": "Pico Menor",
       "sciName": "Dryobates minor",
       "date": "2026-10-18",
-      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9109/large.jpg",
-      "photographer": "Sergey Yeliseev",
-      "attribution": "Sergey Yeliseev / iNaturalist (CC BY-NC-ND)"
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/large.jpg",
+      "photographer": "Алексей Эбель",
+      "attribution": "Алексей Эбель / iNaturalist (CC BY-NC)",
+      "imageWidth": 2048,
+      "imageHeight": 1254
     },
     {
       "speciesCode": "eursta",
@@ -1726,7 +2092,9 @@
       "date": "2026-10-19",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/large.jpg",
       "photographer": "Fran Wiesner",
-      "attribution": "Fran Wiesner / iNaturalist (CC BY-NC-ND)"
+      "attribution": "Fran Wiesner / iNaturalist (CC BY-NC-ND)",
+      "imageWidth": 1000,
+      "imageHeight": 667
     },
     {
       "speciesCode": "comkin1",
@@ -1735,7 +2103,9 @@
       "date": "2026-10-20",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/large.jpg",
       "photographer": "Mark Kilner",
-      "attribution": "Mark Kilner / iNaturalist (CC BY-NC-SA)"
+      "attribution": "Mark Kilner / iNaturalist (CC BY-NC-SA)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "recpoc",
@@ -1744,7 +2114,9 @@
       "date": "2026-10-21",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/458515851/large.jpg",
       "photographer": "Diego González Dopico",
-      "attribution": "Diego González Dopico / iNaturalist (CC BY)"
+      "attribution": "Diego González Dopico / iNaturalist (CC BY)",
+      "imageWidth": 1024,
+      "imageHeight": 683
     },
     {
       "speciesCode": "arcter",
@@ -1753,16 +2125,20 @@
       "date": "2026-10-22",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/149865822/large.jpg",
       "photographer": "pelagicgraf",
-      "attribution": "pelagicgraf / iNaturalist (CC BY-NC)"
+      "attribution": "pelagicgraf / iNaturalist (CC BY-NC)",
+      "imageWidth": 1000,
+      "imageHeight": 667
     },
     {
       "speciesCode": "blawoo1",
       "comName": "Picamaderos Negro",
       "sciName": "Dryocopus martius",
       "date": "2026-10-23",
-      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31574109/large.jpg",
-      "photographer": "Александр",
-      "attribution": "Александр / iNaturalist (CC BY-NC-SA)"
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/150466350/large.jpg",
+      "photographer": "cesare dolzani",
+      "attribution": "cesare dolzani / iNaturalist (CC BY-NC-SA)",
+      "imageWidth": 1204,
+      "imageHeight": 804
     },
     {
       "speciesCode": "eutkne1",
@@ -1771,7 +2147,9 @@
       "date": "2026-10-24",
       "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/208423163/large.jpg",
       "photographer": "Kudaibergen Amirekul",
-      "attribution": "Kudaibergen Amirekul / iNaturalist (CC BY-SA)"
+      "attribution": "Kudaibergen Amirekul / iNaturalist (CC BY-SA)",
+      "imageWidth": 1024,
+      "imageHeight": 684
     }
   ]
 }

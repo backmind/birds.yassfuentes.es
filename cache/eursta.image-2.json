@@ -3,5 +3,7 @@
   "asset_id": null,
   "photographer": "Fran Wiesner",
   "attribution": "Fran Wiesner / iNaturalist (CC BY-NC-ND)",
-  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=eursta&mediaType=photo&sort=rating_rank_desc"
+  "search_url": "https://search.macaulaylibrary.org/catalog?taxonCode=eursta&mediaType=photo&sort=rating_rank_desc",
+  "width": 1000,
+  "height": 667
 }
