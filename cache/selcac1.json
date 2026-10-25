@@ -1,0 +1,16 @@
+{
+  "description": "El cacique de Koepcke o arrendajo selvático es una especie de ave paseriforme de la familia Icteridae, perteneciente al género Cacicus. Es endémica del occidente de la cuenca del Amazonas.",
+  "description_source": "wikipedia",
+  "bow_intro": "Selva Cacique es el icterido descrito mas recientemente, su nombre honra a Maria Koepcke, pionera de la ornitologia peruana. Se trata de un cacique pequeño y delgado con una cola larga, es negro con la rabadilla amarilla. Parece que el totalmente negro Ecuadorian Cacique (Cacicus sclateri ) es su pariente más cercano. Curiosamente, unos pocos ejemplares del Ecuadorian Cacique muestran las plumas de la rabadilla con puntas amarillas, una tendencia que se aproxima al aspecto del Selva Cacique; los dos son esencialmente idénticos en forma y tamaño. Esta oropéndola poco conocida se encuentra en los matorrales de las orillas de los lagos y en la vegetación ribereña de los bosques tropicales de tierras bajas. No se conoce su nidificación. Puede encontrarse solitaria o en pequeños grupos que probablemente sean grupos familiares. Durante mucho tiempo esta especie se conoció a partir de sólo dos ejemplares, la localidad original de observación fue Balta, en Ucayali, sureste de Perú a 300 m sobre el nivel del mar. Sigue siendo rara y poco conocida, pero ahora hay más observaciones.",
+  "taxonomy": {},
+  "wikipedia_summary": "El cacique de Koepcke o arrendajo selvático es una especie de ave paseriforme de la familia Icteridae, perteneciente al género Cacicus. Es endémica del occidente de la cuenca del Amazonas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cacicus_koepckeae",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5229821,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5229821&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22724043"
+}

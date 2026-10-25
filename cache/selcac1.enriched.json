@@ -1,0 +1,11 @@
+{
+  "prose": "En la densa espesura del occidente de la cuenca amazónica, donde los meandros fluviales y las lagunas esculpen la selva de tierras bajas, habita un ave singularmente discreta: el Cacique de Koepcke (Cacicus koepckeae). De porte menudo y silueta esbelta, este ictérido de cola llamativamente larga encuentra su refugio en los matorrales ribereños y la vegetación palustre que bordea los cursos de agua tropicales. En esos márgenes umbríos forrajea de manera sigilosa, ya sea en solitario o en pequeños grupos que se presume corresponden a unidades familiares. Su presencia destaca por el elegante contraste entre un plumaje enteramente negro azabache y una rabadilla de un encendido color amarillo, destello que rompe la penumbra verde del sotobosque inundable.\n\nBautizado en homenaje a Maria Koepcke, pionera indiscutible de la ornitología peruana, el Cacique de Koepcke ostenta la distinción de ser el miembro de la familia Icteridae descrito más recientemente. Durante décadas permaneció como un auténtico enigma ornitológico: tras su hallazgo inicial en Balta, en el sureste de Perú a escasos trescientos metros de altitud, sólo se conocían dos ejemplares en colecciones científicas. Aunque los registros modernos han ido en aumento, su vida íntima continúa velada por el secreto, al punto de que su reproducción y sus nidos jamás han sido documentados. Su pariente más cercano es el Cacique Ecuatoriano (Cacicus sclateri), de tamaño y proporciones prácticamente idénticas pero con plumaje negro uniforme, en el cual algunos raros individuos exhiben puntas amarillas en la rabadilla, sugiriendo un fascinante puente evolutivo entre ambas especies.",
+  "identification": [
+    "Tamaño pequeño y silueta delgada en comparación con otros caciques, complementada con una cola larga.",
+    "Plumaje predominantemente negro lustroso con un marcado parche amarillo en la rabadilla.",
+    "Diferenciable del congénere Cacique Ecuatoriano por la presencia de la rabadilla amarilla.",
+    "Habitante de matorrales densos a orillas de ríos, lagos y vegetación ribereña en selvas bajas amazónicas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-25T07:40:14Z"
+}

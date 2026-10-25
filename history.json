@@ -2150,6 +2150,17 @@
       "attribution": "Kudaibergen Amirekul / iNaturalist (CC BY-SA)",
       "imageWidth": 1024,
       "imageHeight": 684
+    },
+    {
+      "speciesCode": "selcac1",
+      "comName": "Cacique de Koepcke",
+      "sciName": "Cacicus koepckeae",
+      "date": "2026-10-25",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/538063361/large.jpg",
+      "imageWidth": 1956,
+      "imageHeight": 1296,
+      "photographer": "JanVermeer",
+      "attribution": "JanVermeer / iNaturalist (CC BY-NC)"
     }
   ]
 }
