@@ -2161,6 +2161,17 @@
       "imageHeight": 1296,
       "photographer": "JanVermeer",
       "attribution": "JanVermeer / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "loeowl",
+      "comName": "Búho Chico",
+      "sciName": "Asio otus",
+      "date": "2026-10-26",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/133553640/large.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1366,
+      "photographer": "caroline legg",
+      "attribution": "caroline legg / iNaturalist (CC BY)"
     }
   ]
 }

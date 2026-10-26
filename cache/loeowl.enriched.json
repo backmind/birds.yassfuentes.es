@@ -1,0 +1,11 @@
+{
+  "prose": "El Búho Chico (Asio otus) es un maestro de la discreción y el camuflaje que habita en zonas abiertas y escasamente arboladas de Norteamérica y Eurasia, con poblaciones aisladas en el norte y este de África, las Azores y las Islas Canarias. Durante el día, esta rapaz nocturna busca la protección de la vegetación densa, donde pasa desapercibida gracias a un plumaje que mimetiza a la perfección la corteza de los árboles. Al llegar la noche, el Búho Chico abandona su posadero para cazar en campos abiertos. Con alas largas y una carga alar liviana, realiza un vuelo de búsqueda activa tan pausado como ágil, rastreando el terreno para capturar pequeños roedores a los que localiza principalmente mediante su fino sentido del oído.\n\nA diferencia de muchas otras aves, el Búho Chico no suele construir su propio nido; en su lugar, aprovecha las estructuras de palos abandonadas por otras especies en los árboles, aunque en ocasiones puntuales puede criar en cavidades, acantilados o sobre el propio suelo. Como depredador especializado en micromamíferos, cumple un rol ecológico indispensable en el control natural de las poblaciones de roedores. Aunque su biología reproductora y alimentaria ha sido profundamente documentada en Europa y Estados Unidos, los hábitos de este silencioso cazador en el resto de su área de distribución continúan siendo un cautivador enigma para la ornitología.",
+  "identification": [
+    "Llargos penachos de plumas eréctiles en la cabeza que semejan orejas y se alzan cuando se siente alerta.",
+    "Disco facial bien definido con ojos de un vivo color anaranjado o amarillo dorado.",
+    "Plumaje críptico con un denso jaspeado en tonos pardo, gris y crema.",
+    "Silueta en vuelo estilizada con alas largas y un aleteo suave y silencioso."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-26T07:58:16Z"
+}

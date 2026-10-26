@@ -1,0 +1,16 @@
+{
+  "description": "El búho chico es una especie de ave estrigiforme de la familia Strigidae.",
+  "description_source": "wikipedia",
+  "bow_intro": "La Long-eared Owl habita hábitats abiertos y escasamente arbolados en toda Norteamérica y Eurasia entre los 30° y los 65° de latitud norte. También existen poblaciones aisladas en el norte y este de África, las Azores y las Islas Canarias. Aunque la biología de este Strigidae se ha estudiado ampliamente en Estados Unidos y Europa, se sabe poco de él en otras partes de su área de distribución. La mayoría de los estudios se han centrado en los hábitos alimenticios y en la biología de la nidificación. El Long-eared Owl suele anidar en árboles, poniendo sus huevos en nidos de palos abandonados de otras especies. Con menos frecuencia anida en cavidades de árboles o acantilados, o en el suelo. Aunque prefiere anidar y posarse en la vegetación densa, caza casi exclusivamente en hábitats abiertos. Con alas largas y una carga alar ligera, el Long-eared Owl es un cazador de búsqueda activa, que captura una gran variedad de pequeños roedores. Normalmente caza de noche y probablemente localiza la mayoría de sus presas por el oído.",
+  "taxonomy": {},
+  "wikipedia_summary": "El búho chico es una especie de ave estrigiforme de la familia Strigidae.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Asio_otus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2497306,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2497306&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22689507"
+}
