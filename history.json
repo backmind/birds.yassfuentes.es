@@ -2172,6 +2172,17 @@
       "imageHeight": 1366,
       "photographer": "caroline legg",
       "attribution": "caroline legg / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "leskes1",
+      "comName": "Cernícalo Primilla",
+      "sciName": "Falco naumanni",
+      "date": "2026-10-27",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/294564709/large.jpeg",
+      "imageWidth": 800,
+      "imageHeight": 533,
+      "photographer": "Геннадий Дякин",
+      "attribution": "Геннадий Дякин / iNaturalist (CC BY-NC)"
     }
   ]
 }
