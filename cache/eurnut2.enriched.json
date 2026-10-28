@@ -1,0 +1,12 @@
+{
+  "prose": "El Trepador Azul (Sitta europaea) es el miembro más representativo de su familia y un verdadero maestro de la verticalidad en los bosques del Viejo Mundo. Su área de distribución es asombrosamente amplia, extendiéndose desde las Islas Británicas, Escandinavia y Marruecos hasta Kamchatka, Japón y Taiwán. Con una silueta compacta de unos 14 centímetros de longitud, cola corta y un pico fuerte en forma de cincel, este pájaro destaca por un comportamiento acrobático formidable: es capaz de descender rutinariamente de cabeza por los troncos de los árboles. Esta destreza es posible gracias a la notable solidez de sus patas y garras, que le permiten aferrarse a la corteza para buscar alimento desde ángulos inaccesibles para otras aves.\n\nA lo largo de su inmenso territorio se reconocen unas 22 subespecies, cuyo color ventral oscila desde el blanco puro o amarillento hasta tonos canela o rojizos. En el pasado, otras especies como el Trepador Siberiano (Sitta arctica), el Trepador de Cachemira (Sitta cashmirensis) o el Trepador Ventricastaño (Sitta cinnamoventris) se consideraron integrantes del Trepador Azul. El dimorfismo sexual es bastante sutil; las hembras suelen presentar un plumaje ligeramente más pálido y una franja ocular de un tono pardo menos marcado que el negro intenso de los machos, manteniendo ambos sexos esa estampa ágil que los caracteriza.",
+  "identification": [
+    "Plumaje de las partes superiores de un tono gris azulado uniforme.",
+    "Prominente antifaz o máscara negruzca que atraviesa la zona del ojo.",
+    "Partes inferiores variables según la región geográfica, oscilando entre el blanquecino y el canela o rojizo.",
+    "Capacidad única para desplazarse cabeza abajo por los troncos de los árboles.",
+    "Pico robusto y recto en forma de cincel, idóneo para sondear la corteza."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-28T08:44:57Z"
+}

@@ -1,0 +1,16 @@
+{
+  "description": "El trepador azul es una especie de ave paseriforme de la familia Sittidae. Se trata de un ave de tamaño medio que mide 14 cm de longitud. Al igual que otros trepadores, es un pájaro robusto, con cola corta y largo pico. Las partes superiores son de color gris azulado, los colores de las partes inferiores varían según su ubicación geográfica del rojo puro al blanco o amarillento, con o sin un área clara en la mejilla.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Eurasian Nuthatch, posiblemente el miembro arquetípico de su familia, es uno de los miembros más ampliamente distribuidos geográficamente de los Sittidae , con una distribución que se extiende a lo ancho del continente euroasiático, desde las Islas Británicas y Escandinavia al sur hasta Marruecos, en el oeste, hasta Kamchatka en el noreste de Siberia, gran parte de Japón, Corea y Taiwán, en el extremo este. A lo largo de esta enorme área de distribución, se reconocen actualmente unas 22 subespecies, y no menos de otras seis especies - Chestnut-vented Nuthatch ( Sitta nagaensis ) , Kashmir Nuthatch ( Sitta cashmirensis ) , Indian Nuthatch ( Sitta castanea ) , Chestnut-bellied Nuthatch ( Sitta cinnamoventris ) , Burmese Nuthatch ( Sitta neglecta ) , y Siberian Nuthatch ( Sitta arctica ) - fueron en algún momento consideradas congéneres de Eurasian Nuthatch. Las 22 subespecies se han subdividido en tres o cuatro grupos en función del fenotipo y la geografía, pero los estudios de ADN (con muestras de 15 de las subespecies) sugieren claramente que existen tres grupos de subespecies distintos, con cierto solapamiento geográfico limitado entre dos de ellos. En cuanto a la morfología, esta especie es mayoritariamente gris azulada en las partes superiores, con una prominente máscara negruzca a través del ojo, y partes inferiores que van desde el blanquecino al canela; el pico es robusto y en forma de cincel y las patas y pies también son notablemente robustos, lo que permite al ave descender rutinariamente de cabeza por los troncos de los árboles mientras busca comida. El dimorfismo sexual es bastante limitado, como en el caso de la mayoría de los trepadores, siendo a menudo las hembras ligeramente más pálidas por encima, con la línea superciliar algo más parda (menos negra), y las partes inferiores en promedio más pálidas que las del macho.",
+  "taxonomy": {},
+  "wikipedia_summary": "El trepador azul es una especie de ave paseriforme de la familia Sittidae. Se trata de un ave de tamaño medio que mide 14 cm de longitud. Al igual que otros trepadores, es un pájaro robusto, con cola corta y largo pico. Las partes superiores son de color gris azulado, los colores de las partes inferiores varían según su ubicación geográfica del rojo puro al blanco o amarillento, con o sin un área clara en la mejilla.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Sitta_europaea",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2484916,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2484916&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/103879804"
+}

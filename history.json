@@ -2183,6 +2183,17 @@
       "imageHeight": 533,
       "photographer": "Геннадий Дякин",
       "attribution": "Геннадий Дякин / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "eurnut2",
+      "comName": "Trepador Azul",
+      "sciName": "Sitta europaea",
+      "date": "2026-10-28",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/98789955/large.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1477,
+      "photographer": "Bengt Nyman",
+      "attribution": "Bengt Nyman / iNaturalist (CC BY)"
     }
   ]
 }

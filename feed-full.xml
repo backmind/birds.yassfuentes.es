@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 27 Oct 2026 07:58:21 +0000</pubDate>
+    <pubDate>Wed, 28 Oct 2026 08:40:27 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Trepador Azul (Sitta europaea)</title>
+      <link>https://birds.yassfuentes.es/birds/eurnut2.html</link>
+      <guid isPermaLink="false">bird-of-the-day-eurnut2-2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 08:40:27 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/98789955/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Bengt Nyman / iNaturalist (CC BY)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/98789955/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 201 · 2026 · 10 · 28</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/eurnut2.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/98789955/large.jpg" alt="Trepador Azul" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Bengt Nyman / iNaturalist (CC BY)</em></small></p>
+<h2>Trepador Azul — <em>Sitta europaea</em></h2>
+<p><small><em>Sittidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/103879804">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/eurnut2.html">Trepador Azul</a> (<em>Sitta europaea</em>) es el miembro más representativo de su familia y un verdadero maestro de la verticalidad en los bosques del Viejo Mundo. Su área de distribución es asombrosamente amplia, extendiéndose desde las Islas Británicas, Escandinavia y Marruecos hasta Kamchatka, Japón y Taiwán. Con una silueta compacta de unos 14 centímetros de longitud, cola corta y un pico fuerte en forma de cincel, este pájaro destaca por un comportamiento acrobático formidable: es capaz de descender rutinariamente de cabeza por los troncos de los árboles. Esta destreza es posible gracias a la notable solidez de sus patas y garras, que le permiten aferrarse a la corteza para buscar alimento desde ángulos inaccesibles para otras aves.</p>
+<p>A lo largo de su inmenso territorio se reconocen unas 22 subespecies, cuyo color ventral oscila desde el blanco puro o amarillento hasta tonos canela o rojizos. En el pasado, otras especies como el <a href="https://ebird.org/species/eurnut6?siteLanguage=es" target="_blank" rel="noopener">Trepador Siberiano</a> (<em>Sitta arctica</em>), el <a href="https://ebird.org/species/kasnut1?siteLanguage=es" target="_blank" rel="noopener">Trepador de Cachemira</a> (<em>Sitta cashmirensis</em>) o el <a href="https://ebird.org/species/chbnut3?siteLanguage=es" target="_blank" rel="noopener">Trepador Ventricastaño</a> (<em>Sitta cinnamoventris</em>) se consideraron integrantes del <a href="https://birds.yassfuentes.es/birds/eurnut2.html">Trepador Azul</a>. El dimorfismo sexual es bastante sutil; las hembras suelen presentar un plumaje ligeramente más pálido y una franja ocular de un tono pardo menos marcado que el negro intenso de los machos, manteniendo ambos sexos esa estampa ágil que los caracteriza.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje de las partes superiores de un tono gris azulado uniforme.</li><li>Prominente antifaz o máscara negruzca que atraviesa la zona del ojo.</li><li>Partes inferiores variables según la región geográfica, oscilando entre el blanquecino y el canela o rojizo.</li><li>Capacidad única para desplazarse cabeza abajo por los troncos de los árboles.</li><li>Pico robusto y recto en forma de cincel, idóneo para sondear la corteza.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2484916"><img src="https://birds.yassfuentes.es/maps/eurnut2.png" alt="Distribución mundial de Sitta europaea según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/eurnut2?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sitta_europaea">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eurnut2/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eurnut2&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Cernícalo Primilla (Falco naumanni)</title>
       <link>https://birds.yassfuentes.es/birds/leskes1.html</link>
