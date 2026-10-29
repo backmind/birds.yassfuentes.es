@@ -2194,6 +2194,17 @@
       "imageHeight": 1477,
       "photographer": "Bengt Nyman",
       "attribution": "Bengt Nyman / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "blecoc1",
+      "comName": "Cacatúa Oftálmica",
+      "sciName": "Cacatua ophthalmica",
+      "date": "2026-10-29",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/8203569/large.jpg",
+      "imageWidth": 1152,
+      "imageHeight": 768,
+      "photographer": "Markus  Lilje",
+      "attribution": "Markus  Lilje / iNaturalist (CC BY-NC-ND)"
     }
   ]
 }

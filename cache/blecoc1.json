@@ -1,0 +1,16 @@
+{
+  "description": "La cacatúa oftálmica es una especie de ave psitaciforme de la familia de las cacatúas endémica de las selvas de Papúa Nueva Guinea.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La cacatúa oftálmica es una especie de ave psitaciforme de la familia de las cacatúas endémica de las selvas de Papúa Nueva Guinea.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cacatua_ophthalmica",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2479881,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2479881&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22728429"
+}

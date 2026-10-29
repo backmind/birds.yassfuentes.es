@@ -1,0 +1,11 @@
+{
+  "prose": "En las densas y húmedas selvas tropicales de Papúa Nueva Guinea habita la Cacatúa Oftálmica (Cacatua ophthalmica), un ave verdaderamente deslumbrante. Con su plumaje eminentemente blanco y una silueta imponente, destaca de inmediato en el dosel forestal. Sin embargo, su rasgo más llamativo es el intenso anillo de piel desnuda de color azul brillante que rodea sus ojos oscuros, una mirada casi hipnótica que le otorga su nombre. Estas aves son profundamente sociales; se desplazan a menudo en parejas o pequeños grupos ruidosos a través de la copa de los árboles, comunicándose mediante potentes reclamos que resuenan en la frondosidad de la selva.\n\nAdemás de su distintivo cerco ocular, la Cacatúa Oftálmica posee una vistosa corona de plumas móviles que despliega cuando se encuentra excitada o en alerta, revelando tonos amarillentos ocultos bajo la capa exterior. En el ecosistema tropical, desempeña un papel fundamental al alimentarse de frutos, semillas y nueces, ayudando activamente a la regeneración forestal. Lamentablemente, la degradación de su hábitat natural debido a la deforestación la convierte en una especie vulnerable cuyo futuro depende de la preservación de estos bosques insulares.",
+  "identification": [
+    "Anillo de piel desnuda de un vivo color azul alrededor del ojo.",
+    "Plumaje enteramente blanco con una cresta eréctil que revela plumas amarillas al abrirse.",
+    "Pico fuerte, curvo y de color gris oscuro o negro.",
+    "Vocalizaciones potentes, estridentes y muy resonantes emitidas desde el dosel."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-29T08:41:09Z"
+}
