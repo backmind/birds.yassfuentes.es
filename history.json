@@ -2205,6 +2205,17 @@
       "imageHeight": 768,
       "photographer": "Markus  Lilje",
       "attribution": "Markus  Lilje / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "blkswa",
+      "comName": "Cisne Negro",
+      "sciName": "Cygnus atratus",
+      "date": "2026-10-30",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/464046604/large.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1368,
+      "photographer": "Kevin Yonando",
+      "attribution": "Kevin Yonando / iNaturalist (CC BY-NC)"
     }
   ]
 }

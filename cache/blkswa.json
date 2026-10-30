@@ -1,0 +1,16 @@
+{
+  "description": "El cisne negro es una especie de ave anseriforme de la familia Anatidae endémica de Australia. Fue descubierto en 1697 por la expedición del capitán neerlandés Willem de Vlamingh, que llevó de vuelta a varios ejemplares, algunos de los cuales llegaron con vida a Holanda. Los cisnes negros son propios de Australia y hasta ese momento, se pensaba que todos los cisnes eran blancos, porque de ese color eran todos los cisnes que se conocían hasta entonces. La aparición de una especie de cisnes de un color distinto al que estaban acostumbrados a ver, supuso para los habitantes de la época una fuente de debate y de polémica. Ha sido el favorito de los estanques ornamentales de Europa, India y posteriormente de América, pero no se ha asilvestrado en estos continentes.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El cisne negro es una especie de ave anseriforme de la familia Anatidae endémica de Australia. Fue descubierto en 1697 por la expedición del capitán neerlandés Willem de Vlamingh, que llevó de vuelta a varios ejemplares, algunos de los cuales llegaron con vida a Holanda. Los cisnes negros son propios de Australia y hasta ese momento, se pensaba que todos los cisnes eran blancos, porque de ese color eran todos los cisnes que se conocían hasta entonces. La aparición de una especie de cisnes de un color distinto al que estaban acostumbrados a ver, supuso para los habitantes de la época una fuente de debate y de polémica. Ha sido el favorito de los estanques ornamentales de Europa, India y posteriormente de América, pero no se ha asilvestrado en estos continentes.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Cygnus_atratus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2498344,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2498344&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22679843"
+}

@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Thu, 29 Oct 2026 08:36:45 +0000</pubDate>
+    <pubDate>Fri, 30 Oct 2026 08:44:20 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Cisne Negro (Cygnus atratus)</title>
+      <link>https://birds.yassfuentes.es/birds/blkswa.html</link>
+      <guid isPermaLink="false">bird-of-the-day-blkswa-2026-10-30</guid>
+      <pubDate>Fri, 30 Oct 2026 08:44:20 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/464046604/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Kevin Yonando / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/464046604/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 203 · 2026 · 10 · 30</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/blkswa.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/464046604/large.jpg" alt="Cisne Negro" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Kevin Yonando / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Cisne Negro — <em>Cygnus atratus</em></h2>
+<p><small><em>Anatidae</em> · <em>Anseriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22679843">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/blkswa.html">Cisne Negro</a> (<em>Cygnus atratus</em>) es una majestuosa ave acuática endémica de Australia, donde frecuenta una amplia variedad de humedales, lagunas someras y estuarios protegidos. A diferencia de sus congéneres del hemisferio norte, presenta un plumaje casi íntegramente oscuro, de tonalidades que van del gris pizarra al negro tizón, que contrasta de forma deslumbrante con unas plumas de vuelo de un blanco inmaculado que solo se revelan plenamente cuando alza el vuelo. En el agua se desplaza con una elegancia pausada, empleando su cuello extraordinariamente largo y flexible para alcanzar la vegetación sumergida y las algas de las que se sustenta, manteniendo limpios y oxigenados los canales fluviales.</p>
+<p>Durante siglos, en el pensamiento occidental prevaleció la convicción absoluta de que todos los cisnes eran exclusivamente blancos, hasta el punto de que la noción de un ejemplar oscuro se utilizaba como metáfora filosófica para describir lo imposible. Este paradigma se transformó por completo en 1697, cuando la expedición del navegante neerlandés Willem de Vlamingh descubrió ejemplares vivos en el occidente australiano, desatando una profunda controversia entre los naturalistas de la época. Cautivados por su singularidad, los seres humanos llevaron al <a href="https://birds.yassfuentes.es/birds/blkswa.html">Cisne Negro</a> a estanques ornamentales de Europa, India y posteriormente América, donde ha sido admirado durante generaciones sin llegar a consolidar poblaciones asilvestradas en dichos continentes.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje casi por completo negro carbón o gris hollín, con plumas remeras blancas visibles al desplegar las alas.</li><li>Pico de un llamativo color rojo carmín, cruzado cerca de la punta por una franja estrecha de color blanco.</li><li>Cuello sumamente largo y esbelto, que suele mantener erguido o en una grácil curvatura en forma de &#x27;S&#x27;.</li><li>Patas palmeadas de color gris oscuro o negruzco, adaptadas a la natación en aguas tranquilas.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2498344"><img src="https://birds.yassfuentes.es/maps/blkswa.png" alt="Distribución mundial de Cygnus atratus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/blkswa?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Cygnus_atratus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/blkswa/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=blkswa&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Cacatúa Oftálmica (Cacatua ophthalmica)</title>
       <link>https://birds.yassfuentes.es/birds/blecoc1.html</link>
@@ -617,27 +638,6 @@
 <ul><li>Cara y frente de color blanco puro que contrastan con la parte posterior de la cabeza y el cuello negros.</li><li>Pecho de tono castaño rojizo y flancos deslumbrantes con fino barreteado en blanco y negro.</li><li>Pico y patas de tonalidades oscuras, adaptados a la vida en aguas someras.</li><li>Llamado acústico en forma de silbido claro de tres notas, muy distintivo en vuelos nocturnos.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2498396"><img src="https://birds.yassfuentes.es/maps/wfwduc1.png" alt="Distribución mundial de Dendrocygna viduata según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/wfwduc1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Dendrocygna_viduata">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/wfwduc1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=wfwduc1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Mito Común (Aegithalos caudatus)</title>
-      <link>https://birds.yassfuentes.es/birds/lottit1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-lottit1-2026-09-30</guid>
-      <pubDate>Wed, 30 Sep 2026 08:39:25 +0000</pubDate>
-      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/large.jpg" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Luca Boscain / iNaturalist (CC BY-NC)</media:credit>
-      </media:content>
-      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/large.jpg" />
-      <content:encoded><![CDATA[<p><small>№ 173 · 2026 · 09 · 30</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/lottit1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/115550098/large.jpg" alt="Mito Común" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Luca Boscain / iNaturalist (CC BY-NC)</em></small></p>
-<h2>Mito Común — <em>Aegithalos caudatus</em></h2>
-<p><small><em>Aegithalidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/103871923">LC</a> · Preocupación Menor</small></p>
-<p>En la amplia franja boscosa que atraviesa la Eurasia paleártica, desde Fennoscandia y los sotos del norte de Europa hasta los frondosos confines de Siberia y el este de Asia, habita una criatura diminuta e inconfundible: el <a href="https://birds.yassfuentes.es/birds/lottit1.html">Mito Común</a> (<em>Aegithalos caudatus</em>). Perteneciente a la familia Aegithalidae, esta pequeña ave paseriforme destaca por una proporción corporal verdaderamente inverosímil, pues posee una cola estrecha que supera en longitud al resto de su propio cuerpo. De hábitos marcadamente gregarios fuera de la época reproductiva, se desplaza con incansable agilidad entre la vegetación de bosques y sotos fluviales en pequeños grupos familiares, emitiendo agudos reclamos mientras inspecciona ramas y hojas en busca de pequeños invertebrados.</p>
-<p>Más allá de su singular silueta, el <a href="https://birds.yassfuentes.es/birds/lottit1.html">Mito Común</a> destaca por sus extraordinarias habilidades arquitectónicas y su compleja estructura social. Para albergar a su nidada, construye un nido ovoidal prodigioso, cuidadosamente tejido con musgo, líquenes y telas de araña, cuyo interior reviste con cientos de plumas para garantizar un aislamiento térmico idóneo. Además, la especie exhibe con frecuencia un comportamiento de cría cooperativa, donde aquellos individuos que pierden sus propias puestas ayudan a alimentar a los polluelos de parejas emparentadas. Como activo depredador de pequeños artrópodos, desempeña un papel clave en la dinámica y salud de las masas forestales que habitan.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Cola gradualmente alargada y estrecha, notablemente más larga que el resto del cuerpo.</li><li>Cuerpo pequeño y compacto con aspecto de diminuta bola de algodón.</li><li>Pico verdaderamente corto, fino y cónico.</li><li>Comportamiento hiperactivo y gregario, desplazándose en ruidosos grupos a través del dosel arbóreo.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2495000"><img src="https://birds.yassfuentes.es/maps/lottit1.png" alt="Distribución mundial de Aegithalos caudatus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/lottit1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Aegithalos_caudatus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/lottit1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=lottit1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

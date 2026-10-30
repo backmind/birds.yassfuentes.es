@@ -1,0 +1,11 @@
+{
+  "prose": "El Cisne Negro (Cygnus atratus) es una majestuosa ave acuática endémica de Australia, donde frecuenta una amplia variedad de humedales, lagunas someras y estuarios protegidos. A diferencia de sus congéneres del hemisferio norte, presenta un plumaje casi íntegramente oscuro, de tonalidades que van del gris pizarra al negro tizón, que contrasta de forma deslumbrante con unas plumas de vuelo de un blanco inmaculado que solo se revelan plenamente cuando alza el vuelo. En el agua se desplaza con una elegancia pausada, empleando su cuello extraordinariamente largo y flexible para alcanzar la vegetación sumergida y las algas de las que se sustenta, manteniendo limpios y oxigenados los canales fluviales.\n\nDurante siglos, en el pensamiento occidental prevaleció la convicción absoluta de que todos los cisnes eran exclusivamente blancos, hasta el punto de que la noción de un ejemplar oscuro se utilizaba como metáfora filosófica para describir lo imposible. Este paradigma se transformó por completo en 1697, cuando la expedición del navegante neerlandés Willem de Vlamingh descubrió ejemplares vivos en el occidente australiano, desatando una profunda controversia entre los naturalistas de la época. Cautivados por su singularidad, los seres humanos llevaron al Cisne Negro a estanques ornamentales de Europa, India y posteriormente América, donde ha sido admirado durante generaciones sin llegar a consolidar poblaciones asilvestradas en dichos continentes.",
+  "identification": [
+    "Plumaje casi por completo negro carbón o gris hollín, con plumas remeras blancas visibles al desplegar las alas.",
+    "Pico de un llamativo color rojo carmín, cruzado cerca de la punta por una franja estrecha de color blanco.",
+    "Cuello sumamente largo y esbelto, que suele mantener erguido o en una grácil curvatura en forma de 'S'.",
+    "Patas palmeadas de color gris oscuro o negruzco, adaptadas a la natación en aguas tranquilas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-30T08:45:46Z"
+}
