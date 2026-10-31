@@ -2216,6 +2216,17 @@
       "imageHeight": 1368,
       "photographer": "Kevin Yonando",
       "attribution": "Kevin Yonando / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "rengre",
+      "comName": "Somormujo Cuellirrojo",
+      "sciName": "Podiceps grisegena",
+      "date": "2026-10-31",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/653469754/large.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "photographer": "Erik Eckstein",
+      "attribution": "Erik Eckstein / iNaturalist (CC BY-NC)"
     }
   ]
 }

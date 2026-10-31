@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Fri, 30 Oct 2026 08:44:20 +0000</pubDate>
+    <pubDate>Sat, 31 Oct 2026 08:29:30 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Somormujo Cuellirrojo (Podiceps grisegena)</title>
+      <link>https://birds.yassfuentes.es/birds/rengre.html</link>
+      <guid isPermaLink="false">bird-of-the-day-rengre-2026-10-31</guid>
+      <pubDate>Sat, 31 Oct 2026 08:29:30 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/653469754/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Erik Eckstein / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/653469754/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 204 · 2026 · 10 · 31</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/rengre.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/653469754/large.jpg" alt="Somormujo Cuellirrojo" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Erik Eckstein / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Somormujo Cuellirrojo — <em>Podiceps grisegena</em></h2>
+<p><small><em>Podicipedidae</em> · <em>Podicipediformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22696599">LC</a> · Preocupación Menor</small></p>
+<p>En las tranquilas masas de agua somera del norte del continente holártico, entre la vegetación palustre densa, habita el <a href="https://birds.yassfuentes.es/birds/rengre.html">Somormujo Cuellirrojo</a> (<em>Podiceps grisegena</em>). Esta gran ave acuática, de temperamento marcadamente territorial y pugnaz, establece sus dominios estivales en lagos de agua dulce, humedales de las praderas y masas acuáticas forestales hasta el límite de la vegetación de árboles. Con la llegada del invierno, el <a href="https://birds.yassfuentes.es/birds/rengre.html">Somormujo Cuellirrojo</a> emprende viajes migratorios hacia las costas marinas de aguas calmas y grandes lagos continentales. Durante la estación reproductiva, su presencia no pasa desapercibida: su llamativo plumaje se combina con un repertorio de reclamos estridentes que resuenan sobre la superficie de los lagos.</p>
+<p>Dotado de un pico robusto, el <a href="https://birds.yassfuentes.es/birds/rengre.html">Somormujo Cuellirrojo</a> es un ágil depredador que se sumerge para capturar una amplia variedad de presas acuáticas. Su comportamiento defensivo es verdaderamente notable: para mantener a salvo su territorio de cría, no duda en ejecutar inmersiones tácticas y lanzar ataques submarinos sorpresa contra otras aves acuáticas que traspasen sus límites. Como curiosidad biológica, los ejemplares pertenecientes a las poblaciones de Norteamérica y el este de Asia son de mayor tamaño que sus congéneres de Europa y Asia occidental. Fuera de las rutas migratorias, rara vez se le observa volar, prefiriendo pasar la mayor parte de su vida nadando, buceando y manteniendo un perfil discreto durante los meses invernales.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Pico robusto y fuerte adaptado para la captura de presas en inmersión.</li><li>Plumaje nupcial distintivo con cuello rojizo y vocalizaciones estridentes en las áreas de cría.</li><li>Comportamiento agresivo y territorial que incluye embestidas y ataques desde debajo del agua.</li><li>Tamaño corporal sensiblemente mayor en las poblaciones norteamericanas y de Asia oriental respecto a las eurasiáticas occidentales.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2482051"><img src="https://birds.yassfuentes.es/maps/rengre.png" alt="Distribución mundial de Podiceps grisegena según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/rengre?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Podiceps_grisegena">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/rengre/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=rengre&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Cisne Negro (Cygnus atratus)</title>
       <link>https://birds.yassfuentes.es/birds/blkswa.html</link>

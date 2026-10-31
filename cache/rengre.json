@@ -1,0 +1,16 @@
+{
+  "description": "El somormujo cuellirrojo es una especie de ave podicipediforme de la familia Podicipedidae propia de Eurasia y Norteamérica. Es un ave migratoria que cría en regiones septentrionales del Holártico, y pasa el invierno en las costas de aguas tranquilas, aunque también puede pasar el invierno en los lagos grandes. Los somormujos prefieren como lugares de cría las masas de aguas someras de lagos de agua dulce con vegetación circundante densa.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Red-necked Grebe es un habitante casi circumpolar de las aguas septentrionales. En Norteamérica pasa el invierno en las costas septentrionales del Atlántico y el Pacífico. Se desplaza tierra adentro para criar en pequeños lagos y otras masas de agua adecuadas de las praderas septentrionales, los parques occidentales y los bosques, hacia el norte hasta cerca de la línea de árboles. Es un Podicipedidae grande y muy pugnaz que captura diversas presas acuáticas con su robusto pico. El Red-necked Grebe de Norteamérica y Asia oriental es más grande que sus homólogos de Europa y Asia occidental; hasta 1957 esta subespecie más grande se conocía en Norteamérica como zampullín de Holboell (Am. Ornithol. Union American Ornithologists' Union 1931 American Ornithologists' Union (1931). Check-list of North American Birds. 4th edition. American Ornithologists' Union, Lancaster, PA, USA. Close , American Ornithologists' Union 1957 American Ornithologists' Union (1957). Check-list of North American Birds. 5th edition. American Ornithologists' Union, Washington, DC, USA. Close ). En sus lagos de cría, este zampullín audazmente marcado delata su presencia con frecuentes llamadas estridentes. Es territorial e interespecíficamente agresivo, y suele amenazar o realizar inmersiones submarinas de ataque contra otras aves acuáticas que entran en su territorio de cría. Fuera de la migración, rara vez se le ve en vuelo, pasando la mayor parte del tiempo nadando y/o buceando. Lejos de las zonas de cría, suele ser tranquilo y discreto, aunque grupos de migrantes primaverales pueden dedicarse a llamar y cortejar en las zonas de parada migratoria.",
+  "taxonomy": {},
+  "wikipedia_summary": "El somormujo cuellirrojo es una especie de ave podicipediforme de la familia Podicipedidae propia de Eurasia y Norteamérica. Es un ave migratoria que cría en regiones septentrionales del Holártico, y pasa el invierno en las costas de aguas tranquilas, aunque también puede pasar el invierno en los lagos grandes. Los somormujos prefieren como lugares de cría las masas de aguas someras de lagos de agua dulce con vegetación circundante densa.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Podiceps_grisegena",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2482051,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2482051&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696599"
+}

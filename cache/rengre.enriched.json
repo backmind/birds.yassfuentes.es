@@ -1,0 +1,11 @@
+{
+  "prose": "En las tranquilas masas de agua somera del norte del continente holártico, entre la vegetación palustre densa, habita el Somormujo Cuellirrojo (Podiceps grisegena). Esta gran ave acuática, de temperamento marcadamente territorial y pugnaz, establece sus dominios estivales en lagos de agua dulce, humedales de las praderas y masas acuáticas forestales hasta el límite de la vegetación de árboles. Con la llegada del invierno, el Somormujo Cuellirrojo emprende viajes migratorios hacia las costas marinas de aguas calmas y grandes lagos continentales. Durante la estación reproductiva, su presencia no pasa desapercibida: su llamativo plumaje se combina con un repertorio de reclamos estridentes que resuenan sobre la superficie de los lagos.\n\nDotado de un pico robusto, el Somormujo Cuellirrojo es un ágil depredador que se sumerge para capturar una amplia variedad de presas acuáticas. Su comportamiento defensivo es verdaderamente notable: para mantener a salvo su territorio de cría, no duda en ejecutar inmersiones tácticas y lanzar ataques submarinos sorpresa contra otras aves acuáticas que traspasen sus límites. Como curiosidad biológica, los ejemplares pertenecientes a las poblaciones de Norteamérica y el este de Asia son de mayor tamaño que sus congéneres de Europa y Asia occidental. Fuera de las rutas migratorias, rara vez se le observa volar, prefiriendo pasar la mayor parte de su vida nadando, buceando y manteniendo un perfil discreto durante los meses invernales.",
+  "identification": [
+    "Pico robusto y fuerte adaptado para la captura de presas en inmersión.",
+    "Plumaje nupcial distintivo con cuello rojizo y vocalizaciones estridentes en las áreas de cría.",
+    "Comportamiento agresivo y territorial que incluye embestidas y ataques desde debajo del agua.",
+    "Tamaño corporal sensiblemente mayor en las poblaciones norteamericanas y de Asia oriental respecto a las eurasiáticas occidentales."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-10-31T08:36:53Z"
+}
