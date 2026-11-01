@@ -1,0 +1,11 @@
+{
+  "prose": "Originaria de los abruptos acantilados y gargantas rocosas del sur de Eurasia y el norte de África, la Paloma Bravía (Columba livia) ha demostrado ser una de las criaturas más adaptables del planeta. En las cornisas, puentes y fachadas de los asentamientos humanos, esta ave encontró el sustituto perfecto para las paredes verticales de sus riscos nativos. Con un vuelo potente, veloz y directo impulsado por músculos pectorales formidables, se desplaza en bandadas coordinadas para forrajear en campo abierto y zonas urbanizadas. Su extraordinaria destreza aérea y su capacidad para prosperar en entornos profundamente transformados han facilitado una expansión que hoy abarca casi todos los continentes habitados.\n\nEl vínculo entre la Paloma Bravía y la humanidad trasciende su mera convivencia en las plazas. Domesticada hace miles de años y asilvestrada con notable éxito en regiones lejanas como América —donde fue introducida en el siglo XVII y hoy se clasifica en algunos países como especie exótica invasora—, ha sido una aliada invaluable para el conocimiento. Charles Darwin recurrió a su enorme variedad de razas para fundamentar la teoría de la selección y la evolución. Sus misteriosos mecanismos de navegación y orientación, su protagonismo en los clásicos experimentos conductuales de aprendizaje y el descubrimiento de la hormona prolactina en su organismo sitúan a esta familiar vecina en el corazón mismo de la historia de la ciencia biológica.",
+  "identification": [
+    "Plumaje ancestral gris azulado con dos barras negras transversales en las alas y obispillo de tono blanquecino, si bien las formas asilvestradas muestran una gran variación de colores.",
+    "Reflejos iridiscentes verdes y púrpuras muy característicos en los costados y la parte posterior del cuello.",
+    "Ojos con iris de un intenso color anaranjado o rojizo y patas de color carmesí.",
+    "Canto consistente en un arrullo grave, gutural y rítmico emitido comúnmente durante el cortejo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-01T09:27:56Z"
+}
