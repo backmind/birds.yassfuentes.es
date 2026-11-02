@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 01 Nov 2026 09:21:20 +0000</pubDate>
+    <pubDate>Mon, 02 Nov 2026 09:36:20 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Vencejo Común (Apus apus)</title>
+      <link>https://birds.yassfuentes.es/birds/comswi.html</link>
+      <guid isPermaLink="false">bird-of-the-day-comswi-2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 09:36:20 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Алексей Эбель / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 206 · 2026 · 11 · 02</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/comswi.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/large.jpg" alt="Vencejo Común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Алексей Эбель / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Vencejo Común — <em>Apus apus</em></h2>
+<p><small><em>Apodidae</em> · <em>Apodiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22686800">LC</a> · Preocupación Menor</small></p>
+<p>Pocos espectáculos marcan el inicio de los días cálidos de forma tan certera como la llegada de siluetas ágiles y afiladas que rasgan el cielo urbano. El <a href="https://birds.yassfuentes.es/birds/comswi.html">Vencejo Común</a> (<em>Apus apus</em>) es un ave apodiforme de la familia Apodidae que habita amplias regiones de Eurasia y África. Aunque se le asocia fuertemente con los pueblos y ciudades donde establece sus nidos durante la primavera, considerar a esta especie como puramente septentrional es una ilusión; el <a href="https://birds.yassfuentes.es/birds/comswi.html">Vencejo Común</a> pasa apenas unos pocos meses en sus zonas de reproducción antes de regresar al continente africano. Su morfología está adaptada de manera magistral a la vida en el aire, destacando sus largas alas curvadas en forma de guadaña y un plumaje marrón negruzco en casi todo el cuerpo, con la salvedad de una garganta más pálida.</p>
+<p>La biología de esta singular criatura permaneció envuelta en el enigma hasta mediados de la década de 1940, cuando investigaciones pioneras comenzaron a revelar las complejidades de su comportamiento en las edificaciones humanas. El <a href="https://birds.yassfuentes.es/birds/comswi.html">Vencejo Común</a> desempeña un papel ecológico vital como cazador e insecticida natural, capturando invertebrados directamente en pleno vuelo. Sorprendentemente, pese a ser de los migrantes más tardíos en llegar en primavera, también es de los primeros en partir; en temporadas con condiciones especialmente favorables para la cría, abandona sus nidos urbanos tan pronto como a finales de julio, demostrando que su paso por las latitudes de cría es apenas un préstamo efímero.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje pardo negruzco uniforme en la mayor parte del cuerpo.</li><li>Garganta de tono más pálido, a veces acompañada por un matiz claro en la frente.</li><li>Alas muy largas, estrechas y curvadas con forma de guadaña.</li><li>Vuelo veloz, directo y maniobrable, alternando bateos rápidos con prolongados planeos.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5228676"><img src="https://birds.yassfuentes.es/maps/comswi.png" alt="Distribución mundial de Apus apus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/comswi?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Apus_apus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/comswi/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=comswi&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Paloma Bravía (Columba livia)</title>
       <link>https://birds.yassfuentes.es/birds/rocpig.html</link>

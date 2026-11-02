@@ -1,0 +1,16 @@
+{
+  "description": "El vencejo común es una especie de ave apodiforme de la familia Apodidae propia de Eurasia y África.",
+  "description_source": "wikipedia",
+  "bow_intro": "Puede haber pocos presagios más certeros del verano en los cielos del norte de Europa que la llegada del alado de guadaña Common Swift, que suele anunciar el comienzo de un tiempo más cálido y persistente. Aunque es uno de los migrantes más tardíos en llegar en primavera, la especie también puede ser una de las primeras en marcharse en \"otoño\"; por ejemplo, en años con condiciones especialmente adecuadas para la nidificación, Common Swift puede haber abandonado sus lugares de cría, principalmente en pueblos y ciudades, ya a finales de julio. Así pues, para los observadores de aves europeos considerar a esta carismática ave como una de las \"propias\" es algo exagerado; estaría más cerca de la verdad pensar en la especie como un \"préstamo\" de África durante menos de un puñado de meses al año. Lo que a esta especie le falta de aspecto -en los adultos es fundamentalmente marrón negruzco en todo el cuerpo salvo por una garganta más pálida y a veces la frente- lo compensa con una biología notable, que hasta David Lack (1910-1973) comenzara sus estudios pioneros a mediados de la década de 1940, principalmente en la ciudad meridional inglesa de Oxford, seguía siendo en gran medida enigmática. El trabajo de Lack tuvo salida a través de una serie de artículos en la literatura técnica, pero también en su libro de divulgación científica, Vencejos en una torre ( 1 Lack, D. (1956). Swifts in a Tower. Chapman and Hall, London, UK. Close ), que conserva su capacidad de inspiración hasta nuestros días.",
+  "taxonomy": {},
+  "wikipedia_summary": "El vencejo común es una especie de ave apodiforme de la familia Apodidae propia de Eurasia y África.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Apus_apus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5228676,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5228676&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22686800"
+}

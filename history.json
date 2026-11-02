@@ -2238,6 +2238,17 @@
       "imageHeight": 1500,
       "photographer": "Birds of Gilgit-Baltistan",
       "attribution": "Birds of Gilgit-Baltistan / iNaturalist (CC BY-SA)"
+    },
+    {
+      "speciesCode": "comswi",
+      "comName": "Vencejo Común",
+      "sciName": "Apus apus",
+      "date": "2026-11-02",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/40612214/large.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 923,
+      "photographer": "Алексей Эбель",
+      "attribution": "Алексей Эбель / iNaturalist (CC BY-NC)"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "prose": "Pocos espectáculos marcan el inicio de los días cálidos de forma tan certera como la llegada de siluetas ágiles y afiladas que rasgan el cielo urbano. El Vencejo Común (Apus apus) es un ave apodiforme de la familia Apodidae que habita amplias regiones de Eurasia y África. Aunque se le asocia fuertemente con los pueblos y ciudades donde establece sus nidos durante la primavera, considerar a esta especie como puramente septentrional es una ilusión; el Vencejo Común pasa apenas unos pocos meses en sus zonas de reproducción antes de regresar al continente africano. Su morfología está adaptada de manera magistral a la vida en el aire, destacando sus largas alas curvadas en forma de guadaña y un plumaje marrón negruzco en casi todo el cuerpo, con la salvedad de una garganta más pálida.\n\nLa biología de esta singular criatura permaneció envuelta en el enigma hasta mediados de la década de 1940, cuando investigaciones pioneras comenzaron a revelar las complejidades de su comportamiento en las edificaciones humanas. El Vencejo Común desempeña un papel ecológico vital como cazador e insecticida natural, capturando invertebrados directamente en pleno vuelo. Sorprendentemente, pese a ser de los migrantes más tardíos en llegar en primavera, también es de los primeros en partir; en temporadas con condiciones especialmente favorables para la cría, abandona sus nidos urbanos tan pronto como a finales de julio, demostrando que su paso por las latitudes de cría es apenas un préstamo efímero.",
+  "identification": [
+    "Plumaje pardo negruzco uniforme en la mayor parte del cuerpo.",
+    "Garganta de tono más pálido, a veces acompañada por un matiz claro en la frente.",
+    "Alas muy largas, estrechas y curvadas con forma de guadaña.",
+    "Vuelo veloz, directo y maniobrable, alternando bateos rápidos con prolongados planeos."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-02T09:37:23Z"
+}
