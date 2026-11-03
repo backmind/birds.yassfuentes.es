@@ -1,0 +1,16 @@
+{
+  "description": "La pardela de Hutton es una especie de ave marina en la familia Procellariidae. Su nombre conmemora a Frederick Wollaston Hutton, un ex comisario del museo de Canterbury en Christchurch, Nueva Zelanda.",
+  "description_source": "wikipedia",
+  "bow_intro": "Cualquier observador de aves que haya realizado un viaje pelágico por las aguas de la localidad neozelandesa de Kaikoura, en la Isla Sur, es probable que haya visto un gran número de pardelas de Hutton. Dada su abundancia allí, a algunos les sorprenderá saber que esta especie está confinada como reproductora a las laderas marinas de la cordillera de Kaikoura, entre 1.200 y 1.800 m sobre el nivel del mar, en zonas con hierba tussock o matorrales, y en ningún otro lugar de Nueva Zelanda; la población total se estima en unos 300.000-350.000 individuos. Sin embargo, fuera de la temporada reproductiva (que dura desde aproximadamente septiembre hasta abril), la pardela de Hutton migra a través del mar de Tasmania hacia Australia, donde algunas aparentemente se desplazan a lo largo de la costa este mientras que otras siguen las costas sur y luego oeste, y se ha sugerido que pueden realizar una circunnavegación de Australia en el sentido de las agujas del reloj o en sentido contrario. En el pasado, esta especie se consideraba a menudo una subespecie de Fluttering Shearwater (Puffinus gavia ), y las dos especies son indudablemente difíciles de separar en el mar en condiciones típicas, incluso en vistas comparativas, y sin experiencia.",
+  "taxonomy": {},
+  "wikipedia_summary": "La pardela de Hutton es una especie de ave marina en la familia Procellariidae. Su nombre conmemora a Frederick Wollaston Hutton, un ex comisario del museo de Canterbury en Christchurch, Nueva Zelanda.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Puffinus_huttoni",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9564755,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9564755&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "EN",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22698252"
+}

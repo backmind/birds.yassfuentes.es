@@ -1,0 +1,11 @@
+{
+  "prose": "En las ricas aguas marinas de Kaikoura, en la Isla Sur de Nueva Zelanda, la Pardela de Hutton (Puffinus huttoni) ofrece un espectáculo majestuoso al sobrevolar las olas. Sin embargo, el aspecto más deslumbrante de su vida transcurre lejos del oleaje. A diferencia de casi todas las demás aves pelágicas, esta especie no nidifica en islotes llanos, sino en las vertiginosas laderas de la cordillera de Kaikoura, a altitudes comprendidas entre los 1.200 y los 1.800 metros sobre el nivel del mar. En estas elevadas pendientes, cubiertas por matorrales y hierba tussock, una población estimada de entre 300.000 y 350.000 individuos construye sus madrigueras, conectando de forma extraordinaria el ambiente de alta montaña con el vasto océano.\n\nUna vez concluida la temporada reproductiva, que se extiende de septiembre a abril, la pardela de Hutton emprende un viaje impresionante a través del mar de Tasmania hacia Australia, rodeando el continente en grandes desplazamientos oceánicos. En el pasado, esta especie fue considerada una subespecie de la Pardela Gavia (Puffinus gavia), con la que comparte un aspecto tan semejante que identificarlas en el mar resulta un auténtico desafío. Su nombre perpetúa la memoria de Frederick Wollaston Hutton, quien fuera comisario del Museo de Canterbury en Christchurch, inmortalizando su vínculo con la historia natural neozelandesa.",
+  "identification": [
+    "Prácticamente indistinguible en el mar de la Pardela Gavia sin una observación muy detallada y experiencia previa.",
+    "Hábito exclusivo de nidificación en laderas montañosas entre 1.200 y 1.800 metros de altitud.",
+    "Presencia muy abundante en las aguas pelágicas de Kaikoura durante su época de reproducción.",
+    "Asociación directa con hábitats de matorral y pastizales de hierba tussock en sus colonias de cría."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-03T09:42:33Z"
+}

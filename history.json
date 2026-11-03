@@ -2249,6 +2249,17 @@
       "imageHeight": 923,
       "photographer": "Алексей Эбель",
       "attribution": "Алексей Эбель / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "hutshe1",
+      "comName": "Pardela de Hutton",
+      "sciName": "Puffinus huttoni",
+      "date": "2026-11-03",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/33280968/large.jpeg",
+      "imageWidth": 2048,
+      "imageHeight": 1191,
+      "photographer": "James Bailey",
+      "attribution": "James Bailey / iNaturalist (CC BY-NC)"
     }
   ]
 }
