@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 03 Nov 2026 09:39:55 +0000</pubDate>
+    <pubDate>Wed, 04 Nov 2026 09:25:06 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Perdiz Roja (Alectoris rufa)</title>
+      <link>https://birds.yassfuentes.es/birds/relpar1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-relpar1-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 09:25:06 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/344898560/large.jpeg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Olli Pihlajamaa / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/344898560/large.jpeg" />
+      <content:encoded><![CDATA[<p><small>№ 208 · 2026 · 11 · 04</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/relpar1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/344898560/large.jpeg" alt="Perdiz Roja" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Olli Pihlajamaa / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Perdiz Roja — <em>Alectoris rufa</em></h2>
+<p><small><em>Phasianidae</em> · <em>Galliformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22678711">NT</a> · Casi Amenazado</small></p>
+<p>En los parajes abiertos y laderas soleadas del suroeste de Europa, la <a href="https://birds.yassfuentes.es/birds/relpar1.html">Perdiz Roja</a> (<em>Alectoris rufa</em>) se mueve con una elegancia serena y sobria. Esta ave galliforme, autóctona de la península ibérica, Francia, el noroeste de Italia y archipiélagos como las Baleares y Córcega, ha hecho del matorral mediterráneo, los campos agrícolas y las zonas pedregosas su hábitat idóneo. De hábitos eminentemente terrestres, confía en la agilidad de sus extremidades antes que emprender el vuelo al detectar algún peligro. Al desplazarse entre la vegetación baja, su plumaje mimetiza a la perfección los tonos castaños de la tierra seca, dejando ver de cerca el sutil diseño de sus costados.</p>
+<p>Su papel en el equilibrio natural es de gran relevancia, al formar parte esencial de la red trófica en los ecosistemas agrícolas y de matorral. Introducida en el sur del Reino Unido como especie cinegética, la <a href="https://birds.yassfuentes.es/birds/relpar1.html">Perdiz Roja</a> coexiste en el extremo norte de su área de distribución con la <a href="https://ebird.org/species/grypar?siteLanguage=es" target="_blank" rel="noopener">perdiz pardilla</a>, mientras que hacia el sudeste de Europa es sustituida por la <a href="https://ebird.org/species/rocpar2?siteLanguage=es" target="_blank" rel="noopener">perdiz griega</a>. Resulta cautivador escuchar su canto al amanecer, una secuencia rítmica y metálica con la que los machos marcan el territorio en la tranquilidad del campo abierto.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Pico, patas y contorno ocular de un intenso color rojo rubí.</li><li>Banda blanca en la garganta enmarcada por un collar negro bien definido que se dispersa en motas hacia el pecho.</li><li>Flancos vistosamente barreados con franjas verticales de tonos blancos, negros, grises y castaños.</li><li>Tendencia a desplazarse a gran velocidad corriendo por el suelo antes de realizar un vuelo corto y ruidoso.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2474051"><img src="https://birds.yassfuentes.es/maps/relpar1.png" alt="Distribución mundial de Alectoris rufa según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/relpar1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Alectoris_rufa">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/relpar1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=relpar1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Pardela de Hutton (Puffinus huttoni)</title>
       <link>https://birds.yassfuentes.es/birds/hutshe1.html</link>

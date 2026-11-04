@@ -1,0 +1,16 @@
+{
+  "description": "La perdiz roja es una especie de ave galliforme de la familia Phasianidae autóctona de Europa sudoccidental. Se extiende por Francia, la península ibérica y el noroeste de la península itálica, además de Córcega y las Baleares. Se ha naturalizado en el sur del Reino Unido, donde fue introducida como especie cinegética. Es sustituida en el sudeste de Europa por su pariente muy similar, la perdiz griega. Coincide en la parte norte de su área de distribución con la perdiz pardilla.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La perdiz roja es una especie de ave galliforme de la familia Phasianidae autóctona de Europa sudoccidental. Se extiende por Francia, la península ibérica y el noroeste de la península itálica, además de Córcega y las Baleares. Se ha naturalizado en el sur del Reino Unido, donde fue introducida como especie cinegética. Es sustituida en el sudeste de Europa por su pariente muy similar, la perdiz griega. Coincide en la parte norte de su área de distribución con la perdiz pardilla.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Alectoris_rufa",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2474051,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2474051&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "NT",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22678711"
+}

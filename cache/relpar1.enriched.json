@@ -1,0 +1,11 @@
+{
+  "prose": "En los parajes abiertos y laderas soleadas del suroeste de Europa, la Perdiz Roja (Alectoris rufa) se mueve con una elegancia serena y sobria. Esta ave galliforme, autóctona de la península ibérica, Francia, el noroeste de Italia y archipiélagos como las Baleares y Córcega, ha hecho del matorral mediterráneo, los campos agrícolas y las zonas pedregosas su hábitat idóneo. De hábitos eminentemente terrestres, confía en la agilidad de sus extremidades antes que emprender el vuelo al detectar algún peligro. Al desplazarse entre la vegetación baja, su plumaje mimetiza a la perfección los tonos castaños de la tierra seca, dejando ver de cerca el sutil diseño de sus costados.\n\nSu papel en el equilibrio natural es de gran relevancia, al formar parte esencial de la red trófica en los ecosistemas agrícolas y de matorral. Introducida en el sur del Reino Unido como especie cinegética, la Perdiz Roja coexiste en el extremo norte de su área de distribución con la perdiz pardilla, mientras que hacia el sudeste de Europa es sustituida por la perdiz griega. Resulta cautivador escuchar su canto al amanecer, una secuencia rítmica y metálica con la que los machos marcan el territorio en la tranquilidad del campo abierto.",
+  "identification": [
+    "Pico, patas y contorno ocular de un intenso color rojo rubí.",
+    "Banda blanca en la garganta enmarcada por un collar negro bien definido que se dispersa en motas hacia el pecho.",
+    "Flancos vistosamente barreados con franjas verticales de tonos blancos, negros, grises y castaños.",
+    "Tendencia a desplazarse a gran velocidad corriendo por el suelo antes de realizar un vuelo corto y ruidoso."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-04T09:29:07Z"
+}
