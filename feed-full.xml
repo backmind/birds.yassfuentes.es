@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Wed, 04 Nov 2026 09:25:06 +0000</pubDate>
+    <pubDate>Thu, 05 Nov 2026 09:35:18 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Anteojitos Dorado (Cleptornis marchei)</title>
+      <link>https://birds.yassfuentes.es/birds/goweye1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-goweye1-2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 09:35:18 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/367480674/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">kaeliswift / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/367480674/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 209 · 2026 · 11 · 05</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/goweye1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/367480674/large.jpg" alt="Anteojitos Dorado" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© kaeliswift / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Anteojitos Dorado — <em>Cleptornis marchei</em></h2>
+<p><small><em>Zosteropidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22714282">EN</a> · En Peligro</small></p>
+<p>En las selvas de las islas Marianas del Norte, en el Pacífico occidental, habita una criatura de una singularidad deslumbrante: el <a href="https://birds.yassfuentes.es/birds/goweye1.html">Anteojitos Dorado</a> (<em>Cleptornis marchei</em>). Restringido en la actualidad a las islas de Saipán y Aguiján, este pequeño paseriforme destaca por su vistoso plumaje de tonos amarillo anaranjado, a juego con el color de sus patas y su pico, y enmarcado por un delicado anillo ocular claro. Ocupa diversos hábitats arbolados, aunque encuentra su verdadero refugio en los bosques nativos maduros. En el dosel y el sotobosque, el <a href="https://birds.yassfuentes.es/birds/goweye1.html">Anteojitos Dorado</a> se desplaza en parejas o pequeños grupos como un explorador ágil y versátil, inspeccionando hojas y cortezas en busca de insectos, frutos y néctar. Con un carácter decidido, defiende con firmeza su territorio y ejerce una dominancia social sobre otras especies cercanas.</p>
+<p>Durante décadas, la clasificación de este ave desconcertó a la ciencia; su evolución en el aislamiento insular le otorgó rasgos tan particulares que fue considerado un melífago antes de confirmarse su pertenencia a la familia Zosteropidae, donde ocupa su propio género monotípico. Los habitantes locales chamorro se refieren cariñosamente a él como «canario», deslumbrados por su aspecto radiante y su canto silbante y trinante. En su frágil ecosistema insular, el <a href="https://birds.yassfuentes.es/birds/goweye1.html">Anteojitos Dorado</a> cumple un rol ecológico fundamental como polinizador, dispersor de semillas y regulador de invertebrados. Aunque es una especie monógama que deposita dos huevos en pequeños nidos en forma de cuenco, gran parte de su biología íntima sigue siendo un misterio por descubrir.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje, pico y patas de un intenso color amarillo anaranjado</li><li>Anillo ocular claro característico alrededor de los ojos</li><li>Canto melodioso compuesto por silbidos y trinos constantes</li><li>Forrajeo activo en parejas o pequeños grupos en el sotobosque y dosel</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2489336"><img src="https://birds.yassfuentes.es/maps/goweye1.png" alt="Distribución mundial de Cleptornis marchei según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/goweye1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Cleptornis_marchei">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/goweye1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=goweye1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Perdiz Roja (Alectoris rufa)</title>
       <link>https://birds.yassfuentes.es/birds/relpar1.html</link>
