@@ -1,0 +1,11 @@
+{
+  "prose": "En las vastas extensiones de los bosques de coníferas que coronan el hemisferio norte, habita un especialista sin igual: el Piquituerto Común (Loxia curvirostra). Distribuido a lo largo de Norteamérica, Eurasia y el norte de África, este pequeño paseriforme ha convertido los conos de pinos y abetos en su feudo alimenticio. Lo más fascinante de esta ave es la singular morfología de su pico, cuyas mandíbulas cruzadas constituyen una herramienta evolutiva impecable para entreabrir las escamas de las piñas y extraer sus nutritivas semillas. Con una vida caracterizada por el nomadismo, el Piquituerto Común se desplaza en pequeñas bandadas al ritmo que marcan las cambiantes cosechas forestales.\n\nMás allá de su apariencia, esta especie alberga una fascinante complejidad oculta a través de diversos ecotipos o \"tipos de llamada\". Cada uno de estos grupos posee vocalizaciones de contacto distintivas y sutiles variaciones en la profundidad del pico y los surcos palatinos, ajustadas con precisión para optimizar el consumo de especies concretas de coníferas. La divergencia entre estos tipos de llamada es tal que ha impulsado procesos de especiación, como el caso del Piquituerto de Cassia (Loxia sinesciuris), reconocido recientemente como especie propia debido a su aislamiento reproductivo. Así, en su constante vagar por las copas de los árboles, el Piquituerto Común ejerce un rol clave en la dinámica de las masas forestales que habitan el planeta.",
+  "identification": [
+    "Pico cruzado único, con las puntas de las mandíbulas superpuestas lateralmente para abrir piñas.",
+    "Dimorfismo sexual claro: los machos adultos lucen tonos predominantemente rojizos, mientras que las hembras presentan tonalidades oliva y amarillentas.",
+    "Llamadas de contacto breves, secas y metálicas que varían entre los distintos ecotipos de la especie.",
+    "Hábitos ágiles y acrobáticos al alimentarse en las copas de las coníferas, a menudo suspendido cabeza abajo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-06T09:32:46Z"
+}

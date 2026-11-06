@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Thu, 05 Nov 2026 09:35:18 +0000</pubDate>
+    <pubDate>Fri, 06 Nov 2026 09:28:50 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Piquituerto Común (Loxia curvirostra)</title>
+      <link>https://birds.yassfuentes.es/birds/redcro.html</link>
+      <guid isPermaLink="false">bird-of-the-day-redcro-2026-11-06</guid>
+      <pubDate>Fri, 06 Nov 2026 09:28:50 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/60551275/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Bob Lalonde / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/60551275/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 210 · 2026 · 11 · 06</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/redcro.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/60551275/large.jpg" alt="Piquituerto Común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Bob Lalonde / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Piquituerto Común — <em>Loxia curvirostra</em></h2>
+<p><small><em>Fringillidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22720646">LC</a> · Preocupación Menor</small></p>
+<p>En las vastas extensiones de los bosques de coníferas que coronan el hemisferio norte, habita un especialista sin igual: el <a href="https://birds.yassfuentes.es/birds/redcro.html">Piquituerto Común</a> (<em>Loxia curvirostra</em>). Distribuido a lo largo de Norteamérica, Eurasia y el norte de África, este pequeño paseriforme ha convertido los conos de pinos y abetos en su feudo alimenticio. Lo más fascinante de esta ave es la singular morfología de su pico, cuyas mandíbulas cruzadas constituyen una herramienta evolutiva impecable para entreabrir las escamas de las piñas y extraer sus nutritivas semillas. Con una vida caracterizada por el nomadismo, el <a href="https://birds.yassfuentes.es/birds/redcro.html">Piquituerto Común</a> se desplaza en pequeñas bandadas al ritmo que marcan las cambiantes cosechas forestales.</p>
+<p>Más allá de su apariencia, esta especie alberga una fascinante complejidad oculta a través de diversos ecotipos o &quot;tipos de llamada&quot;. Cada uno de estos grupos posee vocalizaciones de contacto distintivas y sutiles variaciones en la profundidad del pico y los surcos palatinos, ajustadas con precisión para optimizar el consumo de especies concretas de coníferas. La divergencia entre estos tipos de llamada es tal que ha impulsado procesos de especiación, como el caso del <a href="https://ebird.org/species/redcro9?siteLanguage=es" target="_blank" rel="noopener">Piquituerto de Cassia</a> (<em>Loxia sinesciuris</em>), reconocido recientemente como especie propia debido a su aislamiento reproductivo. Así, en su constante vagar por las copas de los árboles, el <a href="https://birds.yassfuentes.es/birds/redcro.html">Piquituerto Común</a> ejerce un rol clave en la dinámica de las masas forestales que habitan el planeta.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Pico cruzado único, con las puntas de las mandíbulas superpuestas lateralmente para abrir piñas.</li><li>Dimorfismo sexual claro: los machos adultos lucen tonos predominantemente rojizos, mientras que las hembras presentan tonalidades oliva y amarillentas.</li><li>Llamadas de contacto breves, secas y metálicas que varían entre los distintos ecotipos de la especie.</li><li>Hábitos ágiles y acrobáticos al alimentarse en las copas de las coníferas, a menudo suspendido cabeza abajo.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9629160"><img src="https://birds.yassfuentes.es/maps/redcro.png" alt="Distribución mundial de Loxia curvirostra según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/redcro?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Loxia_curvirostra">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/redcro/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=redcro&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Anteojitos Dorado (Cleptornis marchei)</title>
       <link>https://birds.yassfuentes.es/birds/goweye1.html</link>
@@ -617,27 +638,6 @@
 <ul><li>Cabeza de gran tamaño con ojos amarillos frontales que le dan un aspecto similar al de un búho.</li><li>Partes inferiores del cuerpo y de las alas de coloración muy clara, contrastando con la cabeza oscura en adultos.</li><li>Patas desprovistas de plumas en los tarsos, adaptadas para la captura de reptiles.</li><li>Hábito frecuente de cernirse en el aire, permaneciendo estática mediante un aleteo constante contra el viento.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2480666"><img src="https://birds.yassfuentes.es/maps/shteag1.png" alt="Distribución mundial de Circaetus gallicus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/shteag1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Circaetus_gallicus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/shteag1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=shteag1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Garcilla Cangrejera (Ardeola ralloides)</title>
-      <link>https://birds.yassfuentes.es/birds/squher1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-squher1-2026-10-07</guid>
-      <pubDate>Wed, 07 Oct 2026 08:47:04 +0000</pubDate>
-      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Ian White / iNaturalist (CC BY-ND)</media:credit>
-      </media:content>
-      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg" />
-      <content:encoded><![CDATA[<p><small>№ 180 · 2026 · 10 · 07</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/squher1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/31944/large.jpg" alt="Garcilla Cangrejera" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Ian White / iNaturalist (CC BY-ND)</em></small></p>
-<h2>Garcilla Cangrejera — <em>Ardeola ralloides</em></h2>
-<p><small><em>Ardeidae</em> · <em>Pelecaniformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22697123">LC</a> · Preocupación Menor</small></p>
-<p>Entre los cañizales y las aguas someras del sur de Europa, el suroeste de Asia y África, habita la <a href="https://birds.yassfuentes.es/birds/squher1.html">Garcilla Cangrejera</a> (<em>Ardeola ralloides</em>). Esta pequeña y discreta ave acuática es una auténtica maestra del mimetismo. Mientras permanece inmóvil entre la vegetación palustre de lagunas y estanques, su plumaje de tonos ocre y paja la vuelve prácticamente invisible a los ojos de observadores y presas. Sin embargo, al levantar el vuelo, la <a href="https://birds.yassfuentes.es/birds/squher1.html">garcilla cangrejera</a> revela un contraste deslumbrante: sus alas, ocultas en reposo, despliegan un blanco impoluto y brillante que transforma por completo su silueta sobre el agua.</p>
-<p>A pesar de su nombre común, su dieta no se limita a los crustáceos, sino que incluye una gran variedad de insectos acuáticos, anfibios y pequeños peces, desempeñando un papel clave en el equilibrio ecológico de las masas de agua dulce. Con la llegada de la primavera, el ave experimenta un cambio notable en su apariencia: la base de su pico adquiere un azul cobalto intenso y de su nuca brotan elegantes plumas ornamentales. Al concluir el periodo reproductor, estas aves de hábitos migratorios emprenden largas travesías hacia el continente africano para pasar el invierno.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Plumaje ocre o leonado en reposo que revela alas completamente blancas al volar</li><li>Tamaño pequeño y silueta compacta con cuello relativamente corto</li><li>Pico amarillento con la punta oscura, que torna a azul en la base durante la reproducción</li><li>Largas plumas finas y colgantes en la nuca durante la época reproductora</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2480906"><img src="https://birds.yassfuentes.es/maps/squher1.png" alt="Distribución mundial de Ardeola ralloides según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/squher1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Ardeola_ralloides">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/squher1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=squher1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
