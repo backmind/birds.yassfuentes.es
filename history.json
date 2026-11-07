@@ -2293,6 +2293,17 @@
       "imageHeight": 1463,
       "photographer": "Bob Lalonde",
       "attribution": "Bob Lalonde / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "palhar1",
+      "comName": "Aguilucho Papialbo",
+      "sciName": "Circus macrourus",
+      "date": "2026-11-07",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/210924816/large.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 801,
+      "photographer": "Анна Голубева",
+      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)"
     }
   ]
 }

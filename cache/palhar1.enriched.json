@@ -1,0 +1,11 @@
+{
+  "prose": "El aguilucho papialbo (Circus macrourus) es un ave rapaz que encarna la elegancia del vuelo a ras de suelo en las grandes extensiones abiertas. Propio de las estepas y praderas de Europa oriental y Asia central, este cazador diurno surca planicies con un aleteo pausado y boyante, manteniendo sus alas en una sutil forma de uve. Su método de caza es tan silencioso como metódico: recorre pastizales y humedales secos a escasa distancia del suelo, aprovechando cualquier ondulación del terreno o mata de vegetación para sorprender a pequeños roedores, lagartijas y pequeñas aves canoras. En los machos adultos, el plumaje destaca por un tono gris ceniciento extremadamente claro, casi fantasmal, que se funde con la luz deslumbrante de los amplios horizontes esteparios.\n\nComo formidable migrador de largas distancias, el aguilucho papialbo emprende cada otoño colosales travesías para alcanzar sus cuarteles de invierno en las sabanas del África subsahariana y las llanuras del sur de Asia. Su papel ecológico en estos paisajes abiertos es de suma importancia, actuando como un regulador natural de las poblaciones de micromamíferos a lo largo de dos continentes. A diferencia de las rapaces forestales o rupícolas, nidifica directamente sobre el suelo, ocultando la puesta entre hierbas altas o matorrales bajos, una estrategia reproductiva que lo hace vulnerable a los cambios en el uso del suelo y a la intensificación agrícola. Observar su figura etérea patrullando la llanura es contemplar a uno de los viajeros más refinados del reino alado.",
+  "identification": [
+    "Macho adulto inconfundible por su plumaje gris muy pálido, casi blanco por debajo, con una estrecha cuña negra en la punta de las alas.",
+    "Hembra de tonos pardos estriados, con una conspicua mancha blanca en la rabadilla y un collar claro alrededor del cuello que enmarca una mejilla oscura.",
+    "Silueta de vuelo estilizada, caracterizada por alas largas y estrechas que mantiene ligeramente alzadas en diedro al planear.",
+    "Vuelo bajo, lento y oscilante, que alterna aleteos suaves y elásticos con planeos de prospección pegados al suelo."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-07T08:54:40Z"
+}

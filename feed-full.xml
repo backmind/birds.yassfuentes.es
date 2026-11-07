@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Fri, 06 Nov 2026 09:28:50 +0000</pubDate>
+    <pubDate>Sat, 07 Nov 2026 08:53:07 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Aguilucho Papialbo (Circus macrourus)</title>
+      <link>https://birds.yassfuentes.es/birds/palhar1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-palhar1-2026-11-07</guid>
+      <pubDate>Sat, 07 Nov 2026 08:53:07 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/210924816/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Анна Голубева / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/210924816/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 211 · 2026 · 11 · 07</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/palhar1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/210924816/large.jpg" alt="Aguilucho Papialbo" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Анна Голубева / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Aguilucho Papialbo — <em>Circus macrourus</em></h2>
+<p><small><em>Accipitridae</em> · <em>Accipitriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22695396">NT</a> · Casi Amenazado</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/palhar1.html">aguilucho papialbo</a> (<em>Circus macrourus</em>) es un ave rapaz que encarna la elegancia del vuelo a ras de suelo en las grandes extensiones abiertas. Propio de las estepas y praderas de Europa oriental y Asia central, este cazador diurno surca planicies con un aleteo pausado y boyante, manteniendo sus alas en una sutil forma de uve. Su método de caza es tan silencioso como metódico: recorre pastizales y humedales secos a escasa distancia del suelo, aprovechando cualquier ondulación del terreno o mata de vegetación para sorprender a pequeños roedores, lagartijas y pequeñas aves canoras. En los machos adultos, el plumaje destaca por un tono gris ceniciento extremadamente claro, casi fantasmal, que se funde con la luz deslumbrante de los amplios horizontes esteparios.</p>
+<p>Como formidable migrador de largas distancias, el <a href="https://birds.yassfuentes.es/birds/palhar1.html">aguilucho papialbo</a> emprende cada otoño colosales travesías para alcanzar sus cuarteles de invierno en las sabanas del África subsahariana y las llanuras del sur de Asia. Su papel ecológico en estos paisajes abiertos es de suma importancia, actuando como un regulador natural de las poblaciones de micromamíferos a lo largo de dos continentes. A diferencia de las rapaces forestales o rupícolas, nidifica directamente sobre el suelo, ocultando la puesta entre hierbas altas o matorrales bajos, una estrategia reproductiva que lo hace vulnerable a los cambios en el uso del suelo y a la intensificación agrícola. Observar su figura etérea patrullando la llanura es contemplar a uno de los viajeros más refinados del reino alado.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Macho adulto inconfundible por su plumaje gris muy pálido, casi blanco por debajo, con una estrecha cuña negra en la punta de las alas.</li><li>Hembra de tonos pardos estriados, con una conspicua mancha blanca en la rabadilla y un collar claro alrededor del cuello que enmarca una mejilla oscura.</li><li>Silueta de vuelo estilizada, caracterizada por alas largas y estrechas que mantiene ligeramente alzadas en diedro al planear.</li><li>Vuelo bajo, lento y oscilante, que alterna aleteos suaves y elásticos con planeos de prospección pegados al suelo.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2480491"><img src="https://birds.yassfuentes.es/maps/palhar1.png" alt="Distribución mundial de Circus macrourus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/palhar1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Circus_macrourus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/palhar1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=palhar1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Piquituerto Común (Loxia curvirostra)</title>
       <link>https://birds.yassfuentes.es/birds/redcro.html</link>
