@@ -2304,6 +2304,17 @@
       "imageHeight": 801,
       "photographer": "Анна Голубева",
       "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "houspa",
+      "comName": "Gorrión Común",
+      "sciName": "Passer domesticus",
+      "date": "2026-11-08",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/large.jpg",
+      "imageWidth": 1936,
+      "imageHeight": 1291,
+      "photographer": "Ximo Galarza",
+      "attribution": "Ximo Galarza / iNaturalist (CC BY-NC-SA)"
     }
   ]
 }

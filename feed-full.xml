@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sat, 07 Nov 2026 08:53:07 +0000</pubDate>
+    <pubDate>Sun, 08 Nov 2026 09:05:51 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Gorrión Común (Passer domesticus)</title>
+      <link>https://birds.yassfuentes.es/birds/houspa.html</link>
+      <guid isPermaLink="false">bird-of-the-day-houspa-2026-11-08</guid>
+      <pubDate>Sun, 08 Nov 2026 09:05:51 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Ximo Galarza / iNaturalist (CC BY-NC-SA)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 212 · 2026 · 11 · 08 · <a href="https://birds.yassfuentes.es/birds/houspa.html">Ya publicada: 2026 · 06 · 23</a></small></p>
+<p><a href="https://birds.yassfuentes.es/birds/houspa.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/large.jpg" alt="Gorrión Común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Ximo Galarza / iNaturalist (CC BY-NC-SA)</em></small></p>
+<h2>Gorrión Común — <em>Passer domesticus</em></h2>
+<p><small><em>Passeridae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/103818789">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/houspa.html">Gorrión Común</a> (<em>Passer domesticus</em>) es una de las aves más conocidas y adaptables del planeta. Esta pequeña especie paseriforme ha prosperado como comensal del ser humano, estableciéndose con gran éxito en entornos urbanos, vecindarios y áreas agrícolas, al tiempo que evita las masas forestales densas. Resulta cautivador observar cómo sus ruidosas bandadas se congregan en arbustos tupidos, desplazándose y vocalizando sin descanso entre la vegetación. Originario de Eurasia y el Norte de África, este pequeño pájaro ha sido introducido por la acción humana en zonas templadas de casi todos los continentes, con la única excepción de la Antártida.</p>
+<p>A pesar de ser considerado en ocasiones como una plaga agrícola o una especie molesta, el <a href="https://birds.yassfuentes.es/birds/houspa.html">Gorrión Común</a> ha demostrado ser un sujeto de inmenso valor para la ciencia. Su convivencia con el ser humano y su enorme plasticidad lo han convertido en un organismo modelo fundamental para investigar problemas biológicos generales, desde los mecanismos evolutivos hasta la regulación del metabolismo. En la dinámica social del grupo, el tamaño del babero negro del macho resulta clave, pues predice su dominancia frente a otros individuos. Aunque en Norteamérica es una especie introducida y no está estrechamente emparentada con las aves locales que reciben el mismo nombre común, su presencia global representa un notable testimonio de adaptabilidad.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Macho con un elegante babero negro en el pecho, nuca de color rufo brillante y alas en tonos marrones y caqui.</li><li>Hembra de plumaje marrón uniforme con partes inferiores gris pálido y una clara ceja sobre el ojo.</li><li>Comportamiento gregario, agrupándose en bandadas que se mueven y vocalizan activamente en arbustos densos.</li><li>Presencia fuertemente vinculada a zonas urbanas y construcciones humanas, evitando bosques densos.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5231190"><img src="https://birds.yassfuentes.es/maps/houspa.png" alt="Distribución mundial de Passer domesticus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/houspa?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Passer_domesticus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/houspa/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=houspa&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Aguilucho Papialbo (Circus macrourus)</title>
       <link>https://birds.yassfuentes.es/birds/palhar1.html</link>
