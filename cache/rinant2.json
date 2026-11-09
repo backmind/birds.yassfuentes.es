@@ -1,0 +1,16 @@
+{
+  "description": "El mosquero terrestre norteño, también denominado atrapamoscas collarejo, coritopis o corotopo fajeado, coritopis anillado o chupadientes, es una especie de ave paseriforme de la familia Tyrannidae, una de las dos pertenecientes al género Corythopis. Es nativo de América del Sur, en la cuenca amazónica y en el escudo guayanés.",
+  "description_source": "wikipedia",
+  "bow_intro": "Debido a su comportamiento terrestre, durante mucho tiempo se consideró que las dos especies de hormigueros pertenecían a los Formicariidae o que estaban estrechamente emparentadas con los Conopophaga gnateaters, pero, aunque ahora se sabe que están correctamente situadas dentro de los Tyrannidae, las relaciones precisas de este género aún requieren elucidación. El Ringed Antpipit está muy extendido en la Amazonia, donde habita en el suelo de los bosques siempreverdes de tierras bajas, incluidas tanto las zonas de tierra firme como las inundadas estacionalmente, y sólo es probable que lo registren con regularidad los observadores familiarizados con su voz. Las relaciones entre esta especie y la congénere Southern Antpipit (Corythopis delalandi ) son objeto de investigación en la actualidad.",
+  "taxonomy": {},
+  "wikipedia_summary": "El mosquero terrestre norteño, también denominado atrapamoscas collarejo, coritopis o corotopo fajeado, coritopis anillado o chupadientes, es una especie de ave paseriforme de la familia Tyrannidae, una de las dos pertenecientes al género Corythopis. Es nativo de América del Sur, en la cuenca amazónica y en el escudo guayanés.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Corythopis_torquatus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2484069,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2484069&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22699061"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "En la penumbra del sotobosque amazónico y a lo largo del amplio escudo guayanés, habita un tiránido de hábitos verdaderamente singulares. El Mosquero Terrestre Norteño (Corythopis torquatus) es un ave que ha abandonado la copa de los árboles para hacer del suelo húmedo su dominio exclusivo. A diferencia de la mayoría de sus parientes en la familia Tyrannidae, este pequeño paseriforme despliega su vida caminando entre la hojarasca de las selvas siempreverdes de tierras bajas, explorando tanto las zonas de tierra firme como aquellos terrenos que sufren inundaciones estacionales. Discreto y esquivo, su presencia suele pasar desapercibida a la vista, siendo registrado con regularidad casi únicamente por observadores familiarizados con su canto.\n\nDurante mucho tiempo, la inusual conducta terrestre del Mosquero Terrestre Norteño desconcertó a la ciencia, llevándolo a ser clasificado erróneamente junto a los hormigueros de la familia Formicariidae o emparentado con los jejeneros del género Conopophaga. Aunque hoy se confirma su pertenencia a Tyrannidae, las relaciones evolutivas precisas dentro de su género aún se investigan, especialmente en comparación con su congénere, el Mosquero Terrestre Sureño (Corythopis delalandi). Al forrajear constantemente en la capa vegetal, cumple un rol ecológico clave en el control de pequeños invertebrados del suelo forestal.",
+  "identification": [
+    "Hábitos marcadamente terrestres, desplazándose a pie sobre el suelo de la selva.",
+    "Detección en el campo lograda principalmente por la identificación de su voz distintiva.",
+    "Plumaje críptico adaptado al camuflaje en la penumbra de la hojarasca.",
+    "Exclusivo del sotobosque de selvas siempreverdes de tierras bajas (tierra firme y zonas inundables)."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-09T09:58:18Z"
+}

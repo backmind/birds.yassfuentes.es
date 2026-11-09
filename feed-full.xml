@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 08 Nov 2026 09:05:51 +0000</pubDate>
+    <pubDate>Mon, 09 Nov 2026 09:53:50 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Mosquero Terrestre Norteño (Corythopis torquatus)</title>
+      <link>https://birds.yassfuentes.es/birds/rinant2.html</link>
+      <guid isPermaLink="false">bird-of-the-day-rinant2-2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 09:53:50 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/113229648/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Anderson Sandro / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/113229648/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 213 · 2026 · 11 · 09</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/rinant2.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/113229648/large.jpg" alt="Mosquero Terrestre Norteño" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Anderson Sandro / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Mosquero Terrestre Norteño — <em>Corythopis torquatus</em></h2>
+<p><small><em>Tyrannidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22699061">LC</a> · Preocupación Menor</small></p>
+<p>En la penumbra del sotobosque amazónico y a lo largo del amplio escudo guayanés, habita un tiránido de hábitos verdaderamente singulares. El <a href="https://birds.yassfuentes.es/birds/rinant2.html">Mosquero Terrestre Norteño</a> (<em>Corythopis torquatus</em>) es un ave que ha abandonado la copa de los árboles para hacer del suelo húmedo su dominio exclusivo. A diferencia de la mayoría de sus parientes en la familia Tyrannidae, este pequeño paseriforme despliega su vida caminando entre la hojarasca de las selvas siempreverdes de tierras bajas, explorando tanto las zonas de tierra firme como aquellos terrenos que sufren inundaciones estacionales. Discreto y esquivo, su presencia suele pasar desapercibida a la vista, siendo registrado con regularidad casi únicamente por observadores familiarizados con su canto.</p>
+<p>Durante mucho tiempo, la inusual conducta terrestre del <a href="https://birds.yassfuentes.es/birds/rinant2.html">Mosquero Terrestre Norteño</a> desconcertó a la ciencia, llevándolo a ser clasificado erróneamente junto a los hormigueros de la familia Formicariidae o emparentado con los jejeneros del género Conopophaga. Aunque hoy se confirma su pertenencia a Tyrannidae, las relaciones evolutivas precisas dentro de su género aún se investigan, especialmente en comparación con su congénere, el <a href="https://ebird.org/species/souant1?siteLanguage=es" target="_blank" rel="noopener">Mosquero Terrestre Sureño</a> (<em>Corythopis delalandi</em>). Al forrajear constantemente en la capa vegetal, cumple un rol ecológico clave en el control de pequeños invertebrados del suelo forestal.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Hábitos marcadamente terrestres, desplazándose a pie sobre el suelo de la selva.</li><li>Detección en el campo lograda principalmente por la identificación de su voz distintiva.</li><li>Plumaje críptico adaptado al camuflaje en la penumbra de la hojarasca.</li><li>Exclusivo del sotobosque de selvas siempreverdes de tierras bajas (tierra firme y zonas inundables).</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2484069"><img src="https://birds.yassfuentes.es/maps/rinant2.png" alt="Distribución mundial de Corythopis torquatus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/rinant2?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Corythopis_torquatus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/rinant2/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=rinant2&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Gorrión Común (Passer domesticus)</title>
       <link>https://birds.yassfuentes.es/birds/houspa.html</link>
