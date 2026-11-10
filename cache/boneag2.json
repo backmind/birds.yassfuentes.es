@@ -1,0 +1,16 @@
+{
+  "description": "El águila azor perdicera o águila perdicera es una especie de ave accipitriforme de la familia Accipitridae que habita desde la cuenca mediterránea hasta el sudeste asiático.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "El águila azor perdicera o águila perdicera es una especie de ave accipitriforme de la familia Accipitridae que habita desde la cuenca mediterránea hasta el sudeste asiático.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Aquila_fasciata",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 5844449,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=5844449&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22696076"
+}

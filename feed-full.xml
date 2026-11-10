@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Mon, 09 Nov 2026 09:53:50 +0000</pubDate>
+    <pubDate>Tue, 10 Nov 2026 09:57:56 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Águila Perdicera (Aquila fasciata)</title>
+      <link>https://birds.yassfuentes.es/birds/boneag2.html</link>
+      <guid isPermaLink="false">bird-of-the-day-boneag2-2026-11-10</guid>
+      <pubDate>Tue, 10 Nov 2026 09:57:56 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/6974428/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Paul Cools / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/6974428/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 214 · 2026 · 11 · 10</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/boneag2.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/6974428/large.jpg" alt="Águila Perdicera" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Paul Cools / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Águila Perdicera — <em>Aquila fasciata</em></h2>
+<p><small><em>Accipitridae</em> · <em>Accipitriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22696076">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/boneag2.html">Águila Perdicera</a> (<em>Aquila fasciata</em>) reina sobre los cortados rocosos y las colinas abruptas que se extienden desde la cuenca mediterránea hasta el sudeste asiático. Con una silueta estilizada y musculosa, esta rapaz está perfectamente adaptada a la caza en terrenos accidentados, donde combina una velocidad prodigiosa con una maniobrabilidad formidable entre la vegetación y los desfiladeros. Su vuelo majestuoso aprovecha las corrientes térmicas para patrullar vastos territorios, manteniendo una constante vigilancia sobre el matorral y los roquedos. Es una de las rapaces más ágiles de su tamaño, capaz de lanzarse en picados vertiginosos para capturar presas tanto en pleno vuelo como en la superficie del suelo.</p>
+<p>Como depredador de cumbre, el <a href="https://birds.yassfuentes.es/birds/boneag2.html">Águila Perdicera</a> desempeña un papel ecológico clave en el equilibrio de los ecosistemas donde habita, regulando las poblaciones de conejos, perdices, palomas y pequeños mamíferos. Un rasgo fascinante de esta especie es la fidelidad a su pareja y a su territorio; las parejas adultas forman vínculos estables que perduran durante toda la vida y suelen utilizar las mismas plataformas de nido construidas en riscos inasequibles año tras año. A pesar de su tamaño imponente, el diseño de sus alas le otorga una capacidad de maniobra insólita que recuerda a la de las rapaces forestales más pequeñas.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje adulto con el vientre blanquecino finamente listado de oscuro y una mancha blanca muy característica en la espalda.</li><li>Banda oscura ancha a lo largo del borde posterior de las alas y cerca del extremo de la cola.</li><li>Alas relativamente anchas pero estilizadas, combinadas con una cola larga de extremo recto.</li><li>Borde anterior del ala en su parte inferior de tono oscuro contrastando con las plumas de vuelo más pálidas.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5844449"><img src="https://birds.yassfuentes.es/maps/boneag2.png" alt="Distribución mundial de Aquila fasciata según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/boneag2?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Aquila_fasciata">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/boneag2/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=boneag2&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Mosquero Terrestre Norteño (Corythopis torquatus)</title>
       <link>https://birds.yassfuentes.es/birds/rinant2.html</link>

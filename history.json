@@ -2326,6 +2326,17 @@
       "imageHeight": 1562,
       "photographer": "Anderson Sandro",
       "attribution": "Anderson Sandro / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "boneag2",
+      "comName": "Águila Perdicera",
+      "sciName": "Aquila fasciata",
+      "date": "2026-11-10",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/6974428/large.jpg",
+      "imageWidth": 900,
+      "imageHeight": 524,
+      "photographer": "Paul Cools",
+      "attribution": "Paul Cools / iNaturalist (CC BY-NC)"
     }
   ]
 }

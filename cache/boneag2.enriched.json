@@ -1,0 +1,11 @@
+{
+  "prose": "El Águila Perdicera (Aquila fasciata) reina sobre los cortados rocosos y las colinas abruptas que se extienden desde la cuenca mediterránea hasta el sudeste asiático. Con una silueta estilizada y musculosa, esta rapaz está perfectamente adaptada a la caza en terrenos accidentados, donde combina una velocidad prodigiosa con una maniobrabilidad formidable entre la vegetación y los desfiladeros. Su vuelo majestuoso aprovecha las corrientes térmicas para patrullar vastos territorios, manteniendo una constante vigilancia sobre el matorral y los roquedos. Es una de las rapaces más ágiles de su tamaño, capaz de lanzarse en picados vertiginosos para capturar presas tanto en pleno vuelo como en la superficie del suelo.\n\nComo depredador de cumbre, el Águila Perdicera desempeña un papel ecológico clave en el equilibrio de los ecosistemas donde habita, regulando las poblaciones de conejos, perdices, palomas y pequeños mamíferos. Un rasgo fascinante de esta especie es la fidelidad a su pareja y a su territorio; las parejas adultas forman vínculos estables que perduran durante toda la vida y suelen utilizar las mismas plataformas de nido construidas en riscos inasequibles año tras año. A pesar de su tamaño imponente, el diseño de sus alas le otorga una capacidad de maniobra insólita que recuerda a la de las rapaces forestales más pequeñas.",
+  "identification": [
+    "Plumaje adulto con el vientre blanquecino finamente listado de oscuro y una mancha blanca muy característica en la espalda.",
+    "Banda oscura ancha a lo largo del borde posterior de las alas y cerca del extremo de la cola.",
+    "Alas relativamente anchas pero estilizadas, combinadas con una cola larga de extremo recto.",
+    "Borde anterior del ala en su parte inferior de tono oscuro contrastando con las plumas de vuelo más pálidas."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-10T10:01:28Z"
+}
