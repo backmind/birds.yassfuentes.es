@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 10 Nov 2026 09:57:56 +0000</pubDate>
+    <pubDate>Wed, 11 Nov 2026 09:31:39 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Gorrión Molinero (Passer montanus)</title>
+      <link>https://birds.yassfuentes.es/birds/eutspa.html</link>
+      <guid isPermaLink="false">bird-of-the-day-eutspa-2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 09:31:39 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Дмитрий Осипов / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 215 · 2026 · 11 · 11</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/eutspa.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg" alt="Gorrión Molinero" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Дмитрий Осипов / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Gorrión Molinero — <em>Passer montanus</em></h2>
+<p><small><em>Passeridae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22718270">LC</a> · Preocupación Menor</small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/eutspa.html">Gorrión Molinero</a> (<em>Passer montanus</em>) es una pequeña y vivaz ave paseriforme que puebla con discreción las campiñas, los linderos arbolados y las granjas de gran parte de la Eurasia templada y el sudeste asiático. A diferencia de su pariente cercano, el <a href="https://birds.yassfuentes.es/birds/houspa.html">Gorrión Común</a> (<em>Passer domesticus</em>), donde machos y hembras presentan patrones cromáticos muy distintos, ambos sexos del <a href="https://birds.yassfuentes.es/birds/eutspa.html">Gorrión Molinero</a> comparten un atuendo idéntico y elegante: una coronilla castaña de tonos cálidos y una inconfundible mancha negra sobre la mejilla blanca. Aunque tolera la cercanía de las actividades humanas, muestra una clara preferencia por los entornos rurales, setos y parques con arbolado maduro, evitando a menudo los núcleos urbanos densos donde especies más corpulentas y territoriales suelen desplazarlo.</p>
+<p>Su historia reciente ilustra una notable tenacidad colonizadora. A finales de abril de 1870, unas dos docenas de individuos procedentes de Alemania fueron liberados en San Luis, Misuri, logrando establecer una población reproductora que perdura y se expande gradualmente por el Medio Oeste norteamericano. Aprovechando cavidades naturales en árboles viejos, huecos de muros o incluso nidos abandonados, la pareja saca adelante puestas de cinco a seis huevos que eclosionan en menos de dos semanas. Pese a que su sustento habitual se basa en semillas silvestres y grano, desempeña una función ecológica clave durante la primavera al capturar ingentes cantidades de invertebrados para alimentar a su descendencia. En un medio colmado de rapaces y parásitos, su vida media ronda apenas los dos años, una existencia fugaz pero vital en el entramado de los campos.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Píleo y nuca de color castaño rojizo uniforme.</li><li>Mancha negra solitaria y muy visible en el centro de la mejilla blanca.</li><li>Plumaje idéntico en ambos sexos, sin dimorfismo sexual evidente.</li><li>Baveta o mancha negra en la garganta relativamente pequeña y bien delimitada.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5231198"><img src="https://birds.yassfuentes.es/maps/eutspa.png" alt="Distribución mundial de Passer montanus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/eutspa?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Passer_montanus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eutspa/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eutspa&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Águila Perdicera (Aquila fasciata)</title>
       <link>https://birds.yassfuentes.es/birds/boneag2.html</link>

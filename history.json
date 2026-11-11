@@ -2337,6 +2337,17 @@
       "imageHeight": 524,
       "photographer": "Paul Cools",
       "attribution": "Paul Cools / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "eutspa",
+      "comName": "Gorrión Molinero",
+      "sciName": "Passer montanus",
+      "date": "2026-11-11",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/165351252/large.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1366,
+      "photographer": "Дмитрий Осипов",
+      "attribution": "Дмитрий Осипов / iNaturalist (CC BY-NC)"
     }
   ]
 }

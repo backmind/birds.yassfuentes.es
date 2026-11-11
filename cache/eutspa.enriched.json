@@ -1,0 +1,11 @@
+{
+  "prose": "El Gorrión Molinero (Passer montanus) es una pequeña y vivaz ave paseriforme que puebla con discreción las campiñas, los linderos arbolados y las granjas de gran parte de la Eurasia templada y el sudeste asiático. A diferencia de su pariente cercano, el Gorrión Común (Passer domesticus), donde machos y hembras presentan patrones cromáticos muy distintos, ambos sexos del Gorrión Molinero comparten un atuendo idéntico y elegante: una coronilla castaña de tonos cálidos y una inconfundible mancha negra sobre la mejilla blanca. Aunque tolera la cercanía de las actividades humanas, muestra una clara preferencia por los entornos rurales, setos y parques con arbolado maduro, evitando a menudo los núcleos urbanos densos donde especies más corpulentas y territoriales suelen desplazarlo.\n\nSu historia reciente ilustra una notable tenacidad colonizadora. A finales de abril de 1870, unas dos docenas de individuos procedentes de Alemania fueron liberados en San Luis, Misuri, logrando establecer una población reproductora que perdura y se expande gradualmente por el Medio Oeste norteamericano. Aprovechando cavidades naturales en árboles viejos, huecos de muros o incluso nidos abandonados, la pareja saca adelante puestas de cinco a seis huevos que eclosionan en menos de dos semanas. Pese a que su sustento habitual se basa en semillas silvestres y grano, desempeña una función ecológica clave durante la primavera al capturar ingentes cantidades de invertebrados para alimentar a su descendencia. En un medio colmado de rapaces y parásitos, su vida media ronda apenas los dos años, una existencia fugaz pero vital en el entramado de los campos.",
+  "identification": [
+    "Píleo y nuca de color castaño rojizo uniforme.",
+    "Mancha negra solitaria y muy visible en el centro de la mejilla blanca.",
+    "Plumaje idéntico en ambos sexos, sin dimorfismo sexual evidente.",
+    "Baveta o mancha negra en la garganta relativamente pequeña y bien delimitada."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-11T09:32:07Z"
+}
