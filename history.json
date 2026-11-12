@@ -2348,6 +2348,17 @@
       "imageHeight": 1366,
       "photographer": "Дмитрий Осипов",
       "attribution": "Дмитрий Осипов / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "bkhgul",
+      "comName": "Gaviota Reidora",
+      "sciName": "Chroicocephalus ridibundus",
+      "date": "2026-11-12",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/198109587/large.jpg",
+      "imageWidth": 1400,
+      "imageHeight": 933,
+      "photographer": "Dmitry Dubikovskiy",
+      "attribution": "Dmitry Dubikovskiy / iNaturalist (CC BY-NC)"
     }
   ]
 }

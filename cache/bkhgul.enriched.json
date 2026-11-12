@@ -1,0 +1,12 @@
+{
+  "prose": "La Gaviota Reidora (Chroicocephalus ridibundus) es una de las aves acuáticas más adaptables y familiares de las latitudes templadas de Eurasia y zonas costeras. A lo largo del año, su presencia se extiende desde las costas y estuarios hasta grandes lagos interiores, ríos e incluso campos de cultivo y parques urbanos. Su comportamiento es marcadamente gregario, congregándose en grandes bandadas para alimentarse y nidificar en colonias ruidosas. Lo que resulta fascinante de esta especie es su enorme flexibilidad alimentaria: capaz de maniobrar con agilidad sobre el agua para capturar pequeños peces, también recorre los terrenos agrícolas tras los arados para desenterrar lombrices e insectos, exhibiendo una capacidad de adaptación excepcional.\n\nEl nombre común de la Gaviota Reidora alude a su peculiar reclamo vocal, una llamada estridente y rasposa que evoca una risa sonora sobre los humedales. Curiosamente, el plumaje de su cabeza experimenta una drástica transformación estacional. Durante la primavera y el verano, exhibe una caperuza nupcial de tono marrón chocolate muy oscuro —que a distancia parece negra—, la cual pierde al llegar el invierno, quedando reducida a una pequeña mancha oscura detrás del ojo. En los ecosistemas que frecuenta, esta ave cumple un valioso rol ecológico al controlar plagas de insectos agrícolas y actuar como un dinámico limpiador de restos orgánicos.",
+  "identification": [
+    "Caperuza de color marrón chocolate muy oscuro en la cabeza durante la época de cría.",
+    "Mancha oscura detrás del ojo en el plumaje de invierno, tras perder la caperuza.",
+    "Pico y patas de un vivo color rojo en los ejemplares adultos.",
+    "Borde anterior blanco y brillante en la parte exterior de las alas durante el vuelo.",
+    "Vocalización ruidosa y áspera que asemeja una carcajada."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-12T09:59:00Z"
+}
