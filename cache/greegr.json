@@ -1,0 +1,16 @@
+{
+  "description": "La garceta grande también conocida como garza blanca es una especie de ave de la familia Ardeidae. Esta garza mide de pico a cola entre 80 y 105 cm, su envergadura alar está entre 130 y 170 cm. Su peso oscila entre los 700 y 1,500 g. Es un ave acuática de plumaje blanco, grande y esbelta, que puede alcanzar el metro de altura. Vuela con su largo cuello retraído, pero suele caminar con él estirado. Tiene el pico amarillo y las patas negras con dedos negros.",
+  "description_source": "wikipedia",
+  "bow_intro": "\". ..sus pasos medidos, su largo cuello graciosamente retraído y curvado, y su sedosa cola recordaban los vaporosos ropajes de las nobles damas de Europa \" -J. J. Audubon ( 1 Audubon, J. J. (1831). Ornithological Biography, or an Account of the Habits of the Birds of the United States of America, Accompanied by Descriptions of the Objects Represented in the Work Entitled The Birds of America, and Interspersed with Delineations of American Scenery and Manners. Judah Dobson, Philadelphia, PA, USA. Close ) A la vez majestuosa y elegante, pero también versátil y tenaz, la Great Egret se erige como un notable testamento tanto de la resistencia natural como del triunfo de la conservación. De tamaño intermedio entre las garzas diurnas, más grandes, y las garcetas, más pequeñas, esta ave escultural llama la atención con su deslumbrante plumaje blanco en una distribución extraordinariamente vasta que se extiende por Eurasia, el África subsahariana, América y Australasia, con ejemplares errantes que llegan hasta las islas subantárticas e Islandia. Sin embargo, esta amplia distribución oculta una tumultuosa historia que estuvo a punto de llevarla a su desaparición.",
+  "taxonomy": {},
+  "wikipedia_summary": "La garceta grande también conocida como garza blanca es una especie de ave de la familia Ardeidae. Esta garza mide de pico a cola entre 80 y 105 cm, su envergadura alar está entre 130 y 170 cm. Su peso oscila entre los 700 y 1,500 g. Es un ave acuática de plumaje blanco, grande y esbelta, que puede alcanzar el metro de altura. Vuela con su largo cuello retraído, pero suele caminar con él estirado. Tiene el pico amarillo y las patas negras con dedos negros.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ardea_alba",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9752617,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9752617&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22697043"
+}

@@ -1,0 +1,11 @@
+{
+  "prose": "Con una silueta escultural que destaca silente en las aguas someras de lagunas, ríos y marismas, la Garceta Grande (Ardea alba) es la personificación de la elegancia en los ecosistemas acuáticos. Distribuida en un territorio asombrosamente vasto que abarca desde las Américas hasta Eurasia, el África subsahariana y Australasia, esta ave puede alcanzar hasta un metro de altura. Con una envergadura alar de entre 130 y 170 centímetros y un peso que oscila entre los 700 y 1500 gramos, la Garceta Grande acecha a sus presas con pasos lentos y medidos. Al alzarse en el aire, ofrece un espectáculo sereno al volar con su largo cuello retraído en una suave curva, a diferencia de su caminar en tierra, donde suele mantenerlo erguido y estirado.\n\nA pesar de su amplia presencia actual, la historia de la Garceta Grande oculta un capítulo convulso. Durante el siglo XIX y principios del XX, su deslumbrante plumaje blanco fue perseguido intensamente para abastecer el comercio de plumas en la alta moda, lo que llevó a sus poblaciones al borde del colapso en varias regiones. Su posterior recuperación representa uno de los grandes triunfos históricos de la conservación de la avifauna. Como depredador paciente de los humedales, esta especie desempeña un rol fundamental en la salud de los ecosistemas acuáticos, regulando las poblaciones de pequeñas presas de las que se alimenta y encarnando la asombrosa resiliencia de la naturaleza.",
+  "identification": [
+    "Plumaje enteramente blanco impoluto y cuerpo esbelto que ronda el metro de altura.",
+    "Pico largo y recto de un característico color amarillo.",
+    "Patas largas y dedos completamente negros.",
+    "Vuelo sereno con el largo cuello retraído hacia los hombros y las patas extendidas más allá de la cola."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-13T09:40:38Z"
+}
