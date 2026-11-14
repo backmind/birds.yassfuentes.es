@@ -2370,6 +2370,17 @@
       "imageHeight": 667,
       "photographer": "daverowe",
       "attribution": "daverowe / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "skylar",
+      "comName": "Alondra Común",
+      "sciName": "Alauda arvensis",
+      "date": "2026-11-14",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/7408707/large.jpeg",
+      "imageWidth": 2000,
+      "imageHeight": 1500,
+      "photographer": "Ani Sarkisyan",
+      "attribution": "Ani Sarkisyan / iNaturalist (CC BY)"
     }
   ]
 }

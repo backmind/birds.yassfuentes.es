@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Fri, 13 Nov 2026 09:39:28 +0000</pubDate>
+    <pubDate>Sat, 14 Nov 2026 09:03:12 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Alondra Común (Alauda arvensis)</title>
+      <link>https://birds.yassfuentes.es/birds/skylar.html</link>
+      <guid isPermaLink="false">bird-of-the-day-skylar-2026-11-14</guid>
+      <pubDate>Sat, 14 Nov 2026 09:03:12 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/7408707/large.jpeg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Ani Sarkisyan / iNaturalist (CC BY)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/7408707/large.jpeg" />
+      <content:encoded><![CDATA[<p><small>№ 218 · 2026 · 11 · 14 · <a href="https://birds.yassfuentes.es/birds/skylar.html">Ya publicada: 2026 · 07 · 16</a></small></p>
+<p><a href="https://birds.yassfuentes.es/birds/skylar.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/7408707/large.jpeg" alt="Alondra Común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Ani Sarkisyan / iNaturalist (CC BY)</em></small></p>
+<h2>Alondra Común — <em>Alauda arvensis</em></h2>
+<p><small><em>Alaudidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/102998555">LC</a> · Preocupación Menor</small></p>
+<p>En los vastos horizontes de los campos abiertos, pastizales y tierras de cultivo, habita un ave cuya presencia se anuncia antes con el oído que con la vista. La <a href="https://birds.yassfuentes.es/birds/skylar.html">Alondra Común</a> (<em>Alauda arvensis</em>) es una maestra del camuflaje en el suelo, donde su plumaje pardo y rayado la confunde perfectamente con la tierra seca. Sin embargo, su verdadero prodigio se revela cuando asciende al firmamento. Con un vuelo enérgico y vertical, se eleva a alturas asombrosas hasta convertirse en un punto casi invisible en el azul. Desde allí, derrama un canto ininterrumpido, un torrente de gorjeos y trinos que parece sostenerla en el aire, antes de iniciar un descenso pausado, constante y de una elegancia sublime que ha cautivado a observadores de la naturaleza durante generaciones.</p>
+<p>Esta humilde ave de campiña posee una historia de dispersión y magnetismo cultural sumamente singular. Su canto inspiró al célebre poeta Percy Bysshe Shelley en su oda &quot;A una alondra&quot;, consolidándola como un símbolo de lirismo natural. Aunque es un habitante nativo de Eurasia, la acción humana propició su introducción en lugares tan distantes como la isla de Vancouver o el archipiélago de Hawái, donde se ha establecido con éxito. Asimismo, poblaciones silvestres del noreste de Asia viajan de forma natural como migrantes hasta el oeste de Alaska, demostrando una asombrosa capacidad de navegación. En sus ecosistemas, la <a href="https://birds.yassfuentes.es/birds/skylar.html">alondra común</a> desempeña un papel clave como consumidora de semillas e invertebrados, manteniendo el equilibrio biológico de los terrenos abiertos.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Canto prolongado y complejo emitido durante un vuelo nupcial a gran altura, donde el ave a menudo es casi invisible.</li><li>Plumaje dorsal de tonos marrones y pardo rayado, con el vientre blanco y una cresta tupida y eréctil muy distintiva en la cabeza.</li><li>En vuelo, destaca un borde posterior blanco y estrecho en las alas, así como los lados externos de la cola de color blanco.</li><li>Silueta más corpulenta que la de un bisbita y, a diferencia de este, no suele balancear la cola al caminar por el suelo.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/8077224"><img src="https://birds.yassfuentes.es/maps/skylar.png" alt="Distribución mundial de Alauda arvensis según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/skylar?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Alauda_arvensis">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/skylar/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=skylar&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Garceta Grande (Ardea alba)</title>
       <link>https://birds.yassfuentes.es/birds/greegr.html</link>
