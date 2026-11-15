@@ -2381,6 +2381,17 @@
       "imageHeight": 1500,
       "photographer": "Ani Sarkisyan",
       "attribution": "Ani Sarkisyan / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "arcloo",
+      "comName": "Colimbo Ártico",
+      "sciName": "Gavia arctica",
+      "date": "2026-11-15",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/437543805/large.jpg",
+      "imageWidth": 2048,
+      "imageHeight": 1365,
+      "photographer": "Aleksandr Tolchkov",
+      "attribution": "Aleksandr Tolchkov / iNaturalist (CC BY-NC)"
     }
   ]
 }

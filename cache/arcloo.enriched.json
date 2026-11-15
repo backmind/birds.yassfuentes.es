@@ -1,0 +1,11 @@
+{
+  "prose": "En las vastas y serenas extensiones del norte eurasiático, el Colimbo Ártico (Gavia arctica) encuentra su refugio estival. Esta elegante ave acuática migratoria nidifica en los lagos y estanques de agua dulce de las regiones árticas y subárticas, desplegando su ciclo reproductor desde el norte de Europa hasta el extremo occidental de Alaska. Dotado de una extraordinaria adaptación al medio acuático, el Colimbo Ártico depende por entero de estas masas de agua pura para alimentarse y criar a sus polluelos. Sin embargo, al aproximarse el rigor del invierno, emprende fascinantes travesías hacia el sur y hacia la costa, buscando aguas más templadas en los litorales protegidos del Atlántico y del Pacífico, así como en mares interiores como el Mediterráneo, el Mar Negro o el Mar Caspio.\n\nLa historia científica de esta especie guarda giros fascinantes. Durante gran parte del siglo XX, el Colimbo Ártico compartió estatus taxonómico con su pariente más cercano, el Colimbo del Pacífico (Gavia pacifica), considerándose una sola especie hasta que la evidencia de su coexistencia reproductiva en el noreste de Asia y Alaska llevó a su separación oficial en 1985. En la actualidad se reconocen dos subespecies: la raza euroasiática de garganta negra y la siberiana de garganta verde. Como hábil cazador en los ecosistemas acuáticos, la presencia del Colimbo Ártico constituye un claro indicador de la riqueza biológica de los fríos lagos septentrionales y de los litorales marinos donde pasa el invierno.",
+  "identification": [
+    "Garganta de coloración oscura durante la época reproductiva, con matices negros o verdosos según la subespecie",
+    "Cabeza y nuca cubiertas por un plumaje de tono gris ceniciento uniforme",
+    "Dorso oscuro caracterizado por un complejo patrón geométrico de manchas blancas en plumaje nupcial",
+    "Silueta alargada e hidrodinámica adaptada para la natación y el buceo profundo"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-15T09:39:18Z"
+}
