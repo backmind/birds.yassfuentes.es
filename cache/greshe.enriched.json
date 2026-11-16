@@ -1,0 +1,11 @@
+{
+  "prose": "Sobre las inmensas y agitadas aguas del Océano Atlántico planea con sublime elegancia la Pardela Capirotada (Ardenna gravis). Esta incansable ave pelágica pasa la mayor parte de su existencia en alta mar, dominando los vientos mediante un vuelo rasante en el que roza apenas la cresta de las olas. Su ciclo vital comprende una de las migraciones trans-ecuatoriales más extraordinarias del planeta: tras criar en remotas islas del Atlántico Sur, como el archipiélago de Tristán de Acuña, emprende un viaje épico hacia el Atlántico Norte para aprovechar la gran abundancia de alimento durante el verano boreal, recorriendo miles de kilómetros en un patrón circular a lo largo de todo el océano.\n\nLa vida de la pardela capirotada está profundamente ligada al dominio marino. Excelente buceadora, se impulsa bajo la superficie utilizando sus alas como aletas para perseguir peces y calamares a considerable profundidad. En tierra firme, a la que acude únicamente para nidificar en galerías subterráneas, muestra una conducta cauta y nocturna para evitar la presencia de depredadores. Su función ecológica es clave, actuando como un conector de nutrientes y energía entre los ecosistemas marinos de ambos hemisferios del planeta.",
+  "identification": [
+    "Píleo pardo oscuro que contrasta marcadamente con las mejillas y el cuello blancos, dando la apariencia de llevar un capuchón.",
+    "Partes superiores de tono pardo grisáceo e inferiores predominantemente blancas, con un parche oscuro característico en el vientre.",
+    "Vuelo ágil y ladeado sobre las olas, alternando aleteos rápidos con prolongados planeos.",
+    "Pico fino, oscuro y ganchudo, provisto de tubos nasales visibles en la base superior."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-16T09:57:10Z"
+}

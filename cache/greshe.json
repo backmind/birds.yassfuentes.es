@@ -1,0 +1,16 @@
+{
+  "description": "La pardela capirotada o pardela cabeza negra es una especie de ave procelariforme de la familia Procellariidae ampliamente distribuida por el Océano Atlántico. Es un ave marina con las partes superiores pardas y las inferiores blancas, que se caracteriza por tener el píleo pardo que contrasta con su cuello y sus mejillas blancas.",
+  "description_source": "wikipedia",
+  "bow_intro": "Este relato de especies está dedicado en honor de Alexander Ellis III, miembro del Consejo de Administración del Cornell Lab of Ornithology. Nota del editor: Este es un relato de formato más corto, publicado originalmente en HBW Alive. Por favor, considere contribuir con su experiencia para actualizar y ampliar este relato.",
+  "taxonomy": {},
+  "wikipedia_summary": "La pardela capirotada o pardela cabeza negra es una especie de ave procelariforme de la familia Procellariidae ampliamente distribuida por el Océano Atlántico. Es un ave marina con las partes superiores pardas y las inferiores blancas, que se caracteriza por tener el píleo pardo que contrasta con su cuello y sus mejillas blancas.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Ardenna_gravis",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 8596590,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=8596590&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22698201"
+}

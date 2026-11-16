@@ -2392,6 +2392,17 @@
       "imageHeight": 1365,
       "photographer": "Aleksandr Tolchkov",
       "attribution": "Aleksandr Tolchkov / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "greshe",
+      "comName": "Pardela Capirotada",
+      "sciName": "Ardenna gravis",
+      "date": "2026-11-16",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/2415474/large.jpg",
+      "imageWidth": 1600,
+      "imageHeight": 1000,
+      "photographer": "Fyn Kynd",
+      "attribution": "Fyn Kynd / iNaturalist (CC BY-SA)"
     }
   ]
 }

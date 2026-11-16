@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 15 Nov 2026 09:33:17 +0000</pubDate>
+    <pubDate>Mon, 16 Nov 2026 09:51:36 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Pardela Capirotada (Ardenna gravis)</title>
+      <link>https://birds.yassfuentes.es/birds/greshe.html</link>
+      <guid isPermaLink="false">bird-of-the-day-greshe-2026-11-16</guid>
+      <pubDate>Mon, 16 Nov 2026 09:51:36 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/2415474/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Fyn Kynd / iNaturalist (CC BY-SA)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/2415474/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 220 · 2026 · 11 · 16</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/greshe.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/2415474/large.jpg" alt="Pardela Capirotada" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Fyn Kynd / iNaturalist (CC BY-SA)</em></small></p>
+<h2>Pardela Capirotada — <em>Ardenna gravis</em></h2>
+<p><small><em>Procellariidae</em> · <em>Procellariiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22698201">LC</a> · Preocupación Menor</small></p>
+<p>Sobre las inmensas y agitadas aguas del Océano Atlántico planea con sublime elegancia la <a href="https://birds.yassfuentes.es/birds/greshe.html">Pardela Capirotada</a> (<em>Ardenna gravis</em>). Esta incansable ave pelágica pasa la mayor parte de su existencia en alta mar, dominando los vientos mediante un vuelo rasante en el que roza apenas la cresta de las olas. Su ciclo vital comprende una de las migraciones trans-ecuatoriales más extraordinarias del planeta: tras criar en remotas islas del Atlántico Sur, como el archipiélago de Tristán de Acuña, emprende un viaje épico hacia el Atlántico Norte para aprovechar la gran abundancia de alimento durante el verano boreal, recorriendo miles de kilómetros en un patrón circular a lo largo de todo el océano.</p>
+<p>La vida de la <a href="https://birds.yassfuentes.es/birds/greshe.html">pardela capirotada</a> está profundamente ligada al dominio marino. Excelente buceadora, se impulsa bajo la superficie utilizando sus alas como aletas para perseguir peces y calamares a considerable profundidad. En tierra firme, a la que acude únicamente para nidificar en galerías subterráneas, muestra una conducta cauta y nocturna para evitar la presencia de depredadores. Su función ecológica es clave, actuando como un conector de nutrientes y energía entre los ecosistemas marinos de ambos hemisferios del planeta.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Píleo pardo oscuro que contrasta marcadamente con las mejillas y el cuello blancos, dando la apariencia de llevar un capuchón.</li><li>Partes superiores de tono pardo grisáceo e inferiores predominantemente blancas, con un parche oscuro característico en el vientre.</li><li>Vuelo ágil y ladeado sobre las olas, alternando aleteos rápidos con prolongados planeos.</li><li>Pico fino, oscuro y ganchudo, provisto de tubos nasales visibles en la base superior.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/8596590"><img src="https://birds.yassfuentes.es/maps/greshe.png" alt="Distribución mundial de Ardenna gravis según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/greshe?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Ardenna_gravis">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/greshe/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=greshe&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Colimbo Ártico (Gavia arctica)</title>
       <link>https://birds.yassfuentes.es/birds/arcloo.html</link>
