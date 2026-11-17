@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Mon, 16 Nov 2026 09:51:36 +0000</pubDate>
+    <pubDate>Tue, 17 Nov 2026 10:48:37 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Colirrojo Tizón (Phoenicurus ochruros)</title>
+      <link>https://birds.yassfuentes.es/birds/blared1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-blared1-2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 10:48:37 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/3322603/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Paul Cools / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/3322603/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 221 · 2026 · 11 · 17 · <a href="https://birds.yassfuentes.es/birds/blared1.html">Ya publicada: 2026 · 07 · 22</a></small></p>
+<p><a href="https://birds.yassfuentes.es/birds/blared1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/3322603/large.jpg" alt="Colirrojo Tizón" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Paul Cools / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Colirrojo Tizón — <em>Phoenicurus ochruros</em></h2>
+<p><small><em>Muscicapidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22710051">LC</a> · Preocupación Menor</small></p>
+<p>En los paisajes donde la roca desnuda o las estructuras humanas dominan el horizonte, habita un pequeño paseriforme de elegancia sobria y movimientos inquietos: el <a href="https://birds.yassfuentes.es/birds/blared1.html">colirrojo tizón</a> (<em>Phoenicurus ochruros</em>). Perteneciente a la familia Muscicapidae, esta especie ha sabido adaptar su preferencia ancestral por los riscos, canteras y pedregales a las zonas urbanas e industriales, encontrando en las cornisas y tejados un excelente sustituto de sus acantilados nativos. Con una postura marcadamente erguida y vigilante, pasa gran parte del tiempo posado en salientes o cantando desde esquinas elevadas para escudriñar el terreno. Es al emprender el vuelo o al desplegar su plumaje cuando revela su rasgo más deslumbrante: una cola de un naranja vivo y radiante que justifica su nombre y contrasta de forma espectacular con el resto de su cuerpo.</p>
+<p>El dimorfismo sexual resulta evidente al observar a la pareja: el macho exhibe una tonalidad pizarrosa o negruzca, mientras que la hembra viste un atuendo gris ahumado más discreto. A diferencia de la hembra del <a href="https://ebird.org/species/comred2?siteLanguage=es" target="_blank" rel="noopener">colirrojo real</a>, de tonos más cálidos y vinculada a bosques o matorrales, el <a href="https://birds.yassfuentes.es/birds/blared1.html">colirrojo tizón</a> permanece fiel a los espacios abiertos y rocosos. Su amplio rango geográfico se extiende a lo largo del Paleártico, alcanzando por el este regiones como Irán, Turkmenistán, Kazajstán, China y Mongolia, con individuos migratorios que frecuentan los litorales rocosos. Como activo depredador de pequeños invertebrados a ras de suelo, esta ave cumple una valiosa función en el control de insectos, aportando dinamismo y color allí donde la piedra parece inerte.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Cola de color naranja brillante en ambos sexos, muy conspicua durante el vuelo o al abrirse.</li><li>Macho con plumaje general de tono negro pizarroso; hembra de tono gris ahumado.</li><li>Postura erguida característica al posarse sobre el suelo o pequeñas atalayas.</li><li>Costumbre de cantar desde posaderos prominentes como esquinas de edificios, rocas o canteras.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5739315"><img src="https://birds.yassfuentes.es/maps/blared1.png" alt="Distribución mundial de Phoenicurus ochruros según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/blared1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Phoenicurus_ochruros">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/blared1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=blared1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Pardela Capirotada (Ardenna gravis)</title>
       <link>https://birds.yassfuentes.es/birds/greshe.html</link>
@@ -617,27 +638,6 @@
 <ul><li>Plumaje negro con iridiscencias púrpuras y verdes en verano, o densamente moteado de blanco en invierno.</li><li>Pico largo y puntiagudo, de color amarillo brillante durante la época de cría y negro en los meses fríos.</li><li>Silueta en vuelo característica con alas triangulares y una cola notablemente corta.</li><li>Canto complejo y ruidoso que incluye imitaciones precisas de otras especies y sonidos ambientales.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9809229"><img src="https://birds.yassfuentes.es/maps/eursta.png" alt="Distribución mundial de Sturnus vulgaris según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/eursta?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Sturnus_vulgaris">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eursta/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eursta&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Pico Menor (Dryobates minor)</title>
-      <link>https://birds.yassfuentes.es/birds/leswoo1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-leswoo1-2026-10-18</guid>
-      <pubDate>Sun, 18 Oct 2026 07:16:49 +0000</pubDate>
-      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/large.jpg" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Алексей Эбель / iNaturalist (CC BY-NC)</media:credit>
-      </media:content>
-      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/large.jpg" />
-      <content:encoded><![CDATA[<p><small>№ 191 · 2026 · 10 · 18</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/leswoo1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/121294439/large.jpg" alt="Pico Menor" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Алексей Эбель / iNaturalist (CC BY-NC)</em></small></p>
-<h2>Pico Menor — <em>Dryobates minor</em></h2>
-<p><small><em>Picidae</em> · <em>Piciformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22681076">LC</a> · Preocupación Menor</small></p>
-<p>En las alturas del dosel de bosques caducifolios, sotos fluviales y viejos huertos de Eurasia y el norte de África habita un pájaro verdaderamente singular: el <a href="https://birds.yassfuentes.es/birds/leswoo1.html">Pico Menor</a> (<em>Dryobates minor</em>). Con unas dimensiones que apenas superan las de un <a href="https://birds.yassfuentes.es/birds/houspa.html">gorrión común</a>, ostenta el título de ser el pájaro carpintero más diminuto de Europa. Esta extraordinaria ligereza corporal le otorga una ventaja evolutiva clave, permitiéndole forrajear en las ramas terminales más delgadas y quebradizas de la copa arbórea, un estrato inaccesible para carpinteros más corpulentos. Allí se desplaza con asombrosa agilidad acrobática, examinando pequeñas fisuras y desprendiendo sutiles fragmentos de corteza en busca de escarabajos, larvas e invertebrados.</p>
-<p>A pesar de su discreto plumaje mimético, la presencia del <a href="https://birds.yassfuentes.es/birds/leswoo1.html">Pico Menor</a> se revela a finales del invierno gracias a su distintivo tamborileo, una ráfaga rápida, prolongada y algo más débil que la de sus congéneres, con la que delimita su territorio. En el plano ecológico, ejerce un papel determinante como ingeniero forestal. Al excavar anualmente sus pequeños nidos en maderas blandas o ramas secas en descomposición, crea cavidades que, tras ser abandonadas, ofrecen un refugio vital para diversos paseriformes de menor porte, como herrerillos y carboneros, perpetuando así la rica dinámica de vida del bosque.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Tamaño diminuto (14-16 cm), comparable al de un gorrión, con cola corta y silueta compacta.</li><li>Dorso y alas cubiertos por un conspicuo barreado horizontal blanco y negro en forma de escalera, sin grandes manchas blancas en las escápulas.</li><li>Píleo o coronilla de color rojo intenso en los machos y de tono blanquecino a crema en las hembras.</li><li>Zona ventral blanquecina o anteada con estrías oscuras, careciendo por completo del color rojo bajo la cola presente en otros carpinteros.</li><li>Canto característico compuesto por una serie rápida y aguda de notas &#x27;pii-pii-pii-pii&#x27;, y un tamborileo veloz y constante en ramas altas.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9015784"><img src="https://birds.yassfuentes.es/maps/leswoo1.png" alt="Distribución mundial de Dryobates minor según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/leswoo1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Dryobates_minor">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/leswoo1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=leswoo1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>

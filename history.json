@@ -2403,6 +2403,17 @@
       "imageHeight": 1000,
       "photographer": "Fyn Kynd",
       "attribution": "Fyn Kynd / iNaturalist (CC BY-SA)"
+    },
+    {
+      "speciesCode": "blared1",
+      "comName": "Colirrojo Tizón",
+      "sciName": "Phoenicurus ochruros",
+      "date": "2026-11-17",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/3322603/large.jpg",
+      "imageWidth": 900,
+      "imageHeight": 533,
+      "photographer": "Paul Cools",
+      "attribution": "Paul Cools / iNaturalist (CC BY-NC)"
     }
   ]
 }
