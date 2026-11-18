@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Tue, 17 Nov 2026 10:48:37 +0000</pubDate>
+    <pubDate>Wed, 18 Nov 2026 10:17:20 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Éider común (Somateria mollissima)</title>
+      <link>https://birds.yassfuentes.es/birds/comeid.html</link>
+      <guid isPermaLink="false">bird-of-the-day-comeid-2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 10:17:20 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/101350509/large.jpeg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Christoph Moning / iNaturalist (CC BY)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/101350509/large.jpeg" />
+      <content:encoded><![CDATA[<p><small>№ 222 · 2026 · 11 · 18</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/comeid.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/101350509/large.jpeg" alt="Éider común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Christoph Moning / iNaturalist (CC BY)</em></small></p>
+<h2>Éider común — <em>Somateria mollissima</em></h2>
+<p><small><em>Anatidae</em> · <em>Anseriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22680405">NT</a> · Casi Amenazado</small></p>
+<p>En los confines helados de las costas árticas y subárticas, el <a href="https://birds.yassfuentes.es/birds/comeid.html">éider común</a> (<em>Somateria mollissima</em>) se erige como el pato más corpulento del hemisferio norte y una de las anátidas más intrínsecamente ligadas al océano. Con una distribución circumpolar, transcurre prácticamente toda su existencia al vaivén de las aguas saladas, congregándose en nutridas colonias en islotes marinos para nidificar y reuniéndose en grandes bandadas costeras durante la temporada no reproductora. Incluso bajo los rigores del invierno boreal, muchas poblaciones eluden la migración al sur y permanecen tan al norte como el mar abierto se lo permite, hallando cobijo en polinias —grietas y claros naturales en el hielo marino— y en los litorales a sotavento de islas resguardadas de la banquisa móvil.</p>
+<p>Bajo la superficie de estas aguas gélidas se manifiesta su asombrosa adaptación marina. Con hábitos estrictamente diurnos, el <a href="https://birds.yassfuentes.es/birds/comeid.html">éider común</a> se sumerge de forma habitual entre los diez y los veinte metros de profundidad para capturar moluscos y crustáceos del lecho marino, desempeñando una función clave en la dinámica de las comunidades bentónicas costeras. Esta estrecha relación con el entorno se complementa con una notable memoria espacial: las hembras demuestran una estricta filopatría, regresando fielmente a sus áreas natales y reutilizando con frecuencia el mismo emplazamiento exacto para depositar sus nidadas. Aunque establecen parejas con monogamia estacional, algunas colonias conservan vínculos que perduran año tras año frente a las mareas árticas.</p>
+<h3>Identificación en campo</h3>
+<ul><li>El pato más grande del hemisferio norte, con un cuerpo robusto y un perfil de cabeza alargado en forma de cuña.</li><li>Macho adulto inconfundible con el dorso y pecho blancos, vientre y alas negras, capuchón negro en la coronilla y un suave tinte verdoso en la nuca.</li><li>Hembra con un plumaje críptico completamente pardo, finamente barreado para mimetizarse con el suelo de tundra e islas rocosas.</li><li>Comportamiento gregario en aguas marinas litorales, sumergiéndose activamente a profundidades de 10 a 20 metros para alimentarse.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2498352"><img src="https://birds.yassfuentes.es/maps/comeid.png" alt="Distribución mundial de Somateria mollissima según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/comeid?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Somateria_mollissima">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/comeid/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=comeid&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Colirrojo Tizón (Phoenicurus ochruros)</title>
       <link>https://birds.yassfuentes.es/birds/blared1.html</link>

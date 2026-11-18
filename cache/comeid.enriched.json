@@ -1,0 +1,11 @@
+{
+  "prose": "En los confines helados de las costas árticas y subárticas, el éider común (Somateria mollissima) se erige como el pato más corpulento del hemisferio norte y una de las anátidas más intrínsecamente ligadas al océano. Con una distribución circumpolar, transcurre prácticamente toda su existencia al vaivén de las aguas saladas, congregándose en nutridas colonias en islotes marinos para nidificar y reuniéndose en grandes bandadas costeras durante la temporada no reproductora. Incluso bajo los rigores del invierno boreal, muchas poblaciones eluden la migración al sur y permanecen tan al norte como el mar abierto se lo permite, hallando cobijo en polinias —grietas y claros naturales en el hielo marino— y en los litorales a sotavento de islas resguardadas de la banquisa móvil.\n\nBajo la superficie de estas aguas gélidas se manifiesta su asombrosa adaptación marina. Con hábitos estrictamente diurnos, el éider común se sumerge de forma habitual entre los diez y los veinte metros de profundidad para capturar moluscos y crustáceos del lecho marino, desempeñando una función clave en la dinámica de las comunidades bentónicas costeras. Esta estrecha relación con el entorno se complementa con una notable memoria espacial: las hembras demuestran una estricta filopatría, regresando fielmente a sus áreas natales y reutilizando con frecuencia el mismo emplazamiento exacto para depositar sus nidadas. Aunque establecen parejas con monogamia estacional, algunas colonias conservan vínculos que perduran año tras año frente a las mareas árticas.",
+  "identification": [
+    "El pato más grande del hemisferio norte, con un cuerpo robusto y un perfil de cabeza alargado en forma de cuña.",
+    "Macho adulto inconfundible con el dorso y pecho blancos, vientre y alas negras, capuchón negro en la coronilla y un suave tinte verdoso en la nuca.",
+    "Hembra con un plumaje críptico completamente pardo, finamente barreado para mimetizarse con el suelo de tundra e islas rocosas.",
+    "Comportamiento gregario en aguas marinas litorales, sumergiéndose activamente a profundidades de 10 a 20 metros para alimentarse."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-18T10:21:07Z"
+}
