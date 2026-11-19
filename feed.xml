@@ -5,10 +5,30 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Wed, 18 Nov 2026 10:17:20 +0000</pubDate>
+    <pubDate>Thu, 19 Nov 2026 10:27:36 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Avetorillo común (Botaurus minutus)</title>
+      <link>https://birds.yassfuentes.es/birds/litbit1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-litbit1-2026-11-19</guid>
+      <pubDate>Thu, 19 Nov 2026 10:27:36 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/523072440/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Oleg / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/523072440/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 223 · 2026 · 11 · 19 · <a href="https://birds.yassfuentes.es/birds/litbit1.html">Ya publicada: 2026 · 07 · 13</a></small></p>
+<p><a href="https://birds.yassfuentes.es/birds/litbit1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/523072440/large.jpg" alt="Avetorillo común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Oleg / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Avetorillo común — <em>Botaurus minutus</em></h2>
+<p><small><em>Ardeidae</em> · <em>Pelecaniformes</em></small></p>
+<p>El <a href="https://birds.yassfuentes.es/birds/litbit1.html">Avetorillo Común</a> (<em>Botaurus minutus</em>) es una de las garzas más pequeñas y discretas que habitan los humedales de agua dulce. Su vida transcurre en la penumbra de los densos cañaverales, donde se desplaza con una agilidad asombrosa, trepando por los tallos de las plantas acuáticas en lugar de vadear por el lodo como sus parientes de mayor tamaño. Es un ave de hábitos reservados, un maestro del ocultamiento que a menudo pasa desapercibido para el observador casual. Durante los meses cálidos, se establece en marismas y zonas de vegetación palustre, pero al llegar el invierno, emprende un largo viaje migratorio hacia el continente africano. Su presencia se revela con mayor frecuencia durante el amanecer o el crepúsculo, cuando realiza vuelos cortos y bajos sobre la superficie de las cañas, mostrando una silueta compacta y decidida.</p>
+<p>Lo que hace verdaderamente fascinante a esta especie es su capacidad de mimetismo. Ante una posible amenaza, el <a href="https://birds.yassfuentes.es/birds/litbit1.html">Avetorillo Común</a> estira su cuello y apunta con el pico hacia el cielo, permaneciendo inmóvil para confundirse con las cañas secas que lo rodean. El dimorfismo sexual es evidente en su plumaje: mientras que el macho luce un dorso oscuro y contrastado, la hembra presenta tonos más pardos y rayados que favorecen su camuflaje durante la incubación. Se alimenta principalmente de pequeños peces, anfibios e insectos acuáticos, acechando pacientemente desde los bordes de la vegetación. Como depredador especializado, desempeña un papel crucial en el equilibrio de los ecosistemas acuáticos, controlando las poblaciones de invertebrados y pequeños vertebrados en los rincones más densos del humedal.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Garza de tamaño muy pequeño con un tono general ocre amarillento y píleo oscuro.</li><li>Gran panel pálido en la parte superior del ala, claramente visible cuando el ave está en vuelo.</li><li>Marcado dimorfismo sexual: el macho tiene el dorso oscuro y liso, mientras que la hembra lo tiene rayado.</li><li>Hábito de posarse de forma elevada entre las cañas en lugar de permanecer en el suelo.</li></ul>
+<p><small><a href="https://ebird.org/species/litbit1?siteLanguage=es">eBird</a> · <a href="https://en.wikipedia.org/wiki/Little_bittern">Wikipedia (en)</a> · <a href="https://birdsoftheworld.org/bow/species/litbit1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=litbit1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Éider común (Somateria mollissima)</title>
       <link>https://birds.yassfuentes.es/birds/comeid.html</link>
@@ -617,27 +637,6 @@
 <ul><li>Macho inconfundible por su voluminosa cabeza rojiza oxidada, pico rojo brillante y pecho negro.</li><li>Hembra con plumaje marrón chocolate y un marcado contraste pálido en las mejillas y la garganta.</li><li>Ancha franja blanca muy conspicua a lo largo de las alas, visible en vuelo en ambos sexos.</li><li>Porte grande y rechoncho, con alas largas en comparación con otros patos buceadores.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2498180"><img src="https://birds.yassfuentes.es/maps/recpoc.png" alt="Distribución mundial de Netta rufina según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/recpoc?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Netta_rufina">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/recpoc/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=recpoc&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Martín Pescador Común (Alcedo atthis)</title>
-      <link>https://birds.yassfuentes.es/birds/comkin1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-comkin1-2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 07:41:06 +0000</pubDate>
-      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/large.jpg" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Mark Kilner / iNaturalist (CC BY-NC-SA)</media:credit>
-      </media:content>
-      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/large.jpg" />
-      <content:encoded><![CDATA[<p><small>№ 193 · 2026 · 10 · 20</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/comkin1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/61266631/large.jpg" alt="Martín Pescador Común" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Mark Kilner / iNaturalist (CC BY-NC-SA)</em></small></p>
-<h2>Martín Pescador Común — <em>Alcedo atthis</em></h2>
-<p><small><em>Alcedinidae</em> · <em>Coraciiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22683027">LC</a> · Preocupación Menor</small></p>
-<p>Como una centella de cobalto que hiende la calma ribereña, el <a href="https://birds.yassfuentes.es/birds/comkin1.html">Martín Pescador Común</a> (<em>Alcedo atthis</em>) protagoniza una de las apariciones más deslumbrantes de las aguas continentales. Esta menuda ave habita en ríos de corrientes lentas, arroyos transparentes, lagunas y humedales de Europa, Asia y el norte de África. Su técnica de caza es un despliegue de paciencia y precisión: permanece posado con calma absoluta sobre una rama que sobresale del agua, escrutando la superficie hasta detectar el destello de un pequeño pez. En una fracción de segundo, se arroja en un picado fulgurante que quiebra la lámina acuática para apresar a su víctima con su formidable pico en forma de lanza.</p>
-<p>Bajo el agua, el <a href="https://birds.yassfuentes.es/birds/comkin1.html">Martín Pescador Común</a> cuenta con adaptaciones extraordinarias, como una membrana nictitante que actúa a modo de lente protectora y un sistema visual capaz de compensar con exactitud la refracción lumínica. Durante la época de cría, no fabrica un nido convencional, sino que horada con el pico y las patas una profunda galería en los taludes arenosos de las orillas. Al requerir aguas limpias y bien oxigenadas con abundancia de presas para sobrevivir, su presencia constituye un valioso bioindicador de la calidad y el equilibrio de los ecosistemas fluviales.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Dorso, cabeza y rabadilla de un brillante color azul turquesa iridiscente, en marcado contraste con el pecho y vientre de tono castaño anaranjado.</li><li>Silueta compacta y rechoncha, de cola sumamente corta y alas redondeadas, dominada por un pico negro, largo y puntiagudo.</li><li>Vuelo directo, potente y muy veloz, habitualmente a escasos centímetros por encima de la superficie del agua.</li><li>Vocalización aguda y metálica, un silbido penetrante y estridente que suele emitir al levantar el vuelo a lo largo del cauce.</li><li>La hembra presenta la base de la mandíbula inferior de color rojizo o anaranjado, mientras que en el macho el pico es completamente negruzco.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2475532"><img src="https://birds.yassfuentes.es/maps/comkin1.png" alt="Distribución mundial de Alcedo atthis según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/comkin1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Alcedo_atthis">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/comkin1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=comkin1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
