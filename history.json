@@ -2436,6 +2436,17 @@
       "imageHeight": 1356,
       "photographer": "Oleg",
       "attribution": "Oleg / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "bwwbab1",
+      "comName": "Ratina alibarrada",
+      "sciName": "Spelaeornis troglodytoides",
+      "date": "2026-11-20",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/9521478/large.jpeg",
+      "imageWidth": 1152,
+      "imageHeight": 768,
+      "photographer": "markus lilje",
+      "attribution": "markus lilje / iNaturalist (CC BY-NC-ND)"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "description": "La ratina alibarrada es una especie de ave paseriforme de la familia Timaliidae endémica del Himalaya oriental y sus estribaciones.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La ratina alibarrada es una especie de ave paseriforme de la familia Timaliidae endémica del Himalaya oriental y sus estribaciones.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Spelaeornis_troglodytoides",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2492924,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2492924&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22716123"
+}
