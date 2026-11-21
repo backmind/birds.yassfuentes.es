@@ -2447,6 +2447,17 @@
       "imageHeight": 768,
       "photographer": "markus lilje",
       "attribution": "markus lilje / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "litegr",
+      "comName": "Garceta común",
+      "sciName": "Egretta garzetta",
+      "date": "2026-11-21",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/205293169/large.jpg",
+      "imageWidth": 1979,
+      "imageHeight": 1484,
+      "photographer": "Bengt Nyman",
+      "attribution": "Bengt Nyman / iNaturalist (CC BY)"
     }
   ]
 }
