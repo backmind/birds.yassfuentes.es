@@ -1,0 +1,11 @@
+{
+  "prose": "La Garceta común (Egretta garzetta) es una garza esbelta y grácil de tamaño mediano que habita en una gran variedad de humedales en Eurasia, África y Oceanía. Con una compostura notable, esta ave de la familia Ardeidae recorre las orillas de ríos, lagunas y marismas en busca de peces y pequeños organismos acuáticos. Aunque la inmensa mayoría de sus ejemplares exhibe un plumaje deslumbrantemente blanco, existe una subespecie en las costas del África oriental que presenta un curioso morfo oscuro. Al llegar la temporada de reproducción, la garceta común se engalana desplegando dos característicos y largos penachos lanceolados que caen desde la nuca, junto a delicadas plumas filamentosas y esponjosas sobre el dorso y el cuello, utilizadas en sus pausados cortejos rituales.\n\nEstas ornamentales plumas nupciales estuvieron a punto de costar la supervivencia de la especie. A finales del siglo XIX, la alta moda europea desató una demanda tan desmedida por sus penachos que estos llegaron a valer más que el propio oro por peso. Cada individuo apenas aportaba un gramo de estas valiosas plumas, lo que provocó una caza masiva. Afortunadamente, el cese de este comercio y el establecimiento de medidas de conservación permitieron una extraordinaria recuperación de sus poblaciones globales. Hoy en día, como ágil depredador acuático, la garceta común ejerce un papel clave en el equilibrio ecológico de los humedales, personificando tanto la fragilidad como la capacidad de resiliencia del mundo natural.",
+  "identification": [
+    "Plumaje completamente blanco en la inmensa mayoría de las poblaciones.",
+    "Silueta estilizada de tamaño mediano con cuello largo en forma de 'S'.",
+    "Pico negro, recto y afilado, con patas oscuras y contrastantes pies amarillos.",
+    "Presencia de dos largos y finos penachos en la nuca durante la época de cría."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-21T14:50:41Z"
+}
