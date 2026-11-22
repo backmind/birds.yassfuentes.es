@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sat, 21 Nov 2026 09:55:29 +0000</pubDate>
+    <pubDate>Sun, 22 Nov 2026 09:52:51 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Pinzón de Darwin lorito (Camarhynchus psittacula)</title>
+      <link>https://birds.yassfuentes.es/birds/latfin1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-latfin1-2026-11-22</guid>
+      <pubDate>Sun, 22 Nov 2026 09:52:51 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/68819/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Paul McFarling / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/68819/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 226 · 2026 · 11 · 22</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/latfin1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/68819/large.jpg" alt="Pinzón de Darwin lorito" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Paul McFarling / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Pinzón de Darwin lorito — <em>Camarhynchus psittacula</em></h2>
+<p><small><em>Thraupidae</em> · <em>Passeriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22723768">VU</a> · Vulnerable</small></p>
+<p>En las remotas alturas del archipiélago de las Galápagos, entre la vegetación de los árboles más altos, habita una criatura singular: el <a href="https://birds.yassfuentes.es/birds/latfin1.html">pinzón de Darwin lorito</a> (<em>Camarhynchus psittacula</em>). Esta especie de la familia Thraupidae es la más grande y corpulenta de los pinzones arbóreos que evolucionaron en estas islas de Ecuador. A diferencia de otros parientes más frecuentes, como el <a href="https://ebird.org/species/smtfin1?siteLanguage=es" target="_blank" rel="noopener">pinzón de Darwin chico</a> (<em>Camarhynchus parvulus</em>), con el que a menudo comparte territorio en varias islas, esta ave prefiere las zonas arboladas de mayor porte, donde se desenvuelve entre las ramas manteniendo una presencia siempre más discreta y menos numerosa.</p>
+<p>Lo que hace especialmente fascinante al <a href="https://birds.yassfuentes.es/birds/latfin1.html">pinzón de Darwin lorito</a> es la notable arquitectura de su pico. Posee una estructura voluminosa y profunda, con un culmen fuertemente arqueado que le confiere un perfil único. En un detalle anatómico sorprendente —extremadamente difícil de apreciar en aves vivas en libertad— las finas puntas de sus mandíbulas llegan a cruzarse. Los machos adultos exhiben una oscura capucha sobre el plumaje verdoso de su dorso y el tono blanquecino de sus partes inferiores, desempeñando un papel clave en el equilibrio ecológico del dosel insular.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Pico grande y profundo con el culmen fuertemente arqueado, de longitud similar a su profundidad</li><li>Machos con capucha oscura en la cabeza, dorso verdoso y partes inferiores blanquecinas</li><li>Puntas de las mandíbulas finas y ligeramente cruzadas entre sí</li><li>Mayor tamaño corporal y silueta más corpulenta que otros pinzones arbóreos de la región</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2491665"><img src="https://birds.yassfuentes.es/maps/latfin1.png" alt="Distribución mundial de Camarhynchus psittacula según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/latfin1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Camarhynchus_psittacula">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/latfin1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=latfin1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Garceta común (Egretta garzetta)</title>
       <link>https://birds.yassfuentes.es/birds/litegr.html</link>

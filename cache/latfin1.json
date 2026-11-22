@@ -1,0 +1,16 @@
+{
+  "description": "El pinzón de Darwin lorito, pinzón arbóreo grande o pinzón de Darwin insectívoro grande es una especie de ave paseriforme de la familia Thraupidae perteneciente al género Camarhynchus. Es endémico de las islas Galápagos en Ecuador. Pertenece al grupo denominado pinzones de Darwin.",
+  "description_source": "wikipedia",
+  "bow_intro": "El Large Tree-Finch es el más grande y corpulento de las tres especies de Fringillidae, llamados imaginativamente pinzones arbóreos grande, mediano y pequeño. Large Tree-Finch tiene un pico grande y profundo con un culmen fuertemente arqueado, siendo aproximadamente tan largo como profundo. Las finas puntas de las mandíbulas cruzan en realidad una característica difícil de ver en aves vivas. Los machos muestran una capucha oscura, dorso verdoso y partes inferiores blanquecinas. Esta especie se encuentra en varias islas del archipiélago de las Galápagos y en muchas es simpátrica con el Small Tree-Finch (C. parvulus ) . Nunca es tan común como el Small Tree-Finch y se encuentra en zonas con árboles más altos y grandes.",
+  "taxonomy": {},
+  "wikipedia_summary": "El pinzón de Darwin lorito, pinzón arbóreo grande o pinzón de Darwin insectívoro grande es una especie de ave paseriforme de la familia Thraupidae perteneciente al género Camarhynchus. Es endémico de las islas Galápagos en Ecuador. Pertenece al grupo denominado pinzones de Darwin.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Camarhynchus_psittacula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2491665,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2491665&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "VU",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22723768"
+}

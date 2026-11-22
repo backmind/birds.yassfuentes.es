@@ -2458,6 +2458,17 @@
       "imageHeight": 1484,
       "photographer": "Bengt Nyman",
       "attribution": "Bengt Nyman / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "latfin1",
+      "comName": "Pinzón de Darwin lorito",
+      "sciName": "Camarhynchus psittacula",
+      "date": "2026-11-22",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/68819/large.jpg",
+      "imageWidth": 976,
+      "imageHeight": 732,
+      "photographer": "Paul McFarling",
+      "attribution": "Paul McFarling / iNaturalist (CC BY-NC-ND)"
     }
   ]
 }

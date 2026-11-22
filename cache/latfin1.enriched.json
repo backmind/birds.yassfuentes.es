@@ -1,0 +1,11 @@
+{
+  "prose": "En las remotas alturas del archipiélago de las Galápagos, entre la vegetación de los árboles más altos, habita una criatura singular: el pinzón de Darwin lorito (Camarhynchus psittacula). Esta especie de la familia Thraupidae es la más grande y corpulenta de los pinzones arbóreos que evolucionaron en estas islas de Ecuador. A diferencia de otros parientes más frecuentes, como el pinzón de Darwin chico (Camarhynchus parvulus), con el que a menudo comparte territorio en varias islas, esta ave prefiere las zonas arboladas de mayor porte, donde se desenvuelve entre las ramas manteniendo una presencia siempre más discreta y menos numerosa.\n\nLo que hace especialmente fascinante al pinzón de Darwin lorito es la notable arquitectura de su pico. Posee una estructura voluminosa y profunda, con un culmen fuertemente arqueado que le confiere un perfil único. En un detalle anatómico sorprendente —extremadamente difícil de apreciar en aves vivas en libertad— las finas puntas de sus mandíbulas llegan a cruzarse. Los machos adultos exhiben una oscura capucha sobre el plumaje verdoso de su dorso y el tono blanquecino de sus partes inferiores, desempeñando un papel clave en el equilibrio ecológico del dosel insular.",
+  "identification": [
+    "Pico grande y profundo con el culmen fuertemente arqueado, de longitud similar a su profundidad",
+    "Machos con capucha oscura en la cabeza, dorso verdoso y partes inferiores blanquecinas",
+    "Puntas de las mandíbulas finas y ligeramente cruzadas entre sí",
+    "Mayor tamaño corporal y silueta más corpulenta que otros pinzones arbóreos de la región"
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-22T09:59:58Z"
+}
