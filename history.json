@@ -2469,6 +2469,17 @@
       "imageHeight": 732,
       "photographer": "Paul McFarling",
       "attribution": "Paul McFarling / iNaturalist (CC BY-NC-ND)"
+    },
+    {
+      "speciesCode": "tawowl1",
+      "comName": "Cárabo común",
+      "sciName": "Strix aluco",
+      "date": "2026-11-23",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/31660213/large.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 800,
+      "photographer": "naturpel",
+      "attribution": "naturpel / iNaturalist (CC BY-NC)"
     }
   ]
 }

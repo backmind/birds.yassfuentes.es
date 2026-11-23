@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Sun, 22 Nov 2026 09:52:51 +0000</pubDate>
+    <pubDate>Mon, 23 Nov 2026 10:52:34 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Cárabo común (Strix aluco)</title>
+      <link>https://birds.yassfuentes.es/birds/tawowl1.html</link>
+      <guid isPermaLink="false">bird-of-the-day-tawowl1-2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 10:52:34 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/31660213/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">naturpel / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/31660213/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 227 · 2026 · 11 · 23</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/tawowl1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/31660213/large.jpg" alt="Cárabo común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© naturpel / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Cárabo común — <em>Strix aluco</em></h2>
+<p><small><em>Strigidae</em> · <em>Strigiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22725469">LC</a> · Preocupación Menor</small></p>
+<p>Oculto en las sombras de los bosques, parques y arboledas de Eurasia y el norte de África, el <a href="https://birds.yassfuentes.es/birds/tawowl1.html">cárabo común</a> (<em>Strix aluco</em>) encarna el verdadero espíritu de la noche. Esta rapaz nocturna de tamaño medio se distingue por su cabeza voluminosa y redondeada y sus profundos ojos oscuros. Estrictamente nocturno y sedentario, el <a href="https://birds.yassfuentes.es/birds/tawowl1.html">cárabo común</a> pasa las horas de luz sutilmente mimetizado entre el denso follaje o arrimado al tronco de un árbol. Al llegar el crepúsculo, abandona su refugio diurno para cazar en los claros y zonas abiertas. Es un ave profundamente territorial que establece un vínculo permanente con su zona de campeo.</p>
+<p>Detectar al <a href="https://birds.yassfuentes.es/birds/tawowl1.html">cárabo común</a> a simple vista resulta un desafío, pero la penumbra delata su presencia gracias a un variado repertorio vocal que incluye ululatos trémulos y agudos reclamos. Durante el día, en ocasiones son las aves pequeñas quienes revelan su escondite al acosarlo ruidosamente en grupo. Para criar, suele seleccionar huecos en árboles maduros, donde los padres defienden a la nidada con feroz determinación ante cualquier amenaza. Esta severa territorialidad condiciona la vida de los jóvenes, que deben hallar rápidamente un territorio libre tras independizarse para evitar un fatal desenlace.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Cabeza grande y redondeada, sin plumas auriculares prominentes y con profundos ojos negros.</li><li>Plumaje variable en tonos pardos o grisáceos, con el vientre pálido surcado por nítidas rayas oscuras.</li><li>Repertorio vocal nocturno característico, que combina ululatos trémulos con reclamos agudos.</li><li>Hábitos estrictamente nocturnos; descansa durante el día profundamente escondido en el follaje o en oquedades.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9282206"><img src="https://birds.yassfuentes.es/maps/tawowl1.png" alt="Distribución mundial de Strix aluco según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/tawowl1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Strix_aluco">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/tawowl1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=tawowl1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Pinzón de Darwin lorito (Camarhynchus psittacula)</title>
       <link>https://birds.yassfuentes.es/birds/latfin1.html</link>
@@ -616,27 +637,6 @@
 <ul><li>Tamaño pequeño y silueta delgada en comparación con otros caciques, complementada con una cola larga.</li><li>Plumaje predominantemente negro lustroso con un marcado parche amarillo en la rabadilla.</li><li>Diferenciable del congénere Cacique Ecuatoriano por la presencia de la rabadilla amarilla.</li><li>Habitante de matorrales densos a orillas de ríos, lagos y vegetación ribereña en selvas bajas amazónicas.</li></ul>
 <figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/5229821"><img src="https://birds.yassfuentes.es/maps/selcac1.png" alt="Distribución mundial de Cacicus koepckeae según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
 <p><small><a href="https://ebird.org/species/selcac1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Cacicus_koepckeae">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/selcac1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=selcac1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Alcaraván Común (Burhinus oedicnemus)</title>
-      <link>https://birds.yassfuentes.es/birds/eutkne1.html</link>
-      <guid isPermaLink="false">bird-of-the-day-eutkne1-2026-10-24</guid>
-      <pubDate>Sat, 24 Oct 2026 07:22:21 +0000</pubDate>
-      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/208423163/large.jpg" medium="image" type="image/jpeg">
-        <media:credit role="photographer">Kudaibergen Amirekul / iNaturalist (CC BY-SA)</media:credit>
-      </media:content>
-      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/208423163/large.jpg" />
-      <content:encoded><![CDATA[<p><small>№ 197 · 2026 · 10 · 24</small></p>
-<p><a href="https://birds.yassfuentes.es/birds/eutkne1.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/208423163/large.jpg" alt="Alcaraván Común" style="max-width:100%;height:auto" /></a></p>
-<p><small><em>© Kudaibergen Amirekul / iNaturalist (CC BY-SA)</em></small></p>
-<h2>Alcaraván Común — <em>Burhinus oedicnemus</em></h2>
-<p><small><em>Burhinidae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/45111439">LC</a> · Preocupación Menor</small></p>
-<p>El <a href="https://birds.yassfuentes.es/birds/eutkne1.html">Alcaraván Común</a> (<em>Burhinus oedicnemus</em>) es un ave verdaderamente singular entre las zancudas. A diferencia de la mayoría de sus parientes caradriformes, prefiere los terrenos áridos, las estepas abiertas y los herbazales secos alejados del agua. Con unos 40 centímetros de longitud, esta especie migratoria posee un plumaje de tonos pardos y leonados que le otorga un mimetismo extraordinario con el suelo pedregoso. Durante el día, el <a href="https://birds.yassfuentes.es/birds/eutkne1.html">Alcaraván Común</a> suele permanecer inmóvil y agazapado en la tierra, confiando plenamente en su camuflaje para pasar desapercibido ante los depredadores, transformándose en una figura casi invisible en el paisaje.</p>
-<p>La verdadera naturaleza del <a href="https://birds.yassfuentes.es/birds/eutkne1.html">Alcaraván Común</a> se desvela al llegar el crepúsculo. Dotado de unos enormes y llamativos ojos amarillos adaptados a la penumbra, inicia sus desplazamientos nocturnos para cazar insectos grandes, lombrices, caracoles y pequeños vertebrados como lagartijas. Cumple así una función ecológica clave en el control de invertebrados en ecosistemas esteparios. Además, es famoso por su característico canto, un silbido penetrante y melancólico que resuena en la oscuridad de las llanuras de Eurasia y África.</p>
-<h3>Identificación en campo</h3>
-<ul><li>Ojos de gran tamaño y de un color amarillo muy llamativo.</li><li>Plumaje pardo con denso veteado oscuro, altamente mimético con el terreno seco.</li><li>Patas largas y amarillentas, acompañadas de un pico corto de base amarilla y punta negra.</li><li>Canto nocturno potente, agudo y gimiente que se escucha a gran distancia.</li></ul>
-<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2482100"><img src="https://birds.yassfuentes.es/maps/eutkne1.png" alt="Distribución mundial de Burhinus oedicnemus según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
-<p><small><a href="https://ebird.org/species/eutkne1?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Burhinus_oedicnemus">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/eutkne1/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=eutkne1&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
     </item>
   </channel>
 </rss>
