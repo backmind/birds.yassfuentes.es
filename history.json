@@ -2480,6 +2480,17 @@
       "imageHeight": 800,
       "photographer": "naturpel",
       "attribution": "naturpel / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "blksco1",
+      "comName": "Negrón común",
+      "sciName": "Melanitta nigra",
+      "date": "2026-11-24",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/426743822/large.jpeg",
+      "imageWidth": 2048,
+      "imageHeight": 1413,
+      "photographer": "Mark",
+      "attribution": "Mark / iNaturalist (CC BY-NC)"
     }
   ]
 }

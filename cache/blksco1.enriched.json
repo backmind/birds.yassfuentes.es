@@ -1,0 +1,12 @@
+{
+  "prose": "Sobre las gélidas aguas de las latitudes septentrionales, el negrón común (Melanitta nigra) despliega una existencia de contrastes dramáticos. Este pato marino, perfectamente adaptado a las inclemencias del clima ártico y subártico, nidifica en los parajes solitarios del norte de Eurasia, Islandia y el este de Groenlandia, junto a lagos de la tundra y ríos de corriente lenta. Sin embargo, con la llegada del otoño, se transforma en un auténtico habitante del océano. Emprende entonces un viaje hacia el sur para pasar los meses fríos a lo largo de las costas atlánticas de Europa y el norte de África. Es un espectáculo fascinante contemplar cómo se congrega en inmensas bandadas que flotan al compás del oleaje costero, desafiando el empuje del viento marino con asombrosa serenidad.\n\nEl negrón común posee una adaptación magistral para la vida en la mar abierta: es un buceador extraordinario. Se sumerge a metros de profundidad para capturar moluscos bivalvos y pequeños crustáceos en el lecho marino, cumpliendo un papel ecológico clave en el equilibrio de los ecosistemas bentónicos costeros. A pesar de su apariencia sobria a la distancia, la presencia de miles de estos patos reunidos sobre el agua genera una experiencia sonora singular. Durante los desplazamientos nocturnos y los cortejos, los machos emiten unos silbidos melódicos y aflautados que atraviesan la penumbra del mar, revelando la presencia de estas criaturas audaces que hacen del océano su hogar invernal.",
+  "identification": [
+    "Macho adulto con plumaje enteramente negro azabache, excepto por una llamativa mancha de color amarillo vivo sobre la parte superior del pico.",
+    "Hembra de tonos pardo oscuros con las mejillas y el frente del cuello de un color grisáceo pálido claramente contrastante.",
+    "Hábito fuertemente gregario fuera de la época de cría, formando grandes «balsas» flotantes en aguas marinas poco profundas.",
+    "Vuelo bajo, rápido y directo sobre la superficie del mar.",
+    "Vocalización del macho basada en silbidos suaves y melódicos, audibles a gran distancia en el mar."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-24T12:40:02Z"
+}
