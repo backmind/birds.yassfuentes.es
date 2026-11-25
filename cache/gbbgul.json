@@ -1,0 +1,16 @@
+{
+  "description": "El gavión atlántico o simplemente gavión es una especie de ave Charadriiforme de la familia Laridae. Es una de las gaviotas más grandes del mundo, con una envergadura de alas de hasta 1,7 m.",
+  "description_source": "wikipedia",
+  "bow_intro": "\"Su parecido con el águila calva era asombroso, mientras planeaba en el aire y giraba en grandes círculos, mostrando su ancho lomo negro y sus alas en agudo contraste con su cabeza y cola blancas como la nieve, relucientes a la luz del sol. Sin duda parecía un rey entre las gaviotas, un tirano despiadado sobre sus congéneres, el más grande y fuerte de su tribu. Ninguna gaviota más débil se atrevía a entrometerse en su dominio feudal\" ( Bent 1921 Bent, A. C. (1921). Life histories of North American gulls and terns. United States National Museum Bulletin 113. Close : 77) La Great Black-backed Gull, común en el noreste de Estados Unidos y el norte de Europa, es una gran gaviota de cabeza blanca que habita en las costas de océanos, mares y grandes lagos. Su área de reproducción paleártica incluye Groenlandia, Islandia, Spitsbergen y el norte de Europa. En Norteamérica, se reproduce localmente a lo largo de la costa atlántica desde el cabo Hatteras, en Carolina del Norte, hacia el norte hasta Labrador y la isla de Baffin, y localmente alrededor de los Grandes Lagos. En invierno, esta especie puede encontrarse en toda su área de reproducción y al sur hasta Carolina del Sur. Además, ahora pasa el invierno en números cada vez mayores a lo largo del Golfo de México.",
+  "taxonomy": {},
+  "wikipedia_summary": "El gavión atlántico o simplemente gavión es una especie de ave Charadriiforme de la familia Laridae. Es una de las gaviotas más grandes del mundo, con una envergadura de alas de hasta 1,7 m.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Larus_marinus",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 2481172,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=2481172&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22694324"
+}

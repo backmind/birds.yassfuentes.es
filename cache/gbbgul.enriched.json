@@ -1,0 +1,11 @@
+{
+  "prose": "Sobre las turbulentas costas del Atlántico Norte, el Gavión atlántico (Larus marinus) emerge como un verdadero gigante entre las aves marinas. Considerada una de las gaviotas más grandes del mundo, esta imponente especie posee una envergadura alar que puede alcanzar los 1,7 metros. Habita en las costas rocosas de océanos, mares y grandes lagos, abarcando desde las heladas tierras de Groenlandia, Islandia y Spitsbergen hasta el norte de Europa y la costa atlántica de Norteamérica. Con un vuelo pausado y majestuoso, el Gavión atlántico domina los vientos costeros, planeando en amplios círculos mientras vigila su vasto territorio litoral.\n\nSu plumaje presenta un contraste inconfundible: un ancho lomo de tono negro azabache que resalta en aguda oposición con una cabeza y cola de un blanco impoluto. Debido a su tamaño excepcional y fuerza incontestable, actúa como un cazador y carroñero formidable ante el cual pocas aves más débiles se atreven a entrometerse. Durante el invierno, aunque muchas poblaciones permanecen en sus áreas de nidificación, un número creciente de ejemplares se desplaza hacia el sur, llegando a frecuentar las costas del Golfo de México.",
+  "identification": [
+    "Envergadura alar impresionante de hasta 1,7 metros, siendo una de las gaviotas de mayor tamaño global.",
+    "Lomo y parte superior de las alas de color negro muy oscuro, en marcado contraste con la cabeza, vientre y cola blancos.",
+    "Pico amarillo, grueso y poderoso, adaptado a hábitos depredadores y carroñeros.",
+    "Presencia imponente y comportamiento dominante frente a otras aves en hábitats costeros y de grandes lagos."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-25T11:26:37Z"
+}
