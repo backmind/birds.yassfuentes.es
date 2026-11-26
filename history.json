@@ -2502,6 +2502,17 @@
       "imageHeight": 1365,
       "photographer": "Alex Shure",
       "attribution": "Alex Shure / iNaturalist (CC BY-NC)"
+    },
+    {
+      "speciesCode": "gargan",
+      "comName": "Cerceta carretona",
+      "sciName": "Spatula querquedula",
+      "date": "2026-11-26",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/188324274/large.jpg",
+      "imageWidth": 1024,
+      "imageHeight": 563,
+      "photographer": "Ксения Соварцева",
+      "attribution": "Ксения Соварцева / iNaturalist (CC BY-NC)"
     }
   ]
 }

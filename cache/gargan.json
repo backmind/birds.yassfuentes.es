@@ -1,0 +1,16 @@
+{
+  "description": "La cerceta carretona es una especie de ave anseriforme de la familia Anatidae que habita en el Viejo Mundo. Es un pato migratorio que cría en el norte de Eurasia y pasa el invierno en África, la región Indomalaya y Nueva Guinea. No se reconocen subespecies.",
+  "description_source": "wikipedia",
+  "bow_intro": "",
+  "taxonomy": {},
+  "wikipedia_summary": "La cerceta carretona es una especie de ave anseriforme de la familia Anatidae que habita en el Viejo Mundo. Es un pato migratorio que cría en el norte de Eurasia y pasa el invierno en África, la región Indomalaya y Nueva Guinea. No se reconocen subespecies.",
+  "wikipedia_url": "https://es.wikipedia.org/wiki/Spatula_querquedula",
+  "wikipedia_language": "es",
+  "fallback_text": "",
+  "fallback_language": "",
+  "gbif_taxon_key": 9274012,
+  "distribution_map_url": "https://api.gbif.org/v2/map/occurrence/density/0/0/0@2x.png?taxonKey=9274012&bin=hex&hexPerTile=75&style=classic.poly",
+  "gbif_match": "matched",
+  "iucn_code": "LC",
+  "iucn_birdlife_url": "https://datazone.birdlife.org/species/factsheet/22680313"
+}

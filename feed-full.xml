@@ -5,10 +5,28 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Wed, 25 Nov 2026 11:25:18 +0000</pubDate>
+    <pubDate>Thu, 26 Nov 2026 10:59:51 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Cerceta carretona (Spatula querquedula)</title>
+      <link>https://birds.yassfuentes.es/birds/gargan.html</link>
+      <guid isPermaLink="false">bird-of-the-day-gargan-2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 10:59:51 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/188324274/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Ксения Соварцева / iNaturalist (CC BY-NC)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/188324274/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 230 · 2026 · 11 · 26</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/gargan.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/188324274/large.jpg" alt="Cerceta carretona" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Ксения Соварцева / iNaturalist (CC BY-NC)</em></small></p>
+<h2>Cerceta carretona — <em>Spatula querquedula</em></h2>
+<p><small><em>Anatidae</em> · <em>Anseriformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22680313">LC</a> · Preocupación Menor</small></p>
+<p>La <a href="https://birds.yassfuentes.es/birds/gargan.html">cerceta carretona</a> es una especie de ave anseriforme de la familia Anatidae que habita en el Viejo Mundo. Es un pato migratorio que cría en el norte de Eurasia y pasa el invierno en África, la región Indomalaya y Nueva Guinea. No se reconocen subespecies.</p>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/9274012"><img src="https://birds.yassfuentes.es/maps/gargan.png" alt="Distribución mundial de Spatula querquedula según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/gargan?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Spatula_querquedula">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/gargan/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=gargan&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Gavión atlántico (Larus marinus)</title>
       <link>https://birds.yassfuentes.es/birds/gbbgul.html</link>
