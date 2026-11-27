@@ -1,0 +1,11 @@
+{
+  "prose": "La cerceta carretona (Spatula querquedula) es una de las viajeras más incansables entre las aves acuáticas del Viejo Mundo. Este pequeño pato migratorio emprende cada año travesías verdaderamente asombrosas: tras criar en las latitudes templadas del norte de Eurasia, viaja hacia el sur para pasar el invierno en los humedales del África subsahariana, la región indomalaya y Nueva Guinea. Su hábitat predilecto se compone de masas de agua dulce someras, como marismas, prados inundados y lagunas con abundante vegetación palustre. En estos parajes, la cerceta carretona se alimenta nadando de manera pausada mientras filtra la superficie en busca de semillas, vegetación acuática e invertebrados.\n\nDurante la primavera, la especie despliega una belleza sobria pero fascinante. El macho luce un contraste deslumbrante en la cabeza y coberteras alares gris azuladas que destacan claramente durante el vuelo. Curiosamente, su nombre común en español hace referencia al peculiar reclamo que emite el macho durante el cortejo: un trino seco y crepitante que recuerda al crujido de una pequeña rueda de madera o al raspado de un peine. Sin subespecies reconocidas, esta especie monotípica cumple una función ecológica primordial como dispersora de semillas y reguladora de pequeños organismos en la vasta red de humedales internacionales que conecta en su migración.",
+  "identification": [
+    "Macho con una ancha y llamativa franja blanca superciliar que curva desde el ojo hasta la nuca.",
+    "Coberteras alares de color gris azulado claro en ambos sexos, muy visibles cuando abre las alas o vuela.",
+    "Hembra de plumaje pardo moteado con la garganta clara y un marcado patrón de franjas oscuras y claras en la cara.",
+    "Reclamo del macho muy distintivo: un chasquido mecánico y crepitante, similar al sonido de una matraca."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-27T10:59:52Z"
+}
