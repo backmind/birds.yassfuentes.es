@@ -5,10 +5,31 @@
     <link>https://birds.yassfuentes.es/</link>
     <description>Cada día, una nueva especie de ave.</description>
     <language>es</language>
-    <pubDate>Fri, 27 Nov 2026 10:58:11 +0000</pubDate>
+    <pubDate>Sat, 28 Nov 2026 10:34:32 +0000</pubDate>
     <generator>Bird of the Day (feed format 3)</generator>
     <atom:link href="https://birds.yassfuentes.es/feed-full.xml" rel="self" type="application/rss+xml" />
     <copyright>Datos: eBird/Cornell Lab of Ornithology (ebird.org). Fotos: Macaulay Library, iNaturalist y Wikimedia Commons, © sus respectivos autores. Feed © 2026 Yass Fuentes, proyecto no comercial.</copyright>
+    <item>
+      <title>Arao común (Uria aalge)</title>
+      <link>https://birds.yassfuentes.es/birds/commur.html</link>
+      <guid isPermaLink="false">bird-of-the-day-commur-2026-11-28</guid>
+      <pubDate>Sat, 28 Nov 2026 10:34:32 +0000</pubDate>
+      <media:content url="https://inaturalist-open-data.s3.amazonaws.com/photos/96826556/large.jpg" medium="image" type="image/jpeg">
+        <media:credit role="photographer">Анна Голубева / iNaturalist (CC BY-NC-ND)</media:credit>
+      </media:content>
+      <media:thumbnail url="https://inaturalist-open-data.s3.amazonaws.com/photos/96826556/large.jpg" />
+      <content:encoded><![CDATA[<p><small>№ 232 · 2026 · 11 · 28</small></p>
+<p><a href="https://birds.yassfuentes.es/birds/commur.html"><img src="https://inaturalist-open-data.s3.amazonaws.com/photos/96826556/large.jpg" alt="Arao común" style="max-width:100%;height:auto" /></a></p>
+<p><small><em>© Анна Голубева / iNaturalist (CC BY-NC-ND)</em></small></p>
+<h2>Arao común — <em>Uria aalge</em></h2>
+<p><small><em>Alcidae</em> · <em>Charadriiformes</em> // <a href="https://datazone.birdlife.org/species/factsheet/22694841">LC</a> · Preocupación Menor</small></p>
+<p>En las gélidas aguas septentrionales del planeta, allí donde las frías corrientes baten las plataformas continentales del Ártico y el Subártico, habita el <a href="https://birds.yassfuentes.es/birds/commur.html">Arao común</a> (<em>Uria aalge</em>). Esta ave marina, una de las más numerosas del hemisferio norte, destaca por su extraordinaria adaptación al medio acuático. Con sus alas relativamente pequeñas, fruto de un sutil compromiso anatómico entre la locomoción aérea y la natación, el <a href="https://birds.yassfuentes.es/birds/commur.html">Arao común</a> sacrifica la eficiencia en el aire para obtener una agilidad impresionante bajo la superficie. Al sumergirse, utiliza sus alas a modo de aletas para propulsarse a profundidades que superan los cien metros, persiguiendo con precisión pequeños peces, eufáusidos y cefalópodos en la penumbra marina.</p>
+<p>Mantener este estilo de vida tan exigente requiere un elevado gasto energético, lo que obliga a la especie a mantener aleteos muy rápidos para sostenerse en el aire y a alimentarse con frecuencia, a menudo coordinándose en bandadas nutridas. Durante la temporada de reproducción, sus colonias abarrotan las repisas rocosas de los acantilados marinos. En estos vertiginosos cortados de piedra, deposita un único huevo de forma marcadamente piriforme; esta peculiar geometría es una magnífica adaptación que evita que el huevo caiga al vacío, haciendo que gire sobre su propio eje en círculos reducidos si es empujado accidentalmente.</p>
+<h3>Identificación en campo</h3>
+<ul><li>Plumaje contrastado, con cabeza, cuello y dorso de color pardo oscuro o negro, y vientre blanco puro.</li><li>Pico fino, recto y puntiagudo de color negro.</li><li>Alas cortas que exigen batidos veloces y continuos durante el vuelo directo.</li><li>Postura erguida y compacta sobre las repisas rocosas de las colonias de nidificación.</li></ul>
+<figure style="margin:1.5rem 0;text-align:center"><a href="https://www.gbif.org/species/2481342"><img src="https://birds.yassfuentes.es/maps/commur.png" alt="Distribución mundial de Uria aalge según GBIF" style="max-width:100%;height:auto" /></a><figcaption><small>Distribución mundial</small></figcaption></figure>
+<p><small><a href="https://ebird.org/species/commur?siteLanguage=es">eBird</a> · <a href="https://es.wikipedia.org/wiki/Uria_aalge">Wikipedia</a> · <a href="https://birdsoftheworld.org/bow/species/commur/cur/introduction">Birds of the World</a> · <a href="https://search.macaulaylibrary.org/catalog?taxonCode=commur&amp;mediaType=photo&amp;sort=rating_rank_desc">Macaulay Library</a></small></p>]]></content:encoded>
+    </item>
     <item>
       <title>Lechuza común occidental (Tyto alba)</title>
       <link>https://birds.yassfuentes.es/birds/webowl1.html</link>

@@ -1,0 +1,11 @@
+{
+  "prose": "En las gélidas aguas septentrionales del planeta, allí donde las frías corrientes baten las plataformas continentales del Ártico y el Subártico, habita el Arao común (Uria aalge). Esta ave marina, una de las más numerosas del hemisferio norte, destaca por su extraordinaria adaptación al medio acuático. Con sus alas relativamente pequeñas, fruto de un sutil compromiso anatómico entre la locomoción aérea y la natación, el Arao común sacrifica la eficiencia en el aire para obtener una agilidad impresionante bajo la superficie. Al sumergirse, utiliza sus alas a modo de aletas para propulsarse a profundidades que superan los cien metros, persiguiendo con precisión pequeños peces, eufáusidos y cefalópodos en la penumbra marina.\n\nMantener este estilo de vida tan exigente requiere un elevado gasto energético, lo que obliga a la especie a mantener aleteos muy rápidos para sostenerse en el aire y a alimentarse con frecuencia, a menudo coordinándose en bandadas nutridas. Durante la temporada de reproducción, sus colonias abarrotan las repisas rocosas de los acantilados marinos. En estos vertiginosos cortados de piedra, deposita un único huevo de forma marcadamente piriforme; esta peculiar geometría es una magnífica adaptación que evita que el huevo caiga al vacío, haciendo que gire sobre su propio eje en círculos reducidos si es empujado accidentalmente.",
+  "identification": [
+    "Plumaje contrastado, con cabeza, cuello y dorso de color pardo oscuro o negro, y vientre blanco puro.",
+    "Pico fino, recto y puntiagudo de color negro.",
+    "Alas cortas que exigen batidos veloces y continuos durante el vuelo directo.",
+    "Postura erguida y compacta sobre las repisas rocosas de las colonias de nidificación."
+  ],
+  "model": "gemini-3.7-flash",
+  "timestamp": "2026-11-28T10:38:35Z"
+}

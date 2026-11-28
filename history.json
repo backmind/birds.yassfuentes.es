@@ -2524,6 +2524,17 @@
       "imageHeight": 1492,
       "photographer": "john.purvis",
       "attribution": "john.purvis / iNaturalist (CC BY)"
+    },
+    {
+      "speciesCode": "commur",
+      "comName": "Arao común",
+      "sciName": "Uria aalge",
+      "date": "2026-11-28",
+      "imageUrl": "https://inaturalist-open-data.s3.amazonaws.com/photos/96826556/large.jpg",
+      "imageWidth": 1200,
+      "imageHeight": 803,
+      "photographer": "Анна Голубева",
+      "attribution": "Анна Голубева / iNaturalist (CC BY-NC-ND)"
     }
   ]
 }
